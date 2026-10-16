@@ -13,7 +13,9 @@ def recover(source,actions,ballint,intell):
  def number(name,obj,segment,offset,fmt):
   raw=bytes(obj.segments[segment]['data'][offset:offset+struct.calcsize(fmt)])
   value=struct.unpack('<'+fmt,raw)[0]
-  definitions.append(f'constexpr double {name}={value!r};')
+  # Byte immediates are action/message IDs, including switch case labels.
+  # MSVC accepted the old double declaration; standard C++/Clang rejects it.
+  definitions.append(f'constexpr {"int" if fmt == "B" else "double"} {name}={value!r};')
   evidence.append(dict(name=name,object="ACTIONS.OBJ" if obj is actions else "BALLINT.OBJ" if obj is ballint else "INTELL.OBJ",segment=segment,offset=offset,format=fmt,bytes=raw.hex(),value=value))
  # Float assignments at these instruction immediates; double multipliers in CONST.
  for name,offset in [('MC_STAND_FS',0x9cd3),('MC_PASS_FS',0xa881),('MC_CHIP_FS',0xa890),('MC_BACKHEEL_FS',0xa89f),('MC_SHOOT_FS',0xa8ae),('MC_CROSS_FS',0xa8ba)]:

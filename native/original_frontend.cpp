@@ -9,10 +9,14 @@ void check(bool ok){if(!ok)throw std::runtime_error(SDL_GetError());}
 
 }
 std::filesystem::path OriginalFrontend::default_save_path(){
+#ifdef __EMSCRIPTEN__
+ return "/saves/tournament.sav"; // Mounted/restored by the browser shell before main().
+#else
  char* pref=SDL_GetPrefPath("Actua96 Restoration","Actua96");
  if(!pref)throw std::runtime_error(std::string("Cannot locate application save folder: ")+SDL_GetError());
  const std::filesystem::path folder(std::u8string(reinterpret_cast<const char8_t*>(pref)));SDL_free(pref);
  return folder/"tournament.sav";
+#endif
 }
 OriginalFrontend::OriginalFrontend(const std::filesystem::path& data,const std::filesystem::path& cd,const std::filesystem::path& save_path,bool preferences_enabled,bool legacy_film_diagnostics)
  :art_(std::make_shared<OriginalMenuArt>(Archive(data/"EURO.DAT",data/"EURO.OFF"))),preferences_enabled_(preferences_enabled),save_path_(save_path.empty()?default_save_path():save_path),legacy_save_path_(save_path.empty()?data.parent_path()/"user-data"/"tournament.sav":std::filesystem::path{}){

@@ -1,4 +1,5 @@
 #include "original_tournament.hpp"
+#include "browser_storage.hpp"
 #include "original_actions.hpp"
 #include "original_roster.hpp"
 #include <algorithm>
@@ -137,6 +138,7 @@ void OriginalTournament::save(const std::filesystem::path& path)const{
 #else
  std::filesystem::rename(temporary,path);
 #endif
+ browser_save_changed();
 }
 void OriginalTournament::load(const std::filesystem::path& path){
  require(std::filesystem::file_size(path)<=32768,"Tournament save too large");std::ifstream file(path,std::ios::binary);std::string bytes((std::istreambuf_iterator<char>(file)),{});

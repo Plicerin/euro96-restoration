@@ -1,0 +1,16 @@
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+Passed 72185 original physics and native integration checks.
+Full-match selection moving=0 ticks=10649 changes=165 defensive=28 loose=116 far=41 longest=29
+Match start seed: 1 (fixed)
+Full-match selection moving=1 ticks=9095 changes=152 defensive=27 loose=106 far=230 longest=49
+Five selection groups passed on both pitch halves: loose ball, defense/circle, receivers/interception, goalkeeper handoff, manual priority. Live scheduler and held movement passed.
+seed 11 score 0:0 ticks 8802 clock FT 90:00 fouls 4 offside 3 restarts 25
+Match start seed: 1 (fixed)
+seed 12 score 3:1 ticks 8772 clock FT 90:00 fouls 2 offside 3 restarts 19
+Twelve complete CPU matches: goals 17, fouls 46, offsides 38
+Match start seed: 1 (fixed)
+human shootout 12 4:5 saves 0
+Match start seed: 1 (fixed)
+Human timed aim/height/release, cancellation, identity and 12 shootouts passed; 107 dives, 6 saves, 109 manual kicks; launch vz 1.33333 / 5.33333
+All four WebAssembly gameplay contract suites passed.

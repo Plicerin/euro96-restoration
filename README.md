@@ -1,5 +1,7 @@
 # UEFA Euro 96 — Windows restoration
 
+**Browser proof branch:** the original C++ game now also builds to WebAssembly. Use `tools/play_web.ps1` for the separate local browser preview. Build instructions, verified behavior and limitations: [Browser preview](docs/BROWSER-PREVIEW.md). The Windows launcher and final release tag remain unchanged.
+
 **Final restoration release: 0.70.0** — preserved as Git tag `v0.70.0-final`. This closes the agreed restoration scope. Future graphics or browser work is a separate project phase. [Final release record](docs/FINAL-RELEASE.md).
 
 Windows 11 restoration of the preserved Euro 96 gameplay engine, with original Euro artwork and verified retail media. Current build: **0.70.0**, correcting the stadium board at the extra-time interval and restoring the country carousel's source-derived pace. Includes the verified Euro pass/rebound commentary, frontend fades and retail video boards. [Presentation evidence](docs/PERIOD-PRESENTATION.md), [closeout and remaining fidelity work](docs/RESTORATION-CLOSEOUT.md).

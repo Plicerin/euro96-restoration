@@ -1,4 +1,5 @@
 #include "saved_replay.hpp"
+#include "browser_storage.hpp"
 #include "original_roster.hpp"
 #include <algorithm>
 #include <bit>
@@ -96,7 +97,7 @@ std::filesystem::path SavedReplay::save_new(const std::filesystem::path& directo
 #else
   if(std::filesystem::exists(path) || std::filesystem::exists(temp))continue;
   std::ofstream out(temp,std::ios::binary);out.write(reinterpret_cast<const char*>(c.bytes.data()),c.bytes.size());out.close();
-  if(!out){std::filesystem::remove(temp);throw std::runtime_error("Cannot write replay file");}std::filesystem::rename(temp,path);return path;
+  if(!out){std::filesystem::remove(temp);throw std::runtime_error("Cannot write replay file");}std::filesystem::rename(temp,path);browser_save_changed();return path;
 #endif
  }
  throw std::runtime_error("Replay name capacity reached");

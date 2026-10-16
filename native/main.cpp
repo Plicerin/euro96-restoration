@@ -21,6 +21,9 @@
 #include <string>
 #include <vector>
 #include <charconv>
+#ifdef __EMSCRIPTEN__
+#include <emscripten.h>
+#endif
 
 namespace fs = std::filesystem;
 using namespace actua;
@@ -625,6 +628,12 @@ int main(int argc,char** argv) {
         Archive euro(opt.data/"EURO.DAT",opt.data/"EURO.OFF");
         verify(opt.data,euro);
         if(opt.verify) return 0;
+#ifdef __EMSCRIPTEN__
+        // Yield explicitly below; SDL must not suspend in the middle of an
+        // audio callback or renderer operation while another event can run.
+        SDL_SetHint(SDL_HINT_EMSCRIPTEN_ASYNCIFY,"0");
+        SDL_SetHint(SDL_HINT_EMSCRIPTEN_KEYBOARD_ELEMENT,"#canvas");
+#endif
         check(SDL_Init(SDL_INIT_VIDEO|SDL_INIT_GAMEPAD),"Initialize SDL");
         initialized=true;
         if(opt.tournament_save_smoke){
@@ -672,13 +681,20 @@ int main(int argc,char** argv) {
         using Window=std::unique_ptr<SDL_Window,decltype(&SDL_DestroyWindow)>;
         using Renderer=std::unique_ptr<SDL_Renderer,decltype(&SDL_DestroyRenderer)>;
         using Texture=std::unique_ptr<SDL_Texture,decltype(&SDL_DestroyTexture)>;
-        Window window(SDL_CreateWindow("UEFA Euro 96 - Windows restoration preview",1200,830,
+#ifdef __EMSCRIPTEN__
+        constexpr const char* window_title="UEFA Euro 96 - Browser preview";
+#else
+        constexpr const char* window_title="UEFA Euro 96 - Windows restoration preview";
+#endif
+        Window window(SDL_CreateWindow(window_title,1200,830,
             SDL_WINDOW_RESIZABLE | (opt.frontend_smoke||opt.intro_smoke||opt.movie_smoke||opt.penalty_smoke||opt.team_smoke||opt.control_smoke||opt.goals_smoke||opt.actions_smoke||opt.graphics_smoke||opt.smoke||opt.physics_smoke||opt.practice_smoke||opt.opponents_smoke||opt.gamepad_smoke||!opt.capture.empty()?SDL_WINDOW_HIDDEN:0)),SDL_DestroyWindow);
         if(!window) throw std::runtime_error(SDL_GetError());
         Renderer renderer(SDL_CreateRenderer(window.get(),nullptr),SDL_DestroyRenderer);
         if(!renderer) throw std::runtime_error(SDL_GetError());
         check(SDL_SetRenderLogicalPresentation(renderer.get(),960,664,SDL_LOGICAL_PRESENTATION_LETTERBOX),"Set logical size");
+#ifndef __EMSCRIPTEN__
         SDL_SetRenderVSync(renderer.get(),1);
+#endif
         Texture texture(SDL_CreateTexture(renderer.get(),SDL_PIXELFORMAT_RGBA32,SDL_TEXTUREACCESS_STREAMING,640,480),SDL_DestroyTexture);
         if(!texture) throw std::runtime_error(SDL_GetError());
         check(SDL_SetTextureScaleMode(texture.get(),SDL_SCALEMODE_NEAREST),"Set pixel scaling");
@@ -808,6 +824,12 @@ int main(int argc,char** argv) {
         bool setpiece_smoke_released=false;
         int local_pause_tick=0,local_first_selected=0,local_second_selected=0;
         SDL_JoystickID penalty_detached_id=0;
+#ifdef __EMSCRIPTEN__
+        // Creating SDL's WebGL canvas can queue a transient blur during startup.
+        // The launch click owns focus; subsequent real blur events still pause.
+        EM_ASM({ Module.canvas.focus(); });
+        SDL_FlushEvent(SDL_EVENT_WINDOW_FOCUS_LOST);
+#endif
         while(running) {
             if(opt.intro_smoke || opt.movie_smoke || opt.frontend_smoke || opt.penalty_smoke || opt.gamepad_smoke || opt.control_smoke || opt.depth_smoke) SDL_UpdateJoysticks();
             pads.set_local_match(graphics.sequence->head_to_head || (graphics.saved_replay_active() && pads.local_match()));
@@ -1906,7 +1928,18 @@ int main(int argc,char** argv) {
                     running=false;
                 }
             }
+#ifdef __EMSCRIPTEN__
+            if(frames%20==0){
+                const auto& s=*graphics.sequence;
+                EM_ASM({ Module.gameState = ({frames:$0, ticks:$1, selected:$2,
+                    ballX:$3, ballY:$4, homeGoals:$5, awayGoals:$6, paused:!!$7, menuStage:$8}); },
+                    frames,s.ticks,s.selected,s.engine.ballx,s.engine.bally,
+                    s.blue_goals,s.red_goals,graphics.paused,front?int(front->stage()):0);
+            }
+            emscripten_sleep(16);
+#else
             SDL_Delay(8);
+#endif
         }
         pads.close();
         if(local_second_pad)SDL_CloseJoystick(local_second_pad);

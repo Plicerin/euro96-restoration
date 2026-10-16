@@ -8,7 +8,22 @@ if(MSVC)
   add_compile_options(/W4 /permissive- /utf-8)
 endif()
 find_package(Python3 REQUIRED COMPONENTS Interpreter)
-find_package(SDL3 3.4 CONFIG REQUIRED)
+if(EMSCRIPTEN)
+  # Use the same SDL release as the Windows restoration, compiled for Wasm.
+  set(ACTUA_SDL_SOURCE "" CACHE PATH "SDL 3.4.18 source directory")
+  if(NOT EXISTS "${ACTUA_SDL_SOURCE}/CMakeLists.txt")
+    message(FATAL_ERROR "Set ACTUA_SDL_SOURCE to the SDL 3.4.18 source tree")
+  endif()
+  set(SDL_SHARED OFF CACHE BOOL "" FORCE)
+  set(SDL_STATIC ON CACHE BOOL "" FORCE)
+  set(SDL_TEST_LIBRARY OFF CACHE BOOL "" FORCE)
+  set(SDL_TESTS OFF CACHE BOOL "" FORCE)
+  add_subdirectory("${ACTUA_SDL_SOURCE}" "${CMAKE_CURRENT_BINARY_DIR}/sdl")
+  add_compile_options(-fexceptions -ffp-contract=off)
+  add_link_options(-fexceptions)
+else()
+  find_package(SDL3 3.4 CONFIG REQUIRED)
+endif()
 set(GENERATED "${CMAKE_CURRENT_BINARY_DIR}/generated/preserved.cpp")
 add_custom_command(OUTPUT "${GENERATED}"
   COMMAND "${Python3_EXECUTABLE}" "${CMAKE_CURRENT_SOURCE_DIR}/tools/extract_routines.py"
@@ -95,9 +110,18 @@ add_library(actua_audio "${CROWD_GENERATED}" native/original_movie.cpp native/or
 target_include_directories(actua_audio PUBLIC native "${CMAKE_CURRENT_BINARY_DIR}/generated")
 target_link_libraries(actua_audio PUBLIC actua_player SDL3::SDL3)
 target_link_libraries(actua96 PRIVATE actua_assets actua_gamepad actua_graphics actua_audio SDL3::SDL3)
-add_custom_command(TARGET actua96 POST_BUILD
+if(EMSCRIPTEN)
+  include(cmake/Browser.cmake)
+else()
+ add_custom_command(TARGET actua96 POST_BUILD
   COMMAND "${Python3_EXECUTABLE}" -c "import shutil,sys; shutil.copyfile(sys.argv[1],sys.argv[2])" "$<TARGET_FILE:SDL3::SDL3>" "$<TARGET_FILE_DIR:actua96>/SDL3.dll"
   VERBATIM)
+endif()
+
+option(ACTUA_BUILD_TESTS "Build the restoration's native test suite" ON)
+if(NOT ACTUA_BUILD_TESTS)
+  return()
+endif()
 enable_testing()
 add_executable(asset_tests native/tests.cpp)
 target_link_libraries(asset_tests PRIVATE actua_assets)

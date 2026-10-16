@@ -1,4 +1,5 @@
 #include "match_preferences.hpp"
+#include "browser_storage.hpp"
 #include <cstdint>
 #include <fstream>
 #include <sstream>
@@ -33,6 +34,7 @@ void MatchPreferences::save(const std::filesystem::path& path)const{
 #else
     std::filesystem::rename(temporary,path);
 #endif
+    browser_save_changed();
 }
 void MatchPreferences::load(const std::filesystem::path& path){
     require(std::filesystem::file_size(path)<=4096,"Preferences file too large");
