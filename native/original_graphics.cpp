@@ -375,46 +375,58 @@ void OriginalGraphics::prepare_stadium_occlusion(){
             }
             camera=OriginalOcclusion::clip(camera,[](const auto& v){return v.depth-15;},true);
             for(auto& v:camera){const auto p=v.draw.position;const float q=core->q/v.depth;
-                v.draw.position={output_view.x+output_view.w/640*float(int(p.x*q+320)),output_view.y+output_view.h-output_view.h/480*float(int(p.y*q+240))};v.depth=1/v.depth;
+                v.draw.position={output_view.x+output_view.w/core->render_buff.clip_wid*float(int(p.x*q+core->render_buff.clip_xmid)),output_view.y+output_view.h-output_view.h/core->render_buff.clip_hgt*float(int(p.y*q+core->render_buff.clip_ymid))};v.depth=1/v.depth;
             }
             for(std::size_t j=1;j+1<camera.size();++j)if(OriginalOcclusion::cross(camera[0].draw.position,camera[j].draw.position,camera[j+1].draw.position)>0)occlusion.add({camera[0],camera[j],camera[j+1]});
         }
     }
 }
 void OriginalGraphics::flush(SDL_Renderer* r){
-    const float sx=output_view.w/640,sy=output_view.h/480;
+    const float sx=output_view.w/core->render_buff.clip_wid,sy=output_view.h/core->render_buff.clip_hgt;
+    const float dot_scale=output_view.h/480;
     SDL_BlendMode previous_blend;checked(SDL_GetRenderDrawBlendMode(r,&previous_blend));checked(SDL_SetRenderDrawBlendMode(r,SDL_BLENDMODE_BLEND));
     std::vector<legacy::pols*> sorted;for(auto* p=core->polygons.data();p<core->curpol;++p)sorted.push_back(p);
     std::stable_sort(sorted.begin(),sorted.end(),[](auto* a,auto* b){return a->z>b->z;});last_polygons+=sorted.size();
+    std::vector<SDL_Vertex> batch;std::vector<int> indices;batch.reserve(2048);indices.reserve(4096);
+    SDL_Texture* batch_texture=nullptr;
+    const auto submit=[&](){if(batch.empty())return;checked(SDL_RenderGeometry(r,batch_texture,batch.data(),int(batch.size()),indices.data(),int(indices.size())));batch.clear();indices.clear();};
+    // Only adjacent faces can be combined: depth sorting and translucent layers
+    // must retain the original painter order.
+    const auto append=[&](SDL_Texture* texture,const SDL_Vertex* vertices,int count){
+        if(texture!=batch_texture || batch.size()+count>8192){submit();batch_texture=texture;}
+        const int base=int(batch.size());batch.insert(batch.end(),vertices,vertices+count);
+        for(int i=1;i<count-1;++i){indices.push_back(base);indices.push_back(base+i);indices.push_back(base+i+1);}
+    };
     for(auto* poly:sorted){
         const int n=poly->pts[0],col=poly->pts[1];if(n<1 || n>16)throw std::runtime_error("Invalid original polygon");
         if(n==1){
+            submit();
             if(poly->z<5 || (col!=0 && col!=1))continue;
             const float x=output_view.x+sx*float(poly->pts[2]),y=output_view.y+output_view.h-sy*float(poly->pts[3]);
             if(!std::isfinite(x) || !std::isfinite(y))continue;
             const auto c=palette[col?2:31];
-            if(!col){checked(SDL_SetRenderDrawColor(r,8,20,15,255));SDL_FRect edge{x-2.5f*sx,y-2.5f*sy,5*sx,5*sy};checked(SDL_RenderFillRect(r,&edge));}
+            if(!col){checked(SDL_SetRenderDrawColor(r,8,20,15,255));SDL_FRect edge{x-2.5f*dot_scale,y-2.5f*dot_scale,5*dot_scale,5*dot_scale};checked(SDL_RenderFillRect(r,&edge));}
             checked(SDL_SetRenderDrawColor(r,Uint8(c[0]*4),Uint8(c[1]*4),Uint8(c[2]*4),255));
-            SDL_FRect dot{x-1.5f*sx,y-1.5f*sy,3*sx,3*sy};checked(SDL_RenderFillRect(r,&dot));continue;
+            SDL_FRect dot{x-1.5f*dot_scale,y-1.5f*dot_scale,3*dot_scale,3*dot_scale};checked(SDL_RenderFillRect(r,&dot));continue;
         }
         SDL_Texture* tex=nullptr;const legacy::dword* uv=nullptr;
         SDL_FColor color{1,1,1,1};
         if(col<0){int idx=col<-2000?-col-2000:-col;if(idx<=0 || idx>=core->clip_tex || n>5)throw std::runtime_error("Unsupported original texture");uv=core->textures[idx];const auto page=std::uint32_t(uv[0])>>24;if(page>=textures.size())throw std::runtime_error("Unrestored texture page");tex=textures[page];}
         else if(col==256 || col==257){const float value=col==256?0.0f:192.0f/255; color={value,value,value,.5f};} // Original makefilter targets 0/48 at half strength; SDL omits palette requantization.
         else {if(col>=256)throw std::runtime_error("Unrestored palette filter");auto c=(stadium_polygons[poly-core->polygons.data()]?stadium_palette:palette)[std::size_t(col)];color={float(c[0]*4)/255,float(c[1]*4)/255,float(c[2]*4)/255,1};}
-        std::vector<SDL_Vertex> verts;for(int i=0;i<n;++i){SDL_Vertex v{};v.position={output_view.x+sx*float(poly->pts[2+i*2]),output_view.y+output_view.h-sy*float(poly->pts[3+i*2])};v.color=color;
-            if(uv)v.tex_coord={float((uv[n+i]&0xffffff)>>16)/256,float((uv[i]&0xffffff)>>16)/256};verts.push_back(v);}
-        if(n==2){checked(SDL_SetRenderDrawColorFloat(r,color.r,color.g,color.b,1));checked(SDL_RenderLine(r,verts[0].position.x,verts[0].position.y,verts[1].position.x,verts[1].position.y));}
+        std::array<SDL_Vertex,16> verts{};for(int i=0;i<n;++i){SDL_Vertex v{};v.position={output_view.x+sx*float(poly->pts[2+i*2]),output_view.y+output_view.h-sy*float(poly->pts[3+i*2])};v.color=color;
+            if(uv)v.tex_coord={float((uv[n+i]&0xffffff)>>16)/256,float((uv[i]&0xffffff)>>16)/256};verts[i]=v;}
+        if(n==2){submit();checked(SDL_SetRenderDrawColorFloat(r,color.r,color.g,color.b,1));checked(SDL_RenderLine(r,verts[0].position.x,verts[0].position.y,verts[1].position.x,verts[1].position.y));}
         else if(clip_stadium && polygon_depths[poly-core->polygons.data()][0]>0){
             const auto& depth=polygon_depths[poly-core->polygons.data()];
             for(int i=1;i<n-1;++i)for(const auto& piece:occlusion.visible({{verts[0],depth[0]},{verts[i],depth[i]},{verts[i+1],depth[i+1]}})){
                 std::vector<SDL_Vertex> vertices;for(const auto& v:piece)vertices.push_back(v.draw);
-                std::vector<int> indices;for(int j=1;j<int(vertices.size())-1;++j){indices.push_back(0);indices.push_back(j);indices.push_back(j+1);}
-                checked(SDL_RenderGeometry(r,tex,vertices.data(),int(vertices.size()),indices.data(),int(indices.size())));
+                append(tex,vertices.data(),int(vertices.size()));
             }
         }
-        else {std::vector<int> indices;for(int i=1;i<n-1;++i){indices.push_back(0);indices.push_back(i);indices.push_back(i+1);}checked(SDL_RenderGeometry(r,tex,verts.data(),n,indices.data(),int(indices.size())));}
+        else append(tex,verts.data(),n);
     }
+    submit();
     stadium_polygons.fill(false);
     if(clip_stadium)for(auto& depths:polygon_depths)depths.fill(0);
     checked(SDL_SetRenderDrawBlendMode(r,previous_blend));
@@ -516,22 +528,25 @@ void OriginalGraphics::step_camera(){
 }
 void OriginalGraphics::draw(SDL_Renderer* r,SDL_FRect viewport){
     output_view=viewport;
+    const int height=presentation_height==1080?1080:presentation_height==720?720:480;
+    const int width=presentation_height?std::clamp(int(std::lround(height*viewport.w/viewport.h/2))*2,320,3840):640;
+    const auto camera=[&](float x,float y,float z,float tx,float ty,float tz,float distance){core->camera(x,y,z,tx,ty,tz,distance*(height/480.0f),width,height);};
     clip_stadium=false;
     auto& presentation=walkoff.active()?walkoff.presentation:prematch.active()?prematch.presentation:exit.active()?exit.presentation:replaying?replay_presentation:this->presentation;
     last_polygons=0;scene_counts={};environment->ground_pixels=environment->sky_pixels=0;load_textures(r);update_video_board(r);update_tracker();
     SDL_Rect cliprect{int(viewport.x),int(viewport.y),int(viewport.w),int(viewport.h)};checked(SDL_SetRenderClipRect(r,&cliprect));
     checked(SDL_SetRenderDrawColor(r,32,72,43,255));SDL_FRect bg=viewport;checked(SDL_RenderFillRect(r,&bg));
-    if(walkoff.active()){const auto c=walkoff.camera();core->camera(c.x,c.z,c.y,c.tx,c.tz,c.ty,c.scale,640,480);}
-    else if(prematch.active()){const auto c=prematch.camera();core->camera(c.x,c.z,c.y,c.tx,c.tz,c.ty,c.scale,640,480);}
-    else if(exit.active())core->camera(tunnel_x,750,250,tunnel_x,0,850,560,640,480);
-    else if(overview)core->camera(640+std::cos(angle)*2800,1700,400+std::sin(angle)*2800,640,0,400,650,640,480);
+    if(walkoff.active()){const auto c=walkoff.camera();camera(c.x,c.z,c.y,c.tx,c.tz,c.ty,c.scale);}
+    else if(prematch.active()){const auto c=prematch.camera();camera(c.x,c.z,c.y,c.tx,c.tz,c.ty,c.scale);}
+    else if(exit.active())camera(tunnel_x,750,250,tunnel_x,0,850,560);
+    else if(overview)camera(640+std::cos(angle)*2800,1700,400+std::sin(angle)*2800,640,0,400,650);
     else if(action_view && sequence->team_play){
         if(camera_generation!=sequence->generation)step_camera();
         const float alpha=sequence->running?presentation_alpha():1;
         const auto lerp=[&](float a,float b){return a+(b-a)*alpha;};
-        core->camera(lerp(camera_previous.x,camera_current.x),lerp(camera_previous.z,camera_current.z),lerp(camera_previous.y,camera_current.y),
+        camera(lerp(camera_previous.x,camera_current.x),lerp(camera_previous.z,camera_current.z),lerp(camera_previous.y,camera_current.y),
             lerp(camera_previous.tx,camera_current.tx),lerp(camera_previous.tz,camera_current.tz),lerp(camera_previous.ty,camera_current.ty),
-            lerp(camera_previous.scale,camera_current.scale),640,480);
+            lerp(camera_previous.scale,camera_current.scale));
     }
     else if(action_view && sequence->play){
         presentation.observe(sequence->engine,sequence->generation,sequence->ticks);
@@ -539,16 +554,16 @@ void OriginalGraphics::draw(SDL_Renderer* r,SDL_FRect viewport){
         const auto a=presentation.player(sequence->engine,1,alpha).state;
         const auto b=presentation.player(sequence->engine,2,alpha).state;
         const float x=std::clamp((a.tm_x+b.tm_x)/2+80,220.0f,1060.0f),y=std::clamp((a.tm_y+b.tm_y)/2,140.0f,660.0f);
-        core->camera(x,260,y+410,x,8,y,560,640,480);
+        camera(x,260,y+410,x,8,y,560);
     }
     else if(action_view && sequence->goal_review){
         const float target=sequence->review_left?15.0f:1265.0f;
         const float direction=sequence->review_left?1.0f:-1.0f;
-        core->camera(target+direction*std::cos(angle+.65f)*180,95,400+std::sin(angle+.65f)*180,target,15,400,560,640,480);
+        camera(target+direction*std::cos(angle+.65f)*180,95,400+std::sin(angle+.65f)*180,target,15,400,560);
     }
-    else if(action_view && sequence->attack)core->camera(1000+std::cos(angle)*570,320,400+std::sin(angle)*570,1000,15,400,560,640,480);
-    else if(action_view)core->camera(640+std::cos(angle)*230,130,400+std::sin(angle)*230,640,8,400,560,640,480);
-    else core->camera(640+std::cos(angle)*90,40,400+std::sin(angle)*90,640,12,400,560,640,480);
+    else if(action_view && sequence->attack)camera(1000+std::cos(angle)*570,320,400+std::sin(angle)*570,1000,15,400,560);
+    else if(action_view)camera(640+std::cos(angle)*230,130,400+std::sin(angle)*230,640,8,400,560);
+    else camera(640+std::cos(angle)*90,40,400+std::sin(angle)*90,640,12,400,560);
     if(overview || action_view){
         model(pitch_points.data(),recovered::pitch_f,0,0,0);flush(r);core->clear();
         draw_environment(r);pitch_markings();corner_flags();flush(r);core->clear();
@@ -616,12 +631,13 @@ void OriginalGraphics::draw(SDL_Renderer* r,SDL_FRect viewport){
 }
 void OriginalGraphics::draw_environment(SDL_Renderer* r){
     environment->render(*core,palette);
-    if(environment_owner!=r || !environment_texture){
-        SDL_DestroyTexture(environment_texture);environment_texture=SDL_CreateTexture(r,SDL_PIXELFORMAT_RGBA32,SDL_TEXTUREACCESS_STREAMING,640,480);
+    if(environment_owner!=r || !environment_texture || environment_width!=environment->width() || environment_height!=environment->height()){
+        environment_width=environment->width();environment_height=environment->height();
+        SDL_DestroyTexture(environment_texture);environment_texture=SDL_CreateTexture(r,SDL_PIXELFORMAT_RGBA32,SDL_TEXTUREACCESS_STREAMING,environment_width,environment_height);
         if(!environment_texture)throw std::runtime_error(SDL_GetError());environment_owner=r;
         checked(SDL_SetTextureBlendMode(environment_texture,SDL_BLENDMODE_BLEND));checked(SDL_SetTextureScaleMode(environment_texture,SDL_SCALEMODE_NEAREST));
     }
-    checked(SDL_UpdateTexture(environment_texture,nullptr,environment->pixels().data(),640*4));checked(SDL_RenderTexture(r,environment_texture,nullptr,&output_view));
+    checked(SDL_UpdateTexture(environment_texture,nullptr,environment->pixels().data(),environment_width*4));checked(SDL_RenderTexture(r,environment_texture,nullptr,&output_view));
 }
 bool OriginalGraphics::clean_match_view()const{
  if(exit.active() || prematch.active() || walkoff.active())return true;
@@ -653,7 +669,12 @@ void OriginalGraphics::draw_overlay(SDL_Renderer* r){
  // alpha keeps pale text bright and translucent panels at their original opacity.
  overlay_upload.resize(640*480);
  checked(SDL_PremultiplyAlpha(640,480,SDL_PIXELFORMAT_RGBA32,overlay->pixels().data(),640*4,SDL_PIXELFORMAT_RGBA32,overlay_upload.data(),640*4,false));
- checked(SDL_UpdateTexture(overlay_texture,nullptr,overlay_upload.data(),640*4));checked(SDL_RenderTexture(r,overlay_texture,nullptr,&output_view));
+ checked(SDL_UpdateTexture(overlay_texture,nullptr,overlay_upload.data(),640*4));SDL_FRect hud=output_view;
+ if(presentation_height){
+  const float scale=std::min(output_view.w/960,output_view.h/664);
+  hud={output_view.x+(output_view.w-864*scale)/2,output_view.y+(output_view.h-664*scale)/2+4*scale,864*scale,648*scale};
+ }
+ checked(SDL_RenderTexture(r,overlay_texture,nullptr,&hud));
 }
 
 }

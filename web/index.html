@@ -11,7 +11,9 @@
 </head>
 <body>
   <header><div><strong>UEFA EURO 96</strong><span>Browser preview · original gameplay</span></div>
-    <button id="fullscreen" disabled>Fullscreen</button></header>
+    <div class="display-controls"><label for="presentation">Picture</label>
+    <select id="presentation"><option value="720">Widescreen &#183; 720p</option><option value="1080">Widescreen &#183; 1080p</option><option value="0">Classic</option></select>
+    <button id="fullscreen" disabled>Fullscreen</button></div></header>
   <main>
     <div id="stage">
       <canvas id="canvas" width="1200" height="830" tabindex="0" aria-label="UEFA Euro 96 game"></canvas>

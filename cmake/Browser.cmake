@@ -1,12 +1,8 @@
-# First browser proof: Asyncify preserves the existing stack-owned application
-# state while yielding once per frame. A later callback-based loop can remove
-# this instrumentation after native/browser parity has been established.
 target_sources(actua_ball PRIVATE native/browser_random.cpp)
 set_target_properties(actua96 PROPERTIES
   OUTPUT_NAME euro96 SUFFIX ".js"
   RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/site")
 target_link_options(actua96 PRIVATE
-  -sASYNCIFY=1 -sASYNCIFY_STACK_SIZE=262144
   -sALLOW_MEMORY_GROWTH=1 -sINITIAL_MEMORY=134217728 -sMAXIMUM_MEMORY=1073741824
   -sSTACK_SIZE=8388608 -sFORCE_FILESYSTEM=1 -lidbfs.js
   -sMODULARIZE=1 -sEXPORT_NAME=createEuro96

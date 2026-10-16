@@ -149,6 +149,10 @@ unsigned char OriginalEnvironment::pitch_index(double x,double z)const{
  return pitch_[wrap(z)*256+wrap(x)];
 }
 void OriginalEnvironment::render(const legacy::Core& core,const MatchPalette& palette){
+ width_=core.render_buff.clip_wid;height_=core.render_buff.clip_hgt;
+ if(width_<1 || height_<1 || width_>4096 || height_>2160)throw std::runtime_error("Invalid environment dimensions");
+ pixels_.resize(std::size_t(width_)*height_);
+ const double scale=height_/480.0;
  std::fill(pixels_.begin(),pixels_.end(),0);ground_pixels=sky_pixels=0;
  std::array<std::uint32_t,256> colors;
  for(int i=0;i<256;++i)colors[i]=std::uint32_t(palette[i][0]*4)|(std::uint32_t(palette[i][1]*4)<<8)|(std::uint32_t(palette[i][2]*4)<<16)|0xff000000u;
@@ -159,31 +163,31 @@ void OriginalEnvironment::render(const legacy::Core& core,const MatchPalette& pa
  for(float x:{-float(stadium_length_+200),float(1280+stadium_length_+200)})
   for(float z:{float(stadium_width_+200),-float(800+stadium_width_+200)}){
    const double rz=x*m.r20+stadium_height_*m.r21+z*m.r22+m.r23;
-   if(rz>depth){depth=rz;edge=q*(x*m.r10+stadium_height_*m.r11+z*m.r12+m.r13)/rz;}
+   if(rz>depth){depth=rz;edge=(q/scale)*(x*m.r10+stadium_height_*m.r11+z*m.r12+m.r13)/rz;}
   }
  const int ye=std::clamp(int(std::clamp(edge,-240.0,240.0)),-240,240),height=240-ye;
  // Source high-resolution sky: three repeats per turn, heading scroll, pitch-dependent crop.
  if(height && std::abs(cph)>1e-6){
-  int yd=int(std::clamp(ye+q*sph/cph,0.0,10000.0));if(479-yd<240-ye)yd=240+ye;
+  int yd=int(std::clamp(ye+(q/scale)*sph/cph,0.0,10000.0));if(479-yd<240-ye)yd=240+ye;
   const int offset=int(640*std::acos(std::clamp(double(m.r00),-1.0,1.0))/(2*3.1415/3))%640;
   const int shift=(-m.r02<0)?-offset:offset;
-  for(int y=0;y<height;++y){const int row=std::clamp(480-yd-height+y,0,479);
-   for(int x=0;x<640;++x){pixels_[y*640+x]=colors[sky_[row*640+(x+shift+640)%640]];++sky_pixels;}
+  for(int y=0;y<std::min(height_,int(std::ceil(height*scale)));++y){const int row=std::clamp(480-yd-height+int(y/scale),0,479);
+   for(int x=0;x<width_;++x){const int column=int(std::floor((x-width_/2)/scale+320));pixels_[y*width_+x]=colors[sky_[row*640+((column+shift)%640+640)%640]];++sky_pixels;}
   }
  }
  if(core.eye_y<=0)return;
  // Inverse of the original camera matrix equals ground()'s per-scanline tx/tz and increments.
  // Explicit pitch bounds and horizon checks replace DOS buffer assumptions.
- for(int y=0;y<480;++y){
-  const double screen_y=240.0-y,dy=(screen_y/q)*m.r11+m.r21;if(dy>=-1e-6)continue;
+ for(int y=0;y<height_;++y){
+  const double screen_y=double(core.render_buff.clip_ymid)-y,dy=(screen_y/q)*m.r11+m.r21;if(dy>=-1e-6)continue;
   const double distance=-core.eye_y/dy;
-  double wx=core.eye_x+distance*((-320.0/q)*m.r00+(screen_y/q)*m.r10+m.r20);
-  double wz=core.eye_z+distance*((-320.0/q)*m.r02+(screen_y/q)*m.r12+m.r22);
+  double wx=core.eye_x+distance*((-double(core.render_buff.clip_xmid)/q)*m.r00+(screen_y/q)*m.r10+m.r20);
+  double wz=core.eye_z+distance*((-double(core.render_buff.clip_xmid)/q)*m.r02+(screen_y/q)*m.r12+m.r22);
   const double dx=distance*m.r00/q,dz=distance*m.r02/q;
   if(!std::isfinite(wx) || !std::isfinite(wz))continue;
-  for(int x=0;x<640;++x,wx+=dx,wz+=dz){
+  for(int x=0;x<width_;++x,wx+=dx,wz+=dz){
    if(wx<-stadium_length_ || wx>1280+stadium_length_ || wz>stadium_width_ || wz<-800-stadium_width_)continue;
-   pixels_[y*640+x]=colors[pitch_[(int(std::floor(wz))&63)*256+(int(std::floor(wx))&63)]];++ground_pixels;
+   pixels_[y*width_+x]=colors[pitch_[(int(std::floor(wz))&63)*256+(int(std::floor(wx))&63)]];++ground_pixels;
   }
  }
 }

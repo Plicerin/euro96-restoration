@@ -111,6 +111,8 @@ public:
     void change_clip(int delta);
     void change_kit(int delta);
     void draw(SDL_Renderer* renderer,SDL_FRect viewport={24,116,640,480});
+    // Zero preserves the original projection; 720/1080 enable aspect-aware rendering.
+    int presentation_height=0;
     bool show_radar=true,match_panels=false;
     bool clean_match_view()const;
     bool has_euro96_kits()const{return euro_kits.loaded();}
@@ -184,6 +186,7 @@ private:
     std::unique_ptr<OriginalEnvironment> environment;
     SDL_Texture* environment_texture=nullptr;
     SDL_Renderer* environment_owner=nullptr;
+    int environment_width=0,environment_height=0;
     void draw_environment(SDL_Renderer*);
     std::unique_ptr<OriginalOverlay> overlay;
     SDL_Texture* overlay_texture=nullptr;

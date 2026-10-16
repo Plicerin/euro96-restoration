@@ -1,4 +1,5 @@
 #include "archive.hpp"
+#include "frame_task.hpp"
 #include "model.hpp"
 #include "ball.hpp"
 #include "player.hpp"
@@ -27,6 +28,10 @@
 
 namespace fs = std::filesystem;
 using namespace actua;
+static int presentation_height=0;
+#ifdef __EMSCRIPTEN__
+extern "C" EMSCRIPTEN_KEEPALIVE void set_presentation(int height){presentation_height=height==1080?1080:height==720?720:0;}
+#endif
 
 static void check(bool ok, const char* operation) {
     if(!ok) throw std::runtime_error(std::string(operation)+": "+SDL_GetError());
@@ -59,7 +64,9 @@ static Options options(int argc, char** argv) {
     Options result;
     for(int i=1;i<argc;++i) {
         const std::string arg=argv[i];
-        if(arg=="--front-end")result.original3d=result.front_end=true;
+        if(arg=="--wide720")presentation_height=720;
+        else if(arg=="--wide1080")presentation_height=1080;
+        else if(arg=="--front-end")result.original3d=result.front_end=true;
         else if(arg=="--head-to-head-smoke")result.original3d=result.front_end=result.frontend_smoke=result.head_to_head_smoke=true;
         else if(arg=="--replay-file-smoke")result.original3d=result.front_end=result.frontend_smoke=result.replay_file_smoke=true;
         else if(arg=="--startup-smoke")result.original3d=result.front_end=result.frontend_smoke=result.startup_smoke=true;
@@ -454,7 +461,13 @@ static void draw(SDL_Renderer* r,SDL_Texture* texture,const Navigation& nav,
     auto hud_scope=scene.input_scope(scene.head_to_head && hud_actor>=0 && !scene.is_blue(hud_actor)?1:0);
     color(r,10,17,27); check(SDL_RenderClear(r),"Clear");
     if(nav.page==4 && graphics.clean_match_view()){
-        graphics.draw(r,{48,4,864,648});
+        graphics.presentation_height=presentation_height;
+        if(presentation_height){
+            int width=0,height=0;check(SDL_GetRenderOutputSize(r,&width,&height),"Get display size");
+            check(SDL_SetRenderLogicalPresentation(r,0,0,SDL_LOGICAL_PRESENTATION_DISABLED),"Set scene size");
+            graphics.draw(r,{0,0,float(width),float(height)});
+            check(SDL_SetRenderLogicalPresentation(r,960,664,SDL_LOGICAL_PRESENTATION_LETTERBOX),"Restore menu size");
+        }else graphics.draw(r,{48,4,864,648});
         live_power(r,graphics);
         replay_controls(r,graphics,pad_prompts);
         pause_reference(r,graphics,pad_prompts);
@@ -464,6 +477,7 @@ static void draw(SDL_Renderer* r,SDL_Texture* texture,const Navigation& nav,
         return;
     }
 
+    graphics.presentation_height=0;
     if(nav.page==4 && scene.team_play)draw_menu_match_panels(r,graphics,pad_prompts);
     else {
     color(r,134,222,150); text(r,24,22,"UEFA EURO 96");
@@ -612,9 +626,12 @@ static void draw(SDL_Renderer* r,SDL_Texture* texture,const Navigation& nav,
     color(r,32,46,63); rect(r,24,612,912,1);
     color(r,143,157,174); text(r,24,632,"Original assets. Native Windows display. Match engine restoration is still in progress.");
 }
-int main(int argc,char** argv) {
+static FrameTask run_game(std::vector<std::string> arguments) {
+    const int argc=int(arguments.size());
+    std::vector<char*> pointers;for(auto& arg:arguments)pointers.push_back(arg.data());
+    pointers.push_back(nullptr);char** argv=pointers.data();
     // Extra --verify makes version probes noninteractive on older executables too.
-    if(argc>=2 && std::string(argv[1])=="--version"){std::cout<<ACTUA_VERSION<<"\n";return 0;}
+    if(argc>=2 && std::string(argv[1])=="--version"){std::cout<<ACTUA_VERSION<<"\n";co_return 0;}
     bool initialized=false;
     bool interactive=true;
     for(int i=1;i<argc;++i) {
@@ -627,11 +644,8 @@ int main(int argc,char** argv) {
         const auto opt=options(argc,argv);
         Archive euro(opt.data/"EURO.DAT",opt.data/"EURO.OFF");
         verify(opt.data,euro);
-        if(opt.verify) return 0;
+        if(opt.verify) co_return 0;
 #ifdef __EMSCRIPTEN__
-        // Yield explicitly below; SDL must not suspend in the middle of an
-        // audio callback or renderer operation while another event can run.
-        SDL_SetHint(SDL_HINT_EMSCRIPTEN_ASYNCIFY,"0");
         SDL_SetHint(SDL_HINT_EMSCRIPTEN_KEYBOARD_ELEMENT,"#canvas");
 #endif
         check(SDL_Init(SDL_INIT_VIDEO|SDL_INIT_GAMEPAD),"Initialize SDL");
@@ -676,7 +690,7 @@ int main(int argc,char** argv) {
             }
             fs::remove(probe);auto backup=probe;backup+=".bak";fs::remove(backup);
             auto prefs=probe;prefs.replace_extension(".prefs");fs::remove(prefs);prefs+=".bak";fs::remove(prefs);
-            SDL_Quit();return 0;
+            SDL_Quit();co_return 0;
         }
         using Window=std::unique_ptr<SDL_Window,decltype(&SDL_DestroyWindow)>;
         using Renderer=std::unique_ptr<SDL_Renderer,decltype(&SDL_DestroyRenderer)>;
@@ -686,15 +700,13 @@ int main(int argc,char** argv) {
 #else
         constexpr const char* window_title="UEFA Euro 96 - Windows restoration preview";
 #endif
-        Window window(SDL_CreateWindow(window_title,1200,830,
+        Window window(SDL_CreateWindow(window_title,presentation_height?1280:1200,presentation_height?720:830,
             SDL_WINDOW_RESIZABLE | (opt.frontend_smoke||opt.intro_smoke||opt.movie_smoke||opt.penalty_smoke||opt.team_smoke||opt.control_smoke||opt.goals_smoke||opt.actions_smoke||opt.graphics_smoke||opt.smoke||opt.physics_smoke||opt.practice_smoke||opt.opponents_smoke||opt.gamepad_smoke||!opt.capture.empty()?SDL_WINDOW_HIDDEN:0)),SDL_DestroyWindow);
         if(!window) throw std::runtime_error(SDL_GetError());
         Renderer renderer(SDL_CreateRenderer(window.get(),nullptr),SDL_DestroyRenderer);
         if(!renderer) throw std::runtime_error(SDL_GetError());
         check(SDL_SetRenderLogicalPresentation(renderer.get(),960,664,SDL_LOGICAL_PRESENTATION_LETTERBOX),"Set logical size");
-#ifndef __EMSCRIPTEN__
         SDL_SetRenderVSync(renderer.get(),1);
-#endif
         Texture texture(SDL_CreateTexture(renderer.get(),SDL_PIXELFORMAT_RGBA32,SDL_TEXTUREACCESS_STREAMING,640,480),SDL_DestroyTexture);
         if(!texture) throw std::runtime_error(SDL_GetError());
         check(SDL_SetTextureScaleMode(texture.get(),SDL_SCALEMODE_NEAREST),"Set pixel scaling");
@@ -848,6 +860,13 @@ int main(int argc,char** argv) {
                 }
                 if(event.type==SDL_EVENT_KEY_DOWN || event.type==SDL_EVENT_MOUSE_BUTTON_DOWN) pad_prompts=false;
                 if(event.type==SDL_EVENT_QUIT) running=false;
+#ifndef __EMSCRIPTEN__
+                if(event.type==SDL_EVENT_KEY_DOWN && !event.key.repeat && event.key.key==SDLK_F12){
+                    presentation_height=presentation_height==0?720:presentation_height==720?1080:0;
+                    if(!fullscreen)SDL_SetWindowSize(window.get(),presentation_height?1280:1200,presentation_height?720:830);
+                    continue;
+                }
+#endif
                 if(event.type==SDL_EVENT_WINDOW_FOCUS_LOST) { live_key_shot=live_key_pass=false;focused=false; simulation_clock.reset(); practice_clock.reset(); graphics.exit.paused=true;graphics.prematch.paused=true;graphics.walkoff.paused=true;graphics.sequence->clear_play_input();if(graphics.sequence->play)graphics.paused=true; }
                 if(event.type==SDL_EVENT_WINDOW_FOCUS_GAINED) { focused=true; simulation_clock.reset(); practice_clock.reset(); }
                 if(movie.active()){
@@ -1932,14 +1951,12 @@ int main(int argc,char** argv) {
             if(frames%20==0){
                 const auto& s=*graphics.sequence;
                 EM_ASM({ Module.gameState = ({frames:$0, ticks:$1, selected:$2,
-                    ballX:$3, ballY:$4, homeGoals:$5, awayGoals:$6, paused:!!$7, menuStage:$8}); },
+                    ballX:$3, ballY:$4, homeGoals:$5, awayGoals:$6, paused:!!$7, menuStage:$8, presentationHeight:$9}); },
                     frames,s.ticks,s.selected,s.engine.ballx,s.engine.bally,
-                    s.blue_goals,s.red_goals,graphics.paused,front?int(front->stage()):0);
+                    s.blue_goals,s.red_goals,graphics.paused,front?int(front->stage()):0,presentation_height);
             }
-            emscripten_sleep(16);
-#else
-            SDL_Delay(8);
 #endif
+            co_await std::suspend_always{};
         }
         pads.close();
         if(local_second_pad)SDL_CloseJoystick(local_second_pad);
@@ -1950,12 +1967,37 @@ int main(int argc,char** argv) {
         texture.reset(); renderer.reset(); window.reset();
         SDL_Quit();
         std::cout<<"Native render completed: "<<frames<<" frames.\n";
-        return 0;
+        co_return 0;
     } catch(const std::exception& e) {
         std::cerr<<"Euro96: "<<e.what()<<"\n";
         if(interactive) SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_ERROR,"UEFA Euro 96 restoration",e.what(),nullptr);
         if(initialized) SDL_Quit();
-        return 1;
+        co_return 1;
     }
 }
 
+
+#ifdef __EMSCRIPTEN__
+static void browser_frame(void* context){
+    auto* task=static_cast<FrameTask*>(context);
+    if(task->step())return;
+    const int code=task->result();
+    emscripten_cancel_main_loop();
+    delete task;
+    emscripten_force_exit(code);
+}
+#endif
+int main(int argc,char** argv){
+    std::vector<std::string> arguments(argv,argv+argc);
+#ifdef __EMSCRIPTEN__
+    auto* task=new FrameTask(run_game(std::move(arguments)));
+    emscripten_set_main_loop_arg(browser_frame,task,0,false);
+    // Initialize audio during the launch gesture; subsequent frames use rAF.
+    browser_frame(task);
+    emscripten_exit_with_live_runtime();
+#else
+    auto task=run_game(std::move(arguments));
+    while(task.step())SDL_Delay(8);
+    return task.result();
+#endif
+}

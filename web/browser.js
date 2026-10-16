@@ -57,8 +57,21 @@
       canvas.focus();
     } catch (error) { log("Fullscreen unavailable: " + error.message); }
   };
+  function setPresentation() {
+    const height = Number(el("presentation").value);
+    document.documentElement.style.setProperty("--game-aspect", height ? "16 / 9" : "1200 / 830");
+    document.documentElement.style.setProperty("--game-ratio", height ? String(16 / 9) : String(1200 / 830));
+    if (game) game._set_presentation(height);
+    if (started) canvas.focus();
+  }
+  el("presentation").onchange = setPresentation;
+  setPresentation();
+  // SDL listens for window resize; a CSS aspect change alone does not emit it.
+  // This also covers entering/exiting fullscreen and responsive layout changes.
+  new ResizeObserver(() => window.dispatchEvent(new Event("resize"))).observe(canvas);
   function start(watch) {
     if (!game || started) return;
+    setPresentation();
     started = true;
     document.body.classList.add("playing");
     el("launch").hidden = true;

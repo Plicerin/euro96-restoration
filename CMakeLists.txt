@@ -569,3 +569,7 @@ if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/local-data/GRAPHICS/EURO_BOARDS.BIN")
  add_test(NAME retail_board_contracts COMMAND retail_board_tests "${CMAKE_CURRENT_SOURCE_DIR}/SOURCE" "${CMAKE_CURRENT_SOURCE_DIR}/local-data" "${CMAKE_CURRENT_BINARY_DIR}/retail-board-captures")
  set_tests_properties(retail_board_contracts PROPERTIES ENVIRONMENT "SDL_VIDEODRIVER=dummy;SDL_RENDER_DRIVER=software;SDL_AUDIODRIVER=dummy" TIMEOUT 120)
 endif()
+
+add_executable(display_tests native/display_tests.cpp)
+target_link_libraries(display_tests PRIVATE actua_graphics)
+add_test(NAME enhanced_display_contracts COMMAND display_tests "${CMAKE_CURRENT_SOURCE_DIR}/SOURCE" "${CMAKE_CURRENT_SOURCE_DIR}/local-data" "${CMAKE_CURRENT_BINARY_DIR}/display-captures")

@@ -56,10 +56,13 @@ public:
  void render(const legacy::Core&,const MatchPalette&);
  void set_stadium(std::span<const unsigned char> pitch,std::span<const unsigned char> sky,int width,int length,int height);
  const std::vector<std::uint32_t>& pixels()const{return pixels_;}
+ int width()const{return width_;}
+ int height()const{return height_;}
  unsigned ground_pixels=0,sky_pixels=0;
  unsigned char pitch_index(double x,double z)const;
 private:
  Bytes pitch_,sky_;
+ int width_=640,height_=480;
  int stadium_width_=0,stadium_length_=0,stadium_height_=0;
  std::vector<std::uint32_t> pixels_;
 };
