@@ -1,0 +1,13 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start  31: original_goal_collisions
+1/4 Test  #31: original_goal_collisions .........   Passed   12.94 sec
+    Start  60: original_commentary_contracts
+2/4 Test  #60: original_commentary_contracts ....   Passed   16.03 sec
+    Start 101: retail_audio_contracts
+3/4 Test #101: retail_audio_contracts ...........   Passed   13.95 sec
+    Start 102: retail_audio_provenance
+4/4 Test #102: retail_audio_provenance ..........   Passed    0.78 sec
+
+100% tests passed, 0 tests failed out of 4
+
+Total Test time (real) =  43.97 sec

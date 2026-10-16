@@ -1,0 +1,15 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start 91: euro96_retail_presentation_contracts
+    Start 96: native_euro96_startup
+    Start 89: original_menu_art_contracts
+1/5 Test #96: native_euro96_startup ..................   Passed    2.72 sec
+    Start 56: native_frontend_smoke
+2/5 Test #89: original_menu_art_contracts ............   Passed    3.23 sec
+    Start 90: euro96_preview_identity_contracts
+3/5 Test #90: euro96_preview_identity_contracts ......   Passed    0.51 sec
+4/5 Test #56: native_frontend_smoke ..................   Passed    5.47 sec
+5/5 Test #91: euro96_retail_presentation_contracts ...   Passed   14.66 sec
+
+100% tests passed, 0 tests failed out of 5
+
+Total Test time (real) =  14.83 sec

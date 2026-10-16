@@ -1,0 +1,102 @@
+UpdateCTestConfiguration  from :C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/DartConfiguration.tcl
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 82
+    Start 82: original_walkoff_contracts
+
+82: Test command: C:\Users\vrock\AppData\Local\Temp\actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b\Release\walkoff_tests.exe "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/local-data" "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/walkoff-captures"
+82: Working Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+82: Environment variables: 
+82:  SDL_VIDEODRIVER=dummy
+82:  SDL_RENDER_DRIVER=software
+82:  SDL_AUDIODRIVER=dummy
+82: Test timeout computed to be: 90
+82: Close tunnel venue 0 half 0 leg 0 y 1284.88 pixels 93
+82: Close tunnel venue 0 half 0 leg 0 y 1326.67 pixels 85
+82: Close tunnel venue 0 half 0 leg 0 y 1373.69 pixels 73
+82: Close tunnel venue 0 half 0 leg 1 y 1419.05 pixels 74
+82: Close tunnel venue 0 half 0 leg 1 y 1371.55 pixels 71
+82: Close tunnel venue 0 half 0 leg 1 y 1329.33 pixels 71
+82: Venue 0 half 0 substitution ticks=350
+82: Close tunnel venue 0 half 1 leg 0 y 1284.88 pixels 93
+82: Close tunnel venue 0 half 1 leg 0 y 1326.67 pixels 85
+82: Close tunnel venue 0 half 1 leg 0 y 1373.69 pixels 73
+82: Close tunnel venue 0 half 1 leg 1 y 1419.05 pixels 74
+82: Close tunnel venue 0 half 1 leg 1 y 1371.55 pixels 71
+82: Close tunnel venue 0 half 1 leg 1 y 1329.33 pixels 71
+82: Venue 0 half 1 substitution ticks=350
+82: Close tunnel venue 1 half 0 leg 0 y 1284.88 pixels 93
+82: Close tunnel venue 1 half 0 leg 0 y 1326.67 pixels 85
+82: Close tunnel venue 1 half 0 leg 0 y 1373.69 pixels 73
+82: Close tunnel venue 1 half 0 leg 1 y 1419.05 pixels 74
+82: Close tunnel venue 1 half 0 leg 1 y 1371.55 pixels 71
+82: Close tunnel venue 1 half 0 leg 1 y 1329.33 pixels 71
+82: Venue 1 half 0 substitution ticks=350
+82: Close tunnel venue 1 half 1 leg 0 y 1284.88 pixels 93
+82: Close tunnel venue 1 half 1 leg 0 y 1326.67 pixels 85
+82: Close tunnel venue 1 half 1 leg 0 y 1373.69 pixels 73
+82: Close tunnel venue 1 half 1 leg 1 y 1419.05 pixels 74
+82: Close tunnel venue 1 half 1 leg 1 y 1371.55 pixels 71
+82: Close tunnel venue 1 half 1 leg 1 y 1329.33 pixels 71
+82: Venue 1 half 1 substitution ticks=350
+82: Close tunnel venue 2 half 0 leg 0 y 1284.88 pixels 93
+82: Close tunnel venue 2 half 0 leg 0 y 1326.67 pixels 85
+82: Close tunnel venue 2 half 0 leg 0 y 1373.69 pixels 73
+82: Close tunnel venue 2 half 0 leg 1 y 1419.05 pixels 74
+82: Close tunnel venue 2 half 0 leg 1 y 1371.55 pixels 71
+82: Close tunnel venue 2 half 0 leg 1 y 1329.33 pixels 71
+82: Venue 2 half 0 substitution ticks=350
+82: Close tunnel venue 2 half 1 leg 0 y 1284.88 pixels 93
+82: Close tunnel venue 2 half 1 leg 0 y 1326.67 pixels 85
+82: Close tunnel venue 2 half 1 leg 0 y 1373.69 pixels 73
+82: Close tunnel venue 2 half 1 leg 1 y 1419.05 pixels 74
+82: Close tunnel venue 2 half 1 leg 1 y 1371.55 pixels 71
+82: Close tunnel venue 2 half 1 leg 1 y 1329.33 pixels 71
+82: Venue 2 half 1 substitution ticks=350
+82: Close tunnel venue 3 half 0 leg 0 y 1284.88 pixels 93
+82: Close tunnel venue 3 half 0 leg 0 y 1326.67 pixels 85
+82: Close tunnel venue 3 half 0 leg 0 y 1373.69 pixels 73
+82: Close tunnel venue 3 half 0 leg 1 y 1419.05 pixels 74
+82: Close tunnel venue 3 half 0 leg 1 y 1371.55 pixels 71
+82: Close tunnel venue 3 half 0 leg 1 y 1329.33 pixels 71
+82: Venue 3 half 0 substitution ticks=350
+82: Close tunnel venue 3 half 1 leg 0 y 1284.88 pixels 93
+82: Close tunnel venue 3 half 1 leg 0 y 1326.67 pixels 85
+82: Close tunnel venue 3 half 1 leg 0 y 1373.69 pixels 73
+82: Close tunnel venue 3 half 1 leg 1 y 1419.05 pixels 74
+82: Close tunnel venue 3 half 1 leg 1 y 1371.55 pixels 71
+82: Close tunnel venue 3 half 1 leg 1 y 1329.33 pixels 71
+82: Venue 3 half 1 substitution ticks=350
+82: Close tunnel venue 4 half 0 leg 0 y 1280.01 pixels 91
+82: Close tunnel venue 4 half 0 leg 0 y 1326.79 pixels 92
+82: Close tunnel venue 4 half 0 leg 0 y 1373.56 pixels 65
+82: Close tunnel venue 4 half 0 leg 1 y 1416.58 pixels 78
+82: Close tunnel venue 4 half 0 leg 1 y 1374.36 pixels 76
+82: Close tunnel venue 4 half 0 leg 1 y 1326.86 pixels 77
+82: Venue 4 half 0 substitution ticks=401
+82: Close tunnel venue 4 half 1 leg 0 y 1280.01 pixels 91
+82: Close tunnel venue 4 half 1 leg 0 y 1326.79 pixels 92
+82: Close tunnel venue 4 half 1 leg 0 y 1373.56 pixels 65
+82: Close tunnel venue 4 half 1 leg 1 y 1416.58 pixels 78
+82: Close tunnel venue 4 half 1 leg 1 y 1374.36 pixels 76
+82: Close tunnel venue 4 half 1 leg 1 y 1326.86 pixels 77
+82: Venue 4 half 1 substitution ticks=401
+82: 1. Original outgoing/incoming route, five venues, both halves, squad/stats retention passed.
+82: Roof probe venue 0 x 500 pixels 80
+82: Entrance remains open; flanking roof/crowd covers the same actor
+1/1 Test #82: original_walkoff_contracts .......***Failed    4.29 sec
+
+0% tests passed, 1 tests failed out of 1
+
+Total Test time (real) =   4.36 sec
+
+The following tests FAILED:
+	 82 - original_walkoff_contracts (Failed)
+Errors while running CTest
+Output from these tests are in: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.

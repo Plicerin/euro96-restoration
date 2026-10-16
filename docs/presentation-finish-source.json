@@ -1,0 +1,36 @@
+{
+  "countdown": 180,
+  "orbit_ticks": 140,
+  "hold_ticks": 40,
+  "plead_fstep": 0.015625,
+  "inputs": {
+    "ACTIONS.CPP": "d580bba909cf6ce93dff67e156423971a510914a5e7123a65b8aa9fc86edd8ad",
+    "FOOTBALL.CPP": "d9e61d49ea4e4e792c308cbf1a9c0b7ff4509604026a2786554f112f9646dfbb",
+    "3D_UPD2.CPP": "9a816445ad36f1d316d5bdc1eef5ebe15536bf291b6bc644db8568ffcc7d57c6",
+    "RULES.CPP": "68630984013862fbc2a6d1bb2a5a9e859a1bfe68a1f20e8f24c1bfb949253fe1",
+    "EURO_GEN.CPP": "6afcd9a281888cf05389da12cb53e00e11d0920754bdc11e45aa85f3a5d73b58",
+    "EURO_DEF.H": "fdde86fad3d75a2b1f0b14bc5f9f75bee44209391ba64a7e5099b2be981bbbff",
+    "FOOTBALL.OBJ": "80386fd58625e1a5a8491cdf700096af782636923ba40b778746274c8663430a",
+    "ACTIONS.OBJ": "b02ab5c3177e8744c9c954c1d66148d6b3d9270fef647637192189ac4da87f31"
+  },
+  "source": {
+    "players": 171,
+    "officials": 88,
+    "animation": 2604,
+    "camera": 1520,
+    "exit_referee": 2910,
+    "exit_assistants": 2945
+  },
+  "menu_fade": {
+    "steps": 25,
+    "curve": "EURO_GEN.CPP EUROinterupt fade-up: channel/FADE_COUNTER added per tick",
+    "native_boundary": "60 Hz SDL black overlay of composed RGB menu; fade-down and exact DOS palette quantization/timing are not reproduced."
+  },
+  "adaptations": [
+    "Copy selected squad; retain stats, shirts and availability.",
+    "Original integer camera radius at 20 Hz; native interpolation between ticks.",
+    "Hold final orbit pose for the last 40 ticks, as source does.",
+    "Native pause/skip; live kickoff state held unchanged during presentation.",
+    "Source officials use MC_PLEAD for referee and MC_STAND for assistants; object revision assigns animation 78 to all three."
+  ]
+}

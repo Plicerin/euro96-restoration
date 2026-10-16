@@ -1,0 +1,139 @@
+Stadium restoration 0.31.1
+
+All 58 tests passed, zero failures, 187.50 seconds.
+Environment test reproduces >5000 old red-band pixels, verifies matched CD stadium loaded, requires red pixels to fall below one fifth, checks all 16 country pairs / 3 cameras and CPU 1:0 after 7328 ticks.
+All 15 component hashes, descriptor and complete pack hash verified against import report.
+SOURCE git diff empty; all four archives validate.
+Published snapshot: 56fdaf4f24807a5c-2b4b128d-0703f4d7-6caa4e84
+Launcher verifies executable, SDL, pitch audio and nine additional media files, including STADIUM.BIN.
+Published hidden capture and front-end smoke both exited 0; front-end completed 40 frames.
+Visually inspected auto and follow-ball frames, overview, and the published capture.
+No interactive game restarted.
+
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+      Start 49: native_setpiece_control_smoke
+      Start 42: original_match_depth_contracts
+ 1/58 Test #42: original_match_depth_contracts .........   Passed   43.97 sec
+      Start 32: native_goal_review_smoke
+ 2/58 Test #32: native_goal_review_smoke ...............   Passed   29.41 sec
+      Start 50: original_pitch_tracker_contracts
+ 3/58 Test #49: native_setpiece_control_smoke ..........   Passed   82.81 sec
+      Start 53: native_audio_smoke
+ 4/58 Test #50: original_pitch_tracker_contracts .......   Passed   13.90 sec
+      Start 41: native_match_setup_smoke
+ 5/58 Test #53: native_audio_smoke .....................   Passed   12.55 sec
+      Start 37: native_original_cpu_smoke
+ 6/58 Test #41: native_match_setup_smoke ...............   Passed   15.29 sec
+      Start 31: original_goal_collisions
+ 7/58 Test #37: native_original_cpu_smoke ..............   Passed   13.94 sec
+      Start 10: native_opponent_smoke
+ 8/58 Test #10: native_opponent_smoke ..................   Passed    6.09 sec
+      Start 40: original_national_team_contracts
+ 9/58 Test #31: original_goal_collisions ...............   Passed   13.42 sec
+      Start 36: native_original_team_smoke
+10/58 Test #40: original_national_team_contracts .......   Passed    9.04 sec
+      Start 25: native_original_actions_smoke
+11/58 Test #36: native_original_team_smoke .............   Passed   12.83 sec
+      Start 46: native_penalty_control_smoke
+12/58 Test #25: native_original_actions_smoke ..........   Passed   10.48 sec
+      Start 28: original_presentation_contracts
+13/58 Test #46: native_penalty_control_smoke ...........   Passed    9.31 sec
+      Start 34: native_original_control_smoke
+14/58 Test #28: original_presentation_contracts ........   Passed    8.10 sec
+      Start 30: original_scene_contracts
+15/58 Test #34: native_original_control_smoke ..........   Passed    7.70 sec
+      Start 55: native_frontend_smoke
+16/58 Test #55: native_frontend_smoke ..................   Passed    3.23 sec
+      Start 57: native_commentary_smoke
+17/58 Test #30: original_scene_contracts ...............   Passed    6.88 sec
+      Start 43: native_match_depth_smoke
+18/58 Test #57: native_commentary_smoke ................   Passed    3.17 sec
+      Start 39: original_regulation_match_contracts
+19/58 Test #43: native_match_depth_smoke ...............   Passed    4.15 sec
+      Start 56: original_commentary_contracts
+20/58 Test #39: original_regulation_match_contracts ....   Passed    3.49 sec
+      Start  8: native_player_smoke
+21/58 Test #56: original_commentary_contracts ..........   Passed    4.43 sec
+      Start 22: original_graphics_contracts
+22/58 Test  #8: native_player_smoke ....................   Passed    3.17 sec
+      Start  5: native_physics_smoke
+23/58 Test  #5: native_physics_smoke ...................   Passed    1.91 sec
+      Start 45: original_penalty_control_contracts
+24/58 Test #22: original_graphics_contracts ............   Passed    3.39 sec
+      Start 21: timed_match_contracts
+25/58 Test #45: original_penalty_control_contracts .....   Passed    2.85 sec
+      Start 13: virtual_gamepad_contracts
+26/58 Test #21: timed_match_contracts ..................   Passed    1.96 sec
+      Start 14: native_gamepad_smoke
+27/58 Test #13: virtual_gamepad_contracts ..............   Passed    1.61 sec
+      Start 58: original_environment_contracts
+28/58 Test #14: native_gamepad_smoke ...................   Passed    2.60 sec
+      Start 44: original_knockout_contracts
+29/58 Test #44: original_knockout_contracts ............   Passed    1.66 sec
+      Start 51: original_match_overlay_contracts
+30/58 Test #51: original_match_overlay_contracts .......   Passed    0.84 sec
+      Start 19: keeper_contracts
+31/58 Test #19: keeper_contracts .......................   Passed    0.59 sec
+      Start 48: original_human_setpiece_contracts
+32/58 Test #48: original_human_setpiece_contracts ......   Passed    0.74 sec
+      Start 52: original_audio_contracts
+33/58 Test #52: original_audio_contracts ...............   Passed    0.89 sec
+      Start 54: original_frontend_contracts
+34/58 Test #58: original_environment_contracts .........   Passed    7.30 sec
+      Start 47: original_penalty_result_contracts
+35/58 Test #54: original_frontend_contracts ............   Passed    1.32 sec
+      Start 35: original_team_play_contracts
+36/58 Test #47: original_penalty_result_contracts ......   Passed    0.98 sec
+      Start  3: native_render_smoke
+37/58 Test #35: original_team_play_contracts ...........   Passed    0.75 sec
+      Start 29: original_ball_presentation_contracts
+38/58 Test  #3: native_render_smoke ....................   Passed    0.91 sec
+      Start  9: opponent_contracts
+39/58 Test #29: original_ball_presentation_contracts ...   Passed    1.93 sec
+      Start 17: opponent_passing_contracts
+40/58 Test  #9: opponent_contracts .....................   Passed    1.55 sec
+      Start 16: opponent_motion_contracts
+41/58 Test #17: opponent_passing_contracts .............   Passed    1.61 sec
+      Start 38: original_live_match_contracts
+42/58 Test #16: opponent_motion_contracts ..............   Passed    1.41 sec
+      Start 12: goal_and_restart_contracts
+43/58 Test #38: original_live_match_contracts ..........   Passed    1.12 sec
+      Start 20: attack_contracts
+44/58 Test #12: goal_and_restart_contracts .............   Passed    1.57 sec
+      Start  2: native_asset_verification
+45/58 Test #20: attack_contracts .......................   Passed    0.79 sec
+      Start  7: player_practice_contracts
+46/58 Test  #2: native_asset_verification ..............   Passed    0.59 sec
+      Start 18: teammate_defense_contracts
+47/58 Test  #7: player_practice_contracts ..............   Passed    1.07 sec
+      Start 24: original_action_contracts
+48/58 Test #18: teammate_defense_contracts .............   Passed    1.01 sec
+      Start 27: original_keeper_continuation
+49/58 Test #24: original_action_contracts ..............   Passed    1.23 sec
+      Start 15: receiver_flow_contracts
+50/58 Test #27: original_keeper_continuation ...........   Passed    1.29 sec
+      Start 33: original_control_contracts
+51/58 Test #15: receiver_flow_contracts ................   Passed    0.94 sec
+      Start 23: native_original_graphics_smoke
+52/58 Test #33: original_control_contracts .............   Passed    0.52 sec
+      Start 26: original_attack_contracts
+53/58 Test #26: original_attack_contracts ..............   Passed    0.53 sec
+      Start  6: restoration_tool_contracts
+54/58 Test #23: native_original_graphics_smoke .........   Passed    0.77 sec
+      Start  4: original_ball_contracts
+55/58 Test  #6: restoration_tool_contracts .............   Passed    0.85 sec
+      Start  1: asset_contracts
+56/58 Test  #4: original_ball_contracts ................   Passed    1.00 sec
+      Start 11: teammate_support_contracts
+57/58 Test  #1: asset_contracts ........................   Passed    1.04 sec
+58/58 Test #11: teammate_support_contracts .............   Passed    0.52 sec
+
+100% tests passed, 0 tests failed out of 58
+
+Total Test time (real) = 187.50 sec
+
+EURO: 121 entries, 15 backgrounds, 10 tactics tables verified.
+EUROREND: 229 bounded entries, 6613404 bytes.
+FAP: 27 bounded entries, 1452928 bytes.
+FAPF: 4 bounded entries, 279252 bytes.
+Native render completed: 40 frames.

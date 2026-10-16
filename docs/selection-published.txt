@@ -1,0 +1,4 @@
+Playtest ready: version 0.44.0 (abf9c81d1c6b57c9-2b4b128d-0703f4d7-4e7d91ab)
+Open: C:\Users\vrock\Documents\Codex\2026-10-08\ex\outputs\Play-Actua96.cmd
+Ready: 0.44.0 / abf9c81d1c6b57c9-2b4b128d-0703f4d7-4e7d91ab
+Tournament SHA256: 9683D18CECAD6D6C3D57D294CA57CD1B0CFF427C723892502D05958F8F4BC2DF

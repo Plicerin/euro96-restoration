@@ -1,0 +1,20 @@
+Package 0.44.0: 36 files hash-checked; 0 optional media absent.
+Isolated package passed --version
+Isolated package passed --verify
+Isolated package passed --frontend-smoke
+Isolated package passed --tournament-save-smoke
+Isolated package passed --movie-smoke
+Isolated package passed --intro-smoke
+Isolated package and logs retained: C:\Users\vrock\AppData\Local\Temp\Actua96 package audit 9240c1dc8d7b4585a79972d44523f813
+EURO: 121 entries, 15 backgrounds, 10 tactics tables verified.
+EUROREND: 229 bounded entries, 6613404 bytes.
+FAP: 27 bounded entries, 1452928 bytes.
+FAPF: 4 bounded entries, 279252 bytes.
+Set-piece fixture 0 released; subsequent mode=0.
+Set-piece fixture 1 released; subsequent mode=0.
+Set-piece fixture 2 released; subsequent mode=0.
+Set-piece fixture 3 released; subsequent mode=0.
+Set-piece fixture 4 released; subsequent mode=11.
+Set-piece fixture 5 released; subsequent mode=0.
+Set-piece fixture 6 released; subsequent mode=0.
+Native render completed: 1135 frames.

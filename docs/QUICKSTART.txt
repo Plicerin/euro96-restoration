@@ -1,0 +1,232 @@
+UEFA EURO 96 - WINDOWS RESTORATION 0.67.0
+
+START
+Double-click Start-Euro96.cmd (Start-Actua96.cmd also works). Keep actua96.exe, SDL3.dll, data and audio
+folders together. No DOS emulator or mounted CD is needed after packaging.
+The restoration target is the PC/DOS UEFA Euro 96 game. Gameplay and squads
+come from the preserved Euro 96 revision. Some Actua Soccer media remains
+as a documented compatibility source. Exact retail menu timing, tournament
+navigation and a few audio routes remain fidelity differences.
+
+On a development/playtest installation, use Play-Euro96.cmd. Play-Actua96.cmd remains an alias.
+Publishing an update does not interrupt a match already running.
+Retail stadium-board artwork is installed for supported events and visible boards.
+Euro exhibitions/custom draws skip the compatibility welcome; tournament speech remains.
+New matches and rematches now start with fresh randomness instead of repeating
+the same seeded opening. Original referee strictness and card rules are retained.
+Kickoff immediately marks your centre taker, or nearest outfield defender
+when the opponent starts. Automatic switching continues after the centre pass.
+
+EURO96 CD MEDIA
+All 32 retail outfield strips are available, including Croatia and Turkey.
+Opponent kit clashes select that country's alternate strip. English player
+names cover all 320 preserved squad identities (959 Euro tones and one
+accepted Actua tone for Kuznetsov). Retail heads, skin
+variations and keeper artwork now accompany the original shirt numbers 1-20.
+All 16 countries have English introductions, including Croatia and Turkey.
+The Euro96 disc music plays in the menus and resumes after matches.
+Results continue that theme into the next menu, without separate outcome stings.
+Thirty match-commentary categories and all 132 score-announcement takes now
+use the Euro96 disc recordings. Pitch/crowd audio uses its verified bank.
+Half-time and regulation result calls now use verified Euro96 period speech.
+Original-draw group, quarter-final, semi-final and final introductions use retail sequences.
+Knockout winners use the original country-specific championship/penalty/extra-time
+calls. Exhibition/custom-draw introductions, missing half-time scores,
+five event banks and French still retain compatibility audio. Older result
+stings are used only when the Euro theme is absent.
+Match setup now offers the eight retail Euro96 stadiums: Wembley, Villa Park,
+Elland Road, St James Park, Old Trafford, Anfield, Hillsborough and City Ground.
+Wembley is the default. Existing saves and replays keep their original venue.
+
+MENU PRESENTATION
+Original menu and HUD fonts now use smooth scaling, including the pause menu.
+Selected text and cyan headings use brighter, filled lettering for readability.
+The rotating selection circles also have gently smoothed edges.
+R3 / F6 opens the match information panel using recovered Euro96 artwork.
+Tab / F7 toggles the radar; its current state appears in that panel.
+Menus now use the recovered Euro 96 fonts, buttons, country graphics,
+formation pitch and tournament backgrounds. Arrows/D-pad select a title
+entry; Enter/A confirms. Existing direct shortcuts still work. Cyan Back
+or Options labels at the foot of screens are clickable.
+In the tournament, Fixtures cycles group rounds; Rounds opens knockout
+pages. Left/Right and Previous/Next Page revisit earlier results.
+Between frontend screens, the old page fades out before the new page fades in.
+Each phase follows the original 25-step curve (about 0.42 seconds per phase
+with native timing). Focus loss holds the transition. Pressing a key/button
+or clicking during fade-out reveals the destination; confirm again to act.
+Input queued before the revealed screen is drawn cannot activate its controls.
+During fade-in, navigation restores brightness and works normally. F8/F9/F11
+remain available. Match/presentation controls and movies are unchanged.
+
+PRE-MATCH LINEUP
+After confirming the squad, the original teams and officials line up on the
+pitch. The camera orbits for seven seconds and holds for two before kickoff.
+Enter / Space / Escape or South / East / Back skips to the prepared match.
+P / Start pauses; focus loss or controller disconnect also pauses.
+Release action buttons after skipping before passing or shooting.
+This sequence does not advance the match clock or alter the match state.
+
+SUBSTITUTIONS AND SEND-OFFS
+F3 opens the squad panel; choose the outgoing player and an unused bench
+player, confirm, then close the panel and resume. At the next stoppage,
+the outgoing player runs to the tunnel and the substitute runs back on.
+Red cards show the dismissed player leaving without a replacement.
+Enter / South skips the current transition; P / Start pauses it.
+Focus loss and controller disconnect pause it too. Release action buttons
+before playing again. Match time, statistics and discipline stay frozen.
+
+EXHIBITION
+Choose EXHIBITION at the title with Enter / controller South.
+Arrows / D-pad: choose teams, formations, duration, camera and format.
+Enter / South: watch CPU v CPU. Y / North: play as the home country.
+Review the lineups, then Enter / South to kick off.
+At half-time, Enter / South continues. CPU exhibitions resume automatically.
+Players first exit through the original CD stadium tunnel at half/full-time.
+The referee and assistants remain visible, using the original period-end actions.
+Enter / South skips the exit to the team-talk/results screen. P / Start pauses.
+Focus loss or controller disconnection pauses the exit until you resume.
+The live match stays frozen throughout; the exit cannot change its result.
+
+LOCAL HEAD TO HEAD
+Connect two controllers. At match setup choose H / West (Xbox X): 2 PLAYERS.
+Choose countries and lineups, then Enter / South to kick off.
+On first local launch, the starting controller is P1 (home); the other is P2 (away).
+Rematches retain the assignments.
+If starting with the keyboard, the most recently used controller is P1.
+Each controller moves its own selected player; East / LB / RB switches.
+P1 and P2 keep their countries when teams change ends. Both markers use
+original artwork; the top strip identifies each selected player.
+Both teams use the existing pass, shot, tackle, aftertouch and first-touch
+controls. Hold South to control an incoming ball. Start pauses for either player.
+A disconnected controller pauses play. Press Start on a replacement controller
+to claim the empty slot, release it, then press Start again to resume.
+The remaining controller cannot take the missing player's slot or resume alone.
+Local play is exhibition only; regulation, knockout, golden goal and shootouts
+are supported. There is no co-op, keyboard-versus-pad, or network play yet.
+
+STARTUP
+Euro 96 opens directly to its original menu artwork and music.
+The Actua Soccer intro and making-of film are not part of this release.
+Exhibition, Championship, Resume, Saved Replays, Options and Quit are available.
+Arrows / D-pad select; Enter / South confirms. F11 changes fullscreen.
+
+MATCH CONTROLS
+Arrows / WASD / left stick / D-pad: move or aim a restart.
+Space / South: pass. C / North: loft. X / West: shoot or tackle.
+While moving, shot/pass uses the original immediate decision.
+Standing still: hold then release shot for a drive, pass for a ground pass.
+Hold both while still: release shot for a chip, pass for a high pass.
+Then release the remaining button. The power bar shows the held charge.
+Incoming loose ball: hold shot to strike, pass to control, both to pass first-time.
+Both means X + Space on keyboard or West + South (Xbox X + A).
+The original predictor chooses a reachable chip or header and an eligible teammate.
+After a normal shot, direction bends/adjusts height; drives do not bend.
+Near an opponent with the ball, pass also requests a close steal.
+E / East / LB / RB: switch player. P / Start: pause and show contextual help.
+Pause shows AUTO SELECT ON for human team play, CPU v CPU for spectator mode.
+RB takes control of a watched exhibition; it never changes human play to CPU.
+Choose Watch in match setup to watch both CPU teams.
+Automatic selection favors the receiver/interceptor, then distance to the ball.
+It keeps a nearby selected player; manual switching takes priority briefly.
+Held movement carries through automatic switches. Keeper distribution stays yours.
+Back / View does nothing on the pitch, including while paused. It still closes menus/replays.
+F2 / L3: match menu. F3: squad/substitutions. F4: replay recent play.
+V: camera. F6 / R3: panels. Tab / F7: radar. F11: fullscreen.
+Space / South returns from replay. F8 mutes sound; F9 changes commentary volume.
+Set-piece direction, power and height have on-pitch indicators and prompts.
+Losing window focus or disconnecting the active controller pauses play.
+Controller names describe button positions: on Xbox, South=A, East=B,
+West=X, North=Y. One active controller is supported, not two-player matches.
+
+REPLAYS
+F4 opens recent play. On a pad, Start pauses, then West opens replay.
+P / Start pauses or resumes. Left/Right or D-pad L/R steps one frame.
+Down/Up or D-pad D/U adjusts speed from 20% to 100% in original 20% steps.
+Page Up/Down or LB/RB jumps back/forward one second. Home/End seeks the
+beginning/latest frame; North seeks the beginning. Clicking the bar seeks.
+Seeking pauses. L / West toggles continuous looping; V / R3 changes camera.
+Manual replay ends at the beginning, paused. Automatic goal replays return
+to the match unless you take over playback. Space / South returns to play,
+restoring the earlier camera and pause state. Replay files are not saved.
+
+SQUAD, TACTICS AND OPTIONS
+At lineup or half-time, T / West opens tactics; Y / North switches pages
+(Formation, Set Piece Takers, Attributes). Tab / LB / RB changes country.
+O / RB from the main menus opens Options. Y / North switches Match/Audio.
+Up/Down selects; Left/Right changes; Enter / South or Escape / East returns.
+Match options apply at the next kickoff. Audio changes immediately.
+Preferences save automatically; tournament progress is stored separately.
+Audio's Voice Language row selects original English or French commentary,
+including introductions, scores and matched player names. Changes apply
+immediately and save. Menus and the CD film keep their original language.
+
+TOURNAMENT
+T / West at the title starts a tournament. L / R3 resumes the saved one.
+Choose a country or Watch All Teams, then Enter / South.
+New championships follow the original fixture venue schedule when all eight
+Euro stadium packs are installed. The final is at Wembley. Existing saved
+tournaments keep their selected stadium. Scheduled saves require 0.64.0 or later.
+At the tournament hub, Enter / South advances to the next fixture;
+Y / North simulates one spectator fixture. A / R3 toggles auto progression.
+Country-controlled matches wait for your lineup approval. Other fixtures
+use the restored gameplay engine when simulated.
+Progress saves after completed matches. Loading an unfinished fixture
+restarts that fixture; mid-match resume is not implemented.
+Save Failed blocks progression: S / LB retries and shows the error.
+
+SAVES AND PREFERENCES
+Windows folder: %APPDATA%/Actua96 Restoration/Actua96/
+Tournament: tournament.sav. Preferences: tournament.prefs.
+Previous valid versions are retained as .bak files. Resume tries the backup
+if the main tournament save is missing or damaged, and reports BACKUP LOADED.
+This may restore an earlier checkpoint. Loading does not rewrite either file.
+S / LB saves recovered progress while retaining the good backup.
+These are native files,
+not compatible with DOS saves. Starting a new tournament replaces the
+current competition, retaining the previous checkpoint as a backup.
+
+SAVED REPLAYS
+F4 opens recent play; on a controller, Start then West / X.
+In replay, S / East / B saves the original up-to-15-second recording.
+F10 opens Saved Replays from the title, paused match or results.
+Controller: L3 from title, East / B from paused match.
+Arrows / D-pad / wheel select; Enter / South plays; R / North refreshes.
+Existing replay pause, camera, speed, step, seek and loop controls apply.
+Space / South returns to the library; Escape / Back returns to its origin.
+A live match remains paused. Saved clips also work after restarting.
+Files: %APPDATA%\Actua96 Restoration\Actua96\replays\*.a96r
+These native visual files need the matching assets and contain no audio.
+Each save is a new file; old clips are not overwritten. Failures are shown.
+
+CURRENT LIMITS
+All sixteen countries have original Euro96 home/alternate strips and shirt
+numbers 1-20. Retail appearances match 296 of the preserved 320 players;
+English spoken names cover 308. Unmatched players retain fallback appearance
+or omit the player-name call. Eight Euro96 venues are available. Actua films
+are excluded from normal startup and portable releases. Local head-to-head
+is implemented; physical two-controller
+validation remains pending. Network multiplayer and mid-match saving are
+not implemented.
+The native menus, renderer, scheduling and save format surround restored
+original AI, actions, physics and rules. Menus use recovered artwork but are
+not exact DOS replicas.
+
+PACKAGE CHECK
+In PowerShell, run:
+  powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\verify_package.ps1
+Add -Smoke for hidden checks from an isolated temporary copy. This checks
+archives, front-end events and an isolated AppData save/preferences probe;
+it does not replace testing on another Windows computer. The hash manifest
+checks package integrity, not authenticity. Logs/copy are retained in Temp.
+
+Original CD media is optional at build time; package.json lists any missing
+media. Missing files reduce presentation/audio. The package includes the
+SDL license.
+
+RETAIL PREVIEWS AND TROPHY FILMS (0.62.0)
+Select VENUE in exhibition setup to see its original animated preview.
+Open TACTICS and use NEXT PAGE twice for original player previews.
+A completed championship offers TROPHY FILM (Enter / A) and replay.
+During a film: P / Start pauses; Enter / A or Escape / B skips.
+
+0.62.1: All 320 player statistics previews are now mapped, including Neno.

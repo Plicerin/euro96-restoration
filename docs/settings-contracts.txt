@@ -1,0 +1,33 @@
+UpdateCTestConfiguration  from :C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/DartConfiguration.tcl
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 66
+    Start 66: match_settings_contracts
+
+66: Test command: C:\Users\vrock\AppData\Local\Temp\actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b\Release\settings_tests.exe "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/local-data" "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/settings-captures"
+66: Working Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+66: Environment variables: 
+66:  SDL_AUDIODRIVER=dummy
+66:  SDL_VIDEODRIVER=dummy
+66:  SDL_RENDER_DRIVER=software
+66: Test timeout computed to be: 90
+66: Preferences: Truncated preferences
+66: Preferences save: create_directories: Cannot create a file when that file already exists.: "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/settings-captures\not-a-directory"
+66: Wind 0: 1:0 fouls=4 offsides=2 cards=4
+66: Wind 1: 1:1 fouls=6 offsides=0 cards=5
+66: Wind 2: 1:0 fouls=0 offsides=0 cards=0
+66: Wind 3: 1:0 fouls=9 offsides=5 cards=0
+66: Settings persistence/recovery, rule and wind behavior, referee decisions, controls, deferred match changes, independent audio PCM and four CPU matches passed.
+1/1 Test #66: match_settings_contracts .........   Passed    1.66 sec
+
+The following tests passed:
+	match_settings_contracts
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   1.75 sec

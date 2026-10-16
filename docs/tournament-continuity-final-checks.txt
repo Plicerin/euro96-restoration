@@ -1,0 +1,17 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start 62: original_tournament_contracts
+    Start 55: native_frontend_smoke
+1/6 Test #62: original_tournament_contracts .......   Passed    2.56 sec
+    Start 61: original_presentation33_contracts
+2/6 Test #55: native_frontend_smoke ...............   Passed    2.92 sec
+    Start 63: native_tournament_save_directory
+3/6 Test #61: original_presentation33_contracts ...   Passed    1.18 sec
+    Start 54: original_frontend_contracts
+4/6 Test #63: native_tournament_save_directory ....   Passed    1.03 sec
+    Start 64: tournament_continuity_contracts
+5/6 Test #54: original_frontend_contracts .........   Passed    1.05 sec
+6/6 Test #64: tournament_continuity_contracts .....   Passed    0.66 sec
+
+100% tests passed, 0 tests failed out of 6
+
+Total Test time (real) =   5.16 sec

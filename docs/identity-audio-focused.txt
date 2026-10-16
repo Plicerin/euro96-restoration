@@ -1,0 +1,15 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start  99: retail_period_contracts
+    Start  92: euro96_media_contracts
+1/5 Test  #92: euro96_media_contracts ..............   Passed    8.88 sec
+    Start  90: euro96_preview_identity_contracts
+2/5 Test  #90: euro96_preview_identity_contracts ...   Passed    0.44 sec
+    Start 100: retail_period_provenance
+3/5 Test #100: retail_period_provenance ............   Passed    0.49 sec
+    Start  93: euro96_import_contracts
+4/5 Test  #93: euro96_import_contracts .............   Passed    0.48 sec
+5/5 Test  #99: retail_period_contracts .............   Passed   29.56 sec
+
+100% tests passed, 0 tests failed out of 5
+
+Total Test time (real) =  29.58 sec

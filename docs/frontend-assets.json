@@ -1,0 +1,75 @@
+{
+  "source_iso": "actua-soccer.iso",
+  "assets": [
+    {
+      "path": "FRONTEND/TITLE.IDX",
+      "size": 307200,
+      "sha256": "3b7b387c65b6245ff5912588f9bdb700ccf0f66ed81f1d216759bbb69156a052",
+      "origin": "CD DATA.DAT record 8, 640x480 indexed; visually verified title"
+    },
+    {
+      "path": "FRONTEND/TITLE.PAL",
+      "size": 768,
+      "sha256": "c4b5d877416906406f144e17464e2e2462d16df148da8e5b6326d7c5b03c84d4",
+      "origin": "CD DATA.DAT record 15, VGA palette; visually verified match"
+    },
+    {
+      "path": "DIGI/MUSIC/MENU.WAV",
+      "size": 6371924,
+      "sha256": "ecdd6356283e54297105af6c47571a2f0ee14a7d560d6f9bb446ab02adeaa91c",
+      "origin": "Original CD DIGI/MUSIC/MENU.WAV",
+      "wave": {
+        "channels": 2,
+        "sample_width": 1,
+        "rate": 22050,
+        "frames": 3185940,
+        "compression": "NONE",
+        "seconds": 144.487
+      }
+    },
+    {
+      "path": "DIGI/MUSIC/WIN.WAV",
+      "size": 155228,
+      "sha256": "09d35a75a771f332b846062d3ae7ca0b917840adf5b364dae25cf856b6b5c0ef",
+      "origin": "Original CD DIGI/MUSIC/WIN.WAV",
+      "wave": {
+        "channels": 2,
+        "sample_width": 1,
+        "rate": 22050,
+        "frames": 77592,
+        "compression": "NONE",
+        "seconds": 3.519
+      }
+    },
+    {
+      "path": "DIGI/MUSIC/LOSE.WAV",
+      "size": 177260,
+      "sha256": "3dda21007c5534cc953c394a6d82338db50d7c491d4e69d6f77ba72d1614647a",
+      "origin": "Original CD DIGI/MUSIC/LOSE.WAV",
+      "wave": {
+        "channels": 2,
+        "sample_width": 1,
+        "rate": 22050,
+        "frames": 88608,
+        "compression": "NONE",
+        "seconds": 4.019
+      }
+    },
+    {
+      "path": "DIGI/MUSIC/DRAW.WAV",
+      "size": 166606,
+      "sha256": "eeb47c7406ccf267f5fc9fd14f5cffa676d853cda4079e24df3d3e9f029ee640",
+      "origin": "Original CD DIGI/MUSIC/DRAW.WAV",
+      "wave": {
+        "channels": 2,
+        "sample_width": 1,
+        "rate": 22050,
+        "frames": 83281,
+        "compression": "NONE",
+        "seconds": 3.777
+      }
+    }
+  ],
+  "data_dat_sha256": "88821b4e3f328ab022265a0a72fef7ef954d94f5d54c1ef7d6cee06a08236c80",
+  "data_off_sha256": "e755e5dc147edec8c9e63446a612fe2d1cf60928a90aa70017ec29ad56678e6c"
+}

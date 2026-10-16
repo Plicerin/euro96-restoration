@@ -1,0 +1,65 @@
+Graphics environment 0.31.0 verification
+
+Full suite: 57 existing tests passed (192.84 s), plus new environment contract passed.
+Final bounded-sampling build: environment contract passed (4.51 s); five focused scene/graphics/setup/front-end tests passed (16.12 s).
+Full CPU match: England 1:0 Scotland, 7328 ticks, 199 rendered frames; all 16 country pairs across three cameras.
+CD importer: 128 source components byte-identical; all 112 imported component hashes and full pack hash verified.
+Original SOURCE git diff empty; all four archives validated. Existing 23 missing include names and nine linked objects without matching source remain the preservation baseline.
+Completed-frame captures visually reviewed: match, France kit, stadium, close goal; published France/Germany capture reviewed.
+Snapshot: 7e68669e04f5f835-2b4b128d-0703f4d7-d3b5a220
+Eight imported media asset hashes plus pitch audio, executable and SDL DLL verified by launcher.
+Published hidden front-end smoke completed 40 frames, exit 0; published CPU capture exit 0. No interactive game launched or restarted.
+
+--- graphics-batch-detail.log ---
+UpdateCTestConfiguration  from :C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/DartConfiguration.tcl
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 58
+    Start 58: original_environment_contracts
+
+58: Test command: C:\Users\vrock\AppData\Local\Temp\actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b\Release\environment_tests.exe "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/local-data" "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/graphics-captures"
+58: Working Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+58: Environment variables: 
+58:  SDL_VIDEODRIVER=dummy
+58:  SDL_RENDER_DRIVER=software
+58: Test timeout computed to be: 10000000
+58: CD kits 14; 16 country pairs / 3 cameras; CPU 1:0 ticks 7328 rendered frames 199
+58: Original graphics environment contracts passed
+1/1 Test #58: original_environment_contracts ...   Passed    4.43 sec
+
+The following tests passed:
+	original_environment_contracts
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   4.51 sec
+
+--- graphics-batch-final-focused.log ---
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start 41: native_match_setup_smoke
+    Start 30: original_scene_contracts
+1/5 Test #30: original_scene_contracts .........   Passed    6.83 sec
+    Start 55: native_frontend_smoke
+2/5 Test #55: native_frontend_smoke ............   Passed    2.85 sec
+    Start 54: original_frontend_contracts
+3/5 Test #54: original_frontend_contracts ......   Passed    0.79 sec
+    Start 23: native_original_graphics_smoke
+4/5 Test #23: native_original_graphics_smoke ...   Passed    0.68 sec
+5/5 Test #41: native_match_setup_smoke .........   Passed   16.05 sec
+
+100% tests passed, 0 tests failed out of 5
+
+Total Test time (real) =  16.12 sec
+
+--- graphics-published-smoke.log ---
+EURO: 121 entries, 15 backgrounds, 10 tactics tables verified.
+EUROREND: 229 bounded entries, 6613404 bytes.
+FAP: 27 bounded entries, 1452928 bytes.
+FAPF: 4 bounded entries, 279252 bytes.
+Native render completed: 40 frames.
+

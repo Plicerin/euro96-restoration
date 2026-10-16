@@ -1,0 +1,33 @@
+{
+  "version": "0.44.0",
+  "sourceSha256": "d2e531f07d3af8b62238bdc6f1e1947e54e4e74a4ba7ae8af66b62b02020b170",
+  "routines": [
+    {
+      "file": "USER.CPP",
+      "name": "clear_auto",
+      "line": 402,
+      "sha256": "521ca9d206c80dd6658ddc7365c2b694022807f173b34c09072fe9113c13295e"
+    },
+    {
+      "file": "USER.CPP",
+      "name": "auto_select_a",
+      "line": 529,
+      "sha256": "3338fd5c9523e989d652e5b04d8a163178e92dd585482f70ff0faae58c5a2f24"
+    },
+    {
+      "file": "USER.CPP",
+      "name": "auto_select_b",
+      "line": 609,
+      "sha256": "93b689fe6008fedaa0c37626819b53776dd64376d52f4bcde1fa1f14210f42b6"
+    }
+  ],
+  "integration": {
+    "routines": [
+      "USER.CPP clear_auto",
+      "USER.CPP auto_select_a",
+      "USER.CPP auto_select_b"
+    ],
+    "rules": "Intact receiver/interceptor/near-path priority, teammate possession, selection-circle retention, fall/disabled-player and keeper filters.",
+    "boundary": "Native single-user registry synchronized at tick boundaries. Original new_users ball_travel++ > select_cnt (10) cadence is 12 ticks; also used for loose-ball polling because DOS user_conts dispatch remains disconnected. Original reselect notifications trigger a next-tick check. Manual switching reserves one cadence; keeper possession/contact, dead balls and shootouts retain their dedicated adapters. auto_users_a/b stay zero outside the extracted selector calls; multiplayer registry and DOS input dispatch are not enabled."
+  }
+}

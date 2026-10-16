@@ -1,0 +1,28 @@
+{
+  "version": "0.69.0",
+  "buildId": "1a79e0d21c449252-2b4b128d-0703f4d7-479329d4",
+  "executableSha256": "1a79e0d21c449252809db927e2f8a1cfd4dfe98479cd34f8221eddef9d66c2d2",
+  "package": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\actuasoccer96-windows\\dist\\actua96-0.69.0-fdcfd361951441ce80b3a1ed5ef3df8b",
+  "packageHashes": 54,
+  "packageSmokeChecks": 9,
+  "fullTests": 108,
+  "fullSeconds": 266.88,
+  "focusedTests": 6,
+  "focusedSeconds": 53.73,
+  "sourceFiles": 427,
+  "sourceUnchanged": true,
+  "sourceTrackedDiffEmpty": true,
+  "mediaUnchanged": true,
+  "localUserStateUnchanged": true,
+  "localUserState": {
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\save-check-9161454973797.prefs": "F2D70D7D6F0256E2B291303CEA1F491B5777E363879FB486C7B24A2058EEE08F",
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\save-check-9161454973797.prefs.bak": "8C0109C365D4B2EE2E9CC31B62583C6675ACCE63AD0699C78D45762E1C06F258",
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\save-check-9161454973797.sav": "E9A3D05A195EFF47D5C5735DD26C0ABD8487EF09F02C8D0B9706FD370AC41632",
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\save-check-9161454973797.sav.bak": "8B9243C47025D544B8F1D44A0F4D1C70C25C2778A709C0C165874073B5223C23",
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\tournament.sav": "9683D18CECAD6D6C3D57D294CA57CD1B0CFF427C723892502D05958F8F4BC2DF",
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\tournament.sav.bak": "582545086E457D4066619DF693DD0C00874BE66419160F7DF1777C57D48B24A9"
+  },
+  "buildPackagePublishedExeAndMediaMatch": true,
+  "physicalAudioValidation": false,
+  "runningGameRestarted": false
+}

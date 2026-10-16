@@ -1,0 +1,13 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start 33: original_control_contracts
+1/4 Test #33: original_control_contracts ..........   Passed    0.80 sec
+    Start 35: original_team_play_contracts
+2/4 Test #35: original_team_play_contracts ........   Passed    0.67 sec
+    Start 36: original_automatic_selection
+3/4 Test #36: original_automatic_selection ........   Passed    0.61 sec
+    Start 69: original_human_controls_contracts
+4/4 Test #69: original_human_controls_contracts ...   Passed    0.52 sec
+
+100% tests passed, 0 tests failed out of 4
+
+Total Test time (real) =   2.86 sec

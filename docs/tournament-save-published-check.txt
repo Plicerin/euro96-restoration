@@ -1,0 +1,6 @@
+EURO: 121 entries, 15 backgrounds, 10 tactics tables verified.
+EUROREND: 229 bounded entries, 6613404 bytes.
+FAP: 27 bounded entries, 1452928 bytes.
+FAPF: 4 bounded entries, 279252 bytes.
+Production save directory verified: C:\Users\vrock\AppData\Roaming\Actua96 Restoration\Actua96
+Create, simulate, replace, backup, reload, resume and next fixture passed.

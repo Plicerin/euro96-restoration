@@ -1,0 +1,82 @@
+﻿{
+    "host":  "GAIKING",
+    "os":  "Microsoft Windows 11 Pro",
+    "build":  "26200",
+    "version":  "0.63.0",
+    "exeSha256":  "773BB8F8AF584C1FBDD51975442B2DE31A7D6A9056803F21A45407B38295393A",
+    "results":  [
+                    {
+                        "name":  "nine_isolated_package_checks",
+                        "passed":  true
+                    },
+                    {
+                        "name":  "full_tournament",
+                        "passed":  true,
+                        "exit":  0,
+                        "seconds":  7.21
+                    },
+                    {
+                        "name":  "match_matrix",
+                        "passed":  true,
+                        "exit":  0,
+                        "seconds":  4.91
+                    },
+                    {
+                        "name":  "save_recovery",
+                        "passed":  true,
+                        "exit":  0,
+                        "seconds":  0.61
+                    },
+                    {
+                        "name":  "retail_names",
+                        "passed":  true,
+                        "exit":  0,
+                        "seconds":  4.62
+                    },
+                    {
+                        "name":  "retail_periods",
+                        "passed":  true,
+                        "exit":  0,
+                        "seconds":  16.3
+                    }
+                ],
+    "error":  null,
+    "userStateUnchanged":  true,
+    "userStateBefore":  [
+                            {
+                                "name":  "tournament.sav",
+                                "sha256":  "ABSENT"
+                            },
+                            {
+                                "name":  "tournament.sav.bak",
+                                "sha256":  "ABSENT"
+                            },
+                            {
+                                "name":  "tournament.prefs",
+                                "sha256":  "ABSENT"
+                            },
+                            {
+                                "name":  "tournament.prefs.bak",
+                                "sha256":  "ABSENT"
+                            }
+                        ],
+    "userStateAfter":  [
+                           {
+                               "name":  "tournament.sav",
+                               "sha256":  "ABSENT"
+                           },
+                           {
+                               "name":  "tournament.sav.bak",
+                               "sha256":  "ABSENT"
+                           },
+                           {
+                               "name":  "tournament.prefs",
+                               "sha256":  "ABSENT"
+                           },
+                           {
+                               "name":  "tournament.prefs.bak",
+                               "sha256":  "ABSENT"
+                           }
+                       ],
+    "scope":  "Automated hidden checks with dummy video/audio. Physical controls, sound, device switching and display behavior remain separate."
+}

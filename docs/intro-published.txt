@@ -1,0 +1,14 @@
+Published version: 0.43.0
+Snapshot: 666902bc46b05104-2b4b128d-0703f4d7-4e7d91ab
+Exit: 0
+User save before: 9683D18CECAD6D6C3D57D294CA57CD1B0CFF427C723892502D05958F8F4BC2DF
+User save after:  9683D18CECAD6D6C3D57D294CA57CD1B0CFF427C723892502D05958F8F4BC2DF
+User preferences before: ABSENT
+User preferences after: ABSENT
+EURO: 121 entries, 15 backgrounds, 10 tactics tables verified.
+EUROREND: 229 bounded entries, 6613404 bytes.
+FAP: 27 bounded entries, 1452928 bytes.
+FAPF: 4 bounded entries, 279252 bytes.
+Production save directory verified: C:\Users\vrock\AppData\Roaming\Actua96 Restoration\Actua96
+Create, simulate, replace, backup, reload, resume, next fixture and preferences passed.
+

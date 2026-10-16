@@ -1,0 +1,57 @@
+{
+  "source_sha256": {
+    "RULES.CPP": "68630984013862fbc2a6d1bb2a5a9e859a1bfe68a1f20e8f24c1bfb949253fe1",
+    "3D_UPD2.CPP": "9a816445ad36f1d316d5bdc1eef5ebe15536bf291b6bc644db8568ffcc7d57c6",
+    "ACTIONS.CPP": "d580bba909cf6ce93dff67e156423971a510914a5e7123a65b8aa9fc86edd8ad",
+    "EURO_GEN.CPP": "6afcd9a281888cf05389da12cb53e00e11d0920754bdc11e45aa85f3a5d73b58",
+    "EURO_DEF.H": "fdde86fad3d75a2b1f0b14bc5f9f75bee44209391ba64a7e5099b2be981bbbff",
+    "3DENG.C": "6752b57c76e0f0c56fc3c46fd6d8d67879085e97289d9fcb28d3c60bb3d42f76"
+  },
+  "winner_calls": {
+    "do_win_f_anim": [
+      {
+        "file": "3DENG.C",
+        "line": 4025,
+        "text": "do_win_f_anim(int sp)"
+      },
+      {
+        "file": "3DENG.C",
+        "line": 7781,
+        "text": "case 7: do_win_f_anim(spool); break;"
+      }
+    ],
+    "do_win_g_anim": [
+      {
+        "file": "3DENG.C",
+        "line": 4050,
+        "text": "do_win_g_anim(int sp)"
+      },
+      {
+        "file": "3DENG.C",
+        "line": 7782,
+        "text": "case 9: do_win_g_anim(spool); break;"
+      }
+    ],
+    "do_win_s_anim": [
+      {
+        "file": "3DENG.C",
+        "line": 4075,
+        "text": "do_win_s_anim(int sp)"
+      },
+      {
+        "file": "3DENG.C",
+        "line": 7783,
+        "text": "case 11: do_win_s_anim(spool); break;"
+      }
+    ]
+  },
+  "findings": [
+    "RULES.CPP process_ref explicitly stands during SWAP_ENDS; no referee tunnel route is called.",
+    "process_lman dispatches idle follow (which stands while match_mode is nonzero) or its existing goto_target action.",
+    "3D_UPD2.CPP writes all three official records without a SWAP_ENDS visibility exclusion.",
+    "ACTIONS.CPP init_officials starts at centre spot/touchlines; no tunnel entry is present in that initializer.",
+    "WIN functions have definitions and render-spool continuation calls only; no match-event caller was found in supplied source.",
+    "EURO_DEF.H defines 25 fade ticks; EURO_GEN.CPP adds channel/25 per fade-up interrupt."
+  ],
+  "scope": "Source audit of supplied revision; not a claim that every retail executable behaves identically."
+}

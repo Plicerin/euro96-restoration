@@ -1,0 +1,830 @@
+[
+  {
+    "path": "DIGI/MUSIC/EURO96.WAV",
+    "size": 12291570
+  },
+  {
+    "path": "FAPS/BUBORI.FAP",
+    "size": 556118
+  },
+  {
+    "path": "FAPS/BUIVAN.FAP",
+    "size": 556313
+  },
+  {
+    "path": "FAPS/BULECH.FAP",
+    "size": 551931
+  },
+  {
+    "path": "FAPS/BULGO1.FAP",
+    "size": 617122
+  },
+  {
+    "path": "FAPS/BULGO2.FAP",
+    "size": 614840
+  },
+  {
+    "path": "FAPS/BUMDBK.FAP",
+    "size": 17944
+  },
+  {
+    "path": "FAPS/BUMDBR.FAP",
+    "size": 549741
+  },
+  {
+    "path": "FAPS/BUWTBK.FAP",
+    "size": 547297
+  },
+  {
+    "path": "FAPS/BUWTBL.FAP",
+    "size": 549991
+  },
+  {
+    "path": "FAPS/BUWTBR.FAP",
+    "size": 549340
+  },
+  {
+    "path": "FAPS/CRBOBA.FAP",
+    "size": 576456
+  },
+  {
+    "path": "FAPS/CRJARN.FAP",
+    "size": 581169
+  },
+  {
+    "path": "FAPS/CRJURC.FAP",
+    "size": 586055
+  },
+  {
+    "path": "FAPS/CRMDBK.FAP",
+    "size": 583424
+  },
+  {
+    "path": "FAPS/CRMDBR.FAP",
+    "size": 577656
+  },
+  {
+    "path": "FAPS/CROBLA.FAP",
+    "size": 540222
+  },
+  {
+    "path": "FAPS/CROGO1.FAP",
+    "size": 623908
+  },
+  {
+    "path": "FAPS/CRWTBK.FAP",
+    "size": 582058
+  },
+  {
+    "path": "FAPS/CRWTBL.FAP",
+    "size": 577375
+  },
+  {
+    "path": "FAPS/CRWTBR.FAP",
+    "size": 576223
+  },
+  {
+    "path": "FAPS/CZBRMU.FAP",
+    "size": 566189
+  },
+  {
+    "path": "FAPS/CZEGO1.FAP",
+    "size": 617166
+  },
+  {
+    "path": "FAPS/CZEGO2.FAP",
+    "size": 619829
+  },
+  {
+    "path": "FAPS/CZMDBK.FAP",
+    "size": 564701
+  },
+  {
+    "path": "FAPS/CZMDBR.FAP",
+    "size": 559523
+  },
+  {
+    "path": "FAPS/CZSKUH.FAP",
+    "size": 564304
+  },
+  {
+    "path": "FAPS/CZWTBK.FAP",
+    "size": 564897
+  },
+  {
+    "path": "FAPS/CZWTBL.FAP",
+    "size": 564889
+  },
+  {
+    "path": "FAPS/CZWTBR.FAP",
+    "size": 560311
+  },
+  {
+    "path": "FAPS/DEMDBK.FAP",
+    "size": 581747
+  },
+  {
+    "path": "FAPS/DEMDBR.FAP",
+    "size": 585292
+  },
+  {
+    "path": "FAPS/DENBLA.FAP",
+    "size": 577165
+  },
+  {
+    "path": "FAPS/DENGO1.FAP",
+    "size": 624272
+  },
+  {
+    "path": "FAPS/DENGO2.FAP",
+    "size": 623174
+  },
+  {
+    "path": "FAPS/DEVILF.FAP",
+    "size": 583876
+  },
+  {
+    "path": "FAPS/DEWTBK.FAP",
+    "size": 580531
+  },
+  {
+    "path": "FAPS/DEWTBL.FAP",
+    "size": 580206
+  },
+  {
+    "path": "FAPS/DEWTBR.FAP",
+    "size": 584096
+  },
+  {
+    "path": "FAPS/ENGBLA.FAP",
+    "size": 559952
+  },
+  {
+    "path": "FAPS/ENGGO1.FAP",
+    "size": 614407
+  },
+  {
+    "path": "FAPS/ENGGO2.FAP",
+    "size": 614251
+  },
+  {
+    "path": "FAPS/ENMDBK.FAP",
+    "size": 567117
+  },
+  {
+    "path": "FAPS/ENMDBR.FAP",
+    "size": 569729
+  },
+  {
+    "path": "FAPS/ENSTON.FAP",
+    "size": 566751
+  },
+  {
+    "path": "FAPS/ENWTBK.FAP",
+    "size": 566699
+  },
+  {
+    "path": "FAPS/ENWTBL.FAP",
+    "size": 551799
+  },
+  {
+    "path": "FAPS/ENWTBR.FAP",
+    "size": 569401
+  },
+  {
+    "path": "FAPS/FRABLA.FAP",
+    "size": 582321
+  },
+  {
+    "path": "FAPS/FRAGO1.FAP",
+    "size": 620688
+  },
+  {
+    "path": "FAPS/FRAGO2.FAP",
+    "size": 614515
+  },
+  {
+    "path": "FAPS/FRCANT.FAP",
+    "size": 586133
+  },
+  {
+    "path": "FAPS/FRDRED.FAP",
+    "size": 590876
+  },
+  {
+    "path": "FAPS/FRLEBO.FAP",
+    "size": 586079
+  },
+  {
+    "path": "FAPS/FRMDBK.FAP",
+    "size": 572606
+  },
+  {
+    "path": "FAPS/FRMDBR.FAP",
+    "size": 587760
+  },
+  {
+    "path": "FAPS/FRPEDR.FAP",
+    "size": 592689
+  },
+  {
+    "path": "FAPS/FRWTBK.FAP",
+    "size": 586394
+  },
+  {
+    "path": "FAPS/FRWTBL.FAP",
+    "size": 585484
+  },
+  {
+    "path": "FAPS/FRWTBR.FAP",
+    "size": 587929
+  },
+  {
+    "path": "FAPS/GEHTBR.FAP",
+    "size": 17944
+  },
+  {
+    "path": "FAPS/GEKUNT.FAP",
+    "size": 529548
+  },
+  {
+    "path": "FAPS/GEMDBK.FAP",
+    "size": 534847
+  },
+  {
+    "path": "FAPS/GEMDBR.FAP",
+    "size": 531363
+  },
+  {
+    "path": "FAPS/GERGO1.FAP",
+    "size": 614515
+  },
+  {
+    "path": "FAPS/GERGO2.FAP",
+    "size": 617981
+  },
+  {
+    "path": "FAPS/GEWTBK.FAP",
+    "size": 533154
+  },
+  {
+    "path": "FAPS/GEWTBL.FAP",
+    "size": 532825
+  },
+  {
+    "path": "FAPS/GEWTBR.FAP",
+    "size": 529485
+  },
+  {
+    "path": "FAPS/HODAVD.FAP",
+    "size": 589228
+  },
+  {
+    "path": "FAPS/HOGUIL.FAP",
+    "size": 589228
+  },
+  {
+    "path": "FAPS/HOKOCK.FAP",
+    "size": 583480
+  },
+  {
+    "path": "FAPS/HOLBLA.FAP",
+    "size": 581143
+  },
+  {
+    "path": "FAPS/HOLGO1.FAP",
+    "size": 620594
+  },
+  {
+    "path": "FAPS/HOLGO2.FAP",
+    "size": 623133
+  },
+  {
+    "path": "FAPS/HOMDBK.FAP",
+    "size": 582665
+  },
+  {
+    "path": "FAPS/HOMDBR.FAP",
+    "size": 581574
+  },
+  {
+    "path": "FAPS/HOREIZ.FAP",
+    "size": 567221
+  },
+  {
+    "path": "FAPS/HOSEED.FAP",
+    "size": 589228
+  },
+  {
+    "path": "FAPS/HOWTBK.FAP",
+    "size": 582856
+  },
+  {
+    "path": "FAPS/HOWTBL.FAP",
+    "size": 582176
+  },
+  {
+    "path": "FAPS/HOWTBR.FAP",
+    "size": 582587
+  },
+  {
+    "path": "FAPS/ITABLA.FAP",
+    "size": 586286
+  },
+  {
+    "path": "FAPS/ITAGO1.FAP",
+    "size": 602341
+  },
+  {
+    "path": "FAPS/ITAGO2.FAP",
+    "size": 624426
+  },
+  {
+    "path": "FAPS/ITAMDM.FAP",
+    "size": 206469
+  },
+  {
+    "path": "FAPS/ITBAGI.FAP",
+    "size": 592478
+  },
+  {
+    "path": "FAPS/ITBKMU.FAP",
+    "size": 594822
+  },
+  {
+    "path": "FAPS/ITMDBK.FAP",
+    "size": 588237
+  },
+  {
+    "path": "FAPS/ITMDBR.FAP",
+    "size": 588938
+  },
+  {
+    "path": "FAPS/ITRAVA.FAP",
+    "size": 589403
+  },
+  {
+    "path": "FAPS/ITWTBK.FAP",
+    "size": 588686
+  },
+  {
+    "path": "FAPS/ITWTBL.FAP",
+    "size": 589375
+  },
+  {
+    "path": "FAPS/ITWTBR.FAP",
+    "size": 589979
+  },
+  {
+    "path": "FAPS/MREFBK.FAP",
+    "size": 593091
+  },
+  {
+    "path": "FAPS/MREFMU.FAP",
+    "size": 592723
+  },
+  {
+    "path": "FAPS/POBKMU.FAP",
+    "size": 564090
+  },
+  {
+    "path": "FAPS/POBKNU.FAP",
+    "size": 17944
+  },
+  {
+    "path": "FAPS/POMDBK.FAP",
+    "size": 558454
+  },
+  {
+    "path": "FAPS/POMDBR.FAP",
+    "size": 556488
+  },
+  {
+    "path": "FAPS/PORBLA.FAP",
+    "size": 556761
+  },
+  {
+    "path": "FAPS/PORGO1.FAP",
+    "size": 629320
+  },
+  {
+    "path": "FAPS/PORGO2.FAP",
+    "size": 681488
+  },
+  {
+    "path": "FAPS/PORMDM.FAP",
+    "size": 201214
+  },
+  {
+    "path": "FAPS/POWTBK.FAP",
+    "size": 558058
+  },
+  {
+    "path": "FAPS/POWTBL.FAP",
+    "size": 561944
+  },
+  {
+    "path": "FAPS/POWTBR.FAP",
+    "size": 556211
+  },
+  {
+    "path": "FAPS/ROBRGO.FAP",
+    "size": 563661
+  },
+  {
+    "path": "FAPS/ROLUPE.FAP",
+    "size": 574649
+  },
+  {
+    "path": "FAPS/ROMDBK.FAP",
+    "size": 569605
+  },
+  {
+    "path": "FAPS/ROMDBR.FAP",
+    "size": 565785
+  },
+  {
+    "path": "FAPS/ROMGO1.FAP",
+    "size": 620844
+  },
+  {
+    "path": "FAPS/ROMGO2.FAP",
+    "size": 624341
+  },
+  {
+    "path": "FAPS/ROVLAD.FAP",
+    "size": 569507
+  },
+  {
+    "path": "FAPS/ROWTBK.FAP",
+    "size": 568727
+  },
+  {
+    "path": "FAPS/ROWTBL.FAP",
+    "size": 568846
+  },
+  {
+    "path": "FAPS/ROWTBR.FAP",
+    "size": 563651
+  },
+  {
+    "path": "FAPS/RUDOBR.FAP",
+    "size": 566756
+  },
+  {
+    "path": "FAPS/RUKULK.FAP",
+    "size": 566500
+  },
+  {
+    "path": "FAPS/RULULK.FAP",
+    "size": 17944
+  },
+  {
+    "path": "FAPS/RUMDBK.FAP",
+    "size": 562582
+  },
+  {
+    "path": "FAPS/RUMDBR.FAP",
+    "size": 562920
+  },
+  {
+    "path": "FAPS/RUSGO1.FAP",
+    "size": 620397
+  },
+  {
+    "path": "FAPS/RUSGO2.FAP",
+    "size": 623174
+  },
+  {
+    "path": "FAPS/RUWTBK.FAP",
+    "size": 561125
+  },
+  {
+    "path": "FAPS/RUWTBL.FAP",
+    "size": 562871
+  },
+  {
+    "path": "FAPS/RUWTBR.FAP",
+    "size": 561513
+  },
+  {
+    "path": "FAPS/SCMDBK.FAP",
+    "size": 581587
+  },
+  {
+    "path": "FAPS/SCMDBR.FAP",
+    "size": 578570
+  },
+  {
+    "path": "FAPS/SCOGO1.FAP",
+    "size": 617224
+  },
+  {
+    "path": "FAPS/SCWBMU.FAP",
+    "size": 493235
+  },
+  {
+    "path": "FAPS/SCWTBK.FAP",
+    "size": 576174
+  },
+  {
+    "path": "FAPS/SCWTBL.FAP",
+    "size": 582599
+  },
+  {
+    "path": "FAPS/SCWTBR.FAP",
+    "size": 573231
+  },
+  {
+    "path": "FAPS/SPABLA.FAP",
+    "size": 547822
+  },
+  {
+    "path": "FAPS/SPAGO1.FAP",
+    "size": 624341
+  },
+  {
+    "path": "FAPS/SPAMAV.FAP",
+    "size": 528792
+  },
+  {
+    "path": "FAPS/SPMART.FAP",
+    "size": 542263
+  },
+  {
+    "path": "FAPS/SPMDBK.FAP",
+    "size": 443218
+  },
+  {
+    "path": "FAPS/SPMDBR.FAP",
+    "size": 441242
+  },
+  {
+    "path": "FAPS/SPWTBK.FAP",
+    "size": 543822
+  },
+  {
+    "path": "FAPS/SPWTBL.FAP",
+    "size": 549575
+  },
+  {
+    "path": "FAPS/SPWTBR.FAP",
+    "size": 547740
+  },
+  {
+    "path": "FAPS/STADIUM1.FAP",
+    "size": 3211415
+  },
+  {
+    "path": "FAPS/STADIUM2.FAP",
+    "size": 2474286
+  },
+  {
+    "path": "FAPS/STADIUM3.FAP",
+    "size": 2855870
+  },
+  {
+    "path": "FAPS/STADIUM4.FAP",
+    "size": 2875682
+  },
+  {
+    "path": "FAPS/STADIUM5.FAP",
+    "size": 3356379
+  },
+  {
+    "path": "FAPS/STADIUM6.FAP",
+    "size": 2531319
+  },
+  {
+    "path": "FAPS/STADIUM7.FAP",
+    "size": 2498198
+  },
+  {
+    "path": "FAPS/STADIUM8.FAP",
+    "size": 2803044
+  },
+  {
+    "path": "FAPS/SWBLMU.FAP",
+    "size": 583400
+  },
+  {
+    "path": "FAPS/SWIBLA.FAP",
+    "size": 570240
+  },
+  {
+    "path": "FAPS/SWIGO1.FAP",
+    "size": 620594
+  },
+  {
+    "path": "FAPS/SWIGO2.FAP",
+    "size": 624657
+  },
+  {
+    "path": "FAPS/SWMDBK.FAP",
+    "size": 493340
+  },
+  {
+    "path": "FAPS/SWMDBR.FAP",
+    "size": 489478
+  },
+  {
+    "path": "FAPS/SWWTBK.FAP",
+    "size": 576689
+  },
+  {
+    "path": "FAPS/SWWTBL.FAP",
+    "size": 580269
+  },
+  {
+    "path": "FAPS/SWWTBR.FAP",
+    "size": 577253
+  },
+  {
+    "path": "FAPS/TUIPEK.FAP",
+    "size": 562869
+  },
+  {
+    "path": "FAPS/TUMDBK.FAP",
+    "size": 498258
+  },
+  {
+    "path": "FAPS/TUMDBR.FAP",
+    "size": 495542
+  },
+  {
+    "path": "FAPS/TURBLA.FAP",
+    "size": 555857
+  },
+  {
+    "path": "FAPS/TURGO1.FAP",
+    "size": 618798
+  },
+  {
+    "path": "FAPS/TURGO2.FAP",
+    "size": 17944
+  },
+  {
+    "path": "FAPS/TUWBGO.FAP",
+    "size": 558074
+  },
+  {
+    "path": "FAPS/TUWTBK.FAP",
+    "size": 558311
+  },
+  {
+    "path": "FAPS/TUWTBL.FAP",
+    "size": 496470
+  },
+  {
+    "path": "FAPS/TUWTBR.FAP",
+    "size": 561683
+  },
+  {
+    "path": "FAPS/WREFBK.FAP",
+    "size": 592789
+  },
+  {
+    "path": "FAPS/WREFBR.FAP",
+    "size": 585712
+  },
+  {
+    "path": "FAPS/WREFGR.FAP",
+    "size": 594015
+  },
+  {
+    "path": "FAPS/WREFMU.FAP",
+    "size": 593891
+  },
+  {
+    "path": "FAPS/WREFSH.FAP",
+    "size": 590113
+  },
+  {
+    "path": "GDV/BULAOUTS.GDV",
+    "size": 7963351
+  },
+  {
+    "path": "GDV/BULHOUTS.GDV",
+    "size": 7908802
+  },
+  {
+    "path": "GDV/CROAOUTS.GDV",
+    "size": 7998983
+  },
+  {
+    "path": "GDV/CROHOUTS.GDV",
+    "size": 7935614
+  },
+  {
+    "path": "GDV/CZEAOUTS.GDV",
+    "size": 7981069
+  },
+  {
+    "path": "GDV/CZEHOUTS.GDV",
+    "size": 7975281
+  },
+  {
+    "path": "GDV/DENAOUTS.GDV",
+    "size": 7988269
+  },
+  {
+    "path": "GDV/DENHOUTS.GDV",
+    "size": 7966060
+  },
+  {
+    "path": "GDV/ENGAOUTS.GDV",
+    "size": 8009455
+  },
+  {
+    "path": "GDV/ENGHOUTS.GDV",
+    "size": 7982994
+  },
+  {
+    "path": "GDV/FRAAOUTS.GDV",
+    "size": 8004572
+  },
+  {
+    "path": "GDV/FRAHOUTS.GDV",
+    "size": 7990746
+  },
+  {
+    "path": "GDV/GERAOUTS.GDV",
+    "size": 7948003
+  },
+  {
+    "path": "GDV/GERHOUTS.GDV",
+    "size": 8004547
+  },
+  {
+    "path": "GDV/HOLAOUTS.GDV",
+    "size": 7986585
+  },
+  {
+    "path": "GDV/HOLHOUTS.GDV",
+    "size": 7958593
+  },
+  {
+    "path": "GDV/ITAAOUTS.GDV",
+    "size": 7988850
+  },
+  {
+    "path": "GDV/ITAHOUTS.GDV",
+    "size": 7972158
+  },
+  {
+    "path": "GDV/PORAOUTS.GDV",
+    "size": 7975907
+  },
+  {
+    "path": "GDV/PORHOUTS.GDV",
+    "size": 7944137
+  },
+  {
+    "path": "GDV/ROMAOUTS.GDV",
+    "size": 7947448
+  },
+  {
+    "path": "GDV/ROMHOUTS.GDV",
+    "size": 7952397
+  },
+  {
+    "path": "GDV/RUSAOUTS.GDV",
+    "size": 8016601
+  },
+  {
+    "path": "GDV/RUSHOUTS.GDV",
+    "size": 7985400
+  },
+  {
+    "path": "GDV/SCOAOUTS.GDV",
+    "size": 7942137
+  },
+  {
+    "path": "GDV/SCOHOUTS.GDV",
+    "size": 8010526
+  },
+  {
+    "path": "GDV/SPAAOUTS.GDV",
+    "size": 7950190
+  },
+  {
+    "path": "GDV/SPAHOUTS.GDV",
+    "size": 7954149
+  },
+  {
+    "path": "GDV/SWZAOUTS.GDV",
+    "size": 7999521
+  },
+  {
+    "path": "GDV/SWZHOUTS.GDV",
+    "size": 7951881
+  },
+  {
+    "path": "GDV/TURAOUTS.GDV",
+    "size": 7962891
+  },
+  {
+    "path": "GDV/TURHOUTS.GDV",
+    "size": 7986132
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "version": "0.62.1",
+  "buildId": "b86b017ecc36c9e7-2b4b128d-0703f4d7-13c73d11",
+  "players": 320,
+  "resolved": 23,
+  "unmatched": 0,
+  "previewAnimations": 109,
+  "pixelHashSamples": 327,
+  "previousMappedSlotsByteIdentical": 305,
+  "tests": 5,
+  "identityUnitCases": 6,
+  "packageSmokes": 9,
+  "packageHashes": 53,
+  "sourceFiles": 427,
+  "sourceUnchanged": true,
+  "saveUnchanged": true,
+  "saves": {
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\tournament.sav": "9683d18cecad6d6c3d57d294ca57cd1b0cff427c723892502d05958f8f4bc2df"
+  },
+  "executables": [
+    {
+      "path": "C:\\Users\\vrock\\AppData\\Local\\Temp\\actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b\\Release\\actua96.exe",
+      "sha256": "b86b017ecc36c9e7b0fa9f2cfdf09b1e2ec07f5b8921de3febed621f0ea8a722"
+    },
+    {
+      "path": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\actuasoccer96-windows\\dist\\actua96-0.62.1-a59667b5e4a645c696588e21edae51b7\\actua96.exe",
+      "sha256": "b86b017ecc36c9e7b0fa9f2cfdf09b1e2ec07f5b8921de3febed621f0ea8a722"
+    },
+    {
+      "path": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\Actua96-Playtest\\builds\\b86b017ecc36c9e7-2b4b128d-0703f4d7-13c73d11\\actua96.exe",
+      "sha256": "b86b017ecc36c9e7b0fa9f2cfdf09b1e2ec07f5b8921de3febed621f0ea8a722"
+    }
+  ],
+  "previewSha256": "4a384d1e343d6f34adccf79833578e553ecbc205b539d5fe4bccbfaece648623",
+  "package": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\actuasoccer96-windows\\dist\\actua96-0.62.1-a59667b5e4a645c696588e21edae51b7",
+  "physicalControllerTest": false
+}

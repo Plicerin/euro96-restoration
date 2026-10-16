@@ -1,0 +1,242 @@
+{
+  "audio_obj_sha256": "3bd8d90d2cef292aeda77ef86a9aee490ddb9dfbc0f2adef1fd493f4a5da33f9",
+  "tables": {
+    "PitchBank": [
+      {
+        "event": 1,
+        "sample": 10,
+        "name": "LNGREF.WAV",
+        "amp": 32767,
+        "freq": 32768,
+        "flags": 3
+      },
+      {
+        "event": 2,
+        "sample": 11,
+        "name": "SHRTREF.WAV",
+        "amp": 32767,
+        "freq": 32768,
+        "flags": 3
+      },
+      {
+        "event": 3,
+        "sample": 19,
+        "name": "HALF.WAV",
+        "amp": 32767,
+        "freq": 32768,
+        "flags": 3
+      },
+      {
+        "event": 4,
+        "sample": 18,
+        "name": "FULL.WAV",
+        "amp": 32767,
+        "freq": 32768,
+        "flags": 3
+      },
+      {
+        "event": 5,
+        "sample": 15,
+        "name": "BOOT.WAV",
+        "amp": 32767,
+        "freq": 32768,
+        "flags": 3
+      },
+      {
+        "event": 6,
+        "sample": 13,
+        "name": "KICK1.WAV",
+        "amp": 32767,
+        "freq": 32768,
+        "flags": 3
+      },
+      {
+        "event": 7,
+        "sample": 12,
+        "name": "HRDKICK.WAV",
+        "amp": 32767,
+        "freq": 32768,
+        "flags": 3
+      },
+      {
+        "event": 8,
+        "sample": 16,
+        "name": "BOUNCE.WAV",
+        "amp": 32767,
+        "freq": 32768,
+        "flags": 3
+      },
+      {
+        "event": 9,
+        "sample": 16,
+        "name": "BOUNCE.WAV",
+        "amp": 32767,
+        "freq": 32768,
+        "flags": 3
+      },
+      {
+        "event": 10,
+        "sample": 15,
+        "name": "BOOT.WAV",
+        "amp": 32767,
+        "freq": 32768,
+        "flags": 3
+      },
+      {
+        "event": 11,
+        "sample": 13,
+        "name": "KICK1.WAV",
+        "amp": 32767,
+        "freq": 32768,
+        "flags": 3
+      },
+      {
+        "event": 12,
+        "sample": 12,
+        "name": "HRDKICK.WAV",
+        "amp": 32767,
+        "freq": 32768,
+        "flags": 3
+      },
+      {
+        "event": 13,
+        "sample": 16,
+        "name": "BOUNCE.WAV",
+        "amp": 32767,
+        "freq": 32768,
+        "flags": 3
+      },
+      {
+        "event": 14,
+        "sample": 14,
+        "name": "PASS1.WAV",
+        "amp": 32767,
+        "freq": 32768,
+        "flags": 3
+      },
+      {
+        "event": 15,
+        "sample": 16,
+        "name": "BOUNCE.WAV",
+        "amp": 32767,
+        "freq": 32768,
+        "flags": 3
+      },
+      {
+        "event": 16,
+        "sample": 15,
+        "name": "BOOT.WAV",
+        "amp": 32767,
+        "freq": 32768,
+        "flags": 3
+      },
+      {
+        "event": 17,
+        "sample": 17,
+        "name": "FALL.WAV",
+        "amp": 32767,
+        "freq": 32768,
+        "flags": 3
+      },
+      {
+        "event": 18,
+        "sample": 16,
+        "name": "BOUNCE.WAV",
+        "amp": 32767,
+        "freq": 32768,
+        "flags": 3
+      },
+      {
+        "event": 19,
+        "sample": 16,
+        "name": "BOUNCE.WAV",
+        "amp": 32767,
+        "freq": 32768,
+        "flags": 3
+      }
+    ],
+    "CrowdBank": [
+      {
+        "event": 1,
+        "sample": 0,
+        "name": "AMBI2.WAV",
+        "amp": 16383,
+        "freq": 32768,
+        "flags": 0
+      },
+      {
+        "event": 2,
+        "sample": 1,
+        "name": "AMBI4.WAV",
+        "amp": 16383,
+        "freq": 32768,
+        "flags": 0
+      },
+      {
+        "event": 3,
+        "sample": 2,
+        "name": "AMBI6.WAV",
+        "amp": 16383,
+        "freq": 32768,
+        "flags": 0
+      },
+      {
+        "event": 4,
+        "sample": 3,
+        "name": "AMBI8.WAV",
+        "amp": 20479,
+        "freq": 32768,
+        "flags": 0
+      },
+      {
+        "event": 5,
+        "sample": 4,
+        "name": "GOAL.WAV",
+        "amp": 28671,
+        "freq": 32768,
+        "flags": 0
+      },
+      {
+        "event": 6,
+        "sample": 9,
+        "name": "RESTLESS.WAV",
+        "amp": 28671,
+        "freq": 32768,
+        "flags": 0
+      },
+      {
+        "event": 7,
+        "sample": 5,
+        "name": "C_MISS.WAV",
+        "amp": 20479,
+        "freq": 32768,
+        "flags": 0
+      },
+      {
+        "event": 8,
+        "sample": 6,
+        "name": "SAVE.WAV",
+        "amp": 20479,
+        "freq": 32768,
+        "flags": 0
+      },
+      {
+        "event": 9,
+        "sample": 7,
+        "name": "LAUGH.WAV",
+        "amp": 26624,
+        "freq": 32768,
+        "flags": 0
+      },
+      {
+        "event": 10,
+        "sample": 8,
+        "name": "C_FOWL.WAV",
+        "amp": 26624,
+        "freq": 32768,
+        "flags": 0
+      }
+    ]
+  },
+  "frequency_variation": "PlayPitchSample: nominal + rand_range(1024) - 512; native audio-only PRNG"
+}

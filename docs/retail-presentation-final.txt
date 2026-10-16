@@ -1,0 +1,13 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start 90: euro96_retail_presentation_contracts
+    Start 79: full_tournament_frontend_session
+    Start 89: original_menu_art_contracts
+1/4 Test #89: original_menu_art_contracts ............   Passed    2.50 sec
+    Start 55: original_frontend_contracts
+2/4 Test #55: original_frontend_contracts ............   Passed    5.39 sec
+3/4 Test #79: full_tournament_frontend_session .......   Passed    9.89 sec
+4/4 Test #90: euro96_retail_presentation_contracts ...   Passed   11.46 sec
+
+100% tests passed, 0 tests failed out of 4
+
+Total Test time (real) =  11.52 sec

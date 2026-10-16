@@ -1,0 +1,100 @@
+﻿{
+    "host":  "GAIKING",
+    "os":  "Microsoft Windows 11 Pro",
+    "build":  "26200",
+    "architecture":  "64-bit",
+    "cpu":  [
+                "AMD Ryzen 7 5700X3D 8-Core Processor           "
+            ],
+    "graphics":  [
+                     {
+                         "Name":  "Microsoft Remote Display Adapter",
+                         "DriverVersion":  "10.0.26100.8972"
+                     },
+                     {
+                         "Name":  "NVIDIA GeForce RTX 4070",
+                         "DriverVersion":  "32.0.16.1047"
+                     }
+                 ],
+    "version":  "0.43.1",
+    "results":  [
+                    {
+                        "name":  "six_isolated_package_checks",
+                        "passed":  true
+                    },
+                    {
+                        "name":  "full_tournament",
+                        "passed":  true,
+                        "seconds":  3.76,
+                        "exit":  0,
+                        "optional":  false
+                    },
+                    {
+                        "name":  "match_matrix",
+                        "passed":  true,
+                        "seconds":  5.01,
+                        "exit":  0,
+                        "optional":  false
+                    },
+                    {
+                        "name":  "save_recovery",
+                        "passed":  true,
+                        "seconds":  0.27,
+                        "exit":  0,
+                        "optional":  false
+                    },
+                    {
+                        "name":  "d3d11_3d_smoke",
+                        "passed":  false,
+                        "seconds":  0.46,
+                        "exit":  1,
+                        "optional":  true
+                    },
+                    {
+                        "name":  "d3d11_title",
+                        "passed":  false,
+                        "seconds":  0.38,
+                        "exit":  1,
+                        "optional":  true
+                    }
+                ],
+    "error":  null,
+    "userStateUnchanged":  true,
+    "userStateBefore":  [
+                            {
+                                "name":  "tournament.sav",
+                                "sha256":  "ABSENT"
+                            },
+                            {
+                                "name":  "tournament.sav.bak",
+                                "sha256":  "ABSENT"
+                            },
+                            {
+                                "name":  "tournament.prefs",
+                                "sha256":  "ABSENT"
+                            },
+                            {
+                                "name":  "tournament.prefs.bak",
+                                "sha256":  "ABSENT"
+                            }
+                        ],
+    "userStateAfter":  [
+                           {
+                               "name":  "tournament.sav",
+                               "sha256":  "ABSENT"
+                           },
+                           {
+                               "name":  "tournament.sav.bak",
+                               "sha256":  "ABSENT"
+                           },
+                           {
+                               "name":  "tournament.prefs",
+                               "sha256":  "ABSENT"
+                           },
+                           {
+                               "name":  "tournament.prefs.bak",
+                               "sha256":  "ABSENT"
+                           }
+                       ],
+    "scope":  "Hidden SSH-launched tests. Real audio, physical controller, interactive fullscreen/high-DPI and a human tournament are not covered."
+}

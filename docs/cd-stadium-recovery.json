@@ -1,0 +1,105 @@
+{
+  "inputs": {
+    "SOCCER.EXE": "cc6e2547c9f97050e1d610ba242476b7d3147f4a7a2e9a0284d6585691137543",
+    "ACTREND.DAT": "843c6da5abe934b547248ce45e0179ddb9518cff07729ff919cfc8a7c8464d7e",
+    "ACTREND.OFF": "af154fe774eb2386628457c79e53738dd990d09083a122761848f6dcbc4b3f9f"
+  },
+  "descriptor_offset": 1282340,
+  "descriptor_index": 104,
+  "descriptor_stride": 240,
+  "identity": "Original CD high-detail England stadium (FILES.C tier 90 + country 14)",
+  "descriptor_sha256": "cfb53f7e8fb51691d246ac54b56cb7bf355a7ed26bfc85a1345dd45c433d4d62",
+  "pack_sha256": "beed234c8f34b87e917808e5706516ced45858d195e0b88eb46804ba449035a0",
+  "parts": [
+    {
+      "name": "uv",
+      "record": 276,
+      "size": 1568,
+      "sha256": "4fe54000d5a56895c59a8d1023e52060ecd6edebe8f36e3a800665d5ed2902eb"
+    },
+    {
+      "name": "map1",
+      "record": 112,
+      "size": 65536,
+      "sha256": "9653c1061a0349073628b27683d3caf2f7740a519923ddd966ca824761cbb472"
+    },
+    {
+      "name": "map2",
+      "record": 122,
+      "size": 65536,
+      "sha256": "bd3d640d3f0e2f0525378ee61952c8806ab4f9bf469f21504a92b31ef2c3d476"
+    },
+    {
+      "name": "stand1_points",
+      "record": 284,
+      "size": 772,
+      "sha256": "5ff763bafe94afb94ad0b14dddd1ed4a51f42e5571eb21ce818f78810a5cc1a2"
+    },
+    {
+      "name": "stand1_faces",
+      "record": 283,
+      "size": 462,
+      "sha256": "ffa4e25fbdf4a6042ab5d0bbf0781b998d3a04a89c8f9c9a74fe78ab4d7dc25e"
+    },
+    {
+      "name": "stand2_points",
+      "record": 280,
+      "size": 892,
+      "sha256": "77f70179c469525b5e0bd3ffdd1191cf79a8537cf6d7c62a0ff6ba315c773acf"
+    },
+    {
+      "name": "stand2_faces",
+      "record": 279,
+      "size": 606,
+      "sha256": "ff55c940d123f12eb9bb07ee994a1853db2acf25d15b16c7da8f9584c430e4c4"
+    },
+    {
+      "name": "stand3_points",
+      "record": 278,
+      "size": 772,
+      "sha256": "fc8b45de464dd003257222b3a8ae9f39018333011cb3fb1ef59757e45d16127d"
+    },
+    {
+      "name": "stand3_faces",
+      "record": 277,
+      "size": 462,
+      "sha256": "1686b489e51ea24d4c154982377d15e2ee17b277dfb9a049302ff891f7627c6f"
+    },
+    {
+      "name": "stand4_points",
+      "record": 282,
+      "size": 1036,
+      "sha256": "680fcd78623a3dcfab46a663f9936cf9a048fb246c2eaace11c1f12e2fdbaf84"
+    },
+    {
+      "name": "stand4_faces",
+      "record": 281,
+      "size": 702,
+      "sha256": "c3fd27d43d339283d5f348423a4ab589ff1d7924a14da3ec5880249f7b1d6274"
+    },
+    {
+      "name": "pitch",
+      "record": 247,
+      "size": 16384,
+      "sha256": "0e94954508397b81417227461ec9b86828d356a8fd91b3a51f13320c8c909787"
+    },
+    {
+      "name": "pitch_palette",
+      "record": 202,
+      "size": 48,
+      "sha256": "6a1efbe1060f1484e78808ba9b585c1ff9872b870ebeb7d6ff7e3dac8e001a11"
+    },
+    {
+      "name": "sky",
+      "record": 226,
+      "size": 307200,
+      "sha256": "7c84d831dbdb9b4f7eb5817387ab4b2fee329c15082c97c06187834606dea146"
+    },
+    {
+      "name": "sky_palette",
+      "record": 220,
+      "size": 48,
+      "sha256": "635ea4bedc052fa5b849787c52ed6597f8c2ba8cce9a00db182e559e44b833de"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "target": "PC/DOS UEFA Euro 96",
+  "baseline": "0.66.0 release media",
+  "assets": [
+    {
+      "path": "DIGI/PITCH/PITCH.MAD",
+      "sha256": "0703f4d751ac3af7c61a5fa611dbe4873f92b337f04ec8a7068e4f45d68a6e20",
+      "origin": "Actua Soccer CD",
+      "status": "fallback superseded by optional Euro96 audio overlay"
+    },
+    {
+      "path": "DIGI/MUSIC/MENU.WAV",
+      "sha256": "ecdd6356283e54297105af6c47571a2f0ee14a7d560d6f9bb446ab02adeaa91c",
+      "origin": "Actua Soccer CD",
+      "status": "fallback superseded by optional Euro96 overlay"
+    },
+    {
+      "path": "DIGI/MUSIC/WIN.WAV",
+      "sha256": "09d35a75a771f332b846062d3ae7ca0b917840adf5b364dae25cf856b6b5c0ef",
+      "origin": "Actua Soccer CD",
+      "status": "fallback only when EURO96.WAV is absent (0.65.0)"
+    },
+    {
+      "path": "DIGI/MUSIC/LOSE.WAV",
+      "sha256": "3dda21007c5534cc953c394a6d82338db50d7c491d4e69d6f77ba72d1614647a",
+      "origin": "Actua Soccer CD",
+      "status": "fallback only when EURO96.WAV is absent (0.65.0)"
+    },
+    {
+      "path": "DIGI/MUSIC/DRAW.WAV",
+      "sha256": "eeb47c7406ccf267f5fc9fd14f5cffa676d853cda4079e24df3d3e9f029ee640",
+      "origin": "Actua Soccer CD",
+      "status": "fallback only when EURO96.WAV is absent (0.65.0)"
+    },
+    {
+      "path": "COMMENTARY/ENGLISH3.BIN",
+      "sha256": "f579a2d8df5e3f399dda44dae04a5a4d2e04ecb248b9168731bcb1ae5726809b",
+      "origin": "Actua Soccer CD",
+      "status": "fallback superseded by optional Euro96 overlay"
+    },
+    {
+      "path": "GRAPHICS/TEAMS.BIN",
+      "sha256": "1cc6623642cc7ffde68ae89aa025e43f1eca8cd0e636440737fa9ca037727064",
+      "origin": "Actua Soccer CD",
+      "status": "base/fallback kit data, still consulted for legacy palette/crowd/unknown appearance data"
+    },
+    {
+      "path": "GRAPHICS/EURO96.BIN",
+      "sha256": "7bd7d9749f0382b5883b982e53e8c1fb6bd2143153f46c2d541eb2f11cebdb3a",
+      "origin": "Euro96 retail",
+      "status": "active"
+    },
+    {
+      "path": "GRAPHICS/NUMBERS.BIN",
+      "sha256": "d0620d12ff1f16f870f9334bab17490e7dd1ae0dc101095c5770a271ff2b93a0",
+      "origin": "Euro96 retail",
+      "status": "active"
+    },
+    {
+      "path": "GRAPHICS/PLAYERS.BIN",
+      "sha256": "8948cb40363e7b25a8429de2bea006a7993b499dba8335e635a406e54939ce7c",
+      "origin": "Euro96 retail",
+      "status": "active"
+    },
+    {
+      "path": "COMMENTARY/EURO_ENGLISH.BIN",
+      "sha256": "f2200a6b9b52ff1f5e804c307a5fd9bb9973d5b6670eeb23d725490a3f389e79",
+      "origin": "Mixed: Euro96 country introductions plus Actua event/welcome-ending phrases",
+      "status": "fallback superseded by optional Euro96 audio overlay"
+    },
+    {
+      "path": "DIGI/MUSIC/EURO96.WAV",
+      "sha256": "6146a38c1503a3d26c58b464be5acced75bf154a6ec67d692347a67bba5bba49",
+      "origin": "Euro96 retail",
+      "status": "active"
+    },
+    {
+      "path": "COMMENTARY/EURO_NAMES.BIN",
+      "sha256": "5fb00bdbceac8bc64e7a479f26444a0228a80f64d14a0c99f454d6b8d293543e",
+      "origin": "Mixed: 296 Euro96 identities plus 12 retained Actua identities",
+      "status": "active: all 320 players; 959 retail tones, one verified Actua fallback (Kuznetsov normal tone)"
+    },
+    {
+      "path": "GRAPHICS/STADIUM.BIN",
+      "sha256": "beed234c8f34b87e917808e5706516ced45858d195e0b88eb46804ba449035a0",
+      "origin": "Actua Soccer CD",
+      "status": "legacy save/replay venue IDs 0-4; fallback without retail venue packs"
+    },
+    {
+      "path": "GRAPHICS/SCOTLAND.BIN",
+      "sha256": "f42c0f3e3c23c65955ca9df13b81151580e03c38997154775559ebb728ff2472",
+      "origin": "Actua Soccer CD",
+      "status": "legacy save/replay venue IDs 0-4; fallback without retail venue packs"
+    },
+    {
+      "path": "GRAPHICS/SPAIN.BIN",
+      "sha256": "f4160c6a22068ddea841dbec495942821ee0cc4a6031f59e47c764287c3f585c",
+      "origin": "Actua Soccer CD",
+      "status": "legacy save/replay venue IDs 0-4; fallback without retail venue packs"
+    },
+    {
+      "path": "GRAPHICS/ITALY.BIN",
+      "sha256": "b50f449ef2b8dbb02c7ba6b32593361c421e75b76b913e966b526fe3df580f9f",
+      "origin": "Actua Soccer CD",
+      "status": "legacy save/replay venue IDs 0-4; fallback without retail venue packs"
+    },
+    {
+      "path": "GRAPHICS/BRAZIL.BIN",
+      "sha256": "b243decaa34b24bc4d27613ec68bfdba251abf72235f53555c66bd021ad977ca",
+      "origin": "Actua Soccer CD",
+      "status": "legacy save/replay venue IDs 0-4; fallback without retail venue packs"
+    },
+    {
+      "path": "COMMENTARY/NAMES.BIN",
+      "sha256": "da29ad03505b398fa65981c94491b849ec9c6da700ef57a18dc73b0bb5ff515a",
+      "origin": "Actua Soccer CD",
+      "status": "fallback superseded by optional Euro96 overlay"
+    },
+    {
+      "path": "COMMENTARY/FRENCH.BIN",
+      "sha256": "092f41880e310a30ffa0a0e0e2366392cddcfafe9633f4a3aee94d80dc968e83",
+      "origin": "Actua Soccer CD",
+      "status": "active compatibility asset"
+    },
+    {
+      "path": "COMMENTARY/FRENCH_NAMES.BIN",
+      "sha256": "1f646ba5d931641bce376588e27130b9da73030cfae1a4902a905bf3401989f8",
+      "origin": "Actua Soccer CD",
+      "status": "active compatibility asset"
+    },
+    {
+      "path": "GRAPHICS/EURO_STADIUM0.BIN",
+      "sha256": "a789bc72dcd43ae07c75e7bad7a4c9c2dd2700e5e83d24e462d44be5acdff7ba",
+      "origin": "Retail PC/DOS UEFA Euro 96 CD",
+      "status": "active retail venue ID 5"
+    },
+    {
+      "path": "GRAPHICS/EURO_STADIUM1.BIN",
+      "sha256": "3c372a9b43e6f75676c754c2a0eb20ee30042f55d5697270f09d788a2778a00b",
+      "origin": "Retail PC/DOS UEFA Euro 96 CD",
+      "status": "active retail venue ID 6"
+    },
+    {
+      "path": "GRAPHICS/EURO_STADIUM2.BIN",
+      "sha256": "8013f8671a95d7bc80dc37cc6f58fbb351210b7ac0174469edbd063571c72c69",
+      "origin": "Retail PC/DOS UEFA Euro 96 CD",
+      "status": "active retail venue ID 7"
+    },
+    {
+      "path": "GRAPHICS/EURO_STADIUM3.BIN",
+      "sha256": "ba109a181bb1793b14447ae39b49d275c1d6e6d90bb88c3065041dd9f6fbbb41",
+      "origin": "Retail PC/DOS UEFA Euro 96 CD",
+      "status": "active retail venue ID 8"
+    },
+    {
+      "path": "GRAPHICS/EURO_STADIUM4.BIN",
+      "sha256": "425b101d0c4c2121e437942cf007a6ea58e44d3ac0856d0cf4c40ce244693c63",
+      "origin": "Retail PC/DOS UEFA Euro 96 CD",
+      "status": "active retail venue ID 9"
+    },
+    {
+      "path": "GRAPHICS/EURO_STADIUM5.BIN",
+      "sha256": "81510d36f973a78bf6b1798fa2fc0740001f82c814a5a0798e230794a9c33a7f",
+      "origin": "Retail PC/DOS UEFA Euro 96 CD",
+      "status": "active retail venue ID 10"
+    },
+    {
+      "path": "GRAPHICS/EURO_STADIUM6.BIN",
+      "sha256": "3aac087a159db65f335eb3a8c071af306e8054ed66aa323c98c49cfc03896ea1",
+      "origin": "Retail PC/DOS UEFA Euro 96 CD",
+      "status": "active retail venue ID 11"
+    },
+    {
+      "path": "GRAPHICS/EURO_STADIUM7.BIN",
+      "sha256": "dbfdfe8a1bf0942dd414c1f8f3491f868e0c9189bb7479accab16e0ba0c22482",
+      "origin": "Retail PC/DOS UEFA Euro 96 CD",
+      "status": "active retail venue ID 12"
+    },
+    {
+      "path": "COMMENTARY/EURO_EVENTS.BIN",
+      "sha256": "4e2ff81fe6a5fd890cc13dc0913d11f069244e48d50c5b758e2bcf6af00dc4a0",
+      "origin": "Mixed: Euro96 country intros, 30 event banks, 132 score takes; retained Actua source-only events, welcome endings and period calls",
+      "status": "active"
+    },
+    {
+      "path": "DIGI/PITCH/EURO_PITCH.MAD",
+      "sha256": "c5ade5874a5f2ebc50efff4683895b9d4dd6f8b567e8a7c1edca3dda8cbdea88",
+      "origin": "Euro96 retail",
+      "status": "active"
+    },
+    {
+      "path": "COMMENTARY/EURO_PERIODS.BIN",
+      "sha256": "0fb9a0fd1f0efdbbb94816fb837beaec77608872e9832edc2b25abe6a3bb062f",
+      "origin": "Euro96 retail",
+      "status": "active: 282 retail period recordings, including 26 extra-time entry clips"
+    },
+    {
+      "path": "COMMENTARY/EURO_SEQUENCES.BIN",
+      "sha256": "e30e8088eefcd7c4914d0f8c598d14e1248ede4bbf1c8ee2663c4f2eb80e0aab",
+      "origin": "Euro96 retail",
+      "status": "active original-draw group/quarter/semi/final introductions and country-specific result calls; all 94 imported clips selected in supported contexts"
+    },
+    {
+      "path": "GRAPHICS/EURO_BOARDS.BIN",
+      "sha256": "e9f1309f4f79ec3203f66b705f8f8afee87c2928d1060f2d7c6044931d4a4631",
+      "origin": "UEFA Euro 96 supplied retail FAP and EUROREND archives",
+      "status": "Ten decoded board streams; six event states. Penalty and unverified winner routes excluded."
+    }
+  ],
+  "retired_from_release": [
+    {
+      "path": "FRONTEND/TITLE.IDX",
+      "sha256": "3b7b387c65b6245ff5912588f9bdb700ccf0f66ed81f1d216759bbb69156a052",
+      "origin": "Actua Soccer CD",
+      "status": "Excluded from 0.56.0 releases; original local import retained"
+    },
+    {
+      "path": "FRONTEND/TITLE.PAL",
+      "sha256": "c4b5d877416906406f144e17464e2e2462d16df148da8e5b6326d7c5b03c84d4",
+      "origin": "Actua Soccer CD",
+      "status": "Excluded from 0.56.0 releases; original local import retained"
+    },
+    {
+      "path": "VIDEO/MAKING.AMV",
+      "sha256": "8c04914db0f1da4e389b5f1cf7e6aa1819b500c0bf769af666d96338e86a27c0",
+      "origin": "Actua Soccer CD",
+      "status": "Excluded from 0.56.0 releases; original local import retained"
+    },
+    {
+      "path": "VIDEO/INTRO.AMV",
+      "sha256": "25c7cbbc8d8fe0146ed90dc5522552da8fac39f3a5324bbf739b315b5837f563",
+      "origin": "Actua Soccer CD",
+      "status": "Excluded from 0.56.0 releases; original local import retained"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+normal release: v=17.7075,0,6.52031 air=1 swerve=0 xy=0.105 z=0.09 spin=0 after=1
+aftertouch delta=29.0093
+First-time selections: 1 2 3 8 9; shot animations: 35 79; control animations: 54 81 84; contacts=18/18
+First-time pass: half=0 action=10 receiver=3 contacts=1 shots=0
+First-time pass: half=0 action=9 receiver=3 contacts=1 shots=0
+First-time pass: half=0 action=7 receiver=3 contacts=1 shots=0
+First-time pass: half=1 action=10 receiver=14 contacts=1 shots=0
+First-time pass: half=1 action=9 receiver=14 contacts=1 shots=0
+First-time pass: half=1 action=7 receiver=14 contacts=1 shots=0
+Original shots, ground/high/chip/disguised passes, crossing, first-time foot/header/volley contacts, control, steal, aftertouch and pause gating passed.
+human_controls_tests PASSED
+EURO: 121 entries, 15 backgrounds, 10 tactics tables verified.
+EUROREND: 229 bounded entries, 6613404 bytes.
+FAP: 27 bounded entries, 1452928 bytes.
+FAPF: 4 bounded entries, 279252 bytes.
+Keyboard and reconnected gamepad original hold/release controls passed.
+Keyboard and gamepad both-button first-time pass contacts passed.
+Native render completed: 395 frames.
+actua96 PASSED
+
+
+Algorithm : SHA256
+Hash      : B324EC649545CB4D0995CC322E795386636B7EBD6212D8F55B06462287CF7AEF
+Path      : C:\Users\vrock\AppData\Local\Temp\Actua96-validation-0431-db8278d27a474896ae7488258a7df14c\firstpass-0480\a
+            ctua96.exe
+
+
+

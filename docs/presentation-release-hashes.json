@@ -1,0 +1,17 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "E9AAD11D3F0AFFBEF27A7191BDF4707E2894E29F207CE95E0755589A182D026C",
+    "Path": "C:\\Users\\vrock\\AppData\\Local\\Temp\\actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b\\Release\\actua96.exe"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "E9AAD11D3F0AFFBEF27A7191BDF4707E2894E29F207CE95E0755589A182D026C",
+    "Path": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\actuasoccer96-windows\\dist\\actua96-0.53.0-b76808f7320348c0b027e80d0930343b\\actua96.exe"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "E9AAD11D3F0AFFBEF27A7191BDF4707E2894E29F207CE95E0755589A182D026C",
+    "Path": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\Actua96-Playtest\\builds\\e9aad11d3f0affbe-2b4b128d-0703f4d7-4e7d91ab\\actua96.exe"
+  }
+]

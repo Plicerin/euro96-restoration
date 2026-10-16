@@ -1,0 +1,33 @@
+{
+  "inputs": {
+    "FGFX.C": "5b0b5bf24247000e2814dbd26f893a16b18b979b6028cc37fff14ddd9bd13297",
+    "3DENG.OBJ": "49de827ef363e9367855bcf5ddfe7b6f20eca55d0907a4fc07da233010cbe733",
+    "3DENG.C": "6752b57c76e0f0c56fc3c46fd6d8d67879085e97289d9fcb28d3c60bb3d42f76",
+    "EUROREND.DAT": "0c38ab865fcd1d62d7c0f3f88b861f4c43643caf402dea6fbe9b0f042fd340cb",
+    "EUROREND.OFF": "96e6cea4bb91667cd204faa928696006048cf35a4e0baabefe83eca5d06dcb87"
+  },
+  "source_object_tables_equal": true,
+  "sprites": 129,
+  "fonts": 3,
+  "loaders": [
+    {
+      "offset": 81188,
+      "record": 36,
+      "target": 393216,
+      "bytes": "b82001000081c200000600"
+    },
+    {
+      "offset": 81260,
+      "record": 37,
+      "target": 458752,
+      "bytes": "b82801000081c200000700"
+    },
+    {
+      "offset": 83400,
+      "record": 121,
+      "target": 439296,
+      "bytes": "b8c803000081c200b40600"
+    }
+  ],
+  "scope": "3DENG.C high-resolution scanner coordinate equations, half-dependent team marker selection, clock/score placement and FGFX.C proportional font 2. Original sprite byte rules: zero transparent, one caller color, otherwise palette index byte-1. SDL nearest scaling replaces doubled DOS blit; alpha darkening replaces palette filter. Native safe clipping and unsupported-character fallback. Score text from live restored match, replay clock replaced by REPLAY; no claim of full original menu restoration."
+}

@@ -1,0 +1,2 @@
+1. Original lineup and officials; 2. Camera orbit/hold; 3. Five venues and immutable live state passed.
+Full frontend session: 31 matches, 31 natural openings, 62 natural tunnel exits, 37 intervals, 57 replays, 57 goals, 3 extra-time matches, 2 shootouts; champion=SPAIN. All 31 saved checkpoints resumed.

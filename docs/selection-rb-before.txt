@@ -1,0 +1,17 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start 38: native_original_cpu_smoke
+1/1 Test #38: native_original_cpu_smoke ........***Failed    3.87 sec
+EURO: 121 entries, 15 backgrounds, 10 tactics tables verified.
+EUROREND: 229 bounded entries, 6613404 bytes.
+FAP: 27 bounded entries, 1452928 bytes.
+FAPF: 4 bounded entries, 279252 bytes.
+Actua96: RB must switch players without handing the human team to CPU
+
+
+0% tests passed, 1 tests failed out of 1
+
+Total Test time (real) =   3.94 sec
+
+The following tests FAILED:
+	 38 - native_original_cpu_smoke (Failed)
+Errors while running CTest

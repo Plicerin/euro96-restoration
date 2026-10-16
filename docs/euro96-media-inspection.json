@@ -1,0 +1,63 @@
+{
+  "archive": {
+    "path": "C:\\Users\\vrock\\Downloads\\UEFA_Euro_96_England_1996.zip",
+    "sha256": "48ce74afef46b43a27353f15f705b684d62076768961ebdf42dac35630d954a4"
+  },
+  "image": {
+    "volume": "EURO96",
+    "mode": "MODE1/2352",
+    "raw_sha256": "e3308af98d4f18767d00516c7eb434629e15bad59bb3726759a82bbbf151ef15",
+    "iso_sha256": "1a3f84af4b3378d53754772379f1f94c8f8a2f5d07a1bdc57727dca93f913cdb"
+  },
+  "identity": "PC/DOS Euro 96; READ.ME requires DOS 5.0+, 486DX2/66, 8 MB RAM",
+  "graphics": {
+    "source_records": 229,
+    "retail_records": 287,
+    "source_records_found_identically": 100,
+    "number_record": 107,
+    "identical_source_number_record": 109,
+    "numbers_present": "1-15; identical atlas, no 16-20",
+    "legacy_importer_compatible": false
+  },
+  "audio": {
+    "validated_files": 78,
+    "sample_records": 3841,
+    "team_banks": [
+      "DIGI/TEAMS/E/E_BUL.MAD",
+      "DIGI/TEAMS/E/E_CRO.MAD",
+      "DIGI/TEAMS/E/E_CZC.MAD",
+      "DIGI/TEAMS/E/E_DMK.MAD",
+      "DIGI/TEAMS/E/E_ENG.MAD",
+      "DIGI/TEAMS/E/E_FRN.MAD",
+      "DIGI/TEAMS/E/E_GER.MAD",
+      "DIGI/TEAMS/E/E_HOL.MAD",
+      "DIGI/TEAMS/E/E_ITA.MAD",
+      "DIGI/TEAMS/E/E_POR.MAD",
+      "DIGI/TEAMS/E/E_ROM.MAD",
+      "DIGI/TEAMS/E/E_RUS.MAD",
+      "DIGI/TEAMS/E/E_SCT.MAD",
+      "DIGI/TEAMS/E/E_SPN.MAD",
+      "DIGI/TEAMS/E/E_SWZ.MAD",
+      "DIGI/TEAMS/E/E_TRK.MAD"
+    ],
+    "french_team_banks": [],
+    "source_pitch_missing": []
+  },
+  "roster": {
+    "source_players": 320,
+    "retail_players": 320,
+    "exact_matches": 256,
+    "three_clip_matches": 256,
+    "retail_unresolved_speech_references": 7
+  },
+  "inputs": {
+    "CD-EURO96.EXE": "2a473a002a294c1bb28ea39e94a36afc34497dd7e44f0ebfeda0ea21f652b62d",
+    "CD-EUROREND.DAT": "f580229f73fe512a4519707f5b2500c58a28c0cacc7402e5ac0db8f403096cde",
+    "CD-EUROREND.OFF": "70164cc092c0503f92a49762158deef4f4058cf4c665914ecbc61596c2e5ef1f",
+    "CD-EURO.DAT": "cc6f91d54f58195a2d22f94d0fdc88c7262bed67356afa3aa99380fcee071558",
+    "CD-EURO.OFF": "09a1ceb1b2134560aef2300561f8915c2215f838e07e04edf203ed47ffea681e",
+    "CD-SCRIPT96.ENG": "15ff7b749c0fbf5431c5f0964643918adb458bf6cc41a3d71f059f30fc52d283",
+    "SCRIPT96-decoded.ENG": "dbcb4fc5dc9e24a174177a8280c2b21aca94305c24cde7cae4fa58c8e2b052d3"
+  },
+  "status": "Inspected and staged only; no installation, SOURCE replacement, publication or game restart"
+}

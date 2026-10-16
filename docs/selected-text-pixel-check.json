@@ -1,0 +1,12 @@
+{
+  "unselectedWhiteLabelsPixelIdentical": true,
+  "selectedLabelChanged": true,
+  "whiteRegion": [
+    748,
+    294,
+    1068,
+    659
+  ],
+  "before": "text-smoothing-title.png",
+  "after": "selected-text-title.png"
+}

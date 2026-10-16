@@ -1,0 +1,12 @@
+{
+  "titleTextPixelIdentical": true,
+  "allChangesInsideCircleColumn": true,
+  "changedBounds": [
+    668,
+    223,
+    746,
+    620
+  ],
+  "before": "selected-text-title.png",
+  "after": "selection-circle-title.png"
+}

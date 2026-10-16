@@ -1,0 +1,10 @@
+Package 0.43.0: 36 files hash-checked; 0 optional media absent.
+Portable preview: C:\Users\vrock\Documents\Codex\2026-10-08\ex\outputs\actuasoccer96-windows\dist\actua96-0.43.0-0be3b939bef340c394ac766f7fd18a60
+Package 0.43.0: 36 files hash-checked; 0 optional media absent.
+Isolated package passed --version
+Isolated package passed --verify
+Isolated package passed --frontend-smoke
+Isolated package passed --tournament-save-smoke
+Isolated package passed --movie-smoke
+Isolated package passed --intro-smoke
+Isolated package and logs retained: C:\Users\vrock\AppData\Local\Temp\Actua96 package audit b1496e4c32a74a328b9e9bf686784047

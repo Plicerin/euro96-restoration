@@ -1,0 +1,30 @@
+{
+  "version": "0.57.1",
+  "buildId": "8bc38b0d95ffa1c6-2b4b128d-0703f4d7-f0805be4",
+  "saveUnchanged": true,
+  "saveSha256": "9683D18CECAD6D6C3D57D294CA57CD1B0CFF427C723892502D05958F8F4BC2DF",
+  "trackedSourceFiles": 427,
+  "sourceUnchanged": true,
+  "executables": [
+    {
+      "Algorithm": "SHA256",
+      "Hash": "8BC38B0D95FFA1C6FBF224477F1A3C7FC58591155C2488F07E52A976E7A9D725",
+      "Path": "C:\\Users\\vrock\\AppData\\Local\\Temp\\actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b\\Release\\actua96.exe"
+    },
+    {
+      "Algorithm": "SHA256",
+      "Hash": "8BC38B0D95FFA1C6FBF224477F1A3C7FC58591155C2488F07E52A976E7A9D725",
+      "Path": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\actuasoccer96-windows\\dist\\actua96-0.57.1-8df87e5584794cb385e6e9ace3ebcb8e\\actua96.exe"
+    },
+    {
+      "Algorithm": "SHA256",
+      "Hash": "8BC38B0D95FFA1C6FBF224477F1A3C7FC58591155C2488F07E52A976E7A9D725",
+      "Path": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\Actua96-Playtest\\builds\\8bc38b0d95ffa1c6-2b4b128d-0703f4d7-f0805be4\\actua96.exe"
+    }
+  ],
+  "launcherAliasesMatch": true,
+  "package": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\actuasoccer96-windows\\dist\\actua96-0.57.1-8df87e5584794cb385e6e9ace3ebcb8e",
+  "affectedTestsPassed": 13,
+  "finalArtChecksPassed": 3,
+  "isolatedSmokesPassed": 7
+}

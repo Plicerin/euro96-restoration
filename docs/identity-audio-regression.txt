@@ -1,0 +1,51 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+      Start 101: retail_sequence_contracts
+      Start  99: retail_period_contracts
+      Start  91: euro96_retail_presentation_contracts
+ 1/23 Test  #91: euro96_retail_presentation_contracts ...   Passed   16.36 sec
+      Start  97: retail_audio_contracts
+ 2/23 Test  #97: retail_audio_contracts .................   Passed   21.03 sec
+      Start  92: euro96_media_contracts
+ 3/23 Test  #99: retail_period_contracts ................   Passed   42.41 sec
+      Start  79: full_tournament_frontend_session
+ 4/23 Test #101: retail_sequence_contracts ..............   Passed   48.51 sec
+      Start  57: original_commentary_contracts
+ 5/23 Test  #92: euro96_media_contracts .................   Passed   10.58 sec
+      Start  95: retail_presentation_contracts
+ 6/23 Test  #95: retail_presentation_contracts ..........   Passed    2.86 sec
+      Start  63: original_tournament_contracts
+ 7/23 Test  #63: original_tournament_contracts ..........   Passed    6.39 sec
+      Start 102: retail_sequence_provenance
+ 8/23 Test  #79: full_tournament_frontend_session .......   Passed   16.09 sec
+      Start  90: euro96_preview_identity_contracts
+ 9/23 Test #102: retail_sequence_provenance .............   Passed    0.54 sec
+      Start 100: retail_period_provenance
+10/23 Test  #90: euro96_preview_identity_contracts ......   Passed    0.38 sec
+      Start  98: retail_audio_provenance
+11/23 Test #100: retail_period_provenance ...............   Passed    0.47 sec
+      Start  75: commentary_language_contracts
+12/23 Test  #98: retail_audio_provenance ................   Passed    0.73 sec
+      Start  85: local_head_to_head_contracts
+13/23 Test  #85: local_head_to_head_contracts ...........   Passed    1.18 sec
+      Start  80: tournament_save_recovery
+14/23 Test  #75: commentary_language_contracts ..........   Passed    2.65 sec
+      Start  55: original_frontend_contracts
+15/23 Test  #80: tournament_save_recovery ...............   Passed    1.66 sec
+      Start  93: euro96_import_contracts
+16/23 Test  #55: original_frontend_contracts ............   Passed    1.00 sec
+      Start  65: tournament_continuity_contracts
+17/23 Test  #93: euro96_import_contracts ................   Passed    0.81 sec
+      Start  40: original_regulation_match_contracts
+18/23 Test  #65: tournament_continuity_contracts ........   Passed    1.05 sec
+      Start  36: original_automatic_selection
+19/23 Test  #36: original_automatic_selection ...........   Passed    0.76 sec
+      Start  45: original_knockout_contracts
+20/23 Test  #45: original_knockout_contracts ............   Passed    1.32 sec
+      Start  48: original_penalty_result_contracts
+21/23 Test  #40: original_regulation_match_contracts ....   Passed    3.21 sec
+22/23 Test  #48: original_penalty_result_contracts ......   Passed    0.70 sec
+23/23 Test  #57: original_commentary_contracts ..........   Passed   19.37 sec
+
+100% tests passed, 0 tests failed out of 23
+
+Total Test time (real) =  68.08 sec

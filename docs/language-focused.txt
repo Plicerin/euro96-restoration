@@ -1,0 +1,17 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start 57: native_commentary_smoke
+    Start 56: original_commentary_contracts
+1/6 Test #57: native_commentary_smoke ................   Passed    4.42 sec
+    Start 66: match_settings_contracts
+2/6 Test #56: original_commentary_contracts ..........   Passed    4.60 sec
+    Start 55: native_frontend_smoke
+3/6 Test #66: match_settings_contracts ...............   Passed    1.34 sec
+    Start 72: original_french_commentary_contracts
+4/6 Test #55: native_frontend_smoke ..................   Passed    3.61 sec
+    Start 73: commentary_language_contracts
+5/6 Test #73: commentary_language_contracts ..........   Passed    1.35 sec
+6/6 Test #72: original_french_commentary_contracts ...   Passed    5.24 sec
+
+100% tests passed, 0 tests failed out of 6
+
+Total Test time (real) =  11.22 sec

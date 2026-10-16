@@ -1,0 +1,37 @@
+109 FAPs / 327 independent samples, 328 mapped slots, 31456 trophy frames / 96 samples, stereo/pause/seek/end, corrupt media, venue/player menus and championship routing passed.
+Retail periods: 746 score/order/take cases, exact full PCM, draw endings, missing/unsupported scores, knockout/French/legacy fallback, priority, pause, mute and malformed media passed.
+Retail sequences: 224 exact introductions, 160 country/side/result cases, knockout routing, tournament context, legacy/French, mute/pause and malformed media passed.
+Euro96: 32 strips front/back, country alternates, 320 appearance identities, 1920 complete name PCM/callback cases, optional absence and malformed media passed.
+31 original-engine matches complete; champion=FRANCE extra=3 shootouts=2 injury_points=356 booked=75 dismissed=45
+Fixture 1 ENG 0:1 SWZ frames=11389 extra=0 pens=0
+Fixture 2 SPN 2:0 BUL frames=11743 extra=0 pens=0
+Fixture 3 GER 5:0 CZC frames=12721 extra=0 pens=0
+Fixture 4 DMK 2:0 POR frames=11861 extra=0 pens=0
+Fixture 5 HOL 0:0 SCT frames=10058 extra=0 pens=0
+Fixture 6 ROM 1:2 FRN frames=11678 extra=0 pens=0
+Fixture 7 ITA 0:0 RUS frames=9493 extra=0 pens=0
+Fixture 8 TRK 0:1 CRO frames=11341 extra=0 pens=0
+Fixture 9 BUL 1:4 ROM frames=12880 extra=0 pens=0
+Fixture 10 SWZ 0:1 HOL frames=10468 extra=0 pens=0
+Fixture 11 POR 2:0 TRK frames=11311 extra=0 pens=0
+Fixture 12 CZC 0:2 ITA frames=11497 extra=0 pens=0
+Fixture 13 SCT 1:1 ENG frames=11701 extra=0 pens=0
+Fixture 14 FRN 0:0 SPN frames=10033 extra=0 pens=0
+Fixture 15 RUS 0:0 GER frames=10970 extra=0 pens=0
+Fixture 16 CRO 1:1 DMK frames=11809 extra=0 pens=0
+Fixture 17 FRN 1:2 BUL frames=10963 extra=0 pens=0
+Fixture 18 ROM 0:3 SPN frames=11506 extra=0 pens=0
+Fixture 19 HOL 1:3 ENG frames=11598 extra=0 pens=0
+Fixture 20 SCT 2:1 SWZ frames=11338 extra=0 pens=0
+Fixture 21 CRO 0:1 POR frames=11298 extra=0 pens=0
+Fixture 22 TRK 0:0 DMK frames=10661 extra=0 pens=0
+Fixture 23 RUS 2:0 CZC frames=11997 extra=0 pens=0
+Fixture 24 ITA 1:2 GER frames=12297 extra=0 pens=0
+Fixture 25 SCT 0:3 FRN frames=11780 extra=0 pens=0
+Fixture 26 SPN 2:0 ENG frames=11772 extra=0 pens=0
+Fixture 27 GER 2:0 DMK frames=11099 extra=0 pens=0
+Fixture 28 POR 0:1 RUS frames=10423 extra=0 pens=0
+Fixture 29 FRN 0:1 RUS frames=14834 extra=1 pens=0
+Fixture 30 SPN 1:0 GER frames=11326 extra=0 pens=0
+Fixture 31 RUS 1:1 SPN frames=18218 extra=1 pens=1
+Full frontend session: 31 matches, 226 individual transitions, 31 natural openings, 62 natural tunnel exits, 35 intervals, 59 replays, 59 goals, 2 extra-time matches, 1 shootouts; champion=SPAIN. All 31 saved checkpoints resumed.

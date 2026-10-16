@@ -1,0 +1,57 @@
+{
+  "version": "0.61.1",
+  "buildId": "36ae0613a4f5ca8f-2b4b128d-0703f4d7-92ade261",
+  "tests": {
+    "original_automatic_selection": "kickoff-selection-focused.txt",
+    "original_prematch_contracts": "kickoff-selection-focused.txt",
+    "full_tournament_frontend_session": "kickoff-selection-regression.txt",
+    "original_tournament_contracts": "kickoff-selection-regression.txt",
+    "native_original_control_smoke": "kickoff-selection-regression.txt",
+    "release_match_matrix": "kickoff-selection-regression.txt",
+    "native_penalty_control_smoke": "kickoff-selection-regression.txt",
+    "native_frontend_smoke": "kickoff-selection-regression.txt",
+    "tournament_save_recovery": "kickoff-selection-regression.txt",
+    "tournament_continuity_contracts": "kickoff-selection-regression.txt",
+    "native_tournament_save_directory": "kickoff-selection-regression.txt",
+    "original_knockout_contracts": "kickoff-selection-regression.txt",
+    "original_regulation_match_contracts": "kickoff-selection-regression.txt",
+    "original_frontend_contracts": "kickoff-selection-regression.txt",
+    "original_human_controls_contracts": "kickoff-selection-regression.txt",
+    "original_live_match_contracts": "kickoff-selection-regression.txt",
+    "original_penalty_result_contracts": "kickoff-selection-regression.txt",
+    "original_penalty_control_contracts": "kickoff-selection-regression.txt",
+    "original_control_contracts": "kickoff-selection-regression.txt",
+    "native_setpiece_control_smoke": "kickoff-selection-regression.txt",
+    "local_head_to_head_contracts": "kickoff-selection-recheck.txt",
+    "native_head_to_head_smoke": "kickoff-selection-recheck.txt"
+  },
+  "testCount": 22,
+  "kickoffCases": 32,
+  "liveMatches": 2,
+  "introCompletionCases": 2,
+  "packageHashes": 51,
+  "packageSmokes": 9,
+  "sourceUnchanged": true,
+  "sourceFiles": 427,
+  "saveUnchanged": true,
+  "saves": {
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\tournament.sav": "9683d18cecad6d6c3d57d294ca57cd1b0cff427c723892502d05958f8f4bc2df"
+  },
+  "executables": [
+    {
+      "path": "C:\\Users\\vrock\\AppData\\Local\\Temp\\actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b\\Release\\actua96.exe",
+      "sha256": "36ae0613a4f5ca8f6d37358a1076cff58c93bd767cb1f2718ded53f916d6f772"
+    },
+    {
+      "path": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\actuasoccer96-windows\\dist\\actua96-0.61.1-9f76b66801ca4d14b04349b270cc9571\\actua96.exe",
+      "sha256": "36ae0613a4f5ca8f6d37358a1076cff58c93bd767cb1f2718ded53f916d6f772"
+    },
+    {
+      "path": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\Actua96-Playtest\\builds\\36ae0613a4f5ca8f-2b4b128d-0703f4d7-92ade261\\actua96.exe",
+      "sha256": "36ae0613a4f5ca8f6d37358a1076cff58c93bd767cb1f2718ded53f916d6f772"
+    }
+  ],
+  "package": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\actuasoccer96-windows\\dist\\actua96-0.61.1-9f76b66801ca4d14b04349b270cc9571",
+  "physicalControllerTest": false,
+  "correctedTestExpectations": "Two halftime multiplayer checks now require same controller/team ownership and a freshly selected kickoff taker, rather than retaining the previous distant actor."
+}

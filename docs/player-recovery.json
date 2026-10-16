@@ -1,0 +1,4076 @@
+{
+  "inputs": {
+    "FOOTBALL.OBJ": "80386fd58625e1a5a8491cdf700096af782636923ba40b778746274c8663430a",
+    "RULES.OBJ": "b2de700c0000e0d66eb7c559c012eec50404221b8565ac0894ef58a6fcf9b722",
+    "BALL.OBJ": "f8dd68af5519f5fd70085de559d57418f24beea6dea9f9fb2cfd8e4627e76ec5",
+    "ACTIONS.OBJ": "b02ab5c3177e8744c9c954c1d66148d6b3d9270fef647637192189ac4da87f31",
+    "BALLINT.OBJ": "00bc42f30d1a75790e30d5f3b0565eda1e25c3114fa3b40888cc6d246187d378",
+    "INTELL.OBJ": "aa57e892ff317cda7fbb372887af628372d5fe509eec3838ae012bf81335f2fd",
+    "ANDYDEFS.H": "46fa596943584b099c3a2d3188cfaf54e8dcab25cd8df04734c81e5988da647c",
+    "ACTIONS.CPP": "d580bba909cf6ce93dff67e156423971a510914a5e7123a65b8aa9fc86edd8ad",
+    "BALLINT.CPP": "6af1c0c6ab057e20fff42d6206691a1ccd6fe346cfa69444b2e7402c3a000b4c",
+    "INTELL.CPP": "745996b33ec5683effedd5dbdd1113161b4cd6422dea86e740c3897de355cacc",
+    "MATHS.CPP": "badcffdf5b450001887d0a335da7a2fa95c2b323a7898a40da71afc0ab9c3da8",
+    "RULES.CPP": "68630984013862fbc2a6d1bb2a5a9e859a1bfe68a1f20e8f24c1bfb949253fe1",
+    "BALL.CPP": "0b1b60164ac1b0de2d4dca33883947ec5d8f18d27efba384adfb27e1585c45eb",
+    "DATA.H": "0da6c278f2d30bcee32c1b31bb2ad24ec5b917a37bc9f7c4f50ef7eeca99fec8"
+  },
+  "routines": [
+    {
+      "file": "ACTIONS.CPP",
+      "name": "full_spd",
+      "line": 32,
+      "sha256": "ed5cd317b4658aa096b10f84716ea22fd0f6b8d2abe6a2634b31104927e4d91e"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "actual_spd",
+      "line": 49,
+      "sha256": "1c38cf82c12468a13df1e604bc975fbfd5045f9f4126db19e924d5fdc259de42"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "angle_to_xy",
+      "line": 1748,
+      "sha256": "8ded4a2c6513a24458b676dfe24089920053751792c4cd66da3705c18c362ff7"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "go_toward_target",
+      "line": 2358,
+      "sha256": "d265454756795111b1e7713428054b74ab96ce764afa941ab2c6aafadfce0bba"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "go_forward",
+      "line": 2367,
+      "sha256": "d43554eda49ca95e664174278848e53403f34ccda669c1514fbf89f7164c3ad7"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "rotate_offs",
+      "line": 2188,
+      "sha256": "6d5257840a9c9b2a98b25936e7df1c1a17962393e8ae4a70f7535c2e8ea1ac8b"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_stand_anim",
+      "line": 4828,
+      "sha256": "b1fb0517de27ae0a5227ac2217103545f2b1e2f9f236488db08b0fc4857e463c"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_kick_anim",
+      "line": 4983,
+      "sha256": "3d4051959ce9fb5d69888999ce5b10bfbc2cfc746ac92aece29a900072eaa5a6"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_trap_anim",
+      "line": 5195,
+      "sha256": "5545694fb469821e4bb745643c5f95f6a01ecbad4a581bf46cca3ea2ea885a90"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_chest_anim",
+      "line": 5353,
+      "sha256": "b4d8ac8ab57dac5b1323da2c32a12bc3c078de8624e7d8f6da327cc758863f13"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_dnhead_anim",
+      "line": 5364,
+      "sha256": "bed17e0a7b3701cd065d6bb8b98473f2c1bb56353c79c1b02d0f28c47013b453"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_kick_act",
+      "line": 2871,
+      "sha256": "b9056c0d36bc1c279d607e625cd095bdfc8f6f691cea8f642b6b4b02166d5d44"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "kick_action",
+      "line": 2895,
+      "sha256": "71c931c7f39401c3be3525c7bd6eeab5faab0534381e6734ad3c4a4b8c5b3d90"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "fire_ball_off",
+      "line": 2825,
+      "sha256": "1f1ff32e5e219ceb9c3ca31240a762c07ddca72392b6440b11c6ff2e9ac7048e"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_stand_act",
+      "line": 1589,
+      "sha256": "8f664df3e8f1ee9cea0a5d3834963cce1fa420e88f7de2cd709d5c163a47bb55"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_kphold_act",
+      "line": 1704,
+      "sha256": "e7293fd237efc857a9d8f9f25ecfa8534a5eb44e6c45ff9f59a82e85a06edcf0"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_get_up",
+      "line": 1304,
+      "sha256": "843f62e88399dae3cd90ce4517dc2f9853991bb680dfd606c174ac765de505fc"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "process_anims",
+      "line": 5912,
+      "sha256": "24a40fe9567109a2ea4ec957327de7f1e823128de5260a505b6cf15069158529"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "control_action",
+      "line": 3508,
+      "sha256": "2a3f3a30069c06259f2d0e42977c9b90d675084da0a876088bb8b82f44c1bcac"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "get_closest_pred",
+      "line": 3537,
+      "sha256": "2c5d4c853328948578e58bb862e4f86433662b69e8a83899d13e7a3fc7622c56"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_control_act",
+      "line": 3619,
+      "sha256": "a36d86b7dbb684fe75edf1dc6afc445dc276c90ccf9d32b3f7377803461edf14"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_wait_act",
+      "line": 3469,
+      "sha256": "df667efb3edd0956223d077e69a6301665ef438b18579e946fe6a304cfe99465"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_run_anims",
+      "line": 1805,
+      "sha256": "8b661d9ce228ac569678c6e078a7959c00dacda86523ad9d4239b9534ab1d951"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_stand_anims",
+      "line": 1776,
+      "sha256": "63a1ff72403c9465867558845b615a8b0de2ef7ef8a1298bd9cc8fcb02b67c2c"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_trot_anims",
+      "line": 1797,
+      "sha256": "c0815b35e85f8b70dba7c3c4a7de88db581293af66551acd486b394c32b40b27"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_run_anim",
+      "line": 4887,
+      "sha256": "e2eee9835a100e97e06088bfe4d01f54e2cab60b861ff12f45ce90fdabd5f7c5"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_trot_anim",
+      "line": 5634,
+      "sha256": "3dc605c291176785bc596804a3b28d0e733159b399ce45e6774bde9a811502ef"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_run_act",
+      "line": 1828,
+      "sha256": "3683f908f78228717708bfce13158cc208ab87131589135d5b6520019a5919eb"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_stop_act",
+      "line": 3455,
+      "sha256": "71c23271b69f6a655e283c2335dc7d7fa0a7fef7d3f8cf880027f07933b6b28b"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "stop_action",
+      "line": 3435,
+      "sha256": "10f4c2fe089d63a39b0e83e951256d97a6a9e128255ad1cd56f75bf90d5a2794"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "run_action",
+      "line": 4074,
+      "sha256": "dd3d35c6c806fc576b5daf8bda8d5a68da5d98fd2cb01ebc5b871ceaca50f4e8"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "wait_action",
+      "line": 3410,
+      "sha256": "6c735549364b977cb286b851013fbcb807b4fa31584819b64909709d494f2c27"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_strike_act",
+      "line": 3889,
+      "sha256": "54513224d13fa75e765b28f5ef410a9e7842358b2eef90ca13a38bf49afc329a"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "new_dir",
+      "line": 4554,
+      "sha256": "798bfc568d10bf5b1a5df5bd15e85a3890a0306cbae454c2b5c61903d875b6f9"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "dir_movement",
+      "line": 4620,
+      "sha256": "d2ea0840dfbccf767310a3fc7e5319af05cefd95c9d816fb2f6a5b000db1649e"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "dir_ball",
+      "line": 4642,
+      "sha256": "5d15da9741f495db30e4cfc49503baad0507babab85f04d573c4d9aed8064e04"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "dir_new_d",
+      "line": 4653,
+      "sha256": "6b99858ec53cf35952c5dd3738b47c35ac8bb2eec1e054d15150a10432aa16e2"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "dir_must_face",
+      "line": 4661,
+      "sha256": "dc70378ef8b77d3aab14ab7e44a772c2d2ed714122a0f3d2176dab679aacfc41"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "dir_away",
+      "line": 4669,
+      "sha256": "26a1d46a0e11fb43c00e51b247fe0338d43a9bacdaedc0db3bcdc31b2c2b3741"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "process_dir",
+      "line": 4784,
+      "sha256": "06e9e0d5df243b73067a87df803af82ed15af295ac004d9a026d8de6c83f5563"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_first_time_act",
+      "line": 3759,
+      "sha256": "da0b438015bab480da9d363561a1967427577ac796ae8b58bc361b8f36c375ad"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "strike_action",
+      "line": 3704,
+      "sha256": "1d5f09c638bad490278e485d806aa28e63f4ae452be6f79785c36f0b6e2e5139"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "strike_ball_off",
+      "line": 2781,
+      "sha256": "8d33ff43ffda0aac295dfc4a27f5ea7d53894a65fc1fb383dff4ff9d55bf69da"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "save_action",
+      "line": 4256,
+      "sha256": "b88a5537cfb3fde5969d9a18d423950b2d6b54a3df498e43b5d66b6cce010847"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "chip_strike",
+      "line": 2700,
+      "sha256": "90f3356e6362b70b626094edceb7d3f7774953c346562685baa48ffc8efd6f53"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "dvhead_strike",
+      "line": 2751,
+      "sha256": "021216ba0cf6dc8706561db335bbac2cebc773322c993e5f807449d3906db7b4"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "head_strike",
+      "line": 2710,
+      "sha256": "704ea0cc6b2d0e74b1bb09221b774e941cae7f41a80a0478ef553b0fe163b47e"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "kick_strike",
+      "line": 2658,
+      "sha256": "a3d64b6088c7150239e6a517c03d79533a71c5545c9c1a30b6e9a3aebba3e9cb"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "overhead_strike",
+      "line": 2674,
+      "sha256": "102ba2b5c4b3d44b2253e9deafc30c28045014fda0fcf0fd801ea4a708260e0f"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_save_act",
+      "line": 2225,
+      "sha256": "f2f41576352ab826c33ae156092d176e4add23ddfcf1b72970db463d1afd71af"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_save_anim",
+      "line": 5397,
+      "sha256": "6e17196a1ce9472a646abe1f83c78c765485cff9426f48d844569ad6e1b12f70"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_shdr_anim",
+      "line": 5284,
+      "sha256": "456c2735bd9ab47e1c3eded431d3e9529cdd260b588daa5b4d99f5be1aeea919"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_jhdr_anim",
+      "line": 5298,
+      "sha256": "0f8285aac1328bf961aafc06545a09dd46091d3ffae192e4df6d04d4b2c84585"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_dhdr_anim",
+      "line": 5309,
+      "sha256": "609d7e974a70683725230b1090f10fc421cefac4f9d233e025ece2b867afa390"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_ohd_anim",
+      "line": 5320,
+      "sha256": "63ba55fab813027bb9d4e0242d7377bc5167e45187396928d33738fedfd2cb09"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_voll_anim",
+      "line": 5331,
+      "sha256": "e6cd438459a64a5d92992644321ba67946713e5721b312230f8926e3f10f9edd"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_getup_anim",
+      "line": 5386,
+      "sha256": "41d223c4b8a436890fa6ea83ec75edfa5adf8188e117fba806f55aecfe33388c"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_getupf_anim",
+      "line": 5375,
+      "sha256": "aa493cad5fc349f978b6768b236d8aaf8c2e65261192cac4fede83fd1bf6cf97"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_standb_anim",
+      "line": 4864,
+      "sha256": "30d6577483a416186c3a35b47aa3cc4ec4df09fba0002cc1ac066aba4d70e441"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_runb_anim",
+      "line": 5462,
+      "sha256": "ed5ed1f3f0caad7592c51ee4daac1a44f165b7e172833551044b2ab3e982d599"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_kout_anim",
+      "line": 5418,
+      "sha256": "912e0f5f6d5978b04ffc39250787357191c50e94f112e8eca52a5a6bbb382a4d"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "kphold_action",
+      "line": 3337,
+      "sha256": "e75ee71f6771c1d642c484315e2b5dbdfe3a3efbc6a35bad2a790c18db55acf8"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_tostand_anim",
+      "line": 5538,
+      "sha256": "26af965f68709b3c02566b9314d161129ca573b595d121315742d4bc43bf446b"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_tostandb_anim",
+      "line": 5549,
+      "sha256": "98a449bdd747d832f1cf575437f1a236ee2f7743fbff79d7d260f0b44f00b9ca"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_crtostb_anim",
+      "line": 5506,
+      "sha256": "d0468afe2ea9ba9cb727e378882821d1eebcb14aaf5b973d6a82261740d7b0e5"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_bounce_anim",
+      "line": 5407,
+      "sha256": "bafdabf83b4f3cef4b5922cb203b43438cb6f1ad896646cd3a84dba987929d45"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_hvoll_anim",
+      "line": 5429,
+      "sha256": "97f260cb1ba47aa2a755192b49d4a4bfb85c1206f1cc2f28c4662da03ff22e3b"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_throw_anim",
+      "line": 5440,
+      "sha256": "36ae29b424530813593744ba21822e2b17067a60c11e677d425a8e3e8dade6d1"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_roll_anim",
+      "line": 5451,
+      "sha256": "71559a345982a333e6f9616d14a0fb05f18a19e703e36e510c1c55dd1f4c8104"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_waveup_anim",
+      "line": 5473,
+      "sha256": "1eeffa76108ba64a3bc57c5812c1a471a2d7863480da4fa850279d5e829184fe"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_throwl_anim",
+      "line": 5484,
+      "sha256": "6db2283e05c8fd2ab1771ef135d1ae485ad874754b0618bd775fe4ef040c1a7e"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_throws_anim",
+      "line": 5495,
+      "sha256": "47124ff96fc21090c67a4580172adbe952b65fa8727880e6e9826b7ec860d2ca"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_crl_anim",
+      "line": 5517,
+      "sha256": "666eb4207e79ccd1a177e0b024d74254904c9e13342e183b28c8b1a799b4f267"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_crr_anim",
+      "line": 5527,
+      "sha256": "afe70eee09567da624485b9c62f430306271289585c3c01586861b7979c40dc5"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_kick_l_anim",
+      "line": 5100,
+      "sha256": "b8767fc09d459c7136a51e573791f73487f2104e2c1489d2ec8088d87a18aaef"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_kick_r_anim",
+      "line": 5148,
+      "sha256": "da5b4f769efb4150fe383926a583022ad1dd3056345982fa02b9fdea61b286dc"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "user_stand",
+      "line": 2556,
+      "sha256": "27c3ad719cf16fe06f49e8bfc6989f81f9d834d3adf60750236ccf360accb423"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "user_run",
+      "line": 3278,
+      "sha256": "db2b1309c5c67a13b60ed7b38891dbcd85743461d3738c0df6a04acccf46541a"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "user_init_tackle",
+      "line": 2114,
+      "sha256": "8e02e4be71d06f2fb4fddc10557633971f64f03a2cb03ebb8ae6d71d956804c7"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_tackle_act",
+      "line": 2151,
+      "sha256": "1179a0fe38fa35c46bca7ab89844472da6cbd4f9f011b6aa1203560042acf45f"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "tackle_action",
+      "line": 4244,
+      "sha256": "9c940706f189a6b3122b1a982f066a21be965b1300aa032fe21a9e891b16d3fb"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_tack_anim",
+      "line": 5273,
+      "sha256": "979585a8fe960c993eb4b551076bf11dfbe93aa30c935623160cfcd1d8ffca13"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_steal_act",
+      "line": 1691,
+      "sha256": "52faf7b5a9056f406a5ae8e9d33f452e99b59bc723d797e2f3e73f944dff7ea8"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "steal_action",
+      "line": 2924,
+      "sha256": "08672c2a5c85b3f71f3b479c3cdae911822df8f46528d9e3ff7840edb5c716e7"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "user_spec_kick",
+      "line": 971,
+      "sha256": "d5ba4d7b77da1ecdaebc713d6b141be451849bb55f56c4a1c1c51525c195ba00"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "rotate_around_ball",
+      "line": 589,
+      "sha256": "647dc52b848008038832dfcf0889bb8978c67712e82aef7efa4fc69048f53bbe"
+    },
+    {
+      "file": "BALLINT.CPP",
+      "name": "hold_ball",
+      "line": 452,
+      "sha256": "27bba415c8c31c15f19c8cd2883a5e55e4ed4ccccdacfa1cf73b05b5ab318c4e"
+    },
+    {
+      "file": "BALLINT.CPP",
+      "name": "init_specials",
+      "line": 571,
+      "sha256": "0b74963a0bddf10b673b36ea3a89e13514c664a935c85cc9a8fbfcc2ed74283e"
+    },
+    {
+      "file": "BALLINT.CPP",
+      "name": "collect_ball",
+      "line": 581,
+      "sha256": "77161d1c6a2afe5de3722bc2558fed15e29b60d4a19cfebed41f89f4fa43bb16"
+    },
+    {
+      "file": "BALLINT.CPP",
+      "name": "holder_lose_ball",
+      "line": 1282,
+      "sha256": "219991bf3efef34f2a81113f180313375bfe79b30562eb6b5430897e5e61e205"
+    },
+    {
+      "file": "BALLINT.CPP",
+      "name": "ball_at_contact",
+      "line": 305,
+      "sha256": "5e6a3c13b58c0ad89ad5fb63962832f52b4c1e9de2309e49aa7f5d054f021494"
+    },
+    {
+      "file": "BALLINT.CPP",
+      "name": "get_mcball_coords",
+      "line": 78,
+      "sha256": "72efdb75a7a5fff4cb18b97a19524265e67fd78518c311087fa6c70566a5aa47"
+    },
+    {
+      "file": "BALLINT.CPP",
+      "name": "control_interact",
+      "line": 792,
+      "sha256": "beb436f0704d26172405fb3e61d9af54d40c1dc3786b84f936c689140a02567c"
+    },
+    {
+      "file": "BALLINT.CPP",
+      "name": "standard_fstep",
+      "line": 687,
+      "sha256": "96428abbe3dcfcbe2ce22740e2c833376d15fa66121b8cc0b17824551191c65f"
+    },
+    {
+      "file": "BALLINT.CPP",
+      "name": "predict_ball",
+      "line": 1018,
+      "sha256": "a00698695896584ea14551938b70f62fe7113ac97ec18e2469becdbe9eb11cc6"
+    },
+    {
+      "file": "BALLINT.CPP",
+      "name": "get_opp_near_ball",
+      "line": 1109,
+      "sha256": "37e4e914060692c145d7156baa174be021e4b3749f9eed7a50a38d7560cbdf33"
+    },
+    {
+      "file": "BALLINT.CPP",
+      "name": "rebound_off_plr",
+      "line": 317,
+      "sha256": "c45af46a25a80f8fae0a5bf90da0426ce1157079dd1e98f0edf46d960cc9f080"
+    },
+    {
+      "file": "BALLINT.CPP",
+      "name": "player_distances",
+      "line": 1167,
+      "sha256": "0beb2fbfcee2a04a4e406e427fd16b9a31c1d5a1b182ecaa7b7ecc4cba7765e1"
+    },
+    {
+      "file": "BALLINT.CPP",
+      "name": "get_dist_pos",
+      "line": 1135,
+      "sha256": "ae32a59a4dbcf9aa8d70805e92b7cbe23085bbf4ed2b83df4bc33caef6c8d2e1"
+    },
+    {
+      "file": "BALLINT.CPP",
+      "name": "control_difficulty",
+      "line": 629,
+      "sha256": "75e9658ae137062ca8498763e8ab550c90f105875a5281b159ff0a6c6807e6fa"
+    },
+    {
+      "file": "BALLINT.CPP",
+      "name": "active_control",
+      "line": 665,
+      "sha256": "a724e8a3c81745d823b6d3df1fdfd4373a9994b6f87d6d92b78cb474a19a33f8"
+    },
+    {
+      "file": "BALLINT.CPP",
+      "name": "control_ball",
+      "line": 741,
+      "sha256": "6513bce032a4909661eab0e6a6811aefdeaee84cfb4a1fb48cbdd8fc8789e8f0"
+    },
+    {
+      "file": "BALLINT.CPP",
+      "name": "ball_interact",
+      "line": 831,
+      "sha256": "602407ceb5e7538e06ae50b8a7f7094abdde4fe77e6341829b59a667de0a615f"
+    },
+    {
+      "file": "BALLINT.CPP",
+      "name": "get_nearest",
+      "line": 1266,
+      "sha256": "7f9c0fe04dd6846ca4746e4f2229e23a7b6b50db545966c0e1b284d95b21d2e6"
+    },
+    {
+      "file": "BALLINT.CPP",
+      "name": "has_ball",
+      "line": 370,
+      "sha256": "d0eb48706c559831645dbc3aeed6085815f3ff95c427373b33dc7d99d7d3e61b"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "reset_ideas",
+      "line": 346,
+      "sha256": "72fad7461b9684f13efd86f26ba88ecf22ff516efe87432b552dd577cab03756"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "reset_all_ideas",
+      "line": 381,
+      "sha256": "447930eb2db56d70482a7cdabdc7bfe0fd39043ecb9039c79c8efa2a9de992c9"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "reset_leaves",
+      "line": 394,
+      "sha256": "33e05fd462f3370a8420c09a356ca3617f36d1047a5f0c5d05ca3db864c86f4b"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "pass_ahead",
+      "line": 4572,
+      "sha256": "f9a139e7425c7a553e0434f2182e8a9da647b368e056021b9541fd6748335d90"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "choose_pass",
+      "line": 4643,
+      "sha256": "7f5b3190681d659f3cb984335f6027d42ab6545d32e7ebe1cff28b23a5572d6c"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "pass_ball",
+      "line": 4697,
+      "sha256": "2e2d4d37ffeb48cb3794549013462ae1b90b2e01f3d9fe40b82cbdad7a00ef8b"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "new_interceptor",
+      "line": 4528,
+      "sha256": "641a7437cb6f08026b14a849b5891b45738a0dd3b86877ab421ff364225c0f9b"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "fstep_factor",
+      "line": 1838,
+      "sha256": "0124cd874f879185ef45157c3ac1f25bbb6902cc3acfc43b62c6bb861d8881da"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "get_there_time",
+      "line": 35,
+      "sha256": "134aea1abef4c158cdceb130719c2b3a837655ec506072a4694c3f826bdf3bc2"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "clear_strike",
+      "line": 2656,
+      "sha256": "fca4eeaba4cd4359094b083cb4045064ca858b7f93c05f304e9abcc480f24908"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "decide_on_face",
+      "line": 2672,
+      "sha256": "939afc2208c5fa35d09869cadae0e76e356da07e6971843879296314bc857a21"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "go_to_path",
+      "line": 2723,
+      "sha256": "ce538c220d9ac155a736fa065f79e2b3c585ab32fca6034efcab2214b18cd0b5"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "can_i_intercept",
+      "line": 1851,
+      "sha256": "d8f379528b8ece97f41b52474324f16cdba6df69e245fd786a807f43f1dca693"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "intercept",
+      "line": 1764,
+      "sha256": "89a17849e27772df170cad54139194ef95abaabb3fa66dea37e7930bd6ceeebb"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "strike_and_control",
+      "line": 1709,
+      "sha256": "02a25091d2a661142d6d6d8ba7e8a01051798dba18e1f44bad5993e20872de1a"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "get_dir",
+      "line": 4222,
+      "sha256": "bb9e82ab1e37f920646070e47de19f62e5e2b7392b298cc2a875cd8d73b92bcc"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "first_time_strike",
+      "line": 1500,
+      "sha256": "90ac4e1a21475cafe8581b9efe25381ba3e4f6b2cdcd6174065c7f94f22ce7f0"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "user_pass_check",
+      "line": 1624,
+      "sha256": "4ff60d862944dc7a33015d3bd1c752dd196c67df2e4006f56496e9ed70b71869"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "shoot_ball",
+      "line": 6194,
+      "sha256": "ae6bbfdfe96ca1f8b1882eae8c3fcb118f2736a85c6d27831404ae6ec57db18e"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "punt_ball",
+      "line": 5721,
+      "sha256": "9f4b431547f58885388b5281dcfc0fef7eda35228fc53817e7f920c88575252c"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "go_to_save_path",
+      "line": 1127,
+      "sha256": "0de9b34d5d8f5743ceee3b18a69a66c5c59fda736510f741a42a621c5a6592d1"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "fake_ball_poss",
+      "line": 1463,
+      "sha256": "a3588082f24ab5487ead2d2eeb31c11e6d7c55ff592db6ecd2b0c9388ee6b11a"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "kick_straight",
+      "line": 1489,
+      "sha256": "68deb0df53a3e3732dba6416cae20741c64f4dbfe3a8eedcb024b579e3333f88"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "pass_decide",
+      "line": 6479,
+      "sha256": "849ef7e28a0175a36570913c4587cf887dd16e950cd876e403d520046d305417"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "punt_decide",
+      "line": 5775,
+      "sha256": "77fa8cf4ee1e9c2063adb914e2b8bf691b65e40226e865bd9ae20d19a32772f5"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "restore_ball_poss",
+      "line": 1478,
+      "sha256": "98eb685b66df48e1118e483aa4817d8f9c670257a854ee5789a86eaaa1ac50f8"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "shoot_decide",
+      "line": 6254,
+      "sha256": "143e8d201d87d273a1c508e4ff5385bf758f502f1ca8afdb37634199b6cf15ad"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "aim_shot_at_goal",
+      "line": 5900,
+      "sha256": "18edf98edf2ca0e33a272e4911d8e69fa5f9ad21e1f2de398d5da1765f264a47"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "init_user_save",
+      "line": 1041,
+      "sha256": "af64b7e6eec8f4c4579c840384733dd1eafab8931eafb72ad488ed2540a73b32"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "save_in_zone_a",
+      "line": 405,
+      "sha256": "005912497517103465844ffe53eb61bbd45a9b113befe9e68b209544cb97911a"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "save_in_zone_b",
+      "line": 628,
+      "sha256": "4518b3300e8f2ed58a0fa6863f1d1d48adbb94097aa92cd44d71b59e7b10b912"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "save_in_zone_c",
+      "line": 826,
+      "sha256": "d32effb08f2b221990dfcc46eec1544555fe66395cfcf2f96c9ec424bb88c90c"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "angle_of_vis",
+      "line": 4305,
+      "sha256": "de8b4c8a333bef17e239471195d8de030dc4b886fb0e402f7af8fa6c984426dc"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "can_i_pass",
+      "line": 6459,
+      "sha256": "826ef1d3723c4758ab3fd9d3dcdd7a76054aff7dfe0cedcd795a999470fec261"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "cross_angle",
+      "line": 4510,
+      "sha256": "2d7fefdc96615c3d2bd6972e869f3292e62f0dee48b292b7a97d19c40f00b74a"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "in_kicking_range",
+      "line": 6418,
+      "sha256": "f3643733a19b7138bb679e4c0bd00eb5179086764d27e2ef66e03d219c2a26bb"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "kopp_around",
+      "line": 4420,
+      "sha256": "30961808059b292782f8533561e2b9a0a2ac9bae080f42470157d2247dd27667"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "opp_around",
+      "line": 4386,
+      "sha256": "6a5dc00bf39532b8d3985c32d4fac20aa36af847ec961a686efc60d0688dd2ed"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "plr_facing",
+      "line": 237,
+      "sha256": "6f948329629764e2068845afb65cefa6eb81ea486aaa5d36054e92da612e5fe2"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "plr_facing_goal",
+      "line": 252,
+      "sha256": "eb596318cc23e473e61f995b54c4735c64911b1b650f3f20c4e1973e3fdefbe1"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "get_power",
+      "line": 5884,
+      "sha256": "202610e79c615b8aab2a91a65f9a064ac2501cae98cb94360cb44adae7399c1a"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "get_traj",
+      "line": 5892,
+      "sha256": "b787153dda03a1036a884f6fa2428b8ad7a7c86c57d4ad964f8be00ee02ae753"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "sort_less_than",
+      "line": 6374,
+      "sha256": "4727c1a868cfdff3e4a524e1946a80ddb0229b40733058de4c8e0913c4bd935f"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "keeper_boxes",
+      "line": 326,
+      "sha256": "fc1a8099f9b095ac35d6f702f9e2c91056dba91fb548bbf0af731d67a6761f7e"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "make_pass",
+      "line": 4983,
+      "sha256": "2a1eee67cd72109fdbd9a937022c2d40ad66e21f50095de80d4532b5328fe061"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "make_punt",
+      "line": 5704,
+      "sha256": "48f072a2b748cf49f1952558378a8eabf0cd7ed139ce7b6ef60ac7df32d95e23"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "make_shoot",
+      "line": 6146,
+      "sha256": "39e51d73d1ee178e836057adc662beef5746ccb3a5dd2626923d81b16800db5c"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "thinking",
+      "line": 226,
+      "sha256": "13a4a73e922f225e7bd6bac7edc43f1e8313ce5c968762b993ba2d66f662fca2"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "run_back",
+      "line": 308,
+      "sha256": "92e249cf8229ca1ddbd68737ea6808dd25d991c266ded4be0dec8bc45d239d5a"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "help_chance",
+      "line": 7452,
+      "sha256": "1f48b11e1af91d16cc7e1fec9a2f5a7e23a46032c14cedca20b1844e2777d59b"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "we_have_ball",
+      "line": 7491,
+      "sha256": "6b1aa4b94bab1e7bd012e13344923e9d90558018cedded8ea453d63872cb7f64"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "kicking_dist",
+      "line": 6404,
+      "sha256": "8d58176c70a77fdcf225d7565d0323825f88288a7050bde958a64b4e72fa49e8"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "set_pos_flags",
+      "line": 7201,
+      "sha256": "df2e038c51be9f3b0faa71b1a3b5f3a049a718801dcb64a5df33fbe7e32087db"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "range_flags",
+      "line": 7118,
+      "sha256": "056ca35a4053f48038418223f1fd38dbc01d430b21a40cb7e537c76c0c4eeb05"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "cross_pos",
+      "line": 7152,
+      "sha256": "38ced8a9200b1c7f0311e23832fd8534dea96337d10bc50fe5cc3ed6285dcfd3"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "make_run",
+      "line": 5616,
+      "sha256": "8e02011b8b790d037edd77bb7f224eaec1438f8248642c613db5ea34ca4f2cc1"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "go_dribble",
+      "line": 5602,
+      "sha256": "2ab075a902dfeeeb292e054a7e32c92b2ae60533a00495783bf58eb103ffe79e"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "avoid_boundary",
+      "line": 5583,
+      "sha256": "0b1127119f3db32fce11b3c9d468404b106bf33ce5fc31a78d86825c2040a9b1"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "get_opp_dir_tab",
+      "line": 4348,
+      "sha256": "a74dd940f1be6d473306d90253d4c4bae3f343df6781baa00110463abdc1bb27"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "dribble_dir",
+      "line": 5136,
+      "sha256": "7b8ae80f5c68d4698290e9f0ae08f10927527f04ce01ece2e2dba80a5d9ea103"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "get_facing_opp_dir",
+      "line": 191,
+      "sha256": "2bf7f8f02e2420758044c3158a78881063abc71380aeef2507d65712b335675d"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "in_close",
+      "line": 7581,
+      "sha256": "02430c8b990e073460aa98279929b54b8186937591b2702e3503059521e8c0c7"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "can_close_down",
+      "line": 7592,
+      "sha256": "5b1e403ee312514e757600183604a9504891c8e43956c27b5e323c25d9a40d6c"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "close_him_down",
+      "line": 7604,
+      "sha256": "2b6223036da97ca858fcbf4388c653ed541fc491b3863d76e365995b0c9e199b"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "force_error",
+      "line": 7616,
+      "sha256": "793cb8a54d08bea6973902f4606c38a621660fa794810a33526c57ee57c8b178"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "forceful_retrieve",
+      "line": 7653,
+      "sha256": "c27694d894bd74e2c9950ec10fb780483164c479237eb25bc590819e9052faaa"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "go_to_side",
+      "line": 7666,
+      "sha256": "b59b13b1df77694e8bfc8f2037351ab9a14af5f1a90378f4f53145ed6045ba4c"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "go_to_between",
+      "line": 7705,
+      "sha256": "844ac1b6b32ec0db5d5b05a71fc9db462a30a282e4ce4b7e5e726a58b389426e"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "get_tack_path",
+      "line": 3015,
+      "sha256": "3e14979b920cca89cab5d8e3c55badfd4ffcd0d3f5b3d4c4cf7306c7c4c09476"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "other_interceptor",
+      "line": 7000,
+      "sha256": "117553c7e0205a68ffff16e44bb285d586484c397f0d996f2cb24cd9413f0521"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "opp_has_ball",
+      "line": 7800,
+      "sha256": "a943bfc76b27cba9245de477f28c1eca12a60f32a58a92804986a9cf5b7ae416"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "get_near_path",
+      "line": 3971,
+      "sha256": "cf359624b6f329da148eee1206af178abb25fcc3000e6ca76c47b33be6d7b5ad"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "free_ball",
+      "line": 7013,
+      "sha256": "14e44a3789f26d97f920295ff03baab4b8dd77ad0623b1c3ae0d213bad3a04a8"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "intelligence",
+      "line": 8098,
+      "sha256": "3b03fc9e3855a354e6a93a663d85eb7b4b73f622052684ee4dfdaa3e9bc60f09"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "get_tac",
+      "line": 3400,
+      "sha256": "787c3f459820c32b92abebb9bfbe0155c70567f04868084e56c2063c4eb515e9"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "process_comments",
+      "line": 6912,
+      "sha256": "9332ff78845754e9570a3696f23802f22a6eab388ca040a44a730887ccbc327b"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "player_comment",
+      "line": 6955,
+      "sha256": "934d540a59d919fc42769bd20092c589a5f8c745bfb82711b3dfa9bda3b2cf41"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "user_got_ball",
+      "line": 7210,
+      "sha256": "e03a5b28b8362e86f6a6b5c1219b20d9ee2cb71463f344c38ac397294388cfb3"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "user_opp_has_ball",
+      "line": 7764,
+      "sha256": "2b2fc9b556096d0dfaf19ac969d4115011442faf862591bca502ff5dba370b69"
+    },
+    {
+      "file": "MATHS.CPP",
+      "name": "af_randomize",
+      "line": 31,
+      "sha256": "c1063d7c594ccc7d821c9bf03caaa7f59523765cd384b26e67fe596b3b734fa0"
+    },
+    {
+      "file": "MATHS.CPP",
+      "name": "rand_range",
+      "line": 56,
+      "sha256": "90eee2c87cbc55443b69b8f73677bef2ecddf535da26561e7b221b382ec8d095"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "inc_work",
+      "line": 1944,
+      "sha256": "d200612d608e84e2ad248cd71f579ed628fcde0a0d1a3e92d58a16cdef174899"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "inc_pass",
+      "line": 1936,
+      "sha256": "077a9de59afbe168b8c27890376a3ae1cb145539ce08d96d8ee835c36b9e431c"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "inc_pwon",
+      "line": 1952,
+      "sha256": "2337995a10b393f637d67340e5eb773edaed00cbade73579ac9f4aef6becd910"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "inc_twon",
+      "line": 1968,
+      "sha256": "80163fae6676e3e83bca9e50b3987cc583a5027c063be3e7f0472f8f4735964e"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "add_comp_pass",
+      "line": 2048,
+      "sha256": "9b64cb7da213eeb9d210ecd731a6079b4c83e7c5c0b4bbad3bb9216fcaa55c1f"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "inc_shot",
+      "line": 2008,
+      "sha256": "a0e9ae5ab5f38fd4495da29db7e4e09d8c70e576d70a209aef9525e5614591e7"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "inc_saves",
+      "line": 2040,
+      "sha256": "41121b1c43ec46cc3d2ebcd724ec57c5f4125fb8cd229b819f872fee17b50c75"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "inc_save",
+      "line": 2032,
+      "sha256": "24d79b5710899029d78d5c7f861593f5c4b57ad3cc8805e9a9399339485007b3"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "inc_tack",
+      "line": 1960,
+      "sha256": "d1b6da4712fa5db31e0f2465922153d26c3bf37e36efb646ba07d4e257e232a3"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "new_shot",
+      "line": 434,
+      "sha256": "bd2e3d6a779633b58c0408b84732eeeaeaf02b9d9cb15fdbb6874afb284f0058"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "real_player",
+      "line": 865,
+      "sha256": "bc83a07dedd9ed574c8e938f554e12fbcc6d02c33e4bf802c187139fe513106b"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "ball_limbo",
+      "line": 1507,
+      "sha256": "d9a89c6c09ae413f12740ff27969eeac821b9784f4d2ce6a36d4252062450518"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "shot_passed",
+      "line": 524,
+      "sha256": "a235388c8a335d838f67e00b171d232089591472801143d4cb21da0d16af4bcc"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "rebound_post",
+      "line": 620,
+      "sha256": "555816263573338af1ca9802c4c464c0c2f7afc97c5f14165deae01c5ddb82cd"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "rebound_bar",
+      "line": 653,
+      "sha256": "16156fc1101b834ef7e2ee9d78b739214d238a20344901da5b8018f10d939a82"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "hit_goal_post",
+      "line": 728,
+      "sha256": "59e38f4af3863a6ee51e643066cdd3f45dd3f979eedad55974a9c58d4c2ca707"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "hit_cross_bar",
+      "line": 741,
+      "sha256": "482dd40a07e13691cdf838a4a72d6de2f66d97a806f0850917c63b3b0b9513e7"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "hit_high_side_net",
+      "line": 754,
+      "sha256": "3cab3c0023a1eff613d22c8b31c64b23964393428b7edb2a07859ffebce25758"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "hit_low_side_net",
+      "line": 767,
+      "sha256": "06d4c75db5f186d70f6b6ba6de91c2345ae1c0caaa3ea309789669355ea5d75c"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "hit_top_net",
+      "line": 780,
+      "sha256": "98fb560553aa9e24c4314f59f8583a70256d976a86b4a6a7b863852c38d8d983"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "hit_inside_back_net",
+      "line": 799,
+      "sha256": "1cbdf2c16119583cb6f833df4aeab3dd290b52b6d753ef798155f3a44be70f4e"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "hit_inside_back_net_r",
+      "line": 812,
+      "sha256": "50c33adbbcbd29ded3da949757889a6b1da8482d6d3b7156fd9a79ed2b6a0d08"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "hit_inside_top_net",
+      "line": 825,
+      "sha256": "1117dad972a05738d1f8bc0ab9639801375d950f4543cc484fb35f201a4d529c"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "hit_inside_high_side",
+      "line": 839,
+      "sha256": "7a0d8a542a0ec9fa53053a21a1954912185360c114a41245bd8c0e23c5beb51d"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "hit_inside_low_side",
+      "line": 852,
+      "sha256": "47427b688c047dcdb1fd81813ecb5d1131be5223fe9d0b9fcf596d0bba7023b0"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "outside_of_net",
+      "line": 1081,
+      "sha256": "a9cfbb042cafa0c3b70cc31af2153d287633a4efd0d7ebed1ae9a34758d41938"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "is_it_a_goal",
+      "line": 1198,
+      "sha256": "ef9b5c1c17aa4adb2a5897069dc77f0f71fc7895fcbb1abac13a9dc80bdf2b38"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "ball_collision",
+      "line": 1296,
+      "sha256": "fccddb303984cbc62c6a56db1ea66d9601c8b48fe5ac34e27d3bdb347cb45788"
+    },
+    {
+      "file": "BALLINT.CPP",
+      "name": "collect_controlled_ball",
+      "line": 760,
+      "sha256": "49af9b1d8707dd4e6cb6464ff2ab7d0d676b51248aac4d907e7bc3e9c3d49dd2"
+    },
+    {
+      "file": "BALLINT.CPP",
+      "name": "update_save_contact",
+      "line": 908,
+      "sha256": "596afb4f480c36bcf98471a01ba56ee2e05c78f43525efb9c1bdbf0b5f3a567d"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "dispatch_action",
+      "line": 4477,
+      "sha256": "450aed34c6731a42a8eb0e11f64268f53a3da46dbf2b3910ca034456b654042e"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "stand_action",
+      "line": 2954,
+      "sha256": "1c7618072bdd16494b887995034c67be9ae1572d76ffa79f3caba0335ba578fc"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "distribute_held_ball",
+      "line": 7348,
+      "sha256": "601598ef2e7f07f39203e791f6abe4cdec4e06934454a562984f587a6f0e5c79"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "keeper_busy",
+      "line": 8114,
+      "sha256": "b46c7f03831d0ea51b75cad4b6cc07ed0e0bfb1c92b7a17fc797e24372a4d345"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "update_ball_limbo",
+      "line": 1542,
+      "sha256": "9772b0982485cabdba320a00662111f006075ceaa68ad5eba0fccffd7c41b841"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "comment_left_goal",
+      "line": 993,
+      "sha256": "c0864551ead6f4f821a10873a025620a0a3f5d517e068086333e1e557fa75711"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "comment_right_goal",
+      "line": 902,
+      "sha256": "8df102d22e5ff432557cd2affb50cf8e5919a1c7d39a65a2a614f77fa4d58b73"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "got_ball",
+      "line": 7336,
+      "sha256": "bb78a14050a4f77e608372b90c18fcf425d8fcc3b05e104af851899af0b6bb0e"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "find_zonal_target",
+      "line": 3689,
+      "sha256": "c94025f9ef1217708679028457dd70e101e7e44bcca491fdb6c3f3e37af71298"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "close_angle",
+      "line": 1006,
+      "sha256": "df688c9870dce9f0db4cb9c211e170fa1e589ebf9e71e8237b5842434aa84dd8"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "set_there_flags",
+      "line": 3102,
+      "sha256": "495824c4d920b4caf9a39901ed4943dc0556f08ca0ae93fe85ddc4873a9d58c2"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "centre_pos",
+      "line": 3124,
+      "sha256": "bc36ef452e3859280bd0521cbef428c43e4fc16c4a98a646b5cd911a12ee56d1"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "gkick_pos",
+      "line": 3154,
+      "sha256": "31488a296d159838a32ea60640b6f48f6ac47b433267d54e526c42fcd7545e8e"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "corner_pos",
+      "line": 3181,
+      "sha256": "f4401992ca4eb39153709c90ca404ad3aac97e33d154db40f168cabbc9787bb0"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "throw_in_pos",
+      "line": 3206,
+      "sha256": "193f004a9711082e50c020a9f82c77a3f79d103fdf69a4cc416c0cc47483c450"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_pickup_act",
+      "line": 1314,
+      "sha256": "9892c6295d6d6edd6a5afb5aa50b8b7cd3c5eef023e403f6ac59b29e1588a72f"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "pickup_action",
+      "line": 1326,
+      "sha256": "41197ffc68876a5277c1011bb7235fbe2dd0b8e4a16d2cd2cafd8eb6b1b41f89"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_pickup_anim",
+      "line": 5623,
+      "sha256": "28c0b8e3f14877e2253967b7ea439a07c66f13653611224d5cef8975db812209"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_throw_act",
+      "line": 1274,
+      "sha256": "16ad0fc6c945feb5349c4925c89db7341a54c8df94ea1b42239683e8198a3ff1"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "throw_action",
+      "line": 3144,
+      "sha256": "e917877604c756d5c5c795122d8ba598be2cddee04f4684fb50f7a213f9be4e5"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "bounds_rules",
+      "line": 762,
+      "sha256": "e2f088e88bc0671e68a7878ad9dc0e2f1c19545c63c2540fe4637029c5ee6e13"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "throw_taker",
+      "line": 899,
+      "sha256": "a241fa766b0eebabfd986e0858fee6b3d014a841837aa4dce770b8650a34697d"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "get_taker",
+      "line": 929,
+      "sha256": "bec482325911be31a8f3410f4f00722d045ed6c588e61fe4c904029f64d02f3f"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "centre_takers",
+      "line": 966,
+      "sha256": "e27c41bd7fee8db825ea1250439d66d048aba6f075c42aa1f8d86e75de130fd9"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "decide_set_kick",
+      "line": 29,
+      "sha256": "e8bf4730918d67f09b3c13e56fcf675f0b0103dbb06316259aa93d9965264367"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "reset_ball",
+      "line": 475,
+      "sha256": "a49d78d4704e25259b519c3852f84067dd8b3c3719196397d0b080d815fab3b5"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "record_goal_score",
+      "line": 993,
+      "sha256": "fb91806c3984c79edf8f69044668ac83f0831524bb0641a6ec15aa1077c71d81"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "init_centre",
+      "line": 1033,
+      "sha256": "3ac82cba7304a63d12b7f200848ec066701fa50fee10fadb668a6be8defe363b"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "init_corner",
+      "line": 1089,
+      "sha256": "fb9b557b93f977e8f4926f60e78e39049fcf79994e414021a36a1229a2d5ee90"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "init_gkick",
+      "line": 1191,
+      "sha256": "ffab2e663d915d4a058ebe25cfb18ca0b80bf0b140def18748da0cbbbdc6ad94"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "init_throw",
+      "line": 1312,
+      "sha256": "d7d15d2e9138a37e6a549b82f619a32fed76a051f376e84739bb96b1d8e55e7b"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "offside_rule",
+      "line": 7953,
+      "sha256": "31c4a3b5434e4e8dbb8af63ec2e74865ae3d893e109382d2d57bee97f67ee8c5"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "dfkick_pos",
+      "line": 3233,
+      "sha256": "7131812e425bdfdf6ba1bf60cc714ae894256a4148f857f7d1ac41f056098d8b"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "fkick_pos",
+      "line": 3281,
+      "sha256": "77fa76385d53c52da69b4ff925f1ed8d1a23bd124ddf846adf06cd3f7900c6d0"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "penalty_pos",
+      "line": 3307,
+      "sha256": "618866958bce915ad6d95bd56f7d1522408cf2aa6731fb849374b216272672cc"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "facing_opp",
+      "line": 4442,
+      "sha256": "490bb55ede525db7426fa9c14de64d6a9e11aef05207ee5d7247509fc1127d64"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "player_ints",
+      "line": 4455,
+      "sha256": "d484ce8a3d12ed88003547f0178fab55f43546cd79a3e506752e648e1a82dba4"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "tunnel_pos",
+      "line": 3334,
+      "sha256": "8bf5626616754b8f9a6958a2981f08901a274c1120c29e31595b851a942ce8e4"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "get_target",
+      "line": 3410,
+      "sha256": "b9220efcbf75635a1671acfb26fad473ae17e379d46db7d6df2d02e86ce31d4d"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_fall",
+      "line": 2026,
+      "sha256": "086d15f2621a8e6261232e3cfa8d17060d34ad4240833e6950039344357ed441"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "fall_action",
+      "line": 4298,
+      "sha256": "4142b4ee062463ff971417e4fbcef6a3486e49118c42cbd48c66244b6078b501"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_jump_act",
+      "line": 2049,
+      "sha256": "7b80c8ef9759643314a5da2a04f63acdde9aaaa80ffc591f914e94040bf0be1a"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "jump_action",
+      "line": 2097,
+      "sha256": "44cc4c18fcbf3b933139ccc976d88a4b6571b20ab7a979a793c7eb67a335434b"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_fallr_anim",
+      "line": 5342,
+      "sha256": "c67a3d560469c8e0ea9fc0ae878104b7c6bf797d261d3deb224238b96b3b1266"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_ride_anim",
+      "line": 5225,
+      "sha256": "29dde9a5c9f98b6244ba996bf4f2c79b4b95bbe7e0e5c664dbdeeeea133ecd5e"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_barge_anim",
+      "line": 4875,
+      "sha256": "c3b0cb9e181eb8e6ca14f3f6132758502f308eba8d4bd81fc38386a1bb1a96ff"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_penalty_anim",
+      "line": 4839,
+      "sha256": "ec4793908b814eb68d64917832cb6088e2aeb2e82ece819c5cc7a477491dbadf"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "follow_play",
+      "line": 2836,
+      "sha256": "d2b8ad02e0bab0054dfdf95eb93a37c4458c9c84c37f89ffda94892789864eca"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "lman_follow",
+      "line": 2593,
+      "sha256": "5e35790945314d6b7746f3ee138826a2f06b1d7981793683f594bf4db06a0be9"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "init_offside",
+      "line": 1405,
+      "sha256": "f9e02b8c3e879898e26bc63abf2a6831508231b8d51aee9e18f23524f5963eae"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "penalty",
+      "line": 1385,
+      "sha256": "09ab85b1f39740e9d634d7b6907afe61708976f4d8d2fa54557f3cbf0ad61920"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "init_foul",
+      "line": 1730,
+      "sha256": "e8ff4b362297e62b7709e17d9a969907cbd0a4091f12a582ba0f9a2a3331fb1e"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "punish_foul",
+      "line": 1566,
+      "sha256": "1db51bc7bd38df8f2384820b04178808be49176c0ec9a263ae3048ea24b3d951"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "retake_foul",
+      "line": 1721,
+      "sha256": "d11ea7230eca1008e284bb7e54678da8fb57a0f579106dbd91f352a3726a0f81"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "init_fkick",
+      "line": 1814,
+      "sha256": "5079d76cac4d42ffc31c9826092f3ced8667f19382dd52ca3202f7108e9b2e7c"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "init_dfkick",
+      "line": 2058,
+      "sha256": "88a2650c83983f96f9c3bd21cf56b0a82625c431a15dc98e72771fc24d212a6a"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "init_penalty",
+      "line": 2229,
+      "sha256": "02d8d90bb45e5f9014dbf6802e8da8d98b06fffd82cd322658e88776f0f9015e"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "find_wall_guys",
+      "line": 1844,
+      "sha256": "7e5d8fc8b2a248dc2c5ae08d8643a3f293026bd180d2c6ae50ddbb2d70227528"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "clear_wall",
+      "line": 143,
+      "sha256": "c6b2b60766e522eeb7965b0a4d0b3b15c2bfa3bf02d750329c668a1afa9fcce2"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "inc_pfoul",
+      "line": 1912,
+      "sha256": "04758744a5edb8b0ca71402390c41b312b5d13a54ea1ca2968b1a9d18a485d50"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "inc_dfoul",
+      "line": 1920,
+      "sha256": "67867ee7bf6b70a6f259bc82c1cf73b8f96f3c5ebd09c882f91c52f5b36230af"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "inc_ifoul",
+      "line": 1928,
+      "sha256": "fadda4e78990a63fd6f5b9175c24a4addb1cdef5c89489b5dfcc615e543ccad1"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "add_player_time",
+      "line": 571,
+      "sha256": "b71d8a045507ab5eeb79e1ecc675c66eb3915985466c09f09d95a17c8ca2ae7d"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "match_clock",
+      "line": 582,
+      "sha256": "c0a4ce31b6f41109f145779a0c3c013326a03227a4c7b1a1fee0a2dca6e5f29f"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "stop",
+      "line": 560,
+      "sha256": "238e2c9416a78d21c180e0667b4f70f148e05542766c3b203ecb673452c2e966"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "swap_teams",
+      "line": 392,
+      "sha256": "89a16511fb891d98e4e75eb10378f8caa1c71266ac8f48000cad68dca5f8a20f"
+    },
+    {
+      "file": "FOOTBALL.CPP",
+      "name": "nothing_happening",
+      "line": 3054,
+      "sha256": "2e37e9522c6cc407863759851941a99279fb41f172ccf8cd023d0f7a30510a4c"
+    },
+    {
+      "file": "FOOTBALL.CPP",
+      "name": "regulation_period_end",
+      "line": 3155,
+      "sha256": "cecf301af9bc8504537ca3e43167078532951844a930f24dab0163d3a34dc65d"
+    },
+    {
+      "file": "FOOTBALL.CPP",
+      "name": "update_rule_flags",
+      "line": 277,
+      "sha256": "1e861b9e6d04f6f1aa024f1c79d0e6ee9681c26446147569b8380526c66403c4"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "inc_inj",
+      "line": 1984,
+      "sha256": "5dbcd24a868547e3bde6a99a4c173b73bfb7b3472f438d7dce3904293c47e64c"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "inc_yellow",
+      "line": 1992,
+      "sha256": "0c50ed810800cffb92bd70622b2799cd368b8c25505ff908e9d7248d85f30fd4"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "inc_red",
+      "line": 2000,
+      "sha256": "1798116bca68afbe0fbf9ed9cd2e249244b6829b8f8279e1959087990d5c9120"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "send_off_plr",
+      "line": 1536,
+      "sha256": "026237f0df4dcbcc220557c0d70cf190112046e53deefe978a3b2625a9e8c8df"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "init_ref_stand",
+      "line": 2451,
+      "sha256": "c5e9020a859fcb9b415d7c86b1d5b91d21ed234b77c9abe58f6897707723631d"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "init_ref_run",
+      "line": 2465,
+      "sha256": "92a723d58b68f21fcebd8fcf4466f64f97830543e9a052f2f807ae8d3408bf01"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "init_ref_jog",
+      "line": 2486,
+      "sha256": "a0bdc7c0ccd98625a3577e54eb91b7fdc30a4687d7ade252c10ae04d0543f157"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "init_refs_anim",
+      "line": 2568,
+      "sha256": "2e27adbd17684f58af5848374cb972adce38102a60ba7c569a96668f549ef934"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "anim_officials",
+      "line": 2962,
+      "sha256": "1f48175a036dd4ee651ee17ff5ef8b115a0d92fd2f22fe159b18cb6a89ccbae4"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "at_target",
+      "line": 2780,
+      "sha256": "379d7de4d53a12b05b0ade83344e957f8cdb049d6b80d7fee584a246fe32b3d2"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "init_rtrot_anim",
+      "line": 2507,
+      "sha256": "49349c71195fab2230e3eab76479bbe3256ccf255d7a0b459b0e7b5b4b0fd733"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "big_yeller",
+      "line": 1454,
+      "sha256": "a29d71efa619884fadc8a99f429231729cf94e8828a85a4823ab9c900088765d"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "ger_em_off",
+      "line": 1473,
+      "sha256": "9b582be1f4fd5f69b1d040ca73c191bc4f4f5b2ee13c1b19a0ea81ae701f4b1d"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_taunt_act",
+      "line": 1347,
+      "sha256": "e83e55a489d9148ad10379f2eede4f1063b9107fbda402ef2579e03d9d7948b4"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_run_celeb",
+      "line": 1432,
+      "sha256": "30cf18baee091d31fa21bde20cc8d1479d17a350b509a0b798f48783021a8f65"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_stationary_celeb",
+      "line": 1466,
+      "sha256": "dc4108f5dc985392c26ea1c9a090d15b119f8c1332e2fc4d889cdd7e338ae5b8"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_celeb_act",
+      "line": 1482,
+      "sha256": "40c2b9297bdccd911cb6b236b3c50351a613fda29825ecff313446d32b8a67cb"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "celeb_action",
+      "line": 1563,
+      "sha256": "a579d8512a2cb4262c57f95a40e97d1fbf7dcd5456eb12d6284aed082cffb1b8"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_celeb_anim",
+      "line": 5571,
+      "sha256": "bf37f15a4ae01aaceeaa01089fbf8b0ef04fa29472e57884d4994ef3dc2fc14e"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_shame_anim",
+      "line": 4853,
+      "sha256": "41120f0a4f6ff1fcfb24673bba931f174210812a330e8db402f01843a3b4a8ce"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "scorer_go",
+      "line": 2421,
+      "sha256": "4ef21ee2b75c37a0840245598a54bcdee5bc27fbf2360bfac2c74540c3671138"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "go_to_scorer",
+      "line": 2451,
+      "sha256": "edf3ece831b3cb9cbfc5a86661c15d94619e0ab5be557d7859f70f5e805a3cf4"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "player_shame",
+      "line": 2442,
+      "sha256": "537e18bf7979279a3248142d301f307eef0bab3c034b0bbbe9bad4c0cd038fbb"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "someone_has_scored",
+      "line": 2480,
+      "sha256": "131db34fe8dc06b45e0bffc63b05af09ce6f52497b0eecff9cecead1547986b8"
+    },
+    {
+      "file": "MATHS.CPP",
+      "name": "random_vector",
+      "line": 42,
+      "sha256": "aa57373fb7165cb54193ab704c0598b798e5895e6b36ec2656803a3a4586d585"
+    },
+    {
+      "file": "FOOTBALL.CPP",
+      "name": "apply_stamina",
+      "line": 240,
+      "sha256": "80845f2052b3d63c2def377e22a0def557555ff23dafe3e971e88b19ddac93ec"
+    },
+    {
+      "file": "FOOTBALL.CPP",
+      "name": "extra_period_end",
+      "line": 3083,
+      "sha256": "0d6e709252f06b8bbece8a5a0d8e8b11e9c0a0fa9ba97bd4acb1479d27c1b2b6"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "pen_to_team_a",
+      "line": 622,
+      "sha256": "2df4f119e66b2835d7c1a4a2f39ca013b17b023de1fd8b8b3192503a3962c018"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "pen_to_team_b",
+      "line": 648,
+      "sha256": "20cdb8546cff8662e7342d98e36e36ab29d0def207cd187130074c08472fe3a5"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "do_penalties",
+      "line": 674,
+      "sha256": "57b4971238605362f0e24ca194ce1504afd7e186a253c98974db91270e3a4cfe"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "init_runup_act",
+      "line": 663,
+      "sha256": "db7be836f4f92aaa3d19ee6af3e86bc3906b7eeb9018358f374ad308ac712c4b"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "user_runup",
+      "line": 676,
+      "sha256": "76de6679a3bbec8b33ef82ca3e1d961ed1197c8312d82096041a5f24288beae7"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "user_pen_kick",
+      "line": 855,
+      "sha256": "e14971e533280a660818edc5c646ef7a30310d3eee69880bb5adfecff70e206c"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "taker_nkick",
+      "line": 605,
+      "sha256": "2fdd9ad55c2d60c87e169c44c051a29d5e5a8a9fde0f9140bc03ac9a996b8eb6"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "ready_set_kick",
+      "line": 155,
+      "sha256": "d9ea61ad2e31300d8b4f690106fd8177571f6c4dd7ee2ec454e476d199c6367f"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "check_golden_goal",
+      "line": 902,
+      "sha256": "671e7d101cff1154eb73ce761d01857a6c1264e74ae2732af7cdf3ed7d9b8118"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "taker_pass_f",
+      "line": 390,
+      "sha256": "1e2b7c0b485dd34521b46bdaac79b948fa33fb2672512f8ebbcc6cf8899c7d81"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "taker_pass_h",
+      "line": 442,
+      "sha256": "de878b70f53af1b4203df9f015c91eb3444c50ca0bf8e88ff159e6910327aa60"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "taker_tee_up",
+      "line": 496,
+      "sha256": "b6a78d5e2f71de673523d7369eb28f7aba23aa1155de48e859d5ac9400abb639"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "taker_kick",
+      "line": 506,
+      "sha256": "a62b149f8cdb1515d67330dcee5715c7547ef17b1e6deefdcc71a37dd8c123b6"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "taker_chip",
+      "line": 528,
+      "sha256": "202bf2cdb9e41ff1f7e3266faf3a0fb3bbb174e473462d8e28de893fb50559b2"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "taker_grnd",
+      "line": 542,
+      "sha256": "658f5afff96e8b9e690f9fbca66358c799471225248425c44bb4ab974d4c8446"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "new_user_spec_kick",
+      "line": 695,
+      "sha256": "47b8dae7f9989c0accda150e9e956acabb3a3adaf91dd3b8ca485a4a11c53804"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "user_throw",
+      "line": 3048,
+      "sha256": "1426b7a1042b088c5e9c514d6045fd50141f18a38d6d74b81b54548a41510ba3"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "draw_tracker",
+      "line": 618,
+      "sha256": "4d9b6b9962b4dd4c813a84e75ef6c44bad1f08aa14523f2bb2098c5ef4f9452b"
+    }
+  ],
+  "fields": [
+    "    float max_kp_margin = 0.0f;",
+    "    short comsetp = 0;",
+    "    char first_time_it = 0;",
+    "    int seconds = 0;",
+    "    float ft_ktm = 0.0f;",
+    "    float ft_vtm = 0.0f;",
+    "    float ft_dtm = 0.0f;",
+    "    float ft_otm = 0.0f;",
+    "    float ft_stm = 0.0f;",
+    "    float ft_jtm = 0.0f;",
+    "    float ft_ttm = 0.0f;",
+    "    float ft_ctm = 0.0f;",
+    "    float ft_utm = 0.0f;",
+    "    int top_post_y = int(cntspot_y-prat*4.0f);",
+    "    int bot_post_y = int(cntspot_y+prat*4.0f);",
+    "    char golden_goal = 0;",
+    "    char return_12 = 0;",
+    "    float setp_x = 0.0f;",
+    "    float setp_y = 0.0f;",
+    "    char frame = 0;",
+    "    short keep_timer = 0;",
+    "    char stop_clock = 0;",
+    "    char keep_dive = 0;",
+    "    char wall_is_up = 0;",
+    "    short card_is_out = 0;",
+    "    float possession = 0.0f;",
+    "    char arrow_on = 0;",
+    "    int logic_cnt = 0;",
+    "    int first_bounce = 0;",
+    "    int spin_ball = 0;",
+    "    char say_names = 0;",
+    "    char fired_a_shot = 0;",
+    "    char comm_pass = 0;",
+    "    char comm_pass_type = 0;",
+    "    float keeper_spd = 0.0f;",
+    "    short keeper_down = 0;",
+    "    short save_direction = 0;",
+    "    int keeper_will_save = 0;",
+    "    char keeper_on_grnd = 0;",
+    "    float keeper_contact = 0.0f;",
+    "    char ball_in_goal = 0;",
+    "    int throw_cnt = 0;",
+    "    int team_a_goals = 0;",
+    "    int team_b_goals = 0;",
+    "    char last_goal = 0;",
+    "    char scorer_running = 0;",
+    "    int just_scored = 0;",
+    "    int just_thrown = 0;",
+    "    int goal_scorer = 0;",
+    "    int pass_type = 0;",
+    "    int kick_type = 0;",
+    "    int receiver = 0;",
+    "    char cross_now = 0;",
+    "    char auto_select = 0;",
+    "    char must_face = 0;",
+    "    short must_face_time = 0;",
+    "    float must_face_x = 0.0f;",
+    "    float must_face_y = 0.0f;",
+    "    char must_shoot = 0;",
+    "    char chip_pass = 0;",
+    "    char must_pass = 0;",
+    "    char must_punt = 0;",
+    "    char keeper_a_in_box = 0;",
+    "    char keeper_b_in_box = 0;",
+    "    int keeper_steps = 0;",
+    "    short save_block = 0;",
+    "    float save_xoff = 0.0f;",
+    "    float save_yoff = 0.0f;",
+    "    float save_zoff = 0.0f;",
+    "    float shot_speed = 0.0f;",
+    "    int ball_speed = 0;",
+    "    int ball_int_speed = 0;",
+    "    int interceptor_a = 0;",
+    "    int interceptor_b = 0;",
+    "    int in_cross_area = 0;",
+    "    float close_in_number = 0.0f;",
+    "    int shooter = 0;",
+    "    int super_shot = 0;",
+    "    int opponents_near_holder = 0;",
+    "    int opponents_really_close = 0;",
+    "    int sender_1_2 = 0;",
+    "    int last_touch = 0;",
+    "    int want_pass = 0;",
+    "    int before = 0;",
+    "    int support_me = 0;",
+    "    int pre_kp_touch = 0;",
+    "    int prev_touch = 0;",
+    "    int ball_limbo_p = 0;",
+    "    char ball_limbo_on = 0;",
+    "    float ball_limbo_c = 0.0f;",
+    "    int ball_released = 0;",
+    "    int cannot_pick_up = 0;",
+    "    short forced = 0;",
+    "    short players_off_a = 0;",
+    "    short players_off_b = 0;",
+    "    int want_pass_stat = 0;",
+    "    short receiver_a = 0;",
+    "    short receiver_b = 0;",
+    "    char shot_attempt = 0;",
+    "    short heading_ball = 0;",
+    "    char flag = 0;",
+    "    short auto_users_a = 0;",
+    "    short auto_users_b = 0;",
+    "    char closest = 0;",
+    "    short f1_down = 0;",
+    "    short f2_down = 0;",
+    "    char spec_kick_type = 0;",
+    "    float setp_hgt = 0.0f;",
+    "    float setp_power = 0.0f;",
+    "    float setp_kick_x = 0.0f;",
+    "    float setp_kick_y = 0.0f;",
+    "    float setp_bxd = 0.0f;",
+    "    float setp_byd = 0.0f;",
+    "    float setp_bzd = 0.0f;",
+    "    short user_taker = 0;",
+    "    char user_controlled = 0;",
+    "    char user_scorer = 0;",
+    "    char drive_shot = 0;",
+    "    char newk_shot = 0;",
+    "    float wallx = 0.0f;",
+    "    float wally = 0.0f;",
+    "    int men_in_wall = 0;",
+    "    float keeper_pos_x = 0.0f;",
+    "    float keeper_pos_y = 0.0f;",
+    "    int centre_guy_1 = 0;",
+    "    int centre_guy_2 = 0;",
+    "    char in_range = 0;",
+    "    char in_header_rng = 0;",
+    "    char in_shot_rng = 0;",
+    "    int taker_x = 0;",
+    "    int taker_y = 0;",
+    "    char penalty_shot = 0;",
+    "    short penalties = 0;",
+    "    char penalty_game = 0;",
+    "    short home_pens_left = 0;",
+    "    short away_pens_left = 0;",
+    "    short penalty_counter = 0;",
+    "    short pen_taker_a = 0;",
+    "    short pen_taker_b = 0;",
+    "    char penalty_team = 0;",
+    "    int penalty_taker = 0;",
+    "    int penalty_taker_a = 0;",
+    "    int penalty_taker_b = 0;",
+    "    int setp_taker = 0;",
+    "    int fkick_taker = 0;",
+    "    int fkick_taker_a = 0;",
+    "    int fkick_taker_b = 0;",
+    "    int gkick_taker = 0;",
+    "    int goal_kicker_a = 0;",
+    "    int goal_kicker_b = 0;",
+    "    int corner_taker = 0;",
+    "    int corn_kicker_a = 0;",
+    "    int corn_kicker_b = 0;",
+    "    int bad_guy = 0;",
+    "    char direct_fk = 0;",
+    "    char play_advantage = 0;",
+    "    char set_piece_on = 0;",
+    "    int throw_in_taker = 0;",
+    "    int main_man = 0;",
+    "    int player_num = 0;",
+    "    short shot_missed = 0;",
+    "    short shot_saved = 0;",
+    "    int drib_opps = 0;",
+    "    char stop_and_face = 0;",
+    "    float x_face = 0.0f;",
+    "    float y_face = 0.0f;",
+    "    char offside_now = 0;",
+    "    char can_be_offside = 0;",
+    "    int ref_accuracy = 0;",
+    "    int ref_strictness = 0;",
+    "    int ref_wait = 0;",
+    "    char team_a = 0;",
+    "    char team_b = 0;",
+    "    char need_result = 0;",
+    "    short injury_time = 0;",
+    "    char special_move = 0;",
+    "    char match_half = 0;",
+    "    short player_on_off = 0;",
+    "    char booking = 0;",
+    "    float newdx = 0.0f;",
+    "    float newdy = 0.0f;",
+    "    char man2man_a = 0;",
+    "    char man2man_b = 0;",
+    "    int time_factor = 0;",
+    "    char demo_match = 0;",
+    "    int rolling_clock = 0;",
+    "    short rand_seed = 0;",
+    "    short seed = 0;",
+    "    float man_down = 0.0f;",
+    "    float ballx_out = 0.0f;",
+    "    float bally_out = 0.0f;",
+    "    float ballz_out = 0.0f;",
+    "    float b_xoff = 0.0f;",
+    "    float b_yoff = 0.0f;",
+    "    float b_zoff = 0.0f;",
+    "    float save_ballx = 0.0f;",
+    "    float save_bally = 0.0f;",
+    "    float save_ballz = 0.0f;",
+    "    int save_ball_poss = 0;",
+    "    float prev_ballx = 0.0f;",
+    "    float prev_bally = 0.0f;",
+    "    float prev_ballz = 0.0f;",
+    "    int nearest_a = 0;",
+    "    int nearest_b = 0;",
+    "    char use_ball_limit = 0;",
+    "    short near_path_a = 0;",
+    "    short near_path_b = 0;",
+    "    int incident_x = 0;",
+    "    int incident_y = 0;",
+    "    int difficulty = 0;",
+    "    int dead_ball_cnt = 0;",
+    "    int defense_a = 0;",
+    "    int defense_b = 0;",
+    "    char already_there = 0;",
+    "    char reselection = 0;",
+    "    int players = 22;",
+    "    char mf_fixed = 0;",
+    "    char alarm = 0;",
+    "    char watch = 0;",
+    "    int stop_min = 0;",
+    "    char analogue = 1;",
+    "    int stop_sec = 0;",
+    "    char practice = 0;",
+    "    char team_a_on = 0;",
+    "    char team_b_on = 0;",
+    "    int frames = 0;",
+    "    float ux = 0.0f;",
+    "    float uy = 0.0f;",
+    "    char uf1 = 0;",
+    "    char uf2 = 0;",
+    "    char um = 0;",
+    "    char camera = 9;",
+    "    char tweening = 1;"
+  ],
+  "layout_size": 203,
+  "kick_contact_excerpt": {
+    "file": "BALLINT.CPP",
+    "line": 985,
+    "sha256": "b6e8e3d4689f2599b933f96311dc5aac4814379fe9322cf23f964024bab1d510"
+  },
+  "contact_table": {
+    "symbol": "save_offs",
+    "object": "ACTIONS.OBJ",
+    "segment": 4,
+    "offset": 0,
+    "records": 132,
+    "sha256": "470e98fdd995d082200f0be4b5e60b0b5ef3944b5824a3176dd9b305f4b465c2"
+  },
+  "constants_cpp": "constexpr float save_offs[]={0.7099400162696838f,-3.4357309341430664f,4.1858601570129395f,9.905818939208984f,-0.07712399959564209f,6.026725769042969f,10.294174194335938f,0.9791859984397888f,23.075416564941406f,5.498808860778809f,0.1583849936723709f,14.893182754516602f,4.75960111618042f,1.3262070417404175f,30.413463592529297f,3.935059070587158f,-1.2175439596176147f,28.926258087158203f,-2.24249005317688f,1.3752659559249878f,34.64471435546875f,7.307344913482666f,0.9738240242004395f,32.67900085449219f,1.5571999549865723f,7.858088970184326f,2.197618007659912f,1.5571999549865723f,-7.858088970184326f,2.197618007659912f,9.325319290161133f,6.036806106567383f,6.550961017608643f,9.325319290161133f,-6.036806106567383f,6.550961017608643f,7.701114177703857f,9.460480690002441f,15.907917022705078f,7.701114177703857f,-9.460480690002441f,15.907917022705078f,9.994144439697266f,8.01347541809082f,18.689754486083984f,9.994144439697266f,-8.01347541809082f,18.689754486083984f,3.021265983581543f,11.620670318603516f,28.995437622070312f,3.021265983581543f,-11.620670318603516f,28.995437622070312f,5.168231964111328f,10.866352081298828f,27.930614471435547f,5.168231964111328f,-10.866352081298828f,27.930614471435547f,3.5275630950927734f,7.418458938598633f,31.247488021850586f,3.5275630950927734f,-7.418458938598633f,31.247488021850586f,8.994329452514648f,8.942190170288086f,8.369625091552734f,8.994329452514648f,-8.942190170288086f,8.369625091552734f,9.596200942993164f,9.635643005371094f,7.790135860443115f,9.596200942993164f,-9.635643005371094f,7.790135860443115f,8.339292526245117f,10.38150691986084f,17.211002349853516f,8.339292526245117f,-10.38150691986084f,17.211002349853516f,8.60942554473877f,12.692826271057129f,20.248947143554688f,8.60942554473877f,-12.692826271057129f,20.248947143554688f,4.034877777099609f,14.803577423095703f,26.213153839111328f,4.034877777099609f,-14.803577423095703f,26.213153839111328f,3.216027021408081f,10.80746078491211f,32.28449630737305f,3.216027021408081f,-10.80746078491211f,32.28449630737305f,7.5185089111328125f,-5.521873950958252f,1.78097403049469f,7.5185089111328125f,5.521873950958252f,1.78097403049469f,9.38531494140625f,-2.523958921432495f,3.210542917251587f,9.38531494140625f,2.523958921432495f,3.210542917251587f,9.694164276123047f,-5.616666793823242f,1.9474040269851685f,9.694164276123047f,5.616666793823242f,1.9474040269851685f,9.730934143066406f,-1.3606940507888794f,1.8029530048370361f,9.730934143066406f,1.3606940507888794f,1.8029530048370361f,12.917553901672363f,-3.1365718841552734f,12.568001747131348f,12.917553901672363f,3.1365718841552734f,12.568001747131348f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,8.232559204101562f,-3.2525808811187744f,2.2474780082702637f,8.232559204101562f,3.2525808811187744f,2.2474780082702637f,3.405055046081543f,-1.8382829427719116f,1.6730740070343018f,3.405055046081543f,1.8382829427719116f,1.6730740070343018f,9.746830940246582f,1.4651540517807007f,1.7421150207519531f,9.746830940246582f,-1.4651540517807007f,1.7421150207519531f,3.7007970809936523f,-2.4974191188812256f,1.7749890089035034f,3.7007970809936523f,2.4974191188812256f,1.7749890089035034f,6.640233039855957f,-2.5310699939727783f,1.3440619707107544f,6.640233039855957f,2.5310699939727783f,1.3440619707107544f,5.709969997406006f,-1.1752320528030396f,4.322433948516846f,5.709969997406006f,1.1752320528030396f,4.322433948516846f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,8.369156837463379f,0.6143770217895508f,23.45513916015625f,12.48182201385498f,-0.1534709930419922f,29.11487579345703f,6.369528770446777f,0.06462900340557098f,21.6130428314209f,0.0f,0.0f,0.0f,21.07926368713379f,-0.3969799876213074f,13.240107536315918f,2.5105690956115723f,0.9216960072517395f,17.889450073242188f,0.0f,0.0f,0.0f,10.712785720825195f,-1.2599250078201294f,1.6494300365447998f,10.223822593688965f,-1.1418590545654297f,20.195079803466797f,3.3676319122314453f,-0.5709540247917175f,22.190027236938477f,2.0528690814971924f,0.13994599878787994f,22.69481086730957f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,5.014747142791748f,2.102508068084717f,17.838050842285156f,8.591638565063477f,-0.2046310007572174f,21.83172607421875f,19.420169830322266f,-12.483989715576172f,4.047043800354004f,24.82900619506836f,-8.622095108032227f,2.314023017883301f,7.055912971496582f,-7.073267936706543f,28.901348114013672f,10.930399894714355f,-3.7471959590911865f,2.363327980041504f,6.229033946990967f,-0.09896200150251389f,16.954879760742188f,6.660157203674316f,1.804914951324463f,18.420141220092773f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,6.1173529624938965f,0.4336569905281067f,4.957667827606201f,8.151777267456055f,0.05475600063800812f,1.5433640480041504f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,-0.9962069988250732f,0.40501099824905396f,23.915380477905273f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,-1.0357040166854858f,0.1617400050163269f,23.783397674560547f,4.94398307800293f,0.04003100097179413f,1.6383670568466187f,0.40217098593711853f,0.11664199829101562f,24.87395477294922f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,-0.9186949729919434f,-0.09583000093698502f,23.514638900756836f,-0.9186949729919434f,0.09583000093698502f,23.514638900756836f};\n\nconstexpr int FALSE=0,TRUE=1,KP_A=1,KP_B=12;\nconstexpr int I_CELEB=16,I_INTERCEPT=1,I_GET_UP=10,I_OFF=7,I_RUN_ON=8;\nconstexpr int STAND_ACT=0,RUN_ACT=1,TACKLE_ACT=3,SAVE_ACT=10,THROW_ACT=11,KPHOLD_ACT=12,CONTROL_ACT=17;\nconstexpr int PLAYER_HEIGHT=25,IN_HANDS_DIST=10,AT_FEET_DIST=10,HAS_BALL_DELAY=4,OFFSIDE_REL_CNT=40;\nconstexpr double PI=3.1415926536;\n#define MAX_TURN (((float)player->tm_rate/8+14)*PI/180)\n#define MAX_TURN2 (((float)teams[p_num-1].tm_rate/8+14)*PI/180)\n#define LOW_PASS_DIST (prat*18.0)\n#define ABS(x) ((x)<0?-(x):(x))\nconstexpr float MC_CELEB_SPD=1.690000057220459f;\nconstexpr double AIR_FRICTION=0.986,GRND_FRICTION=0.965;\n\nconstexpr double GOOD_SWERVE=0.038;\n#define MC_AFOOTB 0\n#define MC_AFOOTC 1\n#define MC_ABODYB 2\n#define MC_ABODYC 3\n#define MC_AHEADB 4\n#define MC_AHEADC 5\n#define MC_AJUMPB 6\n#define MC_AJUMPC 7\n#define MC_BFOOTBL 8\n#define MC_BFOOTBR 9\n#define MC_BFOOTCL 10\n#define MC_BFOOTCR 11\n#define MC_BBODYBL 12\n#define MC_BBODYBR 13\n#define MC_BBODYCL 14\n#define MC_BBODYCR 15\n#define MC_BHEADBL 16\n#define MC_BHEADBR 17\n#define MC_BHEADCL 18\n#define MC_BHEADCR 19\n#define MC_BJUMPBL 20\n#define MC_BJUMPBR 21\n#define MC_CFOOTBL 22\n#define MC_CFOOTBR 23\n#define MC_CFOOTCL 24\n#define MC_CFOOTCR 25\n#define MC_CBODYBL 26\n#define MC_CBODYBR 27\n#define MC_CBODYCL 28\n#define MC_CBODYCR 29\n#define MC_CHEADBL 30\n#define MC_CHEADBR 31\n#define MC_CJUMPBL 32\n#define MC_CJUMPBR 33\n#define MC_SHOOTR 34\n#define MC_SHOOTL 35\n#define MC_CHIPR 36\n#define MC_CHIPL 37\n#define MC_PASSR 38\n#define MC_PASSL 39\n#define MC_CROSSR 40\n#define MC_CROSSL 41\n#define MC_VOLLEYR 42\n#define MC_VOLLEYL 43\n#define MC_TOER 38\n#define MC_TOEL 39\n#define MC_DIAGPASSR 46\n#define MC_DIAGPASSL 47\n#define MC_DIAGBACKR 48\n#define MC_DIAGBACKL 49\n#define MC_SIDEPASSR 50\n#define MC_SIDEPASSL 51\n#define MC_BACKHEELR 52\n#define MC_BACKHEELL 53\n#define MC_TRAPR 54\n#define MC_TRAPL 55\n#define MC_STOSL 56\n#define MC_STOSR 57\n#define MC_STOSBL 58\n#define MC_STOSBR 59\n#define MC_RIDEL 60\n#define MC_RIDER 61\n#define MC_SOCKSR 62\n#define MC_SOCKSL 63\n#define MC_TROTB 64\n#define MC_TROTH 65\n#define MC_TROTG 66\n#define MC_TROTC 67\n#define MC_TROTD 68\n#define MC_TROTF 69\n#define MC_TROTA 70\n#define MC_TROTE 71\n#define MC_RUN 72\n#define MC_JOG 73\n#define MC_BARGE 74\n#define MC_THROWW 75\n#define MC_SHAMEW 76\n#define MC_LIE 78\n#define MC_STAND 78\n#define MC_S_HEAD 79\n#define MC_J_HEAD 80\n#define MC_D_HEAD 81\n#define MC_U_HEAD 79\n#define MC_DV_HEAD 83\n#define MC_CHEST 84\n#define MC_S_TACKLE 85\n#define MC_STEAL 86\n#define MC_OVERHEAD 87\n#define MC_THROWL 88\n#define MC_THROWS 89\n#define MC_FALLR 90\n#define MC_FALLS 90\n#define MC_CELEB 92\n#define MC_SHAME 93\n#define MC_GETUP 94\n#define MC_GETUPF 95\n#define MC_STANDB 96\n#define MC_BOUNCE 97\n#define MC_KICKOUT 98\n#define MC_HALFVOLL 99\n#define MC_THROW 100\n#define MC_ROLL 101\n#define MC_RUNWITHB 102\n#define MC_WAVEUP 103\n#define MC_PENALTY 104\n#define MC_PLEAD 78\n#define MC_CRTOSTB 106\n#define MC_PICKBALL 107\n#define MC_PLANE 108\n#define MC_FINGER 109\n#define MC_KNEE 110\n#define MC_DUCK 111\n#define MC_MILLER 112\n#define MC_BABY 113\n#define MC_MOON 114\n#define MC_PUMP 115\n#define MC_REEVES 116\n#define MCC_AFOOTB (29./69)\n#define MCC_AFOOTC (48./259)\n#define MCC_ABODYB (54./160)\n#define MCC_ABODYC (39./131)\n#define MCC_AHEADB (65./138)\n#define MCC_AHEADC (65./138)\n#define MCC_AJUMPB (44./86)\n#define MCC_AJUMPC (62./116)\n#define MCC_BFOOTB (52./63)\n#define MCC_BFOOTC (86./128)\n#define MCC_BBODYB (29./81)\n#define MCC_BBODYC (57./130)\n#define MCC_BHEADB (48./110)\n#define MCC_BHEADC (48./110)\n#define MCC_BJUMPB (60./109)\n#define MCC_CFOOTB (89./147)\n#define MCC_CFOOTC (109./150)\n#define MCC_CBODYB (68./121)\n#define MCC_CBODYC (70./145)\n#define MCC_CHEADB (89./132)\n#define MCC_CJUMPB (82./142)\n#define MCC_SHOOT (38./109)\n#define MCC_CHIP (40./91)\n#define MCC_PASS (48./99)\n#define MCC_CROSS (42./110)\n#define MCC_VOLLEY (41./91)\n#define MCC_TOE (47./107)\n#define MCC_DIAGPASS (48./101)\n#define MCC_DIAGBACK (57./100)\n#define MCC_SIDEPASS (46./96)\n#define MCC_BACKHEEL (65./97)\n#define MCC_TRAP (40./60)\n#define MCC_STOS 10\n#define MCC_STOSB 0\n#define MCC_RIDE 10\n#define MCC_SOCKS 10\n#define MCC_TROTB 10\n#define MCC_TROTH 10\n#define MCC_TROTG 10\n#define MCC_TROTC 10\n#define MCC_TROTD 10\n#define MCC_TROTF 10\n#define MCC_TROTA 10\n#define MCC_TROTE 10\n#define MCC_RUN 10\n#define MCC_JOG 10\n#define MCC_BARGE 10\n#define MCC_THROWW 10\n#define MCC_SHAMEW 10\n#define MCC_LIE 10\n#define MCC_STAND 10\n#define MCC_S_HEAD (103./155)\n#define MCC_J_HEAD (54./158)\n#define MCC_D_HEAD (34./115)\n#define MCC_U_HEAD (81./114)\n#define MCC_DV_HEAD (36./109)\n#define MCC_CHEST (50./149)\n#define MCC_S_TACKLE 10\n#define MCC_STEAL (28./53)\n#define MCC_OVERHEAD (70./136)\n#define MCC_THROWL (-86./129)\n#define MCC_THROWS (-43./107)\n#define MCC_FALLR 10\n#define MCC_FALLS 10\n#define MCC_CELEB 10\n#define MCC_SHAME 10\n#define MCC_GETUP 10\n#define MCC_GETUPF 10\n#define MCC_STANDB 0\n#define MCC_BOUNCE 0\n#define MCC_KICKOUT (-103./204)\n#define MCC_HALFVOLL (-101./203)\n#define MCC_THROW (-92./179)\n#define MCC_ROLL (-88./245)\n#define MCC_RUNWITHB 0\n#define MCC_WAVEUP 0\n#define MCC_PENALTY 10\n#define MCC_PLEAD 10\n#define MCC_CRTOSTB 0\n#define MCC_PICKBALL 0\n#define MCC_DUCK 10\n#define MCC_FINGER 10\n#define MCC_KNEE 10\n#define MCC_PLANE 10\n#define MCC_MILLER 10\n#define MCC_BABY 10\n#define MCC_MOON 10\n#define MCC_PUMP 10\n#define MCC_REEVES 10\nconstexpr double MC_STAND_FS=0.05128205195069313;\nconstexpr double MC_PASS_FS=0.06060606241226196;\nconstexpr double MC_CHIP_FS=0.06666667014360428;\nconstexpr double MC_BACKHEEL_FS=0.0625;\nconstexpr double MC_SHOOT_FS=0.0555555559694767;\nconstexpr double MC_CROSS_FS=0.0555555559694767;\nconstexpr double MC_TRAP_FS=0.1;\nconstexpr double MC_CHEST_FS=0.04081632653061224;\nconstexpr double MC_D_HEAD_FS=0.05263157894736842;\nconstexpr double MC_PASS_DIST=10.14;\nconstexpr double MC_VOLLEY_FS=0.06666667014360428;\nconstexpr double MC_OVERHEAD_FS=0.04444444552063942;\nconstexpr double MC_DV_HEAD_FS=0.0555555559694767;\nconstexpr double MC_S_HEAD_FS=0.06451612710952759;\nconstexpr double MC_J_HEAD_FS=0.0476190485060215;\nconstexpr double LONG_PASS_FACTOR=34.0;\nconstexpr double TACKLE_DECEL=0.92;\nconstexpr double MC_RUN_SPD=3.19;\nconstexpr double MC_RUN_FS=0.07692307692307693;\nconstexpr double MC_TROTA_FS=0.0625;\nconstexpr double IM_THERE_DIST=2.0;\nconstexpr double STEP_RANGE_FACTOR=3.8;\nconstexpr double MIN_SHOOT_FACTOR=12.0;\nconstexpr double MAX_TURN_RATE_FACTOR=0.125;\nconstexpr double MAX_TURN_BASE=14.0;\nconstexpr double MAX_TURN_PI=3.1415926536;\nconstexpr double MAX_TURN_DEGREES=180.0;\nconstexpr double TURN_ACT=2;\nconstexpr double STOP_ACT=20;\nconstexpr double SAY_PASS=2;\nconstexpr double SAY_CROSS=6;\n\nconstexpr int KICK_ACT=15,WAIT_ACT=18,I_KICKED=12,I_RECEIVE=13;\nconstexpr int KT_PASS=1,KT_PUNT=2,KT_SHOOT=3,REAL_SPEED=20;\nconstexpr double MC_RUNWITHB_FS=1.0/15;\nconstexpr int NORMAL_PLAY=0,CORNER_TL=1,CORNER_TR=2,CORNER_BL=3,CORNER_BR=4,CENTRE_A=5,CENTRE_B=6;\nconstexpr int IF_KICK_A=13,IF_KICK_B=14,DF_KICK_A=15,DF_KICK_B=16,PEN_KICK_A=17,PEN_KICK_B=18;\nconstexpr int SPACT_FPASS=1,SPACT_HPASS=2,SPACT_TEE_UP=3,SPACT_DPASS=4,SPACT_GRND=5,SPACT_CHIP=6;\nconstexpr int PS_LONGWHISTLE=1,PS_SHORTWHISTLE=2;\nconstexpr int PS_SOFTKICK=5,PS_MEDKICK=6,PS_HARDKICK=7;\nconstexpr double PASS_ACC_ARC=0.1,D2RAD=3.1415926536/180;\n#define LONG_PASS_DIST (prat*LONG_PASS_FACTOR)\n#define STEP_RANGE (prat*STEP_RANGE_FACTOR)\n#define MIN_SHOOT_DIST (prat*MIN_SHOOT_FACTOR)\n#define AFEQS(a,b) (std::abs(int(a))>(b)-0.001 && std::abs(int(a))<(b)+0.001)\n\nconstexpr double SAVE_AFOOTB_TIME=4.833333333333333;\nconstexpr double MC_AFOOTB_FS=0.08695652173913043;\nconstexpr double SAVE_AFOOTC_TIME=8.0;\nconstexpr double MC_AFOOTC_FS=0.02325581395348837;\nconstexpr double SAVE_ABODYB_TIME=4.0;\nconstexpr double MC_ABODYB_FS=0.0849056603773585;\nconstexpr double SAVE_ABODYC_TIME=6.5;\nconstexpr double MC_ABODYC_FS=0.04651162790697674;\nconstexpr double SAVE_AHEADB_TIME=8.0;\nconstexpr double MC_AHEADB_FS=0.1003086419753086;\nconstexpr double SAVE_AHEADC_TIME=10.83333333333333;\nconstexpr double MC_AHEADC_FS=0.04347826086956522;\nconstexpr double SAVE_AJUMPB_TIME=7.333333333333333;\nconstexpr double MC_AJUMPB_FS=0.07142857142857142;\nconstexpr double SAVE_AJUMPC_TIME=10.33333333333333;\nconstexpr double MC_AJUMPC_FS=0.05263157894736842;\nconstexpr double SAVE_BFOOTB_TIME=8.666666666666666;\nconstexpr double MC_BFOOTB_FS=0.09523809523809525;\nconstexpr double SAVE_BFOOTC_TIME=14.33333333333334;\nconstexpr double MC_BFOOTC_FS=0.04761904761904762;\nconstexpr double SAVE_BBODYB_TIME=4.833333333333333;\nconstexpr double MC_BBODYB_FS=0.07407407407407407;\nconstexpr double SAVE_BBODYC_TIME=9.5;\nconstexpr double MC_BBODYC_FS=0.04651162790697674;\nconstexpr double SAVE_BHEADB_TIME=6.0;\nconstexpr double MC_BHEADB_FS=0.0625;\nconstexpr double SAVE_BHEADC_TIME=8.0;\nconstexpr double MC_BHEADC_FS=0.05555555555555555;\nconstexpr double SAVE_BJUMPB_TIME=10.0;\nconstexpr double MC_BJUMPB_FS=0.05555555555555555;\nconstexpr double SAVE_CFOOTB_TIME=14.83333333333334;\nconstexpr double MC_CFOOTB_FS=0.04081632653061224;\nconstexpr double SAVE_CFOOTC_TIME=18.16666666666667;\nconstexpr double MC_CFOOTC_FS=0.04;\nconstexpr double SAVE_CBODYB_TIME=8.5;\nconstexpr double MC_CBODYB_FS=0.05925925925925926;\nconstexpr double SAVE_CBODYC_TIME=11.66666666666666;\nconstexpr double MC_CBODYC_FS=0.04166666666666666;\nconstexpr double SAVE_CHEADB_TIME=14.83333333333334;\nconstexpr double MC_CHEADB_FS=0.04545454545454546;\nconstexpr double SAVE_CJUMPB_TIME=13.66666666666666;\nconstexpr double MC_CJUMPB_FS=0.0425531914893617;\nconstexpr double MC_GETUP_FS=0.024390242993831635;\nconstexpr double MC_GETUPF_FS=0.02298850566148758;\nconstexpr double MC_STANDB_FS=0.06896551698446274;\nconstexpr double MC_KICKOUT_FS=0.029411764815449715;\nconstexpr double HEADER_FACTOR=4.0;\nconstexpr double PASS_FACTOR=8.0;\nconstexpr double KICK_AHEAD_ANG=0.966;\nconstexpr double FACING_ANGLE=0.95;\nconstexpr double DANGER_FACTOR=8.0;\nconstexpr double KP_PASS_FACTOR=10.0;\nconstexpr double OPTIMUM_FACTOR=10.0;\nconstexpr double MAX_XY_CSW=0.12;\nconstexpr double MAX_Z_CSW=0.12;\nconstexpr double MAX_XY_USW=0.14;\nconstexpr double MAX_Z_USW=0.12;\nconstexpr double SW_HOLD_FACTOR=4.0;\nconstexpr double CHEST_FACTOR=1.8;\nconstexpr double HEAD_FACTOR=2.5;\nconstexpr double JUMP_FACTOR=3.4;\nconstexpr double ZONE_B_FACTOR=2.5;\nconstexpr double ZONE_C_FACTOR=4.5;\nconstexpr double DIAG=0.707;\nconstexpr double VERT_BALL_DAMP=0.6;\nconstexpr double TOUCHB_BOX=8.0;\nconstexpr int PM_BLOCK=31;\nconstexpr int PM_CATCH=30;\nconstexpr double SAVE_CONTACT=11.0;\nconstexpr double SAVE_DECEL=0.75;\nconstexpr double DRIB_FACTOR=13.0;\nconstexpr double MEGA_FACTOR=2.0;\nconstexpr double LONG_RANGE_FACTOR=25.0;\nconstexpr double REBOUND_FACTOR=0.8;\nconstexpr int PM_POST=34;\nconstexpr int PM_CROSSBAR=35;\nconstexpr int STRIKE_ACT=7;\nconstexpr int I_SAVE_WAIT=4;\nconstexpr int VISION_MULT=5;\nconstexpr int GREED_FACTOR=100;\nconstexpr int MIN_PUNT_PROB=3;\nconstexpr int MIN_SHOOT_PROB=4;\nconstexpr double MC_STOS_FS=0.029411764815449715;\nconstexpr double MC_STOSB_FS=0.021052632480859756;\nconstexpr double MC_CRTOSTB_FS=0.036363635212183;\nconstexpr double MC_BOUNCE_FS=0.04651162773370743;\nconstexpr double MC_HALFVOLL_FS=0.029411764815449715;\nconstexpr double MC_THROW_FS=0.033898305147886276;\nconstexpr double MC_ROLL_FS=0.02469135820865631;\nconstexpr double MC_WAVEUP_FS=0.03333333507180214;\nconstexpr double MC_THROWL_FS=0.04651162773370743;\nconstexpr double MC_THROWS_FS=0.05714285746216774;\nconstexpr double MC_DIAGPASS_FS=0.06060606241226196;\nconstexpr double MC_DIAGBACK_FS=0.06060606241226196;\nconstexpr double MC_SIDEPASS_FS=0.0625;\nconstexpr int I_KP_BUSY=11;\nconstexpr int CP_HEAD=16;\n#define TOO_CLOSE_TO_GOAL (prat)\n\n\nconstexpr int GOAL_KICK_BR=10,GOAL_KICK_TL=7,MAX_PASS_PROB=5,MIN_PASS_PROB=125;\n// Literal definitions immediately before their original routine in preserved source.\nconstexpr int DIVE_POINT=3;\nconstexpr double JUMP_POINT=.1;\n#define MIN_HEADER_RNG (prat*HEADER_FACTOR)\n#define MIN_PASS_DIST (prat*PASS_FACTOR)\n#define DANGER_AREA (prat*DANGER_FACTOR)\n#define KP_MIN_PASS_DIST (prat*KP_PASS_FACTOR)\n#define OPTIMUM_PASS (prat*OPTIMUM_FACTOR)\n#define LONG_RANGE (prat*LONG_RANGE_FACTOR)\n#define DRIB_DANGER_AREA (prat*DRIB_FACTOR)\n#define MEGA_DANGER_AREA (prat*MEGA_FACTOR)\n#define SAVE_FEET_HGT (prat)\n#define SAVE_CHEST_HGT (prat*CHEST_FACTOR)\n#define SAVE_HEAD_HGT (prat*HEAD_FACTOR)\n#define SAVE_JUMP_HGT (prat*JUMP_FACTOR)\n#define SELECTION_CIRCLE (prat*10)\n#define SAVE_ZONE_A (prat)\n#define SAVE_ZONE_B (prat*ZONE_B_FACTOR)\n#define SAVE_ZONE_C (prat*ZONE_C_FACTOR)\n\nconstexpr int TACKLE_TURNS=30;\nconstexpr double MC_S_TACKLE_FS=0.03999999910593033;\nconstexpr int PS_SLIDING=17;\nconstexpr int STEAL_ACT=14;\nconstexpr double STEAL_FOOT_FACTOR=0.5;\nconstexpr int MIN_HELP_CHANCE=2;\nconstexpr double CALL_FACTOR=60.0;\nconstexpr int I_DRIBBLE=2;\nconstexpr int I_CLOSE_DOWN=3;\nconstexpr double STEAL_FACTOR=6.0;\nconstexpr double BETWEEN_FACTOR=3.0;\nconstexpr double DIVE_FEET_FACTOR=4.0;\nconstexpr double STEAL_BODY_FACTOR=1.5;\nconstexpr double GO_TO_POS_FACTOR=0.8;\nconstexpr double INCIDENT_FACTOR=10.0;\nconstexpr int I_STEAL=9;\nconstexpr int I_THROW=6;\nconstexpr int THROW_IN_B=12;\nconstexpr int EFFECTIVE_TACK=16;\nconstexpr int FALL_ACT=5;\nconstexpr int RISE_ACT=6;\nconstexpr int RIDE_ACT=8;\nconstexpr int PICKUP_ACT=19;\nconstexpr int NEG_SAY_GIVE=-7;\n\nconstexpr int SAY_GIVE=-NEG_SAY_GIVE;\n#define CALL_DIST (prat*CALL_FACTOR)\n#define STEAL_DIST (prat*STEAL_FACTOR)\n#define STEAL_BODY_DIST (prat*STEAL_BODY_FACTOR)\n#define STEAL_FOOT_DIST (prat*STEAL_FOOT_FACTOR)\n#define BETWEEN_DIST (prat*BETWEEN_FACTOR)\n#define DIVE_FEET_DIST (prat*DIVE_FEET_FACTOR)\n#define GO_TO_POS_DIST (prat*GO_TO_POS_FACTOR)\n#define INCIDENT_DIST (prat*INCIDENT_FACTOR)\n#define LIMIT(v,lo,hi) ((v)<(lo)?(lo):((v)>(hi)?(hi):(v)))\n\nconstexpr int SWAP_ENDS=19;\nconstexpr double CLOSE_ANG_FACTOR=16.0;\nconstexpr double KP_OFFLINE=16.0;\nconstexpr double BESIDE_BALL_TRIPLE=15.0;\nconstexpr double PEN_RUNUP_PLUS_FOUR=34.0;\nconstexpr double MC_PICKBALL_FS=0.04651162773370743;\nconstexpr int SETP_CORNER=1;\nconstexpr int SETP_CENTRE=3;\nconstexpr int SETP_GKICK=7;\nconstexpr int SETP_THROW=2;\nconstexpr int SETP_IFKICK=5;\nconstexpr int SETP_DFKICK=6;\nconstexpr int SETP_PENALTY=4;\n\n#define CLOSE_ANG_DIST (prat*CLOSE_ANG_FACTOR)\n#define BESIDE_BALL (BESIDE_BALL_TRIPLE/3)\n#define PEN_RUNUP_DIST (PEN_RUNUP_PLUS_FOUR-4)\nconstexpr int GOAL_KICK_BL=8,GOAL_KICK_TR=9,THROW_IN_A=11;\n\nconstexpr double FALL_RATE=4.0;\nconstexpr double MC_FALLR_FS=0.05882352963089943;\nconstexpr double MC_RIDE_FS=0.07142857142857142;\nconstexpr double MC_BARGE_FS=0.07407407407407407;\nconstexpr double MC_PENALTY_FS=0.03125;\nconstexpr int JUMP_ACT=4;\n#define PLAYER_SIZE (prat)\nconstexpr double MC_CELEB_FS=0.016949152573943138;\nconstexpr double MC_PUMP_FS=0.06666667014360428;\nconstexpr double MC_BABY_FS=0.05000000074505806;\nconstexpr double MC_REEVES_FS=0.040816325694322586;\nconstexpr double MC_MILLER_FS=0.04444444552063942;\nconstexpr double MC_PLANE_FS=0.04444444552063942;\nconstexpr double MC_FINGER_FS=0.07407407462596893;\nconstexpr double MC_KNEE_FS=0.04878048598766327;\nconstexpr double MC_MOON_FS=0.05263157933950424;\nconstexpr double MC_DUCK_FS=0.032258063554763794;\nconstexpr double MC_SHAMEW_FS=0.06060606241226196;\nconstexpr double MC_SHAME_FS=0.024390242993831635;\nconstexpr double MC_DUCK_SPD=0.332258064516129;\nconstexpr double MC_JOG_FS=0.06896551698446274;\nconstexpr int ORIGINAL_SCORE_WAIT=220;\nconstexpr int CELEB_ACT=16;\n#define CELEB_RUN_DIST (13*prat)\nconstexpr int SP_CORNER=1;\nconstexpr int SP_GOALKICK=2;\nconstexpr int SP_THROWIN=3;\nconstexpr int SP_LONGTHROWIN=4;\nconstexpr int SP_PENALTY=5;\nconstexpr int FU_FREEKICK=6;\nconstexpr int FU_WALL=7;\nconstexpr int FU_BADFOUL=8;\nconstexpr int FU_YELLOWCARD=9;\nconstexpr int FU_REDCARD=10;\nconstexpr int FU_DIVE=12;\nconstexpr int CP_LONG=13;\nconstexpr int CP_SHORT=14;\nconstexpr int CP_TARGET=15;\nconstexpr int CP_NICEMOVE=17;\nconstexpr int CP_SETPIECE=18;\nconstexpr int FP_LONG=19;\nconstexpr int FP_SHORT=20;\nconstexpr int FP_LOOSE=21;\nconstexpr int GL_GENERIC=22;\nconstexpr int GL_DEFLECT=23;\nconstexpr int GL_HARDKICK=24;\nconstexpr int GL_HEADER=25;\nconstexpr int GL_KEEPER=26;\nconstexpr int GL_POST=27;\nconstexpr int GL_CURVE=28;\nconstexpr int GL_CURVEWALL=29;\nconstexpr int PM_WIDE=32;\nconstexpr int PM_CLOSE=33;",
+  "action_constant_evidence": [
+    {
+      "name": "MC_STAND_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 40147,
+      "format": "f",
+      "bytes": "210d523d",
+      "value": 0.05128205195069313
+    },
+    {
+      "name": "MC_PASS_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 43137,
+      "format": "f",
+      "bytes": "103e783d",
+      "value": 0.06060606241226196
+    },
+    {
+      "name": "MC_CHIP_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 43152,
+      "format": "f",
+      "bytes": "8988883d",
+      "value": 0.06666667014360428
+    },
+    {
+      "name": "MC_BACKHEEL_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 43167,
+      "format": "f",
+      "bytes": "0000803d",
+      "value": 0.0625
+    },
+    {
+      "name": "MC_SHOOT_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 43182,
+      "format": "f",
+      "bytes": "398e633d",
+      "value": 0.0555555559694767
+    },
+    {
+      "name": "MC_CROSS_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 43194,
+      "format": "f",
+      "bytes": "398e633d",
+      "value": 0.0555555559694767
+    },
+    {
+      "name": "MC_TRAP_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 2,
+      "offset": 1483,
+      "format": "d",
+      "bytes": "9a9999999999b93f",
+      "value": 0.1
+    },
+    {
+      "name": "MC_CHEST_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 2,
+      "offset": 1707,
+      "format": "d",
+      "bytes": "39052fa7e0e5a43f",
+      "value": 0.04081632653061224
+    },
+    {
+      "name": "MC_D_HEAD_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 2,
+      "offset": 1715,
+      "format": "d",
+      "bytes": "28afa1bc86f2aa3f",
+      "value": 0.05263157894736842
+    },
+    {
+      "name": "MC_PASS_DIST",
+      "object": "ACTIONS.OBJ",
+      "segment": 2,
+      "offset": 635,
+      "format": "d",
+      "bytes": "48e17a14ae472440",
+      "value": 10.14
+    },
+    {
+      "name": "MC_VOLLEY_FS",
+      "object": "BALLINT.OBJ",
+      "segment": 1,
+      "offset": 6312,
+      "format": "f",
+      "bytes": "8988883d",
+      "value": 0.06666667014360428
+    },
+    {
+      "name": "MC_OVERHEAD_FS",
+      "object": "BALLINT.OBJ",
+      "segment": 1,
+      "offset": 6327,
+      "format": "f",
+      "bytes": "610b363d",
+      "value": 0.04444444552063942
+    },
+    {
+      "name": "MC_DV_HEAD_FS",
+      "object": "BALLINT.OBJ",
+      "segment": 1,
+      "offset": 6342,
+      "format": "f",
+      "bytes": "398e633d",
+      "value": 0.0555555559694767
+    },
+    {
+      "name": "MC_S_HEAD_FS",
+      "object": "BALLINT.OBJ",
+      "segment": 1,
+      "offset": 6357,
+      "format": "f",
+      "bytes": "0821843d",
+      "value": 0.06451612710952759
+    },
+    {
+      "name": "MC_J_HEAD_FS",
+      "object": "BALLINT.OBJ",
+      "segment": 1,
+      "offset": 6372,
+      "format": "f",
+      "bytes": "310c433d",
+      "value": 0.0476190485060215
+    },
+    {
+      "name": "LONG_PASS_FACTOR",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 1777,
+      "format": "f",
+      "bytes": "00000842",
+      "value": 34.0
+    },
+    {
+      "name": "TACKLE_DECEL",
+      "object": "BALLINT.OBJ",
+      "segment": 2,
+      "offset": 394,
+      "format": "d",
+      "bytes": "713d0ad7a370ed3f",
+      "value": 0.92
+    },
+    {
+      "name": "MC_RUN_SPD",
+      "object": "ACTIONS.OBJ",
+      "segment": 2,
+      "offset": 955,
+      "format": "d",
+      "bytes": "85eb51b81e850940",
+      "value": 3.19
+    },
+    {
+      "name": "MC_RUN_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 2,
+      "offset": 963,
+      "format": "d",
+      "bytes": "143bb1133bb1b33f",
+      "value": 0.07692307692307693
+    },
+    {
+      "name": "MC_TROTA_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 2,
+      "offset": 1723,
+      "format": "d",
+      "bytes": "000000000000b03f",
+      "value": 0.0625
+    },
+    {
+      "name": "IM_THERE_DIST",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 16225,
+      "format": "f",
+      "bytes": "00000040",
+      "value": 2.0
+    },
+    {
+      "name": "STEP_RANGE_FACTOR",
+      "object": "ACTIONS.OBJ",
+      "segment": 2,
+      "offset": 428,
+      "format": "d",
+      "bytes": "6666666666660e40",
+      "value": 3.8
+    },
+    {
+      "name": "MIN_SHOOT_FACTOR",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 1139,
+      "format": "d",
+      "bytes": "0000000000002840",
+      "value": 12.0
+    },
+    {
+      "name": "MAX_TURN_RATE_FACTOR",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 0,
+      "format": "f",
+      "bytes": "0000003e",
+      "value": 0.125
+    },
+    {
+      "name": "MAX_TURN_BASE",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 4,
+      "format": "f",
+      "bytes": "00006041",
+      "value": 14.0
+    },
+    {
+      "name": "MAX_TURN_PI",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 8,
+      "format": "d",
+      "bytes": "e0864454fb210940",
+      "value": 3.1415926536
+    },
+    {
+      "name": "MAX_TURN_DEGREES",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 16,
+      "format": "d",
+      "bytes": "0000000000806640",
+      "value": 180.0
+    },
+    {
+      "name": "TURN_ACT",
+      "object": "INTELL.OBJ",
+      "segment": 1,
+      "offset": 311,
+      "format": "B",
+      "bytes": "02",
+      "value": 2
+    },
+    {
+      "name": "STOP_ACT",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 28779,
+      "format": "B",
+      "bytes": "14",
+      "value": 20
+    },
+    {
+      "name": "SAY_PASS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 33869,
+      "format": "B",
+      "bytes": "02",
+      "value": 2
+    },
+    {
+      "name": "SAY_CROSS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 33886,
+      "format": "B",
+      "bytes": "06",
+      "value": 6
+    },
+    {
+      "name": "SAVE_AFOOTB_TIME",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 80,
+      "format": "d",
+      "bytes": "5555555555551340",
+      "value": 4.833333333333333
+    },
+    {
+      "name": "MC_AFOOTB_FS",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 96,
+      "format": "d",
+      "bytes": "64210b59c842b63f",
+      "value": 0.08695652173913043
+    },
+    {
+      "name": "SAVE_AFOOTC_TIME",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 112,
+      "format": "d",
+      "bytes": "0000000000002040",
+      "value": 8.0
+    },
+    {
+      "name": "MC_AFOOTC_FS",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 128,
+      "format": "d",
+      "bytes": "f3057d415fd0973f",
+      "value": 0.02325581395348837
+    },
+    {
+      "name": "SAVE_ABODYB_TIME",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 152,
+      "format": "d",
+      "bytes": "0000000000001040",
+      "value": 4.0
+    },
+    {
+      "name": "MC_ABODYB_FS",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 168,
+      "format": "d",
+      "bytes": "dae7909a60bcb53f",
+      "value": 0.0849056603773585
+    },
+    {
+      "name": "SAVE_ABODYC_TIME",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 184,
+      "format": "d",
+      "bytes": "0000000000001a40",
+      "value": 6.5
+    },
+    {
+      "name": "MC_ABODYC_FS",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 200,
+      "format": "d",
+      "bytes": "f3057d415fd0a73f",
+      "value": 0.04651162790697674
+    },
+    {
+      "name": "SAVE_AHEADB_TIME",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 224,
+      "format": "d",
+      "bytes": "0000000000002040",
+      "value": 8.0
+    },
+    {
+      "name": "MC_AHEADB_FS",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 240,
+      "format": "d",
+      "bytes": "8545cac0d3adb93f",
+      "value": 0.1003086419753086
+    },
+    {
+      "name": "SAVE_AHEADC_TIME",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 256,
+      "format": "d",
+      "bytes": "a9aaaaaaaaaa2540",
+      "value": 10.83333333333333
+    },
+    {
+      "name": "MC_AHEADC_FS",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 272,
+      "format": "d",
+      "bytes": "65210b59c842a63f",
+      "value": 0.04347826086956522
+    },
+    {
+      "name": "SAVE_AJUMPB_TIME",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 296,
+      "format": "d",
+      "bytes": "5555555555551d40",
+      "value": 7.333333333333333
+    },
+    {
+      "name": "MC_AJUMPB_FS",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 312,
+      "format": "d",
+      "bytes": "922449922449b23f",
+      "value": 0.07142857142857142
+    },
+    {
+      "name": "SAVE_AJUMPC_TIME",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 328,
+      "format": "d",
+      "bytes": "a9aaaaaaaaaa2440",
+      "value": 10.33333333333333
+    },
+    {
+      "name": "MC_AJUMPC_FS",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 344,
+      "format": "d",
+      "bytes": "28afa1bc86f2aa3f",
+      "value": 0.05263157894736842
+    },
+    {
+      "name": "SAVE_BFOOTB_TIME",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 360,
+      "format": "d",
+      "bytes": "5555555555552140",
+      "value": 8.666666666666666
+    },
+    {
+      "name": "MC_BFOOTB_FS",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 376,
+      "format": "d",
+      "bytes": "198661188661b83f",
+      "value": 0.09523809523809525
+    },
+    {
+      "name": "SAVE_BFOOTC_TIME",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 392,
+      "format": "d",
+      "bytes": "aeaaaaaaaaaa2c40",
+      "value": 14.33333333333334
+    },
+    {
+      "name": "MC_BFOOTC_FS",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 408,
+      "format": "d",
+      "bytes": "198661188661a83f",
+      "value": 0.04761904761904762
+    },
+    {
+      "name": "SAVE_BBODYB_TIME",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 432,
+      "format": "d",
+      "bytes": "5555555555551340",
+      "value": 4.833333333333333
+    },
+    {
+      "name": "MC_BBODYB_FS",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 448,
+      "format": "d",
+      "bytes": "682fa1bd84f6b23f",
+      "value": 0.07407407407407407
+    },
+    {
+      "name": "SAVE_BBODYC_TIME",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 464,
+      "format": "d",
+      "bytes": "0000000000002340",
+      "value": 9.5
+    },
+    {
+      "name": "MC_BBODYC_FS",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 480,
+      "format": "d",
+      "bytes": "f3057d415fd0a73f",
+      "value": 0.04651162790697674
+    },
+    {
+      "name": "SAVE_BHEADB_TIME",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 504,
+      "format": "d",
+      "bytes": "0000000000001840",
+      "value": 6.0
+    },
+    {
+      "name": "MC_BHEADB_FS",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 520,
+      "format": "d",
+      "bytes": "000000000000b03f",
+      "value": 0.0625
+    },
+    {
+      "name": "SAVE_BHEADC_TIME",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 536,
+      "format": "d",
+      "bytes": "0000000000002040",
+      "value": 8.0
+    },
+    {
+      "name": "MC_BHEADC_FS",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 552,
+      "format": "d",
+      "bytes": "1cc7711cc771ac3f",
+      "value": 0.05555555555555555
+    },
+    {
+      "name": "SAVE_BJUMPB_TIME",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 576,
+      "format": "d",
+      "bytes": "0000000000002440",
+      "value": 10.0
+    },
+    {
+      "name": "MC_BJUMPB_FS",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 592,
+      "format": "d",
+      "bytes": "1cc7711cc771ac3f",
+      "value": 0.05555555555555555
+    },
+    {
+      "name": "SAVE_CFOOTB_TIME",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 608,
+      "format": "d",
+      "bytes": "aeaaaaaaaaaa2d40",
+      "value": 14.83333333333334
+    },
+    {
+      "name": "MC_CFOOTB_FS",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 624,
+      "format": "d",
+      "bytes": "39052fa7e0e5a43f",
+      "value": 0.04081632653061224
+    },
+    {
+      "name": "SAVE_CFOOTC_TIME",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 640,
+      "format": "d",
+      "bytes": "acaaaaaaaa2a3240",
+      "value": 18.16666666666667
+    },
+    {
+      "name": "MC_CFOOTC_FS",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 656,
+      "format": "d",
+      "bytes": "7b14ae47e17aa43f",
+      "value": 0.04
+    },
+    {
+      "name": "SAVE_CBODYB_TIME",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 680,
+      "format": "d",
+      "bytes": "0000000000002140",
+      "value": 8.5
+    },
+    {
+      "name": "MC_CBODYB_FS",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 696,
+      "format": "d",
+      "bytes": "74e501c93a57ae3f",
+      "value": 0.05925925925925926
+    },
+    {
+      "name": "SAVE_CBODYC_TIME",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 712,
+      "format": "d",
+      "bytes": "5255555555552740",
+      "value": 11.66666666666666
+    },
+    {
+      "name": "MC_CBODYC_FS",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 728,
+      "format": "d",
+      "bytes": "545555555555a53f",
+      "value": 0.04166666666666666
+    },
+    {
+      "name": "SAVE_CHEADB_TIME",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 752,
+      "format": "d",
+      "bytes": "aeaaaaaaaaaa2d40",
+      "value": 14.83333333333334
+    },
+    {
+      "name": "MC_CHEADB_FS",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 768,
+      "format": "d",
+      "bytes": "47175d74d145a73f",
+      "value": 0.04545454545454546
+    },
+    {
+      "name": "SAVE_CJUMPB_TIME",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 792,
+      "format": "d",
+      "bytes": "5255555555552b40",
+      "value": 13.66666666666666
+    },
+    {
+      "name": "MC_CJUMPB_FS",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 808,
+      "format": "d",
+      "bytes": "5710932b88c9a53f",
+      "value": 0.0425531914893617
+    },
+    {
+      "name": "MC_GETUP_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 47205,
+      "format": "f",
+      "bytes": "0ccec73c",
+      "value": 0.024390242993831635
+    },
+    {
+      "name": "MC_GETUPF_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 47140,
+      "format": "f",
+      "bytes": "6452bc3c",
+      "value": 0.02298850566148758
+    },
+    {
+      "name": "MC_STANDB_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 40359,
+      "format": "f",
+      "bytes": "cb3d8d3d",
+      "value": 0.06896551698446274
+    },
+    {
+      "name": "MC_KICKOUT_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 47444,
+      "format": "f",
+      "bytes": "f1f0f03c",
+      "value": 0.029411764815449715
+    },
+    {
+      "name": "HEADER_FACTOR",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 1061,
+      "format": "d",
+      "bytes": "0000000000001040",
+      "value": 4.0
+    },
+    {
+      "name": "PASS_FACTOR",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 2365,
+      "format": "d",
+      "bytes": "0000000000002040",
+      "value": 8.0
+    },
+    {
+      "name": "KICK_AHEAD_ANG",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 2385,
+      "format": "d",
+      "bytes": "b6f3fdd478e9ee3f",
+      "value": 0.966
+    },
+    {
+      "name": "FACING_ANGLE",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 40,
+      "format": "d",
+      "bytes": "666666666666ee3f",
+      "value": 0.95
+    },
+    {
+      "name": "DANGER_FACTOR",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 1621,
+      "format": "d",
+      "bytes": "0000000000002040",
+      "value": 8.0
+    },
+    {
+      "name": "KP_PASS_FACTOR",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 2457,
+      "format": "d",
+      "bytes": "0000000000002440",
+      "value": 10.0
+    },
+    {
+      "name": "OPTIMUM_FACTOR",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 2481,
+      "format": "d",
+      "bytes": "0000000000002440",
+      "value": 10.0
+    },
+    {
+      "name": "MAX_XY_CSW",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 2135,
+      "format": "d",
+      "bytes": "b81e85eb51b8be3f",
+      "value": 0.12
+    },
+    {
+      "name": "MAX_Z_CSW",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 2135,
+      "format": "d",
+      "bytes": "b81e85eb51b8be3f",
+      "value": 0.12
+    },
+    {
+      "name": "MAX_XY_USW",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 2263,
+      "format": "d",
+      "bytes": "ec51b81e85ebc13f",
+      "value": 0.14
+    },
+    {
+      "name": "MAX_Z_USW",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 2279,
+      "format": "d",
+      "bytes": "b81e85eb51b8be3f",
+      "value": 0.12
+    },
+    {
+      "name": "SW_HOLD_FACTOR",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 2167,
+      "format": "d",
+      "bytes": "0000000000001040",
+      "value": 4.0
+    },
+    {
+      "name": "CHEST_FACTOR",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 144,
+      "format": "d",
+      "bytes": "cdccccccccccfc3f",
+      "value": 1.8
+    },
+    {
+      "name": "HEAD_FACTOR",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 216,
+      "format": "d",
+      "bytes": "0000000000000440",
+      "value": 2.5
+    },
+    {
+      "name": "JUMP_FACTOR",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 288,
+      "format": "d",
+      "bytes": "3333333333330b40",
+      "value": 3.4
+    },
+    {
+      "name": "ZONE_B_FACTOR",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 1025,
+      "format": "d",
+      "bytes": "0000000000000440",
+      "value": 2.5
+    },
+    {
+      "name": "ZONE_C_FACTOR",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 1033,
+      "format": "d",
+      "bytes": "0000000000001240",
+      "value": 4.5
+    },
+    {
+      "name": "DIAG",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 1677,
+      "format": "d",
+      "bytes": "39b4c876be9fe63f",
+      "value": 0.707
+    },
+    {
+      "name": "VERT_BALL_DAMP",
+      "object": "BALLINT.OBJ",
+      "segment": 2,
+      "offset": 218,
+      "format": "d",
+      "bytes": "333333333333e33f",
+      "value": 0.6
+    },
+    {
+      "name": "TOUCHB_BOX",
+      "object": "BALLINT.OBJ",
+      "segment": 2,
+      "offset": 354,
+      "format": "f",
+      "bytes": "00000041",
+      "value": 8.0
+    },
+    {
+      "name": "PM_BLOCK",
+      "object": "BALLINT.OBJ",
+      "segment": 1,
+      "offset": 8240,
+      "format": "i",
+      "bytes": "1f000000",
+      "value": 31
+    },
+    {
+      "name": "PM_CATCH",
+      "object": "BALLINT.OBJ",
+      "segment": 1,
+      "offset": 8380,
+      "format": "i",
+      "bytes": "1e000000",
+      "value": 30
+    },
+    {
+      "name": "SAVE_CONTACT",
+      "object": "BALLINT.OBJ",
+      "segment": 2,
+      "offset": 194,
+      "format": "d",
+      "bytes": "0000000000002640",
+      "value": 11.0
+    },
+    {
+      "name": "SAVE_DECEL",
+      "object": "ACTIONS.OBJ",
+      "segment": 2,
+      "offset": 807,
+      "format": "d",
+      "bytes": "000000000000e83f",
+      "value": 0.75
+    },
+    {
+      "name": "DRIB_FACTOR",
+      "object": "BALLINT.OBJ",
+      "segment": 2,
+      "offset": 402,
+      "format": "d",
+      "bytes": "0000000000002a40",
+      "value": 13.0
+    },
+    {
+      "name": "MEGA_FACTOR",
+      "object": "BALLINT.OBJ",
+      "segment": 2,
+      "offset": 410,
+      "format": "d",
+      "bytes": "0000000000000040",
+      "value": 2.0
+    },
+    {
+      "name": "LONG_RANGE_FACTOR",
+      "object": "BALL.OBJ",
+      "segment": 2,
+      "offset": 208,
+      "format": "f",
+      "bytes": "0000c841",
+      "value": 25.0
+    },
+    {
+      "name": "REBOUND_FACTOR",
+      "object": "BALL.OBJ",
+      "segment": 2,
+      "offset": 292,
+      "format": "d",
+      "bytes": "9a9999999999e93f",
+      "value": 0.8
+    },
+    {
+      "name": "PM_POST",
+      "object": "BALL.OBJ",
+      "segment": 1,
+      "offset": 6043,
+      "format": "i",
+      "bytes": "22000000",
+      "value": 34
+    },
+    {
+      "name": "PM_CROSSBAR",
+      "object": "BALL.OBJ",
+      "segment": 1,
+      "offset": 6587,
+      "format": "i",
+      "bytes": "23000000",
+      "value": 35
+    },
+    {
+      "name": "STRIKE_ACT",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 31623,
+      "format": "B",
+      "bytes": "07",
+      "value": 7
+    },
+    {
+      "name": "I_SAVE_WAIT",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 20611,
+      "format": "B",
+      "bytes": "04",
+      "value": 4
+    },
+    {
+      "name": "VISION_MULT",
+      "object": "INTELL.OBJ",
+      "segment": 1,
+      "offset": 58098,
+      "format": "B",
+      "bytes": "05",
+      "value": 5
+    },
+    {
+      "name": "GREED_FACTOR",
+      "object": "INTELL.OBJ",
+      "segment": 1,
+      "offset": 60500,
+      "format": "B",
+      "bytes": "64",
+      "value": 100
+    },
+    {
+      "name": "MIN_PUNT_PROB",
+      "object": "INTELL.OBJ",
+      "segment": 1,
+      "offset": 51742,
+      "format": "B",
+      "bytes": "03",
+      "value": 3
+    },
+    {
+      "name": "MIN_SHOOT_PROB",
+      "object": "INTELL.OBJ",
+      "segment": 1,
+      "offset": 56497,
+      "format": "B",
+      "bytes": "04",
+      "value": 4
+    },
+    {
+      "name": "MC_STOS_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 48185,
+      "format": "f",
+      "bytes": "f1f0f03c",
+      "value": 0.029411764815449715
+    },
+    {
+      "name": "MC_STOSB_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 48275,
+      "format": "f",
+      "bytes": "9276ac3c",
+      "value": 0.021052632480859756
+    },
+    {
+      "name": "MC_CRTOSTB_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 47964,
+      "format": "f",
+      "bytes": "09f2143d",
+      "value": 0.036363635212183
+    },
+    {
+      "name": "MC_BOUNCE_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 47379,
+      "format": "f",
+      "bytes": "fa823e3d",
+      "value": 0.04651162773370743
+    },
+    {
+      "name": "MC_HALFVOLL_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 47509,
+      "format": "f",
+      "bytes": "f1f0f03c",
+      "value": 0.029411764815449715
+    },
+    {
+      "name": "MC_THROW_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 47574,
+      "format": "f",
+      "bytes": "f3d80a3d",
+      "value": 0.033898305147886276
+    },
+    {
+      "name": "MC_ROLL_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 47639,
+      "format": "f",
+      "bytes": "8845ca3c",
+      "value": 0.02469135820865631
+    },
+    {
+      "name": "MC_WAVEUP_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 47769,
+      "format": "f",
+      "bytes": "8988083d",
+      "value": 0.03333333507180214
+    },
+    {
+      "name": "MC_THROWL_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 47834,
+      "format": "f",
+      "bytes": "fa823e3d",
+      "value": 0.04651162773370743
+    },
+    {
+      "name": "MC_THROWS_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 47899,
+      "format": "f",
+      "bytes": "a10e6a3d",
+      "value": 0.05714285746216774
+    },
+    {
+      "name": "MC_DIAGPASS_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 44093,
+      "format": "f",
+      "bytes": "103e783d",
+      "value": 0.06060606241226196
+    },
+    {
+      "name": "MC_DIAGBACK_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 44105,
+      "format": "f",
+      "bytes": "103e783d",
+      "value": 0.06060606241226196
+    },
+    {
+      "name": "MC_SIDEPASS_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 44117,
+      "format": "f",
+      "bytes": "0000803d",
+      "value": 0.0625
+    },
+    {
+      "name": "I_KP_BUSY",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 28014,
+      "format": "h",
+      "bytes": "0b00",
+      "value": 11
+    },
+    {
+      "name": "CP_HEAD",
+      "object": "INTELL.OBJ",
+      "segment": 1,
+      "offset": 48628,
+      "format": "i",
+      "bytes": "10000000",
+      "value": 16
+    },
+    {
+      "name": "TOO_CLOSE_TO_GOAL",
+      "object": "ACTIONS.OBJ",
+      "routine": "kphold_action",
+      "instructions": [
+        "0x6cab fcomp prat",
+        "0x6cc7 fsub prat"
+      ],
+      "expression": "prat"
+    },
+    {
+      "name": "TACKLE_TURNS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 18926,
+      "format": "i",
+      "bytes": "1e000000",
+      "value": 30
+    },
+    {
+      "name": "MC_S_TACKLE_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 46333,
+      "format": "f",
+      "bytes": "0ad7233d",
+      "value": 0.03999999910593033
+    },
+    {
+      "name": "PS_SLIDING",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 19150,
+      "format": "i",
+      "bytes": "11000000",
+      "value": 17
+    },
+    {
+      "name": "STEAL_ACT",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 15232,
+      "format": "h",
+      "bytes": "0e00",
+      "value": 14
+    },
+    {
+      "name": "STEAL_FOOT_FACTOR",
+      "object": "ACTIONS.OBJ",
+      "segment": 2,
+      "offset": 663,
+      "format": "d",
+      "bytes": "000000000000e03f",
+      "value": 0.5
+    },
+    {
+      "name": "MIN_HELP_CHANCE",
+      "object": "INTELL.OBJ",
+      "segment": 1,
+      "offset": 66492,
+      "format": "B",
+      "bytes": "02",
+      "value": 2
+    },
+    {
+      "name": "CALL_FACTOR",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 2589,
+      "format": "d",
+      "bytes": "0000000000004e40",
+      "value": 60.0
+    },
+    {
+      "name": "I_DRIBBLE",
+      "object": "INTELL.OBJ",
+      "segment": 1,
+      "offset": 50341,
+      "format": "h",
+      "bytes": "0200",
+      "value": 2
+    },
+    {
+      "name": "I_CLOSE_DOWN",
+      "object": "INTELL.OBJ",
+      "segment": 1,
+      "offset": 67507,
+      "format": "h",
+      "bytes": "0300",
+      "value": 3
+    },
+    {
+      "name": "STEAL_FACTOR",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 2652,
+      "format": "d",
+      "bytes": "0000000000001840",
+      "value": 6.0
+    },
+    {
+      "name": "BETWEEN_FACTOR",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 2676,
+      "format": "d",
+      "bytes": "0000000000000840",
+      "value": 3.0
+    },
+    {
+      "name": "DIVE_FEET_FACTOR",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 2700,
+      "format": "f",
+      "bytes": "00008040",
+      "value": 4.0
+    },
+    {
+      "name": "STEAL_BODY_FACTOR",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 2732,
+      "format": "d",
+      "bytes": "000000000000f83f",
+      "value": 1.5
+    },
+    {
+      "name": "GO_TO_POS_FACTOR",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 1425,
+      "format": "d",
+      "bytes": "9a9999999999e93f",
+      "value": 0.8
+    },
+    {
+      "name": "INCIDENT_FACTOR",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 1341,
+      "format": "f",
+      "bytes": "00002041",
+      "value": 10.0
+    },
+    {
+      "name": "I_STEAL",
+      "object": "INTELL.OBJ",
+      "segment": 1,
+      "offset": 71842,
+      "format": "B",
+      "bytes": "09",
+      "value": 9
+    },
+    {
+      "name": "I_THROW",
+      "object": "INTELL.OBJ",
+      "segment": 1,
+      "offset": 37224,
+      "format": "B",
+      "bytes": "06",
+      "value": 6
+    },
+    {
+      "name": "THROW_IN_B",
+      "object": "INTELL.OBJ",
+      "segment": 1,
+      "offset": 32549,
+      "format": "B",
+      "bytes": "0c",
+      "value": 12
+    },
+    {
+      "name": "EFFECTIVE_TACK",
+      "object": "INTELL.OBJ",
+      "segment": 1,
+      "offset": 69756,
+      "format": "B",
+      "bytes": "10",
+      "value": 16
+    },
+    {
+      "name": "FALL_ACT",
+      "object": "BALLINT.OBJ",
+      "segment": 1,
+      "offset": 7314,
+      "format": "B",
+      "bytes": "05",
+      "value": 5
+    },
+    {
+      "name": "RISE_ACT",
+      "object": "BALLINT.OBJ",
+      "segment": 1,
+      "offset": 7320,
+      "format": "B",
+      "bytes": "06",
+      "value": 6
+    },
+    {
+      "name": "RIDE_ACT",
+      "object": "BALLINT.OBJ",
+      "segment": 1,
+      "offset": 7328,
+      "format": "B",
+      "bytes": "08",
+      "value": 8
+    },
+    {
+      "name": "PICKUP_ACT",
+      "object": "BALLINT.OBJ",
+      "segment": 1,
+      "offset": 7454,
+      "format": "B",
+      "bytes": "13",
+      "value": 19
+    },
+    {
+      "name": "NEG_SAY_GIVE",
+      "object": "INTELL.OBJ",
+      "segment": 1,
+      "offset": 67325,
+      "format": "h",
+      "bytes": "f9ff",
+      "value": -7
+    },
+    {
+      "name": "SWAP_ENDS",
+      "object": "INTELL.OBJ",
+      "segment": 1,
+      "offset": 35331,
+      "bytes": "13",
+      "value": 19
+    },
+    {
+      "name": "CLOSE_ANG_FACTOR",
+      "object": "INTELL.OBJ",
+      "segment": 2,
+      "offset": 828,
+      "bytes": "00008041",
+      "value": 16.0
+    },
+    {
+      "name": "KP_OFFLINE",
+      "object": "INTELL.OBJ",
+      "segment": 1,
+      "offset": 35544,
+      "bytes": "00008041",
+      "value": 16.0
+    },
+    {
+      "name": "BESIDE_BALL_TRIPLE",
+      "object": "INTELL.OBJ",
+      "segment": 1,
+      "offset": 29064,
+      "bytes": "00007041",
+      "value": 15.0
+    },
+    {
+      "name": "PEN_RUNUP_PLUS_FOUR",
+      "object": "INTELL.OBJ",
+      "segment": 1,
+      "offset": 29111,
+      "bytes": "00000842",
+      "value": 34.0
+    },
+    {
+      "name": "MC_PICKBALL_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 48977,
+      "bytes": "fa823e3d",
+      "value": 0.04651162773370743
+    },
+    {
+      "name": "SETP_CORNER",
+      "object": "RULES.OBJ",
+      "segment": 1,
+      "offset": 21665,
+      "bytes": "01",
+      "value": 1
+    },
+    {
+      "name": "SETP_CENTRE",
+      "object": "RULES.OBJ",
+      "segment": 1,
+      "offset": 21743,
+      "bytes": "03",
+      "value": 3
+    },
+    {
+      "name": "SETP_GKICK",
+      "object": "RULES.OBJ",
+      "segment": 1,
+      "offset": 21789,
+      "bytes": "07",
+      "value": 7
+    },
+    {
+      "name": "SETP_THROW",
+      "object": "RULES.OBJ",
+      "segment": 1,
+      "offset": 21835,
+      "bytes": "02",
+      "value": 2
+    },
+    {
+      "name": "SETP_IFKICK",
+      "object": "RULES.OBJ",
+      "segment": 1,
+      "offset": 21942,
+      "bytes": "05",
+      "value": 5
+    },
+    {
+      "name": "SETP_DFKICK",
+      "object": "RULES.OBJ",
+      "segment": 1,
+      "offset": 22020,
+      "bytes": "06",
+      "value": 6
+    },
+    {
+      "name": "SETP_PENALTY",
+      "object": "RULES.OBJ",
+      "segment": 1,
+      "offset": 22098,
+      "bytes": "04",
+      "value": 4
+    },
+    {
+      "name": "FALL_RATE",
+      "object": "ACTIONS.OBJ",
+      "segment": 2,
+      "offset": 481,
+      "bytes": "00008040",
+      "value": 4.0
+    },
+    {
+      "name": "MC_FALLR_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 46913,
+      "bytes": "f1f0703d",
+      "value": 0.05882352963089943
+    },
+    {
+      "name": "MC_RIDE_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 2,
+      "offset": 1659,
+      "bytes": "922449922449b23f",
+      "value": 0.07142857142857142
+    },
+    {
+      "name": "MC_BARGE_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 2,
+      "offset": 943,
+      "bytes": "682fa1bd84f6b23f",
+      "value": 0.07407407407407407
+    },
+    {
+      "name": "MC_PENALTY_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 40229,
+      "bytes": "0000003d",
+      "value": 0.03125
+    },
+    {
+      "name": "JUMP_ACT",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 17829,
+      "bytes": "0400",
+      "value": 4
+    },
+    {
+      "name": "PLAYER_SIZE",
+      "object": "INTELL.OBJ",
+      "instruction": "0xa3ec",
+      "value": "prat",
+      "evidence": "player_ints loads the prat relocation immediately after calc_dist for the contact-radius comparison"
+    },
+    {
+      "name": "MC_CELEB_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 48658,
+      "bytes": "f3d88a3c",
+      "value": 0.016949152573943138
+    },
+    {
+      "name": "MC_PUMP_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 48673,
+      "bytes": "8988883d",
+      "value": 0.06666667014360428
+    },
+    {
+      "name": "MC_BABY_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 48688,
+      "bytes": "cdcc4c3d",
+      "value": 0.05000000074505806
+    },
+    {
+      "name": "MC_REEVES_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 48703,
+      "bytes": "052f273d",
+      "value": 0.040816325694322586
+    },
+    {
+      "name": "MC_MILLER_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 48718,
+      "bytes": "610b363d",
+      "value": 0.04444444552063942
+    },
+    {
+      "name": "MC_PLANE_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 48733,
+      "bytes": "610b363d",
+      "value": 0.04444444552063942
+    },
+    {
+      "name": "MC_FINGER_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 48748,
+      "bytes": "26b4973d",
+      "value": 0.07407407462596893
+    },
+    {
+      "name": "MC_KNEE_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 48763,
+      "bytes": "0cce473d",
+      "value": 0.04878048598766327
+    },
+    {
+      "name": "MC_MOON_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 48778,
+      "bytes": "3694573d",
+      "value": 0.05263157933950424
+    },
+    {
+      "name": "MC_DUCK_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 48793,
+      "bytes": "0821043d",
+      "value": 0.032258063554763794
+    },
+    {
+      "name": "MC_SHAMEW_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 40294,
+      "bytes": "103e783d",
+      "value": 0.06060606241226196
+    },
+    {
+      "name": "MC_SHAME_FS",
+      "object": "ACTIONS.OBJ",
+      "segment": 1,
+      "offset": 21620,
+      "bytes": "0ccec73c",
+      "value": 0.024390242993831635
+    },
+    {
+      "name": "MC_DUCK_SPD",
+      "object": "ACTIONS.OBJ",
+      "segment": 2,
+      "offset": 360,
+      "bytes": "43753b54b743d53f",
+      "value": 0.332258064516129
+    },
+    {
+      "name": "MC_JOG_FS",
+      "object": "RULES.OBJ",
+      "segment": 1,
+      "offset": 22765,
+      "bytes": "cb3d8d3d",
+      "value": 0.06896551698446274
+    },
+    {
+      "name": "ORIGINAL_SCORE_WAIT",
+      "object": "BALL.OBJ",
+      "segment": 1,
+      "offset": 6773,
+      "value": 220
+    }
+  ],
+  "native_goal_boundary": "Original score recording, celebration decisions/actions and scorer camera; original 220-tick goal wait. Native isolated replay snapshots, automatic replay dispatch and kickoff transition replace DOS replay/menu scheduling.",
+  "compatibility_adaptations": [
+    {
+      "routine": "get_there_time",
+      "change": "Hoist int i before its for loop to preserve Watcom for-scope; no algorithm changes"
+    },
+    {
+      "routine": "get_dist_pos",
+      "change": "Bound each team scan to eleven players (pn+11); original pn+12 crossed team boundary and read nonexistent player 23"
+    },
+    {
+      "routine": "sort_less_than",
+      "change": "Static member for the original qsort callback"
+    },
+    {
+      "routine": "default arguments",
+      "change": "Keep default arguments in generated declarations only"
+    },
+    {
+      "routine": "go_to_between",
+      "change": "Hoist loop variable i to preserve Watcom for-scope"
+    },
+    {
+      "routine": "get_near_path",
+      "change": "Skip disabled roster slots before evaluating interception candidates"
+    },
+    {
+      "routine": "we_have_ball",
+      "change": "Use teams[i-1] for one-based player numbers in crossing-distance reads; prevents player-23 out-of-bounds access"
+    },
+    {
+      "routine": "get_target declaration",
+      "change": "Spell [(32*2)+6] as [70] for declaration extraction"
+    },
+    {
+      "routine": "centre_takers",
+      "change": "Hoist pn to preserve Watcom loop scope"
+    },
+    {
+      "routine": "get_taker",
+      "change": "Initialize fallback taker to enabled team first slot"
+    },
+    {
+      "routine": "get_target",
+      "change": "Discrete rows 64..69 do not enter live-zone interpolation"
+    },
+    {
+      "routine": "player_ints",
+      "change": "Fix y-for-z height difference; skip self and disabled slots"
+    },
+    {
+      "routine": "init_foul",
+      "change": "Protect zero referee-to-ball distance"
+    },
+    {
+      "routine": "find_wall_guys",
+      "change": "Guard fewer than two wall players and zero projection denominator"
+    },
+    {
+      "routine": "get_target",
+      "change": "Initialize offsets for special centre formation"
+    }
+  ],
+  "runtime_initialization": {
+    "object": "FOOTBALL.OBJ",
+    "symbol": ".fn_init",
+    "code_range": [
+      80,
+      142
+    ],
+    "constant_segment": 2,
+    "constant_offset": 0,
+    "goal_posts": "int(cntspot_y +/- prat*4.0f)"
+  },
+  "excerpt_boundaries": {
+    "collect_controlled_ball": "Intact non-upward-header CONTROL_ACT branch of control_ball plus its offside flag; caller enforces supported control contact",
+    "keeper_busy": "intelligence countdown and expiry branches; off-field/run-on/steal side effects excluded; caller uses keeper save, recovery and holding only",
+    "update_ball_limbo": "Intact animation release gate from process_ball",
+    "distribute_held_ball": "Keeper punt/pass decision prefix of got_ball; caller requires in-box keeper holding ball, action <= TURN_ACT and no busy timer",
+    "update_save_contact": "Intact SAVE_ACT contact branch of ball_interact; caller enforces SAVE_ACT and unpossessed ball",
+    "dispatch_action": "Original action dispatch now includes celebrations",
+    "stand_action": "Only pending first-touch branch; native team fixture dispatches recovered zonal movement for idle actors",
+    "get_target": "Original live and set-piece positioning; live tunnel dispatch stays guarded; original tunnel_pos runs on a native presentation copy, discrete formation rows excluded from interpolation.",
+    "throw_action": "Original human/CPU throw branches; referee/audio prefix excluded.",
+    "init_centre": "Original ball/formation/taker setup, no clock/menu/referee callbacks",
+    "init_corner": "Original position, formation and taker setup, no menu/referee/user callbacks",
+    "init_gkick": "Original position, taker and run-up setup, no menu/referee/user callbacks",
+    "init_throw": "Original position and taker setup, no menu/referee/user/audio callbacks",
+    "record_goal_score": "Original last_goal and normal-play score increments from go_left_goal/go_right_goal; called once per live goal crossing, without menu/celebration callbacks",
+    "regulation_period_end": "Original regulation 45/90-minute thresholds and nothing_happening gate; native half-time/results presentation replaces DOS menus. No extra time or shootout.",
+    "swap_teams": "Original roster exchange, player-number reassignment and half increment; native input/material identity follows the swapped roster. Both sides use the same loaded tactics.",
+    "init_foul": "Original referee visibility and advantage; audio/speech omitted, freekicks enabled by native regulation mode.",
+    "punish_foul": "Original foul and card decisions enabled; native event and UI replace DOS menus.",
+    "apply_stamina": "Original player_stamina curve; native roster lookup supplies original unfatigued pace by current shirt, evaluated each logic tick against original accumulated match minutes.",
+    "ger_em_off": "Original card count and set-piece taker updates; native immediate removal replaces tunnel walk-off and frontend flags.",
+    "big_yeller": "Original booking/count/timer, native card event replaces DOS menu and speech.",
+    "init_taunt_act": "Original CPU choice for both human and CPU scorer; broken legacy user-input busy loop excluded."
+  },
+  "interception_variant": "First can_i_intercept body, under original EURO96 conditional",
+  "interception_layout": {
+    "object": "INTELL.OBJ",
+    "size": 28,
+    "stride_instruction": "0x60f6",
+    "members": {
+      "t": [
+        "short",
+        0
+      ],
+      "free": [
+        "short",
+        2
+      ],
+      "ptype": [
+        "short",
+        4
+      ],
+      "pplr": [
+        "short",
+        6
+      ],
+      "gt": [
+        "short",
+        8
+      ],
+      "x": [
+        "float",
+        12
+      ],
+      "y": [
+        "float",
+        16
+      ],
+      "atime": [
+        "float",
+        20
+      ],
+      "stop": [
+        "char",
+        24
+      ]
+    },
+    "evidence": [
+      "clear_strike",
+      "strike_and_control",
+      "can_i_intercept"
+    ]
+  },
+  "native_team_boundary": "Original discipline, official movement/animation, fatigue and celebration bodies. Native substitutions, replay buffer/UI, fixed-step scheduling, dead-ball placement and end transitions; no tunnel walk-offs, competition persistence or sound.",
+  "knockout_boundary": "Original 105/120-minute predicates, golden-goal flag, do_penalties clinch/sudden-death checks, taker rotation, Euro CPU aiming/power and run-up. ACTIONS.OBJ immediates: I_RUNUP=15 at 0x1b35; SPACT_NEWK=9 at 0x1b9e. Native periods, result UI and isolated kick lifecycle; Human takers use the original hold/release branch; aim_shot_at_goal selects the EURO96 penalty exception so get_power/get_traj govern human and CPU penalties; the original EURO96 keeper direction branch accepts native save_direction in place of DOS users_dir. Regular match score remains separate from shootout counters.",
+  "human_restart_boundary": "Original new_user_spec_kick, taker helpers and user_throw. DOS direction registry mapped to native ux/uy; source ROT_SPEED=0.05; SPACT_DRIVE=7 verified ACTIONS.OBJ 0x16c4, KICK=8 and NEWK=9 verified in 1-based jump table at 0x2404. Original draw_tracker is restored on an isolated render snapshot; phase supplied by the 20 Hz presentation clock; interpolation bounded to the 50-entry prediction table. Native neutral gate, restart placement and keeper pass/punt buttons; original animation contacts and physics remain authoritative.",
+  "tunnel_exit_042": {
+    "routine": "INTELL.CPP tunnel_pos",
+    "stadium_boundary": "Original CD descriptor int tunnel x/y/z at 224/228/232; world y is negative z; unused height excluded from helper.",
+    "presentation_boundary": "Original run and direction routines operate on a cloned engine at native 20 Hz; live get_target tunnel dispatch stays guarded. No live clock, statistics or RNG advancement."
+  },
+  "human_controls_038": {
+    "routines": [
+      "user_got_ball",
+      "user_opp_has_ball",
+      "user_spec_kick",
+      "rotate_around_ball"
+    ],
+    "input_boundary": "Native single-user held-button, direction, selection and pause adapter; original possession decisions and kick counters run at 20 Hz.",
+    "extraction": "Strip comments while preserving newlines in these four routines before brace matching; commented-out branches contain unmatched braces.",
+    "aftertouch_fix": "After shoot_ball assigns final ballxdis/ballydis, refresh shoot_x/shoot_y when after_touch_on is set. Original aim_shot_at_goal computed this basis before assigning the new shot velocity. Original spin formulas and limits remain unchanged.",
+    "first_time_limit": "Preserved EURO96 can_i_intercept enables pass_option for both buttons but gates strike records on strike_option; both-button first-time passing is not advertised as restored.",
+    "compatibility": "C/North and diagnostic request_play_kick remain native shortcuts to original kicks; keeper and set-piece adapters remain separate."
+  }
+}

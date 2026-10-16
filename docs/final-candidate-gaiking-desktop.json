@@ -1,0 +1,32 @@
+﻿{
+    "host":  "GAIKING",
+    "user":  "vrock",
+    "session":  2,
+    "video":  "windows",
+    "renderer":  "direct3d11",
+    "audio":  "dummy",
+    "results":  [
+                    {
+                        "name":  "desktop_3d",
+                        "passed":  true,
+                        "exit":  0
+                    },
+                    {
+                        "name":  "desktop_title",
+                        "passed":  true,
+                        "exit":  0
+                    },
+                    {
+                        "name":  "desktop_selection",
+                        "passed":  true,
+                        "exit":  0
+                    },
+                    {
+                        "name":  "desktop_result",
+                        "passed":  true,
+                        "exit":  0
+                    }
+                ],
+    "error":  null,
+    "scope":  "Hidden tests in the existing interactive RDP desktop. Physical console display, fullscreen, controller and audible sound are still manual checks."
+}

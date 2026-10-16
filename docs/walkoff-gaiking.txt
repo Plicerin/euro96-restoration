@@ -1,0 +1,33 @@
+Venue 0 half 0 substitution ticks=350
+Venue 0 half 1 substitution ticks=350
+Venue 1 half 0 substitution ticks=350
+Venue 1 half 1 substitution ticks=350
+Venue 2 half 0 substitution ticks=350
+Venue 2 half 1 substitution ticks=350
+Venue 3 half 0 substitution ticks=350
+Venue 3 half 1 substitution ticks=350
+Venue 4 half 0 substitution ticks=401
+Venue 4 half 1 substitution ticks=401
+1. Original outgoing/incoming route, five venues, both halves, squad/stats retention passed.
+2. Direct red, second yellow, no resurrection/replacement and natural completion passed.
+3. Queue order, keeper slot, keyboard/gamepad pause/skip, focus/disconnect and input guard passed.
+4. Reset and diagnostic fallback preserve real match decisions passed.
+5. Referee/assistant restart movement, accurate facing and zero-distance guards passed.
+PASSED walkoffs
+EURO: 121 entries, 15 backgrounds, 10 tactics tables verified.
+EUROREND: 229 bounded entries, 6613404 bytes.
+FAP: 27 bounded entries, 1452928 bytes.
+FAPF: 4 bounded entries, 279252 bytes.
+Controller Back preserves live and paused matches; Start pause/resume passed.
+French/English voice keyboard and gamepad integration passed.
+Native tunnel focus, controller pause and skip passed.
+Native render completed: 57 frames.
+Original match sounds ready
+PASSED frontend
+EURO: 121 entries, 15 backgrounds, 10 tactics tables verified.
+EUROREND: 229 bounded entries, 6613404 bytes.
+FAP: 27 bounded entries, 1452928 bytes.
+FAPF: 4 bounded entries, 279252 bytes.
+Native render completed: 73 frames.
+PASSED depth
+{"Hash":"978B6E822FE95E8F72E8696F639FE871AC80F8883CD8C5732F591A723FEFE2BD","Path":"C:\\Users\\vrock\\AppData\\Local\\Temp\\Actua96-validation-0431-db8278d27a474896ae7488258a7df14c\\walkoff-0460\\actua96.exe"}

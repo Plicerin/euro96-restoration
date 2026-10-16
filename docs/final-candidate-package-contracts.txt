@@ -1,0 +1,9 @@
+Valid fixture accepted (no executable run).
+Rejected modified fixture as expected.
+Rejected missing fixture as expected.
+Rejected unlisted fixture as expected.
+Rejected required fixture as expected.
+Rejected duplicate fixture as expected.
+Rejected traversal fixture as expected.
+Rejected absolute fixture as expected.
+Package contracts passed: 1 valid and 7 invalid fixtures. Scratch: ..\..\work\package-contracts-acf8be7f44fa488080360631d4a27345

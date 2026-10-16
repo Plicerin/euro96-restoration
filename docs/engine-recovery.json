@@ -1,0 +1,4132 @@
+{
+  "inputs": {
+    "BALL.CPP": "0b1b60164ac1b0de2d4dca33883947ec5d8f18d27efba384adfb27e1585c45eb",
+    "BALL.OBJ": "f8dd68af5519f5fd70085de559d57418f24beea6dea9f9fb2cfd8e4627e76ec5",
+    "FOOTBALL.OBJ": "80386fd58625e1a5a8491cdf700096af782636923ba40b778746274c8663430a",
+    "MATHS.CPP": "badcffdf5b450001887d0a335da7a2fa95c2b323a7898a40da71afc0ab9c3da8"
+  },
+  "constants": {
+    "AIR_FRICTION": {
+      "value": 0.9860000014305115,
+      "location": "_TEXT+0xa07",
+      "type": "float"
+    },
+    "GRND_FRICTION": {
+      "value": 0.9649999737739563,
+      "location": "_TEXT+0xa10",
+      "type": "float"
+    },
+    "MAX_WIND": {
+      "value": 1.0,
+      "location": "_TEXT+0xa54",
+      "type": "float"
+    },
+    "PI": {
+      "value": 3.1415926536,
+      "location": "CONST+0x8",
+      "type": "double"
+    },
+    "SW_HOLD_FACTOR": {
+      "value": 4.0,
+      "location": "CONST+0x44",
+      "type": "double"
+    },
+    "IN_AIR_SPIN": {
+      "value": -0.2,
+      "location": "CONST+0x84",
+      "type": "double"
+    },
+    "GOAL_KICK_BR": {
+      "value": 10,
+      "location": "_TEXT+0xcb3",
+      "type": "int"
+    },
+    "KP_A": {
+      "value": 1,
+      "location": "_TEXT+0xccc",
+      "type": "int"
+    },
+    "KP_B": {
+      "value": 12,
+      "location": "_TEXT+0xceb",
+      "type": "int"
+    }
+  },
+  "routines": [
+    {
+      "file": "BALL.CPP",
+      "name": "get_angle",
+      "line": 29,
+      "sha256": "4ccab38c429f8e59551f2397468ceef5211e84274031f11554eff116594a4dd2"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "get_xydis_from_ang",
+      "line": 40,
+      "sha256": "07717c4763c3d253aa24c8f5e4b21cb4dd5532fdda6cc55876b9200e82ea70ab"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "get_s_angle",
+      "line": 49,
+      "sha256": "f7a191cc3c3f6653a6571f710f5f0d27d436bdfe5abb49200ba5cce1eed7fef0"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "get_zdis_from_ang",
+      "line": 58,
+      "sha256": "9a76d763615a95c950eaf98d4d941af6cc16b6e5c6890162f7257669399f180c"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "stop_ball_spin",
+      "line": 66,
+      "sha256": "00c58fa106720c44b6ed3dab52921899ccc59b57f1a73aff0f5cdb45f67a27a9"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "swerve_xyz",
+      "line": 79,
+      "sha256": "377338c537893bf24b305cc9e43d5c8a2f8952a6cd59e5bd34502bc2339ad51b"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "inc_swerve",
+      "line": 97,
+      "sha256": "c9907cf49169c28a1db30971095d6eb5b4c6618ad7a63bed4a2e0be38e238db1"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "get_aftert_spin",
+      "line": 111,
+      "sha256": "8ea02c78c7d4623179858f696588af7a90cb8fe5813ccd4c4cee35f49181aa4d"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "add_spin_fx",
+      "line": 161,
+      "sha256": "2be29f8d3099189e5d52830ad40444e33150e73b1ca4b7168b1d90f0860d6312"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "move_ball",
+      "line": 196,
+      "sha256": "80f500cc159d6d776b59a55c0b251b112937ab4832e4021d5ac657339cdbbec6"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "grav_ball",
+      "line": 264,
+      "sha256": "5ad415084d0f8c682ba52aed27c6525d483c83d9b191f09138873bdddb13d8dd"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "ball_friction",
+      "line": 275,
+      "sha256": "9d80ec70df97f573bb6e5adc9b7df2e771b4076c1f29da2e6d8e5ce58fe306a6"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "roll_ball",
+      "line": 311,
+      "sha256": "18affb0495dc02de99ab0925bfc8892ab5e4b0223dced4e6b4810108862e9018"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "ball_trajectory",
+      "line": 333,
+      "sha256": "86d54d66a1d0a5573fcbb560d441e340357d3220dccccb328b02ca93e4b64bdc"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "get_ball_zone",
+      "line": 357,
+      "sha256": "e5416417197e6e142041989fa76bc9741b103c2a06f115e5d91144fa67cd7d5e"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "launch_ball",
+      "line": 405,
+      "sha256": "4df1df1ee8991e6812e58d6364ff2b3ecd73be66a659f104deb2a119a8797053"
+    },
+    {
+      "file": "BALL.CPP",
+      "name": "reset_shot",
+      "line": 422,
+      "sha256": "faf84e5b2771f747c0faa88ee852420c44cf9f67b2e3b1331ce4b8e1e7541dae"
+    },
+    {
+      "file": "MATHS.CPP",
+      "name": "calc_dist",
+      "line": 65,
+      "sha256": "9ef914e9862f074f07d2760b32cfeb343d12cade5d24bce61423724645a37d46"
+    }
+  ],
+  "globals": [
+    {
+      "name": "escape_pending",
+      "type": "signed char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 0,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "simulate_match",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 1,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "first_mf",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 2,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "xinfo",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 4,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "man_of_match",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 254,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "max_kp_margin",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 256,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "mess_col",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 564,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "new_text",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 566,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "message_cnt",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 572,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "current_mess",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 574,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "not_ahead",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 11784,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "deb_data",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 11788,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "comsetp",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 11792,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "updates",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 11794,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "old_count",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 11796,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "first_time_it",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 12108,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "seconds",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 12112,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ft_ktm",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 12116,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ft_vtm",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 12120,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ft_dtm",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 12124,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ft_otm",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 12128,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ft_stm",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 12132,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ft_jtm",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 12136,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ft_ttm",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 12140,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ft_ctm",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 12144,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ft_utm",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 12148,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "replay_seconds",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 12152,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "max_butts",
+      "type": "int",
+      "value": 10,
+      "segment": "_DATA",
+      "offset": 288,
+      "bytes": "0a000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "ball_col",
+      "type": "char",
+      "value": 7,
+      "segment": "_DATA",
+      "offset": 292,
+      "bytes": "07",
+      "storage": "initialized"
+    },
+    {
+      "name": "shadow_col",
+      "type": "char",
+      "value": 1,
+      "segment": "_DATA",
+      "offset": 293,
+      "bytes": "01",
+      "storage": "initialized"
+    },
+    {
+      "name": "team_a_col",
+      "type": "char",
+      "value": 3,
+      "segment": "_DATA",
+      "offset": 294,
+      "bytes": "03",
+      "storage": "initialized"
+    },
+    {
+      "name": "team_b_col",
+      "type": "char",
+      "value": 4,
+      "segment": "_DATA",
+      "offset": 295,
+      "bytes": "04",
+      "storage": "initialized"
+    },
+    {
+      "name": "bounce_dis",
+      "type": "float",
+      "value": 2.200000047683716,
+      "segment": "_DATA",
+      "offset": 296,
+      "bytes": "cdcc0c40",
+      "storage": "initialized"
+    },
+    {
+      "name": "gravity",
+      "type": "float",
+      "value": 0.5,
+      "segment": "_DATA",
+      "offset": 300,
+      "bytes": "0000003f",
+      "storage": "initialized"
+    },
+    {
+      "name": "cntspot_x",
+      "type": "int",
+      "value": 640,
+      "segment": "_DATA",
+      "offset": 304,
+      "bytes": "80020000",
+      "storage": "initialized"
+    },
+    {
+      "name": "cntspot_y",
+      "type": "int",
+      "value": 400,
+      "segment": "_DATA",
+      "offset": 308,
+      "bytes": "90010000",
+      "storage": "initialized"
+    },
+    {
+      "name": "ball_diam",
+      "type": "float",
+      "value": 4.0,
+      "segment": "_DATA",
+      "offset": 312,
+      "bytes": "00008040",
+      "storage": "initialized"
+    },
+    {
+      "name": "pitch_len",
+      "type": "int",
+      "value": 1280,
+      "segment": "_DATA",
+      "offset": 316,
+      "bytes": "00050000",
+      "storage": "initialized"
+    },
+    {
+      "name": "pitch_wid",
+      "type": "int",
+      "value": 800,
+      "segment": "_DATA",
+      "offset": 320,
+      "bytes": "20030000",
+      "storage": "initialized"
+    },
+    {
+      "name": "halfway_line",
+      "type": "int",
+      "value": 640,
+      "segment": "_DATA",
+      "offset": 324,
+      "bytes": "80020000",
+      "storage": "initialized"
+    },
+    {
+      "name": "scr_pinch",
+      "type": "int",
+      "value": 48,
+      "segment": "_DATA",
+      "offset": 328,
+      "bytes": "30000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "debug",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 12154,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "zone_wid",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 12156,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "zone_hgt",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 12160,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "top_post_y",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 12164,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "bot_post_y",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 12168,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "var_start",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 12172,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "stat_menu_up",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17264,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "golden_goal",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17265,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "return_12",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17266,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "shamed_player",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17268,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "old_min",
+      "type": "unsigned short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17270,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "users_left",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17272,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "setp_x",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17276,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "setp_y",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17280,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "setp_wait_cnt",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17284,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "frame",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17286,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "kick_off",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17287,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "keep_timer",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17320,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "stop_clock",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17322,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "keep_dive",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17323,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "hold_up_play",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17324,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "wall_is_up",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17326,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "card_is_out",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17328,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "crowd_mood_a",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17330,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "crowd_mood_b",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17332,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "possession",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17336,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "poss_held",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17340,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "arrow_on",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17344,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "logic_cnt",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17348,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ball_move",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17352,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "first_bounce",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17356,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "swerve",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17360,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "spin_cnt",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17364,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "spin_ball",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17368,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "prediction",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17372,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "set_xyspin",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17376,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "set_zspin",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17380,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ball_horz_ang",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17384,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ball_vert_ang",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17388,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "max_sw_factor",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17392,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "swerve_factor",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17396,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "rebound_ball",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17400,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "headed_ball",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17401,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "say_names",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17402,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "fired_a_shot",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17403,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "comm_pass",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17404,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "comm_pass_type",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17405,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "keeper_spd",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17408,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "keeper_down",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17412,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "save_direction",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17414,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "keeper_will_save",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17416,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "keeper_on_grnd",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17420,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "keeper_contact",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17424,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ball_in_goal",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17428,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "ball_in_hands",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17429,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "game_action",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17430,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "throw_cnt",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17432,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "team_a_goals",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17436,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "team_b_goals",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17440,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "last_goal",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17444,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "scorer_running",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17445,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "just_scored",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17448,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "just_thrown",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17452,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "goal_scorer",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17456,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "pass_type",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17460,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "kick_type",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17464,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "receiver",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17468,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "cross_now",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17472,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "auto_select",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17473,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "must_face",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17474,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "must_face_time",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17476,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "must_face_x",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17480,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "must_face_y",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17484,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "must_shoot",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17488,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "chip_pass",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17489,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "must_pass",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17490,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "must_punt",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17491,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "keeper_a_in_box",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17492,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "keeper_b_in_box",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17493,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "keeper_steps",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17496,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "save_block",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17500,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "save_xoff",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17504,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "save_yoff",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17508,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "save_zoff",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17512,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "shot_speed",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17516,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "scr_x",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17520,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "scr_y",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17524,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ball_speed",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17528,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ball_int_speed",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17532,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "interceptor_a",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17536,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "interceptor_b",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17540,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "in_cross_area",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17544,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "close_in_number",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17548,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "shooter",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17552,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ball_inair",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17556,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "super_shot",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17560,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "opponents_near_holder",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17564,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "opponents_really_close",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17568,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ball_poss",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17572,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "sender_1_2",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17576,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ball_still",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17580,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "last_touch",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17584,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "want_pass",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17588,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "before",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17592,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "support_me",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17596,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "pre_kp_touch",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17600,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "prev_touch",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17604,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ball_limbo_p",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17608,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ball_limbo_on",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17612,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "ball_limbo_c",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17616,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ball_released",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17620,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "cannot_pick_up",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17624,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "forced",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17628,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "last_user_a",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17630,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "last_user_b",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17632,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "last_plr_a",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17634,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "last_plr_b",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17636,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "players_off_a",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17638,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "players_off_b",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17640,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "want_pass_stat",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17644,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ball_zone1",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17648,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ball_zone2",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17652,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ball_out_of_play",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17656,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "receiver_a",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17660,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "receiver_b",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17662,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ready_centre",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17664,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "shot_attempt",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17668,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "force_select",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17669,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "heading_ball",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17670,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "flag",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17672,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "rep_camera",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17673,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "sub_camera",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17674,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "allow_replay",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17675,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "replay_pos",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17676,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "old_rep_pos",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17680,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "replay_cnt",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17684,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "pitch_sprs",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17688,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "lp_user",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17692,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "fixed_net_user",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17694,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "auto_users_a",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17716,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "auto_users_b",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17738,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "play_ball_a",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17740,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "play_ball_b",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17742,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "new_select",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17744,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "auto_intercept",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17745,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "closest",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17746,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "f1_down",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17748,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "f2_down",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17750,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "spec_kick_type",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17752,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "setp_hgt",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17756,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "setp_power",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17760,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "setp_held",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17764,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "setp_kick_x",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17768,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "setp_kick_y",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17772,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "setp_bxd",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17776,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "setp_byd",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17780,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "setp_bzd",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17784,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "user_taker",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17788,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "user_taker2",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17790,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "user_controlled",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17792,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "user_scorer",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17793,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "user_plr",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17794,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "after_touch_on",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17795,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "drive_shot",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17796,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "newk_shot",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17797,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "wallx",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17800,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "wally",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17804,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "men_in_wall",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17808,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "keeper_pos_x",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17812,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "keeper_pos_y",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 17816,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "centre_guy_1",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17820,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "centre_guy_2",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17824,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "in_range",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17828,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "in_header_rng",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17829,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "in_shot_rng",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17830,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "taker_x",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17832,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "taker_y",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17836,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "penalty_shot",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17840,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "penalties",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17842,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "penalty_game",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17844,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "home_pens_left",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17846,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "away_pens_left",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17848,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "penalty_counter",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17850,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "pen_taker_a",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17852,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "pen_taker_b",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17854,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "penalty_team",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17856,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "penalty_taker",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17860,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "penalty_taker_a",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17864,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "penalty_taker_b",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17868,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "setp_taker",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17872,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "fkick_taker",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17876,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "fkick_taker_a",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17880,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "fkick_taker_b",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17884,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "gkick_taker",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17888,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "goal_kicker_a",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17892,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "goal_kicker_b",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17896,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "corner_taker",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17900,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "corn_kicker_a",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17904,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "corn_kicker_b",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17908,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ktaker",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17912,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "bad_guy",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17916,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "direct_fk",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17920,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "play_advantage",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17921,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "set_piece_on",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17922,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "throw_in_taker",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17924,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "main_man",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17928,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "player_num",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17932,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "savex",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17936,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "savey",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17940,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "savez",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17944,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "shot_acknowledged",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17948,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "shot_pending",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17952,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "real_shot",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17956,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "shot_missed",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17960,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "shot_saved",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 17962,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "drib_opps",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18096,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "stop_and_face",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18100,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "x_face",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18104,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "y_face",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18108,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "offside_now",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18112,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "can_be_offside",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18113,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "ref_accuracy",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18116,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ref_strictness",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18120,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ref_wait",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18124,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "crowd_a",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18352,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "crowd_b",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18356,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "kickoff",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18360,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "end_game",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18361,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "team_a",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18362,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "team_b",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18363,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "last_centre",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18364,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "need_result",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18365,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "injury_time",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18366,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "special_move",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18368,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "match_half",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18369,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "opt_user",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18370,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "opt_team",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18372,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "options_on",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18374,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "line_up",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18376,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "player_being_subbed",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18378,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "player_on_off",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18380,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "player_coming_on",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18382,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "booking",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18384,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "subbing_now",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18386,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "first_update",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18388,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "newdx",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18392,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "newdy",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18396,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "wind_on",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18400,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "wind_d_trend",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18402,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "wind_s_trend",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18404,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "wind_x",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18408,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "wind_y",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18412,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "wind_speed",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18416,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "init_wind_x",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18420,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "init_wind_y",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18424,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "init_wind_speed",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18428,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "wind_var_ang",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18432,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "tactics_a",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18436,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "tactics_b",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18437,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "old_tac_a",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18438,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "old_tac_b",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18439,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "man2man_a",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18552,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "man2man_b",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18553,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "next_mins",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18554,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "time_factor",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18556,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "clock_running",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18560,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "demo_match",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18561,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "rolling_clock",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18564,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "arrow_guy",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18568,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "rand_seed",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18570,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "seed",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18572,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "man_down",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18576,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "launch_type",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18580,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "launch_x",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18584,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "launch_y",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18588,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ballxdis",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18592,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ballydis",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18596,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ballzdis",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18600,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ballx",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18604,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "bally",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18608,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ballz",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18612,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ballx_out",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18616,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "bally_out",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18620,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ballz_out",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18624,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "b_xoff",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18628,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "b_yoff",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18632,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "b_zoff",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18636,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "save_ballx",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18640,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "save_bally",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18644,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "save_ballz",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18648,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "save_ball_poss",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18652,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "good_poss",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18656,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "eff_ballx",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18660,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "eff_bally",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18664,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "eff_ballz",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18668,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "prev_ballx",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18672,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "prev_bally",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18676,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "prev_ballz",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18680,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ns_ballx",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18684,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ns_bally",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18688,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ns_ballz",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18692,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ball_zspin",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18696,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ball_xyspin",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18700,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "full_zspin",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18704,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "full_xyspin",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18708,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "shoot_x",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18712,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "shoot_y",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18716,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "nearest_a",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18720,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "nearest_b",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18724,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "old_ltouch",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18728,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "old_ball_poss",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18732,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "use_ball_limit",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18736,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "near_path_a",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18738,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "near_path_b",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18740,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "zone1_x",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18744,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "zone1_y",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18748,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "zone2_x",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18752,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "zone2_y",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18756,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "incident_x",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18760,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "incident_y",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18764,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "difficulty",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18768,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "match_mode",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18772,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "dead_ball_cnt",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18776,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "defense_a",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18780,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "defense_b",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 18784,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "poss_mode",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 18788,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ball_travel",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 19992,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "select_cnt",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 19994,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "already_there",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 19996,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "reselection",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 19997,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "offside_on",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 19998,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "right_bounds",
+      "type": "int",
+      "value": 1360,
+      "segment": "_DATA",
+      "offset": 332,
+      "bytes": "50050000",
+      "storage": "initialized"
+    },
+    {
+      "name": "left_bounds",
+      "type": "int",
+      "value": -80,
+      "segment": "_DATA",
+      "offset": 336,
+      "bytes": "b0ffffff",
+      "storage": "initialized"
+    },
+    {
+      "name": "lower_bounds",
+      "type": "int",
+      "value": 880,
+      "segment": "_DATA",
+      "offset": 340,
+      "bytes": "70030000",
+      "storage": "initialized"
+    },
+    {
+      "name": "upper_bounds",
+      "type": "int",
+      "value": -80,
+      "segment": "_DATA",
+      "offset": 344,
+      "bytes": "b0ffffff",
+      "storage": "initialized"
+    },
+    {
+      "name": "prat",
+      "type": "float",
+      "value": 10.666666984558105,
+      "segment": "_DATA",
+      "offset": 348,
+      "bytes": "abaa2a41",
+      "storage": "initialized"
+    },
+    {
+      "name": "goal_height",
+      "type": "int",
+      "value": 34,
+      "segment": "_DATA",
+      "offset": 352,
+      "bytes": "22000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "goal_depth",
+      "type": "int",
+      "value": 28,
+      "segment": "_DATA",
+      "offset": 356,
+      "bytes": "1c000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "post_width",
+      "type": "int",
+      "value": 2,
+      "segment": "_DATA",
+      "offset": 360,
+      "bytes": "02000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "players",
+      "type": "int",
+      "value": 22,
+      "segment": "_DATA",
+      "offset": 364,
+      "bytes": "16000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "avg1_rate",
+      "type": "int",
+      "value": 78,
+      "segment": "_DATA",
+      "offset": 368,
+      "bytes": "4e000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "avg1_power",
+      "type": "int",
+      "value": 74,
+      "segment": "_DATA",
+      "offset": 372,
+      "bytes": "4a000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "avg1_bcontrol",
+      "type": "int",
+      "value": 84,
+      "segment": "_DATA",
+      "offset": 376,
+      "bytes": "54000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "avg1_flair",
+      "type": "int",
+      "value": 84,
+      "segment": "_DATA",
+      "offset": 380,
+      "bytes": "54000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "avg1_vision",
+      "type": "int",
+      "value": 74,
+      "segment": "_DATA",
+      "offset": 384,
+      "bytes": "4a000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "avg1_accuracy",
+      "type": "int",
+      "value": 74,
+      "segment": "_DATA",
+      "offset": 388,
+      "bytes": "4a000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "avg1_fitness",
+      "type": "int",
+      "value": 74,
+      "segment": "_DATA",
+      "offset": 392,
+      "bytes": "4a000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "avg1_disc",
+      "type": "int",
+      "value": 74,
+      "segment": "_DATA",
+      "offset": 396,
+      "bytes": "4a000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "avg2_rate",
+      "type": "int",
+      "value": 70,
+      "segment": "_DATA",
+      "offset": 400,
+      "bytes": "46000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "avg2_power",
+      "type": "int",
+      "value": 74,
+      "segment": "_DATA",
+      "offset": 404,
+      "bytes": "4a000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "var_end",
+      "type": "short",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 20000,
+      "bytes": "0000",
+      "storage": "BSS"
+    },
+    {
+      "name": "audio_version",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 20002,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "vidi_wall_on",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 20003,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "MF",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 20004,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "mf_scale",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 20008,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "omf_scale",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 20012,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "log_factor",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 20016,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "mf_fixed",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 20020,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "alarm",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 20021,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "watch",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 20022,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "stop_min",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 20024,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "avg2_bcontrol",
+      "type": "int",
+      "value": 94,
+      "segment": "_DATA",
+      "offset": 408,
+      "bytes": "5e000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "avg2_flair",
+      "type": "int",
+      "value": 74,
+      "segment": "_DATA",
+      "offset": 412,
+      "bytes": "4a000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "avg2_vision",
+      "type": "int",
+      "value": 74,
+      "segment": "_DATA",
+      "offset": 416,
+      "bytes": "4a000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "avg2_accuracy",
+      "type": "int",
+      "value": 74,
+      "segment": "_DATA",
+      "offset": 420,
+      "bytes": "4a000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "avg2_fitness",
+      "type": "int",
+      "value": 74,
+      "segment": "_DATA",
+      "offset": 424,
+      "bytes": "4a000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "avg2_disc",
+      "type": "int",
+      "value": 74,
+      "segment": "_DATA",
+      "offset": 428,
+      "bytes": "4a000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "camera_dist",
+      "type": "float",
+      "value": 250.0,
+      "segment": "_DATA",
+      "offset": 432,
+      "bytes": "00007a43",
+      "storage": "initialized"
+    },
+    {
+      "name": "in_game",
+      "type": "char",
+      "value": 1,
+      "segment": "_DATA",
+      "offset": 436,
+      "bytes": "01",
+      "storage": "initialized"
+    },
+    {
+      "name": "analogue",
+      "type": "char",
+      "value": 1,
+      "segment": "_DATA",
+      "offset": 437,
+      "bytes": "01",
+      "storage": "initialized"
+    },
+    {
+      "name": "stop_sec",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 20028,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "practice",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 20032,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "team_a_on",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 20033,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "team_b_on",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 20034,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "plot_buffer",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 23236,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "button_lit",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 23240,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "play_nums_on",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 23244,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "oldcnt",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 23248,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "frames",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 23252,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "frms_per_sec",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 23256,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "last_second",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 23260,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "old_clock",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 23268,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "ux",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 23272,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "uy",
+      "type": "float",
+      "value": 0.0,
+      "segment": "_BSS",
+      "offset": 23276,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "uf1",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 23280,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "uf2",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 23281,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "um",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 23282,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "camera",
+      "type": "char",
+      "value": 9,
+      "segment": "_DATA",
+      "offset": 438,
+      "bytes": "09",
+      "storage": "initialized"
+    },
+    {
+      "name": "old_cam",
+      "type": "char",
+      "value": 9,
+      "segment": "_DATA",
+      "offset": 439,
+      "bytes": "09",
+      "storage": "initialized"
+    },
+    {
+      "name": "tweening",
+      "type": "char",
+      "value": 1,
+      "segment": "_DATA",
+      "offset": 440,
+      "bytes": "01",
+      "storage": "initialized"
+    },
+    {
+      "name": "zoom",
+      "type": "float",
+      "value": 200.0,
+      "segment": "_DATA",
+      "offset": 444,
+      "bytes": "00004843",
+      "storage": "initialized"
+    },
+    {
+      "name": "plot_cnta",
+      "type": "int",
+      "value": 1,
+      "segment": "_DATA",
+      "offset": 448,
+      "bytes": "01000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "plot_cntb",
+      "type": "int",
+      "value": 1,
+      "segment": "_DATA",
+      "offset": 452,
+      "bytes": "01000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "delay_cnt",
+      "type": "int",
+      "value": 40,
+      "segment": "_DATA",
+      "offset": 456,
+      "bytes": "28000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "on_3d",
+      "type": "char",
+      "value": 1,
+      "segment": "_DATA",
+      "offset": 460,
+      "bytes": "01",
+      "storage": "initialized"
+    },
+    {
+      "name": "pen_cnt",
+      "type": "int",
+      "value": 100,
+      "segment": "_DATA",
+      "offset": 464,
+      "bytes": "64000000",
+      "storage": "initialized"
+    },
+    {
+      "name": "coo",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 35908,
+      "bytes": "00000000",
+      "storage": "BSS"
+    },
+    {
+      "name": "gkey",
+      "type": "char",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 35912,
+      "bytes": "00",
+      "storage": "BSS"
+    },
+    {
+      "name": "otick",
+      "type": "int",
+      "value": 0,
+      "segment": "_BSS",
+      "offset": 35916,
+      "bytes": "00000000",
+      "storage": "BSS"
+    }
+  ],
+  "caveats": [
+    "Scalar data only; BSS values precede runtime initialization.",
+    "The object snapshot is evidence for these routines, not proof all loose sources match.",
+    "Original x87 and native floating point may differ in low bits."
+  ]
+}

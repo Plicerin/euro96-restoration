@@ -1,0 +1,152 @@
+{
+  "executable_sha256": "2a473a002a294c1bb28ea39e94a36afc34497dd7e44f0ebfeda0ea21f652b62d",
+  "music": {
+    "anchors": [
+      {
+        "file_offset": "0x77449",
+        "bytes": "e802000200",
+        "meaning": "Frontend calls PlayMatch at file 0x97450"
+      },
+      {
+        "file_offset": "0x980ea",
+        "bytes": "e815800600",
+        "meaning": "Match launch calls StopMusic at file 0x100104"
+      },
+      {
+        "file_offset": "0x980ef",
+        "bytes": "c605d07e000000",
+        "meaning": "Match launch clears frontend music state"
+      },
+      {
+        "file_offset": "0x9813e",
+        "bytes": "e8fcf70000",
+        "meaning": "PlayMatch calls the match engine at file 0xa793f"
+      },
+      {
+        "file_offset": "0x98922",
+        "bytes": "c605d4a4000000",
+        "meaning": "Ordinary non-championship return selects main menu"
+      },
+      {
+        "file_offset": "0x9898d",
+        "bytes": "c95f5e595bc3",
+        "meaning": "PlayMatch returns to its frontend caller"
+      },
+      {
+        "file_offset": "0x774bb",
+        "bytes": "e98afaffff",
+        "meaning": "Frontend back edge returns to loop at file 0x76f4a"
+      },
+      {
+        "file_offset": "0x76f99",
+        "bytes": "e911010000",
+        "meaning": "Existing frontend pages join common update path at file 0x770af"
+      },
+      {
+        "file_offset": "0x770be",
+        "bytes": "e8b9120100",
+        "meaning": "Main loop calls music handler at file 0x8837c"
+      },
+      {
+        "file_offset": "0x883af",
+        "bytes": "803dd07e000000",
+        "meaning": "Music handler checks cleared/active music state"
+      },
+      {
+        "file_offset": "0x883c5",
+        "bytes": "b8e80d0000",
+        "meaning": "Loader argument is EURO96 at data-relative 0xde8"
+      },
+      {
+        "file_offset": "0x883ca",
+        "bytes": "e8357b0700",
+        "meaning": "StartMusic call at file 0xfff04"
+      },
+      {
+        "file_offset": "0x883cf",
+        "bytes": "c605d07e000001",
+        "meaning": "Music state becomes active"
+      },
+      {
+        "file_offset": "0x883f8",
+        "bytes": "e8477d0700",
+        "meaning": "CheckMusic updates playback state"
+      },
+      {
+        "file_offset": "0x8840b",
+        "bytes": "e8f47c0700",
+        "meaning": "Finished music is stopped"
+      },
+      {
+        "file_offset": "0x88410",
+        "bytes": "c605d07e000000",
+        "meaning": "Finished theme becomes eligible for next-loop restart"
+      },
+      {
+        "file_offset": "0x776d9",
+        "bytes": "e8268a0800",
+        "meaning": "Trophy page stops music before film playback"
+      }
+    ],
+    "track_name": "EURO96",
+    "track_name_file_offset": "0x13063c",
+    "direct_loader_calls_in_frontend_engine_range": [
+      "0x883ca"
+    ],
+    "conclusion": "Match launch stops and resets the theme. Returning to the frontend reaches the common theme handler again; this path does not select a win/loss/draw tune.",
+    "adaptation": "Native post-match statistics are a frontend page; outcome music requests resolve to the looping Euro theme. Native gain/fade/ducking and menu timing remain adaptations."
+  },
+  "boards": {
+    "source_records": 27,
+    "retail_records": 16,
+    "source_data_sha256": "4eb101f8b8bd44eca0b8824400476e4a8dbb704eb43c926e4d5bea5dbba26ff3",
+    "source_offsets_sha256": "3b12f01cf551a6c7866ddcfd6784d8b37b78e5cb4d7b5167278ed0a88e09227c",
+    "retail_data_sha256": "c1b917dd6319cd0eb94cf8db5391283afdafd846f86c48000a0fa5a3b86471b6",
+    "retail_offsets_sha256": "ff93223b63dcc20fd9b115a2d9e96edb00bd38781d064a78190c929720e21ddb",
+    "winners": [
+      {
+        "source_name": "XWNF",
+        "source_records": [
+          18,
+          19,
+          20
+        ],
+        "sha256": [
+          "fc48cd965b254b32e9798c22bc3bf996b9736136b42f800093b9a37b441296fa",
+          "b25153d9ea8a9e00846833a10979ad0fce64ef9453eb63482fdc1c7ba234ceb6",
+          "9936b44f9a36f8885cbe12e2a72c47e406630a2d4c27d8f3170c5a1f292b6c85"
+        ],
+        "exact_retail_record_matches": []
+      },
+      {
+        "source_name": "XWNG",
+        "source_records": [
+          21,
+          22,
+          23
+        ],
+        "sha256": [
+          "4d4ad0ba18fdaa371a21d97b62bdd1ff218f5fa2382589045646a8b8d3a0b7ce",
+          "e14ec05448f4a7216490a574d81d43704fcf5c120fc46fd88f9f9f327aed7a4b",
+          "4294fb2506819237c548555ae67b8654911adc0695836b32df2bb64557367810"
+        ],
+        "exact_retail_record_matches": []
+      },
+      {
+        "source_name": "XWNS",
+        "source_records": [
+          24,
+          25,
+          26
+        ],
+        "sha256": [
+          "6b76708d3c85092582d2aaf202e7c8b1e28697a735bc77cc05ec23a5a105046b",
+          "88699dad8b9c99e99669a5eb41379d3b73cd6546075a4cae069dbb41f1868af8",
+          "f5a6307356ef75f2a94560fc62833a6cb183286db3206a9081d435ba887e9f8d"
+        ],
+        "exact_retail_record_matches": []
+      }
+    ],
+    "conclusion": "The three preserved two-part WINNERS animations are not exact records in the supplied retail archive. Retail uses different handlers and data; no new victory trigger is assigned by this audit. This does not establish that no equivalent retail animation exists."
+  }
+}

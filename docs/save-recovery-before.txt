@@ -1,0 +1,13 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start 79: tournament_save_recovery
+1/1 Test #79: tournament_save_recovery .........***Failed    0.52 sec
+Repairing damaged primary must preserve good backup
+
+
+0% tests passed, 1 tests failed out of 1
+
+Total Test time (real) =   0.61 sec
+
+The following tests FAILED:
+	 79 - tournament_save_recovery (Failed)
+Errors while running CTest

@@ -1,0 +1,56 @@
+{
+  "version": "0.65.0",
+  "buildId": "135a4f9c75235405-2b4b128d-0703f4d7-7dba4a40",
+  "executableSha256": "135a4f9c752354056cb44884d56b33b8b0ea1eb32f06a39ca8fd46405e88bdeb",
+  "package": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\actuasoccer96-windows\\dist\\actua96-0.65.0-ed2ba936017d4065afc82b10e97b5123",
+  "packageManifestSha256": "951b68df64ff3293e661b9629501bf318d23511a8fb0ca8d5f991bc08e928802",
+  "packageHashes": 53,
+  "packageSmokeChecks": 9,
+  "fullLocalTests": 105,
+  "fullLocalSeconds": 222.44,
+  "focusedTests": 3,
+  "sourceFiles": 427,
+  "sourceUnchanged": true,
+  "localUserStateUnchanged": true,
+  "localUserState": {
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\tournament.prefs.bak": "ABSENT",
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\tournament.sav.bak": "582545086E457D4066619DF693DD0C00874BE66419160F7DF1777C57D48B24A9",
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\tournament.prefs": "ABSENT",
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\tournament.sav": "9683D18CECAD6D6C3D57D294CA57CD1B0CFF427C723892502D05958F8F4BC2DF"
+  },
+  "buildPackagePublishedExeAndMediaMatch": true,
+  "mediaUnchangedFrom0640": true,
+  "gaikingExecutableAndTestHashesMatch": true,
+  "gaikingChecks": [
+    {
+      "name": "result-music",
+      "executable": "result_music_tests.exe",
+      "passed": true,
+      "exit": 0,
+      "seconds": 0.42,
+      "exeSha256": "1DBF663D967F9D01B58363A4AD2594F859E0257C99CD92646429DE0B512FCE9B"
+    },
+    {
+      "name": "frontend-contract",
+      "executable": "frontend_tests.exe",
+      "passed": true,
+      "exit": 0,
+      "seconds": 0.33,
+      "exeSha256": "34CE2EB425BF2E04E16C8BD6768324866B80B497BA5B4FE203A8DEC1C59D36F7"
+    },
+    {
+      "name": "native-frontend",
+      "executable": "actua96.exe",
+      "passed": true,
+      "exit": 0,
+      "seconds": 2.9,
+      "exeSha256": "135A4F9C752354056CB44884D56B33B8B0EA1EB32F06A39CA8FD46405E88BDEB"
+    }
+  ],
+  "gaikingUserStateUnchanged": true,
+  "gaikingScope": "New 0.65.0 executable/tests with verified unchanged 0.63.0 media. Dummy audio/video; no audible-device or physical-controller claim.",
+  "retailMusicRouteAnchors": 17,
+  "boardStatus": "Different 27/16-record archives verified; retail board decoding/routing remains open. No new victory trigger connected.",
+  "runningGameRestarted": false,
+  "physicalControllerAndAudibleDeviceChecks": "pending"
+}

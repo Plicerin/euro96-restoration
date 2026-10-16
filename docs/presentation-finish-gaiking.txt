@@ -1,0 +1,34 @@
+Five frontend screens: original fade-up progression, exact final pixels, focus hold, navigation and immutable live state passed.
+Original period-end referee/assistant dispatch, animation, pause and live-state isolation passed.
+Gaiking passed presentation
+Venue 0 half 0 exit ticks 279 remaining 0
+Venue 0 half 1 exit ticks 282 remaining 0
+Venue 1 half 0 exit ticks 279 remaining 0
+Venue 1 half 1 exit ticks 282 remaining 0
+Venue 2 half 0 exit ticks 279 remaining 0
+Venue 2 half 1 exit ticks 282 remaining 0
+Venue 3 half 0 exit ticks 279 remaining 0
+Venue 3 half 1 exit ticks 282 remaining 0
+Venue 4 half 0 exit ticks 279 remaining 0
+Venue 4 half 1 exit ticks 282 remaining 0
+Original tunnel routes, five venues/both ends, immutable live state, period transitions, pause/focus and keyboard/gamepad skip passed.
+Gaiking passed exits
+EURO: 121 entries, 15 backgrounds, 10 tactics tables verified.
+EUROREND: 229 bounded entries, 6613404 bytes.
+FAP: 27 bounded entries, 1452928 bytes.
+FAPF: 4 bounded entries, 279252 bytes.
+Controller Back preserves live and paused matches; Start pause/resume passed.
+French/English voice keyboard and gamepad integration passed.
+Native tunnel focus, controller pause and skip passed.
+Native render completed: 57 frames.
+Original match sounds ready
+Gaiking passed application
+
+
+Algorithm : SHA256
+Hash      : 25F52BED6312CA1ACF2CF6747AFC320CC287DE5B9CC97756E4C5643B05386F48
+Path      : C:\Users\vrock\AppData\Local\Temp\Actua96-validation-0431-db8278d27a474896ae7488258a7df14c\presentation-050
+            0\actua96.exe
+
+
+

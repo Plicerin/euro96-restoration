@@ -1,0 +1,194 @@
+{
+  "fixtures": [
+    [
+      0,
+      1
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      11,
+      8
+    ],
+    [
+      15,
+      12
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      15,
+      13
+    ],
+    [
+      14,
+      12
+    ],
+    [
+      11,
+      9
+    ],
+    [
+      10,
+      8
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      12,
+      9
+    ],
+    [
+      16,
+      19
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      20,
+      21
+    ]
+  ],
+  "default_draw": [
+    5,
+    15,
+    9,
+    12,
+    0,
+    7,
+    8,
+    2,
+    10,
+    13,
+    6,
+    11,
+    3,
+    4,
+    1,
+    14
+  ],
+  "fixture_venues": [
+    5,
+    7,
+    9,
+    11,
+    6,
+    8,
+    10,
+    12,
+    8,
+    6,
+    12,
+    10,
+    5,
+    7,
+    9,
+    11,
+    8,
+    7,
+    5,
+    6,
+    12,
+    11,
+    10,
+    9,
+    5,
+    10,
+    9,
+    6,
+    9,
+    5,
+    5
+  ],
+  "venue_id_mapping": "retail 0-7 to native 5-12",
+  "ranking": "Original points, wins, goal difference; equal ties retain source draw positions",
+  "inputs": {
+    "EURO_FIX.CPP": "186155e6d53bac584a3dc73add0c782bdc99dd08b5a127e51d8781e5338dde6c",
+    "EURO_VAR.CPP": "5bafbb9bc2bd5c63ccb44e17bd978cb01f788d86c2bd862fd150781889911d3e",
+    "EURO_DEF.H": "fdde86fad3d75a2b1f0b14bc5f9f75bee44209391ba64a7e5099b2be981bbbff",
+    "EURO_MAT.CPP": "187ec72ffeb8f15799c0d40cedf977be445d287acb4e2245e451e30c6e22b7e3",
+    "EURO_DSK.CPP": "831c655014b9632a99c997fad771cf97ad719be1f46b9ba1764a8683fa498123",
+    "SCRIPT.96": "5823efb83d4163ee891be0de8b867efd1bfb2655535d8fe9cbadfa2f96aed4f5"
+  },
+  "adaptations": [
+    "Remove verbose diagnostics; use owned arrays and int statistics",
+    "Accumulate goals instead of EURO_MAT overwriting last-match goals",
+    "Native result ledger, validated atomic save, menu navigation and original-engine background simulation"
+  ]
+}

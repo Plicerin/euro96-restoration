@@ -1,0 +1,11 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start 56: native_frontend_smoke
+1/3 Test #56: native_frontend_smoke ..............   Passed    4.46 sec
+    Start 79: full_tournament_frontend_session
+2/3 Test #79: full_tournament_frontend_session ...   Passed    6.06 sec
+    Start 82: original_walkoff_contracts
+3/3 Test #82: original_walkoff_contracts .........   Passed    1.58 sec
+
+100% tests passed, 0 tests failed out of 3
+
+Total Test time (real) =  12.36 sec

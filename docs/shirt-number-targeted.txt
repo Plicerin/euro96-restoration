@@ -1,0 +1,7 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start 92: retail_shirt_number_contracts
+1/1 Test #92: retail_shirt_number_contracts ....   Passed    2.58 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   2.66 sec

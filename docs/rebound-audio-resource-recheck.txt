@@ -1,0 +1,19 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start  62: original_environment_contracts
+1/7 Test  #62: original_environment_contracts ...........   Passed    5.69 sec
+    Start  70: match_settings_contracts
+2/7 Test  #70: match_settings_contracts .................   Passed    3.45 sec
+    Start  78: commentary_language_contracts
+3/7 Test  #78: commentary_language_contracts ............   Passed    2.41 sec
+    Start  85: original_prematch_contracts
+4/7 Test  #85: original_prematch_contracts ..............   Passed    1.88 sec
+    Start  91: original_presentation_finish_contracts
+5/7 Test  #91: original_presentation_finish_contracts ...   Passed    1.89 sec
+    Start  92: original_menu_transition_contracts
+6/7 Test  #92: original_menu_transition_contracts .......   Passed    4.20 sec
+    Start 101: retail_audio_contracts
+7/7 Test #101: retail_audio_contracts ...................   Passed   16.01 sec
+
+100% tests passed, 0 tests failed out of 7
+
+Total Test time (real) =  35.57 sec

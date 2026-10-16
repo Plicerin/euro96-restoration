@@ -1,0 +1,5 @@
+full_tournament : True
+match_matrix : True
+save_recovery : True
+retail_names : True
+retail_periods : True

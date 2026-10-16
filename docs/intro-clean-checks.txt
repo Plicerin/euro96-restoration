@@ -1,0 +1,17 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start 56: native_frontend_smoke
+1/6 Test #56: native_frontend_smoke ............   Passed    3.74 sec
+    Start 72: original_cd_movie_contracts
+2/6 Test #72: original_cd_movie_contracts ......   Passed    1.90 sec
+    Start 73: native_cd_movie_smoke
+3/6 Test #73: native_cd_movie_smoke ............   Passed    1.08 sec
+    Start 76: original_intro_contracts
+4/6 Test #76: original_intro_contracts .........   Passed    0.72 sec
+    Start 78: native_intro_smoke
+5/6 Test #78: native_intro_smoke ...............   Passed    1.08 sec
+    Start 89: original_menu_art_contracts
+6/6 Test #89: original_menu_art_contracts ......   Passed    1.89 sec
+
+100% tests passed, 0 tests failed out of 6
+
+Total Test time (real) =  10.62 sec

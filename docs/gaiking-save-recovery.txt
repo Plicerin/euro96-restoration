@@ -1,0 +1,1 @@
+Damaged/missing primary recovery, valid-backup preservation, non-mutating resume and double-failure checks passed.

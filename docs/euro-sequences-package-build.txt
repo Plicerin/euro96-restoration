@@ -1,0 +1,2 @@
+Package 0.60.0: 51 files hash-checked; 0 optional media absent.
+Portable preview: C:\Users\vrock\Documents\Codex\2026-10-08\ex\outputs\actuasoccer96-windows\dist\actua96-0.60.0-d9c59c62432d4644ad51cee5e99ef744

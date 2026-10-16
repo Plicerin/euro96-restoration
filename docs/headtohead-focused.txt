@@ -1,0 +1,18 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start 85: local_head_to_head_contracts
+1/2 Test #85: local_head_to_head_contracts .....***Failed    0.49 sec
+Independent movement, original user IDs and switching at both ends passed.
+Independent charges and original shot releases for both teams/halves passed.
+pass fixture side=0 half=0 loft=0 owner=0 passes=1
+Ground/loft pass reception hands control to correct team's receiver
+
+    Start 86: native_head_to_head_smoke
+2/2 Test #86: native_head_to_head_smoke ........   Passed    6.54 sec
+
+50% tests passed, 1 tests failed out of 2
+
+Total Test time (real) =   7.16 sec
+
+The following tests FAILED:
+	 85 - local_head_to_head_contracts (Failed)
+Errors while running CTest

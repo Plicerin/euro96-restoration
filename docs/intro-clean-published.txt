@@ -1,0 +1,2 @@
+Playtest ready: version 0.54.2 (ac72911d34933fa7-2b4b128d-0703f4d7-d0ae0815)
+Open: C:\Users\vrock\Documents\Codex\2026-10-08\ex\outputs\Play-Actua96.cmd

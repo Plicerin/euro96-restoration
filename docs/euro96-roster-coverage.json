@@ -1,0 +1,3682 @@
+{
+  "retail_main_players": 320,
+  "source_players": 320,
+  "normalization": "Uppercase ASCII letters only; no fuzzy matches or inferred identities",
+  "exact_name_matches": 256,
+  "three_recording_matches": 256,
+  "retail_three_recording_players": 313,
+  "retail_missing": [
+    {
+      "name": "Pavel SRNICEK",
+      "digi": "CZC99",
+      "skin": [
+        "WHT"
+      ],
+      "missing_clips": [
+        "e_czc99x.wav",
+        "e_czc99y.wav",
+        "e_czc99z.wav"
+      ]
+    },
+    {
+      "name": "Erik Bo ANDERSEN",
+      "digi": "DMK??",
+      "skin": [
+        "WHT"
+      ],
+      "missing_clips": [
+        "e_dmk??x.wav",
+        "e_dmk??y.wav",
+        "e_dmk??z.wav"
+      ]
+    },
+    {
+      "name": "Claus THOMSEN",
+      "digi": "DMK??",
+      "skin": [
+        "WHT"
+      ],
+      "missing_clips": [
+        "e_dmk??x.wav",
+        "e_dmk??y.wav",
+        "e_dmk??z.wav"
+      ]
+    },
+    {
+      "name": "Mikkel BECK",
+      "digi": "DMK??",
+      "skin": [
+        "WHT"
+      ],
+      "missing_clips": [
+        "e_dmk??x.wav",
+        "e_dmk??y.wav",
+        "e_dmk??z.wav"
+      ]
+    },
+    {
+      "name": "Michael SCHJ\u00edNBERG",
+      "digi": "DMK??",
+      "skin": [
+        "WHT"
+      ],
+      "missing_clips": [
+        "e_dmk??x.wav",
+        "e_dmk??y.wav",
+        "e_dmk??z.wav"
+      ]
+    },
+    {
+      "name": "Bruno MARTINI",
+      "digi": "FRN??",
+      "skin": [
+        "WHT"
+      ],
+      "missing_clips": [
+        "e_frn??x.wav",
+        "e_frn??y.wav",
+        "e_frn??z.wav"
+      ]
+    },
+    {
+      "name": "Jos\u0082 Emilio AMAVISCA",
+      "digi": "SPN99",
+      "skin": [
+        "MED"
+      ],
+      "missing_clips": [
+        "e_spn99x.wav",
+        "e_spn99y.wav",
+        "e_spn99z.wav"
+      ]
+    }
+  ],
+  "unmatched": [
+    {
+      "index": 8,
+      "name": "Christo STOICHKOV"
+    },
+    {
+      "index": 11,
+      "name": "Antonio ANANIEV"
+    },
+    {
+      "index": 12,
+      "name": "Liuboslav PENEV"
+    },
+    {
+      "index": 16,
+      "name": "Petar KHUBCHEV"
+    },
+    {
+      "index": 17,
+      "name": "Zaprian RAKOV"
+    },
+    {
+      "index": 33,
+      "name": "Dubravko PAVILICIC"
+    },
+    {
+      "index": 51,
+      "name": "Jan STEJSKAL"
+    },
+    {
+      "index": 52,
+      "name": "Jiri NEMEK"
+    },
+    {
+      "index": 59,
+      "name": "Marek POSTULKA"
+    },
+    {
+      "index": 74,
+      "name": "Lars OLSEN"
+    },
+    {
+      "index": 75,
+      "name": "Frank PINGEL"
+    },
+    {
+      "index": 76,
+      "name": "Flemming POVLSEN"
+    },
+    {
+      "index": 78,
+      "name": "Henrik LARSEN"
+    },
+    {
+      "index": 100,
+      "name": "Fabien BARTHEZ"
+    },
+    {
+      "index": 106,
+      "name": "David GINOLA"
+    },
+    {
+      "index": 109,
+      "name": "Jean-Pierre PAPIN"
+    },
+    {
+      "index": 121,
+      "name": "Marcus BABBLE"
+    },
+    {
+      "index": 128,
+      "name": "Jurgen KLINSMANN"
+    },
+    {
+      "index": 131,
+      "name": "Bodo ILLGNER"
+    },
+    {
+      "index": 134,
+      "name": "Lothar MATTH\u008eUS"
+    },
+    {
+      "index": 135,
+      "name": "Jurgen KOHLER"
+    },
+    {
+      "index": 137,
+      "name": "Guido BUCHWALD"
+    },
+    {
+      "index": 138,
+      "name": "Andreas THOM"
+    },
+    {
+      "index": 147,
+      "name": "Marc OVERMARS"
+    },
+    {
+      "index": 156,
+      "name": "Ulrich VAN GOBBEL"
+    },
+    {
+      "index": 159,
+      "name": "Stan VALCKX"
+    },
+    {
+      "index": 160,
+      "name": "Gianluca PAGLIUCA"
+    },
+    {
+      "index": 171,
+      "name": "Luca MARCHEGIANI"
+    },
+    {
+      "index": 174,
+      "name": "Antonio BENARRIVO"
+    },
+    {
+      "index": 175,
+      "name": "Franco BARESI"
+    },
+    {
+      "index": 178,
+      "name": "Roberto MANCINI"
+    },
+    {
+      "index": 179,
+      "name": "Massimo CRIPPA"
+    },
+    {
+      "index": 181,
+      "name": "NELSON"
+    },
+    {
+      "index": 182,
+      "name": "HELDER"
+    },
+    {
+      "index": 186,
+      "name": "SECRETARIO"
+    },
+    {
+      "index": 191,
+      "name": "NENO"
+    },
+    {
+      "index": 194,
+      "name": "FOLHA"
+    },
+    {
+      "index": 197,
+      "name": "Joao PINTO"
+    },
+    {
+      "index": 198,
+      "name": "CADETE"
+    },
+    {
+      "index": 204,
+      "name": "Ionut LUPESCU"
+    },
+    {
+      "index": 214,
+      "name": "Danut LUPU"
+    },
+    {
+      "index": 218,
+      "name": "Zoltan KADAR"
+    },
+    {
+      "index": 220,
+      "name": "Dimitri KHARIN"
+    },
+    {
+      "index": 223,
+      "name": "Ilya TSIMBALAR"
+    },
+    {
+      "index": 224,
+      "name": "Dimitri KHLESTOV"
+    },
+    {
+      "index": 225,
+      "name": "Valeri KARPIN"
+    },
+    {
+      "index": 233,
+      "name": "Dimitri RADCHENKO"
+    },
+    {
+      "index": 236,
+      "name": "Dimitri KUZNETSOV"
+    },
+    {
+      "index": 237,
+      "name": "Dimitri POPOV"
+    },
+    {
+      "index": 239,
+      "name": "Sergei GORLUKOVICH"
+    },
+    {
+      "index": 257,
+      "name": "Craig LEVEIN"
+    },
+    {
+      "index": 258,
+      "name": "Gordon DURIE"
+    },
+    {
+      "index": 263,
+      "name": "Rafael ALCORTA"
+    },
+    {
+      "index": 271,
+      "name": "Santiago CANIZARES "
+    },
+    {
+      "index": 278,
+      "name": "Jose Maria BAKERO"
+    },
+    {
+      "index": 279,
+      "name": "Aitor BERGUIRISTAIN"
+    },
+    {
+      "index": 296,
+      "name": "Georges BREGY"
+    },
+    {
+      "index": 299,
+      "name": "Andre EGLI"
+    },
+    {
+      "index": 311,
+      "name": "HAYRETTIN Demirbas"
+    },
+    {
+      "index": 313,
+      "name": "MEHMET \u0099zdilek"
+    },
+    {
+      "index": 314,
+      "name": "YUSEF Tepekule"
+    },
+    {
+      "index": 316,
+      "name": "SUAT Kaya"
+    },
+    {
+      "index": 317,
+      "name": "ALI Guncar"
+    },
+    {
+      "index": 319,
+      "name": "OSMAN Ozkoytiu"
+    }
+  ],
+  "matched": [
+    {
+      "name": "Borislav MIHAILOV",
+      "digi": "BUL01",
+      "skin": [
+        "WHT"
+      ],
+      "index": 0,
+      "clips_present": [
+        "e_bul01x.wav",
+        "e_bul01y.wav",
+        "e_bul01z.wav"
+      ]
+    },
+    {
+      "name": "Ilian KIRIAKOV",
+      "digi": "BUL02",
+      "skin": [
+        "WHT"
+      ],
+      "index": 1,
+      "clips_present": [
+        "e_bul02x.wav",
+        "e_bul02y.wav",
+        "e_bul02z.wav"
+      ]
+    },
+    {
+      "name": "Trifon IVANOV",
+      "digi": "BUL03",
+      "skin": [
+        "WHT"
+      ],
+      "index": 2,
+      "clips_present": [
+        "e_bul03x.wav",
+        "e_bul03y.wav",
+        "e_bul03z.wav"
+      ]
+    },
+    {
+      "name": "Tsanko TSVETANOV",
+      "digi": "BUL04",
+      "skin": [
+        "WHT"
+      ],
+      "index": 3,
+      "clips_present": [
+        "e_bul04x.wav",
+        "e_bul04y.wav",
+        "e_bul04z.wav"
+      ]
+    },
+    {
+      "name": "Emil KREMENLIEV",
+      "digi": "BUL05",
+      "skin": [
+        "WHT"
+      ],
+      "index": 4,
+      "clips_present": [
+        "e_bul05x.wav",
+        "e_bul05y.wav",
+        "e_bul05z.wav"
+      ]
+    },
+    {
+      "name": "Krasimir BALAKOV",
+      "digi": "BUL06",
+      "skin": [
+        "WHT"
+      ],
+      "index": 5,
+      "clips_present": [
+        "e_bul06x.wav",
+        "e_bul06y.wav",
+        "e_bul06z.wav"
+      ]
+    },
+    {
+      "name": "Daniel BORIMIROV",
+      "digi": "BUL07",
+      "skin": [
+        "WHT"
+      ],
+      "index": 6,
+      "clips_present": [
+        "e_bul07x.wav",
+        "e_bul07y.wav",
+        "e_bul07z.wav"
+      ]
+    },
+    {
+      "name": "Yordan LECHKOV",
+      "digi": "BUL08",
+      "skin": [
+        "WHT"
+      ],
+      "index": 7,
+      "clips_present": [
+        "e_bul08x.wav",
+        "e_bul08y.wav",
+        "e_bul08z.wav"
+      ]
+    },
+    {
+      "name": "Emil KOSTADINOV",
+      "digi": "BUL10",
+      "skin": [
+        "WHT"
+      ],
+      "index": 9,
+      "clips_present": [
+        "e_bul10x.wav",
+        "e_bul10y.wav",
+        "e_bul10z.wav"
+      ]
+    },
+    {
+      "name": "Nasko SIRAKOV",
+      "digi": "BUL11",
+      "skin": [
+        "WHT"
+      ],
+      "index": 10,
+      "clips_present": [
+        "e_bul11x.wav",
+        "e_bul11y.wav",
+        "e_bul11z.wav"
+      ]
+    },
+    {
+      "name": "Zlatko YANKOV",
+      "digi": "BUL14",
+      "skin": [
+        "WHT"
+      ],
+      "index": 13,
+      "clips_present": [
+        "e_bul14x.wav",
+        "e_bul14y.wav",
+        "e_bul14z.wav"
+      ]
+    },
+    {
+      "name": "Ilian ILIEV",
+      "digi": "BUL15",
+      "skin": [
+        "WHT"
+      ],
+      "index": 14,
+      "clips_present": [
+        "e_bul15x.wav",
+        "e_bul15y.wav",
+        "e_bul15z.wav"
+      ]
+    },
+    {
+      "name": "Boncho GUENTCHEV",
+      "digi": "BUL16",
+      "skin": [
+        "WHT"
+      ],
+      "index": 15,
+      "clips_present": [
+        "e_bul16x.wav",
+        "e_bul16y.wav",
+        "e_bul16z.wav"
+      ]
+    },
+    {
+      "name": "Petar ALEXANDROV",
+      "digi": "BUL19",
+      "skin": [
+        "WHT"
+      ],
+      "index": 18,
+      "clips_present": [
+        "e_bul19x.wav",
+        "e_bul19y.wav",
+        "e_bul19z.wav"
+      ]
+    },
+    {
+      "name": "Ivailo YORDANOV",
+      "digi": "BUL20",
+      "skin": [
+        "WHT"
+      ],
+      "index": 19,
+      "clips_present": [
+        "e_bul20x.wav",
+        "e_bul20y.wav",
+        "e_bul20z.wav"
+      ]
+    },
+    {
+      "name": "Drazen LADIC",
+      "digi": "CRO01",
+      "skin": [
+        "WHT"
+      ],
+      "index": 20,
+      "clips_present": [
+        "e_cro01x.wav",
+        "e_cro01y.wav",
+        "e_cro01z.wav"
+      ]
+    },
+    {
+      "name": "Nikola JURCEVIC",
+      "digi": "CRO02",
+      "skin": [
+        "WHT"
+      ],
+      "index": 21,
+      "clips_present": [
+        "e_cro02x.wav",
+        "e_cro02y.wav",
+        "e_cro02z.wav"
+      ]
+    },
+    {
+      "name": "Robert JARNI",
+      "digi": "CRO03",
+      "skin": [
+        "WHT"
+      ],
+      "index": 22,
+      "clips_present": [
+        "e_cro03x.wav",
+        "e_cro03y.wav",
+        "e_cro03z.wav"
+      ]
+    },
+    {
+      "name": "Igor STIMAC",
+      "digi": "CRO04",
+      "skin": [
+        "WHT"
+      ],
+      "index": 23,
+      "clips_present": [
+        "e_cro04x.wav",
+        "e_cro04y.wav",
+        "e_cro04z.wav"
+      ]
+    },
+    {
+      "name": "Nikola JERKAN",
+      "digi": "CRO05",
+      "skin": [
+        "WHT"
+      ],
+      "index": 24,
+      "clips_present": [
+        "e_cro05x.wav",
+        "e_cro05y.wav",
+        "e_cro05z.wav"
+      ]
+    },
+    {
+      "name": "Slaven BILIC",
+      "digi": "CRO06",
+      "skin": [
+        "WHT"
+      ],
+      "index": 25,
+      "clips_present": [
+        "e_cro06x.wav",
+        "e_cro06y.wav",
+        "e_cro06z.wav"
+      ]
+    },
+    {
+      "name": "Aljosa ASANOVIC",
+      "digi": "CRO07",
+      "skin": [
+        "WHT"
+      ],
+      "index": 26,
+      "clips_present": [
+        "e_cro07x.wav",
+        "e_cro07y.wav",
+        "e_cro07z.wav"
+      ]
+    },
+    {
+      "name": "Robert PROSINECKI",
+      "digi": "CRO08",
+      "skin": [
+        "WHT"
+      ],
+      "index": 27,
+      "clips_present": [
+        "e_cro08x.wav",
+        "e_cro08y.wav",
+        "e_cro08z.wav"
+      ]
+    },
+    {
+      "name": "Davor SUKER",
+      "digi": "CRO09",
+      "skin": [
+        "WHT"
+      ],
+      "index": 28,
+      "clips_present": [
+        "e_cro09x.wav",
+        "e_cro09y.wav",
+        "e_cro09z.wav"
+      ]
+    },
+    {
+      "name": "Zvonimir BOBAN",
+      "digi": "CRO10",
+      "skin": [
+        "WHT"
+      ],
+      "index": 29,
+      "clips_present": [
+        "e_cro10x.wav",
+        "e_cro10y.wav",
+        "e_cro10z.wav"
+      ]
+    },
+    {
+      "name": "Alen BOKSIC",
+      "digi": "CRO11",
+      "skin": [
+        "WHT"
+      ],
+      "index": 30,
+      "clips_present": [
+        "e_cro11x.wav",
+        "e_cro11y.wav",
+        "e_cro11z.wav"
+      ]
+    },
+    {
+      "name": "Tonci GABRIC",
+      "digi": "CRO12",
+      "skin": [
+        "WHT"
+      ],
+      "index": 31,
+      "clips_present": [
+        "e_cro12x.wav",
+        "e_cro12y.wav",
+        "e_cro12z.wav"
+      ]
+    },
+    {
+      "name": "Zvonimir SOLDO",
+      "digi": "CRO13",
+      "skin": [
+        "WHT"
+      ],
+      "index": 32,
+      "clips_present": [
+        "e_cro13x.wav",
+        "e_cro13y.wav",
+        "e_cro13z.wav"
+      ]
+    },
+    {
+      "name": "Goran VUCEVIC",
+      "digi": "CRO15",
+      "skin": [
+        "WHT"
+      ],
+      "index": 34,
+      "clips_present": [
+        "e_cro15x.wav",
+        "e_cro15y.wav",
+        "e_cro15z.wav"
+      ]
+    },
+    {
+      "name": "Ivica MORNAR",
+      "digi": "CRO16",
+      "skin": [
+        "WHT"
+      ],
+      "index": 35,
+      "clips_present": [
+        "e_cro16x.wav",
+        "e_cro16y.wav",
+        "e_cro16z.wav"
+      ]
+    },
+    {
+      "name": "Mladen MLADENOVIC",
+      "digi": "CRO17",
+      "skin": [
+        "WHT"
+      ],
+      "index": 36,
+      "clips_present": [
+        "e_cro17x.wav",
+        "e_cro17y.wav",
+        "e_cro17z.wav"
+      ]
+    },
+    {
+      "name": "Goran VLAOVIC",
+      "digi": "CRO18",
+      "skin": [
+        "WHT"
+      ],
+      "index": 37,
+      "clips_present": [
+        "e_cro18x.wav",
+        "e_cro18y.wav",
+        "e_cro18z.wav"
+      ]
+    },
+    {
+      "name": "Igor CVITANOVIC",
+      "digi": "CRO19",
+      "skin": [
+        "WHT"
+      ],
+      "index": 38,
+      "clips_present": [
+        "e_cro19x.wav",
+        "e_cro19y.wav",
+        "e_cro19z.wav"
+      ]
+    },
+    {
+      "name": "Ante MISE",
+      "digi": "CRO20",
+      "skin": [
+        "WHT"
+      ],
+      "index": 39,
+      "clips_present": [
+        "e_cro20x.wav",
+        "e_cro20y.wav",
+        "e_cro20z.wav"
+      ]
+    },
+    {
+      "name": "Petr KOUBA",
+      "digi": "CZC01",
+      "skin": [
+        "WHT"
+      ],
+      "index": 40,
+      "clips_present": [
+        "e_czc01x.wav",
+        "e_czc01y.wav",
+        "e_czc01z.wav"
+      ]
+    },
+    {
+      "name": "Miroslav KADLEC",
+      "digi": "CZC02",
+      "skin": [
+        "WHT"
+      ],
+      "index": 41,
+      "clips_present": [
+        "e_czc02x.wav",
+        "e_czc02y.wav",
+        "e_czc02z.wav"
+      ]
+    },
+    {
+      "name": "Tomas REPKA",
+      "digi": "CZC03",
+      "skin": [
+        "WHT"
+      ],
+      "index": 42,
+      "clips_present": [
+        "e_czc03x.wav",
+        "e_czc03y.wav",
+        "e_czc03z.wav"
+      ]
+    },
+    {
+      "name": "Pavel NEDVED",
+      "digi": "CZC04",
+      "skin": [
+        "WHT"
+      ],
+      "index": 43,
+      "clips_present": [
+        "e_czc04x.wav",
+        "e_czc04y.wav",
+        "e_czc04z.wav"
+      ]
+    },
+    {
+      "name": "Patrik BERGER",
+      "digi": "CZC05",
+      "skin": [
+        "WHT"
+      ],
+      "index": 44,
+      "clips_present": [
+        "e_czc05x.wav",
+        "e_czc05y.wav",
+        "e_czc05z.wav"
+      ]
+    },
+    {
+      "name": "Vaclav NEMECEK",
+      "digi": "CZC06",
+      "skin": [
+        "WHT"
+      ],
+      "index": 45,
+      "clips_present": [
+        "e_czc06x.wav",
+        "e_czc06y.wav",
+        "e_czc06z.wav"
+      ]
+    },
+    {
+      "name": "Pavel HAPAL",
+      "digi": "CZC07",
+      "skin": [
+        "WHT"
+      ],
+      "index": 46,
+      "clips_present": [
+        "e_czc07x.wav",
+        "e_czc07y.wav",
+        "e_czc07z.wav"
+      ]
+    },
+    {
+      "name": "Radoslav LATAL",
+      "digi": "CZC08",
+      "skin": [
+        "WHT"
+      ],
+      "index": 47,
+      "clips_present": [
+        "e_czc08x.wav",
+        "e_czc08y.wav",
+        "e_czc08z.wav"
+      ]
+    },
+    {
+      "name": "Tomas SKUHRAVY",
+      "digi": "CZC09",
+      "skin": [
+        "WHT"
+      ],
+      "index": 48,
+      "clips_present": [
+        "e_czc09x.wav",
+        "e_czc09y.wav",
+        "e_czc09z.wav"
+      ]
+    },
+    {
+      "name": "Pavel KUKA",
+      "digi": "CZC10",
+      "skin": [
+        "WHT"
+      ],
+      "index": 49,
+      "clips_present": [
+        "e_czc10x.wav",
+        "e_czc10y.wav",
+        "e_czc10z.wav"
+      ]
+    },
+    {
+      "name": "Martin FRYDEK",
+      "digi": "CZC11",
+      "skin": [
+        "WHT"
+      ],
+      "index": 50,
+      "clips_present": [
+        "e_czc11x.wav",
+        "e_czc11y.wav",
+        "e_czc11z.wav"
+      ]
+    },
+    {
+      "name": "Horst SIEGL",
+      "digi": "CZC14",
+      "skin": [
+        "WHT"
+      ],
+      "index": 53,
+      "clips_present": [
+        "e_czc14x.wav",
+        "e_czc14y.wav",
+        "e_czc14z.wav"
+      ]
+    },
+    {
+      "name": "Karel POBORSKY",
+      "digi": "CZC15",
+      "skin": [
+        "WHT"
+      ],
+      "index": 54,
+      "clips_present": [
+        "e_czc15x.wav",
+        "e_czc15y.wav",
+        "e_czc15z.wav"
+      ]
+    },
+    {
+      "name": "Michal HORNAK",
+      "digi": "CZC16",
+      "skin": [
+        "WHT"
+      ],
+      "index": 55,
+      "clips_present": [
+        "e_czc16x.wav",
+        "e_czc16y.wav",
+        "e_czc16z.wav"
+      ]
+    },
+    {
+      "name": "Lobos KUBIK",
+      "digi": "CZC17",
+      "skin": [
+        "WHT"
+      ],
+      "index": 56,
+      "clips_present": [
+        "e_czc17x.wav",
+        "e_czc17y.wav",
+        "e_czc17z.wav"
+      ]
+    },
+    {
+      "name": "Jiri NOVOTNY",
+      "digi": "CZC18",
+      "skin": [
+        "WHT"
+      ],
+      "index": 57,
+      "clips_present": [
+        "e_czc18x.wav",
+        "e_czc18y.wav",
+        "e_czc18z.wav"
+      ]
+    },
+    {
+      "name": "Jan SUCHOPAREK",
+      "digi": "CZC19",
+      "skin": [
+        "WHT"
+      ],
+      "index": 58,
+      "clips_present": [
+        "e_czc19x.wav",
+        "e_czc19y.wav",
+        "e_czc19z.wav"
+      ]
+    },
+    {
+      "name": "Peter SCHMEICHEL",
+      "digi": "DMK01",
+      "skin": [
+        "WHT"
+      ],
+      "index": 60,
+      "clips_present": [
+        "e_dmk01x.wav",
+        "e_dmk01y.wav",
+        "e_dmk01z.wav"
+      ]
+    },
+    {
+      "name": "Jacob LAURSEN",
+      "digi": "DMK02",
+      "skin": [
+        "WHT"
+      ],
+      "index": 61,
+      "clips_present": [
+        "e_dmk02x.wav",
+        "e_dmk02y.wav",
+        "e_dmk02z.wav"
+      ]
+    },
+    {
+      "name": "Jes H\u00edGH",
+      "digi": "DMK03",
+      "skin": [
+        "WHT"
+      ],
+      "index": 62,
+      "clips_present": [
+        "e_dmk03x.wav",
+        "e_dmk03y.wav",
+        "e_dmk03z.wav"
+      ]
+    },
+    {
+      "name": "Marc RIEPER",
+      "digi": "DMK04",
+      "skin": [
+        "WHT"
+      ],
+      "index": 63,
+      "clips_present": [
+        "e_dmk04x.wav",
+        "e_dmk04y.wav",
+        "e_dmk04z.wav"
+      ]
+    },
+    {
+      "name": "Jens RISAGER",
+      "digi": "DMK05",
+      "skin": [
+        "WHT"
+      ],
+      "index": 64,
+      "clips_present": [
+        "e_dmk05x.wav",
+        "e_dmk05y.wav",
+        "e_dmk05z.wav"
+      ]
+    },
+    {
+      "name": "Torben PIECHNIK",
+      "digi": "DMK06",
+      "skin": [
+        "WHT"
+      ],
+      "index": 65,
+      "clips_present": [
+        "e_dmk06x.wav",
+        "e_dmk06y.wav",
+        "e_dmk06z.wav"
+      ]
+    },
+    {
+      "name": "Kim VILFORT",
+      "digi": "DMK07",
+      "skin": [
+        "WHT"
+      ],
+      "index": 66,
+      "clips_present": [
+        "e_dmk07x.wav",
+        "e_dmk07y.wav",
+        "e_dmk07z.wav"
+      ]
+    },
+    {
+      "name": "Brian STEEN NIELSEN",
+      "digi": "DMK08",
+      "skin": [
+        "WHT"
+      ],
+      "index": 67,
+      "clips_present": [
+        "e_dmk08x.wav",
+        "e_dmk08y.wav",
+        "e_dmk08z.wav"
+      ]
+    },
+    {
+      "name": "Michael LAUDRUP",
+      "digi": "DMK09",
+      "skin": [
+        "WHT"
+      ],
+      "index": 68,
+      "clips_present": [
+        "e_dmk09x.wav",
+        "e_dmk09y.wav",
+        "e_dmk09z.wav"
+      ]
+    },
+    {
+      "name": "Brian LAUDRUP",
+      "digi": "DMK10",
+      "skin": [
+        "WHT"
+      ],
+      "index": 69,
+      "clips_present": [
+        "e_dmk10x.wav",
+        "e_dmk10y.wav",
+        "e_dmk10z.wav"
+      ]
+    },
+    {
+      "name": "Peter RASMUSSEN",
+      "digi": "DMK11",
+      "skin": [
+        "WHT"
+      ],
+      "index": 70,
+      "clips_present": [
+        "e_dmk11x.wav",
+        "e_dmk11y.wav",
+        "e_dmk11z.wav"
+      ]
+    },
+    {
+      "name": "Mogens KROGH",
+      "digi": "DMK12",
+      "skin": [
+        "WHT"
+      ],
+      "index": 71,
+      "clips_present": [
+        "e_dmk12x.wav",
+        "e_dmk12y.wav",
+        "e_dmk12z.wav"
+      ]
+    },
+    {
+      "name": "John JENSEN",
+      "digi": "DMK13",
+      "skin": [
+        "WHT"
+      ],
+      "index": 72,
+      "clips_present": [
+        "e_dmk13x.wav",
+        "e_dmk13y.wav",
+        "e_dmk13z.wav"
+      ]
+    },
+    {
+      "name": "Jacob KJELDBERG",
+      "digi": "DMK14",
+      "skin": [
+        "WHT"
+      ],
+      "index": 73,
+      "clips_present": [
+        "e_dmk14x.wav",
+        "e_dmk14y.wav",
+        "e_dmk14z.wav"
+      ]
+    },
+    {
+      "name": "Bent CHRISTENSEN",
+      "digi": "DMK18",
+      "skin": [
+        "WHT"
+      ],
+      "index": 77,
+      "clips_present": [
+        "e_dmk18x.wav",
+        "e_dmk18y.wav",
+        "e_dmk18z.wav"
+      ]
+    },
+    {
+      "name": "Thomas HELVEG",
+      "digi": "DMK20",
+      "skin": [
+        "WHT"
+      ],
+      "index": 79,
+      "clips_present": [
+        "e_dmk20x.wav",
+        "e_dmk20y.wav",
+        "e_dmk20z.wav"
+      ]
+    },
+    {
+      "name": "David SEAMAN",
+      "digi": "ENG01",
+      "skin": [
+        "WHT"
+      ],
+      "index": 80,
+      "clips_present": [
+        "e_eng01x.wav",
+        "e_eng01y.wav",
+        "e_eng01z.wav"
+      ]
+    },
+    {
+      "name": "Gary NEVILLE",
+      "digi": "ENG02",
+      "skin": [
+        "WHT"
+      ],
+      "index": 81,
+      "clips_present": [
+        "e_eng02x.wav",
+        "e_eng02y.wav",
+        "e_eng02z.wav"
+      ]
+    },
+    {
+      "name": "Stuart PEARCE",
+      "digi": "ENG03",
+      "skin": [
+        "WHT"
+      ],
+      "index": 82,
+      "clips_present": [
+        "e_eng03x.wav",
+        "e_eng03y.wav",
+        "e_eng03z.wav"
+      ]
+    },
+    {
+      "name": "Jamie REDKNAPP",
+      "digi": "ENG04",
+      "skin": [
+        "WHT"
+      ],
+      "index": 83,
+      "clips_present": [
+        "e_eng04x.wav",
+        "e_eng04y.wav",
+        "e_eng04z.wav"
+      ]
+    },
+    {
+      "name": "Tony ADAMS",
+      "digi": "ENG05",
+      "skin": [
+        "WHT"
+      ],
+      "index": 84,
+      "clips_present": [
+        "e_eng05x.wav",
+        "e_eng05y.wav",
+        "e_eng05z.wav"
+      ]
+    },
+    {
+      "name": "Gary PALLISTER",
+      "digi": "ENG06",
+      "skin": [
+        "WHT"
+      ],
+      "index": 85,
+      "clips_present": [
+        "e_eng06x.wav",
+        "e_eng06y.wav",
+        "e_eng06z.wav"
+      ]
+    },
+    {
+      "name": "Robert LEE",
+      "digi": "ENG07",
+      "skin": [
+        "WHT"
+      ],
+      "index": 86,
+      "clips_present": [
+        "e_eng07x.wav",
+        "e_eng07y.wav",
+        "e_eng07z.wav"
+      ]
+    },
+    {
+      "name": "Paul GASCOIGNE",
+      "digi": "ENG08",
+      "skin": [
+        "WHT"
+      ],
+      "index": 87,
+      "clips_present": [
+        "e_eng08x.wav",
+        "e_eng08y.wav",
+        "e_eng08z.wav"
+      ]
+    },
+    {
+      "name": "Alan SHEARER",
+      "digi": "ENG09",
+      "skin": [
+        "WHT"
+      ],
+      "index": 88,
+      "clips_present": [
+        "e_eng09x.wav",
+        "e_eng09y.wav",
+        "e_eng09z.wav"
+      ]
+    },
+    {
+      "name": "Teddy SHERINGHAM",
+      "digi": "ENG10",
+      "skin": [
+        "WHT"
+      ],
+      "index": 89,
+      "clips_present": [
+        "e_eng10x.wav",
+        "e_eng10y.wav",
+        "e_eng10z.wav"
+      ]
+    },
+    {
+      "name": "Steve MCMANAMAN",
+      "digi": "ENG11",
+      "skin": [
+        "WHT"
+      ],
+      "index": 90,
+      "clips_present": [
+        "e_eng11x.wav",
+        "e_eng11y.wav",
+        "e_eng11z.wav"
+      ]
+    },
+    {
+      "name": "Tim FLOWERS",
+      "digi": "ENG12",
+      "skin": [
+        "WHT"
+      ],
+      "index": 91,
+      "clips_present": [
+        "e_eng12x.wav",
+        "e_eng12y.wav",
+        "e_eng12z.wav"
+      ]
+    },
+    {
+      "name": "Steve STONE",
+      "digi": "ENG13",
+      "skin": [
+        "WHT"
+      ],
+      "index": 92,
+      "clips_present": [
+        "e_eng13x.wav",
+        "e_eng13y.wav",
+        "e_eng13z.wav"
+      ]
+    },
+    {
+      "name": "Peter BEARDSLEY",
+      "digi": "ENG14",
+      "skin": [
+        "WHT"
+      ],
+      "index": 93,
+      "clips_present": [
+        "e_eng14x.wav",
+        "e_eng14y.wav",
+        "e_eng14z.wav"
+      ]
+    },
+    {
+      "name": "Les FERDINAND",
+      "digi": "ENG15",
+      "skin": [
+        "BLK"
+      ],
+      "index": 94,
+      "clips_present": [
+        "e_eng15x.wav",
+        "e_eng15y.wav",
+        "e_eng15z.wav"
+      ]
+    },
+    {
+      "name": "Steve HOWEY",
+      "digi": "ENG16",
+      "skin": [
+        "WHT"
+      ],
+      "index": 95,
+      "clips_present": [
+        "e_eng16x.wav",
+        "e_eng16y.wav",
+        "e_eng16z.wav"
+      ]
+    },
+    {
+      "name": "Darren ANDERTON",
+      "digi": "ENG17",
+      "skin": [
+        "WHT"
+      ],
+      "index": 96,
+      "clips_present": [
+        "e_eng17x.wav",
+        "e_eng17y.wav",
+        "e_eng17z.wav"
+      ]
+    },
+    {
+      "name": "Nick BARMBY",
+      "digi": "ENG18",
+      "skin": [
+        "WHT"
+      ],
+      "index": 97,
+      "clips_present": [
+        "e_eng18x.wav",
+        "e_eng18y.wav",
+        "e_eng18z.wav"
+      ]
+    },
+    {
+      "name": "Paul INCE",
+      "digi": "ENG19",
+      "skin": [
+        "BLK"
+      ],
+      "index": 98,
+      "clips_present": [
+        "e_eng19x.wav",
+        "e_eng19y.wav",
+        "e_eng19z.wav"
+      ]
+    },
+    {
+      "name": "David PLATT",
+      "digi": "ENG20",
+      "skin": [
+        "WHT"
+      ],
+      "index": 99,
+      "clips_present": [
+        "e_eng20x.wav",
+        "e_eng20y.wav",
+        "e_eng20z.wav"
+      ]
+    },
+    {
+      "name": "Jocelyn ANGLOMA",
+      "digi": "FRN02",
+      "skin": [
+        "BLK"
+      ],
+      "index": 101,
+      "clips_present": [
+        "e_frn02x.wav",
+        "e_frn02y.wav",
+        "e_frn02z.wav"
+      ]
+    },
+    {
+      "name": "Eric DI MECO",
+      "digi": "FRN03",
+      "skin": [
+        "WHT"
+      ],
+      "index": 102,
+      "clips_present": [
+        "e_frn03x.wav",
+        "e_frn03y.wav",
+        "e_frn03z.wav"
+      ]
+    },
+    {
+      "name": "Christian KAREMBEU",
+      "digi": "FRN04",
+      "skin": [
+        "BLK"
+      ],
+      "index": 103,
+      "clips_present": [
+        "e_frn04x.wav",
+        "e_frn04y.wav",
+        "e_frn04z.wav"
+      ]
+    },
+    {
+      "name": "Laurent BLANC",
+      "digi": "FRN05",
+      "skin": [
+        "WHT"
+      ],
+      "index": 104,
+      "clips_present": [
+        "e_frn05x.wav",
+        "e_frn05y.wav",
+        "e_frn05z.wav"
+      ]
+    },
+    {
+      "name": "Vincent GUERIN",
+      "digi": "FRN06",
+      "skin": [
+        "WHT"
+      ],
+      "index": 105,
+      "clips_present": [
+        "e_frn06x.wav",
+        "e_frn06y.wav",
+        "e_frn06z.wav"
+      ]
+    },
+    {
+      "name": "Didier DESCHAMPS",
+      "digi": "FRN08",
+      "skin": [
+        "WHT"
+      ],
+      "index": 107,
+      "clips_present": [
+        "e_frn08x.wav",
+        "e_frn08y.wav",
+        "e_frn08z.wav"
+      ]
+    },
+    {
+      "name": "Eric CANTONA",
+      "digi": "FRN09",
+      "skin": [
+        "WHT"
+      ],
+      "index": 108,
+      "clips_present": [
+        "e_frn09x.wav",
+        "e_frn09y.wav",
+        "e_frn09z.wav"
+      ]
+    },
+    {
+      "name": "Zinedine ZIDANE",
+      "digi": "FRN11",
+      "skin": [
+        "WHT"
+      ],
+      "index": 110,
+      "clips_present": [
+        "e_frn11x.wav",
+        "e_frn11y.wav",
+        "e_frn11z.wav"
+      ]
+    },
+    {
+      "name": "Bernard LAMA",
+      "digi": "FRN12",
+      "skin": [
+        "BLK"
+      ],
+      "index": 111,
+      "clips_present": [
+        "e_frn12x.wav",
+        "e_frn12y.wav",
+        "e_frn12z.wav"
+      ]
+    },
+    {
+      "name": "Marcel DESAILLY",
+      "digi": "FRN13",
+      "skin": [
+        "BLK"
+      ],
+      "index": 112,
+      "clips_present": [
+        "e_frn13x.wav",
+        "e_frn13y.wav",
+        "e_frn13z.wav"
+      ]
+    },
+    {
+      "name": "Youri DJORKAEFF",
+      "digi": "FRN14",
+      "skin": [
+        "MED"
+      ],
+      "index": 113,
+      "clips_present": [
+        "e_frn14x.wav",
+        "e_frn14y.wav",
+        "e_frn14z.wav"
+      ]
+    },
+    {
+      "name": "Christophe DUGARRY",
+      "digi": "FRN15",
+      "skin": [
+        "WHT"
+      ],
+      "index": 114,
+      "clips_present": [
+        "e_frn15x.wav",
+        "e_frn15y.wav",
+        "e_frn15z.wav"
+      ]
+    },
+    {
+      "name": "Bixente LIZARAZU",
+      "digi": "FRN16",
+      "skin": [
+        "WHT"
+      ],
+      "index": 115,
+      "clips_present": [
+        "e_frn16x.wav",
+        "e_frn16y.wav",
+        "e_frn16z.wav"
+      ]
+    },
+    {
+      "name": "Paul LE GUEN",
+      "digi": "FRN17",
+      "skin": [
+        "WHT"
+      ],
+      "index": 116,
+      "clips_present": [
+        "e_frn17x.wav",
+        "e_frn17y.wav",
+        "e_frn17z.wav"
+      ]
+    },
+    {
+      "name": "Lilian THURAM",
+      "digi": "FRN18",
+      "skin": [
+        "WHT"
+      ],
+      "index": 117,
+      "clips_present": [
+        "e_frn18x.wav",
+        "e_frn18y.wav",
+        "e_frn18z.wav"
+      ]
+    },
+    {
+      "name": "Michael MADAR",
+      "digi": "FRN19",
+      "skin": [
+        "WHT"
+      ],
+      "index": 118,
+      "clips_present": [
+        "e_frn19x.wav",
+        "e_frn19y.wav",
+        "e_frn19z.wav"
+      ]
+    },
+    {
+      "name": "Basile BOLI",
+      "digi": "FRN20",
+      "skin": [
+        "BLK"
+      ],
+      "index": 119,
+      "clips_present": [
+        "e_frn20x.wav",
+        "e_frn20y.wav",
+        "e_frn20z.wav"
+      ]
+    },
+    {
+      "name": "Andreas K\u0099PKE",
+      "digi": "GER01",
+      "skin": [
+        "WHT"
+      ],
+      "index": 120,
+      "clips_present": [
+        "e_ger01x.wav",
+        "e_ger01y.wav",
+        "e_ger01z.wav"
+      ]
+    },
+    {
+      "name": "Steffen FREUND",
+      "digi": "GER03",
+      "skin": [
+        "WHT"
+      ],
+      "index": 122,
+      "clips_present": [
+        "e_ger03x.wav",
+        "e_ger03y.wav",
+        "e_ger03z.wav"
+      ]
+    },
+    {
+      "name": "Thomas HELMER",
+      "digi": "GER04",
+      "skin": [
+        "WHT"
+      ],
+      "index": 123,
+      "clips_present": [
+        "e_ger04x.wav",
+        "e_ger04y.wav",
+        "e_ger04z.wav"
+      ]
+    },
+    {
+      "name": "Christian ZIEGE",
+      "digi": "GER05",
+      "skin": [
+        "WHT"
+      ],
+      "index": 124,
+      "clips_present": [
+        "e_ger05x.wav",
+        "e_ger05y.wav",
+        "e_ger05z.wav"
+      ]
+    },
+    {
+      "name": "Dieter EILTS",
+      "digi": "GER06",
+      "skin": [
+        "WHT"
+      ],
+      "index": 125,
+      "clips_present": [
+        "e_ger06x.wav",
+        "e_ger06y.wav",
+        "e_ger06z.wav"
+      ]
+    },
+    {
+      "name": "Matthias SAMMER",
+      "digi": "GER07",
+      "skin": [
+        "WHT"
+      ],
+      "index": 126,
+      "clips_present": [
+        "e_ger07x.wav",
+        "e_ger07y.wav",
+        "e_ger07z.wav"
+      ]
+    },
+    {
+      "name": "Andreas M\u0099LLER",
+      "digi": "GER08",
+      "skin": [
+        "WHT"
+      ],
+      "index": 127,
+      "clips_present": [
+        "e_ger08x.wav",
+        "e_ger08y.wav",
+        "e_ger08z.wav"
+      ]
+    },
+    {
+      "name": "Heiko HERRLICH",
+      "digi": "GER10",
+      "skin": [
+        "WHT"
+      ],
+      "index": 129,
+      "clips_present": [
+        "e_ger10x.wav",
+        "e_ger10y.wav",
+        "e_ger10z.wav"
+      ]
+    },
+    {
+      "name": "Thomas H\u008eSSLER",
+      "digi": "GER11",
+      "skin": [
+        "WHT"
+      ],
+      "index": 130,
+      "clips_present": [
+        "e_ger11x.wav",
+        "e_ger11y.wav",
+        "e_ger11z.wav"
+      ]
+    },
+    {
+      "name": "Stefan KUNTZ",
+      "digi": "GER13",
+      "skin": [
+        "WHT"
+      ],
+      "index": 132,
+      "clips_present": [
+        "e_ger13x.wav",
+        "e_ger13y.wav",
+        "e_ger13z.wav"
+      ]
+    },
+    {
+      "name": "Christian W\u0099RNS",
+      "digi": "GER14",
+      "skin": [
+        "WHT"
+      ],
+      "index": 133,
+      "clips_present": [
+        "e_ger14x.wav",
+        "e_ger14y.wav",
+        "e_ger14z.wav"
+      ]
+    },
+    {
+      "name": "Karl-Heinz RIEDLE",
+      "digi": "GER17",
+      "skin": [
+        "WHT"
+      ],
+      "index": 136,
+      "clips_present": [
+        "e_ger17x.wav",
+        "e_ger17y.wav",
+        "e_ger17z.wav"
+      ]
+    },
+    {
+      "name": "Mehmet SCHOLL",
+      "digi": "GER20",
+      "skin": [
+        "WHT"
+      ],
+      "index": 139,
+      "clips_present": [
+        "e_ger20x.wav",
+        "e_ger20y.wav",
+        "e_ger20z.wav"
+      ]
+    },
+    {
+      "name": "Edwin VAN DER SAR",
+      "digi": "HOL01",
+      "skin": [
+        "WHT"
+      ],
+      "index": 140,
+      "clips_present": [
+        "e_hol01x.wav",
+        "e_hol01y.wav",
+        "e_hol01z.wav"
+      ]
+    },
+    {
+      "name": "Michael REIZIGER",
+      "digi": "HOL02",
+      "skin": [
+        "BLK"
+      ],
+      "index": 141,
+      "clips_present": [
+        "e_hol02x.wav",
+        "e_hol02y.wav",
+        "e_hol02z.wav"
+      ]
+    },
+    {
+      "name": "Artur NUMAN",
+      "digi": "HOL03",
+      "skin": [
+        "WHT"
+      ],
+      "index": 142,
+      "clips_present": [
+        "e_hol03x.wav",
+        "e_hol03y.wav",
+        "e_hol03z.wav"
+      ]
+    },
+    {
+      "name": "Danny BLIND",
+      "digi": "HOL04",
+      "skin": [
+        "WHT"
+      ],
+      "index": 143,
+      "clips_present": [
+        "e_hol04x.wav",
+        "e_hol04y.wav",
+        "e_hol04z.wav"
+      ]
+    },
+    {
+      "name": "Frank DE BOER",
+      "digi": "HOL05",
+      "skin": [
+        "WHT"
+      ],
+      "index": 144,
+      "clips_present": [
+        "e_hol05x.wav",
+        "e_hol05y.wav",
+        "e_hol05z.wav"
+      ]
+    },
+    {
+      "name": "Richard WITSCHGE",
+      "digi": "HOL06",
+      "skin": [
+        "WHT"
+      ],
+      "index": 145,
+      "clips_present": [
+        "e_hol06x.wav",
+        "e_hol06y.wav",
+        "e_hol06z.wav"
+      ]
+    },
+    {
+      "name": "Clarence SEEDORF",
+      "digi": "HOL07",
+      "skin": [
+        "BLK"
+      ],
+      "index": 146,
+      "clips_present": [
+        "e_hol07x.wav",
+        "e_hol07y.wav",
+        "e_hol07z.wav"
+      ]
+    },
+    {
+      "name": "Dennis BERGKAMP",
+      "digi": "HOL09",
+      "skin": [
+        "WHT"
+      ],
+      "index": 148,
+      "clips_present": [
+        "e_hol09x.wav",
+        "e_hol09y.wav",
+        "e_hol09z.wav"
+      ]
+    },
+    {
+      "name": "Ronald DE BOER",
+      "digi": "HOL10",
+      "skin": [
+        "WHT"
+      ],
+      "index": 149,
+      "clips_present": [
+        "e_hol10x.wav",
+        "e_hol10y.wav",
+        "e_hol10z.wav"
+      ]
+    },
+    {
+      "name": "Glenn HELDER",
+      "digi": "HOL11",
+      "skin": [
+        "BLK"
+      ],
+      "index": 150,
+      "clips_present": [
+        "e_hol11x.wav",
+        "e_hol11y.wav",
+        "e_hol11z.wav"
+      ]
+    },
+    {
+      "name": "Ed DE GOEY",
+      "digi": "HOL12",
+      "skin": [
+        "WHT"
+      ],
+      "index": 151,
+      "clips_present": [
+        "e_hol12x.wav",
+        "e_hol12y.wav",
+        "e_hol12z.wav"
+      ]
+    },
+    {
+      "name": "Bryan ROY",
+      "digi": "HOL13",
+      "skin": [
+        "BLK"
+      ],
+      "index": 152,
+      "clips_present": [
+        "e_hol13x.wav",
+        "e_hol13y.wav",
+        "e_hol13z.wav"
+      ]
+    },
+    {
+      "name": "Patrick KLUIVERT",
+      "digi": "HOL14",
+      "skin": [
+        "BLK"
+      ],
+      "index": 153,
+      "clips_present": [
+        "e_hol14x.wav",
+        "e_hol14y.wav",
+        "e_hol14z.wav"
+      ]
+    },
+    {
+      "name": "Edgar DAVIDS",
+      "digi": "HOL15",
+      "skin": [
+        "BLK"
+      ],
+      "index": 154,
+      "clips_present": [
+        "e_hol15x.wav",
+        "e_hol15y.wav",
+        "e_hol15z.wav"
+      ]
+    },
+    {
+      "name": "Aron WINTER",
+      "digi": "HOL16",
+      "skin": [
+        "BLK"
+      ],
+      "index": 155,
+      "clips_present": [
+        "e_hol16x.wav",
+        "e_hol16y.wav",
+        "e_hol16z.wav"
+      ]
+    },
+    {
+      "name": "Gaston TAUMENT",
+      "digi": "HOL18",
+      "skin": [
+        "BLK"
+      ],
+      "index": 157,
+      "clips_present": [
+        "e_hol18x.wav",
+        "e_hol18y.wav",
+        "e_hol18z.wav"
+      ]
+    },
+    {
+      "name": "Winston BOGARDE",
+      "digi": "HOL19",
+      "skin": [
+        "BLK"
+      ],
+      "index": 158,
+      "clips_present": [
+        "e_hol19x.wav",
+        "e_hol19y.wav",
+        "e_hol19z.wav"
+      ]
+    },
+    {
+      "name": "Ciro FERRARA",
+      "digi": "ITA02",
+      "skin": [
+        "MED"
+      ],
+      "index": 161,
+      "clips_present": [
+        "e_ita02x.wav",
+        "e_ita02y.wav",
+        "e_ita02z.wav"
+      ]
+    },
+    {
+      "name": "Paolo MALDINI",
+      "digi": "ITA03",
+      "skin": [
+        "MED"
+      ],
+      "index": 162,
+      "clips_present": [
+        "e_ita03x.wav",
+        "e_ita03y.wav",
+        "e_ita03z.wav"
+      ]
+    },
+    {
+      "name": "Luigi APOLLONI",
+      "digi": "ITA04",
+      "skin": [
+        "MED"
+      ],
+      "index": 163,
+      "clips_present": [
+        "e_ita04x.wav",
+        "e_ita04y.wav",
+        "e_ita04z.wav"
+      ]
+    },
+    {
+      "name": "Alessandro COSTACURTA",
+      "digi": "ITA05",
+      "skin": [
+        "MED"
+      ],
+      "index": 164,
+      "clips_present": [
+        "e_ita05x.wav",
+        "e_ita05y.wav",
+        "e_ita05z.wav"
+      ]
+    },
+    {
+      "name": "Roberto DI MATTEO",
+      "digi": "ITA06",
+      "skin": [
+        "MED"
+      ],
+      "index": 165,
+      "clips_present": [
+        "e_ita06x.wav",
+        "e_ita06y.wav",
+        "e_ita06z.wav"
+      ]
+    },
+    {
+      "name": "Angelo DI LIVIO",
+      "digi": "ITA07",
+      "skin": [
+        "MED"
+      ],
+      "index": 166,
+      "clips_present": [
+        "e_ita07x.wav",
+        "e_ita07y.wav",
+        "e_ita07z.wav"
+      ]
+    },
+    {
+      "name": "Demetrio ALBERTINI",
+      "digi": "ITA08",
+      "skin": [
+        "MED"
+      ],
+      "index": 167,
+      "clips_present": [
+        "e_ita08x.wav",
+        "e_ita08y.wav",
+        "e_ita08z.wav"
+      ]
+    },
+    {
+      "name": "Roberto BAGGIO",
+      "digi": "ITA09",
+      "skin": [
+        "MED"
+      ],
+      "index": 168,
+      "clips_present": [
+        "e_ita09x.wav",
+        "e_ita09y.wav",
+        "e_ita09z.wav"
+      ]
+    },
+    {
+      "name": "Fabrizio RAVENELLI",
+      "digi": "ITA10",
+      "skin": [
+        "MED"
+      ],
+      "index": 169,
+      "clips_present": [
+        "e_ita10x.wav",
+        "e_ita10y.wav",
+        "e_ita10z.wav"
+      ]
+    },
+    {
+      "name": "Alessandro DEL PIERO",
+      "digi": "ITA11",
+      "skin": [
+        "MED"
+      ],
+      "index": 170,
+      "clips_present": [
+        "e_ita11x.wav",
+        "e_ita11y.wav",
+        "e_ita11z.wav"
+      ]
+    },
+    {
+      "name": "Roberto DONADONI",
+      "digi": "ITA13",
+      "skin": [
+        "MED"
+      ],
+      "index": 172,
+      "clips_present": [
+        "e_ita13x.wav",
+        "e_ita13y.wav",
+        "e_ita13z.wav"
+      ]
+    },
+    {
+      "name": "Dino BAGGIO",
+      "digi": "ITA14",
+      "skin": [
+        "MED"
+      ],
+      "index": 173,
+      "clips_present": [
+        "e_ita14x.wav",
+        "e_ita14y.wav",
+        "e_ita14z.wav"
+      ]
+    },
+    {
+      "name": "Gianfranco ZOLA",
+      "digi": "ITA17",
+      "skin": [
+        "MED"
+      ],
+      "index": 176,
+      "clips_present": [
+        "e_ita17x.wav",
+        "e_ita17y.wav",
+        "e_ita17z.wav"
+      ]
+    },
+    {
+      "name": "Giuseppe SIGNORI",
+      "digi": "ITA18",
+      "skin": [
+        "MED"
+      ],
+      "index": 177,
+      "clips_present": [
+        "e_ita18x.wav",
+        "e_ita18y.wav",
+        "e_ita18z.wav"
+      ]
+    },
+    {
+      "name": "Vitor BAIA",
+      "digi": "POR01",
+      "skin": [
+        "MED"
+      ],
+      "index": 180,
+      "clips_present": [
+        "e_por01x.wav",
+        "e_por01y.wav",
+        "e_por01z.wav"
+      ]
+    },
+    {
+      "name": "OCEANO Cruz",
+      "digi": "POR04",
+      "skin": [
+        "BLK"
+      ],
+      "index": 183,
+      "clips_present": [
+        "e_por04x.wav",
+        "e_por04y.wav",
+        "e_por04z.wav"
+      ]
+    },
+    {
+      "name": "Jorge COSTA",
+      "digi": "POR05",
+      "skin": [
+        "MED"
+      ],
+      "index": 184,
+      "clips_present": [
+        "e_por05x.wav",
+        "e_por05y.wav",
+        "e_por05z.wav"
+      ]
+    },
+    {
+      "name": "Paulo SOUSA",
+      "digi": "POR06",
+      "skin": [
+        "MED"
+      ],
+      "index": 185,
+      "clips_present": [
+        "e_por06x.wav",
+        "e_por06y.wav",
+        "e_por06z.wav"
+      ]
+    },
+    {
+      "name": "Joao Vieira PINTO",
+      "digi": "POR08",
+      "skin": [
+        "MED"
+      ],
+      "index": 187,
+      "clips_present": [
+        "e_por08x.wav",
+        "e_por08y.wav",
+        "e_por08z.wav"
+      ]
+    },
+    {
+      "name": "DOMINGOS Oliveira",
+      "digi": "POR09",
+      "skin": [
+        "MED"
+      ],
+      "index": 188,
+      "clips_present": [
+        "e_por09x.wav",
+        "e_por09y.wav",
+        "e_por09z.wav"
+      ]
+    },
+    {
+      "name": "Rui COSTA",
+      "digi": "POR10",
+      "skin": [
+        "MED"
+      ],
+      "index": 189,
+      "clips_present": [
+        "e_por10x.wav",
+        "e_por10y.wav",
+        "e_por10z.wav"
+      ]
+    },
+    {
+      "name": "Paulinho SANTOS",
+      "digi": "POR11",
+      "skin": [
+        "MED"
+      ],
+      "index": 190,
+      "clips_present": [
+        "e_por11x.wav",
+        "e_por11y.wav",
+        "e_por11z.wav"
+      ]
+    },
+    {
+      "name": "Sa PINTO",
+      "digi": "POR13",
+      "skin": [
+        "MED"
+      ],
+      "index": 192,
+      "clips_present": [
+        "e_por13x.wav",
+        "e_por13y.wav",
+        "e_por13z.wav"
+      ]
+    },
+    {
+      "name": "Jose DOMINGUEZ",
+      "digi": "POR14",
+      "skin": [
+        "MED"
+      ],
+      "index": 193,
+      "clips_present": [
+        "e_por14x.wav",
+        "e_por14y.wav",
+        "e_por14z.wav"
+      ]
+    },
+    {
+      "name": "Fernando COUTO",
+      "digi": "POR16",
+      "skin": [
+        "MED"
+      ],
+      "index": 195,
+      "clips_present": [
+        "e_por16x.wav",
+        "e_por16y.wav",
+        "e_por16z.wav"
+      ]
+    },
+    {
+      "name": "Paulo FUTRE",
+      "digi": "POR17",
+      "skin": [
+        "MED"
+      ],
+      "index": 196,
+      "clips_present": [
+        "e_por17x.wav",
+        "e_por17y.wav",
+        "e_por17z.wav"
+      ]
+    },
+    {
+      "name": "Luis FIGO",
+      "digi": "POR27",
+      "skin": [
+        "MED"
+      ],
+      "index": 199,
+      "clips_present": [
+        "e_por27x.wav",
+        "e_por27y.wav",
+        "e_por27z.wav"
+      ]
+    },
+    {
+      "name": "Bogdan STELEA",
+      "digi": "ROM01",
+      "skin": [
+        "WHT"
+      ],
+      "index": 200,
+      "clips_present": [
+        "e_rom01x.wav",
+        "e_rom01y.wav",
+        "e_rom01z.wav"
+      ]
+    },
+    {
+      "name": "Dan PETRESCU",
+      "digi": "ROM02",
+      "skin": [
+        "WHT"
+      ],
+      "index": 201,
+      "clips_present": [
+        "e_rom02x.wav",
+        "e_rom02y.wav",
+        "e_rom02z.wav"
+      ]
+    },
+    {
+      "name": "Daniel Claudiu PRODAN",
+      "digi": "ROM03",
+      "skin": [
+        "WHT"
+      ],
+      "index": 202,
+      "clips_present": [
+        "e_rom03x.wav",
+        "e_rom03y.wav",
+        "e_rom03z.wav"
+      ]
+    },
+    {
+      "name": "Gheorghe MIHALI",
+      "digi": "ROM04",
+      "skin": [
+        "WHT"
+      ],
+      "index": 203,
+      "clips_present": [
+        "e_rom04x.wav",
+        "e_rom04y.wav",
+        "e_rom04z.wav"
+      ]
+    },
+    {
+      "name": "Gheorghe POPESCU",
+      "digi": "ROM06",
+      "skin": [
+        "WHT"
+      ],
+      "index": 205,
+      "clips_present": [
+        "e_rom06x.wav",
+        "e_rom06y.wav",
+        "e_rom06z.wav"
+      ]
+    },
+    {
+      "name": "Marius Mihai LACATUS",
+      "digi": "ROM07",
+      "skin": [
+        "WHT"
+      ],
+      "index": 206,
+      "clips_present": [
+        "e_rom07x.wav",
+        "e_rom07y.wav",
+        "e_rom07z.wav"
+      ]
+    },
+    {
+      "name": "Ilie DUMITRESCU",
+      "digi": "ROM08",
+      "skin": [
+        "WHT"
+      ],
+      "index": 207,
+      "clips_present": [
+        "e_rom08x.wav",
+        "e_rom08y.wav",
+        "e_rom08z.wav"
+      ]
+    },
+    {
+      "name": "Tibor SELYMES",
+      "digi": "ROM09",
+      "skin": [
+        "WHT"
+      ],
+      "index": 208,
+      "clips_present": [
+        "e_rom09x.wav",
+        "e_rom09y.wav",
+        "e_rom09z.wav"
+      ]
+    },
+    {
+      "name": "Gheorghe HAGI",
+      "digi": "ROM10",
+      "skin": [
+        "WHT"
+      ],
+      "index": 209,
+      "clips_present": [
+        "e_rom10x.wav",
+        "e_rom10y.wav",
+        "e_rom10z.wav"
+      ]
+    },
+    {
+      "name": "Dorinel MUNTEANU",
+      "digi": "ROM11",
+      "skin": [
+        "WHT"
+      ],
+      "index": 210,
+      "clips_present": [
+        "e_rom11x.wav",
+        "e_rom11y.wav",
+        "e_rom11z.wav"
+      ]
+    },
+    {
+      "name": "Florian PRUNEA",
+      "digi": "ROM12",
+      "skin": [
+        "WHT"
+      ],
+      "index": 211,
+      "clips_present": [
+        "e_rom12x.wav",
+        "e_rom12y.wav",
+        "e_rom12z.wav"
+      ]
+    },
+    {
+      "name": "Ion VLADOIU",
+      "digi": "ROM13",
+      "skin": [
+        "WHT"
+      ],
+      "index": 212,
+      "clips_present": [
+        "e_rom13x.wav",
+        "e_rom13y.wav",
+        "e_rom13z.wav"
+      ]
+    },
+    {
+      "name": "Basarab PANDURU",
+      "digi": "ROM14",
+      "skin": [
+        "WHT"
+      ],
+      "index": 213,
+      "clips_present": [
+        "e_rom14x.wav",
+        "e_rom14y.wav",
+        "e_rom14z.wav"
+      ]
+    },
+    {
+      "name": "Miodrag BELODEDICI",
+      "digi": "ROM16",
+      "skin": [
+        "WHT"
+      ],
+      "index": 215,
+      "clips_present": [
+        "e_rom16x.wav",
+        "e_rom16y.wav",
+        "e_rom16z.wav"
+      ]
+    },
+    {
+      "name": "Florin RADUCIOIU",
+      "digi": "ROM17",
+      "skin": [
+        "WHT"
+      ],
+      "index": 216,
+      "clips_present": [
+        "e_rom17x.wav",
+        "e_rom17y.wav",
+        "e_rom17z.wav"
+      ]
+    },
+    {
+      "name": "Ioan Ovidiu SABAU",
+      "digi": "ROM18",
+      "skin": [
+        "WHT"
+      ],
+      "index": 217,
+      "clips_present": [
+        "e_rom18x.wav",
+        "e_rom18y.wav",
+        "e_rom18z.wav"
+      ]
+    },
+    {
+      "name": "Radu NICULESCU",
+      "digi": "ROM20",
+      "skin": [
+        "WHT"
+      ],
+      "index": 219,
+      "clips_present": [
+        "e_rom20x.wav",
+        "e_rom20y.wav",
+        "e_rom20z.wav"
+      ]
+    },
+    {
+      "name": "Yuri KOVTUN",
+      "digi": "RUS22",
+      "skin": [
+        "WHT"
+      ],
+      "index": 221,
+      "clips_present": [
+        "e_rus22x.wav",
+        "e_rus22y.wav",
+        "e_rus22z.wav"
+      ]
+    },
+    {
+      "name": "Yuri NIKIFOROV",
+      "digi": "RUS03",
+      "skin": [
+        "WHT"
+      ],
+      "index": 222,
+      "clips_present": [
+        "e_rus03x.wav",
+        "e_rus03y.wav",
+        "e_rus03z.wav"
+      ]
+    },
+    {
+      "name": "Viktor ONOPKO",
+      "digi": "RUS07",
+      "skin": [
+        "WHT"
+      ],
+      "index": 226,
+      "clips_present": [
+        "e_rus07x.wav",
+        "e_rus07y.wav",
+        "e_rus07z.wav"
+      ]
+    },
+    {
+      "name": "Vasili KULKOV",
+      "digi": "RUS08",
+      "skin": [
+        "WHT"
+      ],
+      "index": 227,
+      "clips_present": [
+        "e_rus08x.wav",
+        "e_rus08y.wav",
+        "e_rus08z.wav"
+      ]
+    },
+    {
+      "name": "Aleksandr MOSTOVOI",
+      "digi": "RUS09",
+      "skin": [
+        "WHT"
+      ],
+      "index": 228,
+      "clips_present": [
+        "e_rus09x.wav",
+        "e_rus09y.wav",
+        "e_rus09z.wav"
+      ]
+    },
+    {
+      "name": "Sergei YURAN",
+      "digi": "RUS10",
+      "skin": [
+        "WHT"
+      ],
+      "index": 229,
+      "clips_present": [
+        "e_rus10x.wav",
+        "e_rus10y.wav",
+        "e_rus10z.wav"
+      ]
+    },
+    {
+      "name": "Igor KOLYVANOV",
+      "digi": "RUS11",
+      "skin": [
+        "WHT"
+      ],
+      "index": 230,
+      "clips_present": [
+        "e_rus11x.wav",
+        "e_rus11y.wav",
+        "e_rus11z.wav"
+      ]
+    },
+    {
+      "name": "Stanislav CHERCEHSOV",
+      "digi": "RUS12",
+      "skin": [
+        "WHT"
+      ],
+      "index": 231,
+      "clips_present": [
+        "e_rus12x.wav",
+        "e_rus12y.wav",
+        "e_rus12z.wav"
+      ]
+    },
+    {
+      "name": "Sergei KIRYAKOV",
+      "digi": "RUS13",
+      "skin": [
+        "WHT"
+      ],
+      "index": 232,
+      "clips_present": [
+        "e_rus13x.wav",
+        "e_rus13y.wav",
+        "e_rus13z.wav"
+      ]
+    },
+    {
+      "name": "Andrei KANCHELSKIS",
+      "digi": "RUS15",
+      "skin": [
+        "WHT"
+      ],
+      "index": 234,
+      "clips_present": [
+        "e_rus15x.wav",
+        "e_rus15y.wav",
+        "e_rus15z.wav"
+      ]
+    },
+    {
+      "name": "Oleg SALENKO",
+      "digi": "RUS16",
+      "skin": [
+        "WHT"
+      ],
+      "index": 235,
+      "clips_present": [
+        "e_rus16x.wav",
+        "e_rus16y.wav",
+        "e_rus16z.wav"
+      ]
+    },
+    {
+      "name": "Igor DOBROVOLSKI",
+      "digi": "RUS19",
+      "skin": [
+        "WHT"
+      ],
+      "index": 238,
+      "clips_present": [
+        "e_rus19x.wav",
+        "e_rus19y.wav",
+        "e_rus19z.wav"
+      ]
+    },
+    {
+      "name": "Jim LEIGHTON",
+      "digi": "SCT01",
+      "skin": [
+        "WHT"
+      ],
+      "index": 240,
+      "clips_present": [
+        "e_sct01x.wav",
+        "e_sct01y.wav",
+        "e_sct01z.wav"
+      ]
+    },
+    {
+      "name": "Stewart MCKIMMIE",
+      "digi": "SCT02",
+      "skin": [
+        "WHT"
+      ],
+      "index": 241,
+      "clips_present": [
+        "e_sct02x.wav",
+        "e_sct02y.wav",
+        "e_sct02z.wav"
+      ]
+    },
+    {
+      "name": "Tommy BOYD",
+      "digi": "SCT03",
+      "skin": [
+        "WHT"
+      ],
+      "index": 242,
+      "clips_present": [
+        "e_sct03x.wav",
+        "e_sct03y.wav",
+        "e_sct03z.wav"
+      ]
+    },
+    {
+      "name": "Colin CALDERWOOD",
+      "digi": "SCT04",
+      "skin": [
+        "WHT"
+      ],
+      "index": 243,
+      "clips_present": [
+        "e_sct04x.wav",
+        "e_sct04y.wav",
+        "e_sct04z.wav"
+      ]
+    },
+    {
+      "name": "Colin HENDRY",
+      "digi": "SCT05",
+      "skin": [
+        "WHT"
+      ],
+      "index": 244,
+      "clips_present": [
+        "e_sct05x.wav",
+        "e_sct05y.wav",
+        "e_sct05z.wav"
+      ]
+    },
+    {
+      "name": "Alan MCLAREN",
+      "digi": "SCT06",
+      "skin": [
+        "WHT"
+      ],
+      "index": 245,
+      "clips_present": [
+        "e_sct06x.wav",
+        "e_sct06y.wav",
+        "e_sct06z.wav"
+      ]
+    },
+    {
+      "name": "John ROBERTSON",
+      "digi": "SCT07",
+      "skin": [
+        "WHT"
+      ],
+      "index": 246,
+      "clips_present": [
+        "e_sct07x.wav",
+        "e_sct07y.wav",
+        "e_sct07z.wav"
+      ]
+    },
+    {
+      "name": "Gary MCALLISTER",
+      "digi": "SCT08",
+      "skin": [
+        "WHT"
+      ],
+      "index": 247,
+      "clips_present": [
+        "e_sct08x.wav",
+        "e_sct08y.wav",
+        "e_sct08z.wav"
+      ]
+    },
+    {
+      "name": "Ally MCCOIST",
+      "digi": "SCT09",
+      "skin": [
+        "WHT"
+      ],
+      "index": 248,
+      "clips_present": [
+        "e_sct09x.wav",
+        "e_sct09y.wav",
+        "e_sct09z.wav"
+      ]
+    },
+    {
+      "name": "John MCGINLAY",
+      "digi": "SCT10",
+      "skin": [
+        "WHT"
+      ],
+      "index": 249,
+      "clips_present": [
+        "e_sct10x.wav",
+        "e_sct10y.wav",
+        "e_sct10z.wav"
+      ]
+    },
+    {
+      "name": "John COLLINS",
+      "digi": "SCT11",
+      "skin": [
+        "WHT"
+      ],
+      "index": 250,
+      "clips_present": [
+        "e_sct11x.wav",
+        "e_sct11y.wav",
+        "e_sct11z.wav"
+      ]
+    },
+    {
+      "name": "Andy GORAM",
+      "digi": "SCT12",
+      "skin": [
+        "WHT"
+      ],
+      "index": 251,
+      "clips_present": [
+        "e_sct12x.wav",
+        "e_sct12y.wav",
+        "e_sct12z.wav"
+      ]
+    },
+    {
+      "name": "Pat NEVIN",
+      "digi": "SCT13",
+      "skin": [
+        "WHT"
+      ],
+      "index": 252,
+      "clips_present": [
+        "e_sct13x.wav",
+        "e_sct13y.wav",
+        "e_sct13z.wav"
+      ]
+    },
+    {
+      "name": "Eoin JESS",
+      "digi": "SCT14",
+      "skin": [
+        "WHT"
+      ],
+      "index": 253,
+      "clips_present": [
+        "e_sct14x.wav",
+        "e_sct14y.wav",
+        "e_sct14z.wav"
+      ]
+    },
+    {
+      "name": "Billy MCKINLAY",
+      "digi": "SCT15",
+      "skin": [
+        "WHT"
+      ],
+      "index": 254,
+      "clips_present": [
+        "e_sct15x.wav",
+        "e_sct15y.wav",
+        "e_sct15z.wav"
+      ]
+    },
+    {
+      "name": "Scott BOOTH",
+      "digi": "SCT16",
+      "skin": [
+        "WHT"
+      ],
+      "index": 255,
+      "clips_present": [
+        "e_sct16x.wav",
+        "e_sct16y.wav",
+        "e_sct16z.wav"
+      ]
+    },
+    {
+      "name": "Paul MCSTAY",
+      "digi": "SCT17",
+      "skin": [
+        "WHT"
+      ],
+      "index": 256,
+      "clips_present": [
+        "e_sct17x.wav",
+        "e_sct17y.wav",
+        "e_sct17z.wav"
+      ]
+    },
+    {
+      "name": "Stuart MCCALL",
+      "digi": "SCT20",
+      "skin": [
+        "WHT"
+      ],
+      "index": 259,
+      "clips_present": [
+        "e_sct20x.wav",
+        "e_sct20y.wav",
+        "e_sct20z.wav"
+      ]
+    },
+    {
+      "name": "Andoni ZUBIZARRETA",
+      "digi": "SPN01",
+      "skin": [
+        "MED"
+      ],
+      "index": 260,
+      "clips_present": [
+        "e_spn01x.wav",
+        "e_spn01y.wav",
+        "e_spn01z.wav"
+      ]
+    },
+    {
+      "name": "Alberto BELSUE",
+      "digi": "SPN02",
+      "skin": [
+        "MED"
+      ],
+      "index": 261,
+      "clips_present": [
+        "e_spn02x.wav",
+        "e_spn02y.wav",
+        "e_spn02z.wav"
+      ]
+    },
+    {
+      "name": "ABELARDO Fernandez",
+      "digi": "SPN03",
+      "skin": [
+        "MED"
+      ],
+      "index": 262,
+      "clips_present": [
+        "e_spn03x.wav",
+        "e_spn03y.wav",
+        "e_spn03z.wav"
+      ]
+    },
+    {
+      "name": "Miguel Angel NADAL",
+      "digi": "SPN05",
+      "skin": [
+        "MED"
+      ],
+      "index": 264,
+      "clips_present": [
+        "e_spn05x.wav",
+        "e_spn05y.wav",
+        "e_spn05z.wav"
+      ]
+    },
+    {
+      "name": "SERGI Barjuan",
+      "digi": "SPN06",
+      "skin": [
+        "MED"
+      ],
+      "index": 265,
+      "clips_present": [
+        "e_spn06x.wav",
+        "e_spn06y.wav",
+        "e_spn06z.wav"
+      ]
+    },
+    {
+      "name": "LUIS ENRIQUE Martinez",
+      "digi": "SPN07",
+      "skin": [
+        "MED"
+      ],
+      "index": 266,
+      "clips_present": [
+        "e_spn07x.wav",
+        "e_spn07y.wav",
+        "e_spn07z.wav"
+      ]
+    },
+    {
+      "name": "Fernando Ruiz HIERRO",
+      "digi": "SPN08",
+      "skin": [
+        "MED"
+      ],
+      "index": 267,
+      "clips_present": [
+        "e_spn08x.wav",
+        "e_spn08y.wav",
+        "e_spn08z.wav"
+      ]
+    },
+    {
+      "name": "Jose Luis Perez CAMINERO",
+      "digi": "SPN09",
+      "skin": [
+        "MED"
+      ],
+      "index": 268,
+      "clips_present": [
+        "e_spn09x.wav",
+        "e_spn09y.wav",
+        "e_spn09z.wav"
+      ]
+    },
+    {
+      "name": "Javier MANJARIN",
+      "digi": "SPN10",
+      "skin": [
+        "MED"
+      ],
+      "index": 269,
+      "clips_present": [
+        "e_spn10x.wav",
+        "e_spn10y.wav",
+        "e_spn10z.wav"
+      ]
+    },
+    {
+      "name": "Juan Antonio PIZZI",
+      "digi": "SPN11",
+      "skin": [
+        "MED"
+      ],
+      "index": 270,
+      "clips_present": [
+        "e_spn11x.wav",
+        "e_spn11y.wav",
+        "e_spn11z.wav"
+      ]
+    },
+    {
+      "name": "Julen GUERRERO",
+      "digi": "SPN13",
+      "skin": [
+        "MED"
+      ],
+      "index": 272,
+      "clips_present": [
+        "e_spn13x.wav",
+        "e_spn13y.wav",
+        "e_spn13z.wav"
+      ]
+    },
+    {
+      "name": "DONATO Gama Da Silva",
+      "digi": "SPN14",
+      "skin": [
+        "BLK"
+      ],
+      "index": 273,
+      "clips_present": [
+        "e_spn14x.wav",
+        "e_spn14y.wav",
+        "e_spn14z.wav"
+      ]
+    },
+    {
+      "name": "Julio SALINAS",
+      "digi": "SPN15",
+      "skin": [
+        "MED"
+      ],
+      "index": 274,
+      "clips_present": [
+        "e_spn15x.wav",
+        "e_spn15y.wav",
+        "e_spn15z.wav"
+      ]
+    },
+    {
+      "name": "Josep GUARDIOLA",
+      "digi": "SPN16",
+      "skin": [
+        "MED"
+      ],
+      "index": 275,
+      "clips_present": [
+        "e_spn16x.wav",
+        "e_spn16y.wav",
+        "e_spn16z.wav"
+      ]
+    },
+    {
+      "name": "Juan Antonio GOICOECHEA",
+      "digi": "SPN17",
+      "skin": [
+        "MED"
+      ],
+      "index": 276,
+      "clips_present": [
+        "e_spn17x.wav",
+        "e_spn17y.wav",
+        "e_spn17z.wav"
+      ]
+    },
+    {
+      "name": "Albert FERRER",
+      "digi": "SPN18",
+      "skin": [
+        "MED"
+      ],
+      "index": 277,
+      "clips_present": [
+        "e_spn18x.wav",
+        "e_spn18y.wav",
+        "e_spn18z.wav"
+      ]
+    },
+    {
+      "name": "Marco PASCOLO",
+      "digi": "SWZ01",
+      "skin": [
+        "WHT"
+      ],
+      "index": 280,
+      "clips_present": [
+        "e_swz01x.wav",
+        "e_swz01y.wav",
+        "e_swz01z.wav"
+      ]
+    },
+    {
+      "name": "Marc HOTTIGER",
+      "digi": "SWZ02",
+      "skin": [
+        "WHT"
+      ],
+      "index": 281,
+      "clips_present": [
+        "e_swz02x.wav",
+        "e_swz02y.wav",
+        "e_swz02z.wav"
+      ]
+    },
+    {
+      "name": "St\u0082phane HENCHOZ",
+      "digi": "SWZ03",
+      "skin": [
+        "WHT"
+      ],
+      "index": 282,
+      "clips_present": [
+        "e_swz03x.wav",
+        "e_swz03y.wav",
+        "e_swz03z.wav"
+      ]
+    },
+    {
+      "name": "Alain GEIGER",
+      "digi": "SWZ04",
+      "skin": [
+        "WHT"
+      ],
+      "index": 283,
+      "clips_present": [
+        "e_swz04x.wav",
+        "e_swz04y.wav",
+        "e_swz04z.wav"
+      ]
+    },
+    {
+      "name": "Yvan QUENTIN",
+      "digi": "SWZ05",
+      "skin": [
+        "WHT"
+      ],
+      "index": 284,
+      "clips_present": [
+        "e_swz05x.wav",
+        "e_swz05y.wav",
+        "e_swz05z.wav"
+      ]
+    },
+    {
+      "name": "Christophe OHREL",
+      "digi": "SWZ06",
+      "skin": [
+        "WHT"
+      ],
+      "index": 285,
+      "clips_present": [
+        "e_swz06x.wav",
+        "e_swz06y.wav",
+        "e_swz06z.wav"
+      ]
+    },
+    {
+      "name": "Ciriaco SFORZA",
+      "digi": "SWZ07",
+      "skin": [
+        "WHT"
+      ],
+      "index": 286,
+      "clips_present": [
+        "e_swz07x.wav",
+        "e_swz07y.wav",
+        "e_swz07z.wav"
+      ]
+    },
+    {
+      "name": "Thomas BICKEL",
+      "digi": "SWZ08",
+      "skin": [
+        "WHT"
+      ],
+      "index": 287,
+      "clips_present": [
+        "e_swz08x.wav",
+        "e_swz08y.wav",
+        "e_swz08z.wav"
+      ]
+    },
+    {
+      "name": "Adrian KNUP",
+      "digi": "SWZ09",
+      "skin": [
+        "WHT"
+      ],
+      "index": 288,
+      "clips_present": [
+        "e_swz09x.wav",
+        "e_swz09y.wav",
+        "e_swz09z.wav"
+      ]
+    },
+    {
+      "name": "St\u0082phane CHAPUISAT",
+      "digi": "SWZ10",
+      "skin": [
+        "WHT"
+      ],
+      "index": 289,
+      "clips_present": [
+        "e_swz10x.wav",
+        "e_swz10y.wav",
+        "e_swz10z.wav"
+      ]
+    },
+    {
+      "name": "Alain SUTTER",
+      "digi": "SWZ11",
+      "skin": [
+        "WHT"
+      ],
+      "index": 290,
+      "clips_present": [
+        "e_swz11x.wav",
+        "e_swz11y.wav",
+        "e_swz11z.wav"
+      ]
+    },
+    {
+      "name": "Stephan LEHMANN",
+      "digi": "SWZ12",
+      "skin": [
+        "WHT"
+      ],
+      "index": 291,
+      "clips_present": [
+        "e_swz12x.wav",
+        "e_swz12y.wav",
+        "e_swz12z.wav"
+      ]
+    },
+    {
+      "name": "Kubilay T\u009aRKYILMAZ",
+      "digi": "SWZ13",
+      "skin": [
+        "MED"
+      ],
+      "index": 292,
+      "clips_present": [
+        "e_swz13x.wav",
+        "e_swz13y.wav",
+        "e_swz13z.wav"
+      ]
+    },
+    {
+      "name": "Sebastien FOURNIER",
+      "digi": "SWZ14",
+      "skin": [
+        "WHT"
+      ],
+      "index": 293,
+      "clips_present": [
+        "e_swz14x.wav",
+        "e_swz14y.wav",
+        "e_swz14z.wav"
+      ]
+    },
+    {
+      "name": "Marco GRASSI",
+      "digi": "SWZ15",
+      "skin": [
+        "WHT"
+      ],
+      "index": 294,
+      "clips_present": [
+        "e_swz15x.wav",
+        "e_swz15y.wav",
+        "e_swz15z.wav"
+      ]
+    },
+    {
+      "name": "Christophe BONVIN",
+      "digi": "SWZ16",
+      "skin": [
+        "WHT"
+      ],
+      "index": 295,
+      "clips_present": [
+        "e_swz16x.wav",
+        "e_swz16y.wav",
+        "e_swz16z.wav"
+      ]
+    },
+    {
+      "name": "Dominique HERR",
+      "digi": "SWZ18",
+      "skin": [
+        "WHT"
+      ],
+      "index": 297,
+      "clips_present": [
+        "e_swz18x.wav",
+        "e_swz18y.wav",
+        "e_swz18z.wav"
+      ]
+    },
+    {
+      "name": "Nestor SUBIAT",
+      "digi": "SWZ19",
+      "skin": [
+        "WHT"
+      ],
+      "index": 298,
+      "clips_present": [
+        "e_swz19x.wav",
+        "e_swz19y.wav",
+        "e_swz19z.wav"
+      ]
+    },
+    {
+      "name": "ENGIN Ipekoglu",
+      "digi": "TRK01",
+      "skin": [
+        "MED"
+      ],
+      "index": 300,
+      "clips_present": [
+        "e_trk01x.wav",
+        "e_trk01y.wav",
+        "e_trk01z.wav"
+      ]
+    },
+    {
+      "name": "RECEP \u0080etin",
+      "digi": "TRK02",
+      "skin": [
+        "MED"
+      ],
+      "index": 301,
+      "clips_present": [
+        "e_trk02x.wav",
+        "e_trk02y.wav",
+        "e_trk02z.wav"
+      ]
+    },
+    {
+      "name": "B\u009aLENT Korkmaz",
+      "digi": "TRK03",
+      "skin": [
+        "MED"
+      ],
+      "index": 302,
+      "clips_present": [
+        "e_trk03x.wav",
+        "e_trk03y.wav",
+        "e_trk03z.wav"
+      ]
+    },
+    {
+      "name": "GOKHAN Keskin",
+      "digi": "TRK04",
+      "skin": [
+        "MED"
+      ],
+      "index": 303,
+      "clips_present": [
+        "e_trk04x.wav",
+        "e_trk04y.wav",
+        "e_trk04z.wav"
+      ]
+    },
+    {
+      "name": "EMRE Asik",
+      "digi": "TRK05",
+      "skin": [
+        "MED"
+      ],
+      "index": 304,
+      "clips_present": [
+        "e_trk05x.wav",
+        "e_trk05y.wav",
+        "e_trk05z.wav"
+      ]
+    },
+    {
+      "name": "ABDULLAH Ecran",
+      "digi": "TRK06",
+      "skin": [
+        "MED"
+      ],
+      "index": 305,
+      "clips_present": [
+        "e_trk06x.wav",
+        "e_trk06y.wav",
+        "e_trk06z.wav"
+      ]
+    },
+    {
+      "name": "OGUZ \u0080etin",
+      "digi": "TRK07",
+      "skin": [
+        "MED"
+      ],
+      "index": 306,
+      "clips_present": [
+        "e_trk07x.wav",
+        "e_trk07y.wav",
+        "e_trk07z.wav"
+      ]
+    },
+    {
+      "name": "TUGAY Kerimoglu",
+      "digi": "TRK08",
+      "skin": [
+        "MED"
+      ],
+      "index": 307,
+      "clips_present": [
+        "e_trk08x.wav",
+        "e_trk08y.wav",
+        "e_trk08z.wav"
+      ]
+    },
+    {
+      "name": "ORHAN \u0080ikrik\u0087i",
+      "digi": "TRK09",
+      "skin": [
+        "MED"
+      ],
+      "index": 308,
+      "clips_present": [
+        "e_trk09x.wav",
+        "e_trk09y.wav",
+        "e_trk09z.wav"
+      ]
+    },
+    {
+      "name": "B\u009aLENT Uygun",
+      "digi": "TRK10",
+      "skin": [
+        "MED"
+      ],
+      "index": 309,
+      "clips_present": [
+        "e_trk10x.wav",
+        "e_trk10y.wav",
+        "e_trk10z.wav"
+      ]
+    },
+    {
+      "name": "HAKAN S\u0081k\u0081r",
+      "digi": "TRK11",
+      "skin": [
+        "MED"
+      ],
+      "index": 310,
+      "clips_present": [
+        "e_trk11x.wav",
+        "e_trk11y.wav",
+        "e_trk11z.wav"
+      ]
+    },
+    {
+      "name": "ERTURGRUL Saglan",
+      "digi": "TRK13",
+      "skin": [
+        "MED"
+      ],
+      "index": 312,
+      "clips_present": [
+        "e_trk13x.wav",
+        "e_trk13y.wav",
+        "e_trk13z.wav"
+      ]
+    },
+    {
+      "name": "OG\u009aN Temizkanoglu",
+      "digi": "TRK16",
+      "skin": [
+        "MED"
+      ],
+      "index": 315,
+      "clips_present": [
+        "e_trk16x.wav",
+        "e_trk16y.wav",
+        "e_trk16z.wav"
+      ]
+    },
+    {
+      "name": "HAMI Mandirali",
+      "digi": "TRK19",
+      "skin": [
+        "MED"
+      ],
+      "index": 318,
+      "clips_present": [
+        "e_trk19x.wav",
+        "e_trk19y.wav",
+        "e_trk19z.wav"
+      ]
+    }
+  ]
+}

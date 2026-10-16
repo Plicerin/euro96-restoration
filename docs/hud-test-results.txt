@@ -1,0 +1,39 @@
+Actua96 0.25.2 HUD verification - 2026-10-10
+
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start 49: native_setpiece_control_smoke
+    Start 50: original_pitch_tracker_contracts
+1/8 Test #50: original_pitch_tracker_contracts ...   Passed   14.29 sec
+    Start 41: native_match_setup_smoke
+2/8 Test #41: native_match_setup_smoke ...........   Passed   10.23 sec
+    Start 37: native_original_cpu_smoke
+3/8 Test #37: native_original_cpu_smoke ..........   Passed    8.35 sec
+    Start 34: native_original_control_smoke
+4/8 Test #34: native_original_control_smoke ......   Passed    6.47 sec
+    Start 36: native_original_team_smoke
+5/8 Test #36: native_original_team_smoke .........   Passed    7.62 sec
+    Start 43: native_match_depth_smoke
+6/8 Test #43: native_match_depth_smoke ...........   Passed    2.87 sec
+    Start 46: native_penalty_control_smoke
+7/8 Test #49: native_setpiece_control_smoke ......   Passed   50.56 sec
+8/8 Test #46: native_penalty_control_smoke .......   Passed    7.38 sec
+
+100% tests passed, 0 tests failed out of 8
+
+Total Test time (real) =  57.58 sec
+
+After final prompt corrections:
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start 43: native_match_depth_smoke
+    Start 46: native_penalty_control_smoke
+1/2 Test #43: native_match_depth_smoke .........   Passed    2.34 sec
+2/2 Test #46: native_penalty_control_smoke .....   Passed    6.72 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   6.75 sec
+
+Visual review: attack, defend, keeper, watch and paused; gamepad and keyboard variants.
+Completed CPU match: ENG 1 - 0 SCT; full-time controls visually checked.
+Source unchanged; four source archives valid.
+Full 50-test suite not repeated for this native presentation change.

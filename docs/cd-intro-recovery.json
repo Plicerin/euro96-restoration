@@ -1,0 +1,337 @@
+{
+  "original": "VIDEO/VFULL_S.GDV",
+  "source_sha256": "73be97421481e24c0f2d6315da6c97cb49c938877a76a1201b42519ed0146fc9",
+  "path": "VIDEO/INTRO.AMV",
+  "sha256": "25c7cbbc8d8fe0146ed90dc5522552da8fac39f3a5324bbf739b315b5837f563",
+  "size": 9143990,
+  "frames": 399,
+  "fps": 12,
+  "width": 320,
+  "height": 240,
+  "pcm_bytes": 732963,
+  "pcm_sha256": "3cc20bcf3a72d8612ab7a87675ccf02a89ac6653881b4e95f6ebdb2b0f1d315b",
+  "decoded_pal8_sha256": "b5f8c10a9f0373da4f30b6c564b598eff629dfa3fd7143e7e69950db890316c4",
+  "normalized_gdv_sha256": "e137acb55be20b49abe6093f9a8e64923aa78c4ba4d167918089f585aaa682f8",
+  "early_terminated_frames": [
+    {
+      "frame": 1,
+      "unchanged_tail_pixels": 76
+    },
+    {
+      "frame": 2,
+      "unchanged_tail_pixels": 69
+    },
+    {
+      "frame": 3,
+      "unchanged_tail_pixels": 61
+    },
+    {
+      "frame": 4,
+      "unchanged_tail_pixels": 53
+    },
+    {
+      "frame": 5,
+      "unchanged_tail_pixels": 43
+    },
+    {
+      "frame": 6,
+      "unchanged_tail_pixels": 35
+    },
+    {
+      "frame": 7,
+      "unchanged_tail_pixels": 20
+    },
+    {
+      "frame": 8,
+      "unchanged_tail_pixels": 17
+    },
+    {
+      "frame": 9,
+      "unchanged_tail_pixels": 21
+    },
+    {
+      "frame": 10,
+      "unchanged_tail_pixels": 36
+    },
+    {
+      "frame": 11,
+      "unchanged_tail_pixels": 36
+    },
+    {
+      "frame": 12,
+      "unchanged_tail_pixels": 39
+    },
+    {
+      "frame": 13,
+      "unchanged_tail_pixels": 47
+    },
+    {
+      "frame": 14,
+      "unchanged_tail_pixels": 42
+    },
+    {
+      "frame": 15,
+      "unchanged_tail_pixels": 44
+    },
+    {
+      "frame": 16,
+      "unchanged_tail_pixels": 44
+    },
+    {
+      "frame": 17,
+      "unchanged_tail_pixels": 46
+    },
+    {
+      "frame": 18,
+      "unchanged_tail_pixels": 47
+    },
+    {
+      "frame": 19,
+      "unchanged_tail_pixels": 145
+    },
+    {
+      "frame": 20,
+      "unchanged_tail_pixels": 71
+    },
+    {
+      "frame": 21,
+      "unchanged_tail_pixels": 67
+    },
+    {
+      "frame": 22,
+      "unchanged_tail_pixels": 30
+    },
+    {
+      "frame": 23,
+      "unchanged_tail_pixels": 25
+    },
+    {
+      "frame": 24,
+      "unchanged_tail_pixels": 14
+    },
+    {
+      "frame": 25,
+      "unchanged_tail_pixels": 19
+    },
+    {
+      "frame": 26,
+      "unchanged_tail_pixels": 9
+    },
+    {
+      "frame": 27,
+      "unchanged_tail_pixels": 23
+    },
+    {
+      "frame": 28,
+      "unchanged_tail_pixels": 15
+    },
+    {
+      "frame": 29,
+      "unchanged_tail_pixels": 27
+    },
+    {
+      "frame": 30,
+      "unchanged_tail_pixels": 52
+    },
+    {
+      "frame": 31,
+      "unchanged_tail_pixels": 33
+    },
+    {
+      "frame": 33,
+      "unchanged_tail_pixels": 50
+    },
+    {
+      "frame": 34,
+      "unchanged_tail_pixels": 58
+    },
+    {
+      "frame": 36,
+      "unchanged_tail_pixels": 15
+    },
+    {
+      "frame": 43,
+      "unchanged_tail_pixels": 12
+    },
+    {
+      "frame": 44,
+      "unchanged_tail_pixels": 154
+    },
+    {
+      "frame": 45,
+      "unchanged_tail_pixels": 52
+    },
+    {
+      "frame": 46,
+      "unchanged_tail_pixels": 54
+    },
+    {
+      "frame": 49,
+      "unchanged_tail_pixels": 155
+    },
+    {
+      "frame": 51,
+      "unchanged_tail_pixels": 22
+    },
+    {
+      "frame": 52,
+      "unchanged_tail_pixels": 40
+    },
+    {
+      "frame": 53,
+      "unchanged_tail_pixels": 125
+    },
+    {
+      "frame": 55,
+      "unchanged_tail_pixels": 10
+    },
+    {
+      "frame": 57,
+      "unchanged_tail_pixels": 21
+    },
+    {
+      "frame": 58,
+      "unchanged_tail_pixels": 15
+    },
+    {
+      "frame": 59,
+      "unchanged_tail_pixels": 154
+    },
+    {
+      "frame": 60,
+      "unchanged_tail_pixels": 2
+    },
+    {
+      "frame": 66,
+      "unchanged_tail_pixels": 3
+    },
+    {
+      "frame": 67,
+      "unchanged_tail_pixels": 15
+    },
+    {
+      "frame": 69,
+      "unchanged_tail_pixels": 94
+    },
+    {
+      "frame": 70,
+      "unchanged_tail_pixels": 35
+    },
+    {
+      "frame": 71,
+      "unchanged_tail_pixels": 72
+    },
+    {
+      "frame": 72,
+      "unchanged_tail_pixels": 32
+    },
+    {
+      "frame": 73,
+      "unchanged_tail_pixels": 134
+    },
+    {
+      "frame": 74,
+      "unchanged_tail_pixels": 12
+    },
+    {
+      "frame": 75,
+      "unchanged_tail_pixels": 13
+    },
+    {
+      "frame": 76,
+      "unchanged_tail_pixels": 13
+    },
+    {
+      "frame": 78,
+      "unchanged_tail_pixels": 10
+    },
+    {
+      "frame": 80,
+      "unchanged_tail_pixels": 14
+    },
+    {
+      "frame": 81,
+      "unchanged_tail_pixels": 19
+    },
+    {
+      "frame": 82,
+      "unchanged_tail_pixels": 997
+    },
+    {
+      "frame": 83,
+      "unchanged_tail_pixels": 247
+    },
+    {
+      "frame": 84,
+      "unchanged_tail_pixels": 11
+    },
+    {
+      "frame": 85,
+      "unchanged_tail_pixels": 37
+    },
+    {
+      "frame": 87,
+      "unchanged_tail_pixels": 112
+    },
+    {
+      "frame": 90,
+      "unchanged_tail_pixels": 9
+    },
+    {
+      "frame": 93,
+      "unchanged_tail_pixels": 6
+    },
+    {
+      "frame": 95,
+      "unchanged_tail_pixels": 37
+    },
+    {
+      "frame": 96,
+      "unchanged_tail_pixels": 5
+    },
+    {
+      "frame": 97,
+      "unchanged_tail_pixels": 13
+    },
+    {
+      "frame": 98,
+      "unchanged_tail_pixels": 1
+    },
+    {
+      "frame": 99,
+      "unchanged_tail_pixels": 35
+    },
+    {
+      "frame": 100,
+      "unchanged_tail_pixels": 4
+    },
+    {
+      "frame": 102,
+      "unchanged_tail_pixels": 54
+    },
+    {
+      "frame": 103,
+      "unchanged_tail_pixels": 4
+    },
+    {
+      "frame": 104,
+      "unchanged_tail_pixels": 2
+    },
+    {
+      "frame": 105,
+      "unchanged_tail_pixels": 2
+    }
+  ],
+  "rgba_fnv64": {
+    "0": "68482921867702491",
+    "1": "18083930093729236607",
+    "24": "5120381322222286631",
+    "110": "3805793403811293151",
+    "111": "7506888735744058243",
+    "144": "17744026982490252155",
+    "288": "6445402099134541483",
+    "398": "7506888735744058243"
+  },
+  "verification": "All 399 frames agree byte-for-byte with strict FFmpeg decoding of equivalent full-span commands; original PCM agrees exactly.",
+  "decoder": "ffmpeg version 8.1.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+}

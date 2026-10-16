@@ -1,0 +1,195 @@
+UpdateCTestConfiguration  from :C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/DartConfiguration.tcl
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 71
+    Start 71: original_tunnel_exit_contracts
+
+71: Test command: C:\Users\vrock\AppData\Local\Temp\actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b\Release\exit_tests.exe "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/local-data" "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/exit-captures"
+71: Working Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+71: Environment variables: 
+71:  SDL_VIDEODRIVER=dummy
+71:  SDL_RENDER_DRIVER=software
+71:  SDL_AUDIODRIVER=dummy
+71: Test timeout computed to be: 90
+71: Venue 0 half 0 exit ticks 279 remaining 0
+71: Venue 0 half 1 exit ticks 282 remaining 0
+71: Venue 1 half 0 exit ticks 279 remaining 0
+71: Venue 1 half 1 exit ticks 282 remaining 0
+71: Venue 2 half 0 exit ticks 279 remaining 0
+71: Venue 2 half 1 exit ticks 282 remaining 0
+71: Venue 3 half 0 exit ticks 279 remaining 0
+71: Venue 3 half 1 exit ticks 282 remaining 0
+71: Venue 4 half 0 exit ticks 279 remaining 0
+71: Venue 4 half 1 exit ticks 282 remaining 0
+71: Occlusion venue 0 half 0 side 0 y 600 actor pixels 81
+71: Occlusion venue 0 half 0 side 0 y 800 actor pixels 76
+71: Occlusion venue 0 half 0 side 0 y 1040 actor pixels 57
+71: Occlusion venue 0 half 0 side 0 y 1140 actor pixels 25
+71: Occlusion venue 0 half 0 side 0 y 1280 actor pixels 0
+71: Occlusion venue 0 half 0 side 0 y 1340 actor pixels 0
+71: Occlusion venue 0 half 0 side 0 y 1380 actor pixels 0
+71: Occlusion venue 0 half 0 side 1 y 600 actor pixels 86
+71: Occlusion venue 0 half 0 side 1 y 800 actor pixels 80
+71: Occlusion venue 0 half 0 side 1 y 1040 actor pixels 62
+71: Occlusion venue 0 half 0 side 1 y 1140 actor pixels 43
+71: Occlusion venue 0 half 0 side 1 y 1280 actor pixels 0
+71: Occlusion venue 0 half 0 side 1 y 1340 actor pixels 0
+71: Occlusion venue 0 half 0 side 1 y 1380 actor pixels 0
+71: Occlusion venue 0 half 1 side 0 y 600 actor pixels 85
+71: Occlusion venue 0 half 1 side 0 y 800 actor pixels 77
+71: Occlusion venue 0 half 1 side 0 y 1040 actor pixels 64
+71: Occlusion venue 0 half 1 side 0 y 1140 actor pixels 41
+71: Occlusion venue 0 half 1 side 0 y 1280 actor pixels 0
+71: Occlusion venue 0 half 1 side 0 y 1340 actor pixels 0
+71: Occlusion venue 0 half 1 side 0 y 1380 actor pixels 0
+71: Occlusion venue 0 half 1 side 1 y 600 actor pixels 76
+71: Occlusion venue 0 half 1 side 1 y 800 actor pixels 73
+71: Occlusion venue 0 half 1 side 1 y 1040 actor pixels 48
+71: Occlusion venue 0 half 1 side 1 y 1140 actor pixels 35
+71: Occlusion venue 0 half 1 side 1 y 1280 actor pixels 0
+71: Occlusion venue 0 half 1 side 1 y 1340 actor pixels 0
+71: Occlusion venue 0 half 1 side 1 y 1380 actor pixels 0
+71: Occlusion venue 1 half 0 side 0 y 600 actor pixels 81
+71: Occlusion venue 1 half 0 side 0 y 800 actor pixels 76
+71: Occlusion venue 1 half 0 side 0 y 1040 actor pixels 57
+71: Occlusion venue 1 half 0 side 0 y 1140 actor pixels 25
+71: Occlusion venue 1 half 0 side 0 y 1280 actor pixels 0
+71: Occlusion venue 1 half 0 side 0 y 1340 actor pixels 0
+71: Occlusion venue 1 half 0 side 0 y 1380 actor pixels 0
+71: Occlusion venue 1 half 0 side 1 y 600 actor pixels 86
+71: Occlusion venue 1 half 0 side 1 y 800 actor pixels 80
+71: Occlusion venue 1 half 0 side 1 y 1040 actor pixels 62
+71: Occlusion venue 1 half 0 side 1 y 1140 actor pixels 43
+71: Occlusion venue 1 half 0 side 1 y 1280 actor pixels 0
+71: Occlusion venue 1 half 0 side 1 y 1340 actor pixels 0
+71: Occlusion venue 1 half 0 side 1 y 1380 actor pixels 0
+71: Occlusion venue 1 half 1 side 0 y 600 actor pixels 85
+71: Occlusion venue 1 half 1 side 0 y 800 actor pixels 77
+71: Occlusion venue 1 half 1 side 0 y 1040 actor pixels 64
+71: Occlusion venue 1 half 1 side 0 y 1140 actor pixels 41
+71: Occlusion venue 1 half 1 side 0 y 1280 actor pixels 0
+71: Occlusion venue 1 half 1 side 0 y 1340 actor pixels 0
+71: Occlusion venue 1 half 1 side 0 y 1380 actor pixels 0
+71: Occlusion venue 1 half 1 side 1 y 600 actor pixels 76
+71: Occlusion venue 1 half 1 side 1 y 800 actor pixels 73
+71: Occlusion venue 1 half 1 side 1 y 1040 actor pixels 48
+71: Occlusion venue 1 half 1 side 1 y 1140 actor pixels 35
+71: Occlusion venue 1 half 1 side 1 y 1280 actor pixels 0
+71: Occlusion venue 1 half 1 side 1 y 1340 actor pixels 0
+71: Occlusion venue 1 half 1 side 1 y 1380 actor pixels 0
+71: Occlusion venue 2 half 0 side 0 y 600 actor pixels 81
+71: Occlusion venue 2 half 0 side 0 y 800 actor pixels 76
+71: Occlusion venue 2 half 0 side 0 y 1040 actor pixels 57
+71: Occlusion venue 2 half 0 side 0 y 1140 actor pixels 25
+71: Occlusion venue 2 half 0 side 0 y 1280 actor pixels 0
+71: Occlusion venue 2 half 0 side 0 y 1340 actor pixels 0
+71: Occlusion venue 2 half 0 side 0 y 1380 actor pixels 0
+71: Occlusion venue 2 half 0 side 1 y 600 actor pixels 86
+71: Occlusion venue 2 half 0 side 1 y 800 actor pixels 80
+71: Occlusion venue 2 half 0 side 1 y 1040 actor pixels 62
+71: Occlusion venue 2 half 0 side 1 y 1140 actor pixels 43
+71: Occlusion venue 2 half 0 side 1 y 1280 actor pixels 0
+71: Occlusion venue 2 half 0 side 1 y 1340 actor pixels 0
+71: Occlusion venue 2 half 0 side 1 y 1380 actor pixels 0
+71: Occlusion venue 2 half 1 side 0 y 600 actor pixels 85
+71: Occlusion venue 2 half 1 side 0 y 800 actor pixels 77
+71: Occlusion venue 2 half 1 side 0 y 1040 actor pixels 64
+71: Occlusion venue 2 half 1 side 0 y 1140 actor pixels 41
+71: Occlusion venue 2 half 1 side 0 y 1280 actor pixels 0
+71: Occlusion venue 2 half 1 side 0 y 1340 actor pixels 0
+71: Occlusion venue 2 half 1 side 0 y 1380 actor pixels 0
+71: Occlusion venue 2 half 1 side 1 y 600 actor pixels 76
+71: Occlusion venue 2 half 1 side 1 y 800 actor pixels 73
+71: Occlusion venue 2 half 1 side 1 y 1040 actor pixels 48
+71: Occlusion venue 2 half 1 side 1 y 1140 actor pixels 35
+71: Occlusion venue 2 half 1 side 1 y 1280 actor pixels 0
+71: Occlusion venue 2 half 1 side 1 y 1340 actor pixels 0
+71: Occlusion venue 2 half 1 side 1 y 1380 actor pixels 0
+71: Occlusion venue 3 half 0 side 0 y 600 actor pixels 81
+71: Occlusion venue 3 half 0 side 0 y 800 actor pixels 76
+71: Occlusion venue 3 half 0 side 0 y 1040 actor pixels 57
+71: Occlusion venue 3 half 0 side 0 y 1140 actor pixels 25
+71: Occlusion venue 3 half 0 side 0 y 1280 actor pixels 0
+71: Occlusion venue 3 half 0 side 0 y 1340 actor pixels 0
+71: Occlusion venue 3 half 0 side 0 y 1380 actor pixels 0
+71: Occlusion venue 3 half 0 side 1 y 600 actor pixels 86
+71: Occlusion venue 3 half 0 side 1 y 800 actor pixels 80
+71: Occlusion venue 3 half 0 side 1 y 1040 actor pixels 62
+71: Occlusion venue 3 half 0 side 1 y 1140 actor pixels 43
+71: Occlusion venue 3 half 0 side 1 y 1280 actor pixels 0
+71: Occlusion venue 3 half 0 side 1 y 1340 actor pixels 0
+71: Occlusion venue 3 half 0 side 1 y 1380 actor pixels 0
+71: Occlusion venue 3 half 1 side 0 y 600 actor pixels 85
+71: Occlusion venue 3 half 1 side 0 y 800 actor pixels 77
+71: Occlusion venue 3 half 1 side 0 y 1040 actor pixels 64
+71: Occlusion venue 3 half 1 side 0 y 1140 actor pixels 41
+71: Occlusion venue 3 half 1 side 0 y 1280 actor pixels 0
+71: Occlusion venue 3 half 1 side 0 y 1340 actor pixels 0
+71: Occlusion venue 3 half 1 side 0 y 1380 actor pixels 0
+71: Occlusion venue 3 half 1 side 1 y 600 actor pixels 76
+71: Occlusion venue 3 half 1 side 1 y 800 actor pixels 73
+71: Occlusion venue 3 half 1 side 1 y 1040 actor pixels 48
+71: Occlusion venue 3 half 1 side 1 y 1140 actor pixels 35
+71: Occlusion venue 3 half 1 side 1 y 1280 actor pixels 0
+71: Occlusion venue 3 half 1 side 1 y 1340 actor pixels 0
+71: Occlusion venue 3 half 1 side 1 y 1380 actor pixels 0
+71: Occlusion venue 4 half 0 side 0 y 600 actor pixels 81
+71: Occlusion venue 4 half 0 side 0 y 800 actor pixels 76
+71: Occlusion venue 4 half 0 side 0 y 1040 actor pixels 57
+71: Occlusion venue 4 half 0 side 0 y 1140 actor pixels 25
+71: Occlusion venue 4 half 0 side 0 y 1280 actor pixels 0
+71: Occlusion venue 4 half 0 side 0 y 1340 actor pixels 0
+71: Occlusion venue 4 half 0 side 0 y 1380 actor pixels 0
+71: Occlusion venue 4 half 0 side 1 y 600 actor pixels 86
+71: Occlusion venue 4 half 0 side 1 y 800 actor pixels 80
+71: Occlusion venue 4 half 0 side 1 y 1040 actor pixels 62
+71: Occlusion venue 4 half 0 side 1 y 1140 actor pixels 43
+71: Occlusion venue 4 half 0 side 1 y 1280 actor pixels 0
+71: Occlusion venue 4 half 0 side 1 y 1340 actor pixels 0
+71: Occlusion venue 4 half 0 side 1 y 1380 actor pixels 0
+71: Occlusion venue 4 half 1 side 0 y 600 actor pixels 85
+71: Occlusion venue 4 half 1 side 0 y 800 actor pixels 77
+71: Occlusion venue 4 half 1 side 0 y 1040 actor pixels 64
+71: Occlusion venue 4 half 1 side 0 y 1140 actor pixels 41
+71: Occlusion venue 4 half 1 side 0 y 1280 actor pixels 0
+71: Occlusion venue 4 half 1 side 0 y 1340 actor pixels 0
+71: Occlusion venue 4 half 1 side 0 y 1380 actor pixels 0
+71: Occlusion venue 4 half 1 side 1 y 600 actor pixels 76
+71: Occlusion venue 4 half 1 side 1 y 800 actor pixels 73
+71: Occlusion venue 4 half 1 side 1 y 1040 actor pixels 48
+71: Occlusion venue 4 half 1 side 1 y 1140 actor pixels 35
+71: Occlusion venue 4 half 1 side 1 y 1280 actor pixels 0
+71: Occlusion venue 4 half 1 side 1 y 1340 actor pixels 0
+71: Occlusion venue 4 half 1 side 1 y 1380 actor pixels 0
+71: Original tunnel routes, five venues/both ends, immutable live state, period transitions, pause/focus and keyboard/gamepad skip passed.
+1/2 Test #71: original_tunnel_exit_contracts ...   Passed    6.24 sec
+test 83
+    Start 83: saved_replay_contracts
+
+83: Test command: C:\Users\vrock\AppData\Local\Temp\actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b\Release\saved_replay_tests.exe "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/local-data" "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/saved-replay-tests"
+83: Working Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+83: Environment variables: 
+83:  SDL_VIDEODRIVER=dummy
+83:  SDL_RENDER_DRIVER=software
+83:  SDL_AUDIODRIVER=dummy
+83: Test timeout computed to be: 90
+83: Replay load: Invalid or unsupported replay file (check 63)
+83: 1. Immutable unique files, visual roundtrip, five cameras and live-state retention passed.
+83: 2. Truncation, size/version/checksum, identities, capture indices, NaNs and ball bounds rejected safely.
+83: 3. Write failure, fresh application, second-half shirts/red cards/keepers and venue restoration passed.
+83: 4. Title and paused-match libraries, controller/keyboard navigation and safe return passed.
+83: 5. Empty, damaged, partial and mixed replay libraries passed. Captures: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/saved-replay-tests\1578800-0
+2/2 Test #83: saved_replay_contracts ...........   Passed    3.50 sec
+
+The following tests passed:
+	original_tunnel_exit_contracts
+	saved_replay_contracts
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   9.82 sec

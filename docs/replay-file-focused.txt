@@ -1,0 +1,9 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start 83: saved_replay_contracts
+1/2 Test #83: saved_replay_contracts ...........   Passed    1.91 sec
+    Start 84: native_replay_file_smoke
+2/2 Test #84: native_replay_file_smoke .........   Passed    2.50 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   4.54 sec

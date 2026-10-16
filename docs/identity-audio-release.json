@@ -1,0 +1,49 @@
+{
+  "version": "0.63.0",
+  "buildId": "773bb8f8af584c1f-2b4b128d-0703f4d7-7dba4a40",
+  "sourceFiles": 427,
+  "sourceUnchanged": true,
+  "saveUnchanged": true,
+  "saveSha256": "9683d18cecad6d6c3d57d294ca57cd1b0cff427c723892502d05958f8f4bc2df",
+  "previousRetailNameTonesUnchanged": 888,
+  "kitPixelsPalettesClashesUnchanged": true,
+  "appearanceMappingsResolved": 24,
+  "previousPeriodRecordingsUnchanged": 256,
+  "playersVoiced": 320,
+  "retailNameTones": 959,
+  "compatibilityNameTones": 1,
+  "namePcmCallbackCases": 1920,
+  "periodRecordings": 282,
+  "periodRuntimeCases": 746,
+  "tests": 23,
+  "packageSmokes": 9,
+  "packageHashes": 53,
+  "executables": [
+    {
+      "path": "C:\\Users\\vrock\\AppData\\Local\\Temp\\actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b\\Release\\actua96.exe",
+      "sha256": "773bb8f8af584c1fbdd51975442b2de31a7d6a9056803f21a45407b38295393a"
+    },
+    {
+      "path": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\actuasoccer96-windows\\dist\\actua96-0.63.0-d6f54f0b6c804fc6a2a2f2419fa778d7\\actua96.exe",
+      "sha256": "773bb8f8af584c1fbdd51975442b2de31a7d6a9056803f21a45407b38295393a"
+    },
+    {
+      "path": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\Actua96-Playtest\\builds\\773bb8f8af584c1f-2b4b128d-0703f4d7-7dba4a40\\actua96.exe",
+      "sha256": "773bb8f8af584c1fbdd51975442b2de31a7d6a9056803f21a45407b38295393a"
+    }
+  ],
+  "media": {
+    "GRAPHICS/EURO96.BIN": "7bd7d9749f0382b5883b982e53e8c1fb6bd2143153f46c2d541eb2f11cebdb3a",
+    "COMMENTARY/EURO_NAMES.BIN": "5fb00bdbceac8bc64e7a479f26444a0228a80f64d14a0c99f454d6b8d293543e",
+    "COMMENTARY/EURO_PERIODS.BIN": "0fb9a0fd1f0efdbbb94816fb837beaec77608872e9832edc2b25abe6a3bb062f"
+  },
+  "package": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\actuasoccer96-windows\\dist\\actua96-0.63.0-d6f54f0b6c804fc6a2a2f2419fa778d7",
+  "physicalControllerTest": false,
+  "physicalAudioTest": false,
+  "runningGameRestarted": false,
+  "unresolved": [
+    "Eight duplicate HLF entries: intended scores not verified",
+    "Exact retail result-screen music continuation",
+    "Kuznetsov normal-tone Euro WAV absent"
+  ]
+}

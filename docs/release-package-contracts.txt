@@ -1,0 +1,9 @@
+Valid fixture accepted (no executable run).
+Rejected modified fixture as expected.
+Rejected missing fixture as expected.
+Rejected unlisted fixture as expected.
+Rejected required fixture as expected.
+Rejected duplicate fixture as expected.
+Rejected traversal fixture as expected.
+Rejected absolute fixture as expected.
+Package contracts passed: 1 valid and 7 invalid fixtures. Scratch: C:\Users\vrock\Documents\Codex\2026-10-08\ex\outputs\actuasoccer96-windows\tools\..\..\..\work\package-contracts-06712a22736242a4a7b1c14f67a37248

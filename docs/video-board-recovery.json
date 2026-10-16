@@ -1,0 +1,52 @@
+{
+  "inputs": {
+    "FAP.DAT": "4eb101f8b8bd44eca0b8824400476e4a8dbb704eb43c926e4d5bea5dbba26ff3",
+    "FAP.OFF": "3b12f01cf551a6c7866ddcfd6784d8b37b78e5cb4d7b5167278ed0a88e09227c",
+    "FAP.EQU": "6fb1ede6da4f25cb94e956a1babd17966b019920002bfbe4d9d63b58f36bc4a1",
+    "3DENG.C": "6752b57c76e0f0c56fc3c46fd6d8d67879085e97289d9fcb28d3c60bb3d42f76"
+  },
+  "rectangle": {
+    "page": 8,
+    "offset": 1802,
+    "width": 128,
+    "height": 80,
+    "stride": 256
+  },
+  "records": {
+    "idle": [
+      0,
+      1
+    ],
+    "extra_time": [
+      4,
+      5
+    ],
+    "foul": [
+      6,
+      7
+    ],
+    "full_time": [
+      8,
+      9
+    ],
+    "half_time": [
+      10,
+      11
+    ],
+    "penalty": [
+      12,
+      13
+    ],
+    "goal": [
+      14,
+      15
+    ]
+  },
+  "adaptations": [
+    "Bounded literal/skip decoder on native buffers",
+    "11/200 second frame interval; preserved event frame limits and loops",
+    "Native event counters connect the dormant source renderer path",
+    "Palette updates scoped to the board texture rectangle; gameplay RNG untouched",
+    "Board freezes during pause and replay; current live event resumes afterward"
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "inputs": {
+    "EURO96.EXE": "2a473a002a294c1bb28ea39e94a36afc34497dd7e44f0ebfeda0ea21f652b62d",
+    "FAP.DAT": "c1b917dd6319cd0eb94cf8db5391283afdafd846f86c48000a0fa5a3b86471b6",
+    "FAP.OFF": "ff93223b63dcc20fd9b115a2d9e96edb00bd38781d064a78190c929720e21ddb",
+    "EUROREND.DAT": "f580229f73fe512a4519707f5b2500c58a28c0cacc7402e5ac0db8f403096cde",
+    "EUROREND.OFF": "70164cc092c0503f92a49762158deef4f4058cf4c665914ecbc61596c2e5ef1f"
+  },
+  "anchors": [
+    {
+      "offset": "0xe0a70",
+      "bytes": "81c200040000",
+      "meaning": "Match decoder skips 1024-byte frame table"
+    },
+    {
+      "offset": "0xe0bcd",
+      "bytes": "83fe01",
+      "meaning": "Frame tag selects literal/skip versus literal/repeat"
+    },
+    {
+      "offset": "0xf07f9",
+      "bytes": "31c0",
+      "meaning": "Initial board archive record zero"
+    },
+    {
+      "offset": "0xe0d62",
+      "bytes": "b840000000",
+      "meaning": "Handler 1 red-card record 8"
+    },
+    {
+      "offset": "0xe0d6e",
+      "bytes": "b848000000",
+      "meaning": "Handler 1 red-card record 9"
+    },
+    {
+      "offset": "0xe0e1f",
+      "bytes": "b818000000",
+      "meaning": "Foul record 3"
+    },
+    {
+      "offset": "0xe0e2b",
+      "bytes": "b820000000",
+      "meaning": "Foul record 4"
+    },
+    {
+      "offset": "0xe0edb",
+      "bytes": "b870000000",
+      "meaning": "Handler 3 yellow-card record 14"
+    },
+    {
+      "offset": "0xe0ee7",
+      "bytes": "b878000000",
+      "meaning": "Handler 3 yellow-card record 15"
+    },
+    {
+      "offset": "0xe0f97",
+      "bytes": "b850000000",
+      "meaning": "Half time record 10"
+    },
+    {
+      "offset": "0xe0fa3",
+      "bytes": "b858000000",
+      "meaning": "Half time record 11"
+    },
+    {
+      "offset": "0xe1051",
+      "bytes": "b838000000",
+      "meaning": "Penalty record 7"
+    },
+    {
+      "offset": "0xe10fc",
+      "bytes": "b808000000",
+      "meaning": "Goal record 1"
+    },
+    {
+      "offset": "0xe11ad",
+      "bytes": "b810000000",
+      "meaning": "Championship winners record 2"
+    },
+    {
+      "offset": "0xe125f",
+      "bytes": "b868000000",
+      "meaning": "Winners record 13"
+    },
+    {
+      "offset": "0xe126b",
+      "bytes": "b860000000",
+      "meaning": "Winners record 12"
+    }
+  ],
+  "inventory": [
+    {
+      "record": 0,
+      "frames": 1,
+      "sha256": "80e96c366081f2e6399638365911fca20b78c1a2209c8c3fb1bc2024f1b52dae",
+      "decoded_sha256": "983dc1c0d66794ac5a0f4bd781a1dfdfdbf300ec7afd0d44d7db0c462092a7a4"
+    },
+    {
+      "record": 1,
+      "frames": 73,
+      "sha256": "78b170a290f25e3e093c63084678288c9455b3ac64e8c4f487a0032d7afca1a2",
+      "decoded_sha256": "3f9f2df79a21b05b0a07d856ce731c9934482b6d11029d9617dbc337e7f6719a"
+    },
+    {
+      "record": 2,
+      "frames": 40,
+      "sha256": "53be1f76a567effb28d395ad0305fdc0477c5f0e1e7934dfaa9bbcc2b1ffd253",
+      "decoded_sha256": "54010564c0a152415d06c90560ab0995f3d712b3f376ba7cf07b66322099ac12"
+    },
+    {
+      "record": 3,
+      "frames": 40,
+      "sha256": "fdd606667ac5a4a2f6f28dbe39648ef573e6beed5bde8e55be90f2ea26a925df",
+      "decoded_sha256": "bf96fe114b3a2249196aec31e38070730731c9a1d6e716d89e1da743c74c0a16"
+    },
+    {
+      "record": 4,
+      "frames": 45,
+      "sha256": "96749a0ccf0d276ecdb26cfb604d6fd2acbb1272bc233aabd9e72d22d55e1acb",
+      "decoded_sha256": "996da183bedcf8653cf067c5f62e34af7eebfc8099950abf059cc16123dd90a4"
+    },
+    {
+      "record": 5,
+      "frames": 36,
+      "sha256": "2845695388ac4f7fe6a83fea36762765f4b445929cc7659e3d64b7902ba47bef",
+      "decoded_sha256": "a8d6748274989c6f9013e1acaa9c409d7681e5425444b70773325a83a2aa2fe2"
+    },
+    {
+      "record": 6,
+      "frames": 40,
+      "sha256": "d55d6b6515712f52746c1165033c06c3748bb6adc25d967403d03e3dc308fbe0",
+      "decoded_sha256": "24c638a9acf15aa11a660036e22050ec0d2f817893570e4d5d28650f866958c7"
+    },
+    {
+      "record": 7,
+      "sha256": "62af48fa54c562df58a5e924f24a48ec08d117b4f47358aa0919ca9b5965aeb2",
+      "excluded": "Board literal outside frame"
+    },
+    {
+      "record": 8,
+      "frames": 50,
+      "sha256": "6523554c535b84b3a1fa1be3c80ca48d9d14f23468fe5a911de90659a64de576",
+      "decoded_sha256": "61051bec485fb7311fb2b49c7064a77107fadb5870e04ac2783546fd322cd2d3"
+    },
+    {
+      "record": 9,
+      "frames": 50,
+      "sha256": "0ce9f148e273e75e4d45928e2782ac5d35eaa8309e8cac9acf37ca06c16c01cf",
+      "decoded_sha256": "677ae500b4379b38069202e6c8abe5e363c5acee00651f54516be90ede941de6"
+    },
+    {
+      "record": 10,
+      "frames": 36,
+      "sha256": "83d7e68dd3c090e9bf51acbdc95e4f306a08a031c43b1ed33dbbda0fed06d4df",
+      "decoded_sha256": "0d73a6d2762ef6f5b4a46f57efd310884f9f440c251a8f1d3901229ef783e150"
+    },
+    {
+      "record": 11,
+      "frames": 40,
+      "sha256": "700531773b4cfb04cdfe04fd7ec744120f16082893edd0de03310fbb87aca98d",
+      "decoded_sha256": "c3ed0a1cae7c2985411df8e22c8e50e6cc5275cb4d38e28476f56a0581058f00"
+    },
+    {
+      "record": 12,
+      "frames": 50,
+      "sha256": "04145ee892783ec3d8b9edf5a155925a8950068e6df6c3231f0ac6866a552a85",
+      "decoded_sha256": "d4308ebd55285a4c71a1cdc6e326a8d293c51ce25d6809ba6cce51fcb715a4f1"
+    },
+    {
+      "record": 13,
+      "frames": 50,
+      "sha256": "d02a67eb5d3982b5521821c494d0f20be072cdbf0186f7e2bbdc648967211159",
+      "decoded_sha256": "589cf81165b287a00405e2ca502abe89f80355091fa4dc19bedb60d9a5778865"
+    },
+    {
+      "record": 14,
+      "frames": 50,
+      "sha256": "5c9a2c651f0aa779fd359d59ba388b6c2cf19671f364207b4d2f719d20547ecd",
+      "decoded_sha256": "5e4332a08cf5630c8a350a615458ee44da12246aceb64242066f57c12b9531c5"
+    },
+    {
+      "record": 15,
+      "frames": 50,
+      "sha256": "4bb08c631421f7751445a5def7ffdc52698265bef17852f011ec5dde9cdad8ff",
+      "decoded_sha256": "4760f1e93e7b4255493488e353e36c019f0b688a40513c0d96f4a641c4a2e39e"
+    }
+  ],
+  "event_records": {
+    "0": [
+      0
+    ],
+    "2": [
+      3,
+      4
+    ],
+    "4": [
+      10,
+      11
+    ],
+    "6": [
+      1
+    ],
+    "7": [
+      14,
+      15
+    ],
+    "8": [
+      8,
+      9
+    ]
+  },
+  "output_sha256": "e9f1309f4f79ec3203f66b705f8f8afee87c2928d1060f2d7c6044931d4a4631",
+  "boundaries": [
+    "Penalty record 7 exceeds pixel bounds after 20 decoded frames; retain original fallback.",
+    "Records 2/12/13 decode, but winner event routing is not connected.",
+    "Goal record 1 has 73 valid streamed frames despite 67 table entries.",
+    "Native observer connects confirmed card colours to booking/send-off events; retail handler IDs differ from preserved source.",
+    "Extra/full time keep existing fallback; winner routing remains unverified.",
+    "Variant rotation and 20 Hz playback are native timing adaptations."
+  ]
+}

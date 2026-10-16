@@ -1,0 +1,25 @@
+{
+  "inputs": {
+    "BALL.OBJ": "f8dd68af5519f5fd70085de559d57418f24beea6dea9f9fb2cfd8e4627e76ec5",
+    "MATHS.OBJ": "ccffdd411ad3f1f0b56c0623884bf9ef5083412dccf580e5a2c1a7701721a5b9",
+    "FOOTBALL.OBJ": "80386fd58625e1a5a8491cdf700096af782636923ba40b778746274c8663430a"
+  },
+  "native_executable_sha256": "a6d087cf63400c35ee4016f0679754ba791e551d625ef02ba4effd1f642826d5",
+  "scenarios_within_tolerance": 5,
+  "ticks_compared_within_tolerance": 400,
+  "compared_values": 2800,
+  "max_absolute_error": 0.0001225585937163487,
+  "tolerance": 0.002,
+  "precision_boundary_case": {
+    "first_divergence": {
+      "tick": 47,
+      "field": 5,
+      "native": 2.95075774,
+      "original": 3.2786190509796143
+    },
+    "max_absolute_difference": 8.599999423162842,
+    "explanation": "A horizontal-only aftertouch input leads to a landing within a few millionths of the floor. Floating-point rounding changes which tick triggers the strict ballz < radius comparison. This case is recorded, not asserted to be equivalent."
+  },
+  "scope": "Ground roll, loft and bounce, wind, swerve, aftertouch. Position/velocity/in-air state; prediction mode. Native x64 vs emulated preserved x86.",
+  "original_execution": "BALL.OBJ and MATHS.OBJ in Unicorn; original data from FOOTBALL.OBJ; x87 fsin/fcos/fsqrt shims only; unknown imports fail."
+}

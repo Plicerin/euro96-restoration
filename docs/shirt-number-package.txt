@@ -1,0 +1,10 @@
+Package 0.54.1: 39 files hash-checked; 0 optional media absent.
+Isolated package passed --version
+Isolated package passed --verify
+Isolated package passed --frontend-smoke
+Isolated package passed --tournament-save-smoke
+Isolated package passed --replay-file-smoke
+Isolated package passed --head-to-head-smoke
+Isolated package passed --movie-smoke
+Isolated package passed --intro-smoke
+Isolated package and logs retained: C:\Users\vrock\AppData\Local\Temp\Actua96 package audit 47677d9ae0e1405cbcddf6e1d72e64a3

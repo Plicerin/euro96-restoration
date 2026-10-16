@@ -1,0 +1,10 @@
+normal release: v=17.7075,0,6.52031 air=1 swerve=0 xy=0.105 z=0.09 spin=0 after=1
+aftertouch delta=29.0093
+First-time selections: 1 2 3 8 9; shot animations: 35 79; control animations: 54 81 84; contacts=18/18
+First-time pass: half=0 action=10 receiver=3 contacts=1 shots=0
+First-time pass: half=0 action=9 receiver=3 contacts=1 shots=0
+First-time pass: half=0 action=7 receiver=3 contacts=1 shots=0
+First-time pass: half=1 action=10 receiver=14 contacts=1 shots=0
+First-time pass: half=1 action=9 receiver=14 contacts=1 shots=0
+First-time pass: half=1 action=7 receiver=14 contacts=1 shots=0
+Original shots, ground/high/chip/disguised passes, crossing, first-time foot/header/volley contacts, control, steal, aftertouch and pause gating passed.

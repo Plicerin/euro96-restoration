@@ -1,0 +1,9 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start 43: native_match_depth_smoke
+1/2 Test #43: native_match_depth_smoke .............   Passed    5.26 sec
+    Start 69: original_replay_controls_contracts
+2/2 Test #69: original_replay_controls_contracts ...   Passed    0.67 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   6.12 sec

@@ -1,0 +1,4951 @@
+{
+  "banks": [
+    {
+      "path": "DIGI/TEAMS/E/E_BU.MAD",
+      "sha256": "0ea39497a2adf7b2967334670a3e0ab75ef5b13580f64ec1bc847a762a3fd966"
+    },
+    {
+      "path": "DIGI/TEAMS/E/E_CZ.MAD",
+      "sha256": "f46696915bb854b63d9b96d3f42abf6191607d4b825f41140ca811c3e83a200c"
+    },
+    {
+      "path": "DIGI/TEAMS/E/E_DE.MAD",
+      "sha256": "66d4b03e213efeab8881ac95956250ad86afbb769b2f4f1e68443d64bd968766"
+    },
+    {
+      "path": "DIGI/TEAMS/E/E_EN.MAD",
+      "sha256": "6417214a950b3327d361a9615f4857d27aaf53166d021be4582b226f384e97b0"
+    },
+    {
+      "path": "DIGI/TEAMS/E/E_FR.MAD",
+      "sha256": "9ab48c285d582d63144c99b52a10932fd022870180825f20683b3a073c1aba0f"
+    },
+    {
+      "path": "DIGI/TEAMS/E/E_GE.MAD",
+      "sha256": "143c4ce6655d3591464a0e4f7468ed2b71ed7809ce07790ba9e98488db2bd631"
+    },
+    {
+      "path": "DIGI/TEAMS/E/E_HO.MAD",
+      "sha256": "b5616deb91850620daed4cd01358bd4bfaae587e5f9fc9f5642daf24b172df62"
+    },
+    {
+      "path": "DIGI/TEAMS/E/E_IT.MAD",
+      "sha256": "b5656c2ce7b45a2c076f9f8c069ab44dbf55118fbf47b155fe2731424fb921d7"
+    },
+    {
+      "path": "DIGI/TEAMS/E/E_PG.MAD",
+      "sha256": "324ba1ef2d178d1a291a5c4852d7973b862ad5c22a36ee483e437cd9aceb2dce"
+    },
+    {
+      "path": "DIGI/TEAMS/E/E_RM.MAD",
+      "sha256": "2d6bd2ef2e65acd638612e1c754d9200af9adb9792dc507ef4e13a37894940be"
+    },
+    {
+      "path": "DIGI/TEAMS/E/E_RU.MAD",
+      "sha256": "54e3285b777cfb19e6670ce37f7967cd6e7b3ada1c25faddf29a8b02f1a0e01c"
+    },
+    {
+      "path": "DIGI/TEAMS/E/E_SC.MAD",
+      "sha256": "9ee0c31e2a99eb40ded390bdb184bb90e67414287155236e51739816875c0ee6"
+    },
+    {
+      "path": "DIGI/TEAMS/E/E_SP.MAD",
+      "sha256": "8de0757d0c7f288801319128073441155307fe29924331a806a14a292a7b5de1"
+    },
+    {
+      "path": "DIGI/TEAMS/E/E_SW.MAD",
+      "sha256": "8cce3255ed8b09cc2d1238f00ea061b3564d1080ea2bb12241aa7a6e032cab19"
+    }
+  ],
+  "matches": [
+    {
+      "team": 0,
+      "shirt": 2,
+      "name": "Ilian KIRIAKOV",
+      "cd_name": "I. Kiriakov",
+      "file": "e_bux15.wav",
+      "tone": 1,
+      "sha256": "392fd7a7bfb74cb661059167ca524a27d901e9dae6511f558fc3316e32191d44"
+    },
+    {
+      "team": 0,
+      "shirt": 2,
+      "name": "Ilian KIRIAKOV",
+      "cd_name": "I. Kiriakov",
+      "file": "e_buy15.wav",
+      "tone": 2,
+      "sha256": "29f45294ba2f05d28937d9d9423e38fd584bc51df85ea6e5d2107eb09d127b47"
+    },
+    {
+      "team": 0,
+      "shirt": 2,
+      "name": "Ilian KIRIAKOV",
+      "cd_name": "I. Kiriakov",
+      "file": "e_buz15.wav",
+      "tone": 3,
+      "sha256": "5a1be72883273fa2d96360e569faaa386766f4b9f5b8ee6d599c51c3e39b1035"
+    },
+    {
+      "team": 0,
+      "shirt": 3,
+      "name": "Trifon IVANOV",
+      "cd_name": "T. Ivanov",
+      "file": "e_bux03.wav",
+      "tone": 1,
+      "sha256": "faf128c0af80b76ffdde21ba43c1470bb64b54b7cdff4a176e67a10081cb668a"
+    },
+    {
+      "team": 0,
+      "shirt": 3,
+      "name": "Trifon IVANOV",
+      "cd_name": "T. Ivanov",
+      "file": "e_buy03.wav",
+      "tone": 2,
+      "sha256": "3ed8444dc8c171191bef82bb16357e69b4d79aa41239254c214815509136de7a"
+    },
+    {
+      "team": 0,
+      "shirt": 3,
+      "name": "Trifon IVANOV",
+      "cd_name": "T. Ivanov",
+      "file": "e_buz03.wav",
+      "tone": 3,
+      "sha256": "d3f536aa51fa5f53c944583e85ff77ee0ac7122833cec5ec12e5008dea5afb43"
+    },
+    {
+      "team": 0,
+      "shirt": 4,
+      "name": "Tsanko TSVETANOV",
+      "cd_name": "T. Tsvetanov",
+      "file": "e_bux04.wav",
+      "tone": 1,
+      "sha256": "598677db5b2434f43f250c34362fee3477abe26357711454b29efe3c9294ce41"
+    },
+    {
+      "team": 0,
+      "shirt": 4,
+      "name": "Tsanko TSVETANOV",
+      "cd_name": "T. Tsvetanov",
+      "file": "e_buy04.wav",
+      "tone": 2,
+      "sha256": "92cd2bd3d487a89176e07004391c019bfe150b19115dc3548d47f961e0d3b766"
+    },
+    {
+      "team": 0,
+      "shirt": 4,
+      "name": "Tsanko TSVETANOV",
+      "cd_name": "T. Tsvetanov",
+      "file": "e_buz04.wav",
+      "tone": 3,
+      "sha256": "96d07e2633613e31fe132cc5d315179573a5067dbf54bb3375ff8485d25c9207"
+    },
+    {
+      "team": 0,
+      "shirt": 5,
+      "name": "Emil KREMENLIEV",
+      "cd_name": "E. Kremenliev",
+      "file": "e_bux02.wav",
+      "tone": 1,
+      "sha256": "d1f592439b765abb6015353c4317c116899c57970700ec5e9546a27bd39c0e84"
+    },
+    {
+      "team": 0,
+      "shirt": 5,
+      "name": "Emil KREMENLIEV",
+      "cd_name": "E. Kremenliev",
+      "file": "e_buy02.wav",
+      "tone": 2,
+      "sha256": "0e7bb5a90fd3652080754b241b6672e69695ad95194e4ca26f7c7fe9ddd25f9a"
+    },
+    {
+      "team": 0,
+      "shirt": 5,
+      "name": "Emil KREMENLIEV",
+      "cd_name": "E. Kremenliev",
+      "file": "e_buz02.wav",
+      "tone": 3,
+      "sha256": "c1b25a03d30b21fba01473d27bedd7930a5f970ffb1be578f0b374a43353d1d8"
+    },
+    {
+      "team": 0,
+      "shirt": 6,
+      "name": "Krasimir BALAKOV",
+      "cd_name": "K. Balakov",
+      "file": "e_bux11.wav",
+      "tone": 1,
+      "sha256": "fdfe5dde9805cbdd61d38ebcc1d9cee4c7b867c3352ec1f790307e7ce89dff42"
+    },
+    {
+      "team": 0,
+      "shirt": 6,
+      "name": "Krasimir BALAKOV",
+      "cd_name": "K. Balakov",
+      "file": "e_buy11.wav",
+      "tone": 2,
+      "sha256": "916b0f1d77f4ecdb99aa40703caa0fea58be45ecb8f58919e16ca269866bcf7c"
+    },
+    {
+      "team": 0,
+      "shirt": 6,
+      "name": "Krasimir BALAKOV",
+      "cd_name": "K. Balakov",
+      "file": "e_buz11.wav",
+      "tone": 3,
+      "sha256": "9c46d61cf371f2681ff59c7f2476e87902dd6a581f7320924deaf2d41d61f57d"
+    },
+    {
+      "team": 0,
+      "shirt": 7,
+      "name": "Daniel BORIMIROV",
+      "cd_name": "D. Borimirov",
+      "file": "e_bux20.wav",
+      "tone": 1,
+      "sha256": "cb5d5e2a7b549ceb86d7eec2d6bfa50af213c30065103da0c8ebe85c99a3539b"
+    },
+    {
+      "team": 0,
+      "shirt": 7,
+      "name": "Daniel BORIMIROV",
+      "cd_name": "D. Borimirov",
+      "file": "e_buy20.wav",
+      "tone": 2,
+      "sha256": "eec0eeb446990d96241db799becb61cd091346551b8d64e1d8b5101e9cdfb44e"
+    },
+    {
+      "team": 0,
+      "shirt": 7,
+      "name": "Daniel BORIMIROV",
+      "cd_name": "D. Borimirov",
+      "file": "e_buz20.wav",
+      "tone": 3,
+      "sha256": "b04a06323c957ef2c75fa82064276a0be1e8a733e7c6d7f05b39d95895740632"
+    },
+    {
+      "team": 0,
+      "shirt": 8,
+      "name": "Yordan LECHKOV",
+      "cd_name": "Y. Lechkov",
+      "file": "e_bux07.wav",
+      "tone": 1,
+      "sha256": "e98694d5a138c139f56de1e9920d78c259191f8a3ab6a564d8d244ce6b4f8788"
+    },
+    {
+      "team": 0,
+      "shirt": 8,
+      "name": "Yordan LECHKOV",
+      "cd_name": "Y. Lechkov",
+      "file": "e_buy07.wav",
+      "tone": 2,
+      "sha256": "83cbd08245ac38dbf4059bf83a78d5c129f8cc870a1433f7d117c9d0f30f62b7"
+    },
+    {
+      "team": 0,
+      "shirt": 8,
+      "name": "Yordan LECHKOV",
+      "cd_name": "Y. Lechkov",
+      "file": "e_buz07.wav",
+      "tone": 3,
+      "sha256": "2cd30d30aaab5f492994880174fdf83242d075cd36a5a47f41eac827cd7b6d1a"
+    },
+    {
+      "team": 0,
+      "shirt": 9,
+      "name": "Christo STOICHKOV",
+      "cd_name": "C. Stoichkov",
+      "file": "e_bux09.wav",
+      "tone": 1,
+      "sha256": "045f8d00a9ac7dc3997107708008c0e3bfcfbbdd0d08b4adad054070da6328e2"
+    },
+    {
+      "team": 0,
+      "shirt": 9,
+      "name": "Christo STOICHKOV",
+      "cd_name": "C. Stoichkov",
+      "file": "e_buy09.wav",
+      "tone": 2,
+      "sha256": "ba53a83548b4edf04640ed387ec0b8d06566448b0b9c5fe31c2ed1d467e97769"
+    },
+    {
+      "team": 0,
+      "shirt": 9,
+      "name": "Christo STOICHKOV",
+      "cd_name": "C. Stoichkov",
+      "file": "e_buz09.wav",
+      "tone": 3,
+      "sha256": "5e69914f4c0db017e46bbc57a16beb302b17924c25448efbf94e054841ae4fca"
+    },
+    {
+      "team": 0,
+      "shirt": 10,
+      "name": "Emil KOSTADINOV",
+      "cd_name": "E. Kostadinov",
+      "file": "e_bux10.wav",
+      "tone": 1,
+      "sha256": "63a80405b47157d51cf0da09a90efbcc98d00c560b6b3d3d116f858013825eb5"
+    },
+    {
+      "team": 0,
+      "shirt": 10,
+      "name": "Emil KOSTADINOV",
+      "cd_name": "E. Kostadinov",
+      "file": "e_buy10.wav",
+      "tone": 2,
+      "sha256": "1e0e78b26befb398614ada0b372d3254c7939d12fa1db5db4353d03e96c2d0ba"
+    },
+    {
+      "team": 0,
+      "shirt": 10,
+      "name": "Emil KOSTADINOV",
+      "cd_name": "E. Kostadinov",
+      "file": "e_buz10.wav",
+      "tone": 3,
+      "sha256": "ea6205048b6f3f3b5505ad3daa2eeed1f0e489dd559a87299e2bdf23ee1524ea"
+    },
+    {
+      "team": 0,
+      "shirt": 11,
+      "name": "Nasko SIRAKOV",
+      "cd_name": "N. Sirakov",
+      "file": "e_bux08.wav",
+      "tone": 1,
+      "sha256": "d14ee86597cd6132f609e29dce23d608b5aa79312e54a265ff0be0e64457d1f0"
+    },
+    {
+      "team": 0,
+      "shirt": 11,
+      "name": "Nasko SIRAKOV",
+      "cd_name": "N. Sirakov",
+      "file": "e_buy08.wav",
+      "tone": 2,
+      "sha256": "42555f18d9b46dc2dc78bac85e9f1479b1794132bbefccb551edf9d09ad2fba4"
+    },
+    {
+      "team": 0,
+      "shirt": 11,
+      "name": "Nasko SIRAKOV",
+      "cd_name": "N. Sirakov",
+      "file": "e_buz08.wav",
+      "tone": 3,
+      "sha256": "f0fb615703db40955b0ae446de737c9dd79fc11480ba5676b94f042eabe779d0"
+    },
+    {
+      "team": 0,
+      "shirt": 14,
+      "name": "Zlatko YANKOV",
+      "cd_name": "Z. Yankov",
+      "file": "e_bux06.wav",
+      "tone": 1,
+      "sha256": "dde886de7d87ccf12e32ac0ffb41e2742e17e3f8a23b1c388d0c352324beb598"
+    },
+    {
+      "team": 0,
+      "shirt": 14,
+      "name": "Zlatko YANKOV",
+      "cd_name": "Z. Yankov",
+      "file": "e_buy06.wav",
+      "tone": 2,
+      "sha256": "19e63c741d437a4c04a40efa8ffde1bcb6f492a993284971ab873d1d78d8b248"
+    },
+    {
+      "team": 0,
+      "shirt": 14,
+      "name": "Zlatko YANKOV",
+      "cd_name": "Z. Yankov",
+      "file": "e_buz06.wav",
+      "tone": 3,
+      "sha256": "6614e80ad196ee616f39a65f652f0404471bcc53beb9bb202975d63680d36678"
+    },
+    {
+      "team": 0,
+      "shirt": 17,
+      "name": "Petar KHUBCHEV",
+      "cd_name": "P. Khubchev",
+      "file": "e_bux05.wav",
+      "tone": 1,
+      "sha256": "695458a55df12fa92136a9ff22ef4a3b0af1a9ed2ac2917c01dc14289782000c"
+    },
+    {
+      "team": 0,
+      "shirt": 17,
+      "name": "Petar KHUBCHEV",
+      "cd_name": "P. Khubchev",
+      "file": "e_buy05.wav",
+      "tone": 2,
+      "sha256": "5c7e72d23f1af55bc78a59c6565fcebe13bb548df6a6b545065e50df3e90bfd9"
+    },
+    {
+      "team": 0,
+      "shirt": 17,
+      "name": "Petar KHUBCHEV",
+      "cd_name": "P. Khubchev",
+      "file": "e_buz05.wav",
+      "tone": 3,
+      "sha256": "a7472120f1ce7821f3628e49dc33f4731b664b490bf3d6a7d31b51d1c062062d"
+    },
+    {
+      "team": 0,
+      "shirt": 19,
+      "name": "Petar ALEXANDROV",
+      "cd_name": "P. Alexandrov",
+      "file": "e_bux17.wav",
+      "tone": 1,
+      "sha256": "da8379b8719af1ba0935023ddec497d867d371ba7030192bdc56ffd732d4365c"
+    },
+    {
+      "team": 0,
+      "shirt": 19,
+      "name": "Petar ALEXANDROV",
+      "cd_name": "P. Alexandrov",
+      "file": "e_buy17.wav",
+      "tone": 2,
+      "sha256": "5265509044f96a6c1542184b89c698efb5fee309e0bccd25efdae0c81937ba8f"
+    },
+    {
+      "team": 0,
+      "shirt": 19,
+      "name": "Petar ALEXANDROV",
+      "cd_name": "P. Alexandrov",
+      "file": "e_buz17.wav",
+      "tone": 3,
+      "sha256": "61fa32e5387eff3c85aeddfdf01a9849a86fadd8f160013b513218cdde06e0a3"
+    },
+    {
+      "team": 0,
+      "shirt": 20,
+      "name": "Ivailo YORDANOV",
+      "cd_name": "I. Yordanov",
+      "file": "e_bux13.wav",
+      "tone": 1,
+      "sha256": "430dc2cee0b374cfa24e9df6283958f3f7e2d62a20ead4fbeb2dc21ea0f7f9a1"
+    },
+    {
+      "team": 0,
+      "shirt": 20,
+      "name": "Ivailo YORDANOV",
+      "cd_name": "I. Yordanov",
+      "file": "e_buy13.wav",
+      "tone": 2,
+      "sha256": "002de8c6e1826bad7e966f840fd7e9f93ee5931ca437efabf21c11f0f5520b7e"
+    },
+    {
+      "team": 0,
+      "shirt": 20,
+      "name": "Ivailo YORDANOV",
+      "cd_name": "I. Yordanov",
+      "file": "e_buz13.wav",
+      "tone": 3,
+      "sha256": "59ebb95f2f0ff5a818093da41ebb944a35c2a60264c20fc18c593b84d08d69fc"
+    },
+    {
+      "team": 2,
+      "shirt": 1,
+      "name": "Petr KOUBA",
+      "cd_name": "P. Kouba",
+      "file": "e_czx12.wav",
+      "tone": 1,
+      "sha256": "44cfff56407589956c6150524d78a33ded3ce3e9c0bb35c112c69e1f19927cac"
+    },
+    {
+      "team": 2,
+      "shirt": 1,
+      "name": "Petr KOUBA",
+      "cd_name": "P. Kouba",
+      "file": "e_czy12.wav",
+      "tone": 2,
+      "sha256": "af75352bd2b183a0df1f3f8150d4d215277075d26534e53b3975ad4375500eea"
+    },
+    {
+      "team": 2,
+      "shirt": 1,
+      "name": "Petr KOUBA",
+      "cd_name": "P. Kouba",
+      "file": "e_czz12.wav",
+      "tone": 3,
+      "sha256": "b05164a19b000ff98322ab164a11452589f9dbae0772bd5e2a3e31e294c5fde2"
+    },
+    {
+      "team": 2,
+      "shirt": 2,
+      "name": "Miroslav KADLEC",
+      "cd_name": "M. Kadlec",
+      "file": "e_czx03.wav",
+      "tone": 1,
+      "sha256": "f2fa496ca7a8d90ad4ec45a191bc72306d5abb6fb9cf762633be5528c8b38146"
+    },
+    {
+      "team": 2,
+      "shirt": 2,
+      "name": "Miroslav KADLEC",
+      "cd_name": "M. Kadlec",
+      "file": "e_czy03.wav",
+      "tone": 2,
+      "sha256": "ee14cc48c5b61fe5d629d770c1ee12a54ae7ed0adb3c4729bf27f7e62209d7c8"
+    },
+    {
+      "team": 2,
+      "shirt": 2,
+      "name": "Miroslav KADLEC",
+      "cd_name": "M. Kadlec",
+      "file": "e_czz03.wav",
+      "tone": 3,
+      "sha256": "5d776947aba780707e6e625923bbc56012bd5b228023ed4069444d8ab713bf88"
+    },
+    {
+      "team": 2,
+      "shirt": 3,
+      "name": "Tomas REPKA",
+      "cd_name": "T. Repka",
+      "file": "e_czx05.wav",
+      "tone": 1,
+      "sha256": "7c09cbec818e5a9839c07c3bc1c6e4332cdaed1c59a7d2b39958aac5ba2b22cb"
+    },
+    {
+      "team": 2,
+      "shirt": 3,
+      "name": "Tomas REPKA",
+      "cd_name": "T. Repka",
+      "file": "e_czy05.wav",
+      "tone": 2,
+      "sha256": "fa450f062688ce24a6d4f60e9a8f87fba81f0b2dcff1df8db51588847479f3d2"
+    },
+    {
+      "team": 2,
+      "shirt": 3,
+      "name": "Tomas REPKA",
+      "cd_name": "T. Repka",
+      "file": "e_czz05.wav",
+      "tone": 3,
+      "sha256": "3138c15bc5726786b714b6d65327eb7ab9bfa3523b0b6a333213f7faedd12c06"
+    },
+    {
+      "team": 2,
+      "shirt": 4,
+      "name": "Pavel NEDVED",
+      "cd_name": "P. Nedved",
+      "file": "e_czx20.wav",
+      "tone": 1,
+      "sha256": "717e6ba18188b5aafd7e402638512f8cb35a8ec72cc08ebaa880311dbc1b9c4a"
+    },
+    {
+      "team": 2,
+      "shirt": 4,
+      "name": "Pavel NEDVED",
+      "cd_name": "P. Nedved",
+      "file": "e_czy20.wav",
+      "tone": 2,
+      "sha256": "fb1a4f9f6eab0e25d67255bada968e85e263fedf48a1f807afe8c071f0c41457"
+    },
+    {
+      "team": 2,
+      "shirt": 4,
+      "name": "Pavel NEDVED",
+      "cd_name": "P. Nedved",
+      "file": "e_czz20.wav",
+      "tone": 3,
+      "sha256": "f8bdc975537653261bf0902c83a12e53a458810a3c48c85f376227119a195d1f"
+    },
+    {
+      "team": 2,
+      "shirt": 6,
+      "name": "Vaclav NEMECEK",
+      "cd_name": "V. Nemecek",
+      "file": "e_czx08.wav",
+      "tone": 1,
+      "sha256": "cd2f0e1c10fe565e56320bbe883a18f5181dabc3a097ad1066f5cd3c38d8b2f8"
+    },
+    {
+      "team": 2,
+      "shirt": 6,
+      "name": "Vaclav NEMECEK",
+      "cd_name": "V. Nemecek",
+      "file": "e_czy08.wav",
+      "tone": 2,
+      "sha256": "303976bedc3e8598c29e987d6cfd4f3f17b6b5acc6014bea5677bb6a6c05bce3"
+    },
+    {
+      "team": 2,
+      "shirt": 6,
+      "name": "Vaclav NEMECEK",
+      "cd_name": "V. Nemecek",
+      "file": "e_czz08.wav",
+      "tone": 3,
+      "sha256": "b30252aba29a74d67b1f2dbb5d03414cec74124f773fb2f7fae326442c332086"
+    },
+    {
+      "team": 2,
+      "shirt": 7,
+      "name": "Pavel HAPAL",
+      "cd_name": "P. Hapal",
+      "file": "e_czx21.wav",
+      "tone": 1,
+      "sha256": "e6229b0f93f3bf08bbcb70290e00c28be05a2701c2c7ffd3559ca7d719f2e609"
+    },
+    {
+      "team": 2,
+      "shirt": 7,
+      "name": "Pavel HAPAL",
+      "cd_name": "P. Hapal",
+      "file": "e_czy21.wav",
+      "tone": 2,
+      "sha256": "080ba86f2d8510b00913906f77f0611e1cdfb1cc097940ce0bc0720276eb8d3f"
+    },
+    {
+      "team": 2,
+      "shirt": 7,
+      "name": "Pavel HAPAL",
+      "cd_name": "P. Hapal",
+      "file": "e_czz21.wav",
+      "tone": 3,
+      "sha256": "62d6f67e574671e1355dbf03e794db5cf99b0251188c75a5a33bdf0c3cea93ed"
+    },
+    {
+      "team": 2,
+      "shirt": 8,
+      "name": "Radoslav LATAL",
+      "cd_name": "R. Latal",
+      "file": "e_czx06.wav",
+      "tone": 1,
+      "sha256": "82721285e0dbf7bd6f029f31e02631f04c69497bf66f18192ccf8d77cd7d01ef"
+    },
+    {
+      "team": 2,
+      "shirt": 8,
+      "name": "Radoslav LATAL",
+      "cd_name": "R. Latal",
+      "file": "e_czy06.wav",
+      "tone": 2,
+      "sha256": "348f8f9fa486739e385a529f2d8cb2f3c6e9b2877809c6a8a718717ee02dbbe6"
+    },
+    {
+      "team": 2,
+      "shirt": 8,
+      "name": "Radoslav LATAL",
+      "cd_name": "R. Latal",
+      "file": "e_czz06.wav",
+      "tone": 3,
+      "sha256": "f9fd32267de9daea3dfdbcbd819591c3b77ba6db195abc93ecd903e25cafcf3e"
+    },
+    {
+      "team": 2,
+      "shirt": 10,
+      "name": "Pavel KUKA",
+      "cd_name": "P. Kuka",
+      "file": "e_czx09.wav",
+      "tone": 1,
+      "sha256": "f4d29ff78569b28e94f739fc2ab233073bb0a5ba480be437bb59c4b6e89551e7"
+    },
+    {
+      "team": 2,
+      "shirt": 10,
+      "name": "Pavel KUKA",
+      "cd_name": "P. Kuka",
+      "file": "e_czy09.wav",
+      "tone": 2,
+      "sha256": "98296867fb0dd2a17de3bea7d36ef56b06dc038c8c160f4efbd8e3aadf924056"
+    },
+    {
+      "team": 2,
+      "shirt": 10,
+      "name": "Pavel KUKA",
+      "cd_name": "P. Kuka",
+      "file": "e_czz09.wav",
+      "tone": 3,
+      "sha256": "a860e8d36270f3d4a3637e071905e08cf9ab4448bd5721e27e2c8ce1e3ebba46"
+    },
+    {
+      "team": 2,
+      "shirt": 11,
+      "name": "Martin FRYDEK",
+      "cd_name": "M. Frydek",
+      "file": "e_czx11.wav",
+      "tone": 1,
+      "sha256": "cb6d704edb22aed2c1a0b02213ddf4401998f59edaf21e4e84a24caa46bbf90a"
+    },
+    {
+      "team": 2,
+      "shirt": 11,
+      "name": "Martin FRYDEK",
+      "cd_name": "M. Frydek",
+      "file": "e_czy11.wav",
+      "tone": 2,
+      "sha256": "c1a5649100998eb158b477dcf0184fec129a770044e7e79dc4f17183be3260f3"
+    },
+    {
+      "team": 2,
+      "shirt": 11,
+      "name": "Martin FRYDEK",
+      "cd_name": "M. Frydek",
+      "file": "e_czz11.wav",
+      "tone": 3,
+      "sha256": "83313b4c70e4225c6ecd65a4826dede296cc94ebf0f580d3b43adf67e8b70e19"
+    },
+    {
+      "team": 2,
+      "shirt": 12,
+      "name": "Jan STEJSKAL",
+      "cd_name": "J. Stejskal",
+      "file": "e_czx01.wav",
+      "tone": 1,
+      "sha256": "7bc75d68a7eefcb8d7e2c08180b14394330a7e70ee4d9bf196016cbc2ad6315b"
+    },
+    {
+      "team": 2,
+      "shirt": 12,
+      "name": "Jan STEJSKAL",
+      "cd_name": "J. Stejskal",
+      "file": "e_czy01.wav",
+      "tone": 2,
+      "sha256": "ce9fc57fbc840d765e55c6e9c7486deceb1fa8d31f70f319fb3b6f8303cae77c"
+    },
+    {
+      "team": 2,
+      "shirt": 12,
+      "name": "Jan STEJSKAL",
+      "cd_name": "J. Stejskal",
+      "file": "e_czz01.wav",
+      "tone": 3,
+      "sha256": "924e07cf358c9fb803d3674fc7a1cdc5a4c14e675338a81a1b2462e3bf8b2fad"
+    },
+    {
+      "team": 2,
+      "shirt": 14,
+      "name": "Horst SIEGL",
+      "cd_name": "H. Siegl",
+      "file": "e_czx10.wav",
+      "tone": 1,
+      "sha256": "90aeccd5d2ddb6e3cbc1cf7f5e6ce56adb94ee41fc6655cbb4b456ccf75e1a61"
+    },
+    {
+      "team": 2,
+      "shirt": 14,
+      "name": "Horst SIEGL",
+      "cd_name": "H. Siegl",
+      "file": "e_czy10.wav",
+      "tone": 2,
+      "sha256": "371841930042f4efcf62d8f31ed2594372e089c5f5d9ab5b1289855868eb6034"
+    },
+    {
+      "team": 2,
+      "shirt": 14,
+      "name": "Horst SIEGL",
+      "cd_name": "H. Siegl",
+      "file": "e_czz10.wav",
+      "tone": 3,
+      "sha256": "fab1f3525306d6d16467a7cc6f7fff6798fcc9cb87b2c2655909190f4d51967a"
+    },
+    {
+      "team": 2,
+      "shirt": 15,
+      "name": "Karel POBORSKY",
+      "cd_name": "K. Poborsky",
+      "file": "e_czx07.wav",
+      "tone": 1,
+      "sha256": "24976c1d644feb109871c2f602b72ae22ea4c3cf3652538014f7b4d549bfac91"
+    },
+    {
+      "team": 2,
+      "shirt": 15,
+      "name": "Karel POBORSKY",
+      "cd_name": "K. Poborsky",
+      "file": "e_czy07.wav",
+      "tone": 2,
+      "sha256": "ccdfdc447840ec956525846cf86429964876b6bbc63022cbb1b47df4949f97d5"
+    },
+    {
+      "team": 2,
+      "shirt": 15,
+      "name": "Karel POBORSKY",
+      "cd_name": "K. Poborsky",
+      "file": "e_czz07.wav",
+      "tone": 3,
+      "sha256": "f660b5570cd05cd71bd9e618b036f8a73958089669661cc54f739770a3b78435"
+    },
+    {
+      "team": 2,
+      "shirt": 17,
+      "name": "Lobos KUBIK",
+      "cd_name": "L. Kubik",
+      "file": "e_czx16.wav",
+      "tone": 1,
+      "sha256": "2094f3929643fd56c304cc1f162938e5f110848f3983a5d47f26d804aeced0c4"
+    },
+    {
+      "team": 2,
+      "shirt": 17,
+      "name": "Lobos KUBIK",
+      "cd_name": "L. Kubik",
+      "file": "e_czy16.wav",
+      "tone": 2,
+      "sha256": "b30ef025af632f57e2e99a0bae1b9a85754b6ff31ab051a922755846a645d5ec"
+    },
+    {
+      "team": 2,
+      "shirt": 17,
+      "name": "Lobos KUBIK",
+      "cd_name": "L. Kubik",
+      "file": "e_czz16.wav",
+      "tone": 3,
+      "sha256": "cdffff8305bd38072973844df42b96f30981fdb319e4d45f0fefd5a1bd55d25c"
+    },
+    {
+      "team": 2,
+      "shirt": 18,
+      "name": "Jiri NOVOTNY",
+      "cd_name": "J. Novotny",
+      "file": "e_czx04.wav",
+      "tone": 1,
+      "sha256": "2d207609b16d2571683699455be17523dd25db2a02867a10a76b691ecae57355"
+    },
+    {
+      "team": 2,
+      "shirt": 18,
+      "name": "Jiri NOVOTNY",
+      "cd_name": "J. Novotny",
+      "file": "e_czy04.wav",
+      "tone": 2,
+      "sha256": "0f42e640cf1d694740ece233c4deda5720a660cb4c33c3645496e28fd793f000"
+    },
+    {
+      "team": 2,
+      "shirt": 18,
+      "name": "Jiri NOVOTNY",
+      "cd_name": "J. Novotny",
+      "file": "e_czz04.wav",
+      "tone": 3,
+      "sha256": "ee7444ae32c8a2e7ca4c1252fccabaace4cc522d2593e922219faa5b0371b40c"
+    },
+    {
+      "team": 2,
+      "shirt": 19,
+      "name": "Jan SUCHOPAREK",
+      "cd_name": "J. Suchoparek",
+      "file": "e_czx02.wav",
+      "tone": 1,
+      "sha256": "65b2af57bd7029faf09dda7f798e17065a3b14cc3f68c20b55ae314da38e7557"
+    },
+    {
+      "team": 2,
+      "shirt": 19,
+      "name": "Jan SUCHOPAREK",
+      "cd_name": "J. Suchoparek",
+      "file": "e_czy02.wav",
+      "tone": 2,
+      "sha256": "ac003090f94447a252be983f2dad5f05d6da3c98135db71341c852a060ac6f36"
+    },
+    {
+      "team": 2,
+      "shirt": 19,
+      "name": "Jan SUCHOPAREK",
+      "cd_name": "J. Suchoparek",
+      "file": "e_czz02.wav",
+      "tone": 3,
+      "sha256": "66b5979fb02bce706d42bfbeae8b00a1b2f5334aad66a983a47b1be5d164e948"
+    },
+    {
+      "team": 2,
+      "shirt": 20,
+      "name": "Marek POSTULKA",
+      "cd_name": "M. Postulka",
+      "file": "e_czx18.wav",
+      "tone": 1,
+      "sha256": "ab82182a9278fc1db12efa4b652abae9ec7715f32f0fe25419beaf4a13e44ce6"
+    },
+    {
+      "team": 2,
+      "shirt": 20,
+      "name": "Marek POSTULKA",
+      "cd_name": "M. Postulka",
+      "file": "e_czy18.wav",
+      "tone": 2,
+      "sha256": "6c1cc1b06c82ed6f903142cf335a0fb10f70a5c78c9016aa368cb6fc68a153f2"
+    },
+    {
+      "team": 2,
+      "shirt": 20,
+      "name": "Marek POSTULKA",
+      "cd_name": "M. Postulka",
+      "file": "e_czz18.wav",
+      "tone": 3,
+      "sha256": "2e526ea5c2703b17b26bf0206b7aea7a8f177d487af212e8d7778d447ebf48c7"
+    },
+    {
+      "team": 3,
+      "shirt": 1,
+      "name": "Peter SCHMEICHEL",
+      "cd_name": "P. Schmeichel",
+      "file": "e_dex01.wav",
+      "tone": 1,
+      "sha256": "8032e0fc99c623b49e01b43c2d2c5fda863b36eb7c50b8f91a1ba7622de213f9"
+    },
+    {
+      "team": 3,
+      "shirt": 1,
+      "name": "Peter SCHMEICHEL",
+      "cd_name": "P. Schmeichel",
+      "file": "e_dey01.wav",
+      "tone": 2,
+      "sha256": "54a4dd4c51fa0443508e3e07c6b921563dbb8db77002ecd768ad201c6b515bd2"
+    },
+    {
+      "team": 3,
+      "shirt": 1,
+      "name": "Peter SCHMEICHEL",
+      "cd_name": "P. Schmeichel",
+      "file": "e_dez01.wav",
+      "tone": 3,
+      "sha256": "44a73f2c0d42df61dc150efb1667b74795b827953c134e9cbc1d2d2f8b35bf1e"
+    },
+    {
+      "team": 3,
+      "shirt": 4,
+      "name": "Marc RIEPER",
+      "cd_name": "M. Rieper",
+      "file": "e_dex03.wav",
+      "tone": 1,
+      "sha256": "a6ecaf05bfa3ec653281c7f8a22e457c479bbe96c544c4fe9d420d540a1d4e66"
+    },
+    {
+      "team": 3,
+      "shirt": 4,
+      "name": "Marc RIEPER",
+      "cd_name": "M. Rieper",
+      "file": "e_dey03.wav",
+      "tone": 2,
+      "sha256": "874671a565ff88225829bb5105803b3d105018a31479d937c118fe6ab3169f2c"
+    },
+    {
+      "team": 3,
+      "shirt": 4,
+      "name": "Marc RIEPER",
+      "cd_name": "M. Rieper",
+      "file": "e_dez03.wav",
+      "tone": 3,
+      "sha256": "3d59b3aaaab9f94b90cef4cc9b0efeec787b27a9a6efc7f8896fd0863cb94e76"
+    },
+    {
+      "team": 3,
+      "shirt": 7,
+      "name": "Kim VILFORT",
+      "cd_name": "K. Vilfort",
+      "file": "e_dex07.wav",
+      "tone": 1,
+      "sha256": "68780eb9e3a3f4b5000efd8a4bab5b20f788f24ce54791b8b433e748b613419f"
+    },
+    {
+      "team": 3,
+      "shirt": 7,
+      "name": "Kim VILFORT",
+      "cd_name": "K. Vilfort",
+      "file": "e_dey07.wav",
+      "tone": 2,
+      "sha256": "9f136efd59f54965075089321494b7ca15fbd5a1d84ccfc8f3ee2349025e07ca"
+    },
+    {
+      "team": 3,
+      "shirt": 7,
+      "name": "Kim VILFORT",
+      "cd_name": "K. Vilfort",
+      "file": "e_dez07.wav",
+      "tone": 3,
+      "sha256": "d82554a7be50caac25964a0e979af4ed49d409aa680af22a6f0072a7a19db386"
+    },
+    {
+      "team": 3,
+      "shirt": 9,
+      "name": "Michael LAUDRUP",
+      "cd_name": "M. Laudrup",
+      "file": "e_dex11.wav",
+      "tone": 1,
+      "sha256": "03b3a472096ac34dd038748a045559762bf3c4df906c22141ea0b6a239283a56"
+    },
+    {
+      "team": 3,
+      "shirt": 9,
+      "name": "Michael LAUDRUP",
+      "cd_name": "M. Laudrup",
+      "file": "e_dey11.wav",
+      "tone": 2,
+      "sha256": "50b10bc6946c47ecfd10707176ee7b9b062595c5b350713bcff3e907d103acc1"
+    },
+    {
+      "team": 3,
+      "shirt": 9,
+      "name": "Michael LAUDRUP",
+      "cd_name": "M. Laudrup",
+      "file": "e_dez11.wav",
+      "tone": 3,
+      "sha256": "910a6d2ab7af226f5f752b98bac5f905124433966415a075a0d09b7b55d16eec"
+    },
+    {
+      "team": 3,
+      "shirt": 10,
+      "name": "Brian LAUDRUP",
+      "cd_name": "B. Laudrup",
+      "file": "e_dex09.wav",
+      "tone": 1,
+      "sha256": "03b3a472096ac34dd038748a045559762bf3c4df906c22141ea0b6a239283a56"
+    },
+    {
+      "team": 3,
+      "shirt": 10,
+      "name": "Brian LAUDRUP",
+      "cd_name": "B. Laudrup",
+      "file": "e_dey09.wav",
+      "tone": 2,
+      "sha256": "50b10bc6946c47ecfd10707176ee7b9b062595c5b350713bcff3e907d103acc1"
+    },
+    {
+      "team": 3,
+      "shirt": 10,
+      "name": "Brian LAUDRUP",
+      "cd_name": "B. Laudrup",
+      "file": "e_dez09.wav",
+      "tone": 3,
+      "sha256": "910a6d2ab7af226f5f752b98bac5f905124433966415a075a0d09b7b55d16eec"
+    },
+    {
+      "team": 3,
+      "shirt": 11,
+      "name": "Peter RASMUSSEN",
+      "cd_name": "P. Rasmussen",
+      "file": "e_dex22.wav",
+      "tone": 1,
+      "sha256": "e5e8f8bf38d6faaa55265616793ea51724fdfc432f6a6e22ebc15f648a7fafef"
+    },
+    {
+      "team": 3,
+      "shirt": 11,
+      "name": "Peter RASMUSSEN",
+      "cd_name": "P. Rasmussen",
+      "file": "e_dey22.wav",
+      "tone": 2,
+      "sha256": "b4c9663b3b6a157421fc4f202180495f901e7c8cb4f79e445c94f1dea4fe5a2b"
+    },
+    {
+      "team": 3,
+      "shirt": 11,
+      "name": "Peter RASMUSSEN",
+      "cd_name": "P. Rasmussen",
+      "file": "e_dez22.wav",
+      "tone": 3,
+      "sha256": "cfef553d8ae8b022180601337649afb54e15682337145d570375f43e2699eba3"
+    },
+    {
+      "team": 3,
+      "shirt": 12,
+      "name": "Mogens KROGH",
+      "cd_name": "M. Krogh",
+      "file": "e_dex12.wav",
+      "tone": 1,
+      "sha256": "d8e8075b9db968b0f711bfac0472eee7ed935cf1f968c6a662b3ca557d733a0b"
+    },
+    {
+      "team": 3,
+      "shirt": 12,
+      "name": "Mogens KROGH",
+      "cd_name": "M. Krogh",
+      "file": "e_dey12.wav",
+      "tone": 2,
+      "sha256": "6f60cbd2d2176f032083fffbd4b96bd49f744e3d98f2a88e9cce6400e023176b"
+    },
+    {
+      "team": 3,
+      "shirt": 12,
+      "name": "Mogens KROGH",
+      "cd_name": "M. Krogh",
+      "file": "e_dez12.wav",
+      "tone": 3,
+      "sha256": "e2b4f6941ea285ff7718eac4f162c29e89a7c60aa4f84890b9bd188be40ece93"
+    },
+    {
+      "team": 3,
+      "shirt": 13,
+      "name": "John JENSEN",
+      "cd_name": "J. Jensen",
+      "file": "e_dex06.wav",
+      "tone": 1,
+      "sha256": "71491473d8384bc767a086ecde8c457da370095290d2fff31e3bb55c2148368a"
+    },
+    {
+      "team": 3,
+      "shirt": 13,
+      "name": "John JENSEN",
+      "cd_name": "J. Jensen",
+      "file": "e_dey06.wav",
+      "tone": 2,
+      "sha256": "cdc82792e081d6a0229e20dcf405bc10245038fbf8c741769f8baffa9d1433de"
+    },
+    {
+      "team": 3,
+      "shirt": 13,
+      "name": "John JENSEN",
+      "cd_name": "J. Jensen",
+      "file": "e_dez06.wav",
+      "tone": 3,
+      "sha256": "524be2c4c97470054603b368cf330583128e6ac5264b368bd7bdf909b7df73b9"
+    },
+    {
+      "team": 3,
+      "shirt": 14,
+      "name": "Jacob KJELDBERG",
+      "cd_name": "J. Kjeldberg",
+      "file": "e_dex04.wav",
+      "tone": 1,
+      "sha256": "949a19df2b5b8a3f86023d523140c2e9e438d38079ae87205afa429172da1849"
+    },
+    {
+      "team": 3,
+      "shirt": 14,
+      "name": "Jacob KJELDBERG",
+      "cd_name": "J. Kjeldberg",
+      "file": "e_dey04.wav",
+      "tone": 2,
+      "sha256": "6868ab3fdeb7ec55f738aaaf684daf5c10cc871d962977b916a7a9c94c746096"
+    },
+    {
+      "team": 3,
+      "shirt": 14,
+      "name": "Jacob KJELDBERG",
+      "cd_name": "J. Kjeldberg",
+      "file": "e_dez04.wav",
+      "tone": 3,
+      "sha256": "38758de3006728e6e3510e0ff02a309e0447914c5e7e958e8a73aea81c0e1a59"
+    },
+    {
+      "team": 3,
+      "shirt": 15,
+      "name": "Lars OLSEN",
+      "cd_name": "L. Olsen",
+      "file": "e_dex02.wav",
+      "tone": 1,
+      "sha256": "e77d835c975ec37122b226e30a75aaacef5b2bcd781802d2aaf70b87f5252403"
+    },
+    {
+      "team": 3,
+      "shirt": 15,
+      "name": "Lars OLSEN",
+      "cd_name": "L. Olsen",
+      "file": "e_dey02.wav",
+      "tone": 2,
+      "sha256": "9e42ee7f324f21075852c9323b3bde529e88247fcdf7eeb2cda9ecefebc98afb"
+    },
+    {
+      "team": 3,
+      "shirt": 15,
+      "name": "Lars OLSEN",
+      "cd_name": "L. Olsen",
+      "file": "e_dez02.wav",
+      "tone": 3,
+      "sha256": "0f68a50277251f24ce7953ba4989dfb02f8620c76641a78223f67d3b7ec9ad0e"
+    },
+    {
+      "team": 3,
+      "shirt": 16,
+      "name": "Frank PINGEL",
+      "cd_name": "F. Pingel",
+      "file": "e_dex13.wav",
+      "tone": 1,
+      "sha256": "8612a6a72d635bb8e27b6692e2ac2e7b6f1b34ff8a8fedefab41d4a15e32db35"
+    },
+    {
+      "team": 3,
+      "shirt": 16,
+      "name": "Frank PINGEL",
+      "cd_name": "F. Pingel",
+      "file": "e_dey13.wav",
+      "tone": 2,
+      "sha256": "0cb613ea41d6659cdb3c5094d9588f54a1933419b1d7cec28fa3ce085d792479"
+    },
+    {
+      "team": 3,
+      "shirt": 16,
+      "name": "Frank PINGEL",
+      "cd_name": "F. Pingel",
+      "file": "e_dez13.wav",
+      "tone": 3,
+      "sha256": "654e2aa5ad7f56136154bfdf8dbc35c0b05a4fe20a6048acb1127aeac7261b61"
+    },
+    {
+      "team": 3,
+      "shirt": 17,
+      "name": "Flemming POVLSEN",
+      "cd_name": "F. Povlsen",
+      "file": "e_dex10.wav",
+      "tone": 1,
+      "sha256": "28d8f23275dd7eaaedaa07c7a50b43984446ad9101ded4e3846a8a911321b534"
+    },
+    {
+      "team": 3,
+      "shirt": 17,
+      "name": "Flemming POVLSEN",
+      "cd_name": "F. Povlsen",
+      "file": "e_dey10.wav",
+      "tone": 2,
+      "sha256": "26ca12f3aac18647557385b7c45b16d079bfe1afd20bc6b918bc5d09d200b7c0"
+    },
+    {
+      "team": 3,
+      "shirt": 17,
+      "name": "Flemming POVLSEN",
+      "cd_name": "F. Povlsen",
+      "file": "e_dez10.wav",
+      "tone": 3,
+      "sha256": "9e7f514493126f1d6d9cff967c99fc91337c94b849822a616a94cfe3f044feea"
+    },
+    {
+      "team": 3,
+      "shirt": 18,
+      "name": "Bent CHRISTENSEN",
+      "cd_name": "B. Christensen",
+      "file": "e_dex17.wav",
+      "tone": 1,
+      "sha256": "345e98ee7e21f9ed7338f604dd1ab2782aef3e2a516f208af8a5610137f2a2b8"
+    },
+    {
+      "team": 3,
+      "shirt": 18,
+      "name": "Bent CHRISTENSEN",
+      "cd_name": "B. Christensen",
+      "file": "e_dey17.wav",
+      "tone": 2,
+      "sha256": "3d8e47a982fc251bb1bb3f7cd9205b736e9bf35dec0021adb6bd2582c1007c6a"
+    },
+    {
+      "team": 3,
+      "shirt": 18,
+      "name": "Bent CHRISTENSEN",
+      "cd_name": "B. Christensen",
+      "file": "e_dez17.wav",
+      "tone": 3,
+      "sha256": "c0ab0220f99128699b72b760887d62e6be40132434e20f4c66be01d43c5be5b5"
+    },
+    {
+      "team": 3,
+      "shirt": 19,
+      "name": "Henrik LARSEN",
+      "cd_name": "H. Larsen",
+      "file": "e_dex16.wav",
+      "tone": 1,
+      "sha256": "36c56211610417d224431d8334ac1b348a21498e0aeaad4fc40c2ca1ea716e99"
+    },
+    {
+      "team": 3,
+      "shirt": 19,
+      "name": "Henrik LARSEN",
+      "cd_name": "H. Larsen",
+      "file": "e_dey16.wav",
+      "tone": 2,
+      "sha256": "0dbcdcfbd4a7585fc1633908e8c941d3c2f6607ec64a8e2b597dc3cafde1f293"
+    },
+    {
+      "team": 3,
+      "shirt": 19,
+      "name": "Henrik LARSEN",
+      "cd_name": "H. Larsen",
+      "file": "e_dez16.wav",
+      "tone": 3,
+      "sha256": "c55875c29729ff671f99c8ffa4668baf2df7b083b9ff7ec8fae96b9f0eb51156"
+    },
+    {
+      "team": 3,
+      "shirt": 20,
+      "name": "Thomas HELVEG",
+      "cd_name": "T. Helveg",
+      "file": "e_dex19.wav",
+      "tone": 1,
+      "sha256": "0ca56b7d1f51a60bae8c1e46125cf312b66478d159078cd71b6942c5e59e3244"
+    },
+    {
+      "team": 3,
+      "shirt": 20,
+      "name": "Thomas HELVEG",
+      "cd_name": "T. Helveg",
+      "file": "e_dey19.wav",
+      "tone": 2,
+      "sha256": "d9279329cb9e4990191ce3fce96aa546fa204b3141b058f1025198053ff52be2"
+    },
+    {
+      "team": 3,
+      "shirt": 20,
+      "name": "Thomas HELVEG",
+      "cd_name": "T. Helveg",
+      "file": "e_dez19.wav",
+      "tone": 3,
+      "sha256": "463f1d1b1798e7b16824258cb80a68fe18f694ce1f25cdf48f42280186d1de95"
+    },
+    {
+      "team": 4,
+      "shirt": 1,
+      "name": "David SEAMAN",
+      "cd_name": "D. Seaman",
+      "file": "e_enx01.wav",
+      "tone": 1,
+      "sha256": "825447c73872626e526cfb502f5ce6d0283cd2ecbd4ac0687d186acf62348fe3"
+    },
+    {
+      "team": 4,
+      "shirt": 1,
+      "name": "David SEAMAN",
+      "cd_name": "D. Seaman",
+      "file": "e_eny01.wav",
+      "tone": 2,
+      "sha256": "1e6f0cc4056db11a5012b1e1e6d7dd8edc652d925b521b72234f1e146f82d7eb"
+    },
+    {
+      "team": 4,
+      "shirt": 1,
+      "name": "David SEAMAN",
+      "cd_name": "D. Seaman",
+      "file": "e_enz01.wav",
+      "tone": 3,
+      "sha256": "4bad0b7c846898dffb703b2003e0e67bb6997f018808162ae05dfc322af3318e"
+    },
+    {
+      "team": 4,
+      "shirt": 3,
+      "name": "Stuart PEARCE",
+      "cd_name": "S. Pearce",
+      "file": "e_enx18.wav",
+      "tone": 1,
+      "sha256": "363c23f5b7019cefa478d75480260715aa48fc77b6e6ac88523c92027e0941dc"
+    },
+    {
+      "team": 4,
+      "shirt": 3,
+      "name": "Stuart PEARCE",
+      "cd_name": "S. Pearce",
+      "file": "e_eny18.wav",
+      "tone": 2,
+      "sha256": "3fe2ff37882debd3948610bb23364d4f1b3855337eb86dac136ebf37e5bb9752"
+    },
+    {
+      "team": 4,
+      "shirt": 3,
+      "name": "Stuart PEARCE",
+      "cd_name": "S. Pearce",
+      "file": "e_enz18.wav",
+      "tone": 3,
+      "sha256": "b48a1a4061e184d75cbb07eb67849f30e560e4033395c0c40cc1e69a616c9520"
+    },
+    {
+      "team": 4,
+      "shirt": 5,
+      "name": "Tony ADAMS",
+      "cd_name": "T. Adams",
+      "file": "e_enx05.wav",
+      "tone": 1,
+      "sha256": "17c9cbdfcaca022f6fb120127d678f2a6da21031be5dfa76768ac1530bb061de"
+    },
+    {
+      "team": 4,
+      "shirt": 5,
+      "name": "Tony ADAMS",
+      "cd_name": "T. Adams",
+      "file": "e_eny05.wav",
+      "tone": 2,
+      "sha256": "dc46324d9e6678e9b250bf498fb1c1b3f6f270380c62dadc1f70004cf9cebf9a"
+    },
+    {
+      "team": 4,
+      "shirt": 5,
+      "name": "Tony ADAMS",
+      "cd_name": "T. Adams",
+      "file": "e_enz05.wav",
+      "tone": 3,
+      "sha256": "09355d8c37f1355f942f8d3a48842e750ba17b803504f8dfaaeff1114b77ba96"
+    },
+    {
+      "team": 4,
+      "shirt": 6,
+      "name": "Gary PALLISTER",
+      "cd_name": "G. Pallister",
+      "file": "e_enx04.wav",
+      "tone": 1,
+      "sha256": "5acbfef0e711698fb18387dae772e7a71774255917b4844be8de37ab8f498123"
+    },
+    {
+      "team": 4,
+      "shirt": 6,
+      "name": "Gary PALLISTER",
+      "cd_name": "G. Pallister",
+      "file": "e_eny04.wav",
+      "tone": 2,
+      "sha256": "51b33453921b31eafcec211b69d5e8dcc51f2cd8462a8ec69b37bebdeddadba2"
+    },
+    {
+      "team": 4,
+      "shirt": 6,
+      "name": "Gary PALLISTER",
+      "cd_name": "G. Pallister",
+      "file": "e_enz04.wav",
+      "tone": 3,
+      "sha256": "347f1051d369debf07ed19fa866e9b3106930184da521fe17aa3213e001e23e4"
+    },
+    {
+      "team": 4,
+      "shirt": 8,
+      "name": "Paul GASCOIGNE",
+      "cd_name": "P. Gascoigne",
+      "file": "e_enx07.wav",
+      "tone": 1,
+      "sha256": "87057ddefebab3030cdc8d302043db32a16e81407244b8a16f9953a1382d98ac"
+    },
+    {
+      "team": 4,
+      "shirt": 8,
+      "name": "Paul GASCOIGNE",
+      "cd_name": "P. Gascoigne",
+      "file": "e_eny07.wav",
+      "tone": 2,
+      "sha256": "450ec0090d8efbfe1d418442811c6752ebfd2ed9430c0d6672192240d1f27d75"
+    },
+    {
+      "team": 4,
+      "shirt": 8,
+      "name": "Paul GASCOIGNE",
+      "cd_name": "P. Gascoigne",
+      "file": "e_enz07.wav",
+      "tone": 3,
+      "sha256": "4dc755bd3ab1d1a27ae73389c9de867722d2500b4a47756961b18bee794e8745"
+    },
+    {
+      "team": 4,
+      "shirt": 9,
+      "name": "Alan SHEARER",
+      "cd_name": "A. Shearer",
+      "file": "e_enx09.wav",
+      "tone": 1,
+      "sha256": "c6084d33efc260b02e8ba8c0997256bbe81b10cb69be19e219f980a5eb651ff6"
+    },
+    {
+      "team": 4,
+      "shirt": 9,
+      "name": "Alan SHEARER",
+      "cd_name": "A. Shearer",
+      "file": "e_eny09.wav",
+      "tone": 2,
+      "sha256": "d4d2130d922537610826c14c19d163343707f6ae34c5c2e72b66f5eb50447eb1"
+    },
+    {
+      "team": 4,
+      "shirt": 9,
+      "name": "Alan SHEARER",
+      "cd_name": "A. Shearer",
+      "file": "e_enz09.wav",
+      "tone": 3,
+      "sha256": "b5f1b62b2b91c7ae43580de4d8a13a24e77f3b2538acdc7bc44a1f7854581d54"
+    },
+    {
+      "team": 4,
+      "shirt": 10,
+      "name": "Teddy SHERINGHAM",
+      "cd_name": "T. Sheringham",
+      "file": "e_enx20.wav",
+      "tone": 1,
+      "sha256": "0847c56d2e21cca5f0b017eb24e96a89a9e6b3061fa91e950b811d9becb840ef"
+    },
+    {
+      "team": 4,
+      "shirt": 10,
+      "name": "Teddy SHERINGHAM",
+      "cd_name": "T. Sheringham",
+      "file": "e_eny20.wav",
+      "tone": 2,
+      "sha256": "6cbc58470f8f5a8150ff74ea023ad956832d8ddc1fe29e0c759c1da25681e11f"
+    },
+    {
+      "team": 4,
+      "shirt": 10,
+      "name": "Teddy SHERINGHAM",
+      "cd_name": "T. Sheringham",
+      "file": "e_enz20.wav",
+      "tone": 3,
+      "sha256": "40755c0931f0b69cc7d53ceedea338193eedfbb94033bed663c0400a7399b7cf"
+    },
+    {
+      "team": 4,
+      "shirt": 12,
+      "name": "Tim FLOWERS",
+      "cd_name": "T. Flowers",
+      "file": "e_enx12.wav",
+      "tone": 1,
+      "sha256": "5534a982e9c1babd278c6cce7614aaf0cdaddb7b2b5c9242dcc105f8c4039f02"
+    },
+    {
+      "team": 4,
+      "shirt": 12,
+      "name": "Tim FLOWERS",
+      "cd_name": "T. Flowers",
+      "file": "e_eny12.wav",
+      "tone": 2,
+      "sha256": "97408a3af0c15b81c73462832aa41fe65eb24f910da4aa8fc82c364b5bcc2ec4"
+    },
+    {
+      "team": 4,
+      "shirt": 12,
+      "name": "Tim FLOWERS",
+      "cd_name": "T. Flowers",
+      "file": "e_enz12.wav",
+      "tone": 3,
+      "sha256": "fdf973b0b3af83776e258744e3297012fb011329873b663d760f9534ac1b1441"
+    },
+    {
+      "team": 4,
+      "shirt": 14,
+      "name": "Peter BEARDSLEY",
+      "cd_name": "P. Beardsley",
+      "file": "e_enx06.wav",
+      "tone": 1,
+      "sha256": "e86b1e1e4df34d32999c673f2ac0fc3dd7bc7d143876fd6ddb36b7feab56e5dd"
+    },
+    {
+      "team": 4,
+      "shirt": 14,
+      "name": "Peter BEARDSLEY",
+      "cd_name": "P. Beardsley",
+      "file": "e_eny06.wav",
+      "tone": 2,
+      "sha256": "98057aa42138ed8a4dfcd2d060a524cdde0d31dcc15749f2010a7f966323eccf"
+    },
+    {
+      "team": 4,
+      "shirt": 14,
+      "name": "Peter BEARDSLEY",
+      "cd_name": "P. Beardsley",
+      "file": "e_enz06.wav",
+      "tone": 3,
+      "sha256": "737bd2e94d9ae228985b17d0c425c9604b4c0b16795e51e526614fc94b3a360f"
+    },
+    {
+      "team": 4,
+      "shirt": 15,
+      "name": "Les FERDINAND",
+      "cd_name": "L. Ferdinand",
+      "file": "e_enx21.wav",
+      "tone": 1,
+      "sha256": "5925d4c9ecbe906da75a5e315902fbce0c23773348240e6aaabdace2a769d27d"
+    },
+    {
+      "team": 4,
+      "shirt": 15,
+      "name": "Les FERDINAND",
+      "cd_name": "L. Ferdinand",
+      "file": "e_eny21.wav",
+      "tone": 2,
+      "sha256": "0d585839ce95512f2b69bf6da0e0fef3e8c75b2e3ba808a64eff9fdfa00235c5"
+    },
+    {
+      "team": 4,
+      "shirt": 15,
+      "name": "Les FERDINAND",
+      "cd_name": "L. Ferdinand",
+      "file": "e_enz21.wav",
+      "tone": 3,
+      "sha256": "d3fa0342391166b281ec2a7cfacc81e8ed6c5d6313f555660202e167854c3870"
+    },
+    {
+      "team": 4,
+      "shirt": 17,
+      "name": "Darren ANDERTON",
+      "cd_name": "D. Anderton",
+      "file": "e_enx11.wav",
+      "tone": 1,
+      "sha256": "dad180faf9591a44875faa2db9230c08ecc6a120e93664fb552a3b661d7a0ad4"
+    },
+    {
+      "team": 4,
+      "shirt": 17,
+      "name": "Darren ANDERTON",
+      "cd_name": "D. Anderton",
+      "file": "e_eny11.wav",
+      "tone": 2,
+      "sha256": "0a77c13a292dab920d56df59154a94cca6b72def8c7c8c7066b75003913fe31c"
+    },
+    {
+      "team": 4,
+      "shirt": 17,
+      "name": "Darren ANDERTON",
+      "cd_name": "D. Anderton",
+      "file": "e_enz11.wav",
+      "tone": 3,
+      "sha256": "1095d6b81e1969505db23460535cd6125cd59e22223a099eb9d6f09017b3d8b9"
+    },
+    {
+      "team": 4,
+      "shirt": 18,
+      "name": "Nick BARMBY",
+      "cd_name": "N. Barmby",
+      "file": "e_enx22.wav",
+      "tone": 1,
+      "sha256": "e0480d40f4c7dd41c481d73984a7c6e68fda5e60d19b137250806fc6bf49cb2a"
+    },
+    {
+      "team": 4,
+      "shirt": 18,
+      "name": "Nick BARMBY",
+      "cd_name": "N. Barmby",
+      "file": "e_eny22.wav",
+      "tone": 2,
+      "sha256": "c6b9fabcd1c2884006f3153f9ff8fc93116aacb7006f1dc570a83d7bedc6a7d9"
+    },
+    {
+      "team": 4,
+      "shirt": 18,
+      "name": "Nick BARMBY",
+      "cd_name": "N. Barmby",
+      "file": "e_enz22.wav",
+      "tone": 3,
+      "sha256": "51d3ceb077435adfbc4402fd47a9cbe207d0442279459a605e1839fd7d05d1ef"
+    },
+    {
+      "team": 4,
+      "shirt": 19,
+      "name": "Paul INCE",
+      "cd_name": "P. Ince",
+      "file": "e_enx17.wav",
+      "tone": 1,
+      "sha256": "f310a5da248100349f4c1665f4099081314a112925d4db343dcd70fe57cf114a"
+    },
+    {
+      "team": 4,
+      "shirt": 19,
+      "name": "Paul INCE",
+      "cd_name": "P. Ince",
+      "file": "e_eny17.wav",
+      "tone": 2,
+      "sha256": "b8ac4f91553de58bef343fed086ab4236c2e242cc33fdda2e43c8c2932fce261"
+    },
+    {
+      "team": 4,
+      "shirt": 19,
+      "name": "Paul INCE",
+      "cd_name": "P. Ince",
+      "file": "e_enz17.wav",
+      "tone": 3,
+      "sha256": "7e510314c5e407deb025757238319d37ad2d062882fa627bffbd6c45ab25d2a2"
+    },
+    {
+      "team": 4,
+      "shirt": 20,
+      "name": "David PLATT",
+      "cd_name": "D. Platt",
+      "file": "e_enx08.wav",
+      "tone": 1,
+      "sha256": "6dd02a82b8579f6a57f6badd24c49488b7b96a8234e607a16c012a1567d18385"
+    },
+    {
+      "team": 4,
+      "shirt": 20,
+      "name": "David PLATT",
+      "cd_name": "D. Platt",
+      "file": "e_eny08.wav",
+      "tone": 2,
+      "sha256": "aa32030c0c07bd8014e2ff60b0da9879443d88d90586bbc7667072f3f6c91354"
+    },
+    {
+      "team": 4,
+      "shirt": 20,
+      "name": "David PLATT",
+      "cd_name": "D. Platt",
+      "file": "e_enz08.wav",
+      "tone": 3,
+      "sha256": "dac271c8a10c3cb628729ffd72d1032a7f2c0e70b89d504f70cdf585d83b6785"
+    },
+    {
+      "team": 5,
+      "shirt": 1,
+      "name": "Fabien BARTHEZ",
+      "cd_name": "F. Barthez",
+      "file": "e_frx12.wav",
+      "tone": 1,
+      "sha256": "5b9988876c137f62fa5b6eb9e8b61c1ce1e0abb5bb6180076d1085a17677a26e"
+    },
+    {
+      "team": 5,
+      "shirt": 1,
+      "name": "Fabien BARTHEZ",
+      "cd_name": "F. Barthez",
+      "file": "e_fry12.wav",
+      "tone": 2,
+      "sha256": "7a794e8557a3f6da209c0d4933b624c5e7d918745ac8b8e87d98f12c16949d9b"
+    },
+    {
+      "team": 5,
+      "shirt": 1,
+      "name": "Fabien BARTHEZ",
+      "cd_name": "F. Barthez",
+      "file": "e_frz12.wav",
+      "tone": 3,
+      "sha256": "4ff6814080e04e9e98e1fd39f691fcda2be5981f026467228848ee46ec3c60f9"
+    },
+    {
+      "team": 5,
+      "shirt": 2,
+      "name": "Jocelyn ANGLOMA",
+      "cd_name": "J. Angloma",
+      "file": "e_frx14.wav",
+      "tone": 1,
+      "sha256": "7735a6b8549514154d53313ae4f948dbc2a4167ba5ec891d5d2742b9d903a5b1"
+    },
+    {
+      "team": 5,
+      "shirt": 2,
+      "name": "Jocelyn ANGLOMA",
+      "cd_name": "J. Angloma",
+      "file": "e_fry14.wav",
+      "tone": 2,
+      "sha256": "14686f8ff38f27d4d6c357bcda0c165f01a73e6779d1c53e26341c3d7ff4bcf6"
+    },
+    {
+      "team": 5,
+      "shirt": 2,
+      "name": "Jocelyn ANGLOMA",
+      "cd_name": "J. Angloma",
+      "file": "e_frz14.wav",
+      "tone": 3,
+      "sha256": "ab70698df3861e3ba411c4496ff09e7256581287ff2610bc15a477c1981823dd"
+    },
+    {
+      "team": 5,
+      "shirt": 3,
+      "name": "Eric DI MECO",
+      "cd_name": "E. Di Meco",
+      "file": "e_frx22.wav",
+      "tone": 1,
+      "sha256": "e9b8168e129ee0032fde6d8131be83e1936970821c945f45843cbd3918f74065"
+    },
+    {
+      "team": 5,
+      "shirt": 3,
+      "name": "Eric DI MECO",
+      "cd_name": "E. Di Meco",
+      "file": "e_fry22.wav",
+      "tone": 2,
+      "sha256": "31c1ba7fe5a5db51665d0e0dae85a95683c00b17fcf2f8b1ba6214430c733b34"
+    },
+    {
+      "team": 5,
+      "shirt": 3,
+      "name": "Eric DI MECO",
+      "cd_name": "E. Di Meco",
+      "file": "e_frz22.wav",
+      "tone": 3,
+      "sha256": "dc4adf7f3d0ad2e4a21499988f10da07b076f44e2a886ae7f02828112cdbf467"
+    },
+    {
+      "team": 5,
+      "shirt": 5,
+      "name": "Laurent BLANC",
+      "cd_name": "L. Blanc",
+      "file": "e_frx02.wav",
+      "tone": 1,
+      "sha256": "a2bc5f8d988dfb867ea9823164716a890b31a5e763cf26c03919a8b5c096aa68"
+    },
+    {
+      "team": 5,
+      "shirt": 5,
+      "name": "Laurent BLANC",
+      "cd_name": "L. Blanc",
+      "file": "e_fry02.wav",
+      "tone": 2,
+      "sha256": "25817e3f4dbcff1b4f83b3ef73e1b2549a12cb4c07f335b7437aef31d7437ffa"
+    },
+    {
+      "team": 5,
+      "shirt": 5,
+      "name": "Laurent BLANC",
+      "cd_name": "L. Blanc",
+      "file": "e_frz02.wav",
+      "tone": 3,
+      "sha256": "d870884e7d3d7bd454293ed8fb5bc8ca7028133976d79790f2a620ac542657ea"
+    },
+    {
+      "team": 5,
+      "shirt": 6,
+      "name": "Vincent GUERIN",
+      "cd_name": "V. Guerin",
+      "file": "e_frx19.wav",
+      "tone": 1,
+      "sha256": "f90e7850e394db263b18800f368f7a1c25661a1bf7314b71b9d173f089c167e4"
+    },
+    {
+      "team": 5,
+      "shirt": 6,
+      "name": "Vincent GUERIN",
+      "cd_name": "V. Guerin",
+      "file": "e_fry19.wav",
+      "tone": 2,
+      "sha256": "8d6580b78bfa46baaf29876d200c78a445aca54c65362066347851250ebb54af"
+    },
+    {
+      "team": 5,
+      "shirt": 6,
+      "name": "Vincent GUERIN",
+      "cd_name": "V. Guerin",
+      "file": "e_frz19.wav",
+      "tone": 3,
+      "sha256": "6180075bec1c3d08a0158d4ccee4168b14e51d1270d9ff7a04d582a68cc9e116"
+    },
+    {
+      "team": 5,
+      "shirt": 7,
+      "name": "David GINOLA",
+      "cd_name": "D. Ginola",
+      "file": "e_frx15.wav",
+      "tone": 1,
+      "sha256": "c1ac89d5fc903b2b9a26f9b43d4b9af82d279e0485363145de8776a1a654147b"
+    },
+    {
+      "team": 5,
+      "shirt": 7,
+      "name": "David GINOLA",
+      "cd_name": "D. Ginola",
+      "file": "e_fry15.wav",
+      "tone": 2,
+      "sha256": "39e66442c496591d7dd439bac010b18d27e77acec686fc85ee71a0e6e0edd240"
+    },
+    {
+      "team": 5,
+      "shirt": 7,
+      "name": "David GINOLA",
+      "cd_name": "D. Ginola",
+      "file": "e_frz15.wav",
+      "tone": 3,
+      "sha256": "caf3e2ec554334246ed2e1b1fb96ab146417ae966b4bf20f7126253fceec55bd"
+    },
+    {
+      "team": 5,
+      "shirt": 8,
+      "name": "Didier DESCHAMPS",
+      "cd_name": "D. Deschamps",
+      "file": "e_frx07.wav",
+      "tone": 1,
+      "sha256": "7093edb4245f5188c138f9105bc714f293565991409bfcb964a2629069d02f0c"
+    },
+    {
+      "team": 5,
+      "shirt": 8,
+      "name": "Didier DESCHAMPS",
+      "cd_name": "D. Deschamps",
+      "file": "e_fry07.wav",
+      "tone": 2,
+      "sha256": "61c67b745be4f4303e0c55ff97ba1b3d8b93ee8182b8765f009f1f059ac66f48"
+    },
+    {
+      "team": 5,
+      "shirt": 8,
+      "name": "Didier DESCHAMPS",
+      "cd_name": "D. Deschamps",
+      "file": "e_frz07.wav",
+      "tone": 3,
+      "sha256": "e67609294170d5bbc2552b3996bce5ed0cf0f19559959c5f03dd243c55e01fcd"
+    },
+    {
+      "team": 5,
+      "shirt": 9,
+      "name": "Eric CANTONA",
+      "cd_name": "E. Cantona",
+      "file": "e_frx10.wav",
+      "tone": 1,
+      "sha256": "c8c8be74ea3cdf4198d9279a06e697639b5d24cc01da6b3e9a3da81cb8a01a23"
+    },
+    {
+      "team": 5,
+      "shirt": 9,
+      "name": "Eric CANTONA",
+      "cd_name": "E. Cantona",
+      "file": "e_fry10.wav",
+      "tone": 2,
+      "sha256": "457dc390e46bcddf1591460c698524388bee9ee9c74ef2f417efc07403747ebf"
+    },
+    {
+      "team": 5,
+      "shirt": 9,
+      "name": "Eric CANTONA",
+      "cd_name": "E. Cantona",
+      "file": "e_frz10.wav",
+      "tone": 3,
+      "sha256": "5527f85ef6b5cb0ab10725305915db8eba0dd95750987c13bbba8921bf4282ce"
+    },
+    {
+      "team": 5,
+      "shirt": 12,
+      "name": "Bernard LAMA",
+      "cd_name": "B. Lama",
+      "file": "e_frx01.wav",
+      "tone": 1,
+      "sha256": "7347860f7065b427d6720be8e06a04e2b9d4e97f70d26b39e1673d72c4c6c6c6"
+    },
+    {
+      "team": 5,
+      "shirt": 12,
+      "name": "Bernard LAMA",
+      "cd_name": "B. Lama",
+      "file": "e_fry01.wav",
+      "tone": 2,
+      "sha256": "2a004b55b09160179cd11c5551f40feb75b00ce8fc60fa73ea858ca107c4950c"
+    },
+    {
+      "team": 5,
+      "shirt": 12,
+      "name": "Bernard LAMA",
+      "cd_name": "B. Lama",
+      "file": "e_frz01.wav",
+      "tone": 3,
+      "sha256": "57d3f268ff06e63d00923b01e48870342fea62931a1464e1137f0d5170d1d809"
+    },
+    {
+      "team": 5,
+      "shirt": 13,
+      "name": "Marcel DESAILLY",
+      "cd_name": "M. Desailly",
+      "file": "e_frx13.wav",
+      "tone": 1,
+      "sha256": "defccde034ad33f125158950ebf533de6c055f817954a2b7788c0ba829cf59dc"
+    },
+    {
+      "team": 5,
+      "shirt": 13,
+      "name": "Marcel DESAILLY",
+      "cd_name": "M. Desailly",
+      "file": "e_fry13.wav",
+      "tone": 2,
+      "sha256": "f39e7dee7cdeaa4ccc8988b79725b916f75a612191d636bbc1d45b1a17e3ddbc"
+    },
+    {
+      "team": 5,
+      "shirt": 13,
+      "name": "Marcel DESAILLY",
+      "cd_name": "M. Desailly",
+      "file": "e_frz13.wav",
+      "tone": 3,
+      "sha256": "8e85c1fcb99566c80f5c041cfe69c59a144eed5d17b861bf203838b7ce96b39c"
+    },
+    {
+      "team": 5,
+      "shirt": 14,
+      "name": "Youri DJORKAEFF",
+      "cd_name": "Y. Djorkaeff",
+      "file": "e_frx16.wav",
+      "tone": 1,
+      "sha256": "5b50c323593be689cb422cd58fb74696af2bc850eb7c599352491d778389f01e"
+    },
+    {
+      "team": 5,
+      "shirt": 14,
+      "name": "Youri DJORKAEFF",
+      "cd_name": "Y. Djorkaeff",
+      "file": "e_fry16.wav",
+      "tone": 2,
+      "sha256": "101c159f477d718b2e00d779bdabd4ce6b2b4a77bb1de747a9598b28fc3ce769"
+    },
+    {
+      "team": 5,
+      "shirt": 14,
+      "name": "Youri DJORKAEFF",
+      "cd_name": "Y. Djorkaeff",
+      "file": "e_frz16.wav",
+      "tone": 3,
+      "sha256": "00452dc0999739d2ba54164c22197466df20a1a3015442b76621aa923dc0bc75"
+    },
+    {
+      "team": 5,
+      "shirt": 16,
+      "name": "Bixente LIZARAZU",
+      "cd_name": "B. Lizarazu",
+      "file": "e_frx18.wav",
+      "tone": 1,
+      "sha256": "c9b97fe779465e140b61e377d71d30740c7f5ef03b4dc57b93471dd9ee7a0fd0"
+    },
+    {
+      "team": 5,
+      "shirt": 16,
+      "name": "Bixente LIZARAZU",
+      "cd_name": "B. Lizarazu",
+      "file": "e_fry18.wav",
+      "tone": 2,
+      "sha256": "f5a7dffd2cf548e979eae8cf37b6a4746a2a84eba9a1fbb37709e983946c16f2"
+    },
+    {
+      "team": 5,
+      "shirt": 16,
+      "name": "Bixente LIZARAZU",
+      "cd_name": "B. Lizarazu",
+      "file": "e_frz18.wav",
+      "tone": 3,
+      "sha256": "59ba8c75aa3c5ce52c4bffbcd6254c5eb891e357e65030c3fa582d9d26b1ec99"
+    },
+    {
+      "team": 5,
+      "shirt": 17,
+      "name": "Paul LE GUEN",
+      "cd_name": "P. Le Guen",
+      "file": "e_frx06.wav",
+      "tone": 1,
+      "sha256": "e76e4aa9a6b196d3fea2dc647fd48f5ee40e28bffe8b0d3e182cc9c7e1ba3bd7"
+    },
+    {
+      "team": 5,
+      "shirt": 17,
+      "name": "Paul LE GUEN",
+      "cd_name": "P. Le Guen",
+      "file": "e_fry06.wav",
+      "tone": 2,
+      "sha256": "fbd73c4ceb341805b101dd2fcc78aec206f5accf76c189a0ea1197d5f393a991"
+    },
+    {
+      "team": 5,
+      "shirt": 17,
+      "name": "Paul LE GUEN",
+      "cd_name": "P. Le Guen",
+      "file": "e_frz06.wav",
+      "tone": 3,
+      "sha256": "75b30f90f90a6594f575ad1f25e92658b248b7f64fc4276baf3096298e403d9a"
+    },
+    {
+      "team": 5,
+      "shirt": 20,
+      "name": "Basile BOLI",
+      "cd_name": "B. Boli",
+      "file": "e_frx03.wav",
+      "tone": 1,
+      "sha256": "79b495ebf9986affeb104bda8a6c445937a8a865cd3520c6dea6738e26a9dac0"
+    },
+    {
+      "team": 5,
+      "shirt": 20,
+      "name": "Basile BOLI",
+      "cd_name": "B. Boli",
+      "file": "e_fry03.wav",
+      "tone": 2,
+      "sha256": "d20c07493a1841095f7516ccb96be2997eb0d0b21db323526da397169bbab39c"
+    },
+    {
+      "team": 5,
+      "shirt": 20,
+      "name": "Basile BOLI",
+      "cd_name": "B. Boli",
+      "file": "e_frz03.wav",
+      "tone": 3,
+      "sha256": "b8b60eb8415bcde012be0d9b4e834856a569f81da9792ccfd60b98d0f3bcce12"
+    },
+    {
+      "team": 6,
+      "shirt": 4,
+      "name": "Thomas HELMER",
+      "cd_name": "T. Helmer",
+      "file": "e_gex04.wav",
+      "tone": 1,
+      "sha256": "0ec390e8ab21c8cac65802fc0b805485995e7d134f34f7a417fb7575566451cd"
+    },
+    {
+      "team": 6,
+      "shirt": 4,
+      "name": "Thomas HELMER",
+      "cd_name": "T. Helmer",
+      "file": "e_gey04.wav",
+      "tone": 2,
+      "sha256": "8e4dd9935413de6134460dbec55a2bb8a90ad7d401a5a5c3fdd36c27bebd1d13"
+    },
+    {
+      "team": 6,
+      "shirt": 4,
+      "name": "Thomas HELMER",
+      "cd_name": "T. Helmer",
+      "file": "e_gez04.wav",
+      "tone": 3,
+      "sha256": "0afb0c3a650c5748b6ed4a12e4dab61902d5afcc1cc45a4f249e3a4abca81f32"
+    },
+    {
+      "team": 6,
+      "shirt": 5,
+      "name": "Christian ZIEGE",
+      "cd_name": "C. Ziege",
+      "file": "e_gex17.wav",
+      "tone": 1,
+      "sha256": "ff15a7fab1f94ce6b89e75cc89f1a2d5a0c22bc0601870f92eb493d8a6e1c5a8"
+    },
+    {
+      "team": 6,
+      "shirt": 5,
+      "name": "Christian ZIEGE",
+      "cd_name": "C. Ziege",
+      "file": "e_gey17.wav",
+      "tone": 2,
+      "sha256": "c4d7e90d63ebfa12aa4dec2eeda35428b3d00fe1073ce4f9c64ce3773c9a6be6"
+    },
+    {
+      "team": 6,
+      "shirt": 5,
+      "name": "Christian ZIEGE",
+      "cd_name": "C. Ziege",
+      "file": "e_gez17.wav",
+      "tone": 3,
+      "sha256": "3f5babcdbae2822907de5a89bf75fd5946c1285b6e6182f6ad5fc495ea827d58"
+    },
+    {
+      "team": 6,
+      "shirt": 7,
+      "name": "Matthias SAMMER",
+      "cd_name": "M. Sammer",
+      "file": "e_gex11.wav",
+      "tone": 1,
+      "sha256": "2e8befce5258a5ade8a6fed99ba8ae99b46fdd299c4dcd23964a992468f4215b"
+    },
+    {
+      "team": 6,
+      "shirt": 7,
+      "name": "Matthias SAMMER",
+      "cd_name": "M. Sammer",
+      "file": "e_gey11.wav",
+      "tone": 2,
+      "sha256": "728a95100c212d8d9d5e3b293ff96b8bf9e9bd18ba4af6a947be6bb62f2293f9"
+    },
+    {
+      "team": 6,
+      "shirt": 7,
+      "name": "Matthias SAMMER",
+      "cd_name": "M. Sammer",
+      "file": "e_gez11.wav",
+      "tone": 3,
+      "sha256": "d78d57b9a5956e2519ad4eef4736d9a52dfb7c031fd3eff9ff85eec2418a6a85"
+    },
+    {
+      "team": 6,
+      "shirt": 9,
+      "name": "Jurgen KLINSMANN",
+      "cd_name": "J. Klinsmann",
+      "file": "e_gex10.wav",
+      "tone": 1,
+      "sha256": "b45de8ba87063e1bfd5ec45ed457e7322de3cc595229c60187c9e87c42e215c5"
+    },
+    {
+      "team": 6,
+      "shirt": 9,
+      "name": "Jurgen KLINSMANN",
+      "cd_name": "J. Klinsmann",
+      "file": "e_gey10.wav",
+      "tone": 2,
+      "sha256": "21958430d75de0f3c0a5e1ca277de20cce35039e878a976e88e355d02e4ed754"
+    },
+    {
+      "team": 6,
+      "shirt": 9,
+      "name": "Jurgen KLINSMANN",
+      "cd_name": "J. Klinsmann",
+      "file": "e_gez10.wav",
+      "tone": 3,
+      "sha256": "488cb4719bda249d016dad0a877614132a071762a51d891276f34d2cd5fc2f01"
+    },
+    {
+      "team": 6,
+      "shirt": 13,
+      "name": "Stefan KUNTZ",
+      "cd_name": "S. Kuntz",
+      "file": "e_gex21.wav",
+      "tone": 1,
+      "sha256": "583110c840dfa5536ea3c3431386ac356d804a662c710a29e039164f46084080"
+    },
+    {
+      "team": 6,
+      "shirt": 13,
+      "name": "Stefan KUNTZ",
+      "cd_name": "S. Kuntz",
+      "file": "e_gey21.wav",
+      "tone": 2,
+      "sha256": "0bccb4ef497f39b147474113ecf0a8ed8b86ee4fa9c9e09f3c21610911a55c0d"
+    },
+    {
+      "team": 6,
+      "shirt": 13,
+      "name": "Stefan KUNTZ",
+      "cd_name": "S. Kuntz",
+      "file": "e_gez21.wav",
+      "tone": 3,
+      "sha256": "edcd9fea35dcae0754f1dbb6a276ffe30485492ca876a8b38c5c627b04d81580"
+    },
+    {
+      "team": 6,
+      "shirt": 16,
+      "name": "Jurgen KOHLER",
+      "cd_name": "J. Kohler",
+      "file": "e_gex03.wav",
+      "tone": 1,
+      "sha256": "87525e8ce3679f6d328fe9c0c6529bb614851f9f91e34cb5539114965200601e"
+    },
+    {
+      "team": 6,
+      "shirt": 16,
+      "name": "Jurgen KOHLER",
+      "cd_name": "J. Kohler",
+      "file": "e_gey03.wav",
+      "tone": 2,
+      "sha256": "671cde5700aba9a42d42c85648ef699585c8f4380014f3ef5974b9e789f22676"
+    },
+    {
+      "team": 6,
+      "shirt": 16,
+      "name": "Jurgen KOHLER",
+      "cd_name": "J. Kohler",
+      "file": "e_gez03.wav",
+      "tone": 3,
+      "sha256": "9f7ed762850b11f30bfac0df4f1a66fc417407cc68e3babe2561c2d358d2953a"
+    },
+    {
+      "team": 6,
+      "shirt": 18,
+      "name": "Guido BUCHWALD",
+      "cd_name": "G. Buchwald",
+      "file": "e_gex14.wav",
+      "tone": 1,
+      "sha256": "41dc6a50cea5154d67f03558052408c5a16cf4f37243c6747875c50a691f6f70"
+    },
+    {
+      "team": 6,
+      "shirt": 18,
+      "name": "Guido BUCHWALD",
+      "cd_name": "G. Buchwald",
+      "file": "e_gey14.wav",
+      "tone": 2,
+      "sha256": "857026fa420c5d2eb3f13d6f8970f229a959f702377164e1491ac0f6bdd48449"
+    },
+    {
+      "team": 6,
+      "shirt": 18,
+      "name": "Guido BUCHWALD",
+      "cd_name": "G. Buchwald",
+      "file": "e_gez14.wav",
+      "tone": 3,
+      "sha256": "84659c527695ca906632087c1cc7d2129466446404e062b463e2c5dabdb971dc"
+    },
+    {
+      "team": 6,
+      "shirt": 20,
+      "name": "Mehmet SCHOLL",
+      "cd_name": "M. Scholl",
+      "file": "e_gex18.wav",
+      "tone": 1,
+      "sha256": "808b8b86a0b7f99b14722e6c4b12211f581f6151461fbaf8ff3968204c0c5f30"
+    },
+    {
+      "team": 6,
+      "shirt": 20,
+      "name": "Mehmet SCHOLL",
+      "cd_name": "M. Scholl",
+      "file": "e_gey18.wav",
+      "tone": 2,
+      "sha256": "e21e4e35a18b195b8e271901c8347cf6a5a1233307fe46855b4e0a0740194255"
+    },
+    {
+      "team": 6,
+      "shirt": 20,
+      "name": "Mehmet SCHOLL",
+      "cd_name": "M. Scholl",
+      "file": "e_gez18.wav",
+      "tone": 3,
+      "sha256": "d89a36ae6be61e336e3c62137b0ecfacef8d8538e9a9d7190652eeeffac0107d"
+    },
+    {
+      "team": 7,
+      "shirt": 3,
+      "name": "Artur NUMAN",
+      "cd_name": "A. Numan",
+      "file": "e_hox06.wav",
+      "tone": 1,
+      "sha256": "5af2cc20974491e5e4fd30940fe56bcd9a4939b2b3d96dde6b5bc62103e26bc6"
+    },
+    {
+      "team": 7,
+      "shirt": 3,
+      "name": "Artur NUMAN",
+      "cd_name": "A. Numan",
+      "file": "e_hoy06.wav",
+      "tone": 2,
+      "sha256": "795169235b070fb93cc30f3ce71c2a6a62fdf06b949e600819791f91e5d641c1"
+    },
+    {
+      "team": 7,
+      "shirt": 3,
+      "name": "Artur NUMAN",
+      "cd_name": "A. Numan",
+      "file": "e_hoz06.wav",
+      "tone": 3,
+      "sha256": "db2e333c4f794d2dbbb999ccc7f28a76d92744395742637f75a9d8eb402c225c"
+    },
+    {
+      "team": 7,
+      "shirt": 4,
+      "name": "Danny BLIND",
+      "cd_name": "D. Blind",
+      "file": "e_hox17.wav",
+      "tone": 1,
+      "sha256": "f872c7b6934844d87d62e95c97ff647df6f3e456157aa7ac9e382e40d2bf3883"
+    },
+    {
+      "team": 7,
+      "shirt": 4,
+      "name": "Danny BLIND",
+      "cd_name": "D. Blind",
+      "file": "e_hoy17.wav",
+      "tone": 2,
+      "sha256": "b27dc4a00d3f09ee3497d541f961f3fdaf4ebce817379b6c668980253148a14a"
+    },
+    {
+      "team": 7,
+      "shirt": 4,
+      "name": "Danny BLIND",
+      "cd_name": "D. Blind",
+      "file": "e_hoz17.wav",
+      "tone": 3,
+      "sha256": "c8fdb94a32b9e80b991733b038b1c625544ec2727f5b88897f84024f42e6bdc0"
+    },
+    {
+      "team": 7,
+      "shirt": 5,
+      "name": "Frank DE BOER",
+      "cd_name": "F. De Boer",
+      "file": "e_hox03.wav",
+      "tone": 1,
+      "sha256": "49c7864cfa5608b1b772f98f2a1bd8d4ac1f71b93917cb4e7b2b8bc99fca9385"
+    },
+    {
+      "team": 7,
+      "shirt": 5,
+      "name": "Frank DE BOER",
+      "cd_name": "F. De Boer",
+      "file": "e_hoy03.wav",
+      "tone": 2,
+      "sha256": "de9a704feef05cf3446793a78849bbc598e2129a9a87a041312d7932cfafad10"
+    },
+    {
+      "team": 7,
+      "shirt": 5,
+      "name": "Frank DE BOER",
+      "cd_name": "F. De Boer",
+      "file": "e_hoz03.wav",
+      "tone": 3,
+      "sha256": "16cb9166b3338943926375b89b0157104f41dd600a2708236a4bc2f21dee5ce2"
+    },
+    {
+      "team": 7,
+      "shirt": 6,
+      "name": "Richard WITSCHGE",
+      "cd_name": "R. Witschge",
+      "file": "e_hox11.wav",
+      "tone": 1,
+      "sha256": "27f5f08cacf5b3e3cba8b6b379dc1b1747171bc50d695a565cd68e426aebffa3"
+    },
+    {
+      "team": 7,
+      "shirt": 6,
+      "name": "Richard WITSCHGE",
+      "cd_name": "R. Witschge",
+      "file": "e_hoy11.wav",
+      "tone": 2,
+      "sha256": "85a9b108838cdb1f6ce1fae5f78d202b9ce61573880ae49b048b128baffc8a85"
+    },
+    {
+      "team": 7,
+      "shirt": 6,
+      "name": "Richard WITSCHGE",
+      "cd_name": "R. Witschge",
+      "file": "e_hoz11.wav",
+      "tone": 3,
+      "sha256": "7e5a407d9780cff16fb1c7395a4174bafb6274784918134f62fe58b762e26f8c"
+    },
+    {
+      "team": 7,
+      "shirt": 7,
+      "name": "Clarence SEEDORF",
+      "cd_name": "C. Seedorf",
+      "file": "e_hox19.wav",
+      "tone": 1,
+      "sha256": "b716786ff54a76bf075c00ff7256d0e3af917a0ef9dcc7d7d11433fcb51da862"
+    },
+    {
+      "team": 7,
+      "shirt": 7,
+      "name": "Clarence SEEDORF",
+      "cd_name": "C. Seedorf",
+      "file": "e_hoy19.wav",
+      "tone": 2,
+      "sha256": "68c891aaf64f26b76ea64c5bacb68fd440fbe1bdcc7010c5adc52de27daf147d"
+    },
+    {
+      "team": 7,
+      "shirt": 7,
+      "name": "Clarence SEEDORF",
+      "cd_name": "C. Seedorf",
+      "file": "e_hoz19.wav",
+      "tone": 3,
+      "sha256": "8368cfb07932e1a53f496317d8362c13dfd6b7ea8119e574194be3d0ad97b4d4"
+    },
+    {
+      "team": 7,
+      "shirt": 8,
+      "name": "Marc OVERMARS",
+      "cd_name": "M. Overmars",
+      "file": "e_hox13.wav",
+      "tone": 1,
+      "sha256": "4088608702b731cb4afbaf99540d37f08c79cc1b06cbe4d841723dae9b9f8aaf"
+    },
+    {
+      "team": 7,
+      "shirt": 8,
+      "name": "Marc OVERMARS",
+      "cd_name": "M. Overmars",
+      "file": "e_hoy13.wav",
+      "tone": 2,
+      "sha256": "3c6d95c4c8f7553c8269c28fd3509d146f7e5d174c5619e0f2e4c5ea81103bd1"
+    },
+    {
+      "team": 7,
+      "shirt": 8,
+      "name": "Marc OVERMARS",
+      "cd_name": "M. Overmars",
+      "file": "e_hoz13.wav",
+      "tone": 3,
+      "sha256": "3209b46383d6d409e9b790bfd30cd0d6e4c81eedca70002c51b12f5114062a93"
+    },
+    {
+      "team": 7,
+      "shirt": 9,
+      "name": "Dennis BERGKAMP",
+      "cd_name": "D. Bergkamp",
+      "file": "e_hox09.wav",
+      "tone": 1,
+      "sha256": "b90ee050e022dced7e90f9e8a71e56cd551b4ca6c41ea094119afaf14898fddd"
+    },
+    {
+      "team": 7,
+      "shirt": 9,
+      "name": "Dennis BERGKAMP",
+      "cd_name": "D. Bergkamp",
+      "file": "e_hoy09.wav",
+      "tone": 2,
+      "sha256": "d87358ad999eb1cd9bf1c86dd101143ffc84cbed7bc14443c5fea148f0e839bf"
+    },
+    {
+      "team": 7,
+      "shirt": 9,
+      "name": "Dennis BERGKAMP",
+      "cd_name": "D. Bergkamp",
+      "file": "e_hoz09.wav",
+      "tone": 3,
+      "sha256": "9035b3f99bd50a0f58f04ffd86a1ea4872c232a76ccb81443b1f31cb9c8a09e1"
+    },
+    {
+      "team": 7,
+      "shirt": 10,
+      "name": "Ronald DE BOER",
+      "cd_name": "R. De Boer",
+      "file": "e_hox14.wav",
+      "tone": 1,
+      "sha256": "5fd9d5bf5e1b577decd840484e7773ade7dea4f7c9b86187b9744a68b8092dc1"
+    },
+    {
+      "team": 7,
+      "shirt": 10,
+      "name": "Ronald DE BOER",
+      "cd_name": "R. De Boer",
+      "file": "e_hoy14.wav",
+      "tone": 2,
+      "sha256": "7d02826382ca91b8f2ecea64126809daad0c00f440fff4bf629e66a1015ad9e7"
+    },
+    {
+      "team": 7,
+      "shirt": 10,
+      "name": "Ronald DE BOER",
+      "cd_name": "R. De Boer",
+      "file": "e_hoz14.wav",
+      "tone": 3,
+      "sha256": "38db218c26ee7a7d240a59847cb1bea5248d7a367bd12b29da5751ba36f19732"
+    },
+    {
+      "team": 7,
+      "shirt": 12,
+      "name": "Ed DE GOEY",
+      "cd_name": "E. De Goey",
+      "file": "e_hox01.wav",
+      "tone": 1,
+      "sha256": "88d0e2114a348217e31855c0a8fc9bbc13d2fdaab9b54614188caa737e484bd7"
+    },
+    {
+      "team": 7,
+      "shirt": 12,
+      "name": "Ed DE GOEY",
+      "cd_name": "E. De Goey",
+      "file": "e_hoy01.wav",
+      "tone": 2,
+      "sha256": "ae604e8bcdff37ba301c2a7b3af138deb77c547108ace53d344a7c0a0e1c5f57"
+    },
+    {
+      "team": 7,
+      "shirt": 12,
+      "name": "Ed DE GOEY",
+      "cd_name": "E. De Goey",
+      "file": "e_hoz01.wav",
+      "tone": 3,
+      "sha256": "3c8e0f302cf778efee05e75ae478ce8f685c10d8d38ab56fec0bc4e1d197cdca"
+    },
+    {
+      "team": 7,
+      "shirt": 13,
+      "name": "Bryan ROY",
+      "cd_name": "B. Roy",
+      "file": "e_hox10.wav",
+      "tone": 1,
+      "sha256": "8ad79d3c7682856870814bdd8a25e930a646971daedd76f990ee0b29c3f11c42"
+    },
+    {
+      "team": 7,
+      "shirt": 13,
+      "name": "Bryan ROY",
+      "cd_name": "B. Roy",
+      "file": "e_hoy10.wav",
+      "tone": 2,
+      "sha256": "13e8dc0e72870ce5d1e925dbc954f29c6a851953a40ad7696ddb98765fa5c747"
+    },
+    {
+      "team": 7,
+      "shirt": 13,
+      "name": "Bryan ROY",
+      "cd_name": "B. Roy",
+      "file": "e_hoz10.wav",
+      "tone": 3,
+      "sha256": "5d0d987d0f06dcda8662ad980c1004cc0cac6d157b08274b8f8c69a5bd79a347"
+    },
+    {
+      "team": 7,
+      "shirt": 14,
+      "name": "Patrick KLUIVERT",
+      "cd_name": "P. Kluivert",
+      "file": "e_hox22.wav",
+      "tone": 1,
+      "sha256": "30e0418dd06b08106e2737fd549326d0a54054df2e6413137418c88e6ca3c896"
+    },
+    {
+      "team": 7,
+      "shirt": 14,
+      "name": "Patrick KLUIVERT",
+      "cd_name": "P. Kluivert",
+      "file": "e_hoy22.wav",
+      "tone": 2,
+      "sha256": "30e0418dd06b08106e2737fd549326d0a54054df2e6413137418c88e6ca3c896"
+    },
+    {
+      "team": 7,
+      "shirt": 14,
+      "name": "Patrick KLUIVERT",
+      "cd_name": "P. Kluivert",
+      "file": "e_hoz22.wav",
+      "tone": 3,
+      "sha256": "30e0418dd06b08106e2737fd549326d0a54054df2e6413137418c88e6ca3c896"
+    },
+    {
+      "team": 7,
+      "shirt": 15,
+      "name": "Edgar DAVIDS",
+      "cd_name": "E. Davids",
+      "file": "e_hox07.wav",
+      "tone": 1,
+      "sha256": "477cd6b5d19e0ae72cb12bd2d1857afb7f21f297f82132fdbe7c818c0552bb0e"
+    },
+    {
+      "team": 7,
+      "shirt": 15,
+      "name": "Edgar DAVIDS",
+      "cd_name": "E. Davids",
+      "file": "e_hoy07.wav",
+      "tone": 2,
+      "sha256": "bbfd9e7e7416b363675ddbe93e79000770886cf175d79bb9617bfeb7ab614ab4"
+    },
+    {
+      "team": 7,
+      "shirt": 15,
+      "name": "Edgar DAVIDS",
+      "cd_name": "E. Davids",
+      "file": "e_hoz07.wav",
+      "tone": 3,
+      "sha256": "4b6ae684f8bc4e46c290b551446051200d227c5d6b6315e3727668e5c426e37f"
+    },
+    {
+      "team": 7,
+      "shirt": 16,
+      "name": "Aron WINTER",
+      "cd_name": "A. Winter",
+      "file": "e_hox16.wav",
+      "tone": 1,
+      "sha256": "62035356481ed657676b50914b376088b2a6bea0cea9bde0f32b5a03eccb8c4b"
+    },
+    {
+      "team": 7,
+      "shirt": 16,
+      "name": "Aron WINTER",
+      "cd_name": "A. Winter",
+      "file": "e_hoy16.wav",
+      "tone": 2,
+      "sha256": "3f363e97dbbdea8a3d5fb2775c0494fb68e373d34d09e3c3ea56f9bf291d8598"
+    },
+    {
+      "team": 7,
+      "shirt": 16,
+      "name": "Aron WINTER",
+      "cd_name": "A. Winter",
+      "file": "e_hoz16.wav",
+      "tone": 3,
+      "sha256": "0801a3995eb4fd39d339004eeabfac19be6de941a9c7c52bee696184c11e1720"
+    },
+    {
+      "team": 7,
+      "shirt": 17,
+      "name": "Ulrich VAN GOBBEL",
+      "cd_name": "U. Van Gobbel",
+      "file": "e_hox04.wav",
+      "tone": 1,
+      "sha256": "35f32e4a393e3d0a42061d3e577ccd67842235afcb3eeb0d0d8aad05188d194c"
+    },
+    {
+      "team": 7,
+      "shirt": 17,
+      "name": "Ulrich VAN GOBBEL",
+      "cd_name": "U. Van Gobbel",
+      "file": "e_hoy04.wav",
+      "tone": 2,
+      "sha256": "bf460237a1661e149484c23a0d38617a8f9a67b6adc3aa07c2264a16d597a210"
+    },
+    {
+      "team": 7,
+      "shirt": 17,
+      "name": "Ulrich VAN GOBBEL",
+      "cd_name": "U. Van Gobbel",
+      "file": "e_hoz04.wav",
+      "tone": 3,
+      "sha256": "d420a0248970b5a35f54f2ba1009a4eb3e1df7246648d9d5b78723be2d943492"
+    },
+    {
+      "team": 7,
+      "shirt": 18,
+      "name": "Gaston TAUMENT",
+      "cd_name": "G. Taument",
+      "file": "e_hox18.wav",
+      "tone": 1,
+      "sha256": "63505795187d45c075662b9b01203f07f3856de7e6233df3f26286c10eddd00d"
+    },
+    {
+      "team": 7,
+      "shirt": 18,
+      "name": "Gaston TAUMENT",
+      "cd_name": "G. Taument",
+      "file": "e_hoy18.wav",
+      "tone": 2,
+      "sha256": "ff3556491c8c71e6efe171e15148aa8e584625ef77ce609fd58df09ae7d36020"
+    },
+    {
+      "team": 7,
+      "shirt": 18,
+      "name": "Gaston TAUMENT",
+      "cd_name": "G. Taument",
+      "file": "e_hoz18.wav",
+      "tone": 3,
+      "sha256": "71280e8ae83aa4e9777f3a088b3906eedc80ac1a23893035a82d56e4c2618228"
+    },
+    {
+      "team": 7,
+      "shirt": 20,
+      "name": "Stan VALCKX",
+      "cd_name": "S. Valckx",
+      "file": "e_hox05.wav",
+      "tone": 1,
+      "sha256": "fe25e42c930c63a37d62b82f4dd4b71ad7b902089aab4f2ced60a957e1fb124d"
+    },
+    {
+      "team": 7,
+      "shirt": 20,
+      "name": "Stan VALCKX",
+      "cd_name": "S. Valckx",
+      "file": "e_hoy05.wav",
+      "tone": 2,
+      "sha256": "d1e88aa5455b37c039f45ba4c00ce10bc90a1589d56d64848c65e66047b00d86"
+    },
+    {
+      "team": 7,
+      "shirt": 20,
+      "name": "Stan VALCKX",
+      "cd_name": "S. Valckx",
+      "file": "e_hoz05.wav",
+      "tone": 3,
+      "sha256": "a594ee82415e78c31dc4635ad24567bdcd6aa8725b21d13ab371d9034b45e5a4"
+    },
+    {
+      "team": 8,
+      "shirt": 1,
+      "name": "Gianluca PAGLIUCA",
+      "cd_name": "G. Pagliuca",
+      "file": "e_itx01.wav",
+      "tone": 1,
+      "sha256": "581e3db88e0d2e1f9cbd08d40ea3015da7d1f91183a07dd1d9011a55b198e520"
+    },
+    {
+      "team": 8,
+      "shirt": 1,
+      "name": "Gianluca PAGLIUCA",
+      "cd_name": "G. Pagliuca",
+      "file": "e_ity01.wav",
+      "tone": 2,
+      "sha256": "d7d1f42c8d6ca3d8796dd6ffc7b1613e0c836abec99a48a061f004010c6ccb20"
+    },
+    {
+      "team": 8,
+      "shirt": 1,
+      "name": "Gianluca PAGLIUCA",
+      "cd_name": "G. Pagliuca",
+      "file": "e_itz01.wav",
+      "tone": 3,
+      "sha256": "fbe730bb12632b9d885196a657f42e90450d656d3e09eec71c04aa1d13065ae9"
+    },
+    {
+      "team": 8,
+      "shirt": 3,
+      "name": "Paolo MALDINI",
+      "cd_name": "P. Maldini",
+      "file": "e_itx19.wav",
+      "tone": 1,
+      "sha256": "2d408dbf9a30f53f6294446ad584da12cec3a894d70ca1b73e662bb9ab9aaf29"
+    },
+    {
+      "team": 8,
+      "shirt": 3,
+      "name": "Paolo MALDINI",
+      "cd_name": "P. Maldini",
+      "file": "e_ity19.wav",
+      "tone": 2,
+      "sha256": "ce6db8edd6f610f8c16c1aeaea6de4b12fa5681f3c7e4488483ee1de65dbbf33"
+    },
+    {
+      "team": 8,
+      "shirt": 3,
+      "name": "Paolo MALDINI",
+      "cd_name": "P. Maldini",
+      "file": "e_itz19.wav",
+      "tone": 3,
+      "sha256": "e05ce903ac57df0ce8faf4fe4c5ce8a596a36bc2a45a6a3f5a1bb3885dab9413"
+    },
+    {
+      "team": 8,
+      "shirt": 4,
+      "name": "Luigi APOLLONI",
+      "cd_name": "L. Apolloni",
+      "file": "e_itx17.wav",
+      "tone": 1,
+      "sha256": "b85f69457f455794ab5a059f7d39ff58ad4d76d6a73c2364d416d3590de7c9d4"
+    },
+    {
+      "team": 8,
+      "shirt": 4,
+      "name": "Luigi APOLLONI",
+      "cd_name": "L. Apolloni",
+      "file": "e_ity17.wav",
+      "tone": 2,
+      "sha256": "ae99a5be6228d050e23025fff5bd76b97eb2bd629df404d15f55890fb7eac4d0"
+    },
+    {
+      "team": 8,
+      "shirt": 4,
+      "name": "Luigi APOLLONI",
+      "cd_name": "L. Apolloni",
+      "file": "e_itz17.wav",
+      "tone": 3,
+      "sha256": "699a9279720f88ec0273fe1546733b7ebd0c6a2b215bd3708c52b458ad580f23"
+    },
+    {
+      "team": 8,
+      "shirt": 5,
+      "name": "Alessandro COSTACURTA",
+      "cd_name": "A. Costacurta",
+      "file": "e_itx04.wav",
+      "tone": 1,
+      "sha256": "9525ab814287af08bfd7793c30d2b5be479852236542b7597553d3da052cf6cd"
+    },
+    {
+      "team": 8,
+      "shirt": 5,
+      "name": "Alessandro COSTACURTA",
+      "cd_name": "A. Costacurta",
+      "file": "e_ity04.wav",
+      "tone": 2,
+      "sha256": "3a9392746897f4c5640e034f5d5bde6d0c664eb3b9da34f2681e73a9f23a8a98"
+    },
+    {
+      "team": 8,
+      "shirt": 5,
+      "name": "Alessandro COSTACURTA",
+      "cd_name": "A. Costacurta",
+      "file": "e_itz04.wav",
+      "tone": 3,
+      "sha256": "fe8dff49284e17cab609acd6c40aed549c33b2b0888497c1a21a4c3b9bea8869"
+    },
+    {
+      "team": 8,
+      "shirt": 8,
+      "name": "Demetrio ALBERTINI",
+      "cd_name": "D. Albertini",
+      "file": "e_itx07.wav",
+      "tone": 1,
+      "sha256": "7a59919f169b0d05bbbe16965b29857e26a0acda4b0ed2fdda4523128db20c7b"
+    },
+    {
+      "team": 8,
+      "shirt": 8,
+      "name": "Demetrio ALBERTINI",
+      "cd_name": "D. Albertini",
+      "file": "e_ity07.wav",
+      "tone": 2,
+      "sha256": "e5be35acd5a7c193027bd1c44fb43a1bdcc63de8fd4ef302bb728bb7e30b9d8f"
+    },
+    {
+      "team": 8,
+      "shirt": 8,
+      "name": "Demetrio ALBERTINI",
+      "cd_name": "D. Albertini",
+      "file": "e_itz07.wav",
+      "tone": 3,
+      "sha256": "2faa9b5f7b1a88326f6eb47ae898c8a0e14403dd3a064197b2b3965f044a0ec9"
+    },
+    {
+      "team": 8,
+      "shirt": 9,
+      "name": "Roberto BAGGIO",
+      "cd_name": "R. Baggio",
+      "file": "e_itx10.wav",
+      "tone": 1,
+      "sha256": "69bd0a65c3b393d91de214fee3c70d668f30c4237739cca7aca18d6d0cafaf98"
+    },
+    {
+      "team": 8,
+      "shirt": 9,
+      "name": "Roberto BAGGIO",
+      "cd_name": "R. Baggio",
+      "file": "e_ity10.wav",
+      "tone": 2,
+      "sha256": "7648efa8e4a1c6bec0617a709a25c737c377b8ef36832e9913ef6ff7bc584f7d"
+    },
+    {
+      "team": 8,
+      "shirt": 9,
+      "name": "Roberto BAGGIO",
+      "cd_name": "R. Baggio",
+      "file": "e_itz10.wav",
+      "tone": 3,
+      "sha256": "b5015b45b02dfe7c98dab86e6734ca6af85a6fedd547aa0dbf3229d2be0feead"
+    },
+    {
+      "team": 8,
+      "shirt": 12,
+      "name": "Luca MARCHEGIANI",
+      "cd_name": "L. Marchegiani",
+      "file": "e_itx12.wav",
+      "tone": 1,
+      "sha256": "e35eb235b918ad11e08cdd4f749d34985f1110a7e341641104144d8ebbdf4d45"
+    },
+    {
+      "team": 8,
+      "shirt": 12,
+      "name": "Luca MARCHEGIANI",
+      "cd_name": "L. Marchegiani",
+      "file": "e_ity12.wav",
+      "tone": 2,
+      "sha256": "c79955a95fae674c09e96137b5d93adb03fcf304b3cb98c44f477a31c33c8deb"
+    },
+    {
+      "team": 8,
+      "shirt": 12,
+      "name": "Luca MARCHEGIANI",
+      "cd_name": "L. Marchegiani",
+      "file": "e_itz12.wav",
+      "tone": 3,
+      "sha256": "91acd2d5dd58a95e4636e04711545a7d7212e930473dbf786b79e320ebca8bf8"
+    },
+    {
+      "team": 8,
+      "shirt": 13,
+      "name": "Roberto DONADONI",
+      "cd_name": "R. Donadoni",
+      "file": "e_itx06.wav",
+      "tone": 1,
+      "sha256": "c8292f2538d0f04ff8617f64bdf521a2c8f26e8e521b5d06a6e8c786ec3239f0"
+    },
+    {
+      "team": 8,
+      "shirt": 13,
+      "name": "Roberto DONADONI",
+      "cd_name": "R. Donadoni",
+      "file": "e_ity06.wav",
+      "tone": 2,
+      "sha256": "69ed72fb346663d3cc12f847cad29260103e7954120d62e68e53175a07930f75"
+    },
+    {
+      "team": 8,
+      "shirt": 13,
+      "name": "Roberto DONADONI",
+      "cd_name": "R. Donadoni",
+      "file": "e_itz06.wav",
+      "tone": 3,
+      "sha256": "815cc1944f524dc0dd5bda413c8d4677ff08d73e43c9ea02f08c12ac99e4a62f"
+    },
+    {
+      "team": 8,
+      "shirt": 14,
+      "name": "Dino BAGGIO",
+      "cd_name": "D. Baggio",
+      "file": "e_itx13.wav",
+      "tone": 1,
+      "sha256": "69bd0a65c3b393d91de214fee3c70d668f30c4237739cca7aca18d6d0cafaf98"
+    },
+    {
+      "team": 8,
+      "shirt": 14,
+      "name": "Dino BAGGIO",
+      "cd_name": "D. Baggio",
+      "file": "e_ity13.wav",
+      "tone": 2,
+      "sha256": "1c387845fd8d702db364476c0775937d1ed776aee54d3641ce862d7eaee7f732"
+    },
+    {
+      "team": 8,
+      "shirt": 14,
+      "name": "Dino BAGGIO",
+      "cd_name": "D. Baggio",
+      "file": "e_itz13.wav",
+      "tone": 3,
+      "sha256": "cd0864a17bd247383b85921c43225691f3025b3f8fbbbc691c38e5cdd7965874"
+    },
+    {
+      "team": 8,
+      "shirt": 16,
+      "name": "Franco BARESI",
+      "cd_name": "F. Baresi",
+      "file": "e_itx03.wav",
+      "tone": 1,
+      "sha256": "0c6f932c5b8c3f318f46707db674ff149bc1e99fa63abcdf57579cb38ddccf48"
+    },
+    {
+      "team": 8,
+      "shirt": 16,
+      "name": "Franco BARESI",
+      "cd_name": "F. Baresi",
+      "file": "e_ity03.wav",
+      "tone": 2,
+      "sha256": "7a4d8c96537f15ff08838673956e4b90ae84f3294a939bb315d2eb001ae1e9d7"
+    },
+    {
+      "team": 8,
+      "shirt": 16,
+      "name": "Franco BARESI",
+      "cd_name": "F. Baresi",
+      "file": "e_itz03.wav",
+      "tone": 3,
+      "sha256": "065cd0810743969fb7e3911cf626f4a69346be5727abd0b9b85bb4698c4e9815"
+    },
+    {
+      "team": 8,
+      "shirt": 17,
+      "name": "Gianfranco ZOLA",
+      "cd_name": "G. Zola",
+      "file": "e_itx22.wav",
+      "tone": 1,
+      "sha256": "d57715fc078c11ccbfcf94bfe57316369eafd010b093520133e3afbbee874894"
+    },
+    {
+      "team": 8,
+      "shirt": 17,
+      "name": "Gianfranco ZOLA",
+      "cd_name": "G. Zola",
+      "file": "e_ity22.wav",
+      "tone": 2,
+      "sha256": "2bc0c16a1f81d13376181700e422500c879dbf40613ac9f72d94034041e87897"
+    },
+    {
+      "team": 8,
+      "shirt": 17,
+      "name": "Gianfranco ZOLA",
+      "cd_name": "G. Zola",
+      "file": "e_itz22.wav",
+      "tone": 3,
+      "sha256": "ecad527ceb3ad2aa8a077ed31e29df35f7b4a788461c0b0eda55abd002c17726"
+    },
+    {
+      "team": 8,
+      "shirt": 18,
+      "name": "Giuseppe SIGNORI",
+      "cd_name": "G. Signori",
+      "file": "e_itx09.wav",
+      "tone": 1,
+      "sha256": "d1e464508d5682cf37cc5188a9028466d880ed1d4e01fd94b0d4b06d44fe578e"
+    },
+    {
+      "team": 8,
+      "shirt": 18,
+      "name": "Giuseppe SIGNORI",
+      "cd_name": "G. Signori",
+      "file": "e_ity09.wav",
+      "tone": 2,
+      "sha256": "1635d4dced88353d8f9879105db27f71473c0afd2fba55f3db45b2bbd8293779"
+    },
+    {
+      "team": 8,
+      "shirt": 18,
+      "name": "Giuseppe SIGNORI",
+      "cd_name": "G. Signori",
+      "file": "e_itz09.wav",
+      "tone": 3,
+      "sha256": "c8a7f772b9172b388d6e252ef0f290c4b87806811d3f8afe231c84ba84ff47a6"
+    },
+    {
+      "team": 10,
+      "shirt": 1,
+      "name": "Bogdan STELEA",
+      "cd_name": "B. Stelea",
+      "file": "e_rmx12.wav",
+      "tone": 1,
+      "sha256": "846617dcb301bc606b464c88049ddd43f9b8be327d067d62b6551a7133dcec5e"
+    },
+    {
+      "team": 10,
+      "shirt": 1,
+      "name": "Bogdan STELEA",
+      "cd_name": "B. Stelea",
+      "file": "e_rmy12.wav",
+      "tone": 2,
+      "sha256": "b0f21f85ed49972b422b1e285477e891a8a6fcecbf3c0aade849947de47de4be"
+    },
+    {
+      "team": 10,
+      "shirt": 1,
+      "name": "Bogdan STELEA",
+      "cd_name": "B. Stelea",
+      "file": "e_rmz12.wav",
+      "tone": 3,
+      "sha256": "9e02d85b60ed4e1394823e5e8a666afde94836ae0db42fa53792082b7e5ec342"
+    },
+    {
+      "team": 10,
+      "shirt": 2,
+      "name": "Dan PETRESCU",
+      "cd_name": "D. Petrescu",
+      "file": "e_rmx02.wav",
+      "tone": 1,
+      "sha256": "34da708115ad3c91519657c5ca2c8cf245db8ab025330eedf84d871ec079f39e"
+    },
+    {
+      "team": 10,
+      "shirt": 2,
+      "name": "Dan PETRESCU",
+      "cd_name": "D. Petrescu",
+      "file": "e_rmy02.wav",
+      "tone": 2,
+      "sha256": "cc682c46904aca905618cd7bde4672bffee5329dcafe1cf83548be56f388bc39"
+    },
+    {
+      "team": 10,
+      "shirt": 2,
+      "name": "Dan PETRESCU",
+      "cd_name": "D. Petrescu",
+      "file": "e_rmz02.wav",
+      "tone": 3,
+      "sha256": "6958468b0851fad1648c23e3f94dd693e140bc40f5f054bb12da35d6901684d4"
+    },
+    {
+      "team": 10,
+      "shirt": 4,
+      "name": "Gheorghe MIHALI",
+      "cd_name": "G. Mihali",
+      "file": "e_rmx05.wav",
+      "tone": 1,
+      "sha256": "66f820e02b7bd019beced7369ab6f74e7ff4f785b751ef5056c4f0708a2383bd"
+    },
+    {
+      "team": 10,
+      "shirt": 4,
+      "name": "Gheorghe MIHALI",
+      "cd_name": "G. Mihali",
+      "file": "e_rmy05.wav",
+      "tone": 2,
+      "sha256": "4e350e9805563cdde7dd3cc66b1076c5cafc26e28fead0d2dcb6e18e55e47482"
+    },
+    {
+      "team": 10,
+      "shirt": 4,
+      "name": "Gheorghe MIHALI",
+      "cd_name": "G. Mihali",
+      "file": "e_rmz05.wav",
+      "tone": 3,
+      "sha256": "579aa486feb129b0c94902b5f5e9396a27c7df5e55644022327851f8b0922e66"
+    },
+    {
+      "team": 10,
+      "shirt": 5,
+      "name": "Ionut LUPESCU",
+      "cd_name": "I. Lupescu",
+      "file": "e_rmx08.wav",
+      "tone": 1,
+      "sha256": "91d77a154cb310bf60eb7c971d9bd75824e640b81bf1a87c9988517f8f957569"
+    },
+    {
+      "team": 10,
+      "shirt": 5,
+      "name": "Ionut LUPESCU",
+      "cd_name": "I. Lupescu",
+      "file": "e_rmy08.wav",
+      "tone": 2,
+      "sha256": "524fa6ac44840687b3625617c9900c9547de8533aab328b5b38e194971a8ac01"
+    },
+    {
+      "team": 10,
+      "shirt": 5,
+      "name": "Ionut LUPESCU",
+      "cd_name": "I. Lupescu",
+      "file": "e_rmz08.wav",
+      "tone": 3,
+      "sha256": "18426880324ca0937f21406a6e5b6029be12d6653e6c0ef75f5bc3ec5fa9394a"
+    },
+    {
+      "team": 10,
+      "shirt": 6,
+      "name": "Gheorghe POPESCU",
+      "cd_name": "G. Popescu",
+      "file": "e_rmx06.wav",
+      "tone": 1,
+      "sha256": "2db3fb9dd5e8be7ba249d896c4647585a3d4083a60336732913d22d5f0b07686"
+    },
+    {
+      "team": 10,
+      "shirt": 6,
+      "name": "Gheorghe POPESCU",
+      "cd_name": "G. Popescu",
+      "file": "e_rmy06.wav",
+      "tone": 2,
+      "sha256": "67f8f0bdd301783dcb7681664f1794e2799a616f35e1a0c93d75c4adaaaee4b7"
+    },
+    {
+      "team": 10,
+      "shirt": 6,
+      "name": "Gheorghe POPESCU",
+      "cd_name": "G. Popescu",
+      "file": "e_rmz06.wav",
+      "tone": 3,
+      "sha256": "03ae81273ff15565103b830732c41e30489350db861630be830c098644da9a9b"
+    },
+    {
+      "team": 10,
+      "shirt": 8,
+      "name": "Ilie DUMITRESCU",
+      "cd_name": "I. Dumitrescu",
+      "file": "e_rmx10.wav",
+      "tone": 1,
+      "sha256": "842682a281a64294ee38ad19b1f3e63c0347a9d107e0029d09f1e31041ec3244"
+    },
+    {
+      "team": 10,
+      "shirt": 8,
+      "name": "Ilie DUMITRESCU",
+      "cd_name": "I. Dumitrescu",
+      "file": "e_rmy10.wav",
+      "tone": 2,
+      "sha256": "6c18814f0a95edb1f35b519459653eb0a5d7ac84f97dd2c62703d77d71b61d05"
+    },
+    {
+      "team": 10,
+      "shirt": 8,
+      "name": "Ilie DUMITRESCU",
+      "cd_name": "I. Dumitrescu",
+      "file": "e_rmz10.wav",
+      "tone": 3,
+      "sha256": "12dbb15d9069444ac549fff964c343283bcd3d6964d9fa92fb6bf6956c916465"
+    },
+    {
+      "team": 10,
+      "shirt": 9,
+      "name": "Tibor SELYMES",
+      "cd_name": "T. Selymes",
+      "file": "e_rmx13.wav",
+      "tone": 1,
+      "sha256": "96cd55c8612f9d3d4b4a656dfc9932f119fe86fd2907e8347798f89e586896e0"
+    },
+    {
+      "team": 10,
+      "shirt": 9,
+      "name": "Tibor SELYMES",
+      "cd_name": "T. Selymes",
+      "file": "e_rmy13.wav",
+      "tone": 2,
+      "sha256": "efe946b57fa34376e22f96e67ab9de78ccce5c3d5124cffa689e3a619fb76a1d"
+    },
+    {
+      "team": 10,
+      "shirt": 9,
+      "name": "Tibor SELYMES",
+      "cd_name": "T. Selymes",
+      "file": "e_rmz13.wav",
+      "tone": 3,
+      "sha256": "f0a59baaebdb5164b535f4e245ab9c62e2f57a6be65d8088c5673b59fe84fc1b"
+    },
+    {
+      "team": 10,
+      "shirt": 10,
+      "name": "Gheorghe HAGI",
+      "cd_name": "G. Hagi",
+      "file": "e_rmx07.wav",
+      "tone": 1,
+      "sha256": "16fadebe8180dfc20ed0f22b396d23f464a2af5af6b060380d8bfa5b7792c559"
+    },
+    {
+      "team": 10,
+      "shirt": 10,
+      "name": "Gheorghe HAGI",
+      "cd_name": "G. Hagi",
+      "file": "e_rmy07.wav",
+      "tone": 2,
+      "sha256": "3de72719f448624537d8cf20251531ea2fc9fbddd647b7f824742c9558aca12f"
+    },
+    {
+      "team": 10,
+      "shirt": 10,
+      "name": "Gheorghe HAGI",
+      "cd_name": "G. Hagi",
+      "file": "e_rmz07.wav",
+      "tone": 3,
+      "sha256": "f9524eed016d636c6cee49acdf8d5e3643d03f1afabb0f1949a107026238a8f4"
+    },
+    {
+      "team": 10,
+      "shirt": 11,
+      "name": "Dorinel MUNTEANU",
+      "cd_name": "D. Munteanu",
+      "file": "e_rmx14.wav",
+      "tone": 1,
+      "sha256": "cbd865114c0204a23da751e87bdbba289df61e2aa7dce46eecf781b10c0892ce"
+    },
+    {
+      "team": 10,
+      "shirt": 11,
+      "name": "Dorinel MUNTEANU",
+      "cd_name": "D. Munteanu",
+      "file": "e_rmy14.wav",
+      "tone": 2,
+      "sha256": "15a8a88ea9c7b00f6f86c62af6be43dede1739ae7144088942e030c0af594d43"
+    },
+    {
+      "team": 10,
+      "shirt": 11,
+      "name": "Dorinel MUNTEANU",
+      "cd_name": "D. Munteanu",
+      "file": "e_rmz14.wav",
+      "tone": 3,
+      "sha256": "4489e8bcf996e0983fac4acaf7e4410eebe8a3e35d4c7038a5171c83bdf19764"
+    },
+    {
+      "team": 10,
+      "shirt": 12,
+      "name": "Florian PRUNEA",
+      "cd_name": "F. Prunea",
+      "file": "e_rmx01.wav",
+      "tone": 1,
+      "sha256": "022d9d2dab05cfb533ad2705b5ac76051669acfc7e934f1a3a714fbd84dda7bf"
+    },
+    {
+      "team": 10,
+      "shirt": 12,
+      "name": "Florian PRUNEA",
+      "cd_name": "F. Prunea",
+      "file": "e_rmy01.wav",
+      "tone": 2,
+      "sha256": "8357beb1d2151ccb8c204acbe6467ac8fb55e7b5fa46cdff636f7bba61045d38"
+    },
+    {
+      "team": 10,
+      "shirt": 12,
+      "name": "Florian PRUNEA",
+      "cd_name": "F. Prunea",
+      "file": "e_rmz01.wav",
+      "tone": 3,
+      "sha256": "7388c518c638679857c6055e14cad22582389f4482f43b2a750c47e3e307f9cd"
+    },
+    {
+      "team": 10,
+      "shirt": 13,
+      "name": "Ion VLADOIU",
+      "cd_name": "I. Vladoiu",
+      "file": "e_rmx16.wav",
+      "tone": 1,
+      "sha256": "68545f2ac0a9ee463d77501f5af293a89a2c48f1554f155927b7a729233567ba"
+    },
+    {
+      "team": 10,
+      "shirt": 13,
+      "name": "Ion VLADOIU",
+      "cd_name": "I. Vladoiu",
+      "file": "e_rmy16.wav",
+      "tone": 2,
+      "sha256": "c85335b658af5c9bdd62d0bc3c810cef0b837436a2928a57c45cf59c1c615c99"
+    },
+    {
+      "team": 10,
+      "shirt": 13,
+      "name": "Ion VLADOIU",
+      "cd_name": "I. Vladoiu",
+      "file": "e_rmz16.wav",
+      "tone": 3,
+      "sha256": "6fc875322b7e413f2b521853b7a55cc1f80b0552c91b26d1a15a01a9d4dd0eb3"
+    },
+    {
+      "team": 10,
+      "shirt": 14,
+      "name": "Basarab PANDURU",
+      "cd_name": "B. Panduru",
+      "file": "e_rmx15.wav",
+      "tone": 1,
+      "sha256": "5ba466775d6cbd58e9bb4616674320c62b868beb47e41e71d532d715441b55c8"
+    },
+    {
+      "team": 10,
+      "shirt": 14,
+      "name": "Basarab PANDURU",
+      "cd_name": "B. Panduru",
+      "file": "e_rmy15.wav",
+      "tone": 2,
+      "sha256": "8b0d23031b7fd7d8ff85bb2088e842c7f7cc5c3086e53428dcd3968d13702c7a"
+    },
+    {
+      "team": 10,
+      "shirt": 14,
+      "name": "Basarab PANDURU",
+      "cd_name": "B. Panduru",
+      "file": "e_rmz15.wav",
+      "tone": 3,
+      "sha256": "ef1218168ecf4be418916b6e1ee934fbf42f7568d702ce17527c5cdba1f1a8c6"
+    },
+    {
+      "team": 10,
+      "shirt": 16,
+      "name": "Miodrag BELODEDICI",
+      "cd_name": "M. Belodedici",
+      "file": "e_rmx04.wav",
+      "tone": 1,
+      "sha256": "8cab0f28d071d0c1b0a1380850371bc175d55d4145731f9245fefc6388eaaeba"
+    },
+    {
+      "team": 10,
+      "shirt": 16,
+      "name": "Miodrag BELODEDICI",
+      "cd_name": "M. Belodedici",
+      "file": "e_rmy04.wav",
+      "tone": 2,
+      "sha256": "04181d91c35cf2c9a2c2c0ee5bea055e3a4b489df1d802e3e3865a45a6b3bc5f"
+    },
+    {
+      "team": 10,
+      "shirt": 16,
+      "name": "Miodrag BELODEDICI",
+      "cd_name": "M. Belodedici",
+      "file": "e_rmz04.wav",
+      "tone": 3,
+      "sha256": "c8a9f807f18c980dbdb7883280ed4b1c380e3d8dced169debc02843a002d52b4"
+    },
+    {
+      "team": 10,
+      "shirt": 17,
+      "name": "Florin RADUCIOIU",
+      "cd_name": "F. Raducioiu",
+      "file": "e_rmx09.wav",
+      "tone": 1,
+      "sha256": "2554d0d2a2d5dd8c6b076623ac78a44adb50937ceb3253b3a01cd771f45a268b"
+    },
+    {
+      "team": 10,
+      "shirt": 17,
+      "name": "Florin RADUCIOIU",
+      "cd_name": "F. Raducioiu",
+      "file": "e_rmy09.wav",
+      "tone": 2,
+      "sha256": "8d292964ea73aee16f1dbd890313fcf32a197d3b199d193478d0c426af9a0ffe"
+    },
+    {
+      "team": 10,
+      "shirt": 17,
+      "name": "Florin RADUCIOIU",
+      "cd_name": "F. Raducioiu",
+      "file": "e_rmz09.wav",
+      "tone": 3,
+      "sha256": "cd977e11377a3e7bc45509180cb6729815c2e6985b7fb14f217ed454b1f25dbe"
+    },
+    {
+      "team": 10,
+      "shirt": 19,
+      "name": "Zoltan KADAR",
+      "cd_name": "Z. Kadar",
+      "file": "e_rmx18.wav",
+      "tone": 1,
+      "sha256": "a8e24eee2d7a060bff0f580e43f84a1b901c7c73e49cfd57d710dc213ccf505f"
+    },
+    {
+      "team": 10,
+      "shirt": 19,
+      "name": "Zoltan KADAR",
+      "cd_name": "Z. Kadar",
+      "file": "e_rmy18.wav",
+      "tone": 2,
+      "sha256": "fa0afd17fd13f38be5ccc3d6a9b9c97d2d05a27715bcd875a47801ba43d16d41"
+    },
+    {
+      "team": 10,
+      "shirt": 19,
+      "name": "Zoltan KADAR",
+      "cd_name": "Z. Kadar",
+      "file": "e_rmz18.wav",
+      "tone": 3,
+      "sha256": "80701c8e7c2d3c5d159a292f7f2bf818cb0237e7226cd1241c4e18cf695e730a"
+    },
+    {
+      "team": 11,
+      "shirt": 1,
+      "name": "Dimitri KHARIN",
+      "cd_name": "D. Kharin",
+      "file": "e_rux12.wav",
+      "tone": 1,
+      "sha256": "29d8e57c46585291b5a7a80d51af15c4daff3cfba3ffbb0d9d448ac48a25e103"
+    },
+    {
+      "team": 11,
+      "shirt": 1,
+      "name": "Dimitri KHARIN",
+      "cd_name": "D. Kharin",
+      "file": "e_ruy12.wav",
+      "tone": 2,
+      "sha256": "9732e6d9c6f5a69f1caae6830036ddc9358cc46639b1155e4eab0a28526cb87d"
+    },
+    {
+      "team": 11,
+      "shirt": 1,
+      "name": "Dimitri KHARIN",
+      "cd_name": "D. Kharin",
+      "file": "e_ruz12.wav",
+      "tone": 3,
+      "sha256": "16e9b7cb35224b31f9656b93c1a056f5c571a883bafbc93ee9fb6a8ec1b22fb3"
+    },
+    {
+      "team": 11,
+      "shirt": 3,
+      "name": "Yuri NIKIFOROV",
+      "cd_name": "Y. Nikiforov",
+      "file": "e_rux04.wav",
+      "tone": 1,
+      "sha256": "ebd5b49f1a1ca330a18fed9d9d7e40e36b84ae66c21cab3a25b0793b51c090e0"
+    },
+    {
+      "team": 11,
+      "shirt": 3,
+      "name": "Yuri NIKIFOROV",
+      "cd_name": "Y. Nikiforov",
+      "file": "e_ruy04.wav",
+      "tone": 2,
+      "sha256": "4b07e372482e60ff9668e5403a347e33449e565faebbb3897c8a44b3795fd025"
+    },
+    {
+      "team": 11,
+      "shirt": 3,
+      "name": "Yuri NIKIFOROV",
+      "cd_name": "Y. Nikiforov",
+      "file": "e_ruz04.wav",
+      "tone": 3,
+      "sha256": "899d4d0231f071f6014b92ae308d84122c2fedf4ac1212106d3394e9cd559265"
+    },
+    {
+      "team": 11,
+      "shirt": 5,
+      "name": "Dimitri KHLESTOV",
+      "cd_name": "D. Khlestov",
+      "file": "e_rux16.wav",
+      "tone": 1,
+      "sha256": "263884425f5c09ed3cbda948bc95a77e0d4e29d54a6fcb6277d39ac0171d7e97"
+    },
+    {
+      "team": 11,
+      "shirt": 5,
+      "name": "Dimitri KHLESTOV",
+      "cd_name": "D. Khlestov",
+      "file": "e_ruy16.wav",
+      "tone": 2,
+      "sha256": "b90be856542aa1efa1566553323542b5f4d93a451cb085fb1d9d616d7c93155d"
+    },
+    {
+      "team": 11,
+      "shirt": 5,
+      "name": "Dimitri KHLESTOV",
+      "cd_name": "D. Khlestov",
+      "file": "e_ruz16.wav",
+      "tone": 3,
+      "sha256": "7f8fba9f036e32774d0e66f82f286016ec811072a6ff28fcf13a5f2bd29beb95"
+    },
+    {
+      "team": 11,
+      "shirt": 6,
+      "name": "Valeri KARPIN",
+      "cd_name": "V. Karpin",
+      "file": "e_rux11.wav",
+      "tone": 1,
+      "sha256": "d214080c93d15d6e162e9587b447b356cfee3402f78ad8eee0f0dc3c20828aa0"
+    },
+    {
+      "team": 11,
+      "shirt": 6,
+      "name": "Valeri KARPIN",
+      "cd_name": "V. Karpin",
+      "file": "e_ruy11.wav",
+      "tone": 2,
+      "sha256": "231a11e638aa2ccaa2959d793e5cd28a994db7293aebd2f35b150de25f2c9ac4"
+    },
+    {
+      "team": 11,
+      "shirt": 6,
+      "name": "Valeri KARPIN",
+      "cd_name": "V. Karpin",
+      "file": "e_ruz11.wav",
+      "tone": 3,
+      "sha256": "cca3ba661c3bcf84a3262dc5815be937a0fbb5096da7d0113152c6ccc248732c"
+    },
+    {
+      "team": 11,
+      "shirt": 7,
+      "name": "Viktor ONOPKO",
+      "cd_name": "V. Onopko",
+      "file": "e_rux15.wav",
+      "tone": 1,
+      "sha256": "7a0d471d45c18a43731bf9eb92f2750ea844a520c880f147282049a40ca761bd"
+    },
+    {
+      "team": 11,
+      "shirt": 7,
+      "name": "Viktor ONOPKO",
+      "cd_name": "V. Onopko",
+      "file": "e_ruy15.wav",
+      "tone": 2,
+      "sha256": "6a020c8455746a60e4e16ef87c403ae133d1f0aa683435bd321df448c0ae285f"
+    },
+    {
+      "team": 11,
+      "shirt": 7,
+      "name": "Viktor ONOPKO",
+      "cd_name": "V. Onopko",
+      "file": "e_ruz15.wav",
+      "tone": 3,
+      "sha256": "dbaebda40a840d6b85cd8ce883359d147946c5b34bb98ff8df56c551c4dc3976"
+    },
+    {
+      "team": 11,
+      "shirt": 8,
+      "name": "Vasili KULKOV",
+      "cd_name": "V. Kulkov",
+      "file": "e_rux19.wav",
+      "tone": 1,
+      "sha256": "cd52f9b3badc4a8e2ec8b7b2c43f77e10e332734ba0d690978433e427471d866"
+    },
+    {
+      "team": 11,
+      "shirt": 8,
+      "name": "Vasili KULKOV",
+      "cd_name": "V. Kulkov",
+      "file": "e_ruy19.wav",
+      "tone": 2,
+      "sha256": "be0ffdd6fef9e596125b0b0ce6774c06c3460f02c593c452a9e02c519bfe80a7"
+    },
+    {
+      "team": 11,
+      "shirt": 8,
+      "name": "Vasili KULKOV",
+      "cd_name": "V. Kulkov",
+      "file": "e_ruz19.wav",
+      "tone": 3,
+      "sha256": "70c7a7a975bd467f4e14e61251be9fecdf49d2df1ca1a409768f7eb1412c5769"
+    },
+    {
+      "team": 11,
+      "shirt": 9,
+      "name": "Aleksandr MOSTOVOI",
+      "cd_name": "A. Mostovoi",
+      "file": "e_rux22.wav",
+      "tone": 1,
+      "sha256": "ab4a493717e459cc1e151ac7a7926424edbc567dc672a3adb7b64de823898b6d"
+    },
+    {
+      "team": 11,
+      "shirt": 9,
+      "name": "Aleksandr MOSTOVOI",
+      "cd_name": "A. Mostovoi",
+      "file": "e_ruy22.wav",
+      "tone": 2,
+      "sha256": "716f1632cf38404c035a0e2fc590f23c89b64af1bb306fbeaf5abbccc8004a05"
+    },
+    {
+      "team": 11,
+      "shirt": 9,
+      "name": "Aleksandr MOSTOVOI",
+      "cd_name": "A. Mostovoi",
+      "file": "e_ruz22.wav",
+      "tone": 3,
+      "sha256": "bc387174261a9c9413a20ec81eb1745ada2a6a766da8d43f0bfc68cac944ba1c"
+    },
+    {
+      "team": 11,
+      "shirt": 10,
+      "name": "Sergei YURAN",
+      "cd_name": "S. Yuran",
+      "file": "e_rux17.wav",
+      "tone": 1,
+      "sha256": "3a25ac9acc9092794fff4dbea3a8e51499f22ad31aeaaf3e776e62a05fa19648"
+    },
+    {
+      "team": 11,
+      "shirt": 10,
+      "name": "Sergei YURAN",
+      "cd_name": "S. Yuran",
+      "file": "e_ruy17.wav",
+      "tone": 2,
+      "sha256": "4cdcac47c4e7590084f610c7b5f786f86ef7fb173a85ebbb40df1e5e84d77969"
+    },
+    {
+      "team": 11,
+      "shirt": 10,
+      "name": "Sergei YURAN",
+      "cd_name": "S. Yuran",
+      "file": "e_ruz17.wav",
+      "tone": 3,
+      "sha256": "60521827f7f4b978c287182b4f9d462083d97d33c7016638e0eba36c2cedac34"
+    },
+    {
+      "team": 11,
+      "shirt": 13,
+      "name": "Sergei KIRYAKOV",
+      "cd_name": "S. Kiryakov",
+      "file": "e_rux20.wav",
+      "tone": 1,
+      "sha256": "5263e624493db64402e94fbccebbda2c666af80beda41ee76ef60cf3937a96bd"
+    },
+    {
+      "team": 11,
+      "shirt": 13,
+      "name": "Sergei KIRYAKOV",
+      "cd_name": "S. Kiryakov",
+      "file": "e_ruy20.wav",
+      "tone": 2,
+      "sha256": "0adc84aea52130df01ce0389c6db95a0ecc7bf493cdafefa509a600bb0d9a3ba"
+    },
+    {
+      "team": 11,
+      "shirt": 13,
+      "name": "Sergei KIRYAKOV",
+      "cd_name": "S. Kiryakov",
+      "file": "e_ruz20.wav",
+      "tone": 3,
+      "sha256": "e36551f4cd1153ffd361072ad3be6ca7d828ee3ba4a72d23c7c2088194a914c8"
+    },
+    {
+      "team": 11,
+      "shirt": 14,
+      "name": "Dimitri RADCHENKO",
+      "cd_name": "D. Radchenko",
+      "file": "e_rux10.wav",
+      "tone": 1,
+      "sha256": "17a1f525cf01ebce93898b196b80c081b9346321d2d82cdb1fa55431afe50ff4"
+    },
+    {
+      "team": 11,
+      "shirt": 14,
+      "name": "Dimitri RADCHENKO",
+      "cd_name": "D. Radchenko",
+      "file": "e_ruy10.wav",
+      "tone": 2,
+      "sha256": "2ad3ed19d582b6c931b375b1765ae6e281434785f1f7a88dc6b785a1da8c9062"
+    },
+    {
+      "team": 11,
+      "shirt": 14,
+      "name": "Dimitri RADCHENKO",
+      "cd_name": "D. Radchenko",
+      "file": "e_ruz10.wav",
+      "tone": 3,
+      "sha256": "b7864c277f69ced68ac6db4a351cde46c3c2adbefcdae91f1d169d09040c8b14"
+    },
+    {
+      "team": 11,
+      "shirt": 15,
+      "name": "Andrei KANCHELSKIS",
+      "cd_name": "A. Kanchelskis",
+      "file": "e_rux14.wav",
+      "tone": 1,
+      "sha256": "715fe2f142ed4ed09562d9a18a7d761cbdef455d7b34ae3f3f1e6e94dd375cf7"
+    },
+    {
+      "team": 11,
+      "shirt": 15,
+      "name": "Andrei KANCHELSKIS",
+      "cd_name": "A. Kanchelskis",
+      "file": "e_ruy14.wav",
+      "tone": 2,
+      "sha256": "0c3853564d0056e8c7ecf5f4ae5679b8db9c05de4f98742bd7d59260ec3dbb2c"
+    },
+    {
+      "team": 11,
+      "shirt": 15,
+      "name": "Andrei KANCHELSKIS",
+      "cd_name": "A. Kanchelskis",
+      "file": "e_ruz14.wav",
+      "tone": 3,
+      "sha256": "5e414e661b8d55d71644cdd7ec528f9d724687d0e6d5f9acee90e49f96dc06fe"
+    },
+    {
+      "team": 11,
+      "shirt": 16,
+      "name": "Oleg SALENKO",
+      "cd_name": "O. Salenko",
+      "file": "e_rux09.wav",
+      "tone": 1,
+      "sha256": "c9fe062aeb10e60c61a38cc568407e70972e316500173e55b886f5d8b325e75f"
+    },
+    {
+      "team": 11,
+      "shirt": 16,
+      "name": "Oleg SALENKO",
+      "cd_name": "O. Salenko",
+      "file": "e_ruy09.wav",
+      "tone": 2,
+      "sha256": "74a1ee6dd0d64223736a4849f764dd45499ad06d1116582f919dc9ff73ba03da"
+    },
+    {
+      "team": 11,
+      "shirt": 16,
+      "name": "Oleg SALENKO",
+      "cd_name": "O. Salenko",
+      "file": "e_ruz09.wav",
+      "tone": 3,
+      "sha256": "57c393e03243a8edf1a98ccb0de20acef23390a9a164bb1c54e7da376f577376"
+    },
+    {
+      "team": 11,
+      "shirt": 17,
+      "name": "Dimitri KUZNETSOV",
+      "cd_name": "D. Kuznetsov",
+      "file": "e_rux06.wav",
+      "tone": 1,
+      "sha256": "bf0f3008fa37f132ff6dcc6846d6e3c43e3d82c2f007ce0f96789f51d9c15271"
+    },
+    {
+      "team": 11,
+      "shirt": 17,
+      "name": "Dimitri KUZNETSOV",
+      "cd_name": "D. Kuznetsov",
+      "file": "e_ruy06.wav",
+      "tone": 2,
+      "sha256": "f3d7e6345a2496d67a43f7e3f935b7f91afd200b8a39e2e857030f9192aba240"
+    },
+    {
+      "team": 11,
+      "shirt": 17,
+      "name": "Dimitri KUZNETSOV",
+      "cd_name": "D. Kuznetsov",
+      "file": "e_ruz06.wav",
+      "tone": 3,
+      "sha256": "677cbc4dca41257680e9a520df54695b548b78806f750bb1cd729c2ed312e18a"
+    },
+    {
+      "team": 11,
+      "shirt": 18,
+      "name": "Dimitri POPOV",
+      "cd_name": "D. Popov",
+      "file": "e_rux08.wav",
+      "tone": 1,
+      "sha256": "7bcbacdbf352378d95b2305f814a899615c23fc806a1c90b79c8e39e10efd3fc"
+    },
+    {
+      "team": 11,
+      "shirt": 18,
+      "name": "Dimitri POPOV",
+      "cd_name": "D. Popov",
+      "file": "e_ruy08.wav",
+      "tone": 2,
+      "sha256": "97a22a5a5d4446b3f7c45ee9ba60985ffbdc9eca169e3a22d9d0f4cc78c820f5"
+    },
+    {
+      "team": 11,
+      "shirt": 18,
+      "name": "Dimitri POPOV",
+      "cd_name": "D. Popov",
+      "file": "e_ruz08.wav",
+      "tone": 3,
+      "sha256": "8d1290dd538d92a5bd1bdbb4a300d57058327c2763ea8f1a5f77e595e4bf056c"
+    },
+    {
+      "team": 11,
+      "shirt": 19,
+      "name": "Igor DOBROVOLSKI",
+      "cd_name": "I. Dobrovolski",
+      "file": "e_rux18.wav",
+      "tone": 1,
+      "sha256": "656ddaef04521985a9f0d3a66912fcf66bdb5e951a9c8a68261da8e18196060c"
+    },
+    {
+      "team": 11,
+      "shirt": 19,
+      "name": "Igor DOBROVOLSKI",
+      "cd_name": "I. Dobrovolski",
+      "file": "e_ruy18.wav",
+      "tone": 2,
+      "sha256": "0f2fd5dd036073a2606d18824a2c8d520b651cd92b85500869239386d1505caa"
+    },
+    {
+      "team": 11,
+      "shirt": 19,
+      "name": "Igor DOBROVOLSKI",
+      "cd_name": "I. Dobrovolski",
+      "file": "e_ruz18.wav",
+      "tone": 3,
+      "sha256": "355925d26ca2c0506af24e989346095753cc2a15cae80f136b95b56eebb26b00"
+    },
+    {
+      "team": 11,
+      "shirt": 20,
+      "name": "Sergei GORLUKOVICH",
+      "cd_name": "S. Gorlukovich",
+      "file": "e_rux02.wav",
+      "tone": 1,
+      "sha256": "5988694f072af11d054c9ce181a50f8968d42d32ba2be9418524cfdea18c9591"
+    },
+    {
+      "team": 11,
+      "shirt": 20,
+      "name": "Sergei GORLUKOVICH",
+      "cd_name": "S. Gorlukovich",
+      "file": "e_ruy02.wav",
+      "tone": 2,
+      "sha256": "13498b907aff2b0f8b9322146d24697aa7ff657ca4031ab26b9f94b3036a315c"
+    },
+    {
+      "team": 11,
+      "shirt": 20,
+      "name": "Sergei GORLUKOVICH",
+      "cd_name": "S. Gorlukovich",
+      "file": "e_ruz02.wav",
+      "tone": 3,
+      "sha256": "6a16952264896ed76f3258117401dd396eb268398fc906d9754dc936e7e7bf3c"
+    },
+    {
+      "team": 12,
+      "shirt": 1,
+      "name": "Jim LEIGHTON",
+      "cd_name": "J. Leighton",
+      "file": "e_scx12.wav",
+      "tone": 1,
+      "sha256": "3c056c6330e54136b64df300445f4ce8af7c473a06c0a265111ff9991ed7eff1"
+    },
+    {
+      "team": 12,
+      "shirt": 1,
+      "name": "Jim LEIGHTON",
+      "cd_name": "J. Leighton",
+      "file": "e_scy12.wav",
+      "tone": 2,
+      "sha256": "bb89d08bb77bef78da65469188972c748df9c50ddc5bd9369fac7a0aac2a55c5"
+    },
+    {
+      "team": 12,
+      "shirt": 1,
+      "name": "Jim LEIGHTON",
+      "cd_name": "J. Leighton",
+      "file": "e_scz12.wav",
+      "tone": 3,
+      "sha256": "afd5fd1fc2874ed70e58689b2fd6acc101f9b7533e55c57e7d652c72ee5eed28"
+    },
+    {
+      "team": 12,
+      "shirt": 2,
+      "name": "Stewart MCKIMMIE",
+      "cd_name": "S. McKimmie",
+      "file": "e_scx02.wav",
+      "tone": 1,
+      "sha256": "74c45ae1964f7449c8ce5b2b5064597cca82622222fb6ef91ea3ecd6f6a7b1ef"
+    },
+    {
+      "team": 12,
+      "shirt": 2,
+      "name": "Stewart MCKIMMIE",
+      "cd_name": "S. McKimmie",
+      "file": "e_scy02.wav",
+      "tone": 2,
+      "sha256": "b93790fcbdbbacadb47be342781fb1a6bbe5428dcacb43f3a7da8d459ac4a61f"
+    },
+    {
+      "team": 12,
+      "shirt": 2,
+      "name": "Stewart MCKIMMIE",
+      "cd_name": "S. McKimmie",
+      "file": "e_scz02.wav",
+      "tone": 3,
+      "sha256": "66407889dae9608dd77dafc10bce36a834da215387a34664558492ac4d1ce84b"
+    },
+    {
+      "team": 12,
+      "shirt": 3,
+      "name": "Tommy BOYD",
+      "cd_name": "T. Boyd",
+      "file": "e_scx14.wav",
+      "tone": 1,
+      "sha256": "5e3ec877d7b8e3e1ee1c0d3e6728687202dd9c359b11a701f3b1c8f75b1d1dcd"
+    },
+    {
+      "team": 12,
+      "shirt": 3,
+      "name": "Tommy BOYD",
+      "cd_name": "T. Boyd",
+      "file": "e_scy14.wav",
+      "tone": 2,
+      "sha256": "b96651c7df1de29350012b62e27b3664ac9e28a81e27ffb84b22dbb36be9b2f1"
+    },
+    {
+      "team": 12,
+      "shirt": 3,
+      "name": "Tommy BOYD",
+      "cd_name": "T. Boyd",
+      "file": "e_scz14.wav",
+      "tone": 3,
+      "sha256": "4729ecd7f77efd1e4efc5a46ff1bd10c8625346227e5386c879e6b17273aa38f"
+    },
+    {
+      "team": 12,
+      "shirt": 5,
+      "name": "Colin HENDRY",
+      "cd_name": "C. Hendry",
+      "file": "e_scx05.wav",
+      "tone": 1,
+      "sha256": "17a5edee51d6ce48e4e560b1ea9c92f280750f0ba607330f2bba3267f71a7074"
+    },
+    {
+      "team": 12,
+      "shirt": 5,
+      "name": "Colin HENDRY",
+      "cd_name": "C. Hendry",
+      "file": "e_scy05.wav",
+      "tone": 2,
+      "sha256": "bbecf3faf261c7ce077e297832d3c45efc3141e6ec7339f523a38f0dafc0687d"
+    },
+    {
+      "team": 12,
+      "shirt": 5,
+      "name": "Colin HENDRY",
+      "cd_name": "C. Hendry",
+      "file": "e_scz05.wav",
+      "tone": 3,
+      "sha256": "62860709a4b3b4d4e2383f0c770d33c85d3e5cdc3eefff5820d8effbd687fc80"
+    },
+    {
+      "team": 12,
+      "shirt": 6,
+      "name": "Alan MCLAREN",
+      "cd_name": "A. McLaren",
+      "file": "e_scx13.wav",
+      "tone": 1,
+      "sha256": "540391703083ff920c53a7e8280bc1ecddc4a424f1c85ca6f5ad850465dbb759"
+    },
+    {
+      "team": 12,
+      "shirt": 6,
+      "name": "Alan MCLAREN",
+      "cd_name": "A. McLaren",
+      "file": "e_scy13.wav",
+      "tone": 2,
+      "sha256": "63873d3a44aa99e71c6e18c1ffa4f5c0e323909806154ef246e6eb7efc18bed2"
+    },
+    {
+      "team": 12,
+      "shirt": 6,
+      "name": "Alan MCLAREN",
+      "cd_name": "A. McLaren",
+      "file": "e_scz13.wav",
+      "tone": 3,
+      "sha256": "eaa8c4285887b081dfa38d07dfcf69e797bcd88d6f6c1dfc581aaa278e45e583"
+    },
+    {
+      "team": 12,
+      "shirt": 8,
+      "name": "Gary MCALLISTER",
+      "cd_name": "G. McAllister",
+      "file": "e_scx07.wav",
+      "tone": 1,
+      "sha256": "de4fcb2a942026e8fcb037168e362b0fb19fb1aff13fe4615db7d0d73ecf1d36"
+    },
+    {
+      "team": 12,
+      "shirt": 8,
+      "name": "Gary MCALLISTER",
+      "cd_name": "G. McAllister",
+      "file": "e_scy07.wav",
+      "tone": 2,
+      "sha256": "a5fdee4d14aa5053111bc6246d1dac7f46ff75ebc0a172053e0b14f664b6041e"
+    },
+    {
+      "team": 12,
+      "shirt": 8,
+      "name": "Gary MCALLISTER",
+      "cd_name": "G. McAllister",
+      "file": "e_scz07.wav",
+      "tone": 3,
+      "sha256": "ea55a283094d890644ad08cd52712c920d25e282d9e21756555598a660d598f9"
+    },
+    {
+      "team": 12,
+      "shirt": 9,
+      "name": "Ally MCCOIST",
+      "cd_name": "A. McCoist",
+      "file": "e_scx09.wav",
+      "tone": 1,
+      "sha256": "0cd5778707bcfd423ee16829bf2de6ab4e3f8cb72cfd450c36278a45356890c7"
+    },
+    {
+      "team": 12,
+      "shirt": 9,
+      "name": "Ally MCCOIST",
+      "cd_name": "A. McCoist",
+      "file": "e_scy09.wav",
+      "tone": 2,
+      "sha256": "bfeb9cb138761c9c984af4aa189edd6847ba5c4a4cc6e349fbc76c5414d49a3b"
+    },
+    {
+      "team": 12,
+      "shirt": 9,
+      "name": "Ally MCCOIST",
+      "cd_name": "A. McCoist",
+      "file": "e_scz09.wav",
+      "tone": 3,
+      "sha256": "61e25ff9e8763c801518fd2cca77a01b3e63f583a7aa0f5b8378914f2abda0ef"
+    },
+    {
+      "team": 12,
+      "shirt": 10,
+      "name": "John MCGINLAY",
+      "cd_name": "J. McGinlay",
+      "file": "e_scx10.wav",
+      "tone": 1,
+      "sha256": "ff919b2c5ca4c15caf83028ba99a327998aead21a5b67cbbbdf282d9772a9cca"
+    },
+    {
+      "team": 12,
+      "shirt": 10,
+      "name": "John MCGINLAY",
+      "cd_name": "J. McGinlay",
+      "file": "e_scy10.wav",
+      "tone": 2,
+      "sha256": "dd5a96c433cd27209bb9731b5edbd8c593948468b02fb6acda0d9ee0cfccaa02"
+    },
+    {
+      "team": 12,
+      "shirt": 10,
+      "name": "John MCGINLAY",
+      "cd_name": "J. McGinlay",
+      "file": "e_scz10.wav",
+      "tone": 3,
+      "sha256": "741c45acbe6d73dd14fa4358ebd8fdf778a4dee56ad9c2f35810f5a1ecb81a71"
+    },
+    {
+      "team": 12,
+      "shirt": 11,
+      "name": "John COLLINS",
+      "cd_name": "J. Collins",
+      "file": "e_scx19.wav",
+      "tone": 1,
+      "sha256": "1674a66d17490b04350683e8764e4ae77f72be6be73d1a9b089566b2b8ab55c6"
+    },
+    {
+      "team": 12,
+      "shirt": 11,
+      "name": "John COLLINS",
+      "cd_name": "J. Collins",
+      "file": "e_scy19.wav",
+      "tone": 2,
+      "sha256": "6f556835b12c7e96a69167478dda89b817d2091ee2c9ab8abfde5e2b4e6a6d00"
+    },
+    {
+      "team": 12,
+      "shirt": 11,
+      "name": "John COLLINS",
+      "cd_name": "J. Collins",
+      "file": "e_scz19.wav",
+      "tone": 3,
+      "sha256": "e3aee8560ce0884e9ca3515b9320104b6a2f6f0d3b3b1880591d5470dbe73069"
+    },
+    {
+      "team": 12,
+      "shirt": 12,
+      "name": "Andy GORAM",
+      "cd_name": "A. Goram",
+      "file": "e_scx01.wav",
+      "tone": 1,
+      "sha256": "bffeac209aac8ac02438673d024411a772b81d215a6eabaa5d5b27e6daacadd2"
+    },
+    {
+      "team": 12,
+      "shirt": 12,
+      "name": "Andy GORAM",
+      "cd_name": "A. Goram",
+      "file": "e_scy01.wav",
+      "tone": 2,
+      "sha256": "01d76e70155e7da660b89b0f39d5a677255550c17b175e9f5a281b294e151aba"
+    },
+    {
+      "team": 12,
+      "shirt": 12,
+      "name": "Andy GORAM",
+      "cd_name": "A. Goram",
+      "file": "e_scz01.wav",
+      "tone": 3,
+      "sha256": "a770d44cc2f7462ba7ebad3b1737cdc0f565b8254a177e3845c1ec0c08d0c1f6"
+    },
+    {
+      "team": 12,
+      "shirt": 13,
+      "name": "Pat NEVIN",
+      "cd_name": "P. Nevin",
+      "file": "e_scx06.wav",
+      "tone": 1,
+      "sha256": "a6811e8e6438bbb26cecd7e51ddb0acc38a678038d71cd5de794e71f5711e7ac"
+    },
+    {
+      "team": 12,
+      "shirt": 13,
+      "name": "Pat NEVIN",
+      "cd_name": "P. Nevin",
+      "file": "e_scy06.wav",
+      "tone": 2,
+      "sha256": "e8afbdcc38e6563b0490e30f59b680f433bb09dbd3f9ca8148ae410b166420fd"
+    },
+    {
+      "team": 12,
+      "shirt": 13,
+      "name": "Pat NEVIN",
+      "cd_name": "P. Nevin",
+      "file": "e_scz06.wav",
+      "tone": 3,
+      "sha256": "a7ba3d0d826b4a2f38d5f772740a1caaf09527943ddd1ab17f30aa313cfa1294"
+    },
+    {
+      "team": 12,
+      "shirt": 15,
+      "name": "Billy MCKINLAY",
+      "cd_name": "B. McKinlay",
+      "file": "e_scx11.wav",
+      "tone": 1,
+      "sha256": "364456d089f566cf51a8841a8abb6cf01831dc0f1acc0b0803c5eb9a1267ef42"
+    },
+    {
+      "team": 12,
+      "shirt": 15,
+      "name": "Billy MCKINLAY",
+      "cd_name": "B. McKinlay",
+      "file": "e_scy11.wav",
+      "tone": 2,
+      "sha256": "1c5c2e68860fc8de9ffa3937a13e120a2342456eab1fac4126faf1ea087c7eea"
+    },
+    {
+      "team": 12,
+      "shirt": 15,
+      "name": "Billy MCKINLAY",
+      "cd_name": "B. McKinlay",
+      "file": "e_scz11.wav",
+      "tone": 3,
+      "sha256": "ca0b9b1de959ba6d037ce7008fdb23482c323d9ac508a8e4fe0e1258313f4f70"
+    },
+    {
+      "team": 12,
+      "shirt": 16,
+      "name": "Scott BOOTH",
+      "cd_name": "S. Booth",
+      "file": "e_scx21.wav",
+      "tone": 1,
+      "sha256": "69abc68918c984b44ea08046c24ca13b02a7d559a9aa85c3624652bc71912ca8"
+    },
+    {
+      "team": 12,
+      "shirt": 16,
+      "name": "Scott BOOTH",
+      "cd_name": "S. Booth",
+      "file": "e_scy21.wav",
+      "tone": 2,
+      "sha256": "9da391e281dfed12043a498279d04289ea950b0265d8f329276b87f2212f3dff"
+    },
+    {
+      "team": 12,
+      "shirt": 16,
+      "name": "Scott BOOTH",
+      "cd_name": "S. Booth",
+      "file": "e_scz21.wav",
+      "tone": 3,
+      "sha256": "26f1bdb3e0af4963f22462c400ffbd4452dbf3a327b36e268f9e09bc6c8a4ece"
+    },
+    {
+      "team": 12,
+      "shirt": 17,
+      "name": "Paul MCSTAY",
+      "cd_name": "P. McStay",
+      "file": "e_scx18.wav",
+      "tone": 1,
+      "sha256": "638bb23b4347b5a9e20c368227a450b2f460c20c0526191c03c13fa94a914715"
+    },
+    {
+      "team": 12,
+      "shirt": 17,
+      "name": "Paul MCSTAY",
+      "cd_name": "P. McStay",
+      "file": "e_scy18.wav",
+      "tone": 2,
+      "sha256": "b2ba2601c8aa27eed4fb6b90b714f7786869843b59283db6f10dda1f11652494"
+    },
+    {
+      "team": 12,
+      "shirt": 17,
+      "name": "Paul MCSTAY",
+      "cd_name": "P. McStay",
+      "file": "e_scz18.wav",
+      "tone": 3,
+      "sha256": "9bc9e81c35005b9568b2ec8ffeed82127312fd672be6a5b9fbaf87a4bfb8f17c"
+    },
+    {
+      "team": 12,
+      "shirt": 18,
+      "name": "Craig LEVEIN",
+      "cd_name": "C. Levein",
+      "file": "e_scx04.wav",
+      "tone": 1,
+      "sha256": "470a03111abe19fcfbc59a8b729d8484cea2c4f779dab9967ac9824952521a9b"
+    },
+    {
+      "team": 12,
+      "shirt": 18,
+      "name": "Craig LEVEIN",
+      "cd_name": "C. Levein",
+      "file": "e_scy04.wav",
+      "tone": 2,
+      "sha256": "a1c5da4059365c1a22a75ad58f2a5e26b4f119684dfe4beb54ccfd7c867447b0"
+    },
+    {
+      "team": 12,
+      "shirt": 18,
+      "name": "Craig LEVEIN",
+      "cd_name": "C. Levein",
+      "file": "e_scz04.wav",
+      "tone": 3,
+      "sha256": "a15146f853a614b7c993e7854e7f703ec424c7a56074503476de1e11593425df"
+    },
+    {
+      "team": 12,
+      "shirt": 19,
+      "name": "Gordon DURIE",
+      "cd_name": "G. Durie",
+      "file": "e_scx17.wav",
+      "tone": 1,
+      "sha256": "2ced3f89b1bc83df83e9797cbe243ad0ea68d6c818567cf8e03078377ca61d44"
+    },
+    {
+      "team": 12,
+      "shirt": 19,
+      "name": "Gordon DURIE",
+      "cd_name": "G. Durie",
+      "file": "e_scy17.wav",
+      "tone": 2,
+      "sha256": "9cdf2e9d3c3747b7e62825e5dda44357c7bbed4049982c692dbf24f50f602e60"
+    },
+    {
+      "team": 12,
+      "shirt": 19,
+      "name": "Gordon DURIE",
+      "cd_name": "G. Durie",
+      "file": "e_scz17.wav",
+      "tone": 3,
+      "sha256": "b85a28c3072ddf95717c61ee768197c7642f22e51bbb249a66100e7b89be74bc"
+    },
+    {
+      "team": 12,
+      "shirt": 20,
+      "name": "Stuart MCCALL",
+      "cd_name": "S. McCall",
+      "file": "e_scx08.wav",
+      "tone": 1,
+      "sha256": "1bcfc10ec44c5f5d0d630695a118c69a61ad7dbdbc38c9f856d8a40b1697050e"
+    },
+    {
+      "team": 12,
+      "shirt": 20,
+      "name": "Stuart MCCALL",
+      "cd_name": "S. McCall",
+      "file": "e_scy08.wav",
+      "tone": 2,
+      "sha256": "841e0acf143459382e4de873c25d9c105c8b4f4ea5190df87c75bcc5e91b8eec"
+    },
+    {
+      "team": 12,
+      "shirt": 20,
+      "name": "Stuart MCCALL",
+      "cd_name": "S. McCall",
+      "file": "e_scz08.wav",
+      "tone": 3,
+      "sha256": "475317a8d8b2f45953c0a53b039423e5a19ee6793d84632f76e623397bdebd26"
+    },
+    {
+      "team": 13,
+      "shirt": 4,
+      "name": "Rafael ALCORTA",
+      "cd_name": "R. Alcorta",
+      "file": "e_spx13.wav",
+      "tone": 1,
+      "sha256": "ac0f2b0f984236e0a2ce7dd9cac0f890bcb226eb6672f94861d5a135a0b3b8e4"
+    },
+    {
+      "team": 13,
+      "shirt": 4,
+      "name": "Rafael ALCORTA",
+      "cd_name": "R. Alcorta",
+      "file": "e_spy13.wav",
+      "tone": 2,
+      "sha256": "a5bdc763fa4f7442553b7d14815fcaec9536c47f686a863f7cc51f5752fe22f3"
+    },
+    {
+      "team": 13,
+      "shirt": 4,
+      "name": "Rafael ALCORTA",
+      "cd_name": "R. Alcorta",
+      "file": "e_spz13.wav",
+      "tone": 3,
+      "sha256": "649f955e9b86a8b77d46c106edb03ec5ac148b75a783755ac2b535c09140a18a"
+    },
+    {
+      "team": 13,
+      "shirt": 6,
+      "name": "SERGI Barjuan",
+      "cd_name": "S. Barjuan",
+      "file": "e_spx16.wav",
+      "tone": 1,
+      "sha256": "d921af9dd34d0f917b113839e500afcbfb9ff02a63ea808dfd8baf4e85f6d2a4"
+    },
+    {
+      "team": 13,
+      "shirt": 6,
+      "name": "SERGI Barjuan",
+      "cd_name": "S. Barjuan",
+      "file": "e_spy16.wav",
+      "tone": 2,
+      "sha256": "2cf8aeb6a39ae58a12f013d3613414506503ae698d58fce261c65dd598d032a7"
+    },
+    {
+      "team": 13,
+      "shirt": 6,
+      "name": "SERGI Barjuan",
+      "cd_name": "S. Barjuan",
+      "file": "e_spz16.wav",
+      "tone": 3,
+      "sha256": "975ef3d92e279d237baacfda1a9a79984d004302029100132be3c34049e16272"
+    },
+    {
+      "team": 13,
+      "shirt": 12,
+      "name": "Santiago CANIZARES ",
+      "cd_name": "S. Canizares",
+      "file": "e_spx12.wav",
+      "tone": 1,
+      "sha256": "bdbe7804276d2365ae603244cdb5a5aa623bc069f95190728ac2c19e3228dbed"
+    },
+    {
+      "team": 13,
+      "shirt": 12,
+      "name": "Santiago CANIZARES ",
+      "cd_name": "S. Canizares",
+      "file": "e_spy12.wav",
+      "tone": 2,
+      "sha256": "197beecbbaf2ae7677b5bc774458090e0ef246c41144ee25431fdff34a3fd9dc"
+    },
+    {
+      "team": 13,
+      "shirt": 12,
+      "name": "Santiago CANIZARES ",
+      "cd_name": "S. Canizares",
+      "file": "e_spz12.wav",
+      "tone": 3,
+      "sha256": "b9a30335545268e6f1dd4a41d1656ee5ffcfe230fd06bd1d6305d7ea20c1d939"
+    },
+    {
+      "team": 13,
+      "shirt": 13,
+      "name": "Julen GUERRERO",
+      "cd_name": "J. Guerrero",
+      "file": "e_spx08.wav",
+      "tone": 1,
+      "sha256": "3bc6320823bc326f466b45fec7e8bae9db0cdfcd4d7def7262d2bfb790dfa04c"
+    },
+    {
+      "team": 13,
+      "shirt": 13,
+      "name": "Julen GUERRERO",
+      "cd_name": "J. Guerrero",
+      "file": "e_spy08.wav",
+      "tone": 2,
+      "sha256": "a76d139586fc1e74e4313977070e5f2ebea66d8f0b0da1cae40664234467b18d"
+    },
+    {
+      "team": 13,
+      "shirt": 13,
+      "name": "Julen GUERRERO",
+      "cd_name": "J. Guerrero",
+      "file": "e_spz08.wav",
+      "tone": 3,
+      "sha256": "f7e3087ddab429d3053f59b2251339345b7287b4a8cc39d7fc3ca0c12a5aeb8a"
+    },
+    {
+      "team": 13,
+      "shirt": 15,
+      "name": "Julio SALINAS",
+      "cd_name": "J. Salinas",
+      "file": "e_spx09.wav",
+      "tone": 1,
+      "sha256": "cda860f4e78526e409962b30ca2d7669e3f2d49c38234f560cc91037ed284c6a"
+    },
+    {
+      "team": 13,
+      "shirt": 15,
+      "name": "Julio SALINAS",
+      "cd_name": "J. Salinas",
+      "file": "e_spy09.wav",
+      "tone": 2,
+      "sha256": "937b9e4c23791e5fc403fce7de9b725bf26b790fcfdff82de756e571a02dc53e"
+    },
+    {
+      "team": 13,
+      "shirt": 15,
+      "name": "Julio SALINAS",
+      "cd_name": "J. Salinas",
+      "file": "e_spz09.wav",
+      "tone": 3,
+      "sha256": "2bfc228f1effe8bb0de2cc3a676d7498c022be358f6e61f58fc3d6a101c270ec"
+    },
+    {
+      "team": 13,
+      "shirt": 16,
+      "name": "Josep GUARDIOLA",
+      "cd_name": "J. Guardiola",
+      "file": "e_spx07.wav",
+      "tone": 1,
+      "sha256": "547ff2484b7e4c3e4c143b82d807387698d34bf155663d489718615faa036ba2"
+    },
+    {
+      "team": 13,
+      "shirt": 16,
+      "name": "Josep GUARDIOLA",
+      "cd_name": "J. Guardiola",
+      "file": "e_spy07.wav",
+      "tone": 2,
+      "sha256": "10482cec565dd96bf336470cf54ae989dc5718ed276a911a03bfb3cd6fe591ef"
+    },
+    {
+      "team": 13,
+      "shirt": 16,
+      "name": "Josep GUARDIOLA",
+      "cd_name": "J. Guardiola",
+      "file": "e_spz07.wav",
+      "tone": 3,
+      "sha256": "39a457534e070cb8182b1455b0469833c73dc985e367cd18153624dbbc4fafeb"
+    },
+    {
+      "team": 13,
+      "shirt": 18,
+      "name": "Albert FERRER ",
+      "cd_name": "A. Ferrer",
+      "file": "e_spx03.wav",
+      "tone": 1,
+      "sha256": "1fb87c28efb01f47c1903f38871dbcb02181d73563330355b137578989a639f4"
+    },
+    {
+      "team": 13,
+      "shirt": 18,
+      "name": "Albert FERRER ",
+      "cd_name": "A. Ferrer",
+      "file": "e_spy03.wav",
+      "tone": 2,
+      "sha256": "71eb5de35ef8c5a0fc4afb20f5bba175c24e8c921f6c960f5ac91e0864ecb2d0"
+    },
+    {
+      "team": 13,
+      "shirt": 18,
+      "name": "Albert FERRER ",
+      "cd_name": "A. Ferrer",
+      "file": "e_spz03.wav",
+      "tone": 3,
+      "sha256": "b5e630a2504597ccdd0f06c53eca223620bea574a3883e48c6134979126ddfb2"
+    },
+    {
+      "team": 14,
+      "shirt": 1,
+      "name": "Marco PASCOLO",
+      "cd_name": "M. Pascolo",
+      "file": "e_swx01.wav",
+      "tone": 1,
+      "sha256": "52dfb7f9daa9828b6befe87ab3a53ff19836739c62aa9de29a93ec59846ee6a0"
+    },
+    {
+      "team": 14,
+      "shirt": 1,
+      "name": "Marco PASCOLO",
+      "cd_name": "M. Pascolo",
+      "file": "e_swy01.wav",
+      "tone": 2,
+      "sha256": "9d9f64f99f289931bc1dc987674756d36c1dc962813ac6a4d631735cf4bab79f"
+    },
+    {
+      "team": 14,
+      "shirt": 1,
+      "name": "Marco PASCOLO",
+      "cd_name": "M. Pascolo",
+      "file": "e_swz01.wav",
+      "tone": 3,
+      "sha256": "6bf6e41ed2605bbb10c45b33be73c93b8aef64df03a38903ba6796e9600f9b85"
+    },
+    {
+      "team": 14,
+      "shirt": 2,
+      "name": "Marc HOTTIGER",
+      "cd_name": "M. Hottiger",
+      "file": "e_swx04.wav",
+      "tone": 1,
+      "sha256": "01cce8f3fb9881973e2c63cd8f3d2695d29bf7ccc15185fc99dee5c34efeff13"
+    },
+    {
+      "team": 14,
+      "shirt": 2,
+      "name": "Marc HOTTIGER",
+      "cd_name": "M. Hottiger",
+      "file": "e_swy04.wav",
+      "tone": 2,
+      "sha256": "88637edbc9d860f2d37b7c65152d19a568f8cd0abfa087e4b49ce76e071aa3a7"
+    },
+    {
+      "team": 14,
+      "shirt": 2,
+      "name": "Marc HOTTIGER",
+      "cd_name": "M. Hottiger",
+      "file": "e_swz04.wav",
+      "tone": 3,
+      "sha256": "54e76e610346a3604dfc64c541c6fa5a5a43064d0ac8ebfe398119a993593a97"
+    },
+    {
+      "team": 14,
+      "shirt": 5,
+      "name": "Yvan QUENTIN",
+      "cd_name": "Y. Quentin",
+      "file": "e_swx05.wav",
+      "tone": 1,
+      "sha256": "0c21cda239c0e15aa267947d5bd2b7ab528db607ab964ed57bfddad5d082b964"
+    },
+    {
+      "team": 14,
+      "shirt": 5,
+      "name": "Yvan QUENTIN",
+      "cd_name": "Y. Quentin",
+      "file": "e_swy05.wav",
+      "tone": 2,
+      "sha256": "5c135f91f1b94d1962ae7444476f544df70aa08679c16de40cb95f1ea662c33c"
+    },
+    {
+      "team": 14,
+      "shirt": 5,
+      "name": "Yvan QUENTIN",
+      "cd_name": "Y. Quentin",
+      "file": "e_swz05.wav",
+      "tone": 3,
+      "sha256": "8d95fdf8081c65b7e754e4a34b6933eaac65fc120ad879e049db1504701e055c"
+    },
+    {
+      "team": 14,
+      "shirt": 6,
+      "name": "Christophe OHREL",
+      "cd_name": "C. Ohrel",
+      "file": "e_swx13.wav",
+      "tone": 1,
+      "sha256": "7973d17e4b367cfdf7eabf5ae26425dfebf04c4e528da119b6f9f9686db75865"
+    },
+    {
+      "team": 14,
+      "shirt": 6,
+      "name": "Christophe OHREL",
+      "cd_name": "C. Ohrel",
+      "file": "e_swy13.wav",
+      "tone": 2,
+      "sha256": "6e1c03e9e7ada41b6e552c18b778723f746e5b3a90ac39920b63048d930ddf63"
+    },
+    {
+      "team": 14,
+      "shirt": 6,
+      "name": "Christophe OHREL",
+      "cd_name": "C. Ohrel",
+      "file": "e_swz13.wav",
+      "tone": 3,
+      "sha256": "505bbd7a9b0d7230fc596f4544a286b5e4ae0bf6fc12e846acb041e3255df62c"
+    },
+    {
+      "team": 14,
+      "shirt": 7,
+      "name": "Ciriaco SFORZA",
+      "cd_name": "C. Sforza",
+      "file": "e_swx07.wav",
+      "tone": 1,
+      "sha256": "1b52576fe0e9737205f2f2af3a0973ce09cbb78fe1a4c1a0203b9fcee1880672"
+    },
+    {
+      "team": 14,
+      "shirt": 7,
+      "name": "Ciriaco SFORZA",
+      "cd_name": "C. Sforza",
+      "file": "e_swy07.wav",
+      "tone": 2,
+      "sha256": "454df32a44ce81491afa52bb3f913cc134510fb3833bbf7ddabf184d71bffab4"
+    },
+    {
+      "team": 14,
+      "shirt": 7,
+      "name": "Ciriaco SFORZA",
+      "cd_name": "C. Sforza",
+      "file": "e_swz07.wav",
+      "tone": 3,
+      "sha256": "72979c20687e3c1c36a1f1511fde921cf8eeeb270cf78d45ad1cf382c7c45ed6"
+    },
+    {
+      "team": 14,
+      "shirt": 8,
+      "name": "Thomas BICKEL",
+      "cd_name": "T. Bickel",
+      "file": "e_swx11.wav",
+      "tone": 1,
+      "sha256": "029adce7e04209783d24f487bc1d49caab1eb55f9f86f517f99bc7865cf7e782"
+    },
+    {
+      "team": 14,
+      "shirt": 8,
+      "name": "Thomas BICKEL",
+      "cd_name": "T. Bickel",
+      "file": "e_swy11.wav",
+      "tone": 2,
+      "sha256": "dd51cc2bd9e2a6a1ae5b6239238caac4ea55a26f8602f0c1d5609f5f29e8daed"
+    },
+    {
+      "team": 14,
+      "shirt": 8,
+      "name": "Thomas BICKEL",
+      "cd_name": "T. Bickel",
+      "file": "e_swz11.wav",
+      "tone": 3,
+      "sha256": "5a3eb2ac9558dd056b1bb952e6ac630754752f93dcb1053103843277cf95e3b5"
+    },
+    {
+      "team": 14,
+      "shirt": 9,
+      "name": "Adrian KNUP",
+      "cd_name": "A. Knup",
+      "file": "e_swx10.wav",
+      "tone": 1,
+      "sha256": "f910f29874cf96973b7aeb3876d2cd374f4d759e03bb962459fba1094adc82b4"
+    },
+    {
+      "team": 14,
+      "shirt": 9,
+      "name": "Adrian KNUP",
+      "cd_name": "A. Knup",
+      "file": "e_swy10.wav",
+      "tone": 2,
+      "sha256": "b5a3ae10d33d9b02229b8fda4f1a9fc28488f34bcf83016a9f34522ab42d092c"
+    },
+    {
+      "team": 14,
+      "shirt": 9,
+      "name": "Adrian KNUP",
+      "cd_name": "A. Knup",
+      "file": "e_swz10.wav",
+      "tone": 3,
+      "sha256": "e0e538074f9da2b4d02879609248826ccc81a56bbeb49f09b4787b4d1c036557"
+    },
+    {
+      "team": 14,
+      "shirt": 10,
+      "name": "St\u0082phane CHAPUISAT",
+      "cd_name": "S. Chapuisat",
+      "file": "e_swx09.wav",
+      "tone": 1,
+      "sha256": "3dd4b4bfbc7b1d24036552f3c598d145c38dd59e9f27d240bc151178027e3f87"
+    },
+    {
+      "team": 14,
+      "shirt": 10,
+      "name": "St\u0082phane CHAPUISAT",
+      "cd_name": "S. Chapuisat",
+      "file": "e_swy09.wav",
+      "tone": 2,
+      "sha256": "00f19d30bcaaeff5036937eba7b6bce15c6316243f5ec1094fcfe95a019b3682"
+    },
+    {
+      "team": 14,
+      "shirt": 10,
+      "name": "St\u0082phane CHAPUISAT",
+      "cd_name": "S. Chapuisat",
+      "file": "e_swz09.wav",
+      "tone": 3,
+      "sha256": "9c8e8bf6a8e5c2bdef50ae640d7c20447127f9d479e48a5c8a854e72520b77af"
+    },
+    {
+      "team": 14,
+      "shirt": 11,
+      "name": "Alain SUTTER",
+      "cd_name": "A. Sutter",
+      "file": "e_swx08.wav",
+      "tone": 1,
+      "sha256": "d901f86204cf9c94d426699c14bd5363b565874e75c6ddb24230300890e07fd4"
+    },
+    {
+      "team": 14,
+      "shirt": 11,
+      "name": "Alain SUTTER",
+      "cd_name": "A. Sutter",
+      "file": "e_swy08.wav",
+      "tone": 2,
+      "sha256": "8050723a0ee21f9972ba0013ad7fda690b83a585f98afde460d5b8b11138f910"
+    },
+    {
+      "team": 14,
+      "shirt": 11,
+      "name": "Alain SUTTER",
+      "cd_name": "A. Sutter",
+      "file": "e_swz08.wav",
+      "tone": 3,
+      "sha256": "6787bb6c1a8d95062970c97a7eea87651c384573ddc1b71112273c34fd547843"
+    },
+    {
+      "team": 14,
+      "shirt": 12,
+      "name": "Stephan LEHMANN",
+      "cd_name": "S. Lehmann",
+      "file": "e_swx12.wav",
+      "tone": 1,
+      "sha256": "4a15c27e6b66d6a129d744a8cc96c190bad5c67088572b3bc94542614f56d718"
+    },
+    {
+      "team": 14,
+      "shirt": 12,
+      "name": "Stephan LEHMANN",
+      "cd_name": "S. Lehmann",
+      "file": "e_swy12.wav",
+      "tone": 2,
+      "sha256": "64723415602b11603b79ecc2e5ff064b9c15a8c54cc6ef098b38428be2d5904a"
+    },
+    {
+      "team": 14,
+      "shirt": 12,
+      "name": "Stephan LEHMANN",
+      "cd_name": "S. Lehmann",
+      "file": "e_swz12.wav",
+      "tone": 3,
+      "sha256": "dbfa220aff1a6244d0fa07c88604e8baf9735e9bf774ef2c7fae751bd2a25657"
+    },
+    {
+      "team": 14,
+      "shirt": 14,
+      "name": "Sebastien FOURNIER",
+      "cd_name": "S. Fournier",
+      "file": "e_swx22.wav",
+      "tone": 1,
+      "sha256": "92316aeee251f883eabf63a988629383b27ce14abbaff408a2eb6d0d607b6206"
+    },
+    {
+      "team": 14,
+      "shirt": 14,
+      "name": "Sebastien FOURNIER",
+      "cd_name": "S. Fournier",
+      "file": "e_swy22.wav",
+      "tone": 2,
+      "sha256": "76ab8af55d4db79d6a874aa0394bf2ce6007eb4137ee827b03b7f95c3b92987e"
+    },
+    {
+      "team": 14,
+      "shirt": 14,
+      "name": "Sebastien FOURNIER",
+      "cd_name": "S. Fournier",
+      "file": "e_swz22.wav",
+      "tone": 3,
+      "sha256": "8b214bc162e5d7c01d2147954e7ee909c7890899725964503287277eb9b8ec66"
+    },
+    {
+      "team": 14,
+      "shirt": 15,
+      "name": "Marco GRASSI",
+      "cd_name": "M. Grassi",
+      "file": "e_swx17.wav",
+      "tone": 1,
+      "sha256": "9207c895d1d9bf93f98875e0c48967b2dce735246543c84973b504f96d601058"
+    },
+    {
+      "team": 14,
+      "shirt": 15,
+      "name": "Marco GRASSI",
+      "cd_name": "M. Grassi",
+      "file": "e_swy17.wav",
+      "tone": 2,
+      "sha256": "dc88eeceb2caea16b26cf50669949c539dc8a6cc2604edeee36f797775e5356c"
+    },
+    {
+      "team": 14,
+      "shirt": 15,
+      "name": "Marco GRASSI",
+      "cd_name": "M. Grassi",
+      "file": "e_swz17.wav",
+      "tone": 3,
+      "sha256": "f61b4b0620c1ad95845e1a2a3901cc501ac44fcaa54c785cfb26c5535937ccfe"
+    },
+    {
+      "team": 14,
+      "shirt": 16,
+      "name": "Christophe BONVIN",
+      "cd_name": "C. Bonvin",
+      "file": "e_swx19.wav",
+      "tone": 1,
+      "sha256": "2144a9c267ddb2ebe762aa873ac1e8fa77acc59fea21964e76453de1fd425330"
+    },
+    {
+      "team": 14,
+      "shirt": 16,
+      "name": "Christophe BONVIN",
+      "cd_name": "C. Bonvin",
+      "file": "e_swy19.wav",
+      "tone": 2,
+      "sha256": "1d6a2e526cbb6eeca3081fb48eda3052b761fbb37e75a447361b74775d8417d9"
+    },
+    {
+      "team": 14,
+      "shirt": 16,
+      "name": "Christophe BONVIN",
+      "cd_name": "C. Bonvin",
+      "file": "e_swz19.wav",
+      "tone": 3,
+      "sha256": "07d9294ee5c61c34203c56f7417816522c0186547842e114b58150d7c6c75ecd"
+    },
+    {
+      "team": 14,
+      "shirt": 17,
+      "name": "Georges BREGY",
+      "cd_name": "G. Bregy",
+      "file": "e_swx06.wav",
+      "tone": 1,
+      "sha256": "29bf2061e112f0d1f605c394b486f6c7dcf7410d49477e019b559e9d534353d0"
+    },
+    {
+      "team": 14,
+      "shirt": 17,
+      "name": "Georges BREGY",
+      "cd_name": "G. Bregy",
+      "file": "e_swy06.wav",
+      "tone": 2,
+      "sha256": "4ee5bc97507c87ad68d9c5df863fc8023ee7f964551dfca59c65de21c8a49da2"
+    },
+    {
+      "team": 14,
+      "shirt": 17,
+      "name": "Georges BREGY",
+      "cd_name": "G. Bregy",
+      "file": "e_swz06.wav",
+      "tone": 3,
+      "sha256": "67c06c9da5e4851af14ccf5e8b0543d1e4fbe9fd1d631dfc7ed709d0e20dad16"
+    },
+    {
+      "team": 14,
+      "shirt": 18,
+      "name": "Dominique HERR",
+      "cd_name": "D. Herr",
+      "file": "e_swx02.wav",
+      "tone": 1,
+      "sha256": "fdf06205d854f71bba2ca4c88fbcbbd5183f7e148087e65562aad92debe9015f"
+    },
+    {
+      "team": 14,
+      "shirt": 18,
+      "name": "Dominique HERR",
+      "cd_name": "D. Herr",
+      "file": "e_swy02.wav",
+      "tone": 2,
+      "sha256": "5d066367f54933e29d918668586d0c57a96255d63b1ef8c0177ddfb81ab4583f"
+    },
+    {
+      "team": 14,
+      "shirt": 18,
+      "name": "Dominique HERR",
+      "cd_name": "D. Herr",
+      "file": "e_swz02.wav",
+      "tone": 3,
+      "sha256": "bd943bbd443a72d1fc821102b6698a35a427fa1b198731fb41b58a162f8592b1"
+    },
+    {
+      "team": 14,
+      "shirt": 19,
+      "name": "Nestor SUBIAT",
+      "cd_name": "N. Subiat",
+      "file": "e_swx21.wav",
+      "tone": 1,
+      "sha256": "d49259e2e0bc4aa3a4c4fd75ab7c0e9e0658e9aee395120172d20500479e2a59"
+    },
+    {
+      "team": 14,
+      "shirt": 19,
+      "name": "Nestor SUBIAT",
+      "cd_name": "N. Subiat",
+      "file": "e_swy21.wav",
+      "tone": 2,
+      "sha256": "d895a139a8fc19ddeb4782402584963154c4439a6fd6ac2629b3233e1ad76afe"
+    },
+    {
+      "team": 14,
+      "shirt": 19,
+      "name": "Nestor SUBIAT",
+      "cd_name": "N. Subiat",
+      "file": "e_swz21.wav",
+      "tone": 3,
+      "sha256": "e3c9db8c71855b80cc992adda454ca0480a8d756d63e3ec1f20fcb84bbae2b7b"
+    },
+    {
+      "team": 14,
+      "shirt": 20,
+      "name": "Andre EGLI",
+      "cd_name": "A. Egli",
+      "file": "e_swx20.wav",
+      "tone": 1,
+      "sha256": "d54d9bbe957e538ebf341283058400b73bd90ae6fea18b154854a9ee7dad6c8a"
+    },
+    {
+      "team": 14,
+      "shirt": 20,
+      "name": "Andre EGLI",
+      "cd_name": "A. Egli",
+      "file": "e_swy20.wav",
+      "tone": 2,
+      "sha256": "cafa6f3762198b19518848fba70c85476e2f46364ef34d9e1f0f06b5f2cac1d4"
+    },
+    {
+      "team": 14,
+      "shirt": 20,
+      "name": "Andre EGLI",
+      "cd_name": "A. Egli",
+      "file": "e_swz20.wav",
+      "tone": 3,
+      "sha256": "7046f45371ff2843d43dfa6fa5303a54b939977204f14b7ef86488a1a863b938"
+    }
+  ],
+  "pack_sha256": "da29ad03505b398fa65981c94491b849ec9c6da700ef57a18dc73b0bb5ff515a",
+  "evidence": "AUDIO.OBJ LoadTeamSamples 0x11c6,0x11cb,0x11e8,0x1217,0x1241; PlayTeamSample 0x1560"
+}

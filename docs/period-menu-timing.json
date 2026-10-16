@@ -1,0 +1,14 @@
+{
+  "timer_hz": 200,
+  "wait_ticks": 6,
+  "seconds_per_step": 0.03,
+  "nominal_steps_per_second": 33.333333333333336,
+  "inputs": {
+    "DEFINES.H": "9b6e983f8ec843978fc9546df9a4dfe9fda415f90616f098635b0d8cb6ce04fe",
+    "TEST.CPP": "eaf6c31de1a5a6e31620138bd22278323768e1670d82f9af1879a0cdb449fd7f",
+    "NETWORK.C": "0f67cc9339e86c6627550a36cb5ee4804813fd5b29b1436b9b83a3469b5429be",
+    "TIMER.H": "8d52ebe4756e8d3283b2c5bce83037dfcd74bc2188ffe2e9e78afbed2a62cb38"
+  },
+  "evidence": "TEST.CPP registers nethandler at TIMER_SPEED; NETWORK.C increments count unconditionally; the frontend waits for TIMER_SPEED/30 integer ticks, clears count, and calls DoTeamSelection once.",
+  "boundary": "Nominal source cadence only. DOS workload delays, timer jitter, retail-binary equivalence and navigation are not claimed."
+}

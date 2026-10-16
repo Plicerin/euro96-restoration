@@ -1,0 +1,10 @@
+Package 0.37.1: 32 files hash-checked; 0 optional media absent.
+Isolated package passed --version
+Isolated package passed --verify
+Isolated package passed --frontend-smoke
+Isolated package passed --tournament-save-smoke
+Isolated package and logs retained: C:\Users\vrock\AppData\Local\Temp\Actua96 package audit 13c9d4c03cce4eaab11ff365315173b1
+tournament.sav before=9683D18CECAD6D6C3D57D294CA57CD1B0CFF427C723892502D05958F8F4BC2DF after=9683D18CECAD6D6C3D57D294CA57CD1B0CFF427C723892502D05958F8F4BC2DF
+tournament.sav.bak before=582545086E457D4066619DF693DD0C00874BE66419160F7DF1777C57D48B24A9 after=582545086E457D4066619DF693DD0C00874BE66419160F7DF1777C57D48B24A9
+tournament.prefs before=ABSENT after=ABSENT
+tournament.prefs.bak before=ABSENT after=ABSENT

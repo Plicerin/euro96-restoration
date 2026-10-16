@@ -1,0 +1,47 @@
+{
+  "previousSha256": "4e2ff81fe6a5fd890cc13dc0913d11f069244e48d50c5b758e2bcf6af00dc4a0",
+  "currentSha256": "d2c82fa97a4cc65f89a3035c426a4e735b241c6b7dd2e2cf4db63a8935411223",
+  "changedRecords": [
+    [
+      27,
+      1
+    ],
+    [
+      27,
+      2
+    ],
+    [
+      27,
+      3
+    ],
+    [
+      27,
+      4
+    ],
+    [
+      27,
+      5
+    ],
+    [
+      27,
+      6
+    ],
+    [
+      27,
+      7
+    ],
+    [
+      27,
+      8
+    ]
+  ],
+  "unchangedRecords": 919,
+  "generatedDirectPassCallers": {
+    "CP_SHORT": 1,
+    "CP_SETPIECE": 2,
+    "FP_SHORT": 0,
+    "FP_LOOSE": 0
+  },
+  "sourceBallintSha256": "6af1c0c6ab057e20fff42d6206691a1ccd6fe346cfa69444b2e7402c3a000b4c",
+  "scope": "Direct symbolic calls only; dormant compatibility entries remain addressable through the audio API."
+}

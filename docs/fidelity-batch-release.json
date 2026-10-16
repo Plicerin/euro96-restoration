@@ -1,0 +1,32 @@
+{
+  "version": "0.66.0",
+  "buildId": "d34cb6e5142a5435-2b4b128d-0703f4d7-a8a44290",
+  "executableSha256": "d34cb6e5142a5435e7d77b297fedf93e63613a3940b78c725d46f4c18fcf6315",
+  "package": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\actuasoccer96-windows\\dist\\actua96-0.66.0-baab051f6c9b4da5b715b6b3d826d9ad",
+  "packageHashes": 54,
+  "packageSmokeChecks": 9,
+  "fullTests": 108,
+  "fullSeconds": 232.43,
+  "focusedTests": 6,
+  "focusedSeconds": 37.63,
+  "finalRetailMenuTestSeconds": 5.96,
+  "sourceFiles": 427,
+  "sourceUnchangedDuringFinalVerification": true,
+  "sourceTrackedDiffEmpty": true,
+  "localUserStateUnchangedDuringFinalVerification": true,
+  "localUserState": {
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\save-check-9161454973797.prefs": "F2D70D7D6F0256E2B291303CEA1F491B5777E363879FB486C7B24A2058EEE08F",
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\save-check-9161454973797.prefs.bak": "8C0109C365D4B2EE2E9CC31B62583C6675ACCE63AD0699C78D45762E1C06F258",
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\save-check-9161454973797.sav": "E9A3D05A195EFF47D5C5735DD26C0ABD8487EF09F02C8D0B9706FD370AC41632",
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\save-check-9161454973797.sav.bak": "8B9243C47025D544B8F1D44A0F4D1C70C25C2778A709C0C165874073B5223C23",
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\tournament.sav": "9683D18CECAD6D6C3D57D294CA57CD1B0CFF427C723892502D05958F8F4BC2DF",
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\tournament.sav.bak": "582545086E457D4066619DF693DD0C00874BE66419160F7DF1777C57D48B24A9"
+  },
+  "buildPackagePublishedExeAndMediaMatch": true,
+  "priorMediaUnchanged": true,
+  "newMedia": [
+    "GRAPHICS/EURO_BOARDS.BIN"
+  ],
+  "visualReview": "18-page software-rendered retail menu audit plus actual game charge, pause and spectator captures at 1200x830; physical GPU/audio/controller validation not implied",
+  "runningGameRestarted": false
+}

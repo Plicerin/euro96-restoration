@@ -1,0 +1,47 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start 49: original_human_setpiece_contracts
+1/1 Test #49: original_human_setpiece_contracts ...***Failed    0.85 sec
+half 0 stage 0 kind 0 passed
+half 0 stage 1 kind 0 passed
+half 0 stage 1 kind 1 passed
+half 0 stage 1 kind 2 passed
+half 0 stage 2 kind 0 passed
+half 0 stage 2 kind 1 passed
+half 0 stage 2 kind 2 passed
+half 0 stage 3 kind 0 passed
+half 0 stage 3 kind 1 passed
+half 0 stage 3 kind 2 passed
+half 0 stage 4 kind 0 passed
+half 0 stage 4 kind 1 passed
+half 0 stage 4 kind 2 passed
+half 0 stage 5 kind 0 passed
+half 0 stage 5 kind 1 passed
+half 0 stage 5 kind 2 passed
+half 1 stage 0 kind 0 passed
+half 1 stage 1 kind 0 passed
+half 1 stage 1 kind 1 passed
+half 1 stage 1 kind 2 passed
+half 1 stage 2 kind 0 passed
+half 1 stage 2 kind 1 passed
+half 1 stage 2 kind 2 passed
+half 1 stage 3 kind 0 passed
+half 1 stage 3 kind 1 passed
+half 1 stage 3 kind 2 passed
+half 1 stage 4 kind 0 passed
+half 1 stage 4 kind 1 passed
+half 1 stage 4 kind 2 passed
+half 1 stage 5 kind 0 passed
+half 1 stage 5 kind 1 passed
+half 1 stage 5 kind 2 passed
+keeper kind 1 act 12 busy 0
+keeper kind 2 act 12 busy 0
+keeper kind 3 act 12 busy 0
+Human keeper finishes pickup/get-up in standing hold pose
+
+
+0% tests passed, 1 tests failed out of 1
+
+Total Test time (real) =   0.94 sec
+
+The following tests FAILED:
+	 49 - original_human_setpiece_contracts (Failed)

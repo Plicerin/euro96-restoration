@@ -1,0 +1,7 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start 108: retail_board_contracts
+1/1 Test #108: retail_board_contracts ...........   Passed    1.91 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   2.19 sec

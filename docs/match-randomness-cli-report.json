@@ -1,0 +1,32 @@
+{
+  "default": {
+    "seed": 1,
+    "policy": "fixed",
+    "sha256": "613e108f3c7ad1ef2b19e734cbd056fcd0d39db8eae629bcbcfed891a2d62ebd"
+  },
+  "fixed-a": {
+    "seed": 1,
+    "policy": "fixed",
+    "sha256": "613e108f3c7ad1ef2b19e734cbd056fcd0d39db8eae629bcbcfed891a2d62ebd"
+  },
+  "fixed-b": {
+    "seed": 1,
+    "policy": "fixed",
+    "sha256": "613e108f3c7ad1ef2b19e734cbd056fcd0d39db8eae629bcbcfed891a2d62ebd"
+  },
+  "other": {
+    "seed": 2,
+    "policy": "fixed",
+    "sha256": "60e5b75c24c506d6eb3494da03569835bbf72aa8ad98067568cb195245298ee1"
+  },
+  "fresh-a": {
+    "seed": 1217288633,
+    "policy": "fresh",
+    "sha256": "5c8ac553dd6c87065dbc6ea60102e7e223a8b52f3965c22c27bb704c9a4041ca"
+  },
+  "fresh-b": {
+    "seed": 2416586020,
+    "policy": "fresh",
+    "sha256": "d0e9cf2ef7af222e6ed50f12f7c5f78ee886a3bc009ded95a858f4209302d059"
+  }
+}

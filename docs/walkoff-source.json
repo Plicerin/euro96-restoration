@@ -1,0 +1,86 @@
+{
+  "version": "0.46.0",
+  "inputs": {
+    "FOOTBALL.OBJ": "80386fd58625e1a5a8491cdf700096af782636923ba40b778746274c8663430a",
+    "RULES.OBJ": "b2de700c0000e0d66eb7c559c012eec50404221b8565ac0894ef58a6fcf9b722",
+    "BALL.OBJ": "f8dd68af5519f5fd70085de559d57418f24beea6dea9f9fb2cfd8e4627e76ec5",
+    "ACTIONS.OBJ": "b02ab5c3177e8744c9c954c1d66148d6b3d9270fef647637192189ac4da87f31",
+    "BALLINT.OBJ": "00bc42f30d1a75790e30d5f3b0565eda1e25c3114fa3b40888cc6d246187d378",
+    "INTELL.OBJ": "aa57e892ff317cda7fbb372887af628372d5fe509eec3838ae012bf81335f2fd",
+    "ANDYDEFS.H": "46fa596943584b099c3a2d3188cfaf54e8dcab25cd8df04734c81e5988da647c",
+    "USER.CPP": "d2e531f07d3af8b62238bdc6f1e1947e54e4e74a4ba7ae8af66b62b02020b170",
+    "ACTIONS.CPP": "d580bba909cf6ce93dff67e156423971a510914a5e7123a65b8aa9fc86edd8ad",
+    "BALLINT.CPP": "6af1c0c6ab057e20fff42d6206691a1ccd6fe346cfa69444b2e7402c3a000b4c",
+    "INTELL.CPP": "745996b33ec5683effedd5dbdd1113161b4cd6422dea86e740c3897de355cacc",
+    "MATHS.CPP": "badcffdf5b450001887d0a335da7a2fa95c2b323a7898a40da71afc0ab9c3da8",
+    "RULES.CPP": "68630984013862fbc2a6d1bb2a5a9e859a1bfe68a1f20e8f24c1bfb949253fe1",
+    "BALL.CPP": "0b1b60164ac1b0de2d4dca33883947ec5d8f18d27efba384adfb27e1585c45eb",
+    "DATA.H": "0da6c278f2d30bcee32c1b31bb2ad24ec5b917a37bc9f7c4f50ef7eeca99fec8"
+  },
+  "walkoff": {
+    "routines": [
+      "init_off_int",
+      "remove_player",
+      "goto_target",
+      "at_target"
+    ],
+    "adaptations": [
+      "CD tunnel coordinates replace stadlist lookups; native camera restoration replaces camera/sub_camera globals.",
+      "Live substitutions/discipline stay authoritative; native event copies run original routes without changing match state.",
+      "Native replacement identity/ratings are inserted at tunnel, following process_subs sequencing.",
+      "Referee facing corrects source tm_x used for Y; zero-distance target movement/facing stay finite.",
+      "Referee/assistant dead-ball targets now run goto_target; original DOS await_kicker state machine is not restored."
+    ]
+  },
+  "routines": [
+    {
+      "file": "ACTIONS.CPP",
+      "name": "process_anims",
+      "line": 5912,
+      "sha256": "24a40fe9567109a2ea4ec957327de7f1e823128de5260a505b6cf15069158529"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "run_action",
+      "line": 4074,
+      "sha256": "dd3d35c6c806fc576b5daf8bda8d5a68da5d98fd2cb01ebc5b871ceaca50f4e8"
+    },
+    {
+      "file": "ACTIONS.CPP",
+      "name": "process_dir",
+      "line": 4784,
+      "sha256": "06e9e0d5df243b73067a87df803af82ed15af295ac004d9a026d8de6c83f5563"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "at_target",
+      "line": 2780,
+      "sha256": "a566ec0e55a177e5ed0c8926f3a6011055536abb437ad6bbd4395f957d06e86c"
+    },
+    {
+      "file": "RULES.CPP",
+      "name": "goto_target",
+      "line": 2746,
+      "sha256": "a546d551f2330d5db21c1aed2eacd2b50ff13908a9b00850d30d29c5c7d6f206"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "remove_player",
+      "line": 8028,
+      "sha256": "f1f6012db245e9961797b50621473963256c8c20903f2b543cccaa088df85892"
+    },
+    {
+      "file": "INTELL.CPP",
+      "name": "init_off_int",
+      "line": 8043,
+      "sha256": "6b38dba384a110bb3f98f327d2e94a265467afad7c8021bcc2a973b25f4b187d"
+    }
+  ],
+  "camera": [
+    {
+      "mode": 17,
+      "line": 937,
+      "sha256": "a30370028613aa53c064706a8878a5ead4912e87158b01586b73ec077816d997"
+    }
+  ]
+}

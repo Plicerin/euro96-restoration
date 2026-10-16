@@ -1,0 +1,33 @@
+{
+  "version": "0.56.0",
+  "buildId": "baefe5267abd0f41-2b4b128d-0703f4d7-268cd180",
+  "saveUnchanged": true,
+  "saveSha256": "9683D18CECAD6D6C3D57D294CA57CD1B0CFF427C723892502D05958F8F4BC2DF",
+  "trackedSourceFiles": 427,
+  "sourceUnchanged": true,
+  "executables": [
+    {
+      "Algorithm": "SHA256",
+      "Hash": "BAEFE5267ABD0F41C27B80CD949711672E0AA1C406F37F4862BE60986C653B68",
+      "Path": "C:\\Users\\vrock\\AppData\\Local\\Temp\\actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b\\Release\\actua96.exe"
+    },
+    {
+      "Algorithm": "SHA256",
+      "Hash": "BAEFE5267ABD0F41C27B80CD949711672E0AA1C406F37F4862BE60986C653B68",
+      "Path": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\actuasoccer96-windows\\dist\\actua96-0.56.0-251dbdc705774d699df98e1b9cd5c839\\actua96.exe"
+    },
+    {
+      "Algorithm": "SHA256",
+      "Hash": "BAEFE5267ABD0F41C27B80CD949711672E0AA1C406F37F4862BE60986C653B68",
+      "Path": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\Actua96-Playtest\\builds\\baefe5267abd0f41-2b4b128d-0703f4d7-268cd180\\actua96.exe"
+    }
+  ],
+  "retiredAssets": [
+    "VIDEO/INTRO.AMV",
+    "VIDEO/MAKING.AMV",
+    "FRONTEND/TITLE.IDX",
+    "FRONTEND/TITLE.PAL"
+  ],
+  "retiredLocalImportsRetained": true,
+  "launcherAliasesMatch": true
+}

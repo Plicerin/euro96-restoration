@@ -1,0 +1,21 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start 95: retail_audio_contracts
+    Start 96: retail_audio_provenance
+1/8 Test #96: retail_audio_provenance ................   Passed    0.58 sec
+    Start 74: original_french_commentary_contracts
+2/8 Test #74: original_french_commentary_contracts ...   Passed    7.66 sec
+    Start 57: original_commentary_contracts
+3/8 Test #95: retail_audio_contracts .................   Passed   11.87 sec
+    Start 58: native_commentary_smoke
+4/8 Test #58: native_commentary_smoke ................   Passed    4.27 sec
+    Start 75: commentary_language_contracts
+5/8 Test #75: commentary_language_contracts ..........   Passed    1.91 sec
+    Start 97: retail_period_contracts
+6/8 Test #57: original_commentary_contracts ..........   Passed   10.74 sec
+    Start 98: retail_period_provenance
+7/8 Test #98: retail_period_provenance ...............   Passed    0.40 sec
+8/8 Test #97: retail_period_contracts ................   Passed   16.09 sec
+
+100% tests passed, 0 tests failed out of 8
+
+Total Test time (real) =  34.57 sec

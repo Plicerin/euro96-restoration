@@ -1,0 +1,17 @@
+{
+  "clipped_sprites": {
+    "754": "Carousel frame height 71 to 70: only 70 source rows exist."
+  },
+  "images": 1159,
+  "carousel_frames": 64,
+  "fonts": 3,
+  "inputs": {
+    "SCRIPT.96": "5823efb83d4163ee891be0de8b867efd1bfb2655535d8fe9cbadfa2f96aed4f5",
+    "EURO_SYM.H": "b5ca702eddebbfb99ebe9debef25b7b6b4f8b2e1adbe7403e300d4be153e20a1",
+    "EURO_VAR.CPP": "5bafbb9bc2bd5c63ccb44e17bd978cb01f788d86c2bd862fd150781889911d3e",
+    "EURO_GRF.CPP": "c0e7059e163c9f4213919acc907cf7eba2bd0122f6bdf4b0f3261897a30291e2",
+    "EURO_GEN.CPP": "6afcd9a281888cf05389da12cb53e00e11d0920754bdc11e45aa85f3a5d73b58",
+    "EURO_SEL.CPP": "efe97f0672d771e2228adc20f77cee485be4e9ce428e236ea9c9d61150832d69"
+  },
+  "boundary": "Original image rectangles, page mappings, glyph advance, carousel positions and direction function; source-checked .2/.4/.8/1 acceleration, native 60 Hz pacing, immediate input selection, menu navigation and extension layouts."
+}

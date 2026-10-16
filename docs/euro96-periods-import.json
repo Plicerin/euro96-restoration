@@ -1,0 +1,2241 @@
+{
+  "executable_sha256": "2a473a002a294c1bb28ea39e94a36afc34497dd7e44f0ebfeda0ea21f652b62d",
+  "instruction_evidence": [
+    {
+      "file_offset": 684448,
+      "bytes": "b803000000"
+    },
+    {
+      "file_offset": 684453,
+      "bytes": "e80acd0500"
+    },
+    {
+      "file_offset": 684839,
+      "bytes": "b802000000"
+    },
+    {
+      "file_offset": 684844,
+      "bytes": "e883cb0500"
+    },
+    {
+      "file_offset": 1064710,
+      "bytes": "83fd02"
+    },
+    {
+      "file_offset": 1064719,
+      "bytes": "39c8"
+    },
+    {
+      "file_offset": 1064815,
+      "bytes": "b865000000"
+    },
+    {
+      "file_offset": 1064820,
+      "bytes": "e83beeffff"
+    },
+    {
+      "file_offset": 1065063,
+      "bytes": "83f807"
+    },
+    {
+      "file_offset": 1065072,
+      "bytes": "83f905"
+    },
+    {
+      "file_offset": 1065111,
+      "bytes": "b804000000"
+    },
+    {
+      "file_offset": 1065125,
+      "bytes": "0441"
+    },
+    {
+      "file_offset": 1065155,
+      "bytes": "8b04ad702d0100"
+    },
+    {
+      "file_offset": 684649,
+      "bytes": "b101880da5b60400"
+    },
+    {
+      "file_offset": 684684,
+      "bytes": "b802000000"
+    },
+    {
+      "file_offset": 684689,
+      "bytes": "e81ecc0500"
+    },
+    {
+      "file_offset": 1064740,
+      "bytes": "803da5b6040000"
+    },
+    {
+      "file_offset": 1064749,
+      "bytes": "83f808"
+    },
+    {
+      "file_offset": 1064754,
+      "bytes": "40"
+    },
+    {
+      "file_offset": 1064756,
+      "bytes": "68a85d0000"
+    },
+    {
+      "file_offset": 1064776,
+      "bytes": "b818000000"
+    },
+    {
+      "file_offset": 1064791,
+      "bytes": "83c009"
+    },
+    {
+      "file_offset": 1064840,
+      "bytes": "b8b25d0000"
+    }
+  ],
+  "banks": [
+    "SCO",
+    "LAT",
+    "FLL",
+    "HLF",
+    "MCX",
+    "STT",
+    "XTM"
+  ],
+  "clips": [
+    {
+      "category": 96,
+      "number": 0,
+      "bank": "HLF",
+      "filename": "e_hlf00a.wav",
+      "sha256": "0f7964e1fd1e509457f25cc6770109c56d19abf3b2e850f994a678fd0f33c183"
+    },
+    {
+      "category": 96,
+      "number": 100,
+      "bank": "HLF",
+      "filename": "e_hlf00b.wav",
+      "sha256": "2df17a1bc956e07312fb83c4c457879d70eedb2413003e28f34702da6683f8b2"
+    },
+    {
+      "category": 96,
+      "number": 200,
+      "bank": "HLF",
+      "filename": "e_hlf00c.wav",
+      "sha256": "0f7964e1fd1e509457f25cc6770109c56d19abf3b2e850f994a678fd0f33c183"
+    },
+    {
+      "category": 96,
+      "number": 300,
+      "bank": "HLF",
+      "filename": "e_hlf00d.wav",
+      "sha256": "2df17a1bc956e07312fb83c4c457879d70eedb2413003e28f34702da6683f8b2"
+    },
+    {
+      "category": 96,
+      "number": 10,
+      "bank": "HLF",
+      "filename": "e_hlf10a.wav",
+      "sha256": "2d1c8550bc90bbe599b1f2a7547b4a09f6d92d637d86430b0efe59224897c350"
+    },
+    {
+      "category": 96,
+      "number": 110,
+      "bank": "HLF",
+      "filename": "e_hlf10b.wav",
+      "sha256": "2d1c8550bc90bbe599b1f2a7547b4a09f6d92d637d86430b0efe59224897c350"
+    },
+    {
+      "category": 96,
+      "number": 210,
+      "bank": "HLF",
+      "filename": "e_hlf10c.wav",
+      "sha256": "2d1c8550bc90bbe599b1f2a7547b4a09f6d92d637d86430b0efe59224897c350"
+    },
+    {
+      "category": 96,
+      "number": 310,
+      "bank": "HLF",
+      "filename": "e_hlf10d.wav",
+      "sha256": "2d1c8550bc90bbe599b1f2a7547b4a09f6d92d637d86430b0efe59224897c350"
+    },
+    {
+      "category": 96,
+      "number": 20,
+      "bank": "HLF",
+      "filename": "e_hlf20a.wav",
+      "sha256": "ab37386b092ac5e52edaef0fd03f063867557511c0aec35804f4b55a441581c5"
+    },
+    {
+      "category": 96,
+      "number": 120,
+      "bank": "HLF",
+      "filename": "e_hlf20b.wav",
+      "sha256": "ab37386b092ac5e52edaef0fd03f063867557511c0aec35804f4b55a441581c5"
+    },
+    {
+      "category": 96,
+      "number": 220,
+      "bank": "HLF",
+      "filename": "e_hlf20c.wav",
+      "sha256": "ab37386b092ac5e52edaef0fd03f063867557511c0aec35804f4b55a441581c5"
+    },
+    {
+      "category": 96,
+      "number": 320,
+      "bank": "HLF",
+      "filename": "e_hlf20d.wav",
+      "sha256": "ab37386b092ac5e52edaef0fd03f063867557511c0aec35804f4b55a441581c5"
+    },
+    {
+      "category": 96,
+      "number": 22,
+      "bank": "HLF",
+      "filename": "e_hlf22a.wav",
+      "sha256": "f5486799ad0501ef9b2220e4549754efe6ff99972241d6dc48ea0bbf19d50a4c"
+    },
+    {
+      "category": 96,
+      "number": 122,
+      "bank": "HLF",
+      "filename": "e_hlf22b.wav",
+      "sha256": "f5486799ad0501ef9b2220e4549754efe6ff99972241d6dc48ea0bbf19d50a4c"
+    },
+    {
+      "category": 96,
+      "number": 222,
+      "bank": "HLF",
+      "filename": "e_hlf22c.wav",
+      "sha256": "f5486799ad0501ef9b2220e4549754efe6ff99972241d6dc48ea0bbf19d50a4c"
+    },
+    {
+      "category": 96,
+      "number": 322,
+      "bank": "HLF",
+      "filename": "e_hlf22d.wav",
+      "sha256": "f5486799ad0501ef9b2220e4549754efe6ff99972241d6dc48ea0bbf19d50a4c"
+    },
+    {
+      "category": 96,
+      "number": 30,
+      "bank": "HLF",
+      "filename": "e_hlf30a.wav",
+      "sha256": "ffc233b159ab55c5d16ae22138579c64312e3ea51117f7789698806ebefc2a35"
+    },
+    {
+      "category": 96,
+      "number": 130,
+      "bank": "HLF",
+      "filename": "e_hlf30b.wav",
+      "sha256": "ffc233b159ab55c5d16ae22138579c64312e3ea51117f7789698806ebefc2a35"
+    },
+    {
+      "category": 96,
+      "number": 230,
+      "bank": "HLF",
+      "filename": "e_hlf30c.wav",
+      "sha256": "ffc233b159ab55c5d16ae22138579c64312e3ea51117f7789698806ebefc2a35"
+    },
+    {
+      "category": 96,
+      "number": 330,
+      "bank": "HLF",
+      "filename": "e_hlf30d.wav",
+      "sha256": "ffc233b159ab55c5d16ae22138579c64312e3ea51117f7789698806ebefc2a35"
+    },
+    {
+      "category": 96,
+      "number": 40,
+      "bank": "HLF",
+      "filename": "e_hlf40a.wav",
+      "sha256": "cf4a939dc20d361d741b05f680abaea9101e077abd96dd888b4cd84cd8fa4185"
+    },
+    {
+      "category": 96,
+      "number": 140,
+      "bank": "HLF",
+      "filename": "e_hlf40b.wav",
+      "sha256": "cf4a939dc20d361d741b05f680abaea9101e077abd96dd888b4cd84cd8fa4185"
+    },
+    {
+      "category": 96,
+      "number": 240,
+      "bank": "HLF",
+      "filename": "e_hlf40c.wav",
+      "sha256": "cf4a939dc20d361d741b05f680abaea9101e077abd96dd888b4cd84cd8fa4185"
+    },
+    {
+      "category": 96,
+      "number": 340,
+      "bank": "HLF",
+      "filename": "e_hlf40d.wav",
+      "sha256": "cf4a939dc20d361d741b05f680abaea9101e077abd96dd888b4cd84cd8fa4185"
+    },
+    {
+      "category": 96,
+      "number": 41,
+      "bank": "HLF",
+      "filename": "e_hlf41a.wav",
+      "sha256": "a378bcf09b184c0e9fc2ee4a3658066e4d239cb8aa790f77f0f8a59d5b269a68"
+    },
+    {
+      "category": 96,
+      "number": 141,
+      "bank": "HLF",
+      "filename": "e_hlf41b.wav",
+      "sha256": "a378bcf09b184c0e9fc2ee4a3658066e4d239cb8aa790f77f0f8a59d5b269a68"
+    },
+    {
+      "category": 96,
+      "number": 241,
+      "bank": "HLF",
+      "filename": "e_hlf41c.wav",
+      "sha256": "a378bcf09b184c0e9fc2ee4a3658066e4d239cb8aa790f77f0f8a59d5b269a68"
+    },
+    {
+      "category": 96,
+      "number": 341,
+      "bank": "HLF",
+      "filename": "e_hlf41d.wav",
+      "sha256": "a378bcf09b184c0e9fc2ee4a3658066e4d239cb8aa790f77f0f8a59d5b269a68"
+    },
+    {
+      "category": 96,
+      "number": 42,
+      "bank": "HLF",
+      "filename": "e_hlf42a.wav",
+      "sha256": "2b2d7b0b5796f3f955394a9c374be33d6277e49978edd0f6eda899b9032757e7"
+    },
+    {
+      "category": 96,
+      "number": 142,
+      "bank": "HLF",
+      "filename": "e_hlf42b.wav",
+      "sha256": "2b2d7b0b5796f3f955394a9c374be33d6277e49978edd0f6eda899b9032757e7"
+    },
+    {
+      "category": 96,
+      "number": 242,
+      "bank": "HLF",
+      "filename": "e_hlf42c.wav",
+      "sha256": "2b2d7b0b5796f3f955394a9c374be33d6277e49978edd0f6eda899b9032757e7"
+    },
+    {
+      "category": 96,
+      "number": 342,
+      "bank": "HLF",
+      "filename": "e_hlf42d.wav",
+      "sha256": "2b2d7b0b5796f3f955394a9c374be33d6277e49978edd0f6eda899b9032757e7"
+    },
+    {
+      "category": 96,
+      "number": 43,
+      "bank": "HLF",
+      "filename": "e_hlf43a.wav",
+      "sha256": "ce0e46a661f8dd343827f24189be944a4f3b7855af5f52b1e401157ebad987de"
+    },
+    {
+      "category": 96,
+      "number": 143,
+      "bank": "HLF",
+      "filename": "e_hlf43b.wav",
+      "sha256": "ce0e46a661f8dd343827f24189be944a4f3b7855af5f52b1e401157ebad987de"
+    },
+    {
+      "category": 96,
+      "number": 243,
+      "bank": "HLF",
+      "filename": "e_hlf43c.wav",
+      "sha256": "ce0e46a661f8dd343827f24189be944a4f3b7855af5f52b1e401157ebad987de"
+    },
+    {
+      "category": 96,
+      "number": 343,
+      "bank": "HLF",
+      "filename": "e_hlf43d.wav",
+      "sha256": "ce0e46a661f8dd343827f24189be944a4f3b7855af5f52b1e401157ebad987de"
+    },
+    {
+      "category": 96,
+      "number": 44,
+      "bank": "HLF",
+      "filename": "e_hlf44a.wav",
+      "sha256": "2b78679e5f04bbbcfe8570a9dd6206bdfe888d27c1bfdbb8c842c2e5cfbabb7f"
+    },
+    {
+      "category": 96,
+      "number": 144,
+      "bank": "HLF",
+      "filename": "e_hlf44b.wav",
+      "sha256": "2b78679e5f04bbbcfe8570a9dd6206bdfe888d27c1bfdbb8c842c2e5cfbabb7f"
+    },
+    {
+      "category": 96,
+      "number": 244,
+      "bank": "HLF",
+      "filename": "e_hlf44c.wav",
+      "sha256": "2b78679e5f04bbbcfe8570a9dd6206bdfe888d27c1bfdbb8c842c2e5cfbabb7f"
+    },
+    {
+      "category": 96,
+      "number": 344,
+      "bank": "HLF",
+      "filename": "e_hlf44d.wav",
+      "sha256": "2b78679e5f04bbbcfe8570a9dd6206bdfe888d27c1bfdbb8c842c2e5cfbabb7f"
+    },
+    {
+      "category": 96,
+      "number": 50,
+      "bank": "HLF",
+      "filename": "e_hlf50a.wav",
+      "sha256": "6ff2df5b9b82e5c6efc49fa53dd74339a00749a31b0e599b538f978de2f4425d"
+    },
+    {
+      "category": 96,
+      "number": 150,
+      "bank": "HLF",
+      "filename": "e_hlf50b.wav",
+      "sha256": "6ff2df5b9b82e5c6efc49fa53dd74339a00749a31b0e599b538f978de2f4425d"
+    },
+    {
+      "category": 96,
+      "number": 250,
+      "bank": "HLF",
+      "filename": "e_hlf50c.wav",
+      "sha256": "6ff2df5b9b82e5c6efc49fa53dd74339a00749a31b0e599b538f978de2f4425d"
+    },
+    {
+      "category": 96,
+      "number": 350,
+      "bank": "HLF",
+      "filename": "e_hlf50d.wav",
+      "sha256": "6ff2df5b9b82e5c6efc49fa53dd74339a00749a31b0e599b538f978de2f4425d"
+    },
+    {
+      "category": 96,
+      "number": 51,
+      "bank": "HLF",
+      "filename": "e_hlf51a.wav",
+      "sha256": "873de06da998b494c9c71d4163bb48894e2a781aa785aa69bda5357db85966ac"
+    },
+    {
+      "category": 96,
+      "number": 151,
+      "bank": "HLF",
+      "filename": "e_hlf51b.wav",
+      "sha256": "873de06da998b494c9c71d4163bb48894e2a781aa785aa69bda5357db85966ac"
+    },
+    {
+      "category": 96,
+      "number": 251,
+      "bank": "HLF",
+      "filename": "e_hlf51c.wav",
+      "sha256": "873de06da998b494c9c71d4163bb48894e2a781aa785aa69bda5357db85966ac"
+    },
+    {
+      "category": 96,
+      "number": 351,
+      "bank": "HLF",
+      "filename": "e_hlf51d.wav",
+      "sha256": "873de06da998b494c9c71d4163bb48894e2a781aa785aa69bda5357db85966ac"
+    },
+    {
+      "category": 96,
+      "number": 52,
+      "bank": "HLF",
+      "filename": "e_hlf52a.wav",
+      "sha256": "9ec7c44bf6e43bcd64b8c5911d31931613c49711971e978bf129cc32e82b8f8c"
+    },
+    {
+      "category": 96,
+      "number": 152,
+      "bank": "HLF",
+      "filename": "e_hlf52b.wav",
+      "sha256": "9ec7c44bf6e43bcd64b8c5911d31931613c49711971e978bf129cc32e82b8f8c"
+    },
+    {
+      "category": 96,
+      "number": 252,
+      "bank": "HLF",
+      "filename": "e_hlf52c.wav",
+      "sha256": "9ec7c44bf6e43bcd64b8c5911d31931613c49711971e978bf129cc32e82b8f8c"
+    },
+    {
+      "category": 96,
+      "number": 352,
+      "bank": "HLF",
+      "filename": "e_hlf52d.wav",
+      "sha256": "9ec7c44bf6e43bcd64b8c5911d31931613c49711971e978bf129cc32e82b8f8c"
+    },
+    {
+      "category": 96,
+      "number": 53,
+      "bank": "HLF",
+      "filename": "e_hlf53a.wav",
+      "sha256": "89f02b509d149b60febb5bc067621c73b454c8d087091acdc18083fc229b16b6"
+    },
+    {
+      "category": 96,
+      "number": 153,
+      "bank": "HLF",
+      "filename": "e_hlf53b.wav",
+      "sha256": "89f02b509d149b60febb5bc067621c73b454c8d087091acdc18083fc229b16b6"
+    },
+    {
+      "category": 96,
+      "number": 253,
+      "bank": "HLF",
+      "filename": "e_hlf53c.wav",
+      "sha256": "89f02b509d149b60febb5bc067621c73b454c8d087091acdc18083fc229b16b6"
+    },
+    {
+      "category": 96,
+      "number": 353,
+      "bank": "HLF",
+      "filename": "e_hlf53d.wav",
+      "sha256": "89f02b509d149b60febb5bc067621c73b454c8d087091acdc18083fc229b16b6"
+    },
+    {
+      "category": 96,
+      "number": 54,
+      "bank": "HLF",
+      "filename": "e_hlf54a.wav",
+      "sha256": "82a3c6032abecbd2891ac339783d76b40b36fc75e663e09a30f560beab89561f"
+    },
+    {
+      "category": 96,
+      "number": 154,
+      "bank": "HLF",
+      "filename": "e_hlf54b.wav",
+      "sha256": "82a3c6032abecbd2891ac339783d76b40b36fc75e663e09a30f560beab89561f"
+    },
+    {
+      "category": 96,
+      "number": 254,
+      "bank": "HLF",
+      "filename": "e_hlf54c.wav",
+      "sha256": "82a3c6032abecbd2891ac339783d76b40b36fc75e663e09a30f560beab89561f"
+    },
+    {
+      "category": 96,
+      "number": 354,
+      "bank": "HLF",
+      "filename": "e_hlf54d.wav",
+      "sha256": "82a3c6032abecbd2891ac339783d76b40b36fc75e663e09a30f560beab89561f"
+    },
+    {
+      "category": 96,
+      "number": 55,
+      "bank": "HLF",
+      "filename": "e_hlf55a.wav",
+      "sha256": "05ec435b60d8c0b500c1ee513224dbd4a69527ff16e7685341d53b2dc3ab558b"
+    },
+    {
+      "category": 96,
+      "number": 155,
+      "bank": "HLF",
+      "filename": "e_hlf55b.wav",
+      "sha256": "598abc832fc643238b525be0571333075e9900c8b5ed39e08addc128e1837752"
+    },
+    {
+      "category": 96,
+      "number": 255,
+      "bank": "HLF",
+      "filename": "e_hlf55c.wav",
+      "sha256": "05ec435b60d8c0b500c1ee513224dbd4a69527ff16e7685341d53b2dc3ab558b"
+    },
+    {
+      "category": 96,
+      "number": 355,
+      "bank": "HLF",
+      "filename": "e_hlf55d.wav",
+      "sha256": "598abc832fc643238b525be0571333075e9900c8b5ed39e08addc128e1837752"
+    },
+    {
+      "category": 96,
+      "number": 60,
+      "bank": "HLF",
+      "filename": "e_hlf60a.wav",
+      "sha256": "cd7f08eab6d89d03a8704ad507672ee26ce01928e763935e1d5f125db6fb3c4b"
+    },
+    {
+      "category": 96,
+      "number": 160,
+      "bank": "HLF",
+      "filename": "e_hlf60b.wav",
+      "sha256": "cd7f08eab6d89d03a8704ad507672ee26ce01928e763935e1d5f125db6fb3c4b"
+    },
+    {
+      "category": 96,
+      "number": 260,
+      "bank": "HLF",
+      "filename": "e_hlf60c.wav",
+      "sha256": "cd7f08eab6d89d03a8704ad507672ee26ce01928e763935e1d5f125db6fb3c4b"
+    },
+    {
+      "category": 96,
+      "number": 360,
+      "bank": "HLF",
+      "filename": "e_hlf60d.wav",
+      "sha256": "cd7f08eab6d89d03a8704ad507672ee26ce01928e763935e1d5f125db6fb3c4b"
+    },
+    {
+      "category": 96,
+      "number": 61,
+      "bank": "HLF",
+      "filename": "e_hlf61a.wav",
+      "sha256": "c9c6442d98cb0a55f246f5915e8947177e64b7d2c62a49600af24092c3446321"
+    },
+    {
+      "category": 96,
+      "number": 161,
+      "bank": "HLF",
+      "filename": "e_hlf61b.wav",
+      "sha256": "c9c6442d98cb0a55f246f5915e8947177e64b7d2c62a49600af24092c3446321"
+    },
+    {
+      "category": 96,
+      "number": 261,
+      "bank": "HLF",
+      "filename": "e_hlf61c.wav",
+      "sha256": "c9c6442d98cb0a55f246f5915e8947177e64b7d2c62a49600af24092c3446321"
+    },
+    {
+      "category": 96,
+      "number": 361,
+      "bank": "HLF",
+      "filename": "e_hlf61d.wav",
+      "sha256": "c9c6442d98cb0a55f246f5915e8947177e64b7d2c62a49600af24092c3446321"
+    },
+    {
+      "category": 96,
+      "number": 62,
+      "bank": "HLF",
+      "filename": "e_hlf62a.wav",
+      "sha256": "1782060a8c10fdefa13585baaa1861840a7e29bb5e0a095463a73e56265fc0ad"
+    },
+    {
+      "category": 96,
+      "number": 162,
+      "bank": "HLF",
+      "filename": "e_hlf62b.wav",
+      "sha256": "1782060a8c10fdefa13585baaa1861840a7e29bb5e0a095463a73e56265fc0ad"
+    },
+    {
+      "category": 96,
+      "number": 262,
+      "bank": "HLF",
+      "filename": "e_hlf62c.wav",
+      "sha256": "1782060a8c10fdefa13585baaa1861840a7e29bb5e0a095463a73e56265fc0ad"
+    },
+    {
+      "category": 96,
+      "number": 362,
+      "bank": "HLF",
+      "filename": "e_hlf62d.wav",
+      "sha256": "1782060a8c10fdefa13585baaa1861840a7e29bb5e0a095463a73e56265fc0ad"
+    },
+    {
+      "category": 96,
+      "number": 63,
+      "bank": "HLF",
+      "filename": "e_hlf63a.wav",
+      "sha256": "d75487e4f3829819d75d95c3253482b6a81d08d6131b10ce7343385c647e089d"
+    },
+    {
+      "category": 96,
+      "number": 163,
+      "bank": "HLF",
+      "filename": "e_hlf63b.wav",
+      "sha256": "d75487e4f3829819d75d95c3253482b6a81d08d6131b10ce7343385c647e089d"
+    },
+    {
+      "category": 96,
+      "number": 263,
+      "bank": "HLF",
+      "filename": "e_hlf63c.wav",
+      "sha256": "d75487e4f3829819d75d95c3253482b6a81d08d6131b10ce7343385c647e089d"
+    },
+    {
+      "category": 96,
+      "number": 363,
+      "bank": "HLF",
+      "filename": "e_hlf63d.wav",
+      "sha256": "d75487e4f3829819d75d95c3253482b6a81d08d6131b10ce7343385c647e089d"
+    },
+    {
+      "category": 96,
+      "number": 64,
+      "bank": "HLF",
+      "filename": "e_hlf64a.wav",
+      "sha256": "5e7a508841396cf5d7766faeecc75a998bb0547ddc76a0fdd696702d65309b94"
+    },
+    {
+      "category": 96,
+      "number": 164,
+      "bank": "HLF",
+      "filename": "e_hlf64b.wav",
+      "sha256": "5e7a508841396cf5d7766faeecc75a998bb0547ddc76a0fdd696702d65309b94"
+    },
+    {
+      "category": 96,
+      "number": 264,
+      "bank": "HLF",
+      "filename": "e_hlf64c.wav",
+      "sha256": "5e7a508841396cf5d7766faeecc75a998bb0547ddc76a0fdd696702d65309b94"
+    },
+    {
+      "category": 96,
+      "number": 364,
+      "bank": "HLF",
+      "filename": "e_hlf64d.wav",
+      "sha256": "5e7a508841396cf5d7766faeecc75a998bb0547ddc76a0fdd696702d65309b94"
+    },
+    {
+      "category": 96,
+      "number": 65,
+      "bank": "HLF",
+      "filename": "e_hlf65a.wav",
+      "sha256": "00eb7c6eeefa6a08b337553904a005a55ab63cdde5aabeb6a054feb79d5a0a5d"
+    },
+    {
+      "category": 96,
+      "number": 165,
+      "bank": "HLF",
+      "filename": "e_hlf65b.wav",
+      "sha256": "00eb7c6eeefa6a08b337553904a005a55ab63cdde5aabeb6a054feb79d5a0a5d"
+    },
+    {
+      "category": 96,
+      "number": 265,
+      "bank": "HLF",
+      "filename": "e_hlf65c.wav",
+      "sha256": "00eb7c6eeefa6a08b337553904a005a55ab63cdde5aabeb6a054feb79d5a0a5d"
+    },
+    {
+      "category": 96,
+      "number": 365,
+      "bank": "HLF",
+      "filename": "e_hlf65d.wav",
+      "sha256": "00eb7c6eeefa6a08b337553904a005a55ab63cdde5aabeb6a054feb79d5a0a5d"
+    },
+    {
+      "category": 96,
+      "number": 70,
+      "bank": "HLF",
+      "filename": "e_hlf70a.wav",
+      "sha256": "246551d57ba1507535758444eaefaadb40320ec6585eeb42de02066ca7eba360"
+    },
+    {
+      "category": 96,
+      "number": 170,
+      "bank": "HLF",
+      "filename": "e_hlf70b.wav",
+      "sha256": "c58253f07a0b916823927ce85dfbc7dcdd249b29c393414e94d6568ca71143a9"
+    },
+    {
+      "category": 96,
+      "number": 270,
+      "bank": "HLF",
+      "filename": "e_hlf70c.wav",
+      "sha256": "246551d57ba1507535758444eaefaadb40320ec6585eeb42de02066ca7eba360"
+    },
+    {
+      "category": 96,
+      "number": 370,
+      "bank": "HLF",
+      "filename": "e_hlf70d.wav",
+      "sha256": "c58253f07a0b916823927ce85dfbc7dcdd249b29c393414e94d6568ca71143a9"
+    },
+    {
+      "category": 96,
+      "number": 71,
+      "bank": "HLF",
+      "filename": "e_hlf71a.wav",
+      "sha256": "46110dae77e2eff7cc287992b199900ad0fe9bb0f182af78cd25012a765c4863"
+    },
+    {
+      "category": 96,
+      "number": 171,
+      "bank": "HLF",
+      "filename": "e_hlf71b.wav",
+      "sha256": "46110dae77e2eff7cc287992b199900ad0fe9bb0f182af78cd25012a765c4863"
+    },
+    {
+      "category": 96,
+      "number": 271,
+      "bank": "HLF",
+      "filename": "e_hlf71c.wav",
+      "sha256": "46110dae77e2eff7cc287992b199900ad0fe9bb0f182af78cd25012a765c4863"
+    },
+    {
+      "category": 96,
+      "number": 371,
+      "bank": "HLF",
+      "filename": "e_hlf71d.wav",
+      "sha256": "46110dae77e2eff7cc287992b199900ad0fe9bb0f182af78cd25012a765c4863"
+    },
+    {
+      "category": 96,
+      "number": 72,
+      "bank": "HLF",
+      "filename": "e_hlf72a.wav",
+      "sha256": "0282bb7a00b2b31082c63fe8ca08c9b42136dc8c2c5d7c855575879fd46d64fb"
+    },
+    {
+      "category": 96,
+      "number": 172,
+      "bank": "HLF",
+      "filename": "e_hlf72b.wav",
+      "sha256": "0282bb7a00b2b31082c63fe8ca08c9b42136dc8c2c5d7c855575879fd46d64fb"
+    },
+    {
+      "category": 96,
+      "number": 272,
+      "bank": "HLF",
+      "filename": "e_hlf72c.wav",
+      "sha256": "0282bb7a00b2b31082c63fe8ca08c9b42136dc8c2c5d7c855575879fd46d64fb"
+    },
+    {
+      "category": 96,
+      "number": 372,
+      "bank": "HLF",
+      "filename": "e_hlf72d.wav",
+      "sha256": "0282bb7a00b2b31082c63fe8ca08c9b42136dc8c2c5d7c855575879fd46d64fb"
+    },
+    {
+      "category": 96,
+      "number": 73,
+      "bank": "HLF",
+      "filename": "e_hlf73a.wav",
+      "sha256": "6798ac06fe9b4227703eb88051d406e40a39db536446bf03efe20e9c8b3f947d"
+    },
+    {
+      "category": 96,
+      "number": 173,
+      "bank": "HLF",
+      "filename": "e_hlf73b.wav",
+      "sha256": "6798ac06fe9b4227703eb88051d406e40a39db536446bf03efe20e9c8b3f947d"
+    },
+    {
+      "category": 96,
+      "number": 273,
+      "bank": "HLF",
+      "filename": "e_hlf73c.wav",
+      "sha256": "6798ac06fe9b4227703eb88051d406e40a39db536446bf03efe20e9c8b3f947d"
+    },
+    {
+      "category": 96,
+      "number": 373,
+      "bank": "HLF",
+      "filename": "e_hlf73d.wav",
+      "sha256": "6798ac06fe9b4227703eb88051d406e40a39db536446bf03efe20e9c8b3f947d"
+    },
+    {
+      "category": 96,
+      "number": 74,
+      "bank": "HLF",
+      "filename": "e_hlf74a.wav",
+      "sha256": "9455a7d6a1fea88145b4d58a7458e69f860127008357a1b875a10d824b4991d2"
+    },
+    {
+      "category": 96,
+      "number": 174,
+      "bank": "HLF",
+      "filename": "e_hlf74b.wav",
+      "sha256": "9455a7d6a1fea88145b4d58a7458e69f860127008357a1b875a10d824b4991d2"
+    },
+    {
+      "category": 96,
+      "number": 274,
+      "bank": "HLF",
+      "filename": "e_hlf74c.wav",
+      "sha256": "9455a7d6a1fea88145b4d58a7458e69f860127008357a1b875a10d824b4991d2"
+    },
+    {
+      "category": 96,
+      "number": 374,
+      "bank": "HLF",
+      "filename": "e_hlf74d.wav",
+      "sha256": "9455a7d6a1fea88145b4d58a7458e69f860127008357a1b875a10d824b4991d2"
+    },
+    {
+      "category": 96,
+      "number": 75,
+      "bank": "HLF",
+      "filename": "e_hlf75a.wav",
+      "sha256": "3d42d5f8cfada03e04f0e685cf090da59f17c506c2ae3b2e57eb13c59ad2785b"
+    },
+    {
+      "category": 96,
+      "number": 175,
+      "bank": "HLF",
+      "filename": "e_hlf75b.wav",
+      "sha256": "3d42d5f8cfada03e04f0e685cf090da59f17c506c2ae3b2e57eb13c59ad2785b"
+    },
+    {
+      "category": 96,
+      "number": 275,
+      "bank": "HLF",
+      "filename": "e_hlf75c.wav",
+      "sha256": "3d42d5f8cfada03e04f0e685cf090da59f17c506c2ae3b2e57eb13c59ad2785b"
+    },
+    {
+      "category": 96,
+      "number": 375,
+      "bank": "HLF",
+      "filename": "e_hlf75d.wav",
+      "sha256": "3d42d5f8cfada03e04f0e685cf090da59f17c506c2ae3b2e57eb13c59ad2785b"
+    },
+    {
+      "category": 97,
+      "number": 0,
+      "bank": "FLL",
+      "filename": "e_fll00a.wav",
+      "sha256": "49360b401d68e6e73117c639c83dd42761dd4d58fd0729073cf48290846cd3ea"
+    },
+    {
+      "category": 97,
+      "number": 100,
+      "bank": "FLL",
+      "filename": "e_fll00b.wav",
+      "sha256": "7b94a779b88465688670c5f6d0c5a3d9aa68cd74d4aba0f1c9366549627616e1"
+    },
+    {
+      "category": 97,
+      "number": 200,
+      "bank": "FLL",
+      "filename": "e_fll00c.wav",
+      "sha256": "ad14b1127d7aed0d40f20b22ded6d66611a74f366aabd84b88de4cedb9c66213"
+    },
+    {
+      "category": 97,
+      "number": 300,
+      "bank": "FLL",
+      "filename": "e_fll00d.wav",
+      "sha256": "9074124440a758c3d93b8d7ec65d96206bd407b6bff0bed225a491f179df4dfe"
+    },
+    {
+      "category": 97,
+      "number": 10,
+      "bank": "FLL",
+      "filename": "e_fll10a.wav",
+      "sha256": "bf3410f5ede3610e4030ebf37c022048a2ad590725ce488e9642df16b78994e8"
+    },
+    {
+      "category": 97,
+      "number": 110,
+      "bank": "FLL",
+      "filename": "e_fll10b.wav",
+      "sha256": "01fb1ba6d748e22de004e3b43f47aed4c5b03c615abb8fbbbdf7c4b066f1aa79"
+    },
+    {
+      "category": 97,
+      "number": 210,
+      "bank": "FLL",
+      "filename": "e_fll10c.wav",
+      "sha256": "53427886b5bae46aae4af13ca9bf2cc8274f21bdac647e75d0a768009a060475"
+    },
+    {
+      "category": 97,
+      "number": 310,
+      "bank": "FLL",
+      "filename": "e_fll10d.wav",
+      "sha256": "3842c5eeb9e9d090290832ae05a1781001b2522d77606b9dcbf5fba1854f72c2"
+    },
+    {
+      "category": 97,
+      "number": 11,
+      "bank": "FLL",
+      "filename": "e_fll11a.wav",
+      "sha256": "21a961b3f017002f978b1274dd28b6752300b6802eb6d49064f8e2c19b16a8da"
+    },
+    {
+      "category": 97,
+      "number": 111,
+      "bank": "FLL",
+      "filename": "e_fll11b.wav",
+      "sha256": "c3df33b187452ae70a5a57fdecb5b540b9557645966f01f4ac300377ad492fd0"
+    },
+    {
+      "category": 97,
+      "number": 211,
+      "bank": "FLL",
+      "filename": "e_fll11c.wav",
+      "sha256": "dc36b6f69db53d43c2897d16a51942fdad694422fe8d0cdd9b8e42f051e02521"
+    },
+    {
+      "category": 97,
+      "number": 311,
+      "bank": "FLL",
+      "filename": "e_fll11d.wav",
+      "sha256": "4fb3d7c03b375887a100e130ec0f6c40c307487d68d4eb583823561d4505b9ae"
+    },
+    {
+      "category": 97,
+      "number": 20,
+      "bank": "FLL",
+      "filename": "e_fll20a.wav",
+      "sha256": "c74054850ed902c608edc4f117d856a07cbbf334f358d7a7fb88e8c5b1aa5b61"
+    },
+    {
+      "category": 97,
+      "number": 120,
+      "bank": "FLL",
+      "filename": "e_fll20b.wav",
+      "sha256": "25da573212d4d6b85ad41a80b5b980120fd84454cda3ce394c38abc828e7368d"
+    },
+    {
+      "category": 97,
+      "number": 220,
+      "bank": "FLL",
+      "filename": "e_fll20c.wav",
+      "sha256": "85ce477f4da094a15c72ae750402ed0978861fedf8c9ce42f2ace7e43dd98c54"
+    },
+    {
+      "category": 97,
+      "number": 320,
+      "bank": "FLL",
+      "filename": "e_fll20d.wav",
+      "sha256": "5d37af28f028966ac10cd3ee60d53d59820ba5c0b1fb58c72e376274c17b5280"
+    },
+    {
+      "category": 97,
+      "number": 21,
+      "bank": "FLL",
+      "filename": "e_fll21a.wav",
+      "sha256": "c4cd253edc9db0afa38b8ce8b53c162497ade7840e3abab56f26335b9aa63008"
+    },
+    {
+      "category": 97,
+      "number": 121,
+      "bank": "FLL",
+      "filename": "e_fll21b.wav",
+      "sha256": "fa5ede3cea9d86746e5f2cfdfd0b1da929832273ebfd295f1cbee5728852e063"
+    },
+    {
+      "category": 97,
+      "number": 221,
+      "bank": "FLL",
+      "filename": "e_fll21c.wav",
+      "sha256": "3b3cfe7b54eb34fbc083eec9237ecbadfcb6a101c0edc793830fda6c082eb0c1"
+    },
+    {
+      "category": 97,
+      "number": 321,
+      "bank": "FLL",
+      "filename": "e_fll21d.wav",
+      "sha256": "0b893c14925add9747c48dea3ee14e8a96b989b9fd2ddea0fe53c1d688f4dc79"
+    },
+    {
+      "category": 97,
+      "number": 22,
+      "bank": "FLL",
+      "filename": "e_fll22a.wav",
+      "sha256": "99dd2479c447c6e7020e315e11b75068efc02e45be367dbb49ea3995f7af2be7"
+    },
+    {
+      "category": 97,
+      "number": 122,
+      "bank": "FLL",
+      "filename": "e_fll22b.wav",
+      "sha256": "3539ec1e56ff4d0575044192076adf1b6f2b8d2b0db33e76f861817165158a80"
+    },
+    {
+      "category": 97,
+      "number": 222,
+      "bank": "FLL",
+      "filename": "e_fll22c.wav",
+      "sha256": "5119f41b0d768a026fa008c5c62abcc07fb03fa6e8395d5a7c6c872ecba2bc21"
+    },
+    {
+      "category": 97,
+      "number": 322,
+      "bank": "FLL",
+      "filename": "e_fll22d.wav",
+      "sha256": "5627d745067ba04745eb4e0282b50d2ce5b05c7f4e4bd046a725ea6ed962591a"
+    },
+    {
+      "category": 97,
+      "number": 30,
+      "bank": "FLL",
+      "filename": "e_fll30a.wav",
+      "sha256": "7ef152b7f9b1d0b953bd7b8415512e99ea0486f1b5e793e03fae6d872fa4b088"
+    },
+    {
+      "category": 97,
+      "number": 130,
+      "bank": "FLL",
+      "filename": "e_fll30b.wav",
+      "sha256": "1947c38557479f1ea7a0418630cc50f920f26a518806fcc8ed60820cfcf11cc5"
+    },
+    {
+      "category": 97,
+      "number": 230,
+      "bank": "FLL",
+      "filename": "e_fll30c.wav",
+      "sha256": "2993770ac755b8dc9c4e58d9050680279c71329ca6b0ceba2ed773e1e894ebaf"
+    },
+    {
+      "category": 97,
+      "number": 330,
+      "bank": "FLL",
+      "filename": "e_fll30d.wav",
+      "sha256": "b5a8e6c117cee93633f0e0bcbfe0a2852a970b81774449d09c2f0664079a8e99"
+    },
+    {
+      "category": 97,
+      "number": 31,
+      "bank": "FLL",
+      "filename": "e_fll31a.wav",
+      "sha256": "28794b659c00cbd2ea2a886c87775f5895e7a2e84b97482c2908331093447d68"
+    },
+    {
+      "category": 97,
+      "number": 131,
+      "bank": "FLL",
+      "filename": "e_fll31b.wav",
+      "sha256": "fb6439fc2e2f6db287e5cbce03dfeedceb337c9a13d2cd1a176f316d910d588f"
+    },
+    {
+      "category": 97,
+      "number": 231,
+      "bank": "FLL",
+      "filename": "e_fll31c.wav",
+      "sha256": "e86d418dd8644e68cb5e44d5bc4ddaef3cb155c99d230bb6a01650ac5d031079"
+    },
+    {
+      "category": 97,
+      "number": 331,
+      "bank": "FLL",
+      "filename": "e_fll31d.wav",
+      "sha256": "f341e0c8045a916e415ae2dced8210bddc84feca79ab9e07a2f0f0cbbb65f3b7"
+    },
+    {
+      "category": 97,
+      "number": 32,
+      "bank": "FLL",
+      "filename": "e_fll32a.wav",
+      "sha256": "3d4621ea6db46d67fce492464ed9fd7669244bff7fdc94aeee0833f4126a764a"
+    },
+    {
+      "category": 97,
+      "number": 132,
+      "bank": "FLL",
+      "filename": "e_fll32b.wav",
+      "sha256": "7a828d7afcc2dea437764a18576f477de286ba6015965b4e6b7142cabf7083d9"
+    },
+    {
+      "category": 97,
+      "number": 332,
+      "bank": "FLL",
+      "filename": "e_fll32d.wav",
+      "sha256": "48e0f6803cc362709726256705b4b33aa77a08aa41ed6ec888e71ff9ea33fb23"
+    },
+    {
+      "category": 97,
+      "number": 33,
+      "bank": "FLL",
+      "filename": "e_fll33a.wav",
+      "sha256": "df046c42ef275195abbab6120905cb2777adaf45d5f9a513f928d872b019f121"
+    },
+    {
+      "category": 97,
+      "number": 133,
+      "bank": "FLL",
+      "filename": "e_fll33b.wav",
+      "sha256": "f714a35ec1f2f3793e92ae3693e81845f3c086ef8a4be441917da87fad08e83b"
+    },
+    {
+      "category": 97,
+      "number": 233,
+      "bank": "FLL",
+      "filename": "e_fll33c.wav",
+      "sha256": "5b73cedbf495b3ed366f2e3a347032c33326e994096f874778642a0298ee92d5"
+    },
+    {
+      "category": 97,
+      "number": 333,
+      "bank": "FLL",
+      "filename": "e_fll33d.wav",
+      "sha256": "1833f7b708926b5450eb17a5ab111e9e7c55799203c5d507b3f50d6b21298e2f"
+    },
+    {
+      "category": 97,
+      "number": 40,
+      "bank": "FLL",
+      "filename": "e_fll40a.wav",
+      "sha256": "66b4a1955bd3376e3b5af84ac43c7e4003034391aeed29f5827a875fa8547269"
+    },
+    {
+      "category": 97,
+      "number": 140,
+      "bank": "FLL",
+      "filename": "e_fll40b.wav",
+      "sha256": "78b93de8e40bd88495aa190325dd572d8d322bce75ff983e9be0b888b0ef01dc"
+    },
+    {
+      "category": 97,
+      "number": 240,
+      "bank": "FLL",
+      "filename": "e_fll40c.wav",
+      "sha256": "d5bbaeb4faf07b287a2a0dac0fc95cb02a735b8252a40c1b976747a62c8fd632"
+    },
+    {
+      "category": 97,
+      "number": 340,
+      "bank": "FLL",
+      "filename": "e_fll40d.wav",
+      "sha256": "7a7906de359aa4a4b8d0f7f4fa63f7c477d72635335cbc9d62a27785d58e0259"
+    },
+    {
+      "category": 97,
+      "number": 41,
+      "bank": "FLL",
+      "filename": "e_fll41a.wav",
+      "sha256": "79960bb9f91d0b59503a5524e45a8ac8683f2ffa6cf7fe7672160fc69bc9264e"
+    },
+    {
+      "category": 97,
+      "number": 141,
+      "bank": "FLL",
+      "filename": "e_fll41b.wav",
+      "sha256": "da1e1bbe314b0cfa52186819620915f6ebe1a9f2bbda8f1d60221c20870c1524"
+    },
+    {
+      "category": 97,
+      "number": 241,
+      "bank": "FLL",
+      "filename": "e_fll41c.wav",
+      "sha256": "475bd6a85a89b73a07371ee2e53f743c750ee0fdd9c0759defdd344a56c67961"
+    },
+    {
+      "category": 97,
+      "number": 341,
+      "bank": "FLL",
+      "filename": "e_fll41d.wav",
+      "sha256": "00922b1a8863faff09841cfd6b3570b0fa08c36a98a06356235dd5d891cc19d0"
+    },
+    {
+      "category": 97,
+      "number": 42,
+      "bank": "FLL",
+      "filename": "e_fll42a.wav",
+      "sha256": "c2f08704e3b28e179b4416ab2df563f8e5b6a8328960dd377d689cc4f543ead9"
+    },
+    {
+      "category": 97,
+      "number": 142,
+      "bank": "FLL",
+      "filename": "e_fll42b.wav",
+      "sha256": "401f659f99ec452e23bf358c371731446f47fb879959f0f777865957ffc29b27"
+    },
+    {
+      "category": 97,
+      "number": 242,
+      "bank": "FLL",
+      "filename": "e_fll42c.wav",
+      "sha256": "9b58902c2af0f843f3062ffe66e840389d4bd935e9bbadf39ecb8ebc74aa969d"
+    },
+    {
+      "category": 97,
+      "number": 342,
+      "bank": "FLL",
+      "filename": "e_fll42d.wav",
+      "sha256": "c0b4de3c9d542a699a62774492c1aedf296a9bb9dc5764e9fda0e6db1247aed1"
+    },
+    {
+      "category": 97,
+      "number": 43,
+      "bank": "FLL",
+      "filename": "e_fll43a.wav",
+      "sha256": "abd06f941e25d61a3acc07162bf89430a3711308517647ef8e3c9ce338fefb79"
+    },
+    {
+      "category": 97,
+      "number": 143,
+      "bank": "FLL",
+      "filename": "e_fll43b.wav",
+      "sha256": "8e235cf138bbd2176bc49ea2a233859b60c9598565a7ecae06a574e8400967f2"
+    },
+    {
+      "category": 97,
+      "number": 243,
+      "bank": "FLL",
+      "filename": "e_fll43c.wav",
+      "sha256": "02f57f387a206f7aab87fe9c18d61c760771f02f81d0ce9163096bd5525a4c06"
+    },
+    {
+      "category": 97,
+      "number": 343,
+      "bank": "FLL",
+      "filename": "e_fll43d.wav",
+      "sha256": "2907a9da572bc00867e868e1592f011d35de7e56e151ab6c34bf74b0f4ca2bce"
+    },
+    {
+      "category": 97,
+      "number": 44,
+      "bank": "FLL",
+      "filename": "e_fll44a.wav",
+      "sha256": "0196ca0cb3df883df27b78f266a7350548987b658dc705933c4cc74a1c59b1f3"
+    },
+    {
+      "category": 97,
+      "number": 144,
+      "bank": "FLL",
+      "filename": "e_fll44b.wav",
+      "sha256": "026ad00b9d02d1e20db51ebdd2d3409460961712f12f50848184332055dc5468"
+    },
+    {
+      "category": 97,
+      "number": 244,
+      "bank": "FLL",
+      "filename": "e_fll44c.wav",
+      "sha256": "0878a55d84fd404c9631fc6b5e6e617f4c2509e9d6774d8daf5a410eb4fa4b50"
+    },
+    {
+      "category": 97,
+      "number": 344,
+      "bank": "FLL",
+      "filename": "e_fll44d.wav",
+      "sha256": "13b5447f35fd01c92a6e1df5c575a7cbdc6c45948c57d2bac602f3b67beebeed"
+    },
+    {
+      "category": 97,
+      "number": 50,
+      "bank": "FLL",
+      "filename": "e_fll50a.wav",
+      "sha256": "8e1dd7c24a1e6b3476ebec718b13941dc5971689386140470eb0a1ee93f8fc88"
+    },
+    {
+      "category": 97,
+      "number": 150,
+      "bank": "FLL",
+      "filename": "e_fll50b.wav",
+      "sha256": "e30fd73645555a25f4f4c127fe4117bfa091bd519b44315b916f2ed392a24a56"
+    },
+    {
+      "category": 97,
+      "number": 250,
+      "bank": "FLL",
+      "filename": "e_fll50c.wav",
+      "sha256": "5e84a974086ed4350b637735e0bf74914c1d0c48bc0e71f957368b4c4af72454"
+    },
+    {
+      "category": 97,
+      "number": 350,
+      "bank": "FLL",
+      "filename": "e_fll50d.wav",
+      "sha256": "28ece2a39d2b10e81a3a53ac57c1906df2bd341617ef29df69355d927567641f"
+    },
+    {
+      "category": 97,
+      "number": 51,
+      "bank": "FLL",
+      "filename": "e_fll51a.wav",
+      "sha256": "96bbce5cfc3440bf3fa3946180b580e207388674887b47158c686a764ff2465b"
+    },
+    {
+      "category": 97,
+      "number": 151,
+      "bank": "FLL",
+      "filename": "e_fll51b.wav",
+      "sha256": "c6470ee5625eb707e2f16414947c8d9a27d9a1759b37c95404ebbf2d749a074a"
+    },
+    {
+      "category": 97,
+      "number": 251,
+      "bank": "FLL",
+      "filename": "e_fll51c.wav",
+      "sha256": "a200744d4f39d077ef763347b6b9a12fc52c366660f4f02585f03a08d3ce80be"
+    },
+    {
+      "category": 97,
+      "number": 351,
+      "bank": "FLL",
+      "filename": "e_fll51d.wav",
+      "sha256": "f3e964450a5c5e3f122b1f0f7571d6fb80064c2a10034d9fec24097f2219dc1b"
+    },
+    {
+      "category": 97,
+      "number": 52,
+      "bank": "FLL",
+      "filename": "e_fll52a.wav",
+      "sha256": "183ecd0079bbc70b4bec533cb0f5cc58607d207df709cd0d70d994c16b31572c"
+    },
+    {
+      "category": 97,
+      "number": 152,
+      "bank": "FLL",
+      "filename": "e_fll52b.wav",
+      "sha256": "9aa9169bd634f8a5246cf6e0f4c67d63f45b9ae9f022ac915423c13544304bc1"
+    },
+    {
+      "category": 97,
+      "number": 252,
+      "bank": "FLL",
+      "filename": "e_fll52c.wav",
+      "sha256": "8b70b43a91a24cacceab964de7bb81831d7949c9482899efe8ac15d00ad2b1bb"
+    },
+    {
+      "category": 97,
+      "number": 352,
+      "bank": "FLL",
+      "filename": "e_fll52d.wav",
+      "sha256": "97c6e30b454815a441a1e741c57850edfa9e0d82754aac9294ab85ddb28fc865"
+    },
+    {
+      "category": 97,
+      "number": 53,
+      "bank": "FLL",
+      "filename": "e_fll53a.wav",
+      "sha256": "49bce867944da37b97a2c65fb6199d6eebab7cd6b766ca0ea6e50728c521a841"
+    },
+    {
+      "category": 97,
+      "number": 153,
+      "bank": "FLL",
+      "filename": "e_fll53b.wav",
+      "sha256": "ca62d5efa3cf0704a6a887d91fd96ebeb742d29efec46d2740b45c3b1c8a131d"
+    },
+    {
+      "category": 97,
+      "number": 253,
+      "bank": "FLL",
+      "filename": "e_fll53c.wav",
+      "sha256": "fcd8321ee0f18d0f44fce85493b119162b49906a7bca000ecdb28ec51c3ea7db"
+    },
+    {
+      "category": 97,
+      "number": 353,
+      "bank": "FLL",
+      "filename": "e_fll53d.wav",
+      "sha256": "22f9334ffdb289c35d20e1e7d44c0784b65b10c4285e8306106073abe78713ec"
+    },
+    {
+      "category": 97,
+      "number": 54,
+      "bank": "FLL",
+      "filename": "e_fll54a.wav",
+      "sha256": "a7ef42379b789f51f37064f956f2c9c9b62dadb73e58f1cb0010ef33279ecfc9"
+    },
+    {
+      "category": 97,
+      "number": 154,
+      "bank": "FLL",
+      "filename": "e_fll54b.wav",
+      "sha256": "019c6ecf54ea46c7e00898348abea2f0521c4c0790d5d7651600f38328ad9aac"
+    },
+    {
+      "category": 97,
+      "number": 254,
+      "bank": "FLL",
+      "filename": "e_fll54c.wav",
+      "sha256": "674d036ee573b9c3bf150fb75b6c21a24a401d2c2fc83d45282d74346e04e192"
+    },
+    {
+      "category": 97,
+      "number": 354,
+      "bank": "FLL",
+      "filename": "e_fll54d.wav",
+      "sha256": "be4d3ba9eaf4e96b9a4dbf1c802a7dddce5ec1fc1ab7ac1bdf616c16ab5fa4dc"
+    },
+    {
+      "category": 97,
+      "number": 55,
+      "bank": "FLL",
+      "filename": "e_fll55a.wav",
+      "sha256": "1bddeb4c605d7a46b292ff034a355ccdf5739c2c7890b9ed2eeda23c72387ef0"
+    },
+    {
+      "category": 97,
+      "number": 155,
+      "bank": "FLL",
+      "filename": "e_fll55b.wav",
+      "sha256": "c474be5604334b226dfc91953d37e647277f69e5eaa2f049797e6b1bd789dc02"
+    },
+    {
+      "category": 97,
+      "number": 255,
+      "bank": "FLL",
+      "filename": "e_fll55c.wav",
+      "sha256": "4859ec5192e27075006ebc01e639e27272c76387c06bc16c99c37e75a9a04789"
+    },
+    {
+      "category": 97,
+      "number": 355,
+      "bank": "FLL",
+      "filename": "e_fll55d.wav",
+      "sha256": "a33b668ea4da32f2c15a3fb562945cd48581a17ccda06175cb1a57a845f6bf04"
+    },
+    {
+      "category": 97,
+      "number": 60,
+      "bank": "FLL",
+      "filename": "e_fll60a.wav",
+      "sha256": "44ad5712b75f69b90bf2c75c3a15d5e7aea2b5dc769ce334804a7c02dcc8cd6d"
+    },
+    {
+      "category": 97,
+      "number": 160,
+      "bank": "FLL",
+      "filename": "e_fll60b.wav",
+      "sha256": "2168b5944b6200c67613899a5d7f69756d26d5686a7befcc0f356e0fd73df60b"
+    },
+    {
+      "category": 97,
+      "number": 260,
+      "bank": "FLL",
+      "filename": "e_fll60c.wav",
+      "sha256": "99b9b64a18e8ff7dcc41784a63a227761f18525adf04d3e222b8c6625734af5f"
+    },
+    {
+      "category": 97,
+      "number": 360,
+      "bank": "FLL",
+      "filename": "e_fll60d.wav",
+      "sha256": "1086bf4d6be3a35024fb5f98e45874bfe4f3f9192acd7f25c244943a2bb6f6a7"
+    },
+    {
+      "category": 97,
+      "number": 61,
+      "bank": "FLL",
+      "filename": "e_fll61a.wav",
+      "sha256": "764157eecc072165f0cf85e5344036449edad49f90670c7cc9ec2bbec9e0c9d7"
+    },
+    {
+      "category": 97,
+      "number": 161,
+      "bank": "FLL",
+      "filename": "e_fll61b.wav",
+      "sha256": "0e2f334fa632312af1f374b21775fbf77548f0ee8a5cab7020000527fa7c80c5"
+    },
+    {
+      "category": 97,
+      "number": 261,
+      "bank": "FLL",
+      "filename": "e_fll61c.wav",
+      "sha256": "e57bc67e3349c1a790e93eda96f152b2a9cfd58d689a37c6b5cec3a6b4164e26"
+    },
+    {
+      "category": 97,
+      "number": 361,
+      "bank": "FLL",
+      "filename": "e_fll61d.wav",
+      "sha256": "330f19687bfe179edf0eb2e7a95b4e8f9e79029eb9585eb458dd29821ce662ee"
+    },
+    {
+      "category": 97,
+      "number": 62,
+      "bank": "FLL",
+      "filename": "e_fll62a.wav",
+      "sha256": "f257afcec4511fcd8a6cd0450ea576b3a04c668f9649c81e1ec5a63c246b705c"
+    },
+    {
+      "category": 97,
+      "number": 162,
+      "bank": "FLL",
+      "filename": "e_fll62b.wav",
+      "sha256": "d8a452cb0806009ab40fa93b4d20dd800cf88342cf56cc592680bdb29ab4de8d"
+    },
+    {
+      "category": 97,
+      "number": 262,
+      "bank": "FLL",
+      "filename": "e_fll62c.wav",
+      "sha256": "1f46e0f90d24cee142559487cf75f18a32ffcbc725223f26463a93836d73f182"
+    },
+    {
+      "category": 97,
+      "number": 362,
+      "bank": "FLL",
+      "filename": "e_fll62d.wav",
+      "sha256": "3e045da41e1752e58bba6f5638585e6aab7a7a7050a4f826488f6cd424466735"
+    },
+    {
+      "category": 97,
+      "number": 63,
+      "bank": "FLL",
+      "filename": "e_fll63a.wav",
+      "sha256": "e46de239a31b96fc0284a20ec18cd7152a6b98f9ea74a5937451ecdc4c8626f8"
+    },
+    {
+      "category": 97,
+      "number": 163,
+      "bank": "FLL",
+      "filename": "e_fll63b.wav",
+      "sha256": "4a30e5ce8518f2155f77a1da2bd33c036dd6dbf5726393cefec23682cd3fe47d"
+    },
+    {
+      "category": 97,
+      "number": 263,
+      "bank": "FLL",
+      "filename": "e_fll63c.wav",
+      "sha256": "96d5e6de9d594adef342993b02eaf0fc17792fc9136608a7e7c1349bfdce835e"
+    },
+    {
+      "category": 97,
+      "number": 363,
+      "bank": "FLL",
+      "filename": "e_fll63d.wav",
+      "sha256": "59a643ab6864c872ea0d7d9203ced6ca70abd8a986efdfcebf1e9ff5319496a7"
+    },
+    {
+      "category": 97,
+      "number": 64,
+      "bank": "FLL",
+      "filename": "e_fll64a.wav",
+      "sha256": "7a8981e5c9d8fd8c5b6e8881d15c508221e29c7383f7b2c0719720cc6489355e"
+    },
+    {
+      "category": 97,
+      "number": 164,
+      "bank": "FLL",
+      "filename": "e_fll64b.wav",
+      "sha256": "bd9050505de63857a45cc7c8b1928dddc826ddea7f4b57c8a03e23de430263ca"
+    },
+    {
+      "category": 97,
+      "number": 264,
+      "bank": "FLL",
+      "filename": "e_fll64c.wav",
+      "sha256": "62fb13e27f2f3bace4d2cf6c302f19f61aa74412c7d32965e1b28b2763c4c1d8"
+    },
+    {
+      "category": 97,
+      "number": 364,
+      "bank": "FLL",
+      "filename": "e_fll64d.wav",
+      "sha256": "c773e3543a5d98631441675d549ec44a6ded960ed19f0f74eec942ee3b42dcb3"
+    },
+    {
+      "category": 97,
+      "number": 65,
+      "bank": "FLL",
+      "filename": "e_fll65a.wav",
+      "sha256": "5678524c0d02124227fb86f167fdf0500b4ca98e536009e718867e6c34de2108"
+    },
+    {
+      "category": 97,
+      "number": 165,
+      "bank": "FLL",
+      "filename": "e_fll65b.wav",
+      "sha256": "02d49737392925f39aabbb8bab2e6ecfda6be8160f950b72903d7337fbb71b12"
+    },
+    {
+      "category": 97,
+      "number": 265,
+      "bank": "FLL",
+      "filename": "e_fll65c.wav",
+      "sha256": "2c87079d74c1b6edd4797364748d5162cbfe7e974b8c664895632da13fcd893b"
+    },
+    {
+      "category": 97,
+      "number": 365,
+      "bank": "FLL",
+      "filename": "e_fll65d.wav",
+      "sha256": "b0f5649eed69404a7fbc76051148c6d41daf72dd69040600aa2b5449f372b433"
+    },
+    {
+      "category": 97,
+      "number": 70,
+      "bank": "FLL",
+      "filename": "e_fll70a.wav",
+      "sha256": "2bb5a6cf25f2954c23189c4cd533aa3b5125822273b5064b640b028d471094d9"
+    },
+    {
+      "category": 97,
+      "number": 170,
+      "bank": "FLL",
+      "filename": "e_fll70b.wav",
+      "sha256": "ccfed51b588f0e00e6128c18197f974b853ab7a5c964a82131f68c8cf9b697e7"
+    },
+    {
+      "category": 97,
+      "number": 270,
+      "bank": "FLL",
+      "filename": "e_fll70c.wav",
+      "sha256": "8d2b9a933f898335fbc2eb9fb48d3ff5006a6f80bb9f00e23b162392fd779e31"
+    },
+    {
+      "category": 97,
+      "number": 370,
+      "bank": "FLL",
+      "filename": "e_fll70d.wav",
+      "sha256": "16b6f98f251fd8e907f2292c46e152e94655001a3d7e6224c04707a4206eac78"
+    },
+    {
+      "category": 97,
+      "number": 71,
+      "bank": "FLL",
+      "filename": "e_fll71a.wav",
+      "sha256": "b695933baccb7d3a8b86bf7e9d9d6bf7868be103b96701e44083f6a04bc7361d"
+    },
+    {
+      "category": 97,
+      "number": 171,
+      "bank": "FLL",
+      "filename": "e_fll71b.wav",
+      "sha256": "1620d17eb2c66c1b4e0ab54337cec37b194d98d0dc233134a5d5e2be1fbe5a7e"
+    },
+    {
+      "category": 97,
+      "number": 271,
+      "bank": "FLL",
+      "filename": "e_fll71c.wav",
+      "sha256": "6f66f2446af5f4b26e7aef64d8cfd9a8264bdb22f7b20cd9e84ba6ff8591834c"
+    },
+    {
+      "category": 97,
+      "number": 371,
+      "bank": "FLL",
+      "filename": "e_fll71d.wav",
+      "sha256": "25e8c659052aca0c1e24ac345ba1001e9dea5724edcdcdac54d8eca438e0b546"
+    },
+    {
+      "category": 97,
+      "number": 72,
+      "bank": "FLL",
+      "filename": "e_fll72a.wav",
+      "sha256": "984b4969d5789104389af3097e99083e33a22b1d5b468c56282aeb55ec7e4d0e"
+    },
+    {
+      "category": 97,
+      "number": 172,
+      "bank": "FLL",
+      "filename": "e_fll72b.wav",
+      "sha256": "20e8edad32cbbfe2b5ad55ae25c919a8c212b1bd372500b15aad39e0bfa1f78a"
+    },
+    {
+      "category": 97,
+      "number": 272,
+      "bank": "FLL",
+      "filename": "e_fll72c.wav",
+      "sha256": "518d72b995ca6a71a6168f81ea4b5dacc2c1ecb8aa4eb8653265def6bba996fa"
+    },
+    {
+      "category": 97,
+      "number": 372,
+      "bank": "FLL",
+      "filename": "e_fll72d.wav",
+      "sha256": "9ffcc74192f539cda4b29affd89e854d8e9138b62d3da645a1122f0115913ef6"
+    },
+    {
+      "category": 97,
+      "number": 73,
+      "bank": "FLL",
+      "filename": "e_fll73a.wav",
+      "sha256": "cd4cdc5ff1ece3d585201b7eb98c829f7aa58f569d17cb176d8dd4ec7ee8daee"
+    },
+    {
+      "category": 97,
+      "number": 173,
+      "bank": "FLL",
+      "filename": "e_fll73b.wav",
+      "sha256": "f29c2c22bc15423921a064140d378b96452188fd0871a291358b55551cece090"
+    },
+    {
+      "category": 97,
+      "number": 273,
+      "bank": "FLL",
+      "filename": "e_fll73c.wav",
+      "sha256": "4c294943b7857a9d95c407cd18444763d7fdbb6818cce67a0899ef9099324b5a"
+    },
+    {
+      "category": 97,
+      "number": 373,
+      "bank": "FLL",
+      "filename": "e_fll73d.wav",
+      "sha256": "c0f8d2c02c4b9195a8bce2ba8167ae34fbf9da0c394312cbc22bb74cc056c59f"
+    },
+    {
+      "category": 97,
+      "number": 74,
+      "bank": "FLL",
+      "filename": "e_fll74a.wav",
+      "sha256": "7ef8990980b94822f21af86b2db270d3b4e5ccb2d22a6c37a223b4d1b8eb2bc4"
+    },
+    {
+      "category": 97,
+      "number": 174,
+      "bank": "FLL",
+      "filename": "e_fll74b.wav",
+      "sha256": "fdb0d8ad3125a5ca3725ab8bc04ba7df6c687d4e270130c8d14c98eb49bb20ea"
+    },
+    {
+      "category": 97,
+      "number": 274,
+      "bank": "FLL",
+      "filename": "e_fll74c.wav",
+      "sha256": "d42b60943c0af1d01fd454c8c4335c8747d8d8128f8f05c5a0bbe2cb171e692a"
+    },
+    {
+      "category": 97,
+      "number": 374,
+      "bank": "FLL",
+      "filename": "e_fll74d.wav",
+      "sha256": "3c9ae4ee6e223f2c1c7afb8a220c93a9b2025316de06060a519eb1e2f7bce334"
+    },
+    {
+      "category": 97,
+      "number": 75,
+      "bank": "FLL",
+      "filename": "e_fll75a.wav",
+      "sha256": "b3beb495fde3eede5f74d2273e7b8aef39b69e21ff58eb2f60378035ebfa4564"
+    },
+    {
+      "category": 97,
+      "number": 175,
+      "bank": "FLL",
+      "filename": "e_fll75b.wav",
+      "sha256": "9a7a5d3823d0a290292e72679ff405de33dab3359d3264919ece5d9951a57423"
+    },
+    {
+      "category": 97,
+      "number": 275,
+      "bank": "FLL",
+      "filename": "e_fll75c.wav",
+      "sha256": "b96d61eb67583211efc51658c85e17de71b3f843faed27b00ea01fd2c34f644a"
+    },
+    {
+      "category": 97,
+      "number": 375,
+      "bank": "FLL",
+      "filename": "e_fll75d.wav",
+      "sha256": "055a2c9d3fafb5a3198aa7a42df5a72b3a625fd275080942dc8b81aae14838e1"
+    },
+    {
+      "category": 98,
+      "number": 1,
+      "bank": "END",
+      "filename": "e_end01.wav",
+      "sha256": "2f7cc971bfbab809a91a50a6182a843b239ec6369c01cc59367eee6575ca7727"
+    },
+    {
+      "category": 98,
+      "number": 2,
+      "bank": "END",
+      "filename": "e_end02.wav",
+      "sha256": "9168602acf8af923f5b221b8976dd31f1ed591f93ffeb875c83254120b42c9ee"
+    },
+    {
+      "category": 98,
+      "number": 3,
+      "bank": "END",
+      "filename": "e_end03.wav",
+      "sha256": "cea724edc25aed3b7f371693d724f6e781d162c9942215c8421932656eb1cd79"
+    },
+    {
+      "category": 98,
+      "number": 4,
+      "bank": "END",
+      "filename": "e_end04.wav",
+      "sha256": "a318ce66f540a67bcc025b3dc808ecd116d660072975204bfbb512607f72c787"
+    },
+    {
+      "category": 98,
+      "number": 5,
+      "bank": "END",
+      "filename": "e_end05.wav",
+      "sha256": "5f5135d263878407abd073db76d1d21437566be08c9767bce2a7ba60e892232e"
+    },
+    {
+      "category": 98,
+      "number": 6,
+      "bank": "END",
+      "filename": "e_end06.wav",
+      "sha256": "da1e3e7d2faf51e8c405aa1d84068334189e7a60245329caf227906def454d38"
+    },
+    {
+      "category": 98,
+      "number": 7,
+      "bank": "END",
+      "filename": "e_end07.wav",
+      "sha256": "615146ba7a62b1b0e804cf14cddb5291fa328495a6a93de32e715b369a33aa86"
+    },
+    {
+      "category": 98,
+      "number": 8,
+      "bank": "END",
+      "filename": "e_end08.wav",
+      "sha256": "09683330011dcffa10ebddd68175507ad7ed1b7c8b3c71e60fa9636e8d719702"
+    },
+    {
+      "category": 98,
+      "number": 9,
+      "bank": "END",
+      "filename": "e_end09.wav",
+      "sha256": "b72b3ab385401af10ce43dde1cc8fe7511d6931c73c8e23ae463fbde76ca7089"
+    },
+    {
+      "category": 98,
+      "number": 10,
+      "bank": "END",
+      "filename": "e_end10.wav",
+      "sha256": "949d4ecd59b46347cf18c59bfe2e6221092bd0995935acd46d4efea48886d4cf"
+    },
+    {
+      "category": 98,
+      "number": 11,
+      "bank": "END",
+      "filename": "e_end11.wav",
+      "sha256": "3b8dfdc298e5556e461d78886285dd57f7216778793116766e30fe96dabb29bd"
+    },
+    {
+      "category": 98,
+      "number": 12,
+      "bank": "END",
+      "filename": "e_end12.wav",
+      "sha256": "767e7587ebb95583bfc292fb494331f38775e52727d1be2a4de8dc2267eb5dcc"
+    },
+    {
+      "category": 98,
+      "number": 13,
+      "bank": "END",
+      "filename": "e_end13.wav",
+      "sha256": "28ff168d434f6aeda872de8f973ec099b5f2526f868209dd78a33db0cd3bf75e"
+    },
+    {
+      "category": 104,
+      "number": 1,
+      "bank": "XTM",
+      "filename": "e_xtm01.wav",
+      "sha256": "e1987937968aec9f1bf3c808425335b3dfabf9fd9909be51b0eb1e58c7bf87d1"
+    },
+    {
+      "category": 104,
+      "number": 2,
+      "bank": "XTM",
+      "filename": "e_xtm02.wav",
+      "sha256": "a564a8c55dc7c4890ae60fde0ddd931bd9c49471389c1bb12af4ff1f9682b742"
+    },
+    {
+      "category": 104,
+      "number": 3,
+      "bank": "XTM",
+      "filename": "e_xtm03.wav",
+      "sha256": "bcae1df1e3ce0f9221658e273c6886735ddadd93cbaac0f4e37387c833377b91"
+    },
+    {
+      "category": 104,
+      "number": 4,
+      "bank": "XTM",
+      "filename": "e_xtm04.wav",
+      "sha256": "ddf32179b9fd97d50196e449fe72da30ff91148a1f00f1ac8d45aab80f8858e2"
+    },
+    {
+      "category": 104,
+      "number": 5,
+      "bank": "XTM",
+      "filename": "e_xtm05.wav",
+      "sha256": "d21baa9fc6f4cc85c55cda4663fc80aecb59a0e27f0303a6fa341128d8d7e342"
+    },
+    {
+      "category": 104,
+      "number": 6,
+      "bank": "XTM",
+      "filename": "e_xtm06.wav",
+      "sha256": "f67893b33a837d180a0aadd3224c4977d22897f21f08e55df5d16cb6d94d49c0"
+    },
+    {
+      "category": 104,
+      "number": 7,
+      "bank": "XTM",
+      "filename": "e_xtm07.wav",
+      "sha256": "24271dc11b0d3df05ca549b36e1f76341f14bc0f7878f93b1b5d88564ead78e5"
+    },
+    {
+      "category": 104,
+      "number": 8,
+      "bank": "XTM",
+      "filename": "e_xtm08.wav",
+      "sha256": "ea059b80f7fb8b9b6364d6604d9496e79f34ba16db0cbdabd13cfbb86b31bdcb"
+    },
+    {
+      "category": 104,
+      "number": 9,
+      "bank": "XTM",
+      "filename": "e_xtm09.wav",
+      "sha256": "37238add1ae4c8c93aa33162a0489f74e8ef77bb12920c09aeb35bd7bbb33aa5"
+    },
+    {
+      "category": 104,
+      "number": 10,
+      "bank": "XTM",
+      "filename": "e_xtm10.wav",
+      "sha256": "0a31886a8efdc9af225801e5abe8c312ee5601c0d594c530a34f4b0d17a181fd"
+    },
+    {
+      "category": 104,
+      "number": 11,
+      "bank": "XTM",
+      "filename": "e_xtm11.wav",
+      "sha256": "ff306957dd99018a7681f817bfd68c19f268f3114ee025f0581a1b7dfe4886a3"
+    },
+    {
+      "category": 104,
+      "number": 12,
+      "bank": "XTM",
+      "filename": "e_xtm12.wav",
+      "sha256": "374d7b4d7cf8bf7fc5673cc7e47bbb1f363058e5838effe02a87e08cabdb1321"
+    },
+    {
+      "category": 104,
+      "number": 13,
+      "bank": "XTM",
+      "filename": "e_xtm13.wav",
+      "sha256": "94a6f357d4492f71564c528d828785311d8f2aa2633632542746abedd0873245"
+    },
+    {
+      "category": 104,
+      "number": 14,
+      "bank": "XTM",
+      "filename": "e_xtm14.wav",
+      "sha256": "869e71c0b8df0715b808c5e862793843663a48c4b342b4bfaf07f789b6c19ead"
+    },
+    {
+      "category": 104,
+      "number": 15,
+      "bank": "XTM",
+      "filename": "e_xtm15.wav",
+      "sha256": "da29d939574f883f8129de345cfef1341bc0f5e285c31c509520d2fb480e1810"
+    },
+    {
+      "category": 104,
+      "number": 17,
+      "bank": "XTM",
+      "filename": "e_xtm17.wav",
+      "sha256": "4b6a3328e34b086514fc0ee5e70e2107b753ab5a753f7c6daa3cfcbe344c0789"
+    },
+    {
+      "category": 104,
+      "number": 18,
+      "bank": "XTM",
+      "filename": "e_xtm18.wav",
+      "sha256": "3502bff80107a57478be85f9d7a25eba8c6d63092211b7d8858724e8891adf5d"
+    },
+    {
+      "category": 104,
+      "number": 20,
+      "bank": "XTM",
+      "filename": "e_xtm20.wav",
+      "sha256": "828fa5348a9f5f449f55d1f07a516e4626ab7c54b30980aaa4dbffbda752a34f"
+    },
+    {
+      "category": 104,
+      "number": 21,
+      "bank": "XTM",
+      "filename": "e_xtm21.wav",
+      "sha256": "7c56eb184410defbc71c3561f8077f5d89f4b38186918e1eaff213493690a24a"
+    },
+    {
+      "category": 104,
+      "number": 22,
+      "bank": "XTM",
+      "filename": "e_xtm22.wav",
+      "sha256": "19d5f3a64d7212515abc5bbaa8c29f51aec16818d185469d1c6d9e7367ffea8f"
+    },
+    {
+      "category": 104,
+      "number": 23,
+      "bank": "XTM",
+      "filename": "e_xtm23.wav",
+      "sha256": "e2c30c5d0cd09de2da0e0c0454c3a8fbfdad92f1614a956f983b87b4a0c17c02"
+    },
+    {
+      "category": 104,
+      "number": 24,
+      "bank": "XTM",
+      "filename": "e_xtm24.wav",
+      "sha256": "29c66440aa9dd5ae6ac21ecd6b072faafa7c07a3a45a5c3ccf3790554ef804f9"
+    },
+    {
+      "category": 104,
+      "number": 25,
+      "bank": "XTM",
+      "filename": "e_xtm25.wav",
+      "sha256": "0d2884ac4f6d4cccad30f4485f4ee079161bd195e12e0f2fc01f272dfc10bc6e"
+    },
+    {
+      "category": 104,
+      "number": 26,
+      "bank": "XTM",
+      "filename": "e_xtm26.wav",
+      "sha256": "6ff03f7c838989a251ca6cdcdc00a8a70ab3158490664271c14251efdcdd4968"
+    },
+    {
+      "category": 104,
+      "number": 27,
+      "bank": "XTM",
+      "filename": "e_xtm27.wav",
+      "sha256": "7a3e92e3369087afcb5e4f50f426d9e7770571c1c45987b71c79a584d8d8e49d"
+    },
+    {
+      "category": 104,
+      "number": 28,
+      "bank": "XTM",
+      "filename": "e_xtm28.wav",
+      "sha256": "114bf88ecee33d3d5f571ed9d7bd8f4bc6db109729213844e0a8e2d5f371bd36"
+    }
+  ],
+  "excluded": [
+    {
+      "bank": "HLF",
+      "filename": "e_hlf32a.wav",
+      "reason": "Ambiguous duplicate filename"
+    },
+    {
+      "bank": "HLF",
+      "filename": "e_hlf32b.wav",
+      "reason": "Ambiguous duplicate filename"
+    },
+    {
+      "bank": "HLF",
+      "filename": "e_hlf32c.wav",
+      "reason": "Ambiguous duplicate filename"
+    },
+    {
+      "bank": "HLF",
+      "filename": "e_hlf32d.wav",
+      "reason": "Ambiguous duplicate filename"
+    },
+    {
+      "bank": "HLF",
+      "filename": "e_hlf32a.wav",
+      "reason": "Ambiguous duplicate filename"
+    },
+    {
+      "bank": "HLF",
+      "filename": "e_hlf32b.wav",
+      "reason": "Ambiguous duplicate filename"
+    },
+    {
+      "bank": "HLF",
+      "filename": "e_hlf32c.wav",
+      "reason": "Ambiguous duplicate filename"
+    },
+    {
+      "bank": "HLF",
+      "filename": "e_hlf32d.wav",
+      "reason": "Ambiguous duplicate filename"
+    }
+  ],
+  "coverage": {
+    "HLF": [
+      0,
+      10,
+      20,
+      22,
+      30,
+      40,
+      41,
+      42,
+      43,
+      44,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75
+    ],
+    "FLL": [
+      0,
+      10,
+      11,
+      20,
+      21,
+      22,
+      30,
+      31,
+      32,
+      33,
+      40,
+      41,
+      42,
+      43,
+      44,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75
+    ],
+    "END": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "XTM": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "routing": "HLF: first interval; FLL: decisive regulation result; END: drawn regulation result; XTM: tied 90-minute knockout interval, score 0..8 selects clip 1..9, larger draws select available original clips in 9..32. Missing XTM keeps the whistle-only transition; missing period scores retain compatibility calls. Winner sequences are supplied separately.",
+  "outputs": {
+    "COMMENTARY/EURO_PERIODS.BIN": {
+      "bytes": 14418968,
+      "sha256": "0fb9a0fd1f0efdbbb94816fb837beaec77608872e9832edc2b25abe6a3bb062f"
+    }
+  }
+}

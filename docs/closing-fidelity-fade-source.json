@@ -1,0 +1,7 @@
+{
+  "steps": 25,
+  "hz": 63,
+  "registration": "TEST.CPP AddTimer(63, EUROinterupt, EuroHandle), TIMER.H sosTIMERRegisterEvent",
+  "curve": "EURO_GEN.CPP EUROinterupt: channel/FADE_COUNTER subtracted on fade-down and added on fade-up",
+  "native_boundary": "Recovered 63 Hz nominal fade cadence with SDL composition of retained outgoing and incoming RGB menus; exact DOS palette quantization, interrupt jitter and menu navigation are not reproduced."
+}

@@ -1,0 +1,13 @@
+# Fresh match randomness — 0.65.4
+
+The native team adapter called `std::srand(1)` at every match start, including rematches and championship fixtures. Similar inputs could therefore repeat opening incidents and card decisions. Normal interactive play now selects a fresh starting seed for each new match. Ordinary restarts after goals, half-time, pauses and menu navigation do not start a new match and do not select another seed.
+
+The original foul/card routines and their random draws are unchanged. The preserved referee considers challenge lateness/distance to the ball, whether a player was knocked down, strictness and randomness. It allows a straight red on the first foul. This fix removes the forced repetition; it does not guarantee a card-free opening or lower card probabilities. The user's particular early red was not reproduced, so it has not been attributed conclusively to the fixed seed. Referee strictness remains 96, accuracy 96 and bookings enabled unless the user changes their preferences.
+
+Fresh seeds come from a process-local counter initialized with a clock value and `std::random_device` entropy, with a non-repeating 32-bit mixing sequence. Entropy failure falls back to the clock. This source is independent of the original gameplay RNG. The selected seed then initializes the same CRT generator used by the preserved routines. Seed policy survives match resets and is restored with the live match after viewing a saved replay.
+
+Diagnostic fixtures and noninteractive captures/smokes retain seed 1 by default. For reproduction, `actua96.exe --front-end --match-seed 12345` fixes subsequent matches to that seed; `--match-seed random` explicitly requests fresh seeds, including in captures. Values 0 through 4294967295 are accepted; malformed or out-of-range values fail. The starting seed is printed in process output. Matching seeds require the same teams, options, inputs and build to reproduce a match.
+
+The new engine check compares complete 400-tick ball/player/card traces for seeds 0, 1, 12345 and UINT_MAX, checks 24 fresh starts/rematches across formats and control modes, and retains direct-red/second-yellow thresholds. The application check compares real CPU-match captures: repeated seed 1 is pixel-identical, seed 2 and fresh seeds change the opening. It also covers CLI bounds and errors. [Application report](match-randomness-cli-report.json), [full regression](match-randomness-regression.txt), [release evidence](match-randomness-release.json).
+
+No source archives, gameplay thresholds, roster ratings, preferences, tournament save format or recorded replay format were changed. The update is delivered through the normal launcher's next start without interrupting a running game.

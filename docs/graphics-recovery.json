@@ -1,0 +1,542 @@
+{
+  "presentation_adaptations": [
+    "3D_UPD2.CPP realtime_coords position/facing/frame equations adapted to match_player and pure snapshots",
+    "3DENG.C tween rate uses absolute elapsed logic cycles for render-rate independence; interrupted blends start from the last logic-boundary pose",
+    "Native ownership gate keeps captured and free ball in the same presentation timeline; gameplay is unchanged",
+    "Original addpolyc including textured near-plane clipping with native-owned bounded UV scratch pool; addobjnc for stadium, addobjyc for pitch and addobjfc for ground markings",
+    "Original init3d pitch perimeter extension from stadlist dimensions",
+    "Invalid ball capture sentinels are not blended; native subframe sampling and capture/physics handoffs",
+    "Ball orientation follows new_update_coords; render-only shortest-arc interpolation between simulation angles",
+    "Original two-team texture packing and palette remapping; original face selection for team, keeper and mirror state"
+  ],
+  "routines": [
+    {
+      "file": "3DENG.C",
+      "name": "matcop",
+      "line": 650,
+      "sha256": "5f0b5397495ec40cc7acbe06c51cbc01f17f16c082beedc3ebb81bbfada0aaab"
+    },
+    {
+      "file": "3DENG.C",
+      "name": "matmul",
+      "line": 662,
+      "sha256": "9f953de83217a0a04b5ad32b64914f536e3c23ac19d39cb23f932cc5b755f7db"
+    },
+    {
+      "file": "3DENG.C",
+      "name": "addpoly",
+      "line": 1299,
+      "sha256": "62e02edced52879437967dfe8ee593782cf87a8af79a68360df06ea14ef1309a"
+    },
+    {
+      "file": "3DENG.C",
+      "name": "addline",
+      "line": 1393,
+      "sha256": "bbb00158a80bc4cf44e4a52c7f3220847a6fb2fb33fad1eae2ea783b1e042147"
+    },
+    {
+      "file": "3DENG.C",
+      "name": "add3dcmap",
+      "line": 1424,
+      "sha256": "d7e278411ce9ba7c5d8ba37ccf05a19f79b54f05df0cd1e1c0d143f81ba4e402"
+    },
+    {
+      "file": "3DENG.C",
+      "name": "add3demap",
+      "line": 1518,
+      "sha256": "9d7e6eb5ccb894147d54bddd3aa9c47a5c3ae69148dc2737af49d82a9734959e"
+    },
+    {
+      "file": "3DENG.C",
+      "name": "addpols",
+      "line": 2019,
+      "sha256": "51cd13e2ed085ecc2919f42f4fde4d133454eab1a4bfb1199707f7b8d23114a9"
+    },
+    {
+      "file": "3DENG.C",
+      "name": "addobjy",
+      "line": 2190,
+      "sha256": "8e9b75498fed761ee85b26ff7f656d1da18930b85f80d3fc13017036c55c592d"
+    },
+    {
+      "file": "3DENG.C",
+      "name": "addobjyf",
+      "line": 2261,
+      "sha256": "0a02fcf0016d4515dc46970aed9863e01deeff2bcf9a8f2b99cabfb49a92b807"
+    },
+    {
+      "file": "3DENG.C",
+      "name": "addobjxy",
+      "line": 2107,
+      "sha256": "2bf658bd0de670309a9299c1ebb3af18aa97f07986fd312869168bd2882a1aac"
+    },
+    {
+      "file": "3DENG.C",
+      "name": "objdepd",
+      "line": 1280,
+      "sha256": "e8c98cabba917e4a67b02e74b001b8ef0438fd8f0b38d3b7f6e45c34f243922f"
+    },
+    {
+      "file": "3DENG.C",
+      "name": "addpolyc",
+      "line": 1659,
+      "sha256": "0608c8fe22baef33bf860e4bb3fe9ce24fa8b9b49c445623811a291a00d98c72"
+    },
+    {
+      "file": "3DENG.C",
+      "name": "addlinec",
+      "line": 1974,
+      "sha256": "19a6cff174145a5553aaa396ada43c59e0a5b734954153d11d53f8961731bbef"
+    },
+    {
+      "file": "3DENG.C",
+      "name": "addpolsc",
+      "line": 2062,
+      "sha256": "1eae7503effb2f24edcc471ef34a21164956daec09bab4025a7bce6c73a5beaa"
+    },
+    {
+      "file": "3DENG.C",
+      "name": "addobjyc",
+      "line": 2333,
+      "sha256": "cb649089a7ae97de9952a4a1a82401a017d7b82a9fe9c528e6a71310e9528304"
+    },
+    {
+      "file": "3DENG.C",
+      "name": "addobjfc",
+      "line": 2594,
+      "sha256": "98fe8bbcab0a4c3c7d5f772dcd41babdae8698bda3513a2d50a19300c48a2318"
+    },
+    {
+      "file": "3DENG.C",
+      "name": "addobjnc",
+      "line": 2497,
+      "sha256": "8c4a7bff0178c742da47287c1edc793b2baefe505e1434bebb4e14fb1b5d5cab"
+    },
+    {
+      "file": "3DENG.C",
+      "name": "addobjsp",
+      "line": 2447,
+      "sha256": "12b1ebc651ee90f171ab2ffd21a017820d481bb2743d4c943407133d9f7795f7"
+    },
+    {
+      "file": "3DENG.C",
+      "name": "blend_original_pose",
+      "line": 7452,
+      "sha256": "9337ba75034c9ac1f1548dcf6055e00547bf143331cdcf7746876a64271d8782",
+      "scope": "Intact cross-animation blend branch; native wrapper provides pose buffers, fraction and mirror flags"
+    }
+  ],
+  "mapped_motions": 94,
+  "inputs": {
+    "3DENG.C": "6752b57c76e0f0c56fc3c46fd6d8d67879085e97289d9fcb28d3c60bb3d42f76",
+    "3D_UPD2.CPP": "9a816445ad36f1d316d5bdc1eef5ebe15536bf291b6bc644db8568ffcc7d57c6",
+    "3DENG.H": "1f5a11e54330f8c4326cb9f79291510adc1cff45fb7270d6446b374a84663aad",
+    "DATA.OBJ": "af643e660c93c51d0abe3ee7ef3ac276918fabfd9766af15e309df18776d873b",
+    "3DENG.OBJ": "49de827ef363e9367855bcf5ddfe7b6f20eca55d0907a4fc07da233010cbe733",
+    "EUROREND.DAT": "0c38ab865fcd1d62d7c0f3f88b861f4c43643caf402dea6fbe9b0f042fd340cb",
+    "EUROREND.OFF": "96e6cea4bb91667cd204faa928696006048cf35a4e0baabefe83eca5d06dcb87"
+  },
+  "environment": {
+    "pitch_bitmap": 114,
+    "sky_bitmap": 96,
+    "sky_palette": 90,
+    "sky_type": 0,
+    "source": "3DENG.C ground() and init3d; stadlist/skylist from pinned 3DENG.OBJ",
+    "adaptations": "Native bounded pixel buffer replaces DOS scanline assembly; original high-detail 64x64 tile and 640x480 sky projection; first supported stadium sky variant avoids consuming gameplay RNG"
+  },
+  "pitch_tracker": "Original addobjsp projection; sprite3d palette IDs 31/2 drawn as enlarged SDL dots for modern displays. Original depth sort retained.",
+  "scene": {
+    "goals": [
+      {
+        "descriptor": "goal1_a",
+        "levels": [
+          {
+            "scale": 4.0,
+            "points": "goal1a_p",
+            "faces": "goal_f1a"
+          },
+          {
+            "scale": 3.200000047683716,
+            "points": "goal1a_p",
+            "faces": "goal_f1b"
+          },
+          {
+            "scale": 1.600000023841858,
+            "points": "goal1b_p",
+            "faces": "goal_f1c"
+          },
+          {
+            "scale": 0.800000011920929,
+            "points": "goal1b_p",
+            "faces": "goal_f1c"
+          },
+          {
+            "scale": 0.0,
+            "points": "goal1c_p",
+            "faces": "goal_f1d"
+          }
+        ]
+      },
+      {
+        "descriptor": "goal2_a",
+        "levels": [
+          {
+            "scale": 4.0,
+            "points": "goal1a_p",
+            "faces": "goal_f1a"
+          },
+          {
+            "scale": 3.200000047683716,
+            "points": "goal1a_p",
+            "faces": "goal_f1b"
+          },
+          {
+            "scale": 1.600000023841858,
+            "points": "goal2b_p",
+            "faces": "goal_f1cm"
+          },
+          {
+            "scale": 0.800000011920929,
+            "points": "goal2b_p",
+            "faces": "goal_f1cm"
+          },
+          {
+            "scale": 0.0,
+            "points": "goal2c_p",
+            "faces": "goal_f1dm"
+          }
+        ]
+      },
+      {
+        "descriptor": "goal3_a",
+        "levels": [
+          {
+            "scale": 4.0,
+            "points": "goal2a_p",
+            "faces": "goal_f1a"
+          },
+          {
+            "scale": 3.200000047683716,
+            "points": "goal2a_p",
+            "faces": "goal_f1b"
+          },
+          {
+            "scale": 1.600000023841858,
+            "points": "goal3b_p",
+            "faces": "goal_f2cm"
+          },
+          {
+            "scale": 0.800000011920929,
+            "points": "goal3b_p",
+            "faces": "goal_f2cm"
+          },
+          {
+            "scale": 0.0,
+            "points": "goal3c_p",
+            "faces": "goal_f2dm"
+          }
+        ]
+      },
+      {
+        "descriptor": "goal4_a",
+        "levels": [
+          {
+            "scale": 4.0,
+            "points": "goal3a_p",
+            "faces": "goal_f2a"
+          },
+          {
+            "scale": 3.200000047683716,
+            "points": "goal3a_p",
+            "faces": "goal_f2a"
+          },
+          {
+            "scale": 1.600000023841858,
+            "points": "goal3a_p",
+            "faces": "goal_f3c"
+          },
+          {
+            "scale": 0.800000011920929,
+            "points": "goal3a_p",
+            "faces": "goal_f3c"
+          },
+          {
+            "scale": 0.0,
+            "points": "goal3a_p",
+            "faces": "goal_f3d"
+          }
+        ]
+      },
+      {
+        "descriptor": "goal1_b",
+        "levels": [
+          {
+            "scale": 4.0,
+            "points": "goal1ax_p",
+            "faces": "goal_f1a"
+          },
+          {
+            "scale": 3.200000047683716,
+            "points": "goal1ax_p",
+            "faces": "goal_f1b"
+          },
+          {
+            "scale": 1.600000023841858,
+            "points": "goal1bx_p",
+            "faces": "goal_f1cm"
+          },
+          {
+            "scale": 0.800000011920929,
+            "points": "goal1bx_p",
+            "faces": "goal_f1cm"
+          },
+          {
+            "scale": 0.0,
+            "points": "goal1cx_p",
+            "faces": "goal_f1dm"
+          }
+        ]
+      },
+      {
+        "descriptor": "goal2_b",
+        "levels": [
+          {
+            "scale": 4.0,
+            "points": "goal1ax_p",
+            "faces": "goal_f1a"
+          },
+          {
+            "scale": 3.200000047683716,
+            "points": "goal1ax_p",
+            "faces": "goal_f1b"
+          },
+          {
+            "scale": 1.600000023841858,
+            "points": "goal2bx_p",
+            "faces": "goal_f1c"
+          },
+          {
+            "scale": 0.800000011920929,
+            "points": "goal2bx_p",
+            "faces": "goal_f1c"
+          },
+          {
+            "scale": 0.0,
+            "points": "goal2cx_p",
+            "faces": "goal_f1d"
+          }
+        ]
+      },
+      {
+        "descriptor": "goal3_b",
+        "levels": [
+          {
+            "scale": 4.0,
+            "points": "goal2ax_p",
+            "faces": "goal_f1a"
+          },
+          {
+            "scale": 3.200000047683716,
+            "points": "goal2ax_p",
+            "faces": "goal_f1b"
+          },
+          {
+            "scale": 1.600000023841858,
+            "points": "goal3bx_p",
+            "faces": "goal_f2c"
+          },
+          {
+            "scale": 0.800000011920929,
+            "points": "goal3bx_p",
+            "faces": "goal_f2c"
+          },
+          {
+            "scale": 0.0,
+            "points": "goal3cx_p",
+            "faces": "goal_f2d"
+          }
+        ]
+      },
+      {
+        "descriptor": "goal4_b",
+        "levels": [
+          {
+            "scale": 4.0,
+            "points": "goal3ax_p",
+            "faces": "goal_f2a"
+          },
+          {
+            "scale": 3.200000047683716,
+            "points": "goal3ax_p",
+            "faces": "goal_f2a"
+          },
+          {
+            "scale": 1.600000023841858,
+            "points": "goal3ax_p",
+            "faces": "goal_f3c"
+          },
+          {
+            "scale": 0.800000011920929,
+            "points": "goal3ax_p",
+            "faces": "goal_f3c"
+          },
+          {
+            "scale": 0.0,
+            "points": "goal3ax_p",
+            "faces": "goal_f3d"
+          }
+        ]
+      }
+    ],
+    "texture_evidence": [
+      {
+        "name": "alternate_limbs_heads",
+        "offset": 81478,
+        "record": 38,
+        "page": 12,
+        "bytes": "b83001000081c200000c00"
+      },
+      {
+        "name": "keeper_torso",
+        "offset": 81158,
+        "record": 35,
+        "page": 4,
+        "bytes": "b81801000081c200000400"
+      },
+      {
+        "name": "selection_markers",
+        "offset": 81188,
+        "record": 36,
+        "page": 6,
+        "bytes": "b82001000081c200000600"
+      },
+      {
+        "name": "keeper_limbs",
+        "offset": 83075,
+        "record": 108,
+        "page": 5,
+        "bytes": "b86003000081c200000500"
+      },
+      {
+        "name": "away_keeper_limbs",
+        "offset": 81592,
+        "record": 39,
+        "page": 13,
+        "bytes": "b83801000081c200000d00"
+      },
+      {
+        "name": "away_keeper_torso",
+        "offset": 81622,
+        "record": 35,
+        "page": 14,
+        "bytes": "b81801000081c200000e00"
+      },
+      {
+        "name": "goal_nets",
+        "offset": 81652,
+        "record": 40,
+        "page": 15,
+        "bytes": "b84001000081c200000f00"
+      }
+    ],
+    "geometry": [
+      "goal1a_p",
+      "goal2a_p",
+      "player_f1",
+      "player_fw",
+      "pitch_p",
+      "pitch_f",
+      "footy_p",
+      "footy_f",
+      "lines_p",
+      "lines_f",
+      "circle_pa",
+      "circle_fa",
+      "l1_p1",
+      "l2_p1",
+      "l3_p1",
+      "l4_p1",
+      "l5_p1",
+      "l6_p1",
+      "l_f1a",
+      "l_f3a",
+      "s_circle_p1a",
+      "s_circle_p2a",
+      "s_circle_f1a",
+      "s_circle_f2a",
+      "goal1ax_p",
+      "goal2ax_p",
+      "goal3a_p",
+      "goal3ax_p",
+      "goal_f1a",
+      "goal_f2a",
+      "spot_p",
+      "spot_f",
+      "plshad_p",
+      "plshad_f",
+      "ballshad_p",
+      "ballshad_f",
+      "player_f2",
+      "player_f1x",
+      "player_f2x",
+      "player_fg1",
+      "player_fg2",
+      "player_fg1x",
+      "player_fg2x",
+      "player_f1b",
+      "player_f2b",
+      "player_f1xb",
+      "player_f2xb",
+      "player_fr",
+      "player_fl",
+      "plhi_p",
+      "plhi1_f1",
+      "goal_f1b",
+      "goal1b_p",
+      "goal_f1c",
+      "goal1c_p",
+      "goal_f1d",
+      "goal2b_p",
+      "goal_f1cm",
+      "goal2c_p",
+      "goal_f1dm",
+      "goal3b_p",
+      "goal_f2cm",
+      "goal3c_p",
+      "goal_f2dm",
+      "goal_f3c",
+      "goal_f3d",
+      "goal1bx_p",
+      "goal1cx_p",
+      "goal2bx_p",
+      "goal2cx_p",
+      "goal3bx_p",
+      "goal_f2c",
+      "goal3cx_p",
+      "goal_f2d"
+    ],
+    "scope": "Original five-level goal geometry, texture/filter net faces and objdepd selection; original pitch/shadow geometry; native SDL alpha replaces palette quantization for filters 256/257",
+    "shirt_numbers": {
+      "evidence": [
+        {
+          "offset": 73081,
+          "first_face_material": -2549,
+          "bytes": "ba0bf6ffff"
+        },
+        {
+          "offset": 73110,
+          "first_face_material": -2564,
+          "bytes": "bafcf5ffff"
+        }
+      ],
+      "scope": "Original render3d face[82] binding, number atlases from kit table; match uses actual squad shirts 1-15, including the original four substitutes; native copies avoid mutating shared face data",
+      "transparency": {
+        "object": "RENDER.OBJ",
+        "sha256": "eb6931875ecc489e8b9616f3f36f9e0990fa20082d96a28cd6f1c7a6d24ef571",
+        "offset": 37689,
+        "bytes": "678a07fec874038845ff",
+        "meaning": "polyt loads an encoded byte, decrements it, skips resulting zero, otherwise writes the decremented palette index; number archive pixels already use this +1 encoding"
+      }
+    }
+  }
+}

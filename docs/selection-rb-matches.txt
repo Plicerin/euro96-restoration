@@ -1,0 +1,3 @@
+Full-match selection moving=0 ticks=11282 changes=166 defensive=34 loose=103 far=10 longest=4
+Full-match selection moving=1 ticks=10561 changes=185 defensive=47 loose=115 far=65 longest=15
+Five selection groups passed on both pitch halves: loose ball, defense/circle, receivers/interception, goalkeeper handoff, manual priority. Live scheduler and held movement passed.

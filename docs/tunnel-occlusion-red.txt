@@ -1,0 +1,26 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start 71: original_tunnel_exit_contracts
+1/1 Test #71: original_tunnel_exit_contracts ...***Failed    1.00 sec
+Venue 0 half 0 exit ticks 279 remaining 0
+Venue 0 half 1 exit ticks 282 remaining 0
+Venue 1 half 0 exit ticks 279 remaining 0
+Venue 1 half 1 exit ticks 282 remaining 0
+Venue 2 half 0 exit ticks 279 remaining 0
+Venue 2 half 1 exit ticks 282 remaining 0
+Venue 3 half 0 exit ticks 279 remaining 0
+Venue 3 half 1 exit ticks 282 remaining 0
+Venue 4 half 0 exit ticks 279 remaining 0
+Venue 4 half 1 exit ticks 282 remaining 0
+Occlusion venue 0 half 0 side 0 y 1040 actor pixels 57
+Occlusion venue 0 half 0 side 0 y 1140 actor pixels 45
+Occlusion venue 0 half 0 side 0 y 1280 actor pixels 46
+Approaching players visible; players inside tunnel cannot overpaint stadium
+
+
+0% tests passed, 1 tests failed out of 1
+
+Total Test time (real) =   1.09 sec
+
+The following tests FAILED:
+	 71 - original_tunnel_exit_contracts (Failed)
+Errors while running CTest

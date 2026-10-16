@@ -1,0 +1,37 @@
+{
+  "functions": [
+    {
+      "name": "reset_possession",
+      "line": 2645,
+      "sha256": "99d2fed5349bd144feb9a8d91f9fcbe5a005d3ae3c8139408725f2922150056e"
+    },
+    {
+      "name": "accumulate_possession",
+      "line": 2654,
+      "sha256": "ce1bd136abe192d93f02fab70823a48395fbd501be39867dbebeba20876b936e"
+    },
+    {
+      "name": "process_crowd_noise",
+      "line": 2690,
+      "sha256": "30a86105c3cc095f96a04e5353c812cd1e991e92064ea2ec75b5174059941300"
+    }
+  ],
+  "mood_jump_table": 3240,
+  "ambient_banks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    4,
+    6,
+    4,
+    4,
+    4,
+    4
+  ],
+  "adaptations": [
+    "Own presentation counters and possession; no gameplay mutations",
+    "Once per native simulation tick; fixed 0.5 second SDL crossfade, not the DOS device scheduler"
+  ]
+}

@@ -1,0 +1,8 @@
+Package 0.46.0: 36 files hash-checked; 0 optional media absent.
+Isolated package passed --version
+Isolated package passed --verify
+Isolated package passed --frontend-smoke
+Isolated package passed --tournament-save-smoke
+Isolated package passed --movie-smoke
+Isolated package passed --intro-smoke
+Isolated package and logs retained: C:\Users\vrock\AppData\Local\Temp\Actua96 package audit 7c6e28be0ccc4187ac83eee54f4049a3

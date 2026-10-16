@@ -1,0 +1,221 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+        Start 105: retail_sequence_contracts
+        Start 103: retail_period_contracts
+        Start  52: native_setpiece_control_smoke
+        Start  95: euro96_retail_presentation_contracts
+  1/108 Test  #95: euro96_retail_presentation_contracts .....   Passed   21.54 sec
+        Start  45: original_match_depth_contracts
+  2/108 Test #103: retail_period_contracts ..................   Passed   52.73 sec
+        Start  40: native_match_seed_contracts
+  3/108 Test #105: retail_sequence_contracts ................   Passed   58.65 sec
+        Start 107: retail_euro_stadium_contracts
+  4/108 Test  #40: native_match_seed_contracts ..............   Passed    7.34 sec
+        Start  96: euro96_media_contracts
+  5/108 Test #107: retail_euro_stadium_contracts ............   Passed    8.00 sec
+        Start  32: native_goal_review_smoke
+  6/108 Test  #96: euro96_media_contracts ...................   Passed   10.88 sec
+        Start  82: full_tournament_frontend_session
+  7/108 Test  #82: full_tournament_frontend_session .........   Passed   19.37 sec
+        Start 101: retail_audio_contracts
+  8/108 Test  #45: original_match_depth_contracts ...........   Passed   76.64 sec
+        Start  83: tournament_venue_schedule
+  9/108 Test  #83: tournament_venue_schedule ................   Passed    4.61 sec
+        Start  90: native_head_to_head_smoke
+ 10/108 Test  #32: native_goal_review_smoke .................   Passed   42.13 sec
+        Start  34: native_original_control_smoke
+ 11/108 Test  #90: native_head_to_head_smoke ................   Passed   14.25 sec
+        Start  53: original_pitch_tracker_contracts
+ 12/108 Test #101: retail_audio_contracts ...................   Passed   28.84 sec
+        Start  44: native_match_setup_smoke
+ 13/108 Test  #52: native_setpiece_control_smoke ............   Passed  126.78 sec
+        Start  77: original_french_commentary_contracts
+ 14/108 Test  #77: original_french_commentary_contracts .....   Passed    8.62 sec
+        Start  38: native_original_cpu_smoke
+ 15/108 Test  #34: native_original_control_smoke ............   Passed   30.46 sec
+        Start  56: native_audio_smoke
+ 16/108 Test  #53: original_pitch_tracker_contracts .........   Passed   25.47 sec
+        Start  71: release_match_matrix
+ 17/108 Test  #44: native_match_setup_smoke .................   Passed   28.78 sec
+        Start  74: original_tunnel_exit_contracts
+ 18/108 Test  #71: release_match_matrix .....................   Passed   16.78 sec
+        Start  86: original_walkoff_contracts
+ 19/108 Test  #74: original_tunnel_exit_contracts ...........   Passed   14.60 sec
+        Start  37: native_original_team_smoke
+ 20/108 Test  #56: native_audio_smoke .......................   Passed   24.72 sec
+        Start  99: retail_presentation_contracts
+ 21/108 Test  #38: native_original_cpu_smoke ................   Passed   28.62 sec
+        Start  98: retail_shirt_number_contracts
+ 22/108 Test  #99: retail_presentation_contracts ............   Passed    2.56 sec
+        Start  49: native_penalty_control_smoke
+ 23/108 Test  #98: retail_shirt_number_contracts ............   Passed    2.78 sec
+        Start  43: original_national_team_contracts
+ 24/108 Test  #86: original_walkoff_contracts ...............   Passed    7.31 sec
+        Start  87: saved_replay_contracts
+ 25/108 Test  #87: saved_replay_contracts ...................   Passed    5.85 sec
+        Start  60: original_commentary_contracts
+ 26/108 Test  #49: native_penalty_control_smoke .............   Passed   13.69 sec
+        Start  25: native_original_actions_smoke
+ 27/108 Test  #37: native_original_team_smoke ...............   Passed   17.06 sec
+        Start  28: original_presentation_contracts
+ 28/108 Test  #43: original_national_team_contracts .........   Passed   14.22 sec
+        Start 100: native_euro96_startup
+ 29/108 Test #100: native_euro96_startup ....................   Passed    2.36 sec
+        Start  61: native_commentary_smoke
+ 30/108 Test  #61: native_commentary_smoke ..................   Passed    9.82 sec
+        Start 108: retail_board_contracts
+ 31/108 Test  #28: original_presentation_contracts ..........   Passed   15.09 sec
+        Start  88: native_replay_file_smoke
+ 32/108 Test #108: retail_board_contracts ...................   Passed    1.44 sec
+        Start  57: retail_result_music_contracts
+ 33/108 Test  #57: retail_result_music_contracts ............   Passed    1.62 sec
+        Start  64: original_player_material_contracts
+ 34/108 Test  #25: native_original_actions_smoke ............   Passed   18.03 sec
+        Start  59: native_frontend_smoke
+ 35/108 Test  #88: native_replay_file_smoke .................   Passed    6.27 sec
+        Start  30: original_scene_contracts
+ 36/108 Test  #60: original_commentary_contracts ............   Passed   27.84 sec
+        Start  10: native_opponent_smoke
+ 37/108 Test  #64: original_player_material_contracts .......   Passed    9.30 sec
+        Start  46: native_match_depth_smoke
+ 38/108 Test  #59: native_frontend_smoke ....................   Passed   11.31 sec
+        Start  39: match_random_seed_contracts
+ 39/108 Test  #39: match_random_seed_contracts ..............   Passed    0.62 sec
+        Start  66: original_tournament_contracts
+ 40/108 Test  #30: original_scene_contracts .................   Passed   14.01 sec
+        Start  65: original_presentation33_contracts
+ 41/108 Test  #10: native_opponent_smoke ....................   Passed   15.00 sec
+        Start  75: original_cd_movie_contracts
+ 42/108 Test  #66: original_tournament_contracts ............   Passed   10.82 sec
+        Start  42: original_regulation_match_contracts
+ 43/108 Test  #75: original_cd_movie_contracts ..............   Passed    4.22 sec
+        Start 104: retail_period_provenance
+ 44/108 Test  #65: original_presentation33_contracts ........   Passed    5.46 sec
+        Start 106: retail_sequence_provenance
+ 45/108 Test #106: retail_sequence_provenance ...............   Passed    1.69 sec
+        Start  89: local_head_to_head_contracts
+ 46/108 Test #104: retail_period_provenance .................   Passed    2.59 sec
+        Start  81: native_intro_smoke
+ 47/108 Test  #46: native_match_depth_smoke .................   Passed   16.81 sec
+        Start  31: original_goal_collisions
+ 48/108 Test  #89: local_head_to_head_contracts .............   Passed    1.76 sec
+        Start  84: tournament_save_recovery
+ 49/108 Test  #84: tournament_save_recovery .................   Passed    2.33 sec
+        Start  94: euro96_preview_identity_contracts
+ 50/108 Test  #42: original_regulation_match_contracts ......   Passed    6.42 sec
+        Start  69: tactics_management_contracts
+ 51/108 Test  #81: native_intro_smoke .......................   Passed    4.32 sec
+        Start  76: native_cd_movie_smoke
+ 52/108 Test  #94: euro96_preview_identity_contracts ........   Passed    0.74 sec
+        Start  22: original_graphics_contracts
+ 53/108 Test  #69: tactics_management_contracts .............   Passed    4.29 sec
+        Start   8: native_player_smoke
+ 54/108 Test  #76: native_cd_movie_smoke ....................   Passed    3.76 sec
+        Start  97: euro96_import_contracts
+ 55/108 Test  #22: original_graphics_contracts ..............   Passed    4.85 sec
+        Start  78: commentary_language_contracts
+ 56/108 Test  #97: euro96_import_contracts ..................   Passed    1.49 sec
+        Start  67: native_tournament_save_directory
+ 57/108 Test   #8: native_player_smoke ......................   Passed    3.63 sec
+        Start  93: original_menu_art_contracts
+ 58/108 Test  #67: native_tournament_save_directory .........   Passed    2.83 sec
+        Start  36: original_automatic_selection
+ 59/108 Test  #36: original_automatic_selection .............   Passed    0.52 sec
+        Start 102: retail_audio_provenance
+ 60/108 Test  #78: commentary_language_contracts ............   Passed    3.74 sec
+        Start  79: original_intro_contracts
+ 61/108 Test  #79: original_intro_contracts .................   Passed    1.40 sec
+        Start   5: native_physics_smoke
+ 62/108 Test   #5: native_physics_smoke .....................   Passed    2.55 sec
+        Start  68: tournament_continuity_contracts
+ 63/108 Test  #93: original_menu_art_contracts ..............   Passed    6.71 sec
+        Start  73: original_replay_controls_contracts
+ 64/108 Test  #68: tournament_continuity_contracts ..........   Passed    1.79 sec
+        Start  47: original_knockout_contracts
+ 65/108 Test  #73: original_replay_controls_contracts .......   Passed    0.69 sec
+        Start  14: native_gamepad_smoke
+ 66/108 Test #102: retail_audio_provenance ..................   Passed    6.77 sec
+        Start  55: original_audio_contracts
+ 67/108 Test  #47: original_knockout_contracts ..............   Passed    1.29 sec
+        Start  63: original_presentation_batch_contracts
+ 68/108 Test  #14: native_gamepad_smoke .....................   Passed    2.25 sec
+        Start  72: original_human_controls_contracts
+ 69/108 Test  #55: original_audio_contracts .................   Passed    2.74 sec
+ 70/108 Test  #72: original_human_controls_contracts ........   Passed    0.62 sec
+        Start  21: timed_match_contracts
+        Start  29: original_ball_presentation_contracts
+ 71/108 Test  #63: original_presentation_batch_contracts ....   Passed    3.35 sec
+        Start  54: original_match_overlay_contracts
+ 72/108 Test  #21: timed_match_contracts ....................   Passed    1.23 sec
+        Start   3: native_render_smoke
+ 73/108 Test  #54: original_match_overlay_contracts .........   Passed    0.77 sec
+        Start  35: original_team_play_contracts
+ 74/108 Test  #29: original_ball_presentation_contracts .....   Passed    1.27 sec
+        Start  41: original_live_match_contracts
+ 75/108 Test  #35: original_team_play_contracts .............   Passed    0.67 sec
+        Start   9: opponent_contracts
+ 76/108 Test   #3: native_render_smoke ......................   Passed    3.04 sec
+        Start  15: receiver_flow_contracts
+ 77/108 Test  #41: original_live_match_contracts ............   Passed    2.32 sec
+        Start  80: original_intro_import_contracts
+ 78/108 Test   #9: opponent_contracts .......................   Passed    1.06 sec
+        Start  11: teammate_support_contracts
+ 79/108 Test  #15: receiver_flow_contracts ..................   Passed    0.59 sec
+        Start  51: original_human_setpiece_contracts
+ 80/108 Test  #11: teammate_support_contracts ...............   Passed    0.42 sec
+ 81/108 Test  #31: original_goal_collisions .................   Passed   28.54 sec
+        Start  24: original_action_contracts
+        Start  16: opponent_motion_contracts
+ 82/108 Test  #51: original_human_setpiece_contracts ........   Passed    0.95 sec
+ 83/108 Test  #24: original_action_contracts ................   Passed    0.74 sec
+ 84/108 Test  #80: original_intro_import_contracts ..........   Passed    1.46 sec
+        Start  13: virtual_gamepad_contracts
+        Start   7: player_practice_contracts
+        Start  20: attack_contracts
+ 85/108 Test  #16: opponent_motion_contracts ................   Passed    1.56 sec
+ 86/108 Test   #7: player_practice_contracts ................   Passed    0.95 sec
+        Start  27: original_keeper_continuation
+        Start  26: original_attack_contracts
+ 87/108 Test  #13: virtual_gamepad_contracts ................   Passed    1.52 sec
+        Start  12: goal_and_restart_contracts
+ 88/108 Test  #20: attack_contracts .........................   Passed    1.09 sec
+ 89/108 Test  #27: original_keeper_continuation .............   Passed    0.56 sec
+        Start  23: native_original_graphics_smoke
+        Start  50: original_penalty_result_contracts
+ 90/108 Test  #26: original_attack_contracts ................   Passed    0.56 sec
+        Start   6: restoration_tool_contracts
+ 91/108 Test  #12: goal_and_restart_contracts ...............   Passed    0.35 sec
+        Start  48: original_penalty_control_contracts
+ 92/108 Test  #50: original_penalty_result_contracts ........   Passed    0.31 sec
+        Start  17: opponent_passing_contracts
+ 93/108 Test  #48: original_penalty_control_contracts .......   Passed    0.63 sec
+ 94/108 Test   #6: restoration_tool_contracts ...............   Passed    0.74 sec
+        Start  92: original_menu_transition_contracts
+        Start  19: keeper_contracts
+ 95/108 Test  #23: native_original_graphics_smoke ...........   Passed    1.78 sec
+        Start  33: original_control_contracts
+ 96/108 Test  #17: opponent_passing_contracts ...............   Passed    1.28 sec
+        Start  18: teammate_defense_contracts
+ 97/108 Test  #19: keeper_contracts .........................   Passed    0.57 sec
+        Start  62: original_environment_contracts
+ 98/108 Test  #33: original_control_contracts ...............   Passed    1.44 sec
+        Start   2: native_asset_verification
+ 99/108 Test  #18: teammate_defense_contracts ...............   Passed    1.27 sec
+        Start  70: match_settings_contracts
+100/108 Test   #2: native_asset_verification ................   Passed    0.72 sec
+        Start   4: original_ball_contracts
+101/108 Test   #4: original_ball_contracts ..................   Passed    0.37 sec
+        Start  91: original_presentation_finish_contracts
+102/108 Test  #92: original_menu_transition_contracts .......   Passed    6.08 sec
+        Start  85: original_prematch_contracts
+103/108 Test  #91: original_presentation_finish_contracts ...   Passed    2.96 sec
+        Start   1: asset_contracts
+104/108 Test   #1: asset_contracts ..........................   Passed    0.33 sec
+        Start  58: original_frontend_contracts
+105/108 Test  #70: match_settings_contracts .................   Passed    5.28 sec
+106/108 Test  #58: original_frontend_contracts ..............   Passed    1.20 sec
+107/108 Test  #85: original_prematch_contracts ..............   Passed    2.76 sec
+108/108 Test  #62: original_environment_contracts ...........   Passed    7.77 sec
+
+100% tests passed, 0 tests failed out of 108
+
+Total Test time (real) = 266.88 sec

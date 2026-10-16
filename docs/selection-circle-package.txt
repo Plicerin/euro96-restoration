@@ -1,0 +1,13 @@
+Package 0.65.3: 53 files hash-checked; 0 optional media absent.
+Portable preview: C:\Users\vrock\Documents\Codex\2026-10-08\ex\outputs\actuasoccer96-windows\dist\actua96-0.65.3-dd0ce8b96e98435fa949cb3d724e36fb
+Package 0.65.3: 53 files hash-checked; 0 optional media absent.
+Isolated package passed --version
+Isolated package passed --verify
+Isolated package passed --frontend-smoke
+Isolated package passed --tournament-save-smoke
+Isolated package passed --replay-file-smoke
+Isolated package passed --head-to-head-smoke
+Isolated package passed --startup-smoke
+Isolated package passed --audio-smoke
+Isolated package passed --commentary-smoke
+Isolated package and logs retained: C:\Users\vrock\AppData\Local\Temp\Actua96 package audit 27d334ab6d594dcaa357033f93e18583

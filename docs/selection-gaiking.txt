@@ -1,0 +1,17 @@
+Removed isolated test copy; kept logs: C:\Users\vrock\AppData\Local\Temp\Actua96 package audit 20d4c2e7d7b948b8bbac5a27f4637460
+Removed isolated test copy; kept logs: C:\Users\vrock\AppData\Local\Temp\Actua96 package audit 9f52016d691c411c9e292170ea355158
+Removed isolated test copy; kept logs: C:\Users\vrock\AppData\Local\Temp\Actua96 package audit 7d94fdf3419f49deb4862ecef6c887ea
+Removed isolated test copy; kept logs: C:\Users\vrock\AppData\Local\Temp\Actua96 package audit ab149c2f79334fb5b6f3eb2ca297c263
+{
+    "DeviceID":  "C:",
+    "FreeSpace":  679272448
+}
+Package 0.44.0: 36 files hash-checked; 0 optional media absent.
+Isolated package passed --version
+Isolated package passed --verify
+Isolated package passed --frontend-smoke
+Isolated package passed --tournament-save-smoke
+Isolated package passed --movie-smoke
+Isolated package passed --intro-smoke
+Isolated package and logs retained: C:\Users\vrock\AppData\Local\Temp\Actua96 package audit e22396aa3d9b47aab274014566234cd1
+Five selection groups passed on both pitch halves: loose ball, defense/circle, receivers/interception, goalkeeper handoff, manual priority. Live scheduler and held movement passed.

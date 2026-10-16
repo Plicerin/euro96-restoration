@@ -1,0 +1,47 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+      Start  97: retail_period_contracts
+      Start  95: retail_audio_contracts
+ 1/21 Test  #95: retail_audio_contracts .................   Passed   11.90 sec
+      Start  74: original_french_commentary_contracts
+ 2/21 Test  #74: original_french_commentary_contracts ...   Passed    6.35 sec
+      Start  57: original_commentary_contracts
+ 3/21 Test  #97: retail_period_contracts ................   Passed   23.99 sec
+      Start  98: retail_period_provenance
+ 4/21 Test  #98: retail_period_provenance ...............   Passed    0.37 sec
+      Start  86: native_head_to_head_smoke
+ 5/21 Test  #86: native_head_to_head_smoke ..............   Passed    7.92 sec
+      Start  96: retail_audio_provenance
+ 6/21 Test  #96: retail_audio_provenance ................   Passed    0.47 sec
+      Start  79: full_tournament_frontend_session
+ 7/21 Test  #57: original_commentary_contracts ..........   Passed   15.02 sec
+      Start  58: native_commentary_smoke
+ 8/21 Test  #58: native_commentary_smoke ................   Passed    4.58 sec
+      Start  83: saved_replay_contracts
+ 9/21 Test  #79: full_tournament_frontend_session .......   Passed    6.85 sec
+      Start  75: commentary_language_contracts
+10/21 Test  #75: commentary_language_contracts ..........   Passed    1.93 sec
+      Start  63: original_tournament_contracts
+11/21 Test  #83: saved_replay_contracts .................   Passed    3.61 sec
+      Start  85: local_head_to_head_contracts
+12/21 Test  #85: local_head_to_head_contracts ...........   Passed    1.17 sec
+      Start  56: native_frontend_smoke
+13/21 Test  #63: original_tournament_contracts ..........   Passed    5.12 sec
+      Start  80: tournament_save_recovery
+14/21 Test  #80: tournament_save_recovery ...............   Passed    0.99 sec
+      Start  65: tournament_continuity_contracts
+15/21 Test  #56: native_frontend_smoke ..................   Passed    4.96 sec
+      Start  45: original_knockout_contracts
+16/21 Test  #65: tournament_continuity_contracts ........   Passed    1.31 sec
+      Start  64: native_tournament_save_directory
+17/21 Test  #45: original_knockout_contracts ............   Passed    1.38 sec
+      Start  55: original_frontend_contracts
+18/21 Test  #64: native_tournament_save_directory .......   Passed    1.50 sec
+      Start  99: retail_sequence_contracts
+19/21 Test  #55: original_frontend_contracts ............   Passed    1.13 sec
+      Start 100: retail_sequence_provenance
+20/21 Test #100: retail_sequence_provenance .............   Passed    0.49 sec
+21/21 Test  #99: retail_sequence_contracts ..............   Passed   27.65 sec
+
+100% tests passed, 0 tests failed out of 21
+
+Total Test time (real) =  78.81 sec

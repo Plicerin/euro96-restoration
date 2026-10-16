@@ -1,0 +1,41 @@
+Start testing: Oct 13 23:48 Eastern Daylight Time
+----------------------------------------------------------
+36/101 Testing: original_automatic_selection
+36/101 Test: original_automatic_selection
+Command: "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/Release/selection_tests.exe" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE"
+Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+"original_automatic_selection" start time: Oct 13 23:48 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Opening kickoff selected=7 taker=7 receiver=10 distance=10
+32 kickoff cases passed: both sides, all four periods, single/local/spectator modes, immediate selection and automatic pass handoff.
+Full-match selection moving=0 ticks=11282 changes=165 defensive=34 loose=106 far=10 longest=4
+Full-match selection moving=1 ticks=10561 changes=183 defensive=46 loose=118 far=64 longest=15
+Five selection groups passed on both pitch halves: loose ball, defense/circle, receivers/interception, goalkeeper handoff, manual priority. Live scheduler and held movement passed.
+<end of output>
+Test time =   1.09 sec
+----------------------------------------------------------
+Test Passed.
+"original_automatic_selection" end time: Oct 13 23:48 Eastern Daylight Time
+"original_automatic_selection" time elapsed: 00:00:01
+----------------------------------------------------------
+
+81/101 Testing: original_prematch_contracts
+81/101 Test: original_prematch_contracts
+Command: "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/Release/prematch_tests.exe" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/local-data" "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/prematch-captures"
+Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+"original_prematch_contracts" start time: Oct 13 23:48 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+1. Original lineup and officials; 2. Camera orbit/hold; 3. Five venues and immutable live state passed.
+4. Keyboard/controller pause, skip, focus/disconnect and input guard passed.
+5. Frontend kickoff, interval, rematch and missing-media fallback passed.
+<end of output>
+Test time =   1.62 sec
+----------------------------------------------------------
+Test Passed.
+"original_prematch_contracts" end time: Oct 13 23:48 Eastern Daylight Time
+"original_prematch_contracts" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Oct 13 23:48 Eastern Daylight Time

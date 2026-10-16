@@ -1,0 +1,15 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start  63: original_presentation_batch_contracts
+1/5 Test  #63: original_presentation_batch_contracts ...   Passed    0.78 sec
+    Start  92: original_menu_transition_contracts
+2/5 Test  #92: original_menu_transition_contracts ......   Passed    3.72 sec
+    Start  93: original_menu_timing_provenance
+3/5 Test  #93: original_menu_timing_provenance .........   Passed    0.46 sec
+    Start  94: original_menu_art_contracts
+4/5 Test  #94: original_menu_art_contracts .............   Passed    3.40 sec
+    Start 109: retail_board_contracts
+5/5 Test #109: retail_board_contracts ..................   Passed    1.07 sec
+
+100% tests passed, 0 tests failed out of 5
+
+Total Test time (real) =  10.53 sec

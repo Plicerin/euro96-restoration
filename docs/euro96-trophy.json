@@ -1,0 +1,457 @@
+{
+  "films": [
+    {
+      "id": 0,
+      "file": "GDV/BULHOUTS.GDV",
+      "sha256": "0a78ac83b6fce27e6b8b870ee801bbd000b53b911ba664ecb0378d5276310a23",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "3646a4470649d825752758d196ffc001f7d194650292bd261f742746e0bd2476",
+      "samples": {
+        "0": "11207357263084102067",
+        "180": "10440989061445241923",
+        "982": "432796183433858391"
+      }
+    },
+    {
+      "id": 1,
+      "file": "GDV/CROHOUTS.GDV",
+      "sha256": "f42c3ede490830de079ca3e82b1759032268ba37b3a5553c24410cf21541469f",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "a1143712cbada922d0c840e362ec82770063cbb48a11285cb533d4a4d620d7d4",
+      "samples": {
+        "0": "11207357263084102067",
+        "180": "4342615664029834687",
+        "982": "9104856655037893639"
+      }
+    },
+    {
+      "id": 2,
+      "file": "GDV/CZEHOUTS.GDV",
+      "sha256": "e8bf84b77d810f906c77994f35393dbc0596de6fda6edca4a60f9028a778a16e",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "7d42754b6725bf78242f7dc6e4de6f7bce670dfbaa4481fadc3a257fe2f52792",
+      "samples": {
+        "0": "53032522287037999",
+        "180": "2010602683299915567",
+        "982": "17885843284030329699"
+      }
+    },
+    {
+      "id": 3,
+      "file": "GDV/DENHOUTS.GDV",
+      "sha256": "85d4bcf1be0e9532c6cb7cc594ee6c7a90c509db80b65be9b7629be6216699c5",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "a28e508ff4f8e768316cb39e1249026be68bf9f4395c2e24c6bfe9525a746c67",
+      "samples": {
+        "0": "8082932778970320743",
+        "180": "17421105173605825347",
+        "982": "5340152953721140227"
+      }
+    },
+    {
+      "id": 4,
+      "file": "GDV/ENGHOUTS.GDV",
+      "sha256": "f4f611640e21996e2e48c09df398e774f9172334195668d0e0f6194f440f3f5c",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "040def482d8953ca268bc1d9977a87a6472b1d1e7c70fbe385af0ca4a5cac115",
+      "samples": {
+        "0": "8082932778970320743",
+        "180": "10376921822199332227",
+        "982": "16216233344770380379"
+      }
+    },
+    {
+      "id": 5,
+      "file": "GDV/FRAHOUTS.GDV",
+      "sha256": "69cfe6ec78d401c3aa82acc3510fec675f691c8ea86c7ffb8e4e9114236692de",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "4af0fbd7c7ff37fd9bd30d80af17f86b2d53c1c1ba6ae1462ac353eb79818bff",
+      "samples": {
+        "0": "8082932778970320743",
+        "180": "6671488807812921323",
+        "982": "9284986254840590483"
+      }
+    },
+    {
+      "id": 6,
+      "file": "GDV/GERHOUTS.GDV",
+      "sha256": "59c4fba70edb8fc87165db2dbc9fa2da19062623706589b658b8449a38d27ada",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "d982a489dff7d592d969e4939e99bd8565927c22661bd818c3e500ac07cb2b88",
+      "samples": {
+        "0": "8082932778970320743",
+        "180": "4227973586688083523",
+        "982": "2559292179279970439"
+      }
+    },
+    {
+      "id": 7,
+      "file": "GDV/HOLHOUTS.GDV",
+      "sha256": "73e78f0fa734ac8d294104eed48a010fa26e65805673817cf355e0e01477f199",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "d6e57bef2de0436e47a3a937596c9a87076134a28d964d79e49e5f624dd50a40",
+      "samples": {
+        "0": "53032522287037999",
+        "180": "11859621295405249619",
+        "982": "15051680039923571715"
+      }
+    },
+    {
+      "id": 8,
+      "file": "GDV/ITAHOUTS.GDV",
+      "sha256": "7ef1737494b3bad3b0c6876cd7f9d133df3f62d5dd7b6d75ffb64232d8fbf625",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "4812bcbb13a691cc0884e411cebb7003a26d21140bced6ff8c9eaf3c4c9ab3b8",
+      "samples": {
+        "0": "8082932778970320743",
+        "180": "13839178345156228971",
+        "982": "4108781316510311815"
+      }
+    },
+    {
+      "id": 9,
+      "file": "GDV/PORHOUTS.GDV",
+      "sha256": "440ecdcacb2480a7712a855be117e36ccca340cd013182fd92b33dd604523479",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "a2033c052c5bf3378b5a49bf73c3ef504965845ddeb8a8ae2c8bd0baec6d649d",
+      "samples": {
+        "0": "8082932778970320743",
+        "180": "12105717829874056867",
+        "982": "13726856148289749123"
+      }
+    },
+    {
+      "id": 10,
+      "file": "GDV/ROMHOUTS.GDV",
+      "sha256": "df9a71ecba2ef48bc1644b6fbdf645cb2867078bfdba2c248a5e5bceaa5fc6b3",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "fdcf6eb93770fda771dee379fe4e10ee674eca4317af56c0b28d306cc794ff71",
+      "samples": {
+        "0": "8082932778970320743",
+        "180": "9655024306152643979",
+        "982": "13348395605364812163"
+      }
+    },
+    {
+      "id": 11,
+      "file": "GDV/RUSHOUTS.GDV",
+      "sha256": "7e1e986bf9b2cc6ca5337132d6d84a71aead2ccb956fb34523f6fd324d14dd4b",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "3b2412cb92f3082a3df51695bb6ff50195233fecaeb65f66a7282f8c00160db5",
+      "samples": {
+        "0": "8082932778970320743",
+        "180": "10834208911822578623",
+        "982": "12711122607573936307"
+      }
+    },
+    {
+      "id": 12,
+      "file": "GDV/SCOHOUTS.GDV",
+      "sha256": "54c214e90374bc6004d8e4934c3ec8875a1aab1c69e2abd456c95887b036d438",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "ef13f2594f721b28252bed95bf7f46c035b8cc75d6438774493cc41a38efed52",
+      "samples": {
+        "0": "8082932778970320743",
+        "180": "5175847081321237287",
+        "982": "3668531577528253231"
+      }
+    },
+    {
+      "id": 13,
+      "file": "GDV/SPAHOUTS.GDV",
+      "sha256": "b0f7c13ed735a549ff6f3159076d1a405d5afcf1d71becf73d6da12f4ad8b2c0",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "1907968297485ee3f6c0ea9748007d9680e7d21882c24f6dbaf0d1adc4c4cf83",
+      "samples": {
+        "0": "53032522287037999",
+        "180": "1497913875874925027",
+        "982": "12099023760123988207"
+      }
+    },
+    {
+      "id": 14,
+      "file": "GDV/SWZHOUTS.GDV",
+      "sha256": "13a43ea304af46edf9a5e8d2e5c392592a9b8a540a6d373da7a0f748ea6fc4b9",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "e97fe80f7e390151f25027aafc21801a2a02fa42ec77a3b21475f1ae41a2ca55",
+      "samples": {
+        "0": "8082932778970320743",
+        "180": "15997250495760734603",
+        "982": "14604235272102687207"
+      }
+    },
+    {
+      "id": 15,
+      "file": "GDV/TURHOUTS.GDV",
+      "sha256": "7def009cf2194cf779a6872781936e60902b018755a4a7836ec8c04c8d736dcb",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "0c0278d945aaebb5529bbd1349a53a22956871a39b365f924bf2bb86fd2afc39",
+      "samples": {
+        "0": "8082932778970320743",
+        "180": "6389239014219816503",
+        "982": "13750854649696761991"
+      }
+    },
+    {
+      "id": 16,
+      "file": "GDV/BULAOUTS.GDV",
+      "sha256": "7b935c55cf379e1b971eb26f642f86a8bbd44f66bf58919bb3e771766936a364",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "f309219464fa492668b17688a0d43a6548a94c8632dbcbcaf280bdcd827e70f6",
+      "samples": {
+        "0": "8082932778970320743",
+        "180": "3892992185464188159",
+        "982": "10438764619054371427"
+      }
+    },
+    {
+      "id": 17,
+      "file": "GDV/CROAOUTS.GDV",
+      "sha256": "6e762aaeb2e2fe8cf7fcbf124f73f103db9facfa022d26586614e4013f76b924",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "8269fa804e89b74df0ba889140eac42161aec38a5672c36dc90cc2dae81a0465",
+      "samples": {
+        "0": "8082932778970320743",
+        "180": "13006029513667150187",
+        "982": "1848579296618526975"
+      }
+    },
+    {
+      "id": 18,
+      "file": "GDV/CZEAOUTS.GDV",
+      "sha256": "5732bb954700b90dd023765b704e45e6d0f8ad59546a7e131e99f923aae159c5",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "76a10111eac926f080dc0f4f5931ff5d07d8390b1e8f4c18a791c5f6dd2762e8",
+      "samples": {
+        "0": "53032522287037999",
+        "180": "3731581620056743627",
+        "982": "18309947270461809687"
+      }
+    },
+    {
+      "id": 19,
+      "file": "GDV/DENAOUTS.GDV",
+      "sha256": "6bfe52830117d5b77fa4b1a758a6ada84030d9a8ad8b9fa81cccfef607a9671c",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "f4a1357452d36421503e409447d85b74e4ee00539783893daa04eadc9b154f7a",
+      "samples": {
+        "0": "8082932778970320743",
+        "180": "10850341044778964939",
+        "982": "1973506601825407119"
+      }
+    },
+    {
+      "id": 20,
+      "file": "GDV/ENGAOUTS.GDV",
+      "sha256": "3acfe1548b85ee79564c9e46da2c0ebb2f35afe84487ca9fcc1fd6c7f90d37f7",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "e04f24e7db3f59f549abb0e575fffcda20c7f2fb124156ec1383f0d89a39e5d3",
+      "samples": {
+        "0": "8082932778970320743",
+        "180": "5147310208330772271",
+        "982": "2247042673616375975"
+      }
+    },
+    {
+      "id": 21,
+      "file": "GDV/FRAAOUTS.GDV",
+      "sha256": "f1f3d973eebcf4576a28aa559a815a31f3b8d10e1ffb40d1cca248ae1460f765",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "2721d335cfe803fc86266fd7afcbd657ea3da9860000a6d0790f73744aaab072",
+      "samples": {
+        "0": "8082932778970320743",
+        "180": "6578247540223606631",
+        "982": "18117147202673785735"
+      }
+    },
+    {
+      "id": 22,
+      "file": "GDV/GERAOUTS.GDV",
+      "sha256": "7d9de41a0fcc2ef438b1664b728049e7036bee2d051f0806313b577b063cbf60",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "2ad90bd11cdc1192e5993cf6e98d22b39ebd076e6bf66024566ab9ff5d8bc15b",
+      "samples": {
+        "0": "8082932778970320743",
+        "180": "9345804002738876191",
+        "982": "16129075285079640251"
+      }
+    },
+    {
+      "id": 23,
+      "file": "GDV/HOLAOUTS.GDV",
+      "sha256": "40019e5394403ed93ccad5ba2de6cd57e14f48bd2ba968c53c1bb03cf97525d8",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "2799c25bf578f15270f2e405e96a8d63a672da4814f11d8cbd3726c244b4ae32",
+      "samples": {
+        "0": "53032522287037999",
+        "180": "3534264338546928191",
+        "982": "13824404984160419939"
+      }
+    },
+    {
+      "id": 24,
+      "file": "GDV/ITAAOUTS.GDV",
+      "sha256": "03f3913cdb5bd49f6cb08cf40780b89013a38e903eb2b75b96cd755d1d98ed02",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "b52ef33ad7508c6ec1276d19f98e54a7886d644a7b628770ed4124e80fcf4b5f",
+      "samples": {
+        "0": "8082932778970320743",
+        "180": "8919692261601097171",
+        "982": "3150173651831090639"
+      }
+    },
+    {
+      "id": 25,
+      "file": "GDV/PORAOUTS.GDV",
+      "sha256": "73cf22db4b8ae6b2762f73088551fe23db204e911d7050a06b868e8c636e4c56",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "fae1d72f9f9edb64e98d677816282ca15311c8e05ef8e5027126a00606e21713",
+      "samples": {
+        "0": "53032522287037999",
+        "180": "10794888187619730451",
+        "982": "12109164109496780659"
+      }
+    },
+    {
+      "id": 26,
+      "file": "GDV/ROMAOUTS.GDV",
+      "sha256": "b634295a630eda0253c4459496a34b0c4898e22fdf4e0211f08828afd506d6b3",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "a70b66cb40c544370d143c35a848a21d07a4894b438333ac2f9723e936b1f630",
+      "samples": {
+        "0": "8082932778970320743",
+        "180": "1661784074155731875",
+        "982": "13380973072515299483"
+      }
+    },
+    {
+      "id": 27,
+      "file": "GDV/RUSAOUTS.GDV",
+      "sha256": "58f26820d8a5bfa79be28ef13f9e87d7907101869402f8e6487c6de28a553976",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "5f3b14db6d5b57eecb4fc36d82315846ed77a0df00aeecd25e7829f5643a2d87",
+      "samples": {
+        "0": "8082932778970320743",
+        "180": "16250195415933807771",
+        "982": "14458584492229160247"
+      }
+    },
+    {
+      "id": 28,
+      "file": "GDV/SCOAOUTS.GDV",
+      "sha256": "72c3971a2a69d5000978d47fc5c481ccc38746ccc7ed70c11b81164a66d50650",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "a86299c842d92eb344f04164fc3ebbeed82993b88562c23fd0e2c77ec84cf0f8",
+      "samples": {
+        "0": "8082932778970320743",
+        "180": "14278911187055265203",
+        "982": "15424114829175031295"
+      }
+    },
+    {
+      "id": 29,
+      "file": "GDV/SPAAOUTS.GDV",
+      "sha256": "301b983bd72fc492985dbdbf0f0e37564186de8d34fe6e287c2d8981ea87249f",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "35a927658640ef3b213b9bfd2a0791fc2a2632ed272e4dae7e9960342d48a769",
+      "samples": {
+        "0": "8082932778970320743",
+        "180": "4574920078558573035",
+        "982": "2638022099180411283"
+      }
+    },
+    {
+      "id": 30,
+      "file": "GDV/SWZAOUTS.GDV",
+      "sha256": "6d5fbbbd8501c10d2600dc1bd0d49364f28351605a9940547683f5de39825b2d",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "4d055c8534d5a2658ceeeb640bcb38672a59def05e7d19ffc56c3cf4d8c7b855",
+      "samples": {
+        "0": "8082932778970320743",
+        "180": "759204843446484639",
+        "982": "11383320934053879399"
+      }
+    },
+    {
+      "id": 31,
+      "file": "GDV/TURAOUTS.GDV",
+      "sha256": "8c5448cd36d3a634ed42a485edddbce5108fe049501b5b6027d63837c3c9169e",
+      "frames": 983,
+      "pcm_bytes": 3611542,
+      "pcm_sha256": "447049193e5be28c4d0bb75758856d7fa877e70ef9a92bdbbbdcd625564e2ff9",
+      "decoded_pal8_sha256": "4fa82f04fcad2bb621986c6069d5203dab664afb042325ca9e69817b0b86cf9e",
+      "samples": {
+        "0": "8082932778970320743",
+        "180": "2749216198889900855",
+        "982": "18390436644781354903"
+      }
+    }
+  ],
+  "bytes": 351368060,
+  "sha256": "000febd208efed7fbe1e6155376d12a0a9056b1c29817b3a5b33006ddf1c093b",
+  "decoder": "ffmpeg version 8.1.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+  "audio": "Original unsigned 8-bit stereo 22050 Hz; no downmix",
+  "routing": "Retail filename table 0x1376a4; home 0..15, alternate 16..31. Native champion event uses the final match kit clash selection."
+}

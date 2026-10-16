@@ -1,0 +1,2 @@
+Package 0.63.0: 53 files hash-checked; 0 optional media absent.
+Temporary desktop task removed.

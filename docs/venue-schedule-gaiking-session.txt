@@ -1,0 +1,32 @@
+Fixture 1 ENG 0:1 SWZ venue=Wembley frames=11389 extra=0 pens=0
+Fixture 2 SPN 2:0 BUL venue=Elland Road frames=11453 extra=0 pens=0
+Fixture 3 GER 5:0 CZC venue=Old Trafford frames=12928 extra=0 pens=0
+Fixture 4 DMK 2:0 POR venue=Hillsborough frames=11748 extra=0 pens=0
+Fixture 5 HOL 0:0 SCT venue=Villa Park frames=10064 extra=0 pens=0
+Fixture 6 ROM 1:2 FRN venue=St James Park frames=11737 extra=0 pens=0
+Fixture 7 ITA 0:0 RUS venue=Anfield frames=9403 extra=0 pens=0
+Fixture 8 TRK 0:1 CRO venue=City Ground frames=11526 extra=0 pens=0
+Fixture 9 BUL 1:4 ROM venue=St James Park frames=12931 extra=0 pens=0
+Fixture 10 SWZ 0:1 HOL venue=Villa Park frames=10459 extra=0 pens=0
+Fixture 11 POR 2:0 TRK venue=City Ground frames=11496 extra=0 pens=0
+Fixture 12 CZC 0:2 ITA venue=Anfield frames=11408 extra=0 pens=0
+Fixture 13 SCT 1:1 ENG venue=Wembley frames=11701 extra=0 pens=0
+Fixture 14 FRN 0:0 SPN venue=Elland Road frames=9718 extra=0 pens=0
+Fixture 15 RUS 0:0 GER venue=Old Trafford frames=11214 extra=0 pens=0
+Fixture 16 CRO 1:1 DMK venue=Hillsborough frames=12019 extra=0 pens=0
+Fixture 17 FRN 1:2 BUL venue=St James Park frames=10999 extra=0 pens=0
+Fixture 18 ROM 0:3 SPN venue=Elland Road frames=11181 extra=0 pens=0
+Fixture 19 HOL 1:3 ENG venue=Wembley frames=11598 extra=0 pens=0
+Fixture 20 SCT 2:1 SWZ venue=Villa Park frames=11334 extra=0 pens=0
+Fixture 21 CRO 0:1 POR venue=City Ground frames=11475 extra=0 pens=0
+Fixture 22 TRK 0:0 DMK venue=Hillsborough frames=10640 extra=0 pens=0
+Fixture 23 RUS 2:0 CZC venue=Anfield frames=11899 extra=0 pens=0
+Fixture 24 ITA 1:2 GER venue=Old Trafford frames=12566 extra=0 pens=0
+Fixture 25 SCT 0:3 FRN venue=Wembley frames=11780 extra=0 pens=0
+Fixture 26 SPN 2:0 ENG venue=Anfield frames=11657 extra=0 pens=0
+Fixture 27 GER 2:0 DMK venue=Old Trafford frames=11317 extra=0 pens=0
+Fixture 28 POR 0:1 RUS venue=Villa Park frames=10418 extra=0 pens=0
+Fixture 29 FRN 0:1 RUS venue=Old Trafford frames=14780 extra=1 pens=0
+Fixture 30 SPN 1:0 GER venue=Wembley frames=11326 extra=0 pens=0
+Fixture 31 RUS 1:1 SPN venue=Wembley frames=18218 extra=1 pens=1
+Full frontend session: 31 matches, 226 individual transitions, 31 natural openings, 62 natural tunnel exits, 35 intervals, 59 replays, 59 goals, 2 extra-time matches, 1 shootouts; champion=SPAIN. All 31 saved checkpoints resumed.

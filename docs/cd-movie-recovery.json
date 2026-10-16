@@ -1,0 +1,39 @@
+{
+  "original": "VIDEO/VWHOLE_S.GDV",
+  "source_sha256": "b4331d03270b0a2f00201e36bf1703ab59e1ac95fc884c57fc5c60b232531158",
+  "path": "VIDEO/MAKING.AMV",
+  "sha256": "8c04914db0f1da4e389b5f1cf7e6aa1819b500c0bf769af666d96338e86a27c0",
+  "size": 85090292,
+  "width": 320,
+  "height": 240,
+  "frames": 2869,
+  "fps": 12,
+  "pcm_rate": 22050,
+  "pcm_bytes": 5270353,
+  "pcm_sha256": "5112f87204fc5a695050a3a85f976ed551f53a7f09fab4f3b34b86c830ef631f",
+  "decoded_pal8_sha256": "45cfed240de5f319fa2a9459aa6de68b0e2caa247259a9db1bdaf079619a379b",
+  "samples": {
+    "0": {
+      "rgba_fnv64": "7506888735744058243",
+      "png_sha256": "b2b5ce326e7f22ff22397ff665d860aab32e0a831c464310d728c02168d6f458"
+    },
+    "144": {
+      "rgba_fnv64": "7474355702564562895",
+      "png_sha256": "9d6723196f7431f20db9e371fc2cca809625cc758a0c14c5cdbae03e3257afc2"
+    },
+    "840": {
+      "rgba_fnv64": "1220142624948587039",
+      "png_sha256": "c5d36de43384e1ac9965f778ef86176ebf3bebeebd81f90c1d3180906da696c6"
+    },
+    "2160": {
+      "rgba_fnv64": "12184047216624586459",
+      "png_sha256": "9221ada353728b2ef9913fde77c99998a2454cbd2996d7d4672a41c3a1ceb43c"
+    },
+    "2868": {
+      "rgba_fnv64": "8259515088564907111",
+      "png_sha256": "4810014a66b03ae4a486af2ff96623f5b03f65c5bdff1a098426fcc1add56131"
+    }
+  },
+  "decoder": "ffmpeg version 8.1.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+  "limits": "VFULL_S intro has decoder errors; high-colour S variants are not supported by this import. Only complete verified VWHOLE_S is published."
+}

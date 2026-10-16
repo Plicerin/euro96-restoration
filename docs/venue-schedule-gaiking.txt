@@ -1,0 +1,2 @@
+venue-contract : True
+full-session : True

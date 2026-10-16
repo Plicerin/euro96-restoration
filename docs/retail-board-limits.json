@@ -1,0 +1,202 @@
+{
+  "inputs": {
+    "EURO96.EXE": "2a473a002a294c1bb28ea39e94a36afc34497dd7e44f0ebfeda0ea21f652b62d",
+    "FAP.DAT": "c1b917dd6319cd0eb94cf8db5391283afdafd846f86c48000a0fa5a3b86471b6",
+    "FAP.OFF": "ff93223b63dcc20fd9b115a2d9e96edb00bd38781d064a78190c929720e21ddb"
+  },
+  "records": {
+    "0": {
+      "frames": 1
+    },
+    "1": {
+      "frames": 73
+    },
+    "2": {
+      "frames": 40
+    },
+    "3": {
+      "frames": 40
+    },
+    "4": {
+      "frames": 45
+    },
+    "5": {
+      "frames": 36
+    },
+    "6": {
+      "frames": 40
+    },
+    "7": {
+      "excluded": "Board literal outside frame"
+    },
+    "8": {
+      "frames": 50
+    },
+    "9": {
+      "frames": 50
+    },
+    "10": {
+      "frames": 36
+    },
+    "11": {
+      "frames": 40
+    },
+    "12": {
+      "frames": 50
+    },
+    "13": {
+      "frames": 50
+    },
+    "14": {
+      "frames": 50
+    },
+    "15": {
+      "frames": 50
+    }
+  },
+  "penalty_first_invalid_write": {
+    "frame": 20,
+    "operation": "literal",
+    "end_pixel": 10442,
+    "pixel_limit": 10240,
+    "cursor": 68651
+  },
+  "winner_direct_call_candidates": {
+    "0xe1128": [
+      "0xeb010"
+    ],
+    "0xe11d8": [
+      "0xeb019"
+    ]
+  },
+  "retail_relocations": {
+    "format_reference": "https://github.com/open-watcom/open-watcom-v2/blob/master/bld/watcom/h/exeflat.h",
+    "embedded_mz": "0x26654",
+    "le_header": "0x292d4",
+    "code_file_base": "0x76854",
+    "pages": 209,
+    "fixups": 36631,
+    "forms": {
+      "07/10": 29176,
+      "07/00": 7451,
+      "02/00": 3,
+      "06/10": 1
+    },
+    "relocated_handler_references": [],
+    "relocated_board_state_references": [
+      "0xd16de",
+      "0xe0cfb",
+      "0xe0db7",
+      "0xe0e73",
+      "0xe0f2f",
+      "0xe0feb",
+      "0xe109c",
+      "0xe1147",
+      "0xe11f7",
+      "0xe8c36",
+      "0xeafb1",
+      "0xeb021",
+      "0xec661",
+      "0xf076f"
+    ],
+    "direct_branch_candidates": {
+      "0xe0cdc": {
+        "call_candidates": [
+          "0xeafda"
+        ],
+        "tail_jump_candidates": []
+      },
+      "0xe0d98": {
+        "call_candidates": [
+          "0xeafe3"
+        ],
+        "tail_jump_candidates": []
+      },
+      "0xe0e54": {
+        "call_candidates": [
+          "0xeafec"
+        ],
+        "tail_jump_candidates": []
+      },
+      "0xe0f10": {
+        "call_candidates": [
+          "0xeaff5"
+        ],
+        "tail_jump_candidates": []
+      },
+      "0xe0fcc": {
+        "call_candidates": [
+          "0xeaffe"
+        ],
+        "tail_jump_candidates": []
+      },
+      "0xe107c": {
+        "call_candidates": [
+          "0xb7543",
+          "0xb75c4",
+          "0xeb007"
+        ],
+        "tail_jump_candidates": []
+      },
+      "0xe1128": {
+        "call_candidates": [
+          "0xeb010"
+        ],
+        "tail_jump_candidates": []
+      },
+      "0xe11d8": {
+        "call_candidates": [
+          "0xeb019"
+        ],
+        "tail_jump_candidates": []
+      }
+    },
+    "state_anchors": [
+      {
+        "file_offset": "0xf0765",
+        "bytes": "31db"
+      },
+      {
+        "file_offset": "0xf076d",
+        "bytes": "891d18730900"
+      },
+      {
+        "file_offset": "0xeafaf",
+        "bytes": "833d1873090000"
+      },
+      {
+        "file_offset": "0xeafb6",
+        "bytes": "0f8481000000"
+      },
+      {
+        "file_offset": "0xe113b",
+        "bytes": "ba07000000"
+      },
+      {
+        "file_offset": "0xe1145",
+        "bytes": "891518730900"
+      },
+      {
+        "file_offset": "0xe11eb",
+        "bytes": "ba08000000"
+      },
+      {
+        "file_offset": "0xe11f5",
+        "bytes": "891518730900"
+      },
+      {
+        "file_offset": "0xb7541",
+        "bytes": "31c0e8349b0200"
+      },
+      {
+        "file_offset": "0xb75c2",
+        "bytes": "31c0e8b39a0200"
+      }
+    ],
+    "positive_control": "The same scan recovers both real goal triggers (own goal at 0xb7543 and normal goal at 0xb75c4), each calling the goal-board handler with zero to start loading.",
+    "conclusion": "No relocated pointer to any of the eight board handlers. Winner call candidates remain confined to the renderer. Board state initializes to zero; identified nonzero setters are the handlers themselves.",
+    "limits": "Static evidence suggests dormant paths, but does not exclude a computed address, aliased state write, external patch or another retail revision. This is not a verified match-end trigger."
+  },
+  "conclusion": "Penalty cannot be decoded safely in full. Winner direct-call candidates lead only to the board dispatcher; a match/championship trigger is still unverified.",
+  "limits": "The complete LE relocation audit finds no extra handler pointers. Computed or aliased accesses and other revisions remain outside that proof. No new winner trigger or speculative data repair is justified."
+}

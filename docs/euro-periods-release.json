@@ -1,0 +1,39 @@
+{
+  "version": "0.59.0",
+  "buildId": "e83faa116629a237-2b4b128d-0703f4d7-205074c5",
+  "sourceUnchanged": true,
+  "trackedSourceFiles": 427,
+  "saveUnchanged": true,
+  "saves": {
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\tournament.sav": "9683d18cecad6d6c3d57d294ca57cd1b0cff427c723892502d05958f8f4bc2df"
+  },
+  "focusedTests": 8,
+  "focusedSeconds": 34.57,
+  "periodScoreCases": 592,
+  "packageHashes": 50,
+  "isolatedSmokes": 9,
+  "fullSuiteRerun": false,
+  "previousFullSuite": "0.58.0: 97/97 passed",
+  "package": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\actuasoccer96-windows\\dist\\actua96-0.59.0-bed77c5601904e7a83751f9a038dfb4d",
+  "executables": [
+    {
+      "path": "C:\\Users\\vrock\\AppData\\Local\\Temp\\actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b\\Release\\actua96.exe",
+      "sha256": "e83faa116629a237a86682da0659a184083ee99ad426ecdb0fe793a47b4187c4"
+    },
+    {
+      "path": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\actuasoccer96-windows\\dist\\actua96-0.59.0-bed77c5601904e7a83751f9a038dfb4d\\actua96.exe",
+      "sha256": "e83faa116629a237a86682da0659a184083ee99ad426ecdb0fe793a47b4187c4"
+    },
+    {
+      "path": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\Actua96-Playtest\\builds\\e83faa116629a237-2b4b128d-0703f4d7-205074c5\\actua96.exe",
+      "sha256": "e83faa116629a237a86682da0659a184083ee99ad426ecdb0fe793a47b4187c4"
+    }
+  ],
+  "media": {
+    "COMMENTARY/EURO_PERIODS.BIN": {
+      "bytes": 12098525,
+      "sha256": "0457e4a1e0af62df089e2c76646bd1ea761bb6954933ba046f1f9a764365e7d5"
+    }
+  },
+  "launcherAliasesMatch": true
+}

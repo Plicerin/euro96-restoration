@@ -1,0 +1,254 @@
+{
+  "executable_sha256": "2a473a002a294c1bb28ea39e94a36afc34497dd7e44f0ebfeda0ea21f652b62d",
+  "source_sha256": "5bafbb9bc2bd5c63ccb44e17bd978cb01f788d86c2bd862fd150781889911d3e",
+  "schedule_file_offset": "0x139a98",
+  "schedule_data_offset": "0xa244",
+  "venue_labels_file_offset": "0x13347d",
+  "anchors": [
+    {
+      "file_offset": "0x9904f",
+      "bytes": "0fb6058fb20400",
+      "meaning": "Read current fixture byte at data+0x4b28f"
+    },
+    {
+      "file_offset": "0x99056",
+      "bytes": "660fb68044a20000",
+      "meaning": "Read MatchVenues[fixture] at data+0xa244"
+    },
+    {
+      "file_offset": "0x9905e",
+      "bytes": "66a3f4680800",
+      "meaning": "Store venue into setup word at data+0x868f4"
+    },
+    {
+      "file_offset": "0xe8917",
+      "bytes": "668b15f4680800",
+      "meaning": "Read that setup venue for stadium dispatch"
+    },
+    {
+      "file_offset": "0xe891e",
+      "bytes": "6683fa07",
+      "meaning": "Dispatch accepts retail venues 0-7"
+    }
+  ],
+  "fixtures": [
+    {
+      "fixture": 1,
+      "retail_id": 0,
+      "native_id": 5,
+      "city": "London",
+      "stadium": "Wembley"
+    },
+    {
+      "fixture": 2,
+      "retail_id": 2,
+      "native_id": 7,
+      "city": "Leeds",
+      "stadium": "Elland Road"
+    },
+    {
+      "fixture": 3,
+      "retail_id": 4,
+      "native_id": 9,
+      "city": "Manchester",
+      "stadium": "Old Trafford"
+    },
+    {
+      "fixture": 4,
+      "retail_id": 6,
+      "native_id": 11,
+      "city": "Sheffield",
+      "stadium": "Hillsborough"
+    },
+    {
+      "fixture": 5,
+      "retail_id": 1,
+      "native_id": 6,
+      "city": "Birmingham",
+      "stadium": "Villa Park"
+    },
+    {
+      "fixture": 6,
+      "retail_id": 3,
+      "native_id": 8,
+      "city": "Newcastle",
+      "stadium": "St James Park"
+    },
+    {
+      "fixture": 7,
+      "retail_id": 5,
+      "native_id": 10,
+      "city": "Liverpool",
+      "stadium": "Anfield"
+    },
+    {
+      "fixture": 8,
+      "retail_id": 7,
+      "native_id": 12,
+      "city": "Nottingham",
+      "stadium": "City Ground"
+    },
+    {
+      "fixture": 9,
+      "retail_id": 3,
+      "native_id": 8,
+      "city": "Newcastle",
+      "stadium": "St James Park"
+    },
+    {
+      "fixture": 10,
+      "retail_id": 1,
+      "native_id": 6,
+      "city": "Birmingham",
+      "stadium": "Villa Park"
+    },
+    {
+      "fixture": 11,
+      "retail_id": 7,
+      "native_id": 12,
+      "city": "Nottingham",
+      "stadium": "City Ground"
+    },
+    {
+      "fixture": 12,
+      "retail_id": 5,
+      "native_id": 10,
+      "city": "Liverpool",
+      "stadium": "Anfield"
+    },
+    {
+      "fixture": 13,
+      "retail_id": 0,
+      "native_id": 5,
+      "city": "London",
+      "stadium": "Wembley"
+    },
+    {
+      "fixture": 14,
+      "retail_id": 2,
+      "native_id": 7,
+      "city": "Leeds",
+      "stadium": "Elland Road"
+    },
+    {
+      "fixture": 15,
+      "retail_id": 4,
+      "native_id": 9,
+      "city": "Manchester",
+      "stadium": "Old Trafford"
+    },
+    {
+      "fixture": 16,
+      "retail_id": 6,
+      "native_id": 11,
+      "city": "Sheffield",
+      "stadium": "Hillsborough"
+    },
+    {
+      "fixture": 17,
+      "retail_id": 3,
+      "native_id": 8,
+      "city": "Newcastle",
+      "stadium": "St James Park"
+    },
+    {
+      "fixture": 18,
+      "retail_id": 2,
+      "native_id": 7,
+      "city": "Leeds",
+      "stadium": "Elland Road"
+    },
+    {
+      "fixture": 19,
+      "retail_id": 0,
+      "native_id": 5,
+      "city": "London",
+      "stadium": "Wembley"
+    },
+    {
+      "fixture": 20,
+      "retail_id": 1,
+      "native_id": 6,
+      "city": "Birmingham",
+      "stadium": "Villa Park"
+    },
+    {
+      "fixture": 21,
+      "retail_id": 7,
+      "native_id": 12,
+      "city": "Nottingham",
+      "stadium": "City Ground"
+    },
+    {
+      "fixture": 22,
+      "retail_id": 6,
+      "native_id": 11,
+      "city": "Sheffield",
+      "stadium": "Hillsborough"
+    },
+    {
+      "fixture": 23,
+      "retail_id": 5,
+      "native_id": 10,
+      "city": "Liverpool",
+      "stadium": "Anfield"
+    },
+    {
+      "fixture": 24,
+      "retail_id": 4,
+      "native_id": 9,
+      "city": "Manchester",
+      "stadium": "Old Trafford"
+    },
+    {
+      "fixture": 25,
+      "retail_id": 0,
+      "native_id": 5,
+      "city": "London",
+      "stadium": "Wembley"
+    },
+    {
+      "fixture": 26,
+      "retail_id": 5,
+      "native_id": 10,
+      "city": "Liverpool",
+      "stadium": "Anfield"
+    },
+    {
+      "fixture": 27,
+      "retail_id": 4,
+      "native_id": 9,
+      "city": "Manchester",
+      "stadium": "Old Trafford"
+    },
+    {
+      "fixture": 28,
+      "retail_id": 1,
+      "native_id": 6,
+      "city": "Birmingham",
+      "stadium": "Villa Park"
+    },
+    {
+      "fixture": 29,
+      "retail_id": 4,
+      "native_id": 9,
+      "city": "Manchester",
+      "stadium": "Old Trafford"
+    },
+    {
+      "fixture": 30,
+      "retail_id": 0,
+      "native_id": 5,
+      "city": "London",
+      "stadium": "Wembley"
+    },
+    {
+      "fixture": 31,
+      "retail_id": 0,
+      "native_id": 5,
+      "city": "London",
+      "stadium": "Wembley"
+    }
+  ],
+  "compatibility": "New complete-retail-media championships use this schedule; versions 1-3 remain fixed-venue. Native IDs 0-4 remain legacy."
+}

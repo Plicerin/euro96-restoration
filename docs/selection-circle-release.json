@@ -1,0 +1,35 @@
+{
+  "version": "0.65.3",
+  "buildId": "cdc35835398749d6-2b4b128d-0703f4d7-7dba4a40",
+  "executableSha256": "cdc35835398749d66538e9a4d234920b32d879b0217ad8c9255eb015e2fde2e8",
+  "package": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\actuasoccer96-windows\\dist\\actua96-0.65.3-dd0ce8b96e98435fa949cb3d724e36fb",
+  "packageHashes": 53,
+  "packageSmokeChecks": 9,
+  "focusedTests": 4,
+  "focusedSeconds": 8.64,
+  "sourceFiles": 427,
+  "sourceUnchanged": true,
+  "localUserStateUnchanged": true,
+  "localUserState": {
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\tournament.prefs": "ABSENT",
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\tournament.prefs.bak": "ABSENT",
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\tournament.sav": "9683D18CECAD6D6C3D57D294CA57CD1B0CFF427C723892502D05958F8F4BC2DF",
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\tournament.sav.bak": "582545086E457D4066619DF693DD0C00874BE66419160F7DF1777C57D48B24A9"
+  },
+  "buildPackagePublishedExeAndMediaMatch": true,
+  "mediaUnchangedFrom0652": true,
+  "visualReview": "Hidden Direct3D11 title at 1200x830 and all twelve original/filtered animation pairs in software at 960x664",
+  "pixelCheck": {
+    "titleTextPixelIdentical": true,
+    "allChangesInsideCircleColumn": true,
+    "changedBounds": [
+      668,
+      223,
+      746,
+      620
+    ],
+    "before": "selected-text-title.png",
+    "after": "selection-circle-title.png"
+  },
+  "runningGameRestarted": false
+}

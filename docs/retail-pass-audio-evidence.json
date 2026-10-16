@@ -1,0 +1,87 @@
+{
+  "executable_sha256": "2a473a002a294c1bb28ea39e94a36afc34497dd7e44f0ebfeda0ea21f652b62d",
+  "reception_file_range": [
+    "0xba34f",
+    "0xba532"
+  ],
+  "anchors": [
+    {
+      "file_offset": "0xba34f",
+      "bytes": "53525683ec1489c2",
+      "meaning": "Reception routine entry and receiver argument"
+    },
+    {
+      "file_offset": "0xba357",
+      "bytes": "a1d9a60700c1f81885c0",
+      "meaning": "Signed comm_pass gate"
+    },
+    {
+      "file_offset": "0xba367",
+      "bytes": "f60570ab070038",
+      "meaning": "Original commentary random gate"
+    },
+    {
+      "file_offset": "0xba374",
+      "bytes": "833da4a707000b",
+      "meaning": "Previous toucher side test"
+    },
+    {
+      "file_offset": "0xba39e",
+      "bytes": "31c0a0dda6070083f801",
+      "meaning": "Pass kind 1 branch"
+    },
+    {
+      "file_offset": "0xba3aa",
+      "bytes": "66833d9890070000",
+      "meaning": "Set-piece flag in kind 1 branch"
+    },
+    {
+      "file_offset": "0xba3b4",
+      "bytes": "31f666893598900700e9bc000000",
+      "meaning": "Clear flag, jump directly to reception cleanup"
+    },
+    {
+      "file_offset": "0xba3cc",
+      "bytes": "83f8027522",
+      "meaning": "Pass kind 2 branch"
+    },
+    {
+      "file_offset": "0xba3d1",
+      "bytes": "66833d9890070000",
+      "meaning": "Same set-piece flag in kind 2 branch"
+    },
+    {
+      "file_offset": "0xba3db",
+      "bytes": "31db66891d98900700e995000000",
+      "meaning": "Clear flag, jump directly to reception cleanup"
+    },
+    {
+      "file_offset": "0xba442",
+      "bytes": "e8bd140100d95c240cb80c000000eb27",
+      "meaning": "Distance result stored, then event 12 unconditionally selected"
+    },
+    {
+      "file_offset": "0xba479",
+      "bytes": "e836890400",
+      "meaning": "Shared commentary dispatcher call"
+    },
+    {
+      "file_offset": "0xba47e",
+      "bytes": "c605dca60700ff",
+      "meaning": "Clear comm_pass without another commentary call"
+    }
+  ],
+  "retail_completed_pass": {
+    "event": 12,
+    "bank": "CPA",
+    "count": 17,
+    "descriptor_file_offset": "0x1424f2"
+  },
+  "source_routes": {
+    "13": "existing CPA bank",
+    "14": "same CPA bank and shared speech cooldown as 13",
+    "18": "silent for retail events; original routine still clears comsetp"
+  },
+  "compatibility": "Apply only when EURO_EVENTS.BIN is the active English voice pack. Older English and French retain their distinct events.",
+  "limits": "This establishes these two routes only. Source pass classification, failed-pass behavior, other special events, random gating and all gameplay remain unchanged."
+}

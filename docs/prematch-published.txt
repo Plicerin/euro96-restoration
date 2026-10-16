@@ -1,0 +1,4 @@
+Playtest ready: version 0.45.0 (bdcef784ce4898ff-2b4b128d-0703f4d7-4e7d91ab)
+Open: C:\Users\vrock\Documents\Codex\2026-10-08\ex\outputs\Play-Actua96.cmd
+Attempting to perform the InitializeDefaultDrives operation on the 'FileSystem' provider failed.
+Ready: 0.45.0 / bdcef784ce4898ff-2b4b128d-0703f4d7-4e7d91ab

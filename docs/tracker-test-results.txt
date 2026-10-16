@@ -1,0 +1,133 @@
+Actua96 0.25.1 verification - 2026-10-10
+
+Full run before correcting an existing controller-test assumption:
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+      Start 49: native_setpiece_control_smoke
+      Start 42: original_match_depth_contracts
+ 1/50 Test #42: original_match_depth_contracts .........   Passed   36.28 sec
+      Start 32: native_goal_review_smoke
+ 2/50 Test #49: native_setpiece_control_smoke ..........   Passed   49.02 sec
+      Start 10: native_opponent_smoke
+ 3/50 Test #10: native_opponent_smoke ..................   Passed    6.15 sec
+      Start 50: original_pitch_tracker_contracts
+ 4/50 Test #32: native_goal_review_smoke ...............   Passed   27.36 sec
+      Start 40: original_national_team_contracts
+ 5/50 Test #50: original_pitch_tracker_contracts .......   Passed   13.55 sec
+      Start 41: native_match_setup_smoke
+ 6/50 Test #40: original_national_team_contracts .......   Passed    8.52 sec
+      Start 37: native_original_cpu_smoke
+ 7/50 Test #41: native_match_setup_smoke ...............   Passed    9.65 sec
+      Start 31: original_goal_collisions
+ 8/50 Test #37: native_original_cpu_smoke ..............   Passed    7.82 sec
+      Start 46: native_penalty_control_smoke
+ 9/50 Test #46: native_penalty_control_smoke ...........***Failed    6.36 sec
+EURO: 121 entries, 15 backgrounds, 10 tactics tables verified.
+EUROREND: 229 bounded entries, 6613404 bytes.
+FAP: 27 bounded entries, 1452928 bytes.
+FAPF: 4 bounded entries, 279252 bytes.
+Actua96: Penalty disconnect must pause
+
+      Start 25: native_original_actions_smoke
+10/50 Test #31: original_goal_collisions ...............   Passed   10.16 sec
+      Start 34: native_original_control_smoke
+11/50 Test #25: native_original_actions_smoke ..........   Passed    7.90 sec
+      Start 28: original_presentation_contracts
+12/50 Test #34: native_original_control_smoke ..........   Passed    6.75 sec
+      Start 36: native_original_team_smoke
+13/50 Test #36: native_original_team_smoke .............   Passed    7.12 sec
+      Start 30: original_scene_contracts
+14/50 Test #28: original_presentation_contracts ........   Passed    8.17 sec
+      Start 43: native_match_depth_smoke
+15/50 Test #43: native_match_depth_smoke ...............   Passed    2.37 sec
+      Start 39: original_regulation_match_contracts
+16/50 Test #30: original_scene_contracts ...............   Passed    5.49 sec
+      Start  8: native_player_smoke
+17/50 Test #39: original_regulation_match_contracts ....   Passed    3.21 sec
+      Start 22: original_graphics_contracts
+18/50 Test  #8: native_player_smoke ....................   Passed    2.34 sec
+      Start 44: original_knockout_contracts
+19/50 Test #22: original_graphics_contracts ............   Passed    2.61 sec
+      Start 48: original_human_setpiece_contracts
+20/50 Test #44: original_knockout_contracts ............   Passed    1.41 sec
+      Start  5: native_physics_smoke
+21/50 Test #48: original_human_setpiece_contracts ......   Passed    0.65 sec
+      Start 14: native_gamepad_smoke
+22/50 Test  #5: native_physics_smoke ...................   Passed    1.64 sec
+      Start 47: original_penalty_result_contracts
+23/50 Test #14: native_gamepad_smoke ...................   Passed    2.00 sec
+      Start 21: timed_match_contracts
+24/50 Test #47: original_penalty_result_contracts ......   Passed    1.69 sec
+      Start 45: original_penalty_control_contracts
+25/50 Test #21: timed_match_contracts ..................   Passed    1.28 sec
+      Start 29: original_ball_presentation_contracts
+26/50 Test #45: original_penalty_control_contracts .....   Passed    0.97 sec
+      Start 17: opponent_passing_contracts
+27/50 Test #29: original_ball_presentation_contracts ...   Passed    1.35 sec
+      Start  9: opponent_contracts
+28/50 Test #17: opponent_passing_contracts .............   Passed    1.92 sec
+      Start 18: teammate_defense_contracts
+29/50 Test  #9: opponent_contracts .....................   Passed    1.33 sec
+      Start  7: player_practice_contracts
+30/50 Test #18: teammate_defense_contracts .............   Passed    0.91 sec
+      Start 38: original_live_match_contracts
+31/50 Test  #7: player_practice_contracts ..............   Passed    0.88 sec
+      Start 12: goal_and_restart_contracts
+32/50 Test #38: original_live_match_contracts ..........   Passed    1.20 sec
+      Start  3: native_render_smoke
+33/50 Test #12: goal_and_restart_contracts .............   Passed    1.04 sec
+      Start 13: virtual_gamepad_contracts
+34/50 Test  #3: native_render_smoke ....................   Passed    4.22 sec
+      Start 33: original_control_contracts
+35/50 Test #13: virtual_gamepad_contracts ..............   Passed    4.39 sec
+      Start 23: native_original_graphics_smoke
+36/50 Test #33: original_control_contracts .............   Passed    0.58 sec
+      Start 20: attack_contracts
+37/50 Test #23: native_original_graphics_smoke .........   Passed    1.11 sec
+      Start 26: original_attack_contracts
+38/50 Test #20: attack_contracts .......................   Passed    1.23 sec
+      Start 24: original_action_contracts
+39/50 Test #26: original_attack_contracts ..............   Passed    0.95 sec
+      Start  1: asset_contracts
+40/50 Test #24: original_action_contracts ..............   Passed    0.84 sec
+      Start 27: original_keeper_continuation
+41/50 Test  #1: asset_contracts ........................   Passed    0.96 sec
+      Start  4: original_ball_contracts
+42/50 Test #27: original_keeper_continuation ...........   Passed    1.08 sec
+      Start  6: restoration_tool_contracts
+43/50 Test  #4: original_ball_contracts ................   Passed    0.63 sec
+      Start 16: opponent_motion_contracts
+44/50 Test  #6: restoration_tool_contracts .............   Passed    0.96 sec
+      Start 15: receiver_flow_contracts
+45/50 Test #16: opponent_motion_contracts ..............   Passed    1.19 sec
+      Start 11: teammate_support_contracts
+46/50 Test #15: receiver_flow_contracts ................   Passed    1.10 sec
+      Start  2: native_asset_verification
+47/50 Test #11: teammate_support_contracts .............   Passed    0.57 sec
+      Start 19: keeper_contracts
+48/50 Test  #2: native_asset_verification ..............   Passed    5.30 sec
+      Start 35: original_team_play_contracts
+49/50 Test #19: keeper_contracts .......................   Passed   10.27 sec
+50/50 Test #35: original_team_play_contracts ...........   Passed    5.39 sec
+
+98% tests passed, 1 tests failed out of 50
+
+Total Test time (real) = 142.15 sec
+
+The following tests FAILED:
+	 46 - native_penalty_control_smoke (Failed)
+Errors while running CTest
+
+Corrected test: require pause and removal of the detached active virtual controller; another physical controller may remain connected. No gameplay change.
+
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start 46: native_penalty_control_smoke
+1/1 Test #46: native_penalty_control_smoke .....   Passed    6.23 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   6.29 sec
+
+Hidden set-piece gamepad/capture run: passed all seven cases.
+Free-kick and penalty captures visually inspected: animated original dots, native bars, enlarged contextual text.
+Source audit: 4 archives valid; known 23 missing include names / 9 objects without source unchanged.
+git diff --exit-code -- SOURCE: passed.

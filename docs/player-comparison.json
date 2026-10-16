@@ -1,0 +1,15 @@
+{
+  "inputs": {
+    "ACTIONS.OBJ": "b02ab5c3177e8744c9c954c1d66148d6b3d9270fef647637192189ac4da87f31",
+    "MATHS.OBJ": "ccffdd411ad3f1f0b56c0623884bf9ef5083412dccf580e5a2c1a7701721a5b9",
+    "FOOTBALL.OBJ": "80386fd58625e1a5a8491cdf700096af782636923ba40b778746274c8663430a",
+    "RULES.OBJ": "b2de700c0000e0d66eb7c559c012eec50404221b8565ac0894ef58a6fcf9b722"
+  },
+  "native_executable_sha256": "725537c78cfcbd1a483ce9d9594c7f93919da1bd56e8673d1185fe473a6124bc",
+  "scenarios": 25,
+  "ticks": 500,
+  "max_absolute_error": 5.000000555810402e-07,
+  "tolerance": 0.002,
+  "scope": "Five player speeds, each tested free running, possession, sidestepping, interception and burst. Twenty movement steps per scenario. Position, displacement, and work counter.",
+  "limitations": "Tests original movement routines, not the native practice steering, assisted receiving or diagnostic kicks. COMDAT code omitted; no omitted code is invoked."
+}

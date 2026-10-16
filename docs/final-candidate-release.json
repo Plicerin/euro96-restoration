@@ -1,0 +1,72 @@
+{
+  "candidate": "0.63.0 RC1",
+  "executableVersion": "0.63.0",
+  "buildId": "773bb8f8af584c1f-2b4b128d-0703f4d7-7dba4a40",
+  "executableSha256": "773bb8f8af584c1fbdd51975442b2de31a7d6a9056803f21a45407b38295393a",
+  "package": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\actuasoccer96-windows\\dist\\actua96-0.63.0-345c22220a07404189503df61778259e",
+  "packageManifestSha256": "6ccc5ae08670f9af46bab18dafa3853c0b870de22f210f540379ba68cb0bdb4f",
+  "packageHashes": 53,
+  "packageSmokeChecks": 9,
+  "fullLocalTests": 103,
+  "fullLocalSeconds": 207.45,
+  "packageVerifierCases": {
+    "valid": 1,
+    "rejected": 7
+  },
+  "sourceDispatcherCases": 16,
+  "sourceFiles": 427,
+  "sourceUnchanged": true,
+  "localUserStateUnchanged": true,
+  "localUserState": {
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\tournament.sav": "9683d18cecad6d6c3d57d294ca57cd1b0cff427c723892502d05958f8f4bc2df",
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\tournament.sav.bak": "582545086e457d4066619df693dd0c00874be66419160f7df1777c57d48b24a9",
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\tournament.prefs": null,
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\tournament.prefs.bak": null
+  },
+  "remoteRoot": "C:/Users/vrock/AppData/Local/Temp/Euro96-candidate-e9971331a96e4d35b1268ed49164fda5",
+  "remoteUserStateUnchanged": true,
+  "gaikingChecks": {
+    "isolatedSmokes": 9,
+    "fullTournamentMatches": 31,
+    "matrixMatches": 32,
+    "saveRecovery": true,
+    "namePcmCallbacks": 1920,
+    "periodPcmCases": 746,
+    "desktopDirect3dChecks": 4
+  },
+  "desktopScope": "Hidden windows in the existing RDP desktop; physical GPU/output behavior not established.",
+  "reviewedCaptures": [
+    "title",
+    "selection",
+    "result"
+  ],
+  "binaryAndMediaUnchanged": true,
+  "packageDifferenceFromTested0630": [
+    "READ-ME.txt",
+    "package.json checksum inventory"
+  ],
+  "gameRestarted": false,
+  "acceptedOmissions": [
+    "Kuznetsov normal-tone Actua clip accepted by user"
+  ],
+  "manualGatesPending": [
+    "Physical two-controller/disconnect/rejoin session",
+    "Audible sound/output-device switching",
+    "Current physical display/high-DPI check on Gaiking",
+    "Combined human championship continuation check"
+  ],
+  "fidelityGaps": [
+    "Retail result music routing",
+    "Rare commentary and optional French edition",
+    "Exact retail frontend navigation and timing",
+    "Retail per-fixture stadium assignment",
+    "Unverified peripheral presentation callers"
+  ],
+  "scopeExclusions": [
+    "LAN/online play",
+    "same-team co-op",
+    "keyboard-versus-controller head-to-head",
+    "multiplayer championships",
+    "mid-match saves"
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "upstream": "https://github.com/videogamepreservation/actuasoccer96",
+  "upstream_commit": "01a824099a278043a9e4a6dfd55ea980dd4ce8bb",
+  "method": "Quoted-include scan with comments removed. Conditional compilation branches are not evaluated. SDK/system includes are not exhaustively audited.",
+  "missing_includes": {
+    "mouse.h": [
+      "3D_UPD2.CPP",
+      "DISPLAY.CPP",
+      "EDITOR.CPP",
+      "FOOT.CPP",
+      "FOOTBALL.CPP",
+      "NETWORK.C",
+      "USER.CPP"
+    ],
+    "front.h": [
+      "3D_UPD2.CPP",
+      "ACTIONS.CPP",
+      "BALL.CPP",
+      "FOOT.CPP",
+      "FOOTBALL.CPP",
+      "INTELL.CPP",
+      "MY_AUDIO.CPP",
+      "RULES.CPP"
+    ],
+    "3dblast.h": [
+      "3DENG.C"
+    ],
+    "actrend.equ": [
+      "3DENG.C",
+      "3DENG.C"
+    ],
+    "fapj.equ": [
+      "3DENG.C"
+    ],
+    "actrendf.equ": [
+      "3DENG.C"
+    ],
+    "fapf.equ": [
+      "3DENG.C",
+      "3DENG.C"
+    ],
+    "filesf.c": [
+      "3DENG.C"
+    ],
+    "actrendb.equ": [
+      "3DENG.C"
+    ],
+    "filesb.c": [
+      "3DENG.C"
+    ],
+    "global.h": [
+      "ACTIONS.CPP",
+      "BALL.CPP",
+      "BALLINT.CPP",
+      "DISPLAY.CPP",
+      "EDITOR.CPP",
+      "FOOT.CPP",
+      "FOOTBALL.CPP",
+      "INTELL.CPP",
+      "MATHS.CPP",
+      "MY_AUDIO.CPP",
+      "RULES.CPP"
+    ],
+    "ball.dta": [
+      "ACTIONS.CPP"
+    ],
+    "editor.h": [
+      "FOOTBALL.CPP"
+    ],
+    "glob_var.h": [
+      "FOOTBALL.CPP"
+    ],
+    "menudisp.h": [
+      "GDV.CPP"
+    ],
+    "actua.h": [
+      "GDV.CPP"
+    ],
+    "menudata.h": [
+      "GDV.CPP"
+    ],
+    "cglwin.h": [
+      "LIBRARY/CGL.H"
+    ],
+    "3d.h": [
+      "MODEM/COMMS.C"
+    ],
+    "frontend.h": [
+      "MODEM/COMMS.C"
+    ],
+    "func2.h": [
+      "MODEM/COMMS.C"
+    ],
+    "func3.h": [
+      "MODEM/COMMS.C"
+    ],
+    "sound.h": [
+      "MODEM/COMMS.C"
+    ]
+  },
+  "relocated_includes": {
+    "eurofrnt\\euro_int.h": {
+      "available": [
+        "EURO_INT.H"
+      ],
+      "used_by": [
+        "3D_UPD2.CPP",
+        "ACTIONS.CPP",
+        "BALL.CPP",
+        "FOOT.CPP",
+        "FOOTBALL.CPP",
+        "INTELL.CPP",
+        "MY_AUDIO.CPP",
+        "RULES.CPP"
+      ]
+    },
+    "c:\\sos\\include\\sos.h": {
+      "available": [
+        "LIBRARY/SOS.H",
+        "SOS.H"
+      ],
+      "used_by": [
+        "3DENG.C"
+      ]
+    },
+    "c:\\cgl\\cgl.h": {
+      "available": [
+        "LIBRARY/CGL.H"
+      ],
+      "used_by": [
+        "3DENG.C"
+      ]
+    },
+    "c:\\netnow\\hmistd.h": {
+      "available": [
+        "HMISTD.H",
+        "LIBRARY/HMISTD.H"
+      ],
+      "used_by": [
+        "EURO_NET.C",
+        "INTRONET.C",
+        "MODEM/COMMS.C",
+        "NETWORK.C"
+      ]
+    },
+    "c:\\netnow\\netnow.h": {
+      "available": [
+        "LIBRARY/NETNOW.H",
+        "NETNOW.H"
+      ],
+      "used_by": [
+        "EURO_NET.C",
+        "INTRONET.C",
+        "MODEM/COMMS.C",
+        "NETWORK.C"
+      ]
+    },
+    "c:\\netnow\\vdata.h": {
+      "available": [
+        "LIBRARY/VDATA.H",
+        "VDATA.H"
+      ],
+      "used_by": [
+        "EURO_NET.C",
+        "INTRONET.C",
+        "NETWORK.C"
+      ]
+    },
+    "c:\\netnow\\vchat.h": {
+      "available": [
+        "LIBRARY/VCHAT.H",
+        "VCHAT.H"
+      ],
+      "used_by": [
+        "EURO_NET.C",
+        "INTRONET.C",
+        "NETWORK.C"
+      ]
+    },
+    "c:\\sos\\include\\sosm.h": {
+      "available": [
+        "SOSM.H"
+      ],
+      "used_by": [
+        "EURO_NET.C",
+        "INTRONET.C",
+        "NETWORK.C"
+      ]
+    },
+    "E:\\jimlib\\jimfunc.h": {
+      "available": [
+        "JIMFUNC.H"
+      ],
+      "used_by": [
+        "JIMLIB.H"
+      ]
+    },
+    "network.h": {
+      "available": [
+        "NETWORK.H"
+      ],
+      "used_by": [
+        "MODEM/COMMS.C"
+      ]
+    },
+    "gsscomms.h": {
+      "available": [
+        "GSSCOMMS.H",
+        "LIBRARY/GSSCOMMS.H"
+      ],
+      "used_by": [
+        "MODEM/COMMS.C"
+      ]
+    }
+  },
+  "linked_objects_without_matching_source": [
+    "mouse.obj",
+    "data.obj",
+    "render.obj",
+    "spritasm.obj",
+    "vesa.obj",
+    "audio.obj",
+    "random.obj",
+    "ndebug.obj",
+    "apiin.obj"
+  ],
+  "validated_archives": {
+    "EURO": {
+      "bytes": 12346272,
+      "records": 121,
+      "sha256": "024accf02afeeeeebc43af649754191ac1b192f5c955fb5335e50d8acc2f7177"
+    },
+    "EUROREND": {
+      "bytes": 6613404,
+      "records": 229,
+      "sha256": "0c38ab865fcd1d62d7c0f3f88b861f4c43643caf402dea6fbe9b0f042fd340cb"
+    },
+    "FAP": {
+      "bytes": 1452928,
+      "records": 27,
+      "sha256": "4eb101f8b8bd44eca0b8824400476e4a8dbb704eb43c926e4d5bea5dbba26ff3"
+    },
+    "FAPF": {
+      "bytes": 279252,
+      "records": 4,
+      "sha256": "be064e6f13b91e2ebad8451e787a1bfe085aef256fc328433b7112d751fc1a67"
+    }
+  }
+}

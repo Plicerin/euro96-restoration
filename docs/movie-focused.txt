@@ -1,0 +1,9 @@
+Test project C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+    Start 70: original_cd_movie_contracts
+1/2 Test #70: original_cd_movie_contracts ......   Passed    2.38 sec
+    Start 71: native_cd_movie_smoke
+2/2 Test #71: native_cd_movie_smoke ............   Passed    1.97 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   4.60 sec

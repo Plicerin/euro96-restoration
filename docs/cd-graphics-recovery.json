@@ -1,0 +1,2391 @@
+{
+  "clash_offset": 1108816,
+  "clash_source_matches": 2024,
+  "alternate_kits": [
+    45,
+    46
+  ],
+  "alternate_assets": [
+    {
+      "pack_team": 16,
+      "cd_team": 45,
+      "descriptor_offset": 1257204,
+      "parts": [
+        {
+          "part": "head",
+          "record": 6,
+          "size": 32768,
+          "sha256": "e1cbae8df8a8a2440e2b243d201fd5bb89d6498361b3a2d0e88799e34d1bd458"
+        },
+        {
+          "part": "torso",
+          "record": 13,
+          "size": 65536,
+          "sha256": "e626afac54e5c8982726a02ffbff71241f21152776857f4c237e3ce321623d96"
+        },
+        {
+          "part": "limbs",
+          "record": 64,
+          "size": 19968,
+          "sha256": "2d08c2d78de95d5de7b86ec7daba67febe8940b49542c41934fd8e330282dba2"
+        },
+        {
+          "part": "numbers",
+          "record": 243,
+          "size": 13824,
+          "sha256": "60f83beccbc6fd8f01bdd0a479a79432e213e0c55c4e6b747073ddbcd3a6e276"
+        },
+        {
+          "part": "kit_palette",
+          "record": 144,
+          "size": 72,
+          "sha256": "71ad89d34f3d31899ad1b93e0bc0754f956a3577d5616dfdbfa99e2158d58da3"
+        },
+        {
+          "part": "skin_palette",
+          "record": 192,
+          "size": 24,
+          "sha256": "6a4a600e6e299290844cb713d82589b8b6dd45e11370f88b26e5f52e73644bfd"
+        },
+        {
+          "part": "home_crowd",
+          "record": 210,
+          "size": 24,
+          "sha256": "e6591b96b167d6b998563ad9590f51369640f6919973d69217d37c08fd911736"
+        },
+        {
+          "part": "away_crowd",
+          "record": 216,
+          "size": 24,
+          "sha256": "f275d5f351a99954c2c304885950cd087320067ebcd6d0d701a03832d63bfae6"
+        }
+      ]
+    },
+    {
+      "pack_team": 17,
+      "cd_team": 46,
+      "descriptor_offset": 1257236,
+      "parts": [
+        {
+          "part": "head",
+          "record": 6,
+          "size": 32768,
+          "sha256": "e1cbae8df8a8a2440e2b243d201fd5bb89d6498361b3a2d0e88799e34d1bd458"
+        },
+        {
+          "part": "torso",
+          "record": 14,
+          "size": 65536,
+          "sha256": "7042d566241768c7d7dc4d6eeff8f34c013986cf0aaee40f95901d7b8b1042e0"
+        },
+        {
+          "part": "limbs",
+          "record": 64,
+          "size": 19968,
+          "sha256": "2d08c2d78de95d5de7b86ec7daba67febe8940b49542c41934fd8e330282dba2"
+        },
+        {
+          "part": "numbers",
+          "record": 242,
+          "size": 13824,
+          "sha256": "73ad7e3909571db26911a37cb5edea9156d81b8fd68277dc3e3f2903c24ba962"
+        },
+        {
+          "part": "kit_palette",
+          "record": 145,
+          "size": 72,
+          "sha256": "1d7db14459f379beb41457e8146cf1a19b73f3f1789e9ae48f37248ae3bd3d71"
+        },
+        {
+          "part": "skin_palette",
+          "record": 192,
+          "size": 24,
+          "sha256": "6a4a600e6e299290844cb713d82589b8b6dd45e11370f88b26e5f52e73644bfd"
+        },
+        {
+          "part": "home_crowd",
+          "record": 206,
+          "size": 24,
+          "sha256": "553da02aa3dc34c275846ec058e5f6f21d0968a72eb4e0ac69260a508d41f1d2"
+        },
+        {
+          "part": "away_crowd",
+          "record": 212,
+          "size": 24,
+          "sha256": "56325087ff0abbc178b3ddd8cb6b06714ad42b48e1ba0ee208cb74e2ffc73731"
+        }
+      ]
+    }
+  ],
+  "appearance_matches": [
+    {
+      "team": 0,
+      "slot": 2,
+      "name": "Ilian KIRIAKOV",
+      "cd_name": "I. Kiriakov",
+      "flag": 0,
+      "offset": 1034546
+    },
+    {
+      "team": 0,
+      "slot": 3,
+      "name": "Trifon IVANOV",
+      "cd_name": "T. Ivanov",
+      "flag": 0,
+      "offset": 1034150
+    },
+    {
+      "team": 0,
+      "slot": 4,
+      "name": "Tsanko TSVETANOV",
+      "cd_name": "T. Tsvetanov",
+      "flag": 0,
+      "offset": 1034183
+    },
+    {
+      "team": 0,
+      "slot": 5,
+      "name": "Emil KREMENLIEV",
+      "cd_name": "E. Kremenliev",
+      "flag": 0,
+      "offset": 1034117
+    },
+    {
+      "team": 0,
+      "slot": 6,
+      "name": "Krasimir BALAKOV",
+      "cd_name": "K. Balakov",
+      "flag": 0,
+      "offset": 1034414
+    },
+    {
+      "team": 0,
+      "slot": 7,
+      "name": "Daniel BORIMIROV",
+      "cd_name": "D. Borimirov",
+      "flag": 0,
+      "offset": 1034711
+    },
+    {
+      "team": 0,
+      "slot": 8,
+      "name": "Yordan LECHKOV",
+      "cd_name": "Y. Lechkov",
+      "flag": 0,
+      "offset": 1034282
+    },
+    {
+      "team": 0,
+      "slot": 9,
+      "name": "Christo STOICHKOV",
+      "cd_name": "C. Stoichkov",
+      "flag": 0,
+      "offset": 1034348
+    },
+    {
+      "team": 0,
+      "slot": 10,
+      "name": "Emil KOSTADINOV",
+      "cd_name": "E. Kostadinov",
+      "flag": 0,
+      "offset": 1034381
+    },
+    {
+      "team": 0,
+      "slot": 11,
+      "name": "Nasko SIRAKOV",
+      "cd_name": "N. Sirakov",
+      "flag": 0,
+      "offset": 1034315
+    },
+    {
+      "team": 0,
+      "slot": 14,
+      "name": "Zlatko YANKOV",
+      "cd_name": "Z. Yankov",
+      "flag": 0,
+      "offset": 1034249
+    },
+    {
+      "team": 0,
+      "slot": 17,
+      "name": "Petar KHUBCHEV",
+      "cd_name": "P. Khubchev",
+      "flag": 0,
+      "offset": 1034216
+    },
+    {
+      "team": 0,
+      "slot": 19,
+      "name": "Petar ALEXANDROV",
+      "cd_name": "P. Alexandrov",
+      "flag": 0,
+      "offset": 1034612
+    },
+    {
+      "team": 0,
+      "slot": 20,
+      "name": "Ivailo YORDANOV",
+      "cd_name": "I. Yordanov",
+      "flag": 0,
+      "offset": 1034480
+    },
+    {
+      "team": 2,
+      "slot": 1,
+      "name": "Petr KOUBA",
+      "cd_name": "P. Kouba",
+      "flag": 0,
+      "offset": 1065839
+    },
+    {
+      "team": 2,
+      "slot": 2,
+      "name": "Miroslav KADLEC",
+      "cd_name": "M. Kadlec",
+      "flag": 0,
+      "offset": 1065542
+    },
+    {
+      "team": 2,
+      "slot": 3,
+      "name": "Tomas REPKA",
+      "cd_name": "T. Repka",
+      "flag": 0,
+      "offset": 1065608
+    },
+    {
+      "team": 2,
+      "slot": 4,
+      "name": "Pavel NEDVED",
+      "cd_name": "P. Nedved",
+      "flag": 0,
+      "offset": 1066103
+    },
+    {
+      "team": 2,
+      "slot": 6,
+      "name": "Vaclav NEMECEK",
+      "cd_name": "V. Nemecek",
+      "flag": 0,
+      "offset": 1065707
+    },
+    {
+      "team": 2,
+      "slot": 7,
+      "name": "Pavel HAPAL",
+      "cd_name": "P. Hapal",
+      "flag": 0,
+      "offset": 1066136
+    },
+    {
+      "team": 2,
+      "slot": 8,
+      "name": "Radoslav LATAL",
+      "cd_name": "R. Latal",
+      "flag": 0,
+      "offset": 1065641
+    },
+    {
+      "team": 2,
+      "slot": 10,
+      "name": "Pavel KUKA",
+      "cd_name": "P. Kuka",
+      "flag": 0,
+      "offset": 1065740
+    },
+    {
+      "team": 2,
+      "slot": 11,
+      "name": "Martin FRYDEK",
+      "cd_name": "M. Frydek",
+      "flag": 0,
+      "offset": 1065806
+    },
+    {
+      "team": 2,
+      "slot": 12,
+      "name": "Jan STEJSKAL",
+      "cd_name": "J. Stejskal",
+      "flag": 0,
+      "offset": 1065476
+    },
+    {
+      "team": 2,
+      "slot": 14,
+      "name": "Horst SIEGL",
+      "cd_name": "H. Siegl",
+      "flag": 0,
+      "offset": 1065773
+    },
+    {
+      "team": 2,
+      "slot": 15,
+      "name": "Karel POBORSKY",
+      "cd_name": "K. Poborsky",
+      "flag": 0,
+      "offset": 1065674
+    },
+    {
+      "team": 2,
+      "slot": 17,
+      "name": "Lobos KUBIK",
+      "cd_name": "L. Kubik",
+      "flag": 0,
+      "offset": 1065971
+    },
+    {
+      "team": 2,
+      "slot": 18,
+      "name": "Jiri NOVOTNY",
+      "cd_name": "J. Novotny",
+      "flag": 0,
+      "offset": 1065575
+    },
+    {
+      "team": 2,
+      "slot": 19,
+      "name": "Jan SUCHOPAREK",
+      "cd_name": "J. Suchoparek",
+      "flag": 0,
+      "offset": 1065509
+    },
+    {
+      "team": 2,
+      "slot": 20,
+      "name": "Marek POSTULKA",
+      "cd_name": "M. Postulka",
+      "flag": 0,
+      "offset": 1066037
+    },
+    {
+      "team": 3,
+      "slot": 1,
+      "name": "Peter SCHMEICHEL",
+      "cd_name": "P. Schmeichel",
+      "flag": 0,
+      "offset": 1035828
+    },
+    {
+      "team": 3,
+      "slot": 4,
+      "name": "Marc RIEPER",
+      "cd_name": "M. Rieper",
+      "flag": 0,
+      "offset": 1035894
+    },
+    {
+      "team": 3,
+      "slot": 7,
+      "name": "Kim VILFORT",
+      "cd_name": "K. Vilfort",
+      "flag": 0,
+      "offset": 1036026
+    },
+    {
+      "team": 3,
+      "slot": 9,
+      "name": "Michael LAUDRUP",
+      "cd_name": "M. Laudrup",
+      "flag": 0,
+      "offset": 1036158
+    },
+    {
+      "team": 3,
+      "slot": 10,
+      "name": "Brian LAUDRUP",
+      "cd_name": "B. Laudrup",
+      "flag": 0,
+      "offset": 1036092
+    },
+    {
+      "team": 3,
+      "slot": 11,
+      "name": "Peter RASMUSSEN",
+      "cd_name": "P. Rasmussen",
+      "flag": 0,
+      "offset": 1036521
+    },
+    {
+      "team": 3,
+      "slot": 12,
+      "name": "Mogens KROGH",
+      "cd_name": "M. Krogh",
+      "flag": 0,
+      "offset": 1036191
+    },
+    {
+      "team": 3,
+      "slot": 13,
+      "name": "John JENSEN",
+      "cd_name": "J. Jensen",
+      "flag": 0,
+      "offset": 1035993
+    },
+    {
+      "team": 3,
+      "slot": 14,
+      "name": "Jacob KJELDBERG",
+      "cd_name": "J. Kjeldberg",
+      "flag": 0,
+      "offset": 1035927
+    },
+    {
+      "team": 3,
+      "slot": 15,
+      "name": "Lars OLSEN",
+      "cd_name": "L. Olsen",
+      "flag": 0,
+      "offset": 1035861
+    },
+    {
+      "team": 3,
+      "slot": 16,
+      "name": "Frank PINGEL",
+      "cd_name": "F. Pingel",
+      "flag": 0,
+      "offset": 1036224
+    },
+    {
+      "team": 3,
+      "slot": 17,
+      "name": "Flemming POVLSEN",
+      "cd_name": "F. Povlsen",
+      "flag": 0,
+      "offset": 1036125
+    },
+    {
+      "team": 3,
+      "slot": 18,
+      "name": "Bent CHRISTENSEN",
+      "cd_name": "B. Christensen",
+      "flag": 0,
+      "offset": 1036356
+    },
+    {
+      "team": 3,
+      "slot": 19,
+      "name": "Henrik LARSEN",
+      "cd_name": "H. Larsen",
+      "flag": 0,
+      "offset": 1036323
+    },
+    {
+      "team": 3,
+      "slot": 20,
+      "name": "Thomas HELVEG",
+      "cd_name": "T. Helveg",
+      "flag": 0,
+      "offset": 1036422
+    },
+    {
+      "team": 4,
+      "slot": 1,
+      "name": "David SEAMAN",
+      "cd_name": "D. Seaman",
+      "flag": 0,
+      "offset": 1043676
+    },
+    {
+      "team": 4,
+      "slot": 3,
+      "name": "Stuart PEARCE",
+      "cd_name": "S. Pearce",
+      "flag": 0,
+      "offset": 1044237
+    },
+    {
+      "team": 4,
+      "slot": 5,
+      "name": "Tony ADAMS",
+      "cd_name": "T. Adams",
+      "flag": 0,
+      "offset": 1043808
+    },
+    {
+      "team": 4,
+      "slot": 6,
+      "name": "Gary PALLISTER",
+      "cd_name": "G. Pallister",
+      "flag": 0,
+      "offset": 1043775
+    },
+    {
+      "team": 4,
+      "slot": 8,
+      "name": "Paul GASCOIGNE",
+      "cd_name": "P. Gascoigne",
+      "flag": 0,
+      "offset": 1043874
+    },
+    {
+      "team": 4,
+      "slot": 9,
+      "name": "Alan SHEARER",
+      "cd_name": "A. Shearer",
+      "flag": 0,
+      "offset": 1043940
+    },
+    {
+      "team": 4,
+      "slot": 10,
+      "name": "Teddy SHERINGHAM",
+      "cd_name": "T. Sheringham",
+      "flag": 0,
+      "offset": 1044303
+    },
+    {
+      "team": 4,
+      "slot": 12,
+      "name": "Tim FLOWERS",
+      "cd_name": "T. Flowers",
+      "flag": 0,
+      "offset": 1044039
+    },
+    {
+      "team": 4,
+      "slot": 14,
+      "name": "Peter BEARDSLEY",
+      "cd_name": "P. Beardsley",
+      "flag": 0,
+      "offset": 1043841
+    },
+    {
+      "team": 4,
+      "slot": 15,
+      "name": "Les FERDINAND",
+      "cd_name": "L. Ferdinand",
+      "flag": 1,
+      "offset": 1044336
+    },
+    {
+      "team": 4,
+      "slot": 17,
+      "name": "Darren ANDERTON",
+      "cd_name": "D. Anderton",
+      "flag": 0,
+      "offset": 1044006
+    },
+    {
+      "team": 4,
+      "slot": 18,
+      "name": "Nick BARMBY",
+      "cd_name": "N. Barmby",
+      "flag": 0,
+      "offset": 1044369
+    },
+    {
+      "team": 4,
+      "slot": 19,
+      "name": "Paul INCE",
+      "cd_name": "P. Ince",
+      "flag": 1,
+      "offset": 1044204
+    },
+    {
+      "team": 4,
+      "slot": 20,
+      "name": "David PLATT",
+      "cd_name": "D. Platt",
+      "flag": 0,
+      "offset": 1043907
+    },
+    {
+      "team": 5,
+      "slot": 1,
+      "name": "Fabien BARTHEZ",
+      "cd_name": "F. Barthez",
+      "flag": 0,
+      "offset": 1059735
+    },
+    {
+      "team": 5,
+      "slot": 2,
+      "name": "Jocelyn ANGLOMA",
+      "cd_name": "J. Angloma",
+      "flag": 1,
+      "offset": 1059801
+    },
+    {
+      "team": 5,
+      "slot": 3,
+      "name": "Eric DI MECO",
+      "cd_name": "E. Di Meco",
+      "flag": 0,
+      "offset": 1060065
+    },
+    {
+      "team": 5,
+      "slot": 5,
+      "name": "Laurent BLANC",
+      "cd_name": "L. Blanc",
+      "flag": 0,
+      "offset": 1059405
+    },
+    {
+      "team": 5,
+      "slot": 6,
+      "name": "Vincent GUERIN",
+      "cd_name": "V. Guerin",
+      "flag": 0,
+      "offset": 1059966
+    },
+    {
+      "team": 5,
+      "slot": 7,
+      "name": "David GINOLA",
+      "cd_name": "D. Ginola",
+      "flag": 0,
+      "offset": 1059834
+    },
+    {
+      "team": 5,
+      "slot": 8,
+      "name": "Didier DESCHAMPS",
+      "cd_name": "D. Deschamps",
+      "flag": 1,
+      "offset": 1059570
+    },
+    {
+      "team": 5,
+      "slot": 9,
+      "name": "Eric CANTONA",
+      "cd_name": "E. Cantona",
+      "flag": 0,
+      "offset": 1059669
+    },
+    {
+      "team": 5,
+      "slot": 12,
+      "name": "Bernard LAMA",
+      "cd_name": "B. Lama",
+      "flag": 1,
+      "offset": 1059372
+    },
+    {
+      "team": 5,
+      "slot": 13,
+      "name": "Marcel DESAILLY",
+      "cd_name": "M. Desailly",
+      "flag": 1,
+      "offset": 1059768
+    },
+    {
+      "team": 5,
+      "slot": 14,
+      "name": "Youri DJORKAEFF",
+      "cd_name": "Y. Djorkaeff",
+      "flag": 0,
+      "offset": 1059867
+    },
+    {
+      "team": 5,
+      "slot": 16,
+      "name": "Bixente LIZARAZU",
+      "cd_name": "B. Lizarazu",
+      "flag": 0,
+      "offset": 1059933
+    },
+    {
+      "team": 5,
+      "slot": 17,
+      "name": "Paul LE GUEN",
+      "cd_name": "P. Le Guen",
+      "flag": 0,
+      "offset": 1059537
+    },
+    {
+      "team": 5,
+      "slot": 20,
+      "name": "Basile BOLI",
+      "cd_name": "B. Boli",
+      "flag": 1,
+      "offset": 1059438
+    },
+    {
+      "team": 6,
+      "slot": 4,
+      "name": "Thomas HELMER",
+      "cd_name": "T. Helmer",
+      "flag": 0,
+      "offset": 1055983
+    },
+    {
+      "team": 6,
+      "slot": 5,
+      "name": "Christian ZIEGE",
+      "cd_name": "C. Ziege",
+      "flag": 0,
+      "offset": 1056412
+    },
+    {
+      "team": 6,
+      "slot": 7,
+      "name": "Matthias SAMMER",
+      "cd_name": "M. Sammer",
+      "flag": 0,
+      "offset": 1056214
+    },
+    {
+      "team": 6,
+      "slot": 9,
+      "name": "Jurgen KLINSMANN",
+      "cd_name": "J. Klinsmann",
+      "flag": 0,
+      "offset": 1056181
+    },
+    {
+      "team": 6,
+      "slot": 13,
+      "name": "Stefan KUNTZ",
+      "cd_name": "S. Kuntz",
+      "flag": 0,
+      "offset": 1056544
+    },
+    {
+      "team": 6,
+      "slot": 16,
+      "name": "Jurgen KOHLER",
+      "cd_name": "J. Kohler",
+      "flag": 0,
+      "offset": 1055950
+    },
+    {
+      "team": 6,
+      "slot": 18,
+      "name": "Guido BUCHWALD",
+      "cd_name": "G. Buchwald",
+      "flag": 0,
+      "offset": 1056313
+    },
+    {
+      "team": 6,
+      "slot": 20,
+      "name": "Mehmet SCHOLL",
+      "cd_name": "M. Scholl",
+      "flag": 0,
+      "offset": 1056445
+    },
+    {
+      "team": 7,
+      "slot": 3,
+      "name": "Artur NUMAN",
+      "cd_name": "A. Numan",
+      "flag": 0,
+      "offset": 1050817
+    },
+    {
+      "team": 7,
+      "slot": 4,
+      "name": "Danny BLIND",
+      "cd_name": "D. Blind",
+      "flag": 1,
+      "offset": 1051180
+    },
+    {
+      "team": 7,
+      "slot": 5,
+      "name": "Frank DE BOER",
+      "cd_name": "F. De Boer",
+      "flag": 0,
+      "offset": 1050718
+    },
+    {
+      "team": 7,
+      "slot": 6,
+      "name": "Richard WITSCHGE",
+      "cd_name": "R. Witschge",
+      "flag": 0,
+      "offset": 1050982
+    },
+    {
+      "team": 7,
+      "slot": 7,
+      "name": "Clarence SEEDORF",
+      "cd_name": "C. Seedorf",
+      "flag": 0,
+      "offset": 1051246
+    },
+    {
+      "team": 7,
+      "slot": 8,
+      "name": "Marc OVERMARS",
+      "cd_name": "M. Overmars",
+      "flag": 0,
+      "offset": 1051048
+    },
+    {
+      "team": 7,
+      "slot": 9,
+      "name": "Dennis BERGKAMP",
+      "cd_name": "D. Bergkamp",
+      "flag": 0,
+      "offset": 1050916
+    },
+    {
+      "team": 7,
+      "slot": 10,
+      "name": "Ronald DE BOER",
+      "cd_name": "R. De Boer",
+      "flag": 0,
+      "offset": 1051081
+    },
+    {
+      "team": 7,
+      "slot": 12,
+      "name": "Ed DE GOEY",
+      "cd_name": "E. De Goey",
+      "flag": 0,
+      "offset": 1050652
+    },
+    {
+      "team": 7,
+      "slot": 13,
+      "name": "Bryan ROY",
+      "cd_name": "B. Roy",
+      "flag": 1,
+      "offset": 1050949
+    },
+    {
+      "team": 7,
+      "slot": 14,
+      "name": "Patrick KLUIVERT",
+      "cd_name": "P. Kluivert",
+      "flag": 1,
+      "offset": 1051345
+    },
+    {
+      "team": 7,
+      "slot": 15,
+      "name": "Edgar DAVIDS",
+      "cd_name": "E. Davids",
+      "flag": 0,
+      "offset": 1050850
+    },
+    {
+      "team": 7,
+      "slot": 16,
+      "name": "Aron WINTER",
+      "cd_name": "A. Winter",
+      "flag": 0,
+      "offset": 1051147
+    },
+    {
+      "team": 7,
+      "slot": 17,
+      "name": "Ulrich VAN GOBBEL",
+      "cd_name": "U. Van Gobbel",
+      "flag": 1,
+      "offset": 1050751
+    },
+    {
+      "team": 7,
+      "slot": 18,
+      "name": "Gaston TAUMENT",
+      "cd_name": "G. Taument",
+      "flag": 1,
+      "offset": 1051213
+    },
+    {
+      "team": 7,
+      "slot": 20,
+      "name": "Stan VALCKX",
+      "cd_name": "S. Valckx",
+      "flag": 0,
+      "offset": 1050784
+    },
+    {
+      "team": 8,
+      "slot": 1,
+      "name": "Gianluca PAGLIUCA",
+      "cd_name": "G. Pagliuca",
+      "flag": 0,
+      "offset": 1041932
+    },
+    {
+      "team": 8,
+      "slot": 3,
+      "name": "Paolo MALDINI",
+      "cd_name": "P. Maldini",
+      "flag": 0,
+      "offset": 1042526
+    },
+    {
+      "team": 8,
+      "slot": 4,
+      "name": "Luigi APOLLONI",
+      "cd_name": "L. Apolloni",
+      "flag": 0,
+      "offset": 1042460
+    },
+    {
+      "team": 8,
+      "slot": 5,
+      "name": "Alessandro COSTACURTA",
+      "cd_name": "A. Costacurta",
+      "flag": 0,
+      "offset": 1042031
+    },
+    {
+      "team": 8,
+      "slot": 8,
+      "name": "Demetrio ALBERTINI",
+      "cd_name": "D. Albertini",
+      "flag": 0,
+      "offset": 1042130
+    },
+    {
+      "team": 8,
+      "slot": 9,
+      "name": "Roberto BAGGIO",
+      "cd_name": "R. Baggio",
+      "flag": 0,
+      "offset": 1042229
+    },
+    {
+      "team": 8,
+      "slot": 12,
+      "name": "Luca MARCHEGIANI",
+      "cd_name": "L. Marchegiani",
+      "flag": 0,
+      "offset": 1042295
+    },
+    {
+      "team": 8,
+      "slot": 13,
+      "name": "Roberto DONADONI",
+      "cd_name": "R. Donadoni",
+      "flag": 0,
+      "offset": 1042097
+    },
+    {
+      "team": 8,
+      "slot": 14,
+      "name": "Dino BAGGIO",
+      "cd_name": "D. Baggio",
+      "flag": 0,
+      "offset": 1042328
+    },
+    {
+      "team": 8,
+      "slot": 16,
+      "name": "Franco BARESI",
+      "cd_name": "F. Baresi",
+      "flag": 0,
+      "offset": 1041998
+    },
+    {
+      "team": 8,
+      "slot": 17,
+      "name": "Gianfranco ZOLA",
+      "cd_name": "G. Zola",
+      "flag": 0,
+      "offset": 1042625
+    },
+    {
+      "team": 8,
+      "slot": 18,
+      "name": "Giuseppe SIGNORI",
+      "cd_name": "G. Signori",
+      "flag": 0,
+      "offset": 1042196
+    },
+    {
+      "team": 10,
+      "slot": 1,
+      "name": "Bogdan STELEA",
+      "cd_name": "B. Stelea",
+      "flag": 0,
+      "offset": 1055375
+    },
+    {
+      "team": 10,
+      "slot": 2,
+      "name": "Dan PETRESCU",
+      "cd_name": "D. Petrescu",
+      "flag": 0,
+      "offset": 1055045
+    },
+    {
+      "team": 10,
+      "slot": 4,
+      "name": "Gheorghe MIHALI",
+      "cd_name": "G. Mihali",
+      "flag": 0,
+      "offset": 1055144
+    },
+    {
+      "team": 10,
+      "slot": 5,
+      "name": "Ionut LUPESCU",
+      "cd_name": "I. Lupescu",
+      "flag": 0,
+      "offset": 1055243
+    },
+    {
+      "team": 10,
+      "slot": 6,
+      "name": "Gheorghe POPESCU",
+      "cd_name": "G. Popescu",
+      "flag": 0,
+      "offset": 1055177
+    },
+    {
+      "team": 10,
+      "slot": 8,
+      "name": "Ilie DUMITRESCU",
+      "cd_name": "I. Dumitrescu",
+      "flag": 0,
+      "offset": 1055309
+    },
+    {
+      "team": 10,
+      "slot": 9,
+      "name": "Tibor SELYMES",
+      "cd_name": "T. Selymes",
+      "flag": 0,
+      "offset": 1055408
+    },
+    {
+      "team": 10,
+      "slot": 10,
+      "name": "Gheorghe HAGI",
+      "cd_name": "G. Hagi",
+      "flag": 0,
+      "offset": 1055210
+    },
+    {
+      "team": 10,
+      "slot": 11,
+      "name": "Dorinel MUNTEANU",
+      "cd_name": "D. Munteanu",
+      "flag": 0,
+      "offset": 1055441
+    },
+    {
+      "team": 10,
+      "slot": 12,
+      "name": "Florian PRUNEA",
+      "cd_name": "F. Prunea",
+      "flag": 0,
+      "offset": 1055012
+    },
+    {
+      "team": 10,
+      "slot": 13,
+      "name": "Ion VLADOIU",
+      "cd_name": "I. Vladoiu",
+      "flag": 0,
+      "offset": 1055507
+    },
+    {
+      "team": 10,
+      "slot": 14,
+      "name": "Basarab PANDURU",
+      "cd_name": "B. Panduru",
+      "flag": 0,
+      "offset": 1055474
+    },
+    {
+      "team": 10,
+      "slot": 16,
+      "name": "Miodrag BELODEDICI",
+      "cd_name": "M. Belodedici",
+      "flag": 0,
+      "offset": 1055111
+    },
+    {
+      "team": 10,
+      "slot": 17,
+      "name": "Florin RADUCIOIU",
+      "cd_name": "F. Raducioiu",
+      "flag": 0,
+      "offset": 1055276
+    },
+    {
+      "team": 10,
+      "slot": 19,
+      "name": "Zoltan KADAR",
+      "cd_name": "Z. Kadar",
+      "flag": 0,
+      "offset": 1055573
+    },
+    {
+      "team": 11,
+      "slot": 1,
+      "name": "Dimitri KHARIN",
+      "cd_name": "D. Kharin",
+      "flag": 0,
+      "offset": 1032703
+    },
+    {
+      "team": 11,
+      "slot": 3,
+      "name": "Yuri NIKIFOROV",
+      "cd_name": "Y. Nikiforov",
+      "flag": 0,
+      "offset": 1032439
+    },
+    {
+      "team": 11,
+      "slot": 5,
+      "name": "Dimitri KHLESTOV",
+      "cd_name": "D. Khlestov",
+      "flag": 0,
+      "offset": 1032835
+    },
+    {
+      "team": 11,
+      "slot": 6,
+      "name": "Valeri KARPIN",
+      "cd_name": "V. Karpin",
+      "flag": 0,
+      "offset": 1032670
+    },
+    {
+      "team": 11,
+      "slot": 7,
+      "name": "Viktor ONOPKO",
+      "cd_name": "V. Onopko",
+      "flag": 0,
+      "offset": 1032802
+    },
+    {
+      "team": 11,
+      "slot": 8,
+      "name": "Vasili KULKOV",
+      "cd_name": "V. Kulkov",
+      "flag": 0,
+      "offset": 1032934
+    },
+    {
+      "team": 11,
+      "slot": 9,
+      "name": "Aleksandr MOSTOVOI",
+      "cd_name": "A. Mostovoi",
+      "flag": 0,
+      "offset": 1033033
+    },
+    {
+      "team": 11,
+      "slot": 10,
+      "name": "Sergei YURAN",
+      "cd_name": "S. Yuran",
+      "flag": 0,
+      "offset": 1032868
+    },
+    {
+      "team": 11,
+      "slot": 13,
+      "name": "Sergei KIRYAKOV",
+      "cd_name": "S. Kiryakov",
+      "flag": 0,
+      "offset": 1032967
+    },
+    {
+      "team": 11,
+      "slot": 14,
+      "name": "Dimitri RADCHENKO",
+      "cd_name": "D. Radchenko",
+      "flag": 0,
+      "offset": 1032637
+    },
+    {
+      "team": 11,
+      "slot": 15,
+      "name": "Andrei KANCHELSKIS",
+      "cd_name": "A. Kanchelskis",
+      "flag": 0,
+      "offset": 1032769
+    },
+    {
+      "team": 11,
+      "slot": 16,
+      "name": "Oleg SALENKO",
+      "cd_name": "O. Salenko",
+      "flag": 0,
+      "offset": 1032604
+    },
+    {
+      "team": 11,
+      "slot": 17,
+      "name": "Dimitri KUZNETSOV",
+      "cd_name": "D. Kuznetsov",
+      "flag": 0,
+      "offset": 1032505
+    },
+    {
+      "team": 11,
+      "slot": 18,
+      "name": "Dimitri POPOV",
+      "cd_name": "D. Popov",
+      "flag": 0,
+      "offset": 1032571
+    },
+    {
+      "team": 11,
+      "slot": 19,
+      "name": "Igor DOBROVOLSKI",
+      "cd_name": "I. Dobrovolski",
+      "flag": 0,
+      "offset": 1032901
+    },
+    {
+      "team": 11,
+      "slot": 20,
+      "name": "Sergei GORLUKOVICH",
+      "cd_name": "S. Gorlukovich",
+      "flag": 0,
+      "offset": 1032373
+    },
+    {
+      "team": 12,
+      "slot": 1,
+      "name": "Jim LEIGHTON",
+      "cd_name": "J. Leighton",
+      "flag": 0,
+      "offset": 1044911
+    },
+    {
+      "team": 12,
+      "slot": 2,
+      "name": "Stewart MCKIMMIE",
+      "cd_name": "S. McKimmie",
+      "flag": 0,
+      "offset": 1044581
+    },
+    {
+      "team": 12,
+      "slot": 3,
+      "name": "Tommy BOYD",
+      "cd_name": "T. Boyd",
+      "flag": 0,
+      "offset": 1044977
+    },
+    {
+      "team": 12,
+      "slot": 5,
+      "name": "Colin HENDRY",
+      "cd_name": "C. Hendry",
+      "flag": 0,
+      "offset": 1044680
+    },
+    {
+      "team": 12,
+      "slot": 6,
+      "name": "Alan MCLAREN",
+      "cd_name": "A. McLaren",
+      "flag": 0,
+      "offset": 1044944
+    },
+    {
+      "team": 12,
+      "slot": 8,
+      "name": "Gary MCALLISTER",
+      "cd_name": "G. McAllister",
+      "flag": 0,
+      "offset": 1044746
+    },
+    {
+      "team": 12,
+      "slot": 9,
+      "name": "Ally MCCOIST",
+      "cd_name": "A. McCoist",
+      "flag": 0,
+      "offset": 1044812
+    },
+    {
+      "team": 12,
+      "slot": 10,
+      "name": "John MCGINLAY",
+      "cd_name": "J. McGinlay",
+      "flag": 0,
+      "offset": 1044845
+    },
+    {
+      "team": 12,
+      "slot": 11,
+      "name": "John COLLINS",
+      "cd_name": "J. Collins",
+      "flag": 0,
+      "offset": 1045142
+    },
+    {
+      "team": 12,
+      "slot": 12,
+      "name": "Andy GORAM",
+      "cd_name": "A. Goram",
+      "flag": 0,
+      "offset": 1044548
+    },
+    {
+      "team": 12,
+      "slot": 13,
+      "name": "Pat NEVIN",
+      "cd_name": "P. Nevin",
+      "flag": 0,
+      "offset": 1044713
+    },
+    {
+      "team": 12,
+      "slot": 15,
+      "name": "Billy MCKINLAY",
+      "cd_name": "B. McKinlay",
+      "flag": 0,
+      "offset": 1044878
+    },
+    {
+      "team": 12,
+      "slot": 16,
+      "name": "Scott BOOTH",
+      "cd_name": "S. Booth",
+      "flag": 0,
+      "offset": 1045208
+    },
+    {
+      "team": 12,
+      "slot": 17,
+      "name": "Paul MCSTAY",
+      "cd_name": "P. McStay",
+      "flag": 0,
+      "offset": 1045109
+    },
+    {
+      "team": 12,
+      "slot": 18,
+      "name": "Craig LEVEIN",
+      "cd_name": "C. Levein",
+      "flag": 0,
+      "offset": 1044647
+    },
+    {
+      "team": 12,
+      "slot": 19,
+      "name": "Gordon DURIE",
+      "cd_name": "G. Durie",
+      "flag": 0,
+      "offset": 1045076
+    },
+    {
+      "team": 12,
+      "slot": 20,
+      "name": "Stuart MCCALL",
+      "cd_name": "S. McCall",
+      "flag": 0,
+      "offset": 1044779
+    },
+    {
+      "team": 13,
+      "slot": 4,
+      "name": "Rafael ALCORTA",
+      "cd_name": "R. Alcorta",
+      "flag": 0,
+      "offset": 1033608
+    },
+    {
+      "team": 13,
+      "slot": 6,
+      "name": "SERGI Barjuan",
+      "cd_name": "S. Barjuan",
+      "flag": 0,
+      "offset": 1033707
+    },
+    {
+      "team": 13,
+      "slot": 12,
+      "name": "Santiago CANIZARES ",
+      "cd_name": "S. Canizares",
+      "flag": 0,
+      "offset": 1033575
+    },
+    {
+      "team": 13,
+      "slot": 13,
+      "name": "Julen GUERRERO",
+      "cd_name": "J. Guerrero",
+      "flag": 0,
+      "offset": 1033443
+    },
+    {
+      "team": 13,
+      "slot": 15,
+      "name": "Julio SALINAS",
+      "cd_name": "J. Salinas",
+      "flag": 0,
+      "offset": 1033476
+    },
+    {
+      "team": 13,
+      "slot": 16,
+      "name": "Josep GUARDIOLA",
+      "cd_name": "J. Guardiola",
+      "flag": 0,
+      "offset": 1033410
+    },
+    {
+      "team": 13,
+      "slot": 18,
+      "name": "Albert FERRER ",
+      "cd_name": "A. Ferrer",
+      "flag": 0,
+      "offset": 1033278
+    },
+    {
+      "team": 14,
+      "slot": 1,
+      "name": "Marco PASCOLO",
+      "cd_name": "M. Pascolo",
+      "flag": 0,
+      "offset": 1039316
+    },
+    {
+      "team": 14,
+      "slot": 2,
+      "name": "Marc HOTTIGER",
+      "cd_name": "M. Hottiger",
+      "flag": 0,
+      "offset": 1039415
+    },
+    {
+      "team": 14,
+      "slot": 5,
+      "name": "Yvan QUENTIN",
+      "cd_name": "Y. Quentin",
+      "flag": 0,
+      "offset": 1039448
+    },
+    {
+      "team": 14,
+      "slot": 6,
+      "name": "Christophe OHREL",
+      "cd_name": "C. Ohrel",
+      "flag": 0,
+      "offset": 1039712
+    },
+    {
+      "team": 14,
+      "slot": 7,
+      "name": "Ciriaco SFORZA",
+      "cd_name": "C. Sforza",
+      "flag": 0,
+      "offset": 1039514
+    },
+    {
+      "team": 14,
+      "slot": 8,
+      "name": "Thomas BICKEL",
+      "cd_name": "T. Bickel",
+      "flag": 0,
+      "offset": 1039646
+    },
+    {
+      "team": 14,
+      "slot": 9,
+      "name": "Adrian KNUP",
+      "cd_name": "A. Knup",
+      "flag": 0,
+      "offset": 1039613
+    },
+    {
+      "team": 14,
+      "slot": 10,
+      "name": "St\u0082phane CHAPUISAT",
+      "cd_name": "S. Chapuisat",
+      "flag": 0,
+      "offset": 1039580
+    },
+    {
+      "team": 14,
+      "slot": 11,
+      "name": "Alain SUTTER",
+      "cd_name": "A. Sutter",
+      "flag": 0,
+      "offset": 1039547
+    },
+    {
+      "team": 14,
+      "slot": 12,
+      "name": "Stephan LEHMANN",
+      "cd_name": "S. Lehmann",
+      "flag": 0,
+      "offset": 1039679
+    },
+    {
+      "team": 14,
+      "slot": 14,
+      "name": "Sebastien FOURNIER",
+      "cd_name": "S. Fournier",
+      "flag": 0,
+      "offset": 1040009
+    },
+    {
+      "team": 14,
+      "slot": 15,
+      "name": "Marco GRASSI",
+      "cd_name": "M. Grassi",
+      "flag": 0,
+      "offset": 1039844
+    },
+    {
+      "team": 14,
+      "slot": 16,
+      "name": "Christophe BONVIN",
+      "cd_name": "C. Bonvin",
+      "flag": 0,
+      "offset": 1039910
+    },
+    {
+      "team": 14,
+      "slot": 17,
+      "name": "Georges BREGY",
+      "cd_name": "G. Bregy",
+      "flag": 0,
+      "offset": 1039481
+    },
+    {
+      "team": 14,
+      "slot": 18,
+      "name": "Dominique HERR",
+      "cd_name": "D. Herr",
+      "flag": 0,
+      "offset": 1039349
+    },
+    {
+      "team": 14,
+      "slot": 19,
+      "name": "Nestor SUBIAT",
+      "cd_name": "N. Subiat",
+      "flag": 0,
+      "offset": 1039976
+    },
+    {
+      "team": 14,
+      "slot": 20,
+      "name": "Andre EGLI",
+      "cd_name": "A. Egli",
+      "flag": 0,
+      "offset": 1039943
+    }
+  ],
+  "inputs": {
+    "SOCCER.EXE": "cc6e2547c9f97050e1d610ba242476b7d3147f4a7a2e9a0284d6585691137543",
+    "ACTREND.DAT": "843c6da5abe934b547248ce45e0179ddb9518cff07729ff919cfc8a7c8464d7e",
+    "ACTREND.OFF": "af154fe774eb2386628457c79e53738dd990d09083a122761848f6dcbc4b3f9f"
+  },
+  "table_offset": 1255764,
+  "descriptor_stride": 32,
+  "descriptors": 47,
+  "verified_shared_components": 128,
+  "pack_sha256": "1cc6623642cc7ffde68ae89aa025e43f1eca8cd0e636440737fa9ca037727064",
+  "pack_bytes": 2117004,
+  "teams": [
+    {
+      "team": 0,
+      "name": "BULGARIA",
+      "available": true,
+      "cd_team": 3,
+      "descriptor_offset": 1255860,
+      "parts": [
+        {
+          "part": "head",
+          "record": 6,
+          "size": 32768,
+          "sha256": "e1cbae8df8a8a2440e2b243d201fd5bb89d6498361b3a2d0e88799e34d1bd458"
+        },
+        {
+          "part": "torso",
+          "record": 18,
+          "size": 65536,
+          "sha256": "6d9dc703f7f75c9a3d621756fb4c297f4bcd72c18a0ae45d79d91f7bf9c3ba62"
+        },
+        {
+          "part": "limbs",
+          "record": 67,
+          "size": 19968,
+          "sha256": "9690f99b9b4f4aa8ee882301227e961fae24a613fe87eecd19029e42f0b50896"
+        },
+        {
+          "part": "numbers",
+          "record": 243,
+          "size": 13824,
+          "sha256": "60f83beccbc6fd8f01bdd0a479a79432e213e0c55c4e6b747073ddbcd3a6e276"
+        },
+        {
+          "part": "kit_palette",
+          "record": 149,
+          "size": 72,
+          "sha256": "800f8adc54d6dc1d14740bfeddd0f0f34ca73cbd445b65747d7d8d8d61a445fc"
+        },
+        {
+          "part": "skin_palette",
+          "record": 192,
+          "size": 24,
+          "sha256": "6a4a600e6e299290844cb713d82589b8b6dd45e11370f88b26e5f52e73644bfd"
+        },
+        {
+          "part": "home_crowd",
+          "record": 210,
+          "size": 24,
+          "sha256": "e6591b96b167d6b998563ad9590f51369640f6919973d69217d37c08fd911736"
+        },
+        {
+          "part": "away_crowd",
+          "record": 216,
+          "size": 24,
+          "sha256": "f275d5f351a99954c2c304885950cd087320067ebcd6d0d701a03832d63bfae6"
+        }
+      ]
+    },
+    {
+      "team": 1,
+      "name": "CROATIA",
+      "available": false
+    },
+    {
+      "team": 2,
+      "name": "CZECH. REPUBLIC",
+      "available": true,
+      "cd_team": 39,
+      "descriptor_offset": 1257012,
+      "parts": [
+        {
+          "part": "head",
+          "record": 6,
+          "size": 32768,
+          "sha256": "e1cbae8df8a8a2440e2b243d201fd5bb89d6498361b3a2d0e88799e34d1bd458"
+        },
+        {
+          "part": "torso",
+          "record": 22,
+          "size": 65536,
+          "sha256": "135c6132b5cc30f3878a74878d796c61b06651f352051ee1fda27766942cac8c"
+        },
+        {
+          "part": "limbs",
+          "record": 65,
+          "size": 19968,
+          "sha256": "30f4fbe32b813004f1b99f6530d3f6393ae94ac7408cca39c99dfd2a5926bbd4"
+        },
+        {
+          "part": "numbers",
+          "record": 242,
+          "size": 13824,
+          "sha256": "73ad7e3909571db26911a37cb5edea9156d81b8fd68277dc3e3f2903c24ba962"
+        },
+        {
+          "part": "kit_palette",
+          "record": 153,
+          "size": 72,
+          "sha256": "557c20d469aeaf50821397442ab50a8e6713968040bf9f0c075d36ef5403d61b"
+        },
+        {
+          "part": "skin_palette",
+          "record": 192,
+          "size": 24,
+          "sha256": "6a4a600e6e299290844cb713d82589b8b6dd45e11370f88b26e5f52e73644bfd"
+        },
+        {
+          "part": "home_crowd",
+          "record": 209,
+          "size": 24,
+          "sha256": "03bf09751e0d2b3a9b5c747e0cdf336ad2b02ced8d19874c96b1a96f16d1d676"
+        },
+        {
+          "part": "away_crowd",
+          "record": 215,
+          "size": 24,
+          "sha256": "4e8b061817b2b614a53591dfa6ef04c36772520bbece32996a610596f27494a9"
+        }
+      ]
+    },
+    {
+      "team": 3,
+      "name": "DENMARK",
+      "available": true,
+      "cd_team": 5,
+      "descriptor_offset": 1255924,
+      "parts": [
+        {
+          "part": "head",
+          "record": 7,
+          "size": 32768,
+          "sha256": "18f8c9ab62e7f381a57485194a6dc7334a12de87cf5b79ec98d0ba96c15453b1"
+        },
+        {
+          "part": "torso",
+          "record": 23,
+          "size": 65536,
+          "sha256": "524235c43a982951d0d797a3139acdc89a291c9f9eaca50c02d3f09b56956292"
+        },
+        {
+          "part": "limbs",
+          "record": 59,
+          "size": 19968,
+          "sha256": "ed301d44d8b52556fe6aa173da827a6576aa241b02db3185b7f79c9a2ae2dc9b"
+        },
+        {
+          "part": "numbers",
+          "record": 242,
+          "size": 13824,
+          "sha256": "73ad7e3909571db26911a37cb5edea9156d81b8fd68277dc3e3f2903c24ba962"
+        },
+        {
+          "part": "kit_palette",
+          "record": 154,
+          "size": 72,
+          "sha256": "17e3699656f2c2338bb747712648d6de12a0d71691c53ba70946c7bf07f42939"
+        },
+        {
+          "part": "skin_palette",
+          "record": 193,
+          "size": 24,
+          "sha256": "6a4a600e6e299290844cb713d82589b8b6dd45e11370f88b26e5f52e73644bfd"
+        },
+        {
+          "part": "home_crowd",
+          "record": 209,
+          "size": 24,
+          "sha256": "03bf09751e0d2b3a9b5c747e0cdf336ad2b02ced8d19874c96b1a96f16d1d676"
+        },
+        {
+          "part": "away_crowd",
+          "record": 215,
+          "size": 24,
+          "sha256": "4e8b061817b2b614a53591dfa6ef04c36772520bbece32996a610596f27494a9"
+        }
+      ]
+    },
+    {
+      "team": 4,
+      "name": "ENGLAND",
+      "available": true,
+      "cd_team": 14,
+      "descriptor_offset": 1256212,
+      "parts": [
+        {
+          "part": "head",
+          "record": 7,
+          "size": 32768,
+          "sha256": "18f8c9ab62e7f381a57485194a6dc7334a12de87cf5b79ec98d0ba96c15453b1"
+        },
+        {
+          "part": "torso",
+          "record": 25,
+          "size": 65536,
+          "sha256": "ba66904ceef7b8fc7cff62ae2eb8f73ea2ef49838df4379bf610f8c24b80bb71"
+        },
+        {
+          "part": "limbs",
+          "record": 63,
+          "size": 19968,
+          "sha256": "83aac54a14f7e882d69343ae71f0b602f8a1ddcf948072a7791e47b53971b56b"
+        },
+        {
+          "part": "numbers",
+          "record": 243,
+          "size": 13824,
+          "sha256": "60f83beccbc6fd8f01bdd0a479a79432e213e0c55c4e6b747073ddbcd3a6e276"
+        },
+        {
+          "part": "kit_palette",
+          "record": 156,
+          "size": 72,
+          "sha256": "691e918e465b67f6b48704a80edc358dff17b2cc7c83041f92077b4e6344767a"
+        },
+        {
+          "part": "skin_palette",
+          "record": 193,
+          "size": 24,
+          "sha256": "6a4a600e6e299290844cb713d82589b8b6dd45e11370f88b26e5f52e73644bfd"
+        },
+        {
+          "part": "home_crowd",
+          "record": 210,
+          "size": 24,
+          "sha256": "e6591b96b167d6b998563ad9590f51369640f6919973d69217d37c08fd911736"
+        },
+        {
+          "part": "away_crowd",
+          "record": 216,
+          "size": 24,
+          "sha256": "f275d5f351a99954c2c304885950cd087320067ebcd6d0d701a03832d63bfae6"
+        }
+      ]
+    },
+    {
+      "team": 5,
+      "name": "FRANCE",
+      "available": true,
+      "cd_team": 32,
+      "descriptor_offset": 1256788,
+      "parts": [
+        {
+          "part": "head",
+          "record": 6,
+          "size": 32768,
+          "sha256": "e1cbae8df8a8a2440e2b243d201fd5bb89d6498361b3a2d0e88799e34d1bd458"
+        },
+        {
+          "part": "torso",
+          "record": 27,
+          "size": 65536,
+          "sha256": "b6fd5f32e698ab84f339eb306976dc589b8865e7133291ff00264ccd7bbb6c0f"
+        },
+        {
+          "part": "limbs",
+          "record": 67,
+          "size": 19968,
+          "sha256": "9690f99b9b4f4aa8ee882301227e961fae24a613fe87eecd19029e42f0b50896"
+        },
+        {
+          "part": "numbers",
+          "record": 245,
+          "size": 13824,
+          "sha256": "eae6bc537a75a358bc98eddfd941561f18ccd33c23603855b173002fed927f35"
+        },
+        {
+          "part": "kit_palette",
+          "record": 158,
+          "size": 72,
+          "sha256": "51ee9987f9d6d3dcff9f163e3caddcdc088a48dc2dd517380d2c2cc5243cc7b4"
+        },
+        {
+          "part": "skin_palette",
+          "record": 192,
+          "size": 24,
+          "sha256": "6a4a600e6e299290844cb713d82589b8b6dd45e11370f88b26e5f52e73644bfd"
+        },
+        {
+          "part": "home_crowd",
+          "record": 206,
+          "size": 24,
+          "sha256": "553da02aa3dc34c275846ec058e5f6f21d0968a72eb4e0ac69260a508d41f1d2"
+        },
+        {
+          "part": "away_crowd",
+          "record": 212,
+          "size": 24,
+          "sha256": "56325087ff0abbc178b3ddd8cb6b06714ad42b48e1ba0ee208cb74e2ffc73731"
+        }
+      ]
+    },
+    {
+      "team": 6,
+      "name": "GERMANY",
+      "available": true,
+      "cd_team": 28,
+      "descriptor_offset": 1256660,
+      "parts": [
+        {
+          "part": "head",
+          "record": 7,
+          "size": 32768,
+          "sha256": "18f8c9ab62e7f381a57485194a6dc7334a12de87cf5b79ec98d0ba96c15453b1"
+        },
+        {
+          "part": "torso",
+          "record": 28,
+          "size": 65536,
+          "sha256": "23e1bb6a277dd3cf013525fcd640003c00113276fa0c367df934e81b325bce6e"
+        },
+        {
+          "part": "limbs",
+          "record": 65,
+          "size": 19968,
+          "sha256": "30f4fbe32b813004f1b99f6530d3f6393ae94ac7408cca39c99dfd2a5926bbd4"
+        },
+        {
+          "part": "numbers",
+          "record": 243,
+          "size": 13824,
+          "sha256": "60f83beccbc6fd8f01bdd0a479a79432e213e0c55c4e6b747073ddbcd3a6e276"
+        },
+        {
+          "part": "kit_palette",
+          "record": 159,
+          "size": 72,
+          "sha256": "c501810de0e51a49bc6b1992299d200d5df0e0b6abe4e05102cc0fc283d92bfc"
+        },
+        {
+          "part": "skin_palette",
+          "record": 193,
+          "size": 24,
+          "sha256": "6a4a600e6e299290844cb713d82589b8b6dd45e11370f88b26e5f52e73644bfd"
+        },
+        {
+          "part": "home_crowd",
+          "record": 210,
+          "size": 24,
+          "sha256": "e6591b96b167d6b998563ad9590f51369640f6919973d69217d37c08fd911736"
+        },
+        {
+          "part": "away_crowd",
+          "record": 216,
+          "size": 24,
+          "sha256": "f275d5f351a99954c2c304885950cd087320067ebcd6d0d701a03832d63bfae6"
+        }
+      ]
+    },
+    {
+      "team": 7,
+      "name": "HOLLAND",
+      "available": true,
+      "cd_team": 22,
+      "descriptor_offset": 1256468,
+      "parts": [
+        {
+          "part": "head",
+          "record": 7,
+          "size": 32768,
+          "sha256": "18f8c9ab62e7f381a57485194a6dc7334a12de87cf5b79ec98d0ba96c15453b1"
+        },
+        {
+          "part": "torso",
+          "record": 39,
+          "size": 65536,
+          "sha256": "b36b61de9c6c4273bf32c9ab7113ee3f5f540b22bf413b0ec2bf77fa57d24ca5"
+        },
+        {
+          "part": "limbs",
+          "record": 64,
+          "size": 19968,
+          "sha256": "2d08c2d78de95d5de7b86ec7daba67febe8940b49542c41934fd8e330282dba2"
+        },
+        {
+          "part": "numbers",
+          "record": 242,
+          "size": 13824,
+          "sha256": "73ad7e3909571db26911a37cb5edea9156d81b8fd68277dc3e3f2903c24ba962"
+        },
+        {
+          "part": "kit_palette",
+          "record": 170,
+          "size": 72,
+          "sha256": "e7de08e9e042c08273ab9423c44b19d16be5e57b71c945475cd21264bd20d8d7"
+        },
+        {
+          "part": "skin_palette",
+          "record": 193,
+          "size": 24,
+          "sha256": "6a4a600e6e299290844cb713d82589b8b6dd45e11370f88b26e5f52e73644bfd"
+        },
+        {
+          "part": "home_crowd",
+          "record": 208,
+          "size": 24,
+          "sha256": "03bf09751e0d2b3a9b5c747e0cdf336ad2b02ced8d19874c96b1a96f16d1d676"
+        },
+        {
+          "part": "away_crowd",
+          "record": 214,
+          "size": 24,
+          "sha256": "4e8b061817b2b614a53591dfa6ef04c36772520bbece32996a610596f27494a9"
+        }
+      ]
+    },
+    {
+      "team": 8,
+      "name": "ITALY",
+      "available": true,
+      "cd_team": 12,
+      "descriptor_offset": 1256148,
+      "parts": [
+        {
+          "part": "head",
+          "record": 8,
+          "size": 32768,
+          "sha256": "85338afb271ab2d0046f1aa68183dba4eb1ed6d342a43b09b6e1d301c04e07fd"
+        },
+        {
+          "part": "torso",
+          "record": 34,
+          "size": 65536,
+          "sha256": "b36b61de9c6c4273bf32c9ab7113ee3f5f540b22bf413b0ec2bf77fa57d24ca5"
+        },
+        {
+          "part": "limbs",
+          "record": 63,
+          "size": 19968,
+          "sha256": "83aac54a14f7e882d69343ae71f0b602f8a1ddcf948072a7791e47b53971b56b"
+        },
+        {
+          "part": "numbers",
+          "record": 242,
+          "size": 13824,
+          "sha256": "73ad7e3909571db26911a37cb5edea9156d81b8fd68277dc3e3f2903c24ba962"
+        },
+        {
+          "part": "kit_palette",
+          "record": 165,
+          "size": 72,
+          "sha256": "9b3b383f5ef4100e769498058b60eebd64e7e12300f5836c56ea85da3e826c32"
+        },
+        {
+          "part": "skin_palette",
+          "record": 194,
+          "size": 24,
+          "sha256": "a8dab2f8dd07906c8c1b7e5827d7ae65597786638a3b2b184ff635c0a7e68c3f"
+        },
+        {
+          "part": "home_crowd",
+          "record": 206,
+          "size": 24,
+          "sha256": "553da02aa3dc34c275846ec058e5f6f21d0968a72eb4e0ac69260a508d41f1d2"
+        },
+        {
+          "part": "away_crowd",
+          "record": 212,
+          "size": 24,
+          "sha256": "56325087ff0abbc178b3ddd8cb6b06714ad42b48e1ba0ee208cb74e2ffc73731"
+        }
+      ]
+    },
+    {
+      "team": 9,
+      "name": "PORTUGAL",
+      "available": true,
+      "cd_team": 41,
+      "descriptor_offset": 1257076,
+      "parts": [
+        {
+          "part": "head",
+          "record": 8,
+          "size": 32768,
+          "sha256": "85338afb271ab2d0046f1aa68183dba4eb1ed6d342a43b09b6e1d301c04e07fd"
+        },
+        {
+          "part": "torso",
+          "record": 44,
+          "size": 65536,
+          "sha256": "776ae4c91ef5adc37159c804daf0bb7a2cfcda57d2ec2f37eff58fa06e61917d"
+        },
+        {
+          "part": "limbs",
+          "record": 66,
+          "size": 19968,
+          "sha256": "73bd26af8942cd814ab464554b472633bf227c18b90a771d6799dda1728d0e0e"
+        },
+        {
+          "part": "numbers",
+          "record": 245,
+          "size": 13824,
+          "sha256": "eae6bc537a75a358bc98eddfd941561f18ccd33c23603855b173002fed927f35"
+        },
+        {
+          "part": "kit_palette",
+          "record": 175,
+          "size": 72,
+          "sha256": "0e135b991807af195d68fbc82962b19a405fe83d1786d35cdd89b53e48f6408a"
+        },
+        {
+          "part": "skin_palette",
+          "record": 194,
+          "size": 24,
+          "sha256": "a8dab2f8dd07906c8c1b7e5827d7ae65597786638a3b2b184ff635c0a7e68c3f"
+        },
+        {
+          "part": "home_crowd",
+          "record": 209,
+          "size": 24,
+          "sha256": "03bf09751e0d2b3a9b5c747e0cdf336ad2b02ced8d19874c96b1a96f16d1d676"
+        },
+        {
+          "part": "away_crowd",
+          "record": 215,
+          "size": 24,
+          "sha256": "4e8b061817b2b614a53591dfa6ef04c36772520bbece32996a610596f27494a9"
+        }
+      ]
+    },
+    {
+      "team": 10,
+      "name": "ROMANIA",
+      "available": true,
+      "cd_team": 27,
+      "descriptor_offset": 1256628,
+      "parts": [
+        {
+          "part": "head",
+          "record": 6,
+          "size": 32768,
+          "sha256": "e1cbae8df8a8a2440e2b243d201fd5bb89d6498361b3a2d0e88799e34d1bd458"
+        },
+        {
+          "part": "torso",
+          "record": 45,
+          "size": 65536,
+          "sha256": "afd3b2b9d774ed70d7632adfb948443a2a46d3afed2d268badb49d145ae7d437"
+        },
+        {
+          "part": "limbs",
+          "record": 65,
+          "size": 19968,
+          "sha256": "30f4fbe32b813004f1b99f6530d3f6393ae94ac7408cca39c99dfd2a5926bbd4"
+        },
+        {
+          "part": "numbers",
+          "record": 245,
+          "size": 13824,
+          "sha256": "eae6bc537a75a358bc98eddfd941561f18ccd33c23603855b173002fed927f35"
+        },
+        {
+          "part": "kit_palette",
+          "record": 176,
+          "size": 72,
+          "sha256": "1027ed6a54000d97c36713656233cfa560c940065acbbf744120ba965160c67d"
+        },
+        {
+          "part": "skin_palette",
+          "record": 192,
+          "size": 24,
+          "sha256": "6a4a600e6e299290844cb713d82589b8b6dd45e11370f88b26e5f52e73644bfd"
+        },
+        {
+          "part": "home_crowd",
+          "record": 211,
+          "size": 24,
+          "sha256": "872c69680202c4b7baf3e298ae26c07cb9e90aafaaeaabe4f51b9e904529a663"
+        },
+        {
+          "part": "away_crowd",
+          "record": 217,
+          "size": 24,
+          "sha256": "64e446148d4a0c4be0ed37336c4fb01b8e39704d3b3785ecf721d41c00b9ee6a"
+        }
+      ]
+    },
+    {
+      "team": 11,
+      "name": "RUSSIA",
+      "available": true,
+      "cd_team": 1,
+      "descriptor_offset": 1255796,
+      "parts": [
+        {
+          "part": "head",
+          "record": 6,
+          "size": 32768,
+          "sha256": "e1cbae8df8a8a2440e2b243d201fd5bb89d6498361b3a2d0e88799e34d1bd458"
+        },
+        {
+          "part": "torso",
+          "record": 46,
+          "size": 65536,
+          "sha256": "5e9ec3c788dd4db374b35e18de436dafb8dbebbd9f59da2d04aacd4486aa154f"
+        },
+        {
+          "part": "limbs",
+          "record": 66,
+          "size": 19968,
+          "sha256": "73bd26af8942cd814ab464554b472633bf227c18b90a771d6799dda1728d0e0e"
+        },
+        {
+          "part": "numbers",
+          "record": 245,
+          "size": 13824,
+          "sha256": "eae6bc537a75a358bc98eddfd941561f18ccd33c23603855b173002fed927f35"
+        },
+        {
+          "part": "kit_palette",
+          "record": 177,
+          "size": 72,
+          "sha256": "61a14f5b4125530cf256b2394b132913cf39ca64045ad9a4e7c929c3801caaa4"
+        },
+        {
+          "part": "skin_palette",
+          "record": 192,
+          "size": 24,
+          "sha256": "6a4a600e6e299290844cb713d82589b8b6dd45e11370f88b26e5f52e73644bfd"
+        },
+        {
+          "part": "home_crowd",
+          "record": 210,
+          "size": 24,
+          "sha256": "e6591b96b167d6b998563ad9590f51369640f6919973d69217d37c08fd911736"
+        },
+        {
+          "part": "away_crowd",
+          "record": 216,
+          "size": 24,
+          "sha256": "f275d5f351a99954c2c304885950cd087320067ebcd6d0d701a03832d63bfae6"
+        }
+      ]
+    },
+    {
+      "team": 12,
+      "name": "SCOTLAND",
+      "available": true,
+      "cd_team": 15,
+      "descriptor_offset": 1256244,
+      "parts": [
+        {
+          "part": "head",
+          "record": 7,
+          "size": 32768,
+          "sha256": "18f8c9ab62e7f381a57485194a6dc7334a12de87cf5b79ec98d0ba96c15453b1"
+        },
+        {
+          "part": "torso",
+          "record": 48,
+          "size": 65536,
+          "sha256": "93f87a7ca12d8d767822b9332fab3ff2373ac3003a4f1d958c7f1a2752e817ab"
+        },
+        {
+          "part": "limbs",
+          "record": 68,
+          "size": 19968,
+          "sha256": "94c55ed820fee84aa5d964f4f272f63103018deb9d9fc4558985f6d277c77ccb"
+        },
+        {
+          "part": "numbers",
+          "record": 242,
+          "size": 13824,
+          "sha256": "73ad7e3909571db26911a37cb5edea9156d81b8fd68277dc3e3f2903c24ba962"
+        },
+        {
+          "part": "kit_palette",
+          "record": 179,
+          "size": 72,
+          "sha256": "a2a39cb3fc028f82023ec335ed433ddd6937c011a83db8eb52212f33c44f7f20"
+        },
+        {
+          "part": "skin_palette",
+          "record": 193,
+          "size": 24,
+          "sha256": "6a4a600e6e299290844cb713d82589b8b6dd45e11370f88b26e5f52e73644bfd"
+        },
+        {
+          "part": "home_crowd",
+          "record": 206,
+          "size": 24,
+          "sha256": "553da02aa3dc34c275846ec058e5f6f21d0968a72eb4e0ac69260a508d41f1d2"
+        },
+        {
+          "part": "away_crowd",
+          "record": 212,
+          "size": 24,
+          "sha256": "56325087ff0abbc178b3ddd8cb6b06714ad42b48e1ba0ee208cb74e2ffc73731"
+        }
+      ]
+    },
+    {
+      "team": 13,
+      "name": "SPAIN",
+      "available": true,
+      "cd_team": 2,
+      "descriptor_offset": 1255828,
+      "parts": [
+        {
+          "part": "head",
+          "record": 8,
+          "size": 32768,
+          "sha256": "85338afb271ab2d0046f1aa68183dba4eb1ed6d342a43b09b6e1d301c04e07fd"
+        },
+        {
+          "part": "torso",
+          "record": 51,
+          "size": 65536,
+          "sha256": "5f2f7a6e96afcbc02f78d8af4f2c35639e8d6922101099ae6594cd9ef4048241"
+        },
+        {
+          "part": "limbs",
+          "record": 65,
+          "size": 19968,
+          "sha256": "30f4fbe32b813004f1b99f6530d3f6393ae94ac7408cca39c99dfd2a5926bbd4"
+        },
+        {
+          "part": "numbers",
+          "record": 242,
+          "size": 13824,
+          "sha256": "73ad7e3909571db26911a37cb5edea9156d81b8fd68277dc3e3f2903c24ba962"
+        },
+        {
+          "part": "kit_palette",
+          "record": 182,
+          "size": 72,
+          "sha256": "2ffe3540a68854d65b83a478d5bb4a20d8c979c974596fa2cf0d7f81bd16bf6e"
+        },
+        {
+          "part": "skin_palette",
+          "record": 194,
+          "size": 24,
+          "sha256": "a8dab2f8dd07906c8c1b7e5827d7ae65597786638a3b2b184ff635c0a7e68c3f"
+        },
+        {
+          "part": "home_crowd",
+          "record": 209,
+          "size": 24,
+          "sha256": "03bf09751e0d2b3a9b5c747e0cdf336ad2b02ced8d19874c96b1a96f16d1d676"
+        },
+        {
+          "part": "away_crowd",
+          "record": 215,
+          "size": 24,
+          "sha256": "4e8b061817b2b614a53591dfa6ef04c36772520bbece32996a610596f27494a9"
+        }
+      ]
+    },
+    {
+      "team": 14,
+      "name": "SWITZERLAND",
+      "available": true,
+      "cd_team": 9,
+      "descriptor_offset": 1256052,
+      "parts": [
+        {
+          "part": "head",
+          "record": 7,
+          "size": 32768,
+          "sha256": "18f8c9ab62e7f381a57485194a6dc7334a12de87cf5b79ec98d0ba96c15453b1"
+        },
+        {
+          "part": "torso",
+          "record": 53,
+          "size": 65536,
+          "sha256": "b36b61de9c6c4273bf32c9ab7113ee3f5f540b22bf413b0ec2bf77fa57d24ca5"
+        },
+        {
+          "part": "limbs",
+          "record": 64,
+          "size": 19968,
+          "sha256": "2d08c2d78de95d5de7b86ec7daba67febe8940b49542c41934fd8e330282dba2"
+        },
+        {
+          "part": "numbers",
+          "record": 242,
+          "size": 13824,
+          "sha256": "73ad7e3909571db26911a37cb5edea9156d81b8fd68277dc3e3f2903c24ba962"
+        },
+        {
+          "part": "kit_palette",
+          "record": 184,
+          "size": 72,
+          "sha256": "ad562fad0c5f5deff6840a19dfe7fc5dbc0486592eaed2d1d360bfcbb965e6cd"
+        },
+        {
+          "part": "skin_palette",
+          "record": 193,
+          "size": 24,
+          "sha256": "6a4a600e6e299290844cb713d82589b8b6dd45e11370f88b26e5f52e73644bfd"
+        },
+        {
+          "part": "home_crowd",
+          "record": 209,
+          "size": 24,
+          "sha256": "03bf09751e0d2b3a9b5c747e0cdf336ad2b02ced8d19874c96b1a96f16d1d676"
+        },
+        {
+          "part": "away_crowd",
+          "record": 215,
+          "size": 24,
+          "sha256": "4e8b061817b2b614a53591dfa6ef04c36772520bbece32996a610596f27494a9"
+        }
+      ]
+    },
+    {
+      "team": 15,
+      "name": "TURKEY",
+      "available": false
+    }
+  ]
+}

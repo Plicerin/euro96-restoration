@@ -1,0 +1,283 @@
+{
+  "executable_sha256": "2a473a002a294c1bb28ea39e94a36afc34497dd7e44f0ebfeda0ea21f652b62d",
+  "team_table_file_offset": 1289532,
+  "medium_teams": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+  ],
+  "renderer_evidence": [
+    {
+      "file_offset": 978870,
+      "bytes": "80eb06"
+    },
+    {
+      "file_offset": 979283,
+      "bytes": "80ed0c"
+    },
+    {
+      "file_offset": 969895,
+      "bytes": "b820010000"
+    },
+    {
+      "file_offset": 969925,
+      "bytes": "b828010000"
+    },
+    {
+      "file_offset": 970229,
+      "bytes": "b840010000"
+    },
+    {
+      "file_offset": 970363,
+      "bytes": "b848010000"
+    },
+    {
+      "file_offset": 970393,
+      "bytes": "b828010000"
+    },
+    {
+      "file_offset": 972103,
+      "bytes": "b850030000"
+    }
+  ],
+  "head_uv_ranges": [
+    [
+      1,
+      120
+    ],
+    [
+      770,
+      829
+    ]
+  ],
+  "page_records": [
+    2,
+    36,
+    37,
+    40,
+    41,
+    106
+  ],
+  "skin_remap": "Indices 32..63: subtract 6 for medium teams, 12 for dark appearance, clamp to 32. Medium default heads also subtract 4 from hair indices 5..31.",
+  "welcome": [
+    {
+      "country": "BUL",
+      "category": 64,
+      "file": "e_bulttx.wav",
+      "sha256": "cd58330609cdfd01c9c032bc6039ce0d47c2db879ce0c6af380dadefc3532f95"
+    },
+    {
+      "country": "BUL",
+      "category": 80,
+      "file": "e_bultty.wav",
+      "sha256": "1b1839d01e17c9f7b1571541f44af3e405aed772a1fcaf15ed5e9c43ec739dfa"
+    },
+    {
+      "country": "CRO",
+      "category": 65,
+      "file": "e_crottx.wav",
+      "sha256": "f2a7d063272baa2bbc9b2552846247b240bd9a09f5f1b45ff1cc5a943ad25bf9"
+    },
+    {
+      "country": "CRO",
+      "category": 81,
+      "file": "e_crotty.wav",
+      "sha256": "05988a5065989f1078409ea68708d6047abcafc04be0ceec4a82a0b72f18e32f"
+    },
+    {
+      "country": "CZC",
+      "category": 66,
+      "file": "e_czcttx.wav",
+      "sha256": "c45db9120b6a54836fba6138da66a6d9cf6c10e674797e7d4e95349af500bd55"
+    },
+    {
+      "country": "CZC",
+      "category": 82,
+      "file": "e_czctty.wav",
+      "sha256": "58aa12adac2c51eacd3b9f7c4a922debd9c98e9061f0edf1c17b27971295c54a"
+    },
+    {
+      "country": "DMK",
+      "category": 67,
+      "file": "e_dmkttx.wav",
+      "sha256": "22bfd0a6b60739fe91040006abddc220fd32b6ade3f99b39cca6f47dad94dfcd"
+    },
+    {
+      "country": "DMK",
+      "category": 83,
+      "file": "e_dmktty.wav",
+      "sha256": "9852e82bb5ddebad1f14b8c81e819479831d06cc844f2a6188c42e4098e3e9e8"
+    },
+    {
+      "country": "ENG",
+      "category": 68,
+      "file": "e_engttx.wav",
+      "sha256": "4375e59c2efe59be2b711a786ea0c6d6d778d12375a751c6e4167057b36bfd33"
+    },
+    {
+      "country": "ENG",
+      "category": 84,
+      "file": "e_engtty.wav",
+      "sha256": "d148c4803ef8bbe9cfd57740d4e103555ec5a6cf49d7dc7f88c0ae87647886d7"
+    },
+    {
+      "country": "FRN",
+      "category": 69,
+      "file": "e_frnttx.wav",
+      "sha256": "146474d46c738ee3e20c4f2c85eb993e087d181dc03413ca3befdf542240af75"
+    },
+    {
+      "country": "FRN",
+      "category": 85,
+      "file": "e_frntty.wav",
+      "sha256": "16ce004b83391cd3b1108410212e968f319b7d970755d33d205af0a039856234"
+    },
+    {
+      "country": "GER",
+      "category": 70,
+      "file": "e_gerttx.wav",
+      "sha256": "9f06f56f3bd0594d10a55a98c29222b94ff8ab6881e3d88610ebce330c29ad90"
+    },
+    {
+      "country": "GER",
+      "category": 86,
+      "file": "e_gertty.wav",
+      "sha256": "894ea9f5f6f6960951d439d000b4647cadf7e2c8e1bfc7013e3c01daf8397315"
+    },
+    {
+      "country": "HOL",
+      "category": 71,
+      "file": "e_holttx.wav",
+      "sha256": "24e6ffe23785e689b32fa08e2d7f143a9d0781274288e6eeea4f3a830d01eb12"
+    },
+    {
+      "country": "HOL",
+      "category": 87,
+      "file": "e_holtty.wav",
+      "sha256": "7475c19ebda97f5a426caa77828c7433f98a5b4c91713d28615b68eb159bd4e5"
+    },
+    {
+      "country": "ITA",
+      "category": 72,
+      "file": "e_itattx.wav",
+      "sha256": "62ba24f1f4509376371340256bf6832699ff4a3b0a5621ad6698b9eb8ddde352"
+    },
+    {
+      "country": "ITA",
+      "category": 88,
+      "file": "e_itatty.wav",
+      "sha256": "2e99a432b4dbb72c1b73f800c2891a2bdb70ea32a8b537b6d8b1990e1d794068"
+    },
+    {
+      "country": "POR",
+      "category": 73,
+      "file": "e_porttx.wav",
+      "sha256": "092c67dc07e9920b2224d622f2b5bcb576e86f364aa71a8bd09eafbf0b061ce8"
+    },
+    {
+      "country": "POR",
+      "category": 89,
+      "file": "e_portty.wav",
+      "sha256": "c55077fad5c2b40b38d20dc027bc567411009044b9b7ca628c321fd7cdef810d"
+    },
+    {
+      "country": "ROM",
+      "category": 74,
+      "file": "e_romttx.wav",
+      "sha256": "00dcfacd73c0776fc6ba67e8df2b7fa7304d65c4543c2bd513afaee68d97f2d3"
+    },
+    {
+      "country": "ROM",
+      "category": 90,
+      "file": "e_romtty.wav",
+      "sha256": "264bf4ad738726cc398f3b373a19829f20f28410d0146e64d4c0f2177b5fcfb2"
+    },
+    {
+      "country": "RUS",
+      "category": 75,
+      "file": "e_rusttx.wav",
+      "sha256": "e0d67cb16211041a942d5bfd8ea9923c53fff2b6ffd4349646e7cdf31e51bd0d"
+    },
+    {
+      "country": "RUS",
+      "category": 91,
+      "file": "e_rustty.wav",
+      "sha256": "2fff0653885ea3e2cdae69ae5ebc35e581d2962a9f13a6065cd0c4f3a0adbc15"
+    },
+    {
+      "country": "SCT",
+      "category": 76,
+      "file": "e_sctttx.wav",
+      "sha256": "0dd05c31386c7b9ed7fb2bfcd0ab648b188b47c132b7e6ecbe93c6841cb2f48a"
+    },
+    {
+      "country": "SCT",
+      "category": 92,
+      "file": "e_scttty.wav",
+      "sha256": "8014b8534d0bb7cc948ec0ab7fed221bd73f59ed82505f74d11a74f61891a038"
+    },
+    {
+      "country": "SPN",
+      "category": 77,
+      "file": "e_spnttx.wav",
+      "sha256": "abf9e820c6e724ee6d869587d227a4501306f9eacfd1c369bac58606ee404714"
+    },
+    {
+      "country": "SPN",
+      "category": 93,
+      "file": "e_spntty.wav",
+      "sha256": "3b14638dd54e6573e2ebe72628bb3a179e45aeb9df6975a8e3905956cadb5974"
+    },
+    {
+      "country": "SWZ",
+      "category": 78,
+      "file": "e_swzttx.wav",
+      "sha256": "03558f4f4111bfee2951bf1c2462bdfdf5dbd58755690847ad98818f2a4a801b"
+    },
+    {
+      "country": "SWZ",
+      "category": 94,
+      "file": "e_swztty.wav",
+      "sha256": "228b689bf19740df8012067f25e30e9b114fe4f9263a1ae67d8e98e4835f9774"
+    },
+    {
+      "country": "TRK",
+      "category": 79,
+      "file": "e_trkttx.wav",
+      "sha256": "d35a8519bab062dd76e236024756b19eb43fd83ca40b6dc60b4f3265533924cb"
+    },
+    {
+      "country": "TRK",
+      "category": 95,
+      "file": "e_trktty.wav",
+      "sha256": "6d40f7602fde8be009d46fdb5816bd8f0232bc9d6ccb2ff891aa1aa2e7af21cc"
+    }
+  ],
+  "outputs": {
+    "GRAPHICS/PLAYERS.BIN": {
+      "bytes": 399768,
+      "sha256": "8948cb40363e7b25a8429de2bea006a7993b499dba8335e635a406e54939ce7c"
+    },
+    "COMMENTARY/EURO_ENGLISH.BIN": {
+      "bytes": 11879905,
+      "sha256": "f2200a6b9b52ff1f5e804c307a5fd9bb9973d5b6670eeb23d725490a3f389e79"
+    },
+    "DIGI/MUSIC/EURO96.WAV": {
+      "bytes": 12291570,
+      "sha256": "6146a38c1503a3d26c58b464be5acced75bf154a6ec67d692347a67bba5bba49"
+    }
+  }
+}

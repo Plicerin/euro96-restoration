@@ -1,0 +1,134 @@
+{
+  "inputs": {
+    "SOCCER.EXE": "cc6e2547c9f97050e1d610ba242476b7d3147f4a7a2e9a0284d6585691137543",
+    "ACTREND.DAT": "843c6da5abe934b547248ce45e0179ddb9518cff07729ff919cfc8a7c8464d7e",
+    "ACTREND.OFF": "af154fe774eb2386628457c79e53738dd990d09083a122761848f6dcbc4b3f9f"
+  },
+  "venues": [
+    {
+      "name": "England",
+      "file": "STADIUM.BIN",
+      "country": 14,
+      "descriptor_offset": 1282340,
+      "descriptor_sha256": "cfb53f7e8fb51691d246ac54b56cb7bf355a7ed26bfc85a1345dd45c433d4d62",
+      "pack_sha256": "beed234c8f34b87e917808e5706516ced45858d195e0b88eb46804ba449035a0",
+      "records": [
+        276,
+        112,
+        122,
+        284,
+        283,
+        280,
+        279,
+        278,
+        277,
+        282,
+        281,
+        247,
+        202,
+        226,
+        220
+      ]
+    },
+    {
+      "name": "Scotland",
+      "file": "SCOTLAND.BIN",
+      "country": 15,
+      "descriptor_offset": 1282580,
+      "descriptor_sha256": "594103f4d83c3e8fc1fdc20e0e998e6b8e65c97932abfdbc55db4d4ee087db36",
+      "pack_sha256": "f42c0f3e3c23c65955ca9df13b81151580e03c38997154775559ebb728ff2472",
+      "records": [
+        276,
+        113,
+        129,
+        284,
+        283,
+        280,
+        279,
+        278,
+        277,
+        282,
+        281,
+        246,
+        202,
+        226,
+        220
+      ]
+    },
+    {
+      "name": "Spain",
+      "file": "SPAIN.BIN",
+      "country": 2,
+      "descriptor_offset": 1279460,
+      "descriptor_sha256": "6b077e813e6af3614e1490f00324e2aa77f515ca036352fca36369c1ed8e1503",
+      "pack_sha256": "f4160c6a22068ddea841dbec495942821ee0cc4a6031f59e47c764287c3f585c",
+      "records": [
+        276,
+        112,
+        129,
+        284,
+        283,
+        280,
+        279,
+        278,
+        277,
+        282,
+        281,
+        246,
+        198,
+        229,
+        223
+      ]
+    },
+    {
+      "name": "Italy",
+      "file": "ITALY.BIN",
+      "country": 12,
+      "descriptor_offset": 1281860,
+      "descriptor_sha256": "d9f1b3dd1a627125aa60b4b6b67ee80596597f048b0a775b3cf77ec6632c570d",
+      "pack_sha256": "b50f449ef2b8dbb02c7ba6b32593361c421e75b76b913e966b526fe3df580f9f",
+      "records": [
+        276,
+        113,
+        124,
+        284,
+        283,
+        280,
+        279,
+        278,
+        277,
+        282,
+        281,
+        247,
+        200,
+        229,
+        223
+      ]
+    },
+    {
+      "name": "Brazil",
+      "file": "BRAZIL.BIN",
+      "country": 36,
+      "descriptor_offset": 1287620,
+      "descriptor_sha256": "9d48892d12eee20cb8d2304800b8c4e820f96d87d7709d1c1a91b4613d9b2320",
+      "pack_sha256": "b243decaa34b24bc4d27613ec68bfdba251abf72235f53555c66bd021ad977ca",
+      "records": [
+        276,
+        115,
+        127,
+        284,
+        283,
+        280,
+        279,
+        278,
+        277,
+        282,
+        281,
+        247,
+        197,
+        229,
+        223
+      ]
+    }
+  ]
+}

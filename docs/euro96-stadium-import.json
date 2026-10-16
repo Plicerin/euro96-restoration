@@ -1,0 +1,738 @@
+{
+  "inputs": {
+    "EUROREND.DAT": "f580229f73fe512a4519707f5b2500c58a28c0cacc7402e5ac0db8f403096cde",
+    "EUROREND.OFF": "70164cc092c0503f92a49762158deef4f4058cf4c665914ecbc61596c2e5ef1f",
+    "EURO96.EXE": "2a473a002a294c1bb28ea39e94a36afc34497dd7e44f0ebfeda0ea21f652b62d"
+  },
+  "descriptor_stride": 244,
+  "loader_anchors": [
+    {
+      "file_offset": 970473,
+      "bytes": "8b048528b80000"
+    },
+    {
+      "file_offset": 970725,
+      "bytes": "8b048518b80000"
+    },
+    {
+      "file_offset": 972162,
+      "bytes": "8b048524b80000"
+    },
+    {
+      "file_offset": 983866,
+      "bytes": "8b048508b90000"
+    }
+  ],
+  "venue_labels": {
+    "file_offset": 1258621,
+    "labels": [
+      "LONDON WEMBLEY",
+      "BIRMINGHAM VILLA PARK",
+      "LEEDS ELLAND ROAD",
+      "NEWCASTLE ST JAMES PARK",
+      "MANCHESTER OLD TRAFFORD",
+      "LIVERPOOL ANFIELD",
+      "SHEFFIELD HILLSBOROUGH",
+      "NOTTINGHAM CITY GROUND"
+    ]
+  },
+  "sky_variant": 0,
+  "venues": [
+    {
+      "name": "Wembley",
+      "venue_id": 5,
+      "descriptor_offset": 1290348,
+      "descriptor_sha256": "28fbcc98f422c088ff493d14229a62b0f6d9f2355a253734b595e3d1b1f32d26",
+      "records": [
+        179,
+        57,
+        58,
+        181,
+        180,
+        183,
+        182,
+        187,
+        186,
+        185,
+        184,
+        108,
+        93,
+        100,
+        99
+      ],
+      "parts": [
+        {
+          "record": 179,
+          "source_sha256": "e5548a619471979517892012e73d63f2e5d4495fe197a60696e5cc805e92a2e4"
+        },
+        {
+          "record": 57,
+          "source_sha256": "ca3ebfc390b80a2206fc8ffadc0e0716ad5235e618eb4c2c63abce2b87b22742"
+        },
+        {
+          "record": 58,
+          "source_sha256": "c07d175effcf38e0de052c862deef79db6b0413fced9a0972c7fbd9b9f7b59ba"
+        },
+        {
+          "record": 181,
+          "source_sha256": "81ade01193ea5e55119f11b8822ffa916cd91800ca007560d9f9afeece98fdf7"
+        },
+        {
+          "record": 180,
+          "source_sha256": "7825fc208cd09110f9306e777e1841d11cb097fe40ca4ac3309fd934b4db030f"
+        },
+        {
+          "record": 183,
+          "source_sha256": "3767ac5d56629e1bceb031a9398b3c18502c42e689e6dfb5696df4b8a952a015"
+        },
+        {
+          "record": 182,
+          "source_sha256": "947752970a501451edacfad3b9171213a1fbdb6780e07cf0812791dbacc0d682"
+        },
+        {
+          "record": 187,
+          "source_sha256": "9d04643bb3acfdb251b0d9e133d2c9a8be53dbdc3c259518857cfa9708ad437b"
+        },
+        {
+          "record": 186,
+          "source_sha256": "fd19a10ec197a62d31aa48f097db0238e9dea4d4f7d29d550526d9a8eabd4440"
+        },
+        {
+          "record": 185,
+          "source_sha256": "b2729c3d9c67dc8af5b1c20f511e6385f7da842f5ff94a647d63e25277cd14ff"
+        },
+        {
+          "record": 184,
+          "source_sha256": "10674a6560da783d24e85a1d6908951f81c144fff3282717455444d17e7c609b"
+        },
+        {
+          "record": 108,
+          "source_sha256": "47cc61b352dd6b6622144a57c81059f97aca15c6a8a425d5f4c66157df42212e"
+        },
+        {
+          "record": 93,
+          "source_sha256": "fc606b2e26101c1946f634b5779d5d315f9140c5160bc3bf6fcb9801f09e07bd"
+        },
+        {
+          "record": 100,
+          "source_sha256": "156941de0b6754f5074ffe0ecf5d687fca86665473e7d027eb4e72446f98554f"
+        },
+        {
+          "record": 99,
+          "source_sha256": "95e9a58dd7e1a02af9b82a55e920b0888b5c85cc203c1851947c6b8d62cfc481"
+        }
+      ],
+      "path": "GRAPHICS/EURO_STADIUM0.BIN",
+      "sha256": "a789bc72dcd43ae07c75e7bad7a4c9c2dd2700e5e83d24e462d44be5acdff7ba"
+    },
+    {
+      "name": "Villa Park",
+      "venue_id": 6,
+      "descriptor_offset": 1290592,
+      "descriptor_sha256": "f2339633318fd3f46c740d0bac0ceef97cdb196330638e4f062e56a5908b2e5d",
+      "records": [
+        161,
+        53,
+        54,
+        163,
+        162,
+        165,
+        164,
+        169,
+        168,
+        167,
+        166,
+        109,
+        94,
+        100,
+        99
+      ],
+      "parts": [
+        {
+          "record": 161,
+          "source_sha256": "5eed64502a493bcff0326054705b81c43d2be7756c943d998ed15922407ad647"
+        },
+        {
+          "record": 53,
+          "source_sha256": "ac35e89b8fe2716e1178ce34ecab18e831844682ae61a02576b60c0b3bd8b03d"
+        },
+        {
+          "record": 54,
+          "source_sha256": "2af7c564b1c2150c207b83dc43b110943e24425d32fcf09a2948f1225b261f50"
+        },
+        {
+          "record": 163,
+          "source_sha256": "e89118953baca80fe7e79f57acfaf19f9df15c5ac7ae293efd7035ceb0d87a2e"
+        },
+        {
+          "record": 162,
+          "source_sha256": "7bd13fde252d61561d343d18aebe8f206d242b5cf55964bac60709b7ac51e66e"
+        },
+        {
+          "record": 165,
+          "source_sha256": "f7e56faf3b4f267676190e62d823da9844141df5336849825309645a21a038c2"
+        },
+        {
+          "record": 164,
+          "source_sha256": "91d0843270b5b486ae982ee5b0182584139dd418e98153ceee6e209787783688"
+        },
+        {
+          "record": 169,
+          "source_sha256": "9aa03d88a4985fe8c3acf7d897f8d4f48daf03d39e622382dd4bdbfe6fd4170b"
+        },
+        {
+          "record": 168,
+          "source_sha256": "e59ca8565b66b625e2b8d52e92abc6e0b0d254b4b752728b3c0351d067bf3750"
+        },
+        {
+          "record": 167,
+          "source_sha256": "719fdcc51e040e2e9d0837535cf854c63865cd281a86e35582181229f2b5b5e3"
+        },
+        {
+          "record": 166,
+          "source_sha256": "72d9fcf6d6241994dc00ab4c451f2b437a30b285ed809cdd7c54b70d68a8b74b"
+        },
+        {
+          "record": 109,
+          "source_sha256": "1766669888db118f25531ae235fd457ba46c460b3b200460b12b48d96e6ee54c"
+        },
+        {
+          "record": 94,
+          "source_sha256": "75fc4459b145dad3379eff7aa85f7870361f07826b5fce29d0452c97247ed78f"
+        },
+        {
+          "record": 100,
+          "source_sha256": "156941de0b6754f5074ffe0ecf5d687fca86665473e7d027eb4e72446f98554f"
+        },
+        {
+          "record": 99,
+          "source_sha256": "95e9a58dd7e1a02af9b82a55e920b0888b5c85cc203c1851947c6b8d62cfc481"
+        }
+      ],
+      "path": "GRAPHICS/EURO_STADIUM1.BIN",
+      "sha256": "3c372a9b43e6f75676c754c2a0eb20ee30042f55d5697270f09d788a2778a00b"
+    },
+    {
+      "name": "Elland Road",
+      "venue_id": 7,
+      "descriptor_offset": 1290836,
+      "descriptor_sha256": "a0b502722e8d7cbb87ea2d7d9bb2b81fe776b2e9f10979b53e7c29330419e6b6",
+      "records": [
+        134,
+        47,
+        48,
+        140,
+        139,
+        142,
+        141,
+        138,
+        137,
+        136,
+        135,
+        110,
+        95,
+        100,
+        99
+      ],
+      "parts": [
+        {
+          "record": 134,
+          "source_sha256": "0455bf5cdc550c7d80acd3099038ea6ea8cec0a6ef29e1229c676409a5a00313"
+        },
+        {
+          "record": 47,
+          "source_sha256": "07e2ea7b6ac113d271a5f06dccaa07fe13c92031e30f6b459826057bbc8aad83"
+        },
+        {
+          "record": 48,
+          "source_sha256": "85ca23406bc21880d0a1994da3365c3084f4a16a9b85cc1d1794b96966924f1d"
+        },
+        {
+          "record": 140,
+          "source_sha256": "9ecf5328405ad977d8bb470599a0afe9bbe74e98b1cdcc0c7f236ab86c1e24f2"
+        },
+        {
+          "record": 139,
+          "source_sha256": "e2d32dc48942396c921d2f0e5885f60bf4907192e64fa04e1e15fa2158283a0f"
+        },
+        {
+          "record": 142,
+          "source_sha256": "2430e92452d2f06cfce45e85b94b89c97a24d5780d89a76917f9b90c7da803be"
+        },
+        {
+          "record": 141,
+          "source_sha256": "177330a3c6e88e0aa484c373f13eedb8b3cd51c36c68685221948f03e76d2f99"
+        },
+        {
+          "record": 138,
+          "source_sha256": "2717540b20a4d8c156ae11cb1d3a14fd2f6e4f10137a09b59102686fcfeb23cb"
+        },
+        {
+          "record": 137,
+          "source_sha256": "7e3d9cf59b8e94f1d052ca050b81f2ee62243b7ab876104bbdda3d8ff761d75b"
+        },
+        {
+          "record": 136,
+          "source_sha256": "d762ceb7954c13a57bf3a8a511871d4d5ad1091f7618eda32cf491ef008790bb"
+        },
+        {
+          "record": 135,
+          "source_sha256": "e340c7f944a7ef76ec94b5c001eaf86b151909f637115314d4b71bfc5d55c1d2"
+        },
+        {
+          "record": 110,
+          "source_sha256": "d9a513d4340213a2788f93f038b17e7390c67b9eb5073eebb1fcfb2d5e4de4ff"
+        },
+        {
+          "record": 95,
+          "source_sha256": "febf53ae5794133890a1c0d9dbc5a140b25f8aec80938b0e122051ea28070a03"
+        },
+        {
+          "record": 100,
+          "source_sha256": "156941de0b6754f5074ffe0ecf5d687fca86665473e7d027eb4e72446f98554f"
+        },
+        {
+          "record": 99,
+          "source_sha256": "95e9a58dd7e1a02af9b82a55e920b0888b5c85cc203c1851947c6b8d62cfc481"
+        }
+      ],
+      "path": "GRAPHICS/EURO_STADIUM2.BIN",
+      "sha256": "8013f8671a95d7bc80dc37cc6f58fbb351210b7ac0174469edbd063571c72c69"
+    },
+    {
+      "name": "St James Park",
+      "venue_id": 8,
+      "descriptor_offset": 1291080,
+      "descriptor_sha256": "ad46b6e90c5152a7a35fb29ebcbf822ba64c530f03fbcd8c28544c77cceaa9e0",
+      "records": [
+        116,
+        43,
+        44,
+        118,
+        117,
+        120,
+        119,
+        124,
+        123,
+        122,
+        121,
+        111,
+        96,
+        100,
+        99
+      ],
+      "parts": [
+        {
+          "record": 116,
+          "source_sha256": "26ecd17b918b2375c13d56e4c620eef8b2618b5702aaaa0a2f0c787aeb7e8af8"
+        },
+        {
+          "record": 43,
+          "source_sha256": "ed097ca3a978833ece619a4ddc9a6032c979faa563ad098fa2cbc938246d7edf"
+        },
+        {
+          "record": 44,
+          "source_sha256": "7f1525f6cb26c1ce7e42eab3520d2a30197e189dc6907e19dfb881e056139831"
+        },
+        {
+          "record": 118,
+          "source_sha256": "0d0bb2de1ba9f2c5da1fd47011a1be04c39b4dddf862991a5e598f8c97ed25b2"
+        },
+        {
+          "record": 117,
+          "source_sha256": "dfe10adc72d1ae3b2c75c74f35ffc4bc073fec6ca3c9b5b4451a4a653f9a306d"
+        },
+        {
+          "record": 120,
+          "source_sha256": "39cd65fd0a46673800d5c3771279b6ca323de2288101e29ab8e9f184229c32b8"
+        },
+        {
+          "record": 119,
+          "source_sha256": "207be63122cea88cb7bdeb2824c04496ade162a989056f6dd37b6db543db4a11"
+        },
+        {
+          "record": 124,
+          "source_sha256": "e3ce5419debbab0ef84c24e3ba080439600699084051b3b459bddf201036e6eb"
+        },
+        {
+          "record": 123,
+          "source_sha256": "648cb940d59aa31614f7204b591f1710f0c211c6171ab6d54616e47ac56ee6f5"
+        },
+        {
+          "record": 122,
+          "source_sha256": "7c7c263d430620efb5db11ad95be827b97d8432eda6656b359d4ec93d793ea9e"
+        },
+        {
+          "record": 121,
+          "source_sha256": "936f9e53f63f27972d08a15f1129dda30239a46788c78f85a090189f2fb2c0e7"
+        },
+        {
+          "record": 111,
+          "source_sha256": "ac0e546f4d8b953ce4c0e616059f158a6c24a5418641f525945cf64c5154565f"
+        },
+        {
+          "record": 96,
+          "source_sha256": "2083ea66df351aa6edbab65803777020a926b8a601bc9c0b4c0ce5f7eec323a0"
+        },
+        {
+          "record": 100,
+          "source_sha256": "156941de0b6754f5074ffe0ecf5d687fca86665473e7d027eb4e72446f98554f"
+        },
+        {
+          "record": 99,
+          "source_sha256": "95e9a58dd7e1a02af9b82a55e920b0888b5c85cc203c1851947c6b8d62cfc481"
+        }
+      ],
+      "path": "GRAPHICS/EURO_STADIUM3.BIN",
+      "sha256": "ba109a181bb1793b14447ae39b49d275c1d6e6d90bb88c3065041dd9f6fbbb41"
+    },
+    {
+      "name": "Old Trafford",
+      "venue_id": 9,
+      "descriptor_offset": 1291324,
+      "descriptor_sha256": "81d704828d7e362dd5e781b4b290e7ca743a37a1fa16d95ce3d155d60d8ebbff",
+      "records": [
+        125,
+        45,
+        46,
+        127,
+        126,
+        129,
+        128,
+        133,
+        132,
+        131,
+        130,
+        108,
+        97,
+        100,
+        99
+      ],
+      "parts": [
+        {
+          "record": 125,
+          "source_sha256": "0b5a6165312dd3a31bf3d735a71ff59fad9cc5cfc8ab8b9ea21f361f04a28424"
+        },
+        {
+          "record": 45,
+          "source_sha256": "a46112d3d1679b85ea7cffb7a366f82c83964ad4c216736582224b65efcc2302"
+        },
+        {
+          "record": 46,
+          "source_sha256": "292ceda76b42003ac7a8c4f5a5e6c46ead0a47e96d39be7267907ec9389aea60"
+        },
+        {
+          "record": 127,
+          "source_sha256": "c18094d2af6e0cb977a301d155f0ebc4f16d9cfa491f1dd8fd4fd8eb6a7e67a3"
+        },
+        {
+          "record": 126,
+          "source_sha256": "b30e59a24fac00258ced6c8a59e53ee402a3b4d84d26fc3bab8d1161ea4bf707"
+        },
+        {
+          "record": 129,
+          "source_sha256": "a1cb9b454dbac7eea60ff390bc31f718812fc91434fe73d8fb3f2a7b08251ac3"
+        },
+        {
+          "record": 128,
+          "source_sha256": "bcb567faf074de737dfbb0129ed3f56c63563855be1b488dd34a10a4805b670e"
+        },
+        {
+          "record": 133,
+          "source_sha256": "677ff7228359b72fb65444212aed0a05e5c0df28ebac81b2c2d91abeb4e6d748"
+        },
+        {
+          "record": 132,
+          "source_sha256": "ff284bf59f66f20cd09d833406b21ac4e5599cfb0240d2dcc6f0a31d92635974"
+        },
+        {
+          "record": 131,
+          "source_sha256": "a2afeb16eb3c259b68ea4c5a0724e151245c1eb0429e8f893969f8c34e89a5cf"
+        },
+        {
+          "record": 130,
+          "source_sha256": "e974a2ef34991a0e7e6c787d81bb84e7b9c03d414dfa0bd6ffa478c55f40acdf"
+        },
+        {
+          "record": 108,
+          "source_sha256": "47cc61b352dd6b6622144a57c81059f97aca15c6a8a425d5f4c66157df42212e"
+        },
+        {
+          "record": 97,
+          "source_sha256": "b5f982a4eed5895f8b016360e2457938f6c2c3de86400264461c13e082253ed5"
+        },
+        {
+          "record": 100,
+          "source_sha256": "156941de0b6754f5074ffe0ecf5d687fca86665473e7d027eb4e72446f98554f"
+        },
+        {
+          "record": 99,
+          "source_sha256": "95e9a58dd7e1a02af9b82a55e920b0888b5c85cc203c1851947c6b8d62cfc481"
+        }
+      ],
+      "path": "GRAPHICS/EURO_STADIUM4.BIN",
+      "sha256": "425b101d0c4c2121e437942cf007a6ea58e44d3ac0856d0cf4c40ce244693c63"
+    },
+    {
+      "name": "Anfield",
+      "venue_id": 10,
+      "descriptor_offset": 1291568,
+      "descriptor_sha256": "46ac5b0e578726d8fa4bce5579784cce0a729a2fef77b8784020d6cd01415b19",
+      "records": [
+        143,
+        49,
+        50,
+        145,
+        144,
+        147,
+        146,
+        151,
+        150,
+        149,
+        148,
+        109,
+        98,
+        100,
+        99
+      ],
+      "parts": [
+        {
+          "record": 143,
+          "source_sha256": "f2f19f9380a7ce9fa30f75827c32eb23bb799fed019dad1bab20c69a59ac9764"
+        },
+        {
+          "record": 49,
+          "source_sha256": "144cfb501a6edeab4bc57309621851b78c9521bf8215dfd7bafc5762fb22156a"
+        },
+        {
+          "record": 50,
+          "source_sha256": "753ef51201c4f9ff5c75244210c779d039eb3c8b03c757102f0b27929c1b0025"
+        },
+        {
+          "record": 145,
+          "source_sha256": "acc26fbc71da4646994a5e7dbace4711f038766fa815a8ebc753d400c4951fdb"
+        },
+        {
+          "record": 144,
+          "source_sha256": "8ec67f78cf65edc3dfba4c1a125e652b8c9eaf432165f3e1644fa4ede1f7d7f3"
+        },
+        {
+          "record": 147,
+          "source_sha256": "9ac2c892e53f8a66535b17c1212c5f4423f56461b8323380aea709740ddb543b"
+        },
+        {
+          "record": 146,
+          "source_sha256": "ae04a43ae7deefd074d6b1b9ed411157627b9dcb3cdf54272e09c41ea6fcc590"
+        },
+        {
+          "record": 151,
+          "source_sha256": "efde5cde4a11fd8cee6a67fbdeed25f4f2b64230b62f8e4829d249f987802888"
+        },
+        {
+          "record": 150,
+          "source_sha256": "455edf63c7dcbe7d5238ae6ac715b00b5267c11e15943f4322b924c6c78d7ab6"
+        },
+        {
+          "record": 149,
+          "source_sha256": "0fb0c7b6c76a30ed42a8a937c1ce0fd61b0082ab50544d2df02834f8738adfb3"
+        },
+        {
+          "record": 148,
+          "source_sha256": "e58c8364b45b3d3288a9e14fa67cceb70863218238321d1bb67d3447b250f286"
+        },
+        {
+          "record": 109,
+          "source_sha256": "1766669888db118f25531ae235fd457ba46c460b3b200460b12b48d96e6ee54c"
+        },
+        {
+          "record": 98,
+          "source_sha256": "5f5e4967cf3f9701ceab3732f95c94d281a486fd0c15429c1ce7dce0480b9d52"
+        },
+        {
+          "record": 100,
+          "source_sha256": "156941de0b6754f5074ffe0ecf5d687fca86665473e7d027eb4e72446f98554f"
+        },
+        {
+          "record": 99,
+          "source_sha256": "95e9a58dd7e1a02af9b82a55e920b0888b5c85cc203c1851947c6b8d62cfc481"
+        }
+      ],
+      "path": "GRAPHICS/EURO_STADIUM5.BIN",
+      "sha256": "81510d36f973a78bf6b1798fa2fc0740001f82c814a5a0798e230794a9c33a7f"
+    },
+    {
+      "name": "Hillsborough",
+      "venue_id": 11,
+      "descriptor_offset": 1291812,
+      "descriptor_sha256": "5a35ee37e84d79d6cab324d82c7dcc96aaceb64e7c21a851ab49bddb5b42e4ab",
+      "records": [
+        152,
+        51,
+        52,
+        154,
+        153,
+        156,
+        155,
+        158,
+        157,
+        160,
+        159,
+        110,
+        93,
+        100,
+        99
+      ],
+      "parts": [
+        {
+          "record": 152,
+          "source_sha256": "93a97d66be5b26e25cc3fd17ca0a5dde0e479999720dd37df27c46206b5a9363"
+        },
+        {
+          "record": 51,
+          "source_sha256": "5086cefc520f226bd291ff8fb18439cd3315095b6d29cc0cba38b054e1996517"
+        },
+        {
+          "record": 52,
+          "source_sha256": "897d5fba0a018becd3a318d9b75e042dbcc5565496f689d646108f1337cb9d87"
+        },
+        {
+          "record": 154,
+          "source_sha256": "26e7d377f482d92a4495e35d2a97b99f577d4a571721c2df5184470df57b3807"
+        },
+        {
+          "record": 153,
+          "source_sha256": "edf109d18d0a692f258059fceb0cf952c201b0735dc1113f796bcb2a0d9e22d8"
+        },
+        {
+          "record": 156,
+          "source_sha256": "fa336110079484a4a1cd65686f65a18df193b81575e143068eddf0c6b1a84fad"
+        },
+        {
+          "record": 155,
+          "source_sha256": "431b5b623aaf80bd3cf5afb04243ab00aa9d6158f8e0bfb0f6ce2873232e3f43"
+        },
+        {
+          "record": 158,
+          "source_sha256": "a53f36f21452a83e4280a45d7ebefb70bc7aa4595f8ed3a3c6e462f34c5ffc74"
+        },
+        {
+          "record": 157,
+          "source_sha256": "79a92679affa2973d556b733e781cc91e46b59b8e07d719a1de7c4fd97557111"
+        },
+        {
+          "record": 160,
+          "source_sha256": "eef4b3f2a934bd466faef390d76fd97b6242c71ca34155efad5268ef98cb0be4"
+        },
+        {
+          "record": 159,
+          "source_sha256": "abce5bd6f141754b57b5afeafdea561cccd6159feabeb0846c23ac66c1b07287"
+        },
+        {
+          "record": 110,
+          "source_sha256": "d9a513d4340213a2788f93f038b17e7390c67b9eb5073eebb1fcfb2d5e4de4ff"
+        },
+        {
+          "record": 93,
+          "source_sha256": "fc606b2e26101c1946f634b5779d5d315f9140c5160bc3bf6fcb9801f09e07bd"
+        },
+        {
+          "record": 100,
+          "source_sha256": "156941de0b6754f5074ffe0ecf5d687fca86665473e7d027eb4e72446f98554f"
+        },
+        {
+          "record": 99,
+          "source_sha256": "95e9a58dd7e1a02af9b82a55e920b0888b5c85cc203c1851947c6b8d62cfc481"
+        }
+      ],
+      "path": "GRAPHICS/EURO_STADIUM6.BIN",
+      "sha256": "3aac087a159db65f335eb3a8c071af306e8054ed66aa323c98c49cfc03896ea1"
+    },
+    {
+      "name": "City Ground",
+      "venue_id": 12,
+      "descriptor_offset": 1292056,
+      "descriptor_sha256": "bf77436cb923f79a1573639c5b1f53e4e9f3329f595e9708763ed07ff5e81762",
+      "records": [
+        170,
+        55,
+        56,
+        172,
+        171,
+        174,
+        173,
+        178,
+        177,
+        176,
+        175,
+        111,
+        94,
+        100,
+        99
+      ],
+      "parts": [
+        {
+          "record": 170,
+          "source_sha256": "0a42e3f46c31c18274fc8f9c2e57c46d9633a2b28cbe86f9cd82f02c862d1c17"
+        },
+        {
+          "record": 55,
+          "source_sha256": "f73eab05883a6a40db4b0fea3217dec4c91d9cb594fc6c7e3dfdb01e845ed88a"
+        },
+        {
+          "record": 56,
+          "source_sha256": "460c8ed68d45605744822ca103fcec6d804467591d4946f8c5684c493b279304"
+        },
+        {
+          "record": 172,
+          "source_sha256": "3c75f50eb87f58cc4cc8e57a6608d9de2ad63784b294deb056258308c20f1064"
+        },
+        {
+          "record": 171,
+          "source_sha256": "55f3c54d91d5c10828af9b6905c5ee38d1efceb276cf78e338ff5b18e5351fc3"
+        },
+        {
+          "record": 174,
+          "source_sha256": "9ffeb866795b236797c1173ffbfe359328baf89fa3856e1519ba2ff013023d33"
+        },
+        {
+          "record": 173,
+          "source_sha256": "46b8aef3fea8d176e147ba4f92d24ef631657fdbb7cd7e89813dee77e5444e14"
+        },
+        {
+          "record": 178,
+          "source_sha256": "613afb9ec977b07f635fae79d6584874bc05f638658e91db72e2667832bac59c"
+        },
+        {
+          "record": 177,
+          "source_sha256": "1ee4d425533029cf1efe9c437e2acc9b70a7d45a83603b599d9375a46b19dd77"
+        },
+        {
+          "record": 176,
+          "source_sha256": "c616242ff2ef51075f0483b7af7aafb8194fa5cf0a2721f51dabe3c8e552d73d"
+        },
+        {
+          "record": 175,
+          "source_sha256": "d2186d9f2006301bee27e889d60b10b28ac70bd4ceeddfa57114b7a06ff30604"
+        },
+        {
+          "record": 111,
+          "source_sha256": "ac0e546f4d8b953ce4c0e616059f158a6c24a5418641f525945cf64c5154565f"
+        },
+        {
+          "record": 94,
+          "source_sha256": "75fc4459b145dad3379eff7aa85f7870361f07826b5fce29d0452c97247ed78f"
+        },
+        {
+          "record": 100,
+          "source_sha256": "156941de0b6754f5074ffe0ecf5d687fca86665473e7d027eb4e72446f98554f"
+        },
+        {
+          "record": 99,
+          "source_sha256": "95e9a58dd7e1a02af9b82a55e920b0888b5c85cc203c1851947c6b8d62cfc481"
+        }
+      ],
+      "path": "GRAPHICS/EURO_STADIUM7.BIN",
+      "sha256": "dbfdfe8a1bf0942dd414c1f8f3491f868e0c9189bb7479accab16e0ba0c22482"
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "disc": {
+    "name": "EURO96.iso",
+    "size": 494198784,
+    "sha256": "1a3f84af4b3378d53754772379f1f94c8f8a2f5d07a1bdc57727dca93f913cdb"
+  },
+  "disc_video_files": [
+    {
+      "path": "GDV/BULAOUTS.GDV",
+      "size": 7963351
+    },
+    {
+      "path": "GDV/BULHOUTS.GDV",
+      "size": 7908802
+    },
+    {
+      "path": "GDV/CROAOUTS.GDV",
+      "size": 7998983
+    },
+    {
+      "path": "GDV/CROHOUTS.GDV",
+      "size": 7935614
+    },
+    {
+      "path": "GDV/CZEAOUTS.GDV",
+      "size": 7981069
+    },
+    {
+      "path": "GDV/CZEHOUTS.GDV",
+      "size": 7975281
+    },
+    {
+      "path": "GDV/DENAOUTS.GDV",
+      "size": 7988269
+    },
+    {
+      "path": "GDV/DENHOUTS.GDV",
+      "size": 7966060
+    },
+    {
+      "path": "GDV/ENGAOUTS.GDV",
+      "size": 8009455
+    },
+    {
+      "path": "GDV/ENGHOUTS.GDV",
+      "size": 7982994
+    },
+    {
+      "path": "GDV/FRAAOUTS.GDV",
+      "size": 8004572
+    },
+    {
+      "path": "GDV/FRAHOUTS.GDV",
+      "size": 7990746
+    },
+    {
+      "path": "GDV/GERAOUTS.GDV",
+      "size": 7948003
+    },
+    {
+      "path": "GDV/GERHOUTS.GDV",
+      "size": 8004547
+    },
+    {
+      "path": "GDV/HOLAOUTS.GDV",
+      "size": 7986585
+    },
+    {
+      "path": "GDV/HOLHOUTS.GDV",
+      "size": 7958593
+    },
+    {
+      "path": "GDV/ITAAOUTS.GDV",
+      "size": 7988850
+    },
+    {
+      "path": "GDV/ITAHOUTS.GDV",
+      "size": 7972158
+    },
+    {
+      "path": "GDV/PORAOUTS.GDV",
+      "size": 7975907
+    },
+    {
+      "path": "GDV/PORHOUTS.GDV",
+      "size": 7944137
+    },
+    {
+      "path": "GDV/ROMAOUTS.GDV",
+      "size": 7947448
+    },
+    {
+      "path": "GDV/ROMHOUTS.GDV",
+      "size": 7952397
+    },
+    {
+      "path": "GDV/RUSAOUTS.GDV",
+      "size": 8016601
+    },
+    {
+      "path": "GDV/RUSHOUTS.GDV",
+      "size": 7985400
+    },
+    {
+      "path": "GDV/SCOAOUTS.GDV",
+      "size": 7942137
+    },
+    {
+      "path": "GDV/SCOHOUTS.GDV",
+      "size": 8010526
+    },
+    {
+      "path": "GDV/SPAAOUTS.GDV",
+      "size": 7950190
+    },
+    {
+      "path": "GDV/SPAHOUTS.GDV",
+      "size": 7954149
+    },
+    {
+      "path": "GDV/SWZAOUTS.GDV",
+      "size": 7999521
+    },
+    {
+      "path": "GDV/SWZHOUTS.GDV",
+      "size": 7951881
+    },
+    {
+      "path": "GDV/TURAOUTS.GDV",
+      "size": 7962891
+    },
+    {
+      "path": "GDV/TURHOUTS.GDV",
+      "size": 7986132
+    }
+  ],
+  "retail_executable_sha256": "2a473a002a294c1bb28ea39e94a36afc34497dd7e44f0ebfeda0ea21f652b62d",
+  "retail_gdv_strings": [
+    {
+      "file_offset": 1256524,
+      "text": "bulhouts.gdv"
+    },
+    {
+      "file_offset": 1256537,
+      "text": "crohouts.gdv"
+    },
+    {
+      "file_offset": 1256550,
+      "text": "czehouts.gdv"
+    },
+    {
+      "file_offset": 1256563,
+      "text": "denhouts.gdv"
+    },
+    {
+      "file_offset": 1256576,
+      "text": "enghouts.gdv"
+    },
+    {
+      "file_offset": 1256589,
+      "text": "frahouts.gdv"
+    },
+    {
+      "file_offset": 1256602,
+      "text": "gerhouts.gdv"
+    },
+    {
+      "file_offset": 1256615,
+      "text": "holhouts.gdv"
+    },
+    {
+      "file_offset": 1256628,
+      "text": "itahouts.gdv"
+    },
+    {
+      "file_offset": 1256641,
+      "text": "porhouts.gdv"
+    },
+    {
+      "file_offset": 1256654,
+      "text": "romhouts.gdv"
+    },
+    {
+      "file_offset": 1256667,
+      "text": "rushouts.gdv"
+    },
+    {
+      "file_offset": 1256680,
+      "text": "scohouts.gdv"
+    },
+    {
+      "file_offset": 1256693,
+      "text": "spahouts.gdv"
+    },
+    {
+      "file_offset": 1256706,
+      "text": "swzhouts.gdv"
+    },
+    {
+      "file_offset": 1256719,
+      "text": "turhouts.gdv"
+    },
+    {
+      "file_offset": 1256732,
+      "text": "bulaouts.gdv"
+    },
+    {
+      "file_offset": 1256745,
+      "text": "croaouts.gdv"
+    },
+    {
+      "file_offset": 1256758,
+      "text": "czeaouts.gdv"
+    },
+    {
+      "file_offset": 1256771,
+      "text": "denaouts.gdv"
+    },
+    {
+      "file_offset": 1256784,
+      "text": "engaouts.gdv"
+    },
+    {
+      "file_offset": 1256797,
+      "text": "fraaouts.gdv"
+    },
+    {
+      "file_offset": 1256810,
+      "text": "geraouts.gdv"
+    },
+    {
+      "file_offset": 1256823,
+      "text": "holaouts.gdv"
+    },
+    {
+      "file_offset": 1256836,
+      "text": "itaaouts.gdv"
+    },
+    {
+      "file_offset": 1256849,
+      "text": "poraouts.gdv"
+    },
+    {
+      "file_offset": 1256862,
+      "text": "romaouts.gdv"
+    },
+    {
+      "file_offset": 1256875,
+      "text": "rusaouts.gdv"
+    },
+    {
+      "file_offset": 1256888,
+      "text": "scoaouts.gdv"
+    },
+    {
+      "file_offset": 1256901,
+      "text": "spaaouts.gdv"
+    },
+    {
+      "file_offset": 1256914,
+      "text": "swzaouts.gdv"
+    },
+    {
+      "file_offset": 1256927,
+      "text": "turaouts.gdv"
+    }
+  ],
+  "source_evidence": {
+    "SOURCE/TEST.CPP": {
+      "sha256": "eaf6c31de1a5a6e31620138bd22278323768e1670d82f9af1879a0cdb449fd7f",
+      "main_menu_initialization_lines": [
+        290,
+        292,
+        299
+      ],
+      "palette_fade_entry_lines": [
+        745,
+        759
+      ],
+      "commented_actua_film_probe_lines": [
+        1081,
+        1119
+      ]
+    },
+    "SOURCE/EURO_GDV.CPP": {
+      "sha256": "df2ea6d3bcf16971b513ef26edaa1168e81f43a4e86b93d7583135c0c3109d8d",
+      "stadium_dispatch_lines": [
+        212,
+        215
+      ]
+    }
+  },
+  "decision": "Enter preserved Euro96 frontend directly; no Actua-branded startup in normal release. Exact retail binary startup sequence not fully traced.",
+  "omitted_from_release": [
+    "VIDEO/INTRO.AMV",
+    "VIDEO/MAKING.AMV",
+    "FRONTEND/TITLE.IDX",
+    "FRONTEND/TITLE.PAL"
+  ]
+}

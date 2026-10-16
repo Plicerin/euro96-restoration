@@ -1,0 +1,39 @@
+{
+  "version": "0.65.1",
+  "buildId": "7e6620d0b2907782-2b4b128d-0703f4d7-7dba4a40",
+  "executableSha256": "7e6620d0b290778248b66ff6f36b70053d7c312777bf5725f4b285afb43cf3a6",
+  "package": "C:\\Users\\vrock\\Documents\\Codex\\2026-10-08\\ex\\outputs\\actuasoccer96-windows\\dist\\actua96-0.65.1-9ada37e96da2488bace4c350454a6a40",
+  "packageHashes": 53,
+  "packageSmokeChecks": 9,
+  "focusedTests": 12,
+  "focusedSeconds": 18.33,
+  "fullSuiteBaseline": "105 passed on preceding 0.65.0; not rerun for this presentation-only patch",
+  "sourceFiles": 427,
+  "sourceUnchanged": true,
+  "localUserStateUnchanged": true,
+  "localUserState": {
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\tournament.sav": "9683D18CECAD6D6C3D57D294CA57CD1B0CFF427C723892502D05958F8F4BC2DF",
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\tournament.sav.bak": "582545086E457D4066619DF693DD0C00874BE66419160F7DF1777C57D48B24A9",
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\tournament.prefs": "ABSENT",
+    "C:\\Users\\vrock\\AppData\\Roaming\\Actua96 Restoration\\Actua96\\tournament.prefs.bak": "ABSENT"
+  },
+  "buildPackagePublishedExeAndMediaMatch": true,
+  "mediaUnchangedFrom0650": true,
+  "visualReview": {
+    "direct3d11": [
+      "pause before/after",
+      "title",
+      "match HUD"
+    ],
+    "software": [
+      "controller pause at 960x664"
+    ],
+    "captures": {
+      "text-smoothing-hud.png": "72db7f871198b5bfc4aa1998164ae048bb6b34c33122d45292048f816e5c745e",
+      "text-smoothing-pause-after.png": "4009cf00edfdaada2eadb815250d4e3e690aff6db266d70e7e3fdf20d65d06b0",
+      "text-smoothing-pause-before.png": "0fbf62efc78600f5769a1987fda3e70e5a82b4acea2851274790053af2c97a41",
+      "text-smoothing-title.png": "3fa28b374275d3e998b01df5b485e4f49e1a0b84aad2cd45cd78e31f637e5d65"
+    }
+  },
+  "runningGameRestarted": false
+}

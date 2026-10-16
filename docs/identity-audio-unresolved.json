@@ -1,0 +1,66 @@
+{
+  "executable_sha256": "2a473a002a294c1bb28ea39e94a36afc34497dd7e44f0ebfeda0ea21f652b62d",
+  "half_time_duplicates": [
+    {
+      "filename": "e_hlf32a.wav",
+      "offset": 794348,
+      "sha256": "30a0973c9b6e0006f5a65c0244751b319f9c036cd052116e2e7b75bdd9aed2e4",
+      "actua_matches": []
+    },
+    {
+      "filename": "e_hlf32b.wav",
+      "offset": 832270,
+      "sha256": "30a0973c9b6e0006f5a65c0244751b319f9c036cd052116e2e7b75bdd9aed2e4",
+      "actua_matches": []
+    },
+    {
+      "filename": "e_hlf32c.wav",
+      "offset": 870192,
+      "sha256": "30a0973c9b6e0006f5a65c0244751b319f9c036cd052116e2e7b75bdd9aed2e4",
+      "actua_matches": []
+    },
+    {
+      "filename": "e_hlf32d.wav",
+      "offset": 908114,
+      "sha256": "30a0973c9b6e0006f5a65c0244751b319f9c036cd052116e2e7b75bdd9aed2e4",
+      "actua_matches": []
+    },
+    {
+      "filename": "e_hlf32a.wav",
+      "offset": 946036,
+      "sha256": "cf9030766f41f1c77838b925b0240776776d724391925359ddc335b2b1fe5b53",
+      "actua_matches": []
+    },
+    {
+      "filename": "e_hlf32b.wav",
+      "offset": 978812,
+      "sha256": "cf9030766f41f1c77838b925b0240776776d724391925359ddc335b2b1fe5b53",
+      "actua_matches": []
+    },
+    {
+      "filename": "e_hlf32c.wav",
+      "offset": 1011588,
+      "sha256": "cf9030766f41f1c77838b925b0240776776d724391925359ddc335b2b1fe5b53",
+      "actua_matches": []
+    },
+    {
+      "filename": "e_hlf32d.wav",
+      "offset": 1044364,
+      "sha256": "cf9030766f41f1c77838b925b0240776776d724391925359ddc335b2b1fe5b53",
+      "actua_matches": []
+    }
+  ],
+  "half_time_conclusion": "No verified alternative score labels; duplicate filename order is not identity evidence. These eight records remain excluded.",
+  "music": {
+    "loader_file_offset": "0xfff04",
+    "direct_calls": [
+      "0x883ca"
+    ],
+    "track_name_file_offset": "0x13063c",
+    "track_name": "EURO96",
+    "directory": "\\DIGI\\MUSIC\\",
+    "caller": "0x8837c",
+    "polling_caller": "0x93841",
+    "conclusion": "One direct music-loader call uses EURO96. Match launch at 0x980ea calls stop routine 0x100104. Exact result-screen continuation has not been established; no result music replacement is justified by this partial trace."
+  }
+}

@@ -1,0 +1,2 @@
+Playtest ready: version 0.70.0 (a54dbd48ccbc4175-2b4b128d-0703f4d7-479329d4)
+Open: C:\Users\vrock\Documents\Codex\2026-10-08\ex\outputs\Play-Euro96.cmd

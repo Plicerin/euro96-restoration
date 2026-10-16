@@ -1,0 +1,606 @@
+Start testing: Oct 13 21:57 Eastern Daylight Time
+----------------------------------------------------------
+95/101 Testing: retail_audio_contracts
+95/101 Test: retail_audio_contracts
+Command: "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/Release/euro_audio_tests.exe" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/local-data" "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/euro-audio-tests"
+Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+"retail_audio_contracts" start time: Oct 13 21:57 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Retail audio: 35 source categories, 132 exact score variants, 19 pitch effects, 10 crowd mappings, legacy fallback and malformed packs passed.
+<end of output>
+Test time =  11.90 sec
+----------------------------------------------------------
+Test Passed.
+"retail_audio_contracts" end time: Oct 13 21:57 Eastern Daylight Time
+"retail_audio_contracts" time elapsed: 00:00:11
+----------------------------------------------------------
+
+74/101 Testing: original_french_commentary_contracts
+74/101 Test: original_french_commentary_contracts
+Command: "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/Release/commentary_tests.exe" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/local-data" "1"
+Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+"original_french_commentary_contracts" start time: Oct 13 21:57 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Goal classification cases 20 exact home/away score cases 48
+Phrase 36/4 at 0 seconds
+Phrase 4/6 at 13 seconds
+Phrase 372/1 at 21.45 seconds
+Phrase 375/2 at 24.35 seconds
+Phrase 373/3 at 34.4 seconds
+Phrase 9/5 at 42.45 seconds
+Phrase 377/2 at 47.65 seconds
+Phrase 210/1 at 49.6 seconds
+Phrase 217/3 at 51.6 seconds
+Phrase 30/6 at 54.8 seconds
+Phrase 9/3 at 63.4 seconds
+Phrase 215/1 at 68.55 seconds
+Phrase 370/1 at 71.7 seconds
+Phrase 216/3 at 76.15 seconds
+Phrase 25/2 at 76.65 seconds
+Phrase 44/10 at 87.65 seconds
+Phrase 377/2 at 90.1 seconds
+Phrase 376/3 at 93.85 seconds
+Phrase 30/19 at 96.5 seconds
+Phrase 378/3 at 101.9 seconds
+Phrase 30/4 at 104.3 seconds
+Phrase 3/4 at 121.5 seconds
+Phrase 14/2 at 132.7 seconds
+Phrase 212/1 at 137.05 seconds
+Phrase 215/1 at 138.95 seconds
+Phrase 3/5 at 145 seconds
+Phrase 372/1 at 156.55 seconds
+Phrase 213/2 at 160.9 seconds
+Phrase 377/1 at 171.8 seconds
+Phrase 213/3 at 179.85 seconds
+Phrase 30/10 at 182.45 seconds
+Phrase 12/4 at 192.85 seconds
+Phrase 42/10 at 198.8 seconds
+Phrase 14/4 at 206.25 seconds
+Phrase 377/3 at 214.1 seconds
+Phrase 30/3 at 216.55 seconds
+Phrase 372/1 at 230.35 seconds
+Phrase 217/2 at 248.75 seconds
+Phrase 32/20 at 256.4 seconds
+Phrase 377/1 at 266.45 seconds
+Phrase 217/3 at 270.15 seconds
+Phrase 30/7 at 273.3 seconds
+Phrase 372/1 at 283.55 seconds
+Phrase 210/1 at 285.5 seconds
+Phrase 375/2 at 288.15 seconds
+Phrase 14/3 at 290.45 seconds
+Phrase 216/2 at 301.75 seconds
+Phrase 370/1 at 311.2 seconds
+Phrase 212/1 at 314.15 seconds
+Phrase 215/2 at 317.65 seconds
+Phrase 30/11 at 327.5 seconds
+Phrase 375/1 at 334.3 seconds
+Phrase 377/1 at 341.6 seconds
+Phrase 375/3 at 357.7 seconds
+Phrase 30/15 at 360.15 seconds
+Phrase 217/1 at 365.5 seconds
+Phrase 43/3 at 366.4 seconds
+CPU commentary match 1:0 ticks 7328 phrases 57 dropped stale/duplicate requests 19 priority interruptions 2
+Original commentary contracts passed
+<end of output>
+Test time =   6.35 sec
+----------------------------------------------------------
+Test Passed.
+"original_french_commentary_contracts" end time: Oct 13 21:57 Eastern Daylight Time
+"original_french_commentary_contracts" time elapsed: 00:00:06
+----------------------------------------------------------
+
+97/101 Testing: retail_period_contracts
+97/101 Test: retail_period_contracts
+Command: "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/Release/euro_period_tests.exe" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/local-data" "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/euro-period-tests"
+Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+"retail_period_contracts" start time: Oct 13 21:57 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Commentary language unavailable: Invalid commentary pack
+Commentary language unavailable: Invalid commentary record
+Commentary language unavailable: Invalid commentary record
+Commentary language unavailable: Invalid commentary record
+Commentary language unavailable: Invalid commentary record
+Commentary language unavailable: Invalid commentary record
+Commentary language unavailable: Invalid commentary record
+Commentary language unavailable: Invalid commentary pack
+Retail periods: 592 score/order/take cases, exact full PCM, draw endings, missing/unsupported scores, knockout/French/legacy fallback, priority, pause, mute and malformed media passed.
+<end of output>
+Test time =  23.99 sec
+----------------------------------------------------------
+Test Passed.
+"retail_period_contracts" end time: Oct 13 21:57 Eastern Daylight Time
+"retail_period_contracts" time elapsed: 00:00:23
+----------------------------------------------------------
+
+98/101 Testing: retail_period_provenance
+98/101 Test: retail_period_provenance
+Command: "C:/Users/vrock/AppData/Local/hermes/hermes-agent/venv/Scripts/python.exe" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/tools/test_euro96_periods.py"
+Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+"retail_period_provenance" start time: Oct 13 21:57 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.060s
+
+OK
+<end of output>
+Test time =   0.37 sec
+----------------------------------------------------------
+Test Passed.
+"retail_period_provenance" end time: Oct 13 21:57 Eastern Daylight Time
+"retail_period_provenance" time elapsed: 00:00:00
+----------------------------------------------------------
+
+86/101 Testing: native_head_to_head_smoke
+86/101 Test: native_head_to_head_smoke
+Command: "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/Release/actua96.exe" "--data" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE" "--audio-data" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/local-data" "--head-to-head-smoke"
+Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+"native_head_to_head_smoke" start time: Oct 13 21:57 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Euro 96 match sounds ready
+EURO: 121 entries, 15 backgrounds, 10 tactics tables verified.
+EUROREND: 229 bounded entries, 6613404 bytes.
+FAP: 27 bounded entries, 1452928 bytes.
+FAPF: 4 bounded entries, 279252 bytes.
+Local head-to-head SDL setup, two-pad movement/switching, pause, disconnect, replacement, P2 shot and half-time passed.
+Native render completed: 96 frames.
+<end of output>
+Test time =   7.92 sec
+----------------------------------------------------------
+Test Passed.
+"native_head_to_head_smoke" end time: Oct 13 21:57 Eastern Daylight Time
+"native_head_to_head_smoke" time elapsed: 00:00:07
+----------------------------------------------------------
+
+96/101 Testing: retail_audio_provenance
+96/101 Test: retail_audio_provenance
+Command: "C:/Users/vrock/AppData/Local/hermes/hermes-agent/venv/Scripts/python.exe" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/tools/test_euro96_audio.py"
+Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+"retail_audio_provenance" start time: Oct 13 21:57 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.164s
+
+OK
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Passed.
+"retail_audio_provenance" end time: Oct 13 21:57 Eastern Daylight Time
+"retail_audio_provenance" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/101 Testing: original_commentary_contracts
+57/101 Test: original_commentary_contracts
+Command: "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/Release/commentary_tests.exe" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/local-data"
+Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+"original_commentary_contracts" start time: Oct 13 21:57 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Goal classification cases 20 exact home/away score cases 48
+Phrase 36/15 at 0 seconds
+Phrase 4/2 at 13 seconds
+Phrase 372/1 at 21.45 seconds
+Phrase 375/2 at 24.35 seconds
+Phrase 373/3 at 34.4 seconds
+Phrase 9/2 at 42.45 seconds
+Phrase 377/2 at 47.65 seconds
+Phrase 210/1 at 49.2 seconds
+Phrase 217/3 at 51.6 seconds
+Phrase 30/5 at 53.25 seconds
+Phrase 9/4 at 63.4 seconds
+Phrase 215/1 at 68.55 seconds
+Phrase 370/1 at 71.7 seconds
+Phrase 216/3 at 76.15 seconds
+Phrase 25/20 at 76.65 seconds
+Phrase 44/10 at 87.65 seconds
+Phrase 377/2 at 91.05 seconds
+Phrase 376/3 at 93.85 seconds
+Phrase 30/8 at 95.8 seconds
+Phrase 378/3 at 101.9 seconds
+Phrase 30/24 at 103.85 seconds
+Phrase 3/4 at 121.5 seconds
+Phrase 14/2 at 132.7 seconds
+Phrase 212/1 at 137.05 seconds
+Phrase 215/1 at 138.95 seconds
+Phrase 3/11 at 145 seconds
+Phrase 372/1 at 156.55 seconds
+Phrase 213/2 at 160.9 seconds
+Phrase 377/1 at 171.8 seconds
+Phrase 214/2 at 177.5 seconds
+Phrase 213/3 at 179.85 seconds
+Phrase 30/10 at 181.35 seconds
+Phrase 12/5 at 192.85 seconds
+Phrase 42/10 at 198.8 seconds
+Phrase 14/4 at 206.25 seconds
+Phrase 9/5 at 209.9 seconds
+Phrase 377/3 at 214.1 seconds
+Phrase 30/21 at 215.8 seconds
+Phrase 372/1 at 230.35 seconds
+Phrase 209/1 at 235.1 seconds
+Phrase 217/2 at 248.75 seconds
+Phrase 214/3 at 253.95 seconds
+Phrase 32/38 at 256.4 seconds
+Phrase 377/1 at 266.45 seconds
+Phrase 217/3 at 270.15 seconds
+Phrase 30/12 at 271.75 seconds
+Phrase 209/1 at 281 seconds
+Phrase 372/1 at 283.55 seconds
+Phrase 210/1 at 285.5 seconds
+Phrase 375/2 at 288.15 seconds
+Phrase 14/3 at 290.45 seconds
+Phrase 216/2 at 301.75 seconds
+Phrase 370/1 at 311.2 seconds
+Phrase 212/1 at 314.15 seconds
+Phrase 215/2 at 317.65 seconds
+Phrase 30/11 at 327.5 seconds
+Phrase 375/1 at 334.3 seconds
+Phrase 377/1 at 341.6 seconds
+Phrase 375/3 at 357.7 seconds
+Phrase 30/4 at 359.55 seconds
+Phrase 217/1 at 365.5 seconds
+Phrase 43/10 at 366.4 seconds
+CPU commentary match 1:0 ticks 7328 phrases 62 dropped stale/duplicate requests 14 priority interruptions 1
+Original commentary contracts passed
+<end of output>
+Test time =  15.02 sec
+----------------------------------------------------------
+Test Passed.
+"original_commentary_contracts" end time: Oct 13 21:57 Eastern Daylight Time
+"original_commentary_contracts" time elapsed: 00:00:15
+----------------------------------------------------------
+
+58/101 Testing: native_commentary_smoke
+58/101 Test: native_commentary_smoke
+Command: "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/Release/actua96.exe" "--data" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE" "--audio-data" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/local-data" "--commentary-smoke"
+Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+"native_commentary_smoke" start time: Oct 13 21:57 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Euro 96 match sounds ready
+EURO: 121 entries, 15 backgrounds, 10 tactics tables verified.
+EUROREND: 229 bounded entries, 6613404 bytes.
+FAP: 27 bounded entries, 1452928 bytes.
+FAPF: 4 bounded entries, 279252 bytes.
+Controller Back preserves live and paused matches; Start pause/resume passed.
+French/English voice keyboard and gamepad integration passed.
+Native tunnel focus, controller pause and skip passed.
+Native render completed: 57 frames.
+<end of output>
+Test time =   4.58 sec
+----------------------------------------------------------
+Test Passed.
+"native_commentary_smoke" end time: Oct 13 21:57 Eastern Daylight Time
+"native_commentary_smoke" time elapsed: 00:00:04
+----------------------------------------------------------
+
+79/101 Testing: full_tournament_frontend_session
+79/101 Test: full_tournament_frontend_session
+Command: "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/Release/tournament_session_tests.exe" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/local-data" "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/session-tests"
+Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+"full_tournament_frontend_session" start time: Oct 13 21:57 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Fixture 1 ENG 0:1 SWZ frames=11389 extra=0 pens=0
+Fixture 2 SPN 2:0 BUL frames=11743 extra=0 pens=0
+Fixture 3 GER 5:0 CZC frames=12721 extra=0 pens=0
+Fixture 4 DMK 2:0 POR frames=11861 extra=0 pens=0
+Fixture 5 HOL 0:0 SCT frames=10058 extra=0 pens=0
+Fixture 6 ROM 1:2 FRN frames=11678 extra=0 pens=0
+Fixture 7 ITA 0:0 RUS frames=9493 extra=0 pens=0
+Fixture 8 TRK 0:1 CRO frames=11341 extra=0 pens=0
+Fixture 9 BUL 1:4 ROM frames=12880 extra=0 pens=0
+Fixture 10 SWZ 0:1 HOL frames=10468 extra=0 pens=0
+Fixture 11 POR 2:0 TRK frames=11311 extra=0 pens=0
+Fixture 12 CZC 0:2 ITA frames=11497 extra=0 pens=0
+Fixture 13 SCT 1:1 ENG frames=11701 extra=0 pens=0
+Fixture 14 FRN 0:0 SPN frames=10033 extra=0 pens=0
+Fixture 15 RUS 0:0 GER frames=10970 extra=0 pens=0
+Fixture 16 CRO 1:1 DMK frames=11809 extra=0 pens=0
+Fixture 17 FRN 1:2 BUL frames=10963 extra=0 pens=0
+Fixture 18 ROM 0:3 SPN frames=11506 extra=0 pens=0
+Fixture 19 HOL 1:3 ENG frames=11598 extra=0 pens=0
+Fixture 20 SCT 2:1 SWZ frames=11338 extra=0 pens=0
+Fixture 21 CRO 0:1 POR frames=11298 extra=0 pens=0
+Fixture 22 TRK 0:0 DMK frames=10661 extra=0 pens=0
+Fixture 23 RUS 2:0 CZC frames=11997 extra=0 pens=0
+Fixture 24 ITA 1:2 GER frames=12297 extra=0 pens=0
+Fixture 25 SCT 0:3 FRN frames=11780 extra=0 pens=0
+Fixture 26 SPN 2:0 ENG frames=11772 extra=0 pens=0
+Fixture 27 GER 2:0 DMK frames=11099 extra=0 pens=0
+Fixture 28 POR 0:1 RUS frames=10423 extra=0 pens=0
+Fixture 29 FRN 0:1 RUS frames=14834 extra=1 pens=0
+Fixture 30 SPN 1:0 GER frames=11326 extra=0 pens=0
+Fixture 31 RUS 1:1 SPN frames=18218 extra=1 pens=1
+Full frontend session: 31 matches, 226 individual transitions, 31 natural openings, 62 natural tunnel exits, 35 intervals, 59 replays, 59 goals, 2 extra-time matches, 1 shootouts; champion=SPAIN. All 31 saved checkpoints resumed.
+<end of output>
+Test time =   6.85 sec
+----------------------------------------------------------
+Test Passed.
+"full_tournament_frontend_session" end time: Oct 13 21:57 Eastern Daylight Time
+"full_tournament_frontend_session" time elapsed: 00:00:06
+----------------------------------------------------------
+
+75/101 Testing: commentary_language_contracts
+75/101 Test: commentary_language_contracts
+Command: "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/Release/language_tests.exe" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/local-data" "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/language-tests"
+Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+"commentary_language_contracts" start time: Oct 13 21:57 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Commentary language unavailable: Unsupported commentary language
+Commentary language unavailable: Unsupported commentary language
+Commentary language unavailable: Too many commentary clips
+Original French/English PCM, switching, focus/mute, missing/corrupt packs, preferences migration and keyboard/gamepad/mouse language controls passed.
+<end of output>
+Test time =   1.93 sec
+----------------------------------------------------------
+Test Passed.
+"commentary_language_contracts" end time: Oct 13 21:57 Eastern Daylight Time
+"commentary_language_contracts" time elapsed: 00:00:01
+----------------------------------------------------------
+
+83/101 Testing: saved_replay_contracts
+83/101 Test: saved_replay_contracts
+Command: "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/Release/saved_replay_tests.exe" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/local-data" "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/saved-replay-tests"
+Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+"saved_replay_contracts" start time: Oct 13 21:57 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Replay load: Invalid or unsupported replay file (check 63)
+1. Immutable unique files, visual roundtrip, five cameras and live-state retention passed.
+2. Truncation, size/version/checksum, identities, capture indices, NaNs and ball bounds rejected safely.
+3. Write failure, fresh application, second-half shirts/red cards/keepers and venue restoration passed.
+4. Title and paused-match libraries, controller/keyboard navigation and safe return passed.
+5. Empty, damaged, partial and mixed replay libraries passed. Captures: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/saved-replay-tests\2874700-0
+<end of output>
+Test time =   3.61 sec
+----------------------------------------------------------
+Test Passed.
+"saved_replay_contracts" end time: Oct 13 21:57 Eastern Daylight Time
+"saved_replay_contracts" time elapsed: 00:00:03
+----------------------------------------------------------
+
+85/101 Testing: local_head_to_head_contracts
+85/101 Test: local_head_to_head_contracts
+Command: "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/Release/head_to_head_tests.exe" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE"
+Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+"local_head_to_head_contracts" start time: Oct 13 21:57 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Independent movement, original user IDs and switching at both ends passed.
+Independent charges and original shot releases for both teams/halves passed.
+Eight ground/loft receptions with original control input and subsequent movement, and both teams' close steal passed.
+Dismissed-player reselection and both teams' substitutions passed.
+24 awarded restart cases passed: six types, two teams, two halves; opponent input ignored.
+Both keepers, half-time, rematch protection and complete human head-to-head shootout passed.
+Pinned controllers, third-device isolation, disconnect and replacement passed.
+<end of output>
+Test time =   1.17 sec
+----------------------------------------------------------
+Test Passed.
+"local_head_to_head_contracts" end time: Oct 13 21:58 Eastern Daylight Time
+"local_head_to_head_contracts" time elapsed: 00:00:01
+----------------------------------------------------------
+
+63/101 Testing: original_tournament_contracts
+63/101 Test: original_tournament_contracts
+Command: "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/Release/tournament_tests.exe" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/local-data" "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/tournament-captures"
+Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+"original_tournament_contracts" start time: Oct 13 21:57 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+ERROR: Tournament save failed at C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/tournament-captures\bad.sav\child.sav: create_directories: Cannot create a file when that file already exists.: "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/tournament-captures\bad.sav"
+1 ENG 1:0 SWZ ticks=7706 penalties=0
+2 SPN 2:1 BUL ticks=9065 penalties=0
+3 GER 3:0 CZC ticks=8754 penalties=0
+4 DMK 0:0 POR ticks=8982 penalties=0
+5 HOL 6:1 SCT ticks=9913 penalties=0
+6 ROM 0:3 FRN ticks=8814 penalties=0
+7 ITA 1:0 RUS ticks=8499 penalties=0
+8 TRK 0:2 CRO ticks=8887 penalties=0
+9 BUL 0:1 ROM ticks=8469 penalties=0
+10 SWZ 1:0 HOL ticks=8834 penalties=0
+11 POR 2:1 TRK ticks=9322 penalties=0
+12 CZC 0:2 ITA ticks=8664 penalties=0
+13 SCT 1:2 ENG ticks=8766 penalties=0
+14 FRN 2:0 SPN ticks=9227 penalties=0
+15 RUS 0:1 GER ticks=8248 penalties=0
+16 CRO 0:3 DMK ticks=8418 penalties=0
+17 FRN 4:0 BUL ticks=9391 penalties=0
+18 ROM 0:1 SPN ticks=8764 penalties=0
+19 HOL 1:1 ENG ticks=8287 penalties=0
+20 SCT 1:1 SWZ ticks=7987 penalties=0
+21 CRO 0:1 POR ticks=8725 penalties=0
+22 TRK 0:2 DMK ticks=8049 penalties=0
+23 RUS 3:0 CZC ticks=9159 penalties=0
+24 ITA 1:1 GER ticks=8890 penalties=0
+25 ENG 0:1 SPN ticks=8635 penalties=0
+26 FRN 3:0 HOL ticks=9025 penalties=0
+27 GER 2:2 POR ticks=13606 penalties=1
+28 DMK 1:1 ITA ticks=13129 penalties=1
+29 SPN 1:0 ITA ticks=11371 penalties=0
+30 FRN 1:0 GER ticks=8137 penalties=0
+31 SPN 0:1 FRN ticks=7520 penalties=0
+31 original-engine matches complete; champion=FRANCE extra=3 shootouts=2 injury_points=356 booked=75 dismissed=45
+Tournament fixtures, ranking, knockout, save/load, controls and full CPU competition passed
+<end of output>
+Test time =   5.12 sec
+----------------------------------------------------------
+Test Passed.
+"original_tournament_contracts" end time: Oct 13 21:58 Eastern Daylight Time
+"original_tournament_contracts" time elapsed: 00:00:05
+----------------------------------------------------------
+
+80/101 Testing: tournament_save_recovery
+80/101 Test: tournament_save_recovery
+Command: "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/Release/save_recovery_tests.exe" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/local-data" "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/save-recovery-tests"
+Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+"tournament_save_recovery" start time: Oct 13 21:58 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+ERROR: Tournament load failed at C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/save-recovery-tests\recovery.sav: Truncated tournament save
+Damaged/missing primary recovery, valid-backup preservation, non-mutating resume and double-failure checks passed.
+<end of output>
+Test time =   0.99 sec
+----------------------------------------------------------
+Test Passed.
+"tournament_save_recovery" end time: Oct 13 21:58 Eastern Daylight Time
+"tournament_save_recovery" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/101 Testing: native_frontend_smoke
+56/101 Test: native_frontend_smoke
+Command: "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/Release/actua96.exe" "--data" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE" "--audio-data" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/local-data" "--frontend-smoke"
+Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+"native_frontend_smoke" start time: Oct 13 21:58 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Euro 96 match sounds ready
+EURO: 121 entries, 15 backgrounds, 10 tactics tables verified.
+EUROREND: 229 bounded entries, 6613404 bytes.
+FAP: 27 bounded entries, 1452928 bytes.
+FAPF: 4 bounded entries, 279252 bytes.
+Controller Back preserves live and paused matches; Start pause/resume passed.
+French/English voice keyboard and gamepad integration passed.
+Native tunnel focus, controller pause and skip passed.
+Native render completed: 57 frames.
+<end of output>
+Test time =   4.96 sec
+----------------------------------------------------------
+Test Passed.
+"native_frontend_smoke" end time: Oct 13 21:58 Eastern Daylight Time
+"native_frontend_smoke" time elapsed: 00:00:04
+----------------------------------------------------------
+
+65/101 Testing: tournament_continuity_contracts
+65/101 Test: tournament_continuity_contracts
+Command: "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/Release/continuity_tests.exe" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/local-data" "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/continuity-captures"
+Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+"tournament_continuity_contracts" start time: Oct 13 21:58 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Original fitness and fatigue, live tackle injuries, accumulated cards, served bans, substitution/end mapping, v1 migration, validated v2 saves, squad controls and kickoff passed.
+<end of output>
+Test time =   1.31 sec
+----------------------------------------------------------
+Test Passed.
+"tournament_continuity_contracts" end time: Oct 13 21:58 Eastern Daylight Time
+"tournament_continuity_contracts" time elapsed: 00:00:01
+----------------------------------------------------------
+
+45/101 Testing: original_knockout_contracts
+45/101 Test: original_knockout_contracts
+Command: "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/Release/knockout_tests.exe" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE"
+Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+"original_knockout_contracts" start time: Oct 13 21:58 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+shootout 1 result 4:5 kicks 5:5 tick 1940
+shootout 2 result 9:8 kicks 10:10 tick 3714
+shootout 3 result 4:5 kicks 5:5 tick 2157
+shootout 4 result 3:0 kicks 3:3 tick 1515
+shootout 5 result 6:7 kicks 11:11 tick 4879
+shootout 6 result 4:2 kicks 5:4 tick 2186
+shootout 7 result 5:3 kicks 5:4 tick 1771
+shootout 8 result 3:4 kicks 5:5 tick 2051
+shootout 9 result 5:4 kicks 6:6 tick 2260
+shootout 10 result 4:2 kicks 4:4 tick 1717
+shootout 11 result 4:1 kicks 4:3 tick 1434
+shootout 12 result 7:6 kicks 9:9 tick 3454
+extended 1 seed 1 ENG WINS ON PENALTIES at FT PEN
+extended 1 seed 2 SCT WINS ON PENALTIES at FT PEN
+extended 2 seed 1 ENG WINS ON PENALTIES at FT PEN
+extended 2 seed 2 SCT WINS ON PENALTIES at FT PEN
+Knockout phases, golden goal, original clinch/rotation and 12 CPU shootouts passed: 105 goals / 36 misses
+<end of output>
+Test time =   1.38 sec
+----------------------------------------------------------
+Test Passed.
+"original_knockout_contracts" end time: Oct 13 21:58 Eastern Daylight Time
+"original_knockout_contracts" time elapsed: 00:00:01
+----------------------------------------------------------
+
+64/101 Testing: native_tournament_save_directory
+64/101 Test: native_tournament_save_directory
+Command: "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/Release/actua96.exe" "--data" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE" "--audio-data" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/local-data" "--tournament-save-smoke"
+Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+"native_tournament_save_directory" start time: Oct 13 21:58 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+EURO: 121 entries, 15 backgrounds, 10 tactics tables verified.
+EUROREND: 229 bounded entries, 6613404 bytes.
+FAP: 27 bounded entries, 1452928 bytes.
+FAPF: 4 bounded entries, 279252 bytes.
+Production save directory verified: C:\Users\vrock\AppData\Roaming\Actua96 Restoration\Actua96
+Create, simulate, replace, backup, reload, resume, next fixture and preferences passed.
+Damaged checkpoint recovered; valid backup preserved.
+<end of output>
+Test time =   1.50 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[Production save directory verified]
+"native_tournament_save_directory" end time: Oct 13 21:58 Eastern Daylight Time
+"native_tournament_save_directory" time elapsed: 00:00:01
+----------------------------------------------------------
+
+55/101 Testing: original_frontend_contracts
+55/101 Test: original_frontend_contracts
+Command: "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/Release/frontend_tests.exe" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/local-data"
+Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+"original_frontend_contracts" start time: Oct 13 21:58 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Original front-end and music contracts passed
+<end of output>
+Test time =   1.13 sec
+----------------------------------------------------------
+Test Passed.
+"original_frontend_contracts" end time: Oct 13 21:58 Eastern Daylight Time
+"original_frontend_contracts" time elapsed: 00:00:01
+----------------------------------------------------------
+
+100/101 Testing: retail_sequence_provenance
+100/101 Test: retail_sequence_provenance
+Command: "C:/Users/vrock/AppData/Local/hermes/hermes-agent/venv/Scripts/python.exe" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/tools/test_euro96_sequences.py"
+Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+"retail_sequence_provenance" start time: Oct 13 21:58 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.068s
+
+OK
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Passed.
+"retail_sequence_provenance" end time: Oct 13 21:58 Eastern Daylight Time
+"retail_sequence_provenance" time elapsed: 00:00:00
+----------------------------------------------------------
+
+99/101 Testing: retail_sequence_contracts
+99/101 Test: retail_sequence_contracts
+Command: "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/Release/euro_sequence_tests.exe" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/SOURCE" "C:/Users/vrock/Documents/Codex/2026-10-08/ex/outputs/actuasoccer96-windows/local-data" "C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b/euro-sequence-tests"
+Directory: C:/Users/vrock/AppData/Local/Temp/actua96-regulation-0de8056ca39d49b687514a2c8bac0b1b
+"retail_sequence_contracts" start time: Oct 13 21:58 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Retail sequences: 96 exact introductions, 160 country/side/result cases, knockout routing, tournament context, legacy/French, mute/pause and malformed media passed.
+<end of output>
+Test time =  27.65 sec
+----------------------------------------------------------
+Test Passed.
+"retail_sequence_contracts" end time: Oct 13 21:58 Eastern Daylight Time
+"retail_sequence_contracts" time elapsed: 00:00:27
+----------------------------------------------------------
+
+End testing: Oct 13 21:58 Eastern Daylight Time

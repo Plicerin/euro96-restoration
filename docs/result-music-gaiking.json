@@ -1,0 +1,46 @@
+﻿{
+    "version":  "0.65.0",
+    "host":  "GAIKING",
+    "results":  [
+                    {
+                        "name":  "result-music",
+                        "executable":  "result_music_tests.exe",
+                        "passed":  true,
+                        "exit":  0,
+                        "seconds":  0.42,
+                        "exeSha256":  "1DBF663D967F9D01B58363A4AD2594F859E0257C99CD92646429DE0B512FCE9B"
+                    },
+                    {
+                        "name":  "frontend-contract",
+                        "executable":  "frontend_tests.exe",
+                        "passed":  true,
+                        "exit":  0,
+                        "seconds":  0.33,
+                        "exeSha256":  "34CE2EB425BF2E04E16C8BD6768324866B80B497BA5B4FE203A8DEC1C59D36F7"
+                    },
+                    {
+                        "name":  "native-frontend",
+                        "executable":  "actua96.exe",
+                        "passed":  true,
+                        "exit":  0,
+                        "seconds":  2.9,
+                        "exeSha256":  "135A4F9C752354056CB44884D56B33B8B0EA1EB32F06A39CA8FD46405E88BDEB"
+                    }
+                ],
+    "error":  null,
+    "userStateUnchanged":  true,
+    "before":  {
+                   "tournament.sav":  "ABSENT",
+                   "tournament.sav.bak":  "ABSENT",
+                   "tournament.prefs":  "ABSENT",
+                   "tournament.prefs.bak":  "ABSENT"
+               },
+    "after":  {
+                  "tournament.sav":  "ABSENT",
+                  "tournament.sav.bak":  "ABSENT",
+                  "tournament.prefs":  "ABSENT",
+                  "tournament.prefs.bak":  "ABSENT"
+              },
+    "mediaPackage":  "C:/Users/vrock/AppData/Local/Temp/Euro96-candidate-e9971331a96e4d35b1268ed49164fda5/package",
+    "scope":  "New 0.65.0 executable/tests with verified unchanged 0.63.0 media. Dummy audio/video; no audible-device or physical-controller claim."
+}

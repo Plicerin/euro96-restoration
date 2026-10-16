@@ -1,0 +1,25 @@
+{
+  "scope": "Active do_action case names and called handlers only; not complete game parity.",
+  "original_sha256": "d580bba909cf6ce93dff67e156423971a510914a5e7123a65b8aa9fc86edd8ad",
+  "generated_sha256": "ad56e819e1f0fe4f4ba127492b6b2440ef8534109a2f16d5236bb320d045a9c4",
+  "active_cases": {
+    "STAND_ACT": "stand_action",
+    "RUN_ACT": "run_action",
+    "TACKLE_ACT": "tackle_action",
+    "FALL_ACT": "fall_action",
+    "JUMP_ACT": "jump_action",
+    "SAVE_ACT": "save_action",
+    "THROW_ACT": "throw_action",
+    "KPHOLD_ACT": "kphold_action",
+    "STEAL_ACT": "steal_action",
+    "KICK_ACT": "kick_action",
+    "CELEB_ACT": "celeb_action",
+    "CONTROL_ACT": "control_action",
+    "STRIKE_ACT": "strike_action",
+    "WAIT_ACT": "wait_action",
+    "PICKUP_ACT": "pickup_action",
+    "STOP_ACT": "stop_action"
+  },
+  "matched_count": 16,
+  "note": "TURN_ACT is commented out in the preserved original dispatcher too."
+}

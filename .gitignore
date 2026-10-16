@@ -1,0 +1,16 @@
+/build/
+/dist/
+/_deps/
+/work/
+*.user
+/SOURCE/BASELINE.TXT
+/SOURCE/baseline.txt
+
+
+__pycache__/
+*.pyc
+/docs/*.bmp
+
+/local-data/
+
+/user-data/

@@ -1,0 +1,36 @@
+﻿{
+    "version":  "0.64.0",
+    "host":  "GAIKING",
+    "results":  [
+                    {
+                        "test":  "venue-contract",
+                        "passed":  true,
+                        "exit":  0,
+                        "seconds":  1.73,
+                        "exeSha256":  "D83380E452A0D4FF277CA5707A12BE7012AEF7A04E0A1A07EB9D92535521F7D6"
+                    },
+                    {
+                        "test":  "full-session",
+                        "passed":  true,
+                        "exit":  0,
+                        "seconds":  7.13,
+                        "exeSha256":  "0129338BD0B9DA350777696FC46E662D5D2131F311691116D84A481B3E80F81C"
+                    }
+                ],
+    "error":  null,
+    "userStateUnchanged":  true,
+    "before":  {
+                   "tournament.sav":  "ABSENT",
+                   "tournament.sav.bak":  "ABSENT",
+                   "tournament.prefs":  "ABSENT",
+                   "tournament.prefs.bak":  "ABSENT"
+               },
+    "after":  {
+                  "tournament.sav":  "ABSENT",
+                  "tournament.sav.bak":  "ABSENT",
+                  "tournament.prefs":  "ABSENT",
+                  "tournament.prefs.bak":  "ABSENT"
+              },
+    "mediaPackage":  "C:/Users/vrock/AppData/Local/Temp/Euro96-candidate-e9971331a96e4d35b1268ed49164fda5/package",
+    "scope":  "New 0.64.0 test executables with verified unchanged 0.63.0 media. Dummy audio/video; no physical-controller, audible or desktop-rendering claim."
+}
